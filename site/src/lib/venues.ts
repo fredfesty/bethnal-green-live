@@ -148,7 +148,7 @@ export function venuePath(venueId: string | null | undefined): string | null {
 }
 
 export const venueMapLink = (v: SiteVenue) =>
-  `https://www.openstreetmap.org/search?query=${encodeURIComponent([v.name, v.address, v.postcode].filter(Boolean).join(", "))}`;
+  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([v.name, v.address, v.postcode].filter(Boolean).join(", "))}`;
 
 /** Access facts as short reader-facing lines, only those a source states. */
 export function accessLines(p: VenueProfile): { text: string; good: boolean }[] {

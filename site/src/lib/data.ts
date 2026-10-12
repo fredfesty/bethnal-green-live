@@ -118,4 +118,4 @@ export function byDate(events: SiteEvent[]): [string, SiteEvent[]][] {
 }
 
 export const mapLink = (e: SiteEvent) =>
-  `https://www.openstreetmap.org/search?query=${encodeURIComponent([e.venue.name, e.venue.address, e.venue.postcode].filter(Boolean).join(", "))}`;
+  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([e.venue.name, e.venue.address, e.venue.postcode].filter(Boolean).join(", "))}`;
