@@ -144,3 +144,14 @@ export function regularMarkets(): RegularMarket[] {
 
 export const mapLink = (e: SiteEvent) =>
   `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([e.venue.name, e.venue.address, e.venue.postcode].filter(Boolean).join(", "))}`;
+
+let allCache: Map<string, SiteEvent> | null = null;
+
+/** Every published event by id, past ones included (for newsletter archives). Events under review are left out. */
+export function loadAllEventsById(): Map<string, SiteEvent> {
+  if (allCache) return allCache;
+  const venues = venueRegistry();
+  const raw: RawEvent[] = DEMO ? demoEvents(todayInLondon()) : readJsonFiles(path.join(REPO, "data", "events"));
+  allCache = new Map(raw.filter((e) => e && e.id && !e.needs_review).map((e) => [e.id, enrich(e, venues)]));
+  return allCache;
+}

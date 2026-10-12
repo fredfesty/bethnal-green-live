@@ -20,20 +20,24 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 | Arts scout | `.claude/agents/scout-arts.md` | `data/candidates/arts/<date>/`, `data/runs/arts/` |
 | Food & drink scout | `.claude/agents/scout-food-drink.md` | `data/candidates/food-drink/<date>/`, `data/runs/food-drink/` |
 | Community scout | `.claude/agents/scout-community.md` | `data/candidates/community/<date>/`, `data/runs/community/` |
-| Organiser profiler, listing writer, newsletter editor, QA | not yet written | — |
+| Newsletter editor (Sonnet) | `.claude/agents/newsletter-editor.md` | `data/newsletter/issues/<issue-date>.json` (all but `intro`), `data/runs/newsletter/` |
+| Newsletter intro writer (Opus) | `.claude/agents/newsletter-intro.md` | the `intro` of that issue file only, plus one line in its run report |
+| Organiser profiler, listing writer, QA | not yet written | — |
+| (people only) | — | `data/newsletter/voice.md` and `data/newsletter/notes/` — what Fred's letter may say about him |
 | (people only) | — | `site/` — the website. Agents never edit it during scheduled runs. |
 
 ## Repo map
 
-- `schemas/` — the data formats. `common` (shared parts), `candidate-event` (scout output), `verification` (verifier's verdict), `event` (what the site shows), `venue` (a venue profile for the Venues page).
+- `schemas/` — the data formats. `common` (shared parts), `candidate-event` (scout output), `verification` (verifier's verdict), `event` (what the site shows), `venue` (a venue profile for the Venues page), `newsletter-issue` (one weekly issue).
 - `data/sources/<category>.json` — the venues and platforms each scout works from, with zones, a watchlist and a do-not-list of closed venues.
 - `data/candidates/` → `data/verification/` → `data/events/YYYY-MM/` — the pipeline, one JSON file per event.
 - `data/venues/<venue-id>.json` — venue profiles: what it's like, music, crowd, access, cost, each fact quoted. The site shows one only after its independent `review` and while `needs_review` is empty.
+- `data/newsletter/issues/<issue-date>.json` — one weekly issue (the Thursday it goes out): which verified events, in which sections and layouts, with what words, and Fred's letter. It holds no event facts; they're read from `data/events/` when it's rendered. `scripts/newsletter.py` lists the week's events for the editor and renders an issue as email HTML or Markdown.
 - `data/runs/<agent>/<date>.md` — each run's report for a person.
 - `data/inbox/tips/` — reader tips waiting to be checked.
 - `scripts/validate.py` — format and house-rule checks. `scripts/check_quote.py` — re-fetches a page and looks for a quote. `scripts/page_text.py` — prints a page's exact text for quoting (scouts read pages with this, never with a summarising reader).
 - `routines/` — the prompts and settings for the scheduled runs.
-- `site/` — the website (Astro). It reads `data/events/`, `data/sources/` and `data/venues/` at build time; it never calls Claude or any AI service. `site/src/site.config.mjs` holds the settings a person decides (newsletter, corrections contact).
+- `site/` — the website (Astro). It reads `data/events/`, `data/sources/`, `data/venues/` and `data/newsletter/issues/` at build time; it never calls Claude or any AI service. `site/src/site.config.mjs` holds the settings a person decides (newsletter, corrections contact).
 - `_example` folders and `docs/examples/` — illustrative records, not real events.
 - A **run** (an exhibition, a theatre run, a special menu over several days) is one record: `starts_at` is the opening day, `ends_at` the closing day, `run_schedule` the opening times as printed.
 - An event with `needs_review` set is in doubt: the site must hide it or show it as "details being checked".
@@ -45,6 +49,7 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 - **Zones** (from Bethnal Green tube): core = E2 or within about 1 km; fringe = up to a 20-minute walk; outer = further, standout events only, flagged `worth_the_trip`.
 - **Run date** = today's date in London.
 - **Spelling:** British English.
+- **The newsletter** goes out on Thursdays and covers that Thursday to the next Wednesday. Its words are our own, and any price, time, day or "free" they mention must match the checked event. Fred's letter never claims a first-hand experience unless his notes for that issue gave it. Nothing is emailed without Fred: merged issues become Buttondown *drafts*.
 
 ## Commands
 
@@ -54,7 +59,10 @@ python scripts/validate.py candidates data/candidates/<category>/<date> --window
 python scripts/validate.py verification data/verification/<date>
 python scripts/validate.py events data/events
 python scripts/validate.py venues data/venues
+python scripts/validate.py newsletter data/newsletter/issues/<issue-date>.json --window
 python scripts/validate.py all
+python scripts/newsletter.py week <issue-date>
+python scripts/newsletter.py render data/newsletter/issues/<issue-date>.json --format md
 python scripts/check_quote.py --file <files…>
 python scripts/page_text.py <url> [--find "words"]
 python -m pytest -q

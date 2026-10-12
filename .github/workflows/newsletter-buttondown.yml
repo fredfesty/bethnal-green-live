@@ -1,0 +1,59 @@
+name: Newsletter draft in Buttondown
+
+# When a new issue reaches main, turn it into a DRAFT email in Buttondown, ready for Fred to read and send.
+# It never sends anything. Does nothing until the repository secret BUTTONDOWN_API_KEY is set
+# (Buttondown > Settings > API; then GitHub > Settings > Secrets and variables > Actions > New repository secret).
+# Run it by hand (Actions > Newsletter draft in Buttondown > Run workflow) to redo a draft.
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/newsletter/issues/*.json"]
+  workflow_dispatch:
+    inputs:
+      issue:
+        description: "Issue date (YYYY-MM-DD)"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Europe/London
+      BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+      BGL_SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Which issues are new
+        id: which
+        run: |
+          if [ -n "${{ github.event.inputs.issue }}" ]; then
+            FILES="data/newsletter/issues/${{ github.event.inputs.issue }}.json"
+          elif [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
+            FILES=""
+          else
+            FILES=$(git diff --name-only --diff-filter=A "${{ github.event.before }}" "${{ github.sha }}" -- 'data/newsletter/issues/*.json' | tr '\n' ' ')
+          fi
+          echo "files=${FILES}" >> "$GITHUB_OUTPUT"
+          echo "New issues: ${FILES:-none}" >> "$GITHUB_STEP_SUMMARY"
+      - name: Create the draft
+        if: steps.which.outputs.files != ''
+        run: |
+          for f in ${{ steps.which.outputs.files }}; do
+            python scripts/newsletter.py render "$f" --format html --out "$(basename "$f" .json).html"
+            python scripts/newsletter.py buttondown-draft "$f" | tee -a "$GITHUB_STEP_SUMMARY"
+          done
+      - uses: actions/upload-artifact@v4
+        if: steps.which.outputs.files != ''
+        with:
+          name: newsletter-email
+          path: "*.html"
