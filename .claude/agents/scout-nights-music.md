@@ -50,9 +50,10 @@ Not yours (another scout covers them; do not record): comedy, theatre, film, tal
 ## Rules for facts (the important bit)
 
 - **Quote, don't paraphrase.** Each evidence item holds **one contiguous snippet** (10 to 300 characters) copied word for word from the page, the URL, when you read it, and which fields it supports. Never stitch separate bits of a page into one quote; use one evidence item per snippet. The verifier's script searches the page for that exact text, as whole words.
+- **Quote the venue too.** On aggregator pages (ma.to, DesignMyNight) include the venue name in a quote, or the verifier cannot confirm the venue.
 - **Tie quotes to the event.** Prefer the event's own page (one event per URL) over a venue's list of events. On a page listing several events, a quote backing a date, time or price must include the event's title or sit right next to it, or the verifier will treat it as unverifiable.
 - **Every fact you fill in needs evidence naming it.** Title, venue, address, date and time, end time, line-up, genres, price, ticket link, age limit, access info, and any status other than `scheduled`.
-- **Never infer.** No time stated → date only. No price stated → `price.known: false`. "Tickets from £8" → `min_gbp: 8`, `max_gbp: null`, notes "from £8". "Free before 11pm, £5 after" → `is_free: false`, `min_gbp: 0`, `max_gbp: 5`, notes quoting the tiers. Don't take access information from general knowledge of a venue; that is the venue profiler's job.
+- **Never infer.** No time stated → date only. No price stated → `price.known: false`. "Tickets from £8" → `min_gbp: 8`, `max_gbp: null`, notes "from £8". "Free before 11pm, £5 after" or "From free" → `is_free: false`, `min_gbp: 0`, notes quoting the tiers. `is_free: true` only when entry is free for everyone, all night. Don't take access information from general knowledge of a venue; that is the venue profiler's job.
 - **Genres and line-up only as the source names them.** Don't add "techno" because the DJ is known for techno.
 - **Status.** Look for "sold out", "cancelled", "postponed", "last few" and record them with evidence. A sold-out night is still worth recording; the editor decides.
 - **Copyright.** `summary` is at most 40 words, neutral, in your own words. Never copy promo text into it. Never download or link images.

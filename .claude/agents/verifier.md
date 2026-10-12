@@ -37,7 +37,7 @@ The scripts enforce most of the rules below; `scripts/validate.py` will refuse r
    - A `note` saying "redirected to …" the venue's home page or a list page usually means the event page is gone: `page_status_seen: page-gone`.
 4. **Does the page say what the record says?** For every filled-in fact, find a confirmed passage that covers it and judge it like a sub-editor:
    - Date and time: same day and time; a weekday in the passage must match the date (`python -c "import datetime; print(datetime.date(2026,10,30).strftime('%A'))"`). If the date is confirmed but the time isn't, hold.
-   - Price: same numbers and tiers. "From £8" supports `min_gbp: 8` only.
+   - Price: same numbers and tiers. "From £8" supports `min_gbp: 8` only. "From free" or "free before 11pm" supports `is_free: false` with `min_gbp: 0`; that is correct, not a contradiction.
    - Title, venue, line-up, genres, age limit: the passage supports them as written, with nothing added.
    - Result per field: `confirmed`, `contradicted` (the page says something different) or `unverifiable`. Write **one field check per filled-in fact**, with the URL you checked and the method (`exact`, `near`, `read` or `none`).
 5. **Status now.** On the primary page, look for few left, sold out, cancelled, postponed, or the event having vanished (`page-gone`). Record it in `page_status_seen`. A change between few left and sold out is an update, not a contradiction. This is the **one** new fact you may add: set `status` to what the page shows and add an evidence item with your own exact quote from that page (`fields: ["status"]`, `source_kind: primary`).
