@@ -1,50 +1,79 @@
 # Routine: morning run (scout + verifier)
 
-One scheduled routine runs the nights & music scout, then the verifier, and opens one pull request for a person to review. The two agents run as separate subagents, so the verifier never sees the scout's reasoning.
+Every morning one scheduled run finds new nights (the scout, on Haiku), checks them (the verifier, on Sonnet), runs every check and pushes a branch. GitHub then takes over (`.github/workflows/morning-run-pr.yml`): it re-runs the checks, opens the pull request and, while **auto-merge** is on, merges it and republishes the site.
 
-Create it at claude.ai/code/routines (or with `/schedule` in Claude Code):
+```
+06:07  scheduled run ──► scout ──► verifier ──► checks ──► push claude/morning-run-<date>
+                                                                │
+       GitHub workflow ◄────────────────────────────────────────┘
+         re-run checks ──► open pull request ──► merge (if AUTO_MERGE=true) ──► site republishes
+```
+
+## Settings
 
 | Setting | Value |
 | --- | --- |
-| Repository | `fredfesty/bethnal-green-live` |
-| Schedule | Daily at 06:07 Europe/London (a few minutes past the hour starts more reliably) |
-| Model | Sonnet for the main session; the scout runs on Haiku and the verifier on Sonnet (set in each agent file) |
-| Environment | A custom environment. Network access **Full**, or **Custom** with the venue and ticketing domains from `data/sources/nights-music.json` plus the default package list. The default "Trusted" list cannot reach venue websites. |
-| Setup script | `pip install -r requirements.txt` |
+| Schedule | Daily at 06:07 Europe/London, as a Claude scheduled task (claude.ai, scheduled tasks) |
+| Models | The main session coordinates; the scout runs on Haiku and the verifier on Sonnet (set in each agent file) |
+| Network | The run needs to reach venue and ticket websites; the environment this was set up in can |
+| Auto-merge | Repository variable `AUTO_MERGE` = `true`. Set it to `false` to review every pull request yourself |
+| GitHub setting | Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests" must be ticked |
 | API credentials (optional) | `SKIDDLE_API_KEY`, once Skiddle approves the application |
-| Connectors | Remove all. This routine only needs the web and the repo. |
 
-## Prompt
+## Prompt (what the scheduled task runs)
 
 ```
-Run the Bethnal Green Live morning run. The run date is today's date in Europe/London.
+Run the Bethnal Green Live morning run. The run date is today's date in Europe/London
+(check with: TZ=Europe/London date +%F). Work unattended; nobody is watching.
 
-1. Create a branch named claude/morning-run-<run-date> from main.
-2. Use the scout-nights-music subagent (.claude/agents/scout-nights-music.md) and let it
-   follow its instructions in full. Monday runs include the outer zone; other days do not.
-3. When the scout has finished, use the verifier subagent (.claude/agents/verifier.md) on
-   the new candidates. Do not pass it the scout's run report or any of your own views on
-   the candidates; it must work only from the files.
-4. Run: python scripts/validate.py all  and  python -m pytest -q. Both must pass. If they do
-   not, you may only do these things, never edit a fact in any file and never edit checks or tests:
+Setup
+1. Attach the repository fredfesty/bethnal-green-live with push access (the add_repo tool), then
+   clone it as that tool says, and work inside the clone. Run:
+   pip install --break-system-packages -q -r requirements.txt
+   git config user.name "Fred Festy"
+   git config user.email "37367535+fredfesty@users.noreply.github.com"
+2. Create a branch named claude/morning-run-<run-date> from main. If that branch already exists on
+   GitHub, use claude/morning-run-<run-date>-2 (then -3, and so on).
+
+Work
+3. Use the scout-nights-music subagent (.claude/agents/scout-nights-music.md) and let it follow its
+   instructions in full, with the run date. Monday runs include the outer zone; other days do not.
+4. When the scout has finished, use the verifier subagent (.claude/agents/verifier.md), with the run
+   date, on the new candidates and for its re-checks of upcoming events. Do not pass it the scout's
+   run report or any of your own views on the candidates; it must work only from the files.
+
+Checks
+5. Run: python3 scripts/validate.py all  and  python3 -m pytest -q. Both must pass. If they do not,
+   you may only do these things. Never edit a fact in any file, and never edit checks or tests:
    - for a new event that fails: change its verification decision from publish to hold, add the
      failure as a reason, and delete the event file;
    - for an update to an existing event that fails: do the same, and restore the event file from
-     main (git checkout main -- <path>);
-   - delete a candidate file that fails its format check and note it in the PR body.
-5. Commit everything under data/candidates/, data/verification/, data/events/ and data/runs/,
-   push the branch, and open a pull request titled "Morning run — <run-date>". The body is the
-   verifier's run report followed by the scout's run report.
-6. Do not merge. Do not edit anything outside data/candidates/, data/verification/,
-   data/events/ and data/runs/.
-7. End your final message with the pull request's URL as a markdown hyperlink, for example
+     main (git checkout origin/main -- <path>);
+   - delete a candidate file that fails its format check and note it in the verifier's run report.
+   If they still fail, stop: do not push, and explain what failed in your final message.
+
+Publish
+6. Commit everything under data/candidates/, data/verification/, data/events/ and data/runs/ with the
+   message "Morning run <run-date>" and push the branch. Do not push to main and do not merge:
+   GitHub opens the pull request and, while auto-merge is on, merges it after its own checks.
+   Do not edit anything outside data/candidates/, data/verification/, data/events/ and data/runs/.
+7. Wait for the pull request: every 30 seconds for up to 10 minutes, fetch
+   https://api.github.com/repos/fredfesty/bethnal-green-live/pulls?state=all&head=fredfesty:<branch>
+   and read the first result's number, html_url and merged_at.
+
+Report
+8. Finish with a short report for Fred: events found, published, held (one line each with the
+   reason) and rejected; anything flagged on already-published events; venues that couldn't be
+   reached; and whether the pull request was merged. End your final message with the pull
+   request's URL as a markdown hyperlink, for example
    [Pull request #12: Morning run — 2026-10-20](https://github.com/fredfesty/bethnal-green-live/pull/12).
+   If no pull request appeared, say so and give the branch link instead.
 ```
 
-## Reviewing the pull request
+## Reviewing (when auto-merge is off, or after the fact)
 
-1. Read the verifier's report at the top. Anything under **Held** needs you: check the link it gives. To publish it anyway (say, after phoning the venue), edit its verification record: set `"decision": "publish"`, `"decided_by": "human"` and put what you checked in `reasons`; then create the event file (copy `docs/examples/event.json` as a template) with a `history` line `by: "human"`. Otherwise leave it out.
-2. Skim the new files in `data/events/`. The CI check at the bottom of the PR must be green.
-3. Check the **flagged** events: anything with `needs_review` is hidden or flagged on the site until a person clears it (set it to null and add a `history` line).
-4. Merge. The website rebuilds from `main` (once it exists).
-5. Apply any **Registry suggestions** from the scout's report in a separate small commit.
+1. Read the verifier's report at the top of the pull request. Anything under **Held** needs a person: check the link it gives. To publish it anyway (say, after phoning the venue), edit its verification record: set `"decision": "publish"`, `"decided_by": "human"` and put what you checked in `reasons`; then create the event file (copy `docs/examples/event.json` as a template) with a `history` line `by: "human"`. Otherwise leave it out.
+2. Skim the new files in `data/events/`.
+3. Check the **flagged** events: anything with `needs_review` is hidden on the site until a person clears it (set it to null and add a `history` line).
+4. Merge if it isn't merged already. The website rebuilds from `main` within a minute or two.
+5. Apply any **Registry suggestions** from the scout's report in a separate small change.
