@@ -57,15 +57,27 @@ LONDON = ZoneInfo("Europe/London")
 # Fields that state facts. Dotted names are used for evidence coverage.
 FACT_FIELDS = [
     "title", "venue.name", "venue.address", "venue.postcode", "starts_at", "ends_at",
-    "recurrence", "lineup", "genres", "price", "ticket_url", "age_restriction",
+    "recurrence", "run_schedule", "lineup", "genres", "price", "ticket_url", "age_restriction",
     "accessibility", "status",
 ]
-TOP_FACTS = ["title", "venue", "starts_at", "ends_at", "recurrence", "lineup", "genres", "price",
+TOP_FACTS = ["title", "venue", "starts_at", "ends_at", "recurrence", "run_schedule", "lineup", "genres", "price",
              "ticket_url", "age_restriction", "accessibility", "status"]
 MUST_MATCH = ["id", "category", "subcategory", "zone", "worth_the_trip"]
 KEY_FIELDS = {"title": ("title",), "venue": ("venue", "venue.name"), "starts_at": ("starts_at",)}
 STATUS_FROM_PAGE = {"few-left", "sold-out", "cancelled", "postponed"}
 DEFAULTS = {"lineup": [], "genres": [], "worth_the_trip": False}
+
+# Which event types each category may use (a gig filed under food & drink is a mistake).
+CATEGORY_SUBCATEGORIES = {
+    "nights-music": {"club-night", "gig", "dj-bar", "queer-party", "cabaret-drag", "karaoke", "jazz", "open-mic",
+                     "folk-acoustic", "in-store", "festival", "other"},
+    "arts": {"theatre", "comedy", "film", "exhibition", "talk", "dance", "performance", "other"},
+    "food-drink": {"supper-club", "pop-up", "tasting", "special-menu", "cookery-class", "food-market",
+                   "food-festival", "opening", "quiz", "other"},
+    "community": {"market", "fair", "workshop", "family", "outdoors", "sport", "talk", "volunteering",
+                  "open-studios", "tour", "festival", "other"},
+}
+MAX_RUN_DAYS = 200  # an exhibition or run longer than this is almost certainly a mistake
 
 
 # ---------------------------------------------------------------- loading
@@ -229,7 +241,16 @@ def check_id_and_date(data: dict, today: dt.date | None, days: int) -> list[str]
         d = dt.date.fromisoformat(date_part)
     except ValueError:
         return errs + [f"date: starts_at '{data['starts_at']}' is not a real date or time"]
-    if today and (d < today - dt.timedelta(days=1) or d > today + dt.timedelta(days=days)):
+    last_day = d
+    if data.get("ends_at"):
+        try:
+            last_day = dt.date.fromisoformat(data["ends_at"][:10])
+        except ValueError:
+            pass
+    if (last_day - d).days > MAX_RUN_DAYS:
+        errs.append(f"date: runs for more than {MAX_RUN_DAYS} days; check ends_at")
+    # A run (exhibition, theatre run) that opened earlier but is still on counts as current.
+    if today and (last_day < today - dt.timedelta(days=1) or d > today + dt.timedelta(days=days)):
         errs.append(f"date: {date_part} is outside the scouting window")
     if data.get("ends_at"):
         try:
@@ -244,6 +265,24 @@ def check_id_and_date(data: dict, today: dt.date | None, days: int) -> list[str]
     for field in ("starts_at", "ends_at"):
         errs += check_london_time(field, data.get(field))
     return errs
+
+
+def is_run(data: dict) -> bool:
+    """An exhibition, theatre run or multi-day menu: ends two or more days after it starts.
+    (An overnight club night ends the next day, which is not a run.)"""
+    try:
+        return bool(data.get("ends_at")) and (
+            dt.date.fromisoformat(data["ends_at"][:10]) - dt.date.fromisoformat(data["starts_at"][:10])).days >= 2
+    except ValueError:
+        return False
+
+
+def check_subcategory(data: dict) -> list[str]:
+    allowed = CATEGORY_SUBCATEGORIES.get(data.get("category"), set())
+    if data.get("subcategory") not in allowed:
+        return [f"subcategory: '{data.get('subcategory')}' is not a {data.get('category')} type "
+                f"(allowed: {', '.join(sorted(allowed))})"]
+    return []
 
 
 def check_venue(data: dict) -> list[str]:
@@ -309,12 +348,15 @@ def load_ref(rel: str | None, label: str) -> tuple[dict | None, list[str]]:
 # ---------------------------------------------------------------- per kind
 
 def check_candidate(path: Path, data: dict, today: dt.date | None, days: int = 31) -> list[str]:
-    errs = (check_filename(path, data) + check_sources(data) + check_evidence_coverage(data)
+    errs = (check_filename(path, data) + check_sources(data) + check_evidence_coverage(data) + check_subcategory(data)
             + check_id_and_date(data, today, days) + check_venue(data) + check_price(data["price"]))
     if data["scout_confidence"] == "high":
         if not any(ev["source_kind"] == "primary" and "starts_at" in ev["fields"] for ev in data["evidence"]):
             errs.append("confidence: 'high' needs the date quoted from a primary source")
-        if "T" not in data["starts_at"]:
+        if is_run(data):
+            if not any(ev["source_kind"] == "primary" and "ends_at" in ev["fields"] for ev in data["evidence"]):
+                errs.append("confidence: 'high' for a run needs the closing date quoted from a primary source")
+        elif "T" not in data["starts_at"]:
             errs.append("confidence: 'high' needs a start time, not just a date")
         if venue_has_no_primary(data):
             errs.append("confidence: venues marked no_primary_listing are 'medium' at most")
@@ -366,6 +408,11 @@ def check_verification(path: Path, data: dict, today: dt.date | None, days: int 
         kinds = set().union(*(evidence_kind(cand, c["url"], key) for c in scripted))
         if "primary" not in kinds and not ("aggregator" in kinds and venue_has_no_primary(cand)):
             errs.append(f"decision: cannot publish, '{key}' is not confirmed from a primary source (hold instead)")
+    if is_run(cand):
+        ends = [c for c in checks if c["field"] == "ends_at" and c["result"] == "confirmed" and c["method"] in ("exact", "near")]
+        if not ends:
+            errs.append("decision: cannot publish a run (an exhibition or a run of dates) without its closing date "
+                        "confirmed by the quote checker (hold instead)")
     new = not data.get("existing_event")
     if new and data["page_status_seen"] in ("cancelled", "postponed", "page-gone"):
         errs.append(f"decision: a new event whose page shows '{data['page_status_seen']}' must be rejected")
@@ -375,7 +422,7 @@ def check_verification(path: Path, data: dict, today: dt.date | None, days: int 
 
 
 def check_event(path: Path, data: dict, today: dt.date | None, days: int = 31) -> list[str]:
-    errs = (check_sources(data) + check_evidence_coverage(data)
+    errs = (check_sources(data) + check_evidence_coverage(data) + check_subcategory(data)
             + check_id_and_date(data, None, days) + check_venue(data) + check_price(data["price"]))
     try:  # the folder-and-name rule for events covers the file name
         rel = path.resolve().relative_to(ROOT.resolve())

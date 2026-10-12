@@ -3,7 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { addDays, hasTime, instant, londonDate, todayInLondon, type When } from "./time";
-import { typeGroup } from "./labels";
+import { kindLabel, typeGroup } from "./labels";
 import { demoEvents } from "./demo";
 import config from "../site.config.mjs";
 
@@ -15,7 +15,7 @@ export interface Evidence { fields: string[]; url: string; quote: string; retrie
 export interface RawEvent {
   id: string; category: string; subcategory: string; title: string;
   venue: { venue_id: string | null; name: string; address?: string | null; postcode?: string | null };
-  starts_at: When; ends_at?: When | null; recurrence?: string | null; zone: string; worth_the_trip?: boolean;
+  starts_at: When; ends_at?: When | null; recurrence?: string | null; run_schedule?: string | null; zone: string; worth_the_trip?: boolean;
   lineup?: string[]; genres?: string[]; price: Price; ticket_url: string | null; age_restriction?: string | null;
   accessibility?: string | null; status: string; evidence: Evidence[];
   verification: { verified_at: string; outcome: string; removed_fields?: string[] };
@@ -24,7 +24,9 @@ export interface RawEvent {
   updated_at: string;
 }
 export interface SiteEvent extends RawEvent {
-  date: string;          // London date, YYYY-MM-DD
+  date: string;          // London date, YYYY-MM-DD (the opening day, for a run)
+  until: string;         // last London date it's on (same as date, except for runs)
+  isRun: boolean;        // an exhibition, theatre run or multi-day menu, shown under "On now"
   endsAtIso: string;     // when it stops being "upcoming"
   group: string;         // filter group id
   priceLabel: string;
@@ -70,13 +72,20 @@ function venueRegistry(): Map<string, any> {
   return map;
 }
 
+const daysBetween = (a: string, b: string) => Math.round((Date.parse(`${b}T12:00:00Z`) - Date.parse(`${a}T12:00:00Z`)) / 864e5);
+
 function enrich(e: RawEvent, venues: Map<string, any>): SiteEvent {
   const v = e.venue.venue_id ? venues.get(e.venue.venue_id) : undefined;
   const venue = { ...e.venue, address: e.venue.address ?? v?.address ?? null, postcode: e.venue.postcode ?? v?.postcode ?? null };
   const start = instant(e.starts_at);
+  const date = londonDate(e.starts_at);
+  const lastDay = e.ends_at ? londonDate(e.ends_at) : date;
+  // Runs end two or more days after they open; an overnight club night ends the next day and isn't a run.
+  const isRun = daysBetween(date, lastDay) >= 2;
   const end = e.ends_at && hasTime(e.ends_at) ? instant(e.ends_at)
+    : e.ends_at ? new Date(`${addDays(lastDay, 1)}T00:00:00Z`) // a date-only end lasts all that day
     : hasTime(e.starts_at) ? new Date(start.getTime() + 4 * 3600e3)
-    : new Date(`${londonDate(e.starts_at)}T23:00:00Z`);
+    : new Date(`${date}T23:00:00Z`);
   const seen = new Set<string>();
   const sources = e.evidence
     .filter((ev) => (seen.has(ev.url) ? false : (seen.add(ev.url), true)))
@@ -84,12 +93,14 @@ function enrich(e: RawEvent, venues: Map<string, any>): SiteEvent {
   return {
     ...e,
     venue,
-    date: londonDate(e.starts_at),
+    date,
+    until: isRun ? lastDay : date,
+    isRun,
     endsAtIso: end.toISOString(),
     group: typeGroup(e),
     priceLabel: priceLabel(e.price),
     priceFilter: !e.price.known ? "unknown" : e.price.is_free ? "free" : String(e.price.min_gbp ?? "unknown"),
-    searchText: [e.title, venue.name, ...(e.lineup ?? []), ...(e.genres ?? [])].join(" ").toLowerCase(),
+    searchText: [e.title, venue.name, kindLabel(e), ...(e.lineup ?? []), ...(e.genres ?? [])].join(" ").toLowerCase(),
     sources,
   };
 }
@@ -115,6 +126,20 @@ export function byDate(events: SiteEvent[]): [string, SiteEvent[]][] {
   const m = new Map<string, SiteEvent[]>();
   for (const e of events) m.set(e.date, [...(m.get(e.date) ?? []), e]);
   return [...m.entries()];
+}
+
+export interface RegularMarket { id: string; name: string; zone: string; schedule: string; source: string }
+
+/** Markets that trade every week. Their hours are quoted from each market's own page, recorded in the
+ *  community source registry by a person; they're shown apart from dated events. */
+export function regularMarkets(): RegularMarket[] {
+  const reg = readJsonFiles(path.join(REPO, "data", "sources")).find((r) => r.category === "community");
+  return (reg?.venues ?? [])
+    .filter((v: any) => v.regular_schedule && v.zone !== "outer" && v.status === "open"
+      && (v.type ?? []).some((t: string) => t === "market" || t === "street-market"))
+    .map((v: any) => ({ id: v.id, name: v.name, zone: v.zone, schedule: v.regular_schedule,
+      source: (v.listings ?? []).find((l: any) => l.role === "primary")?.url ?? v.website }))
+    .sort((a: RegularMarket, b: RegularMarket) => (a.zone === b.zone ? a.name.localeCompare(b.name) : a.zone === "core" ? -1 : 1));
 }
 
 export const mapLink = (e: SiteEvent) =>

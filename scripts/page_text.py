@@ -39,6 +39,9 @@ def main(argv=None) -> int:
         print(f"REFUSED {reason}")
         return 2
     page = cq.fetch(args.url)
+    if page.get("result") == "blocked":
+        print(f"REFUSED {page.get('error')}")
+        return 2
     if page.get("result") or page.get("readable") is None:
         print(f"FAILED {page.get('error') or page.get('result')} (status {page.get('status')})")
         return 1

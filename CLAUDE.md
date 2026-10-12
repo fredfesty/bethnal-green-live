@@ -7,17 +7,19 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 1. **Never invent a fact.** Every date, time, price, venue, line-up, age limit or status in `data/` must be backed by a word-for-word quote from a page, with its URL. If you can't quote it, leave the field empty.
 2. **Stay in your lane.** Each agent writes only to its own paths (table below). Nobody but a person edits `data/sources/`; agents suggest changes in their run report.
 3. **Never push to `main`, never merge.** Inside a routine, only the routine's main session uses git: it pushes one `claude/<routine>-<date>` branch. Subagents never touch git. Merging is done by GitHub (`.github/workflows/morning-run-pr.yml`, only when the `AUTO_MERGE` variable is on and every check passes) or by a person. Working by hand, use a `claude/<agent>-<date>` branch.
-4. **Respect the web.** Obey robots.txt, never fetch ra.co or Instagram, never log in anywhere, stop on 403/429. Never copy promo text or images.
+4. **Respect the web.** Obey robots.txt, never fetch ra.co, Instagram or Facebook, never log in anywhere, stop on 403/429. Never copy promo text or images.
 5. **Run the checks before finishing**, and never weaken a record just to make a check pass.
 
 ## Who writes what
 
 | Agent | Instructions | Writes to |
 | --- | --- | --- |
-| Nights & music scout | `.claude/agents/scout-nights-music.md` | `data/candidates/nights-music/<date>/`, `data/runs/nights-music/` |
+| Nights & music scout (all scouts also follow `docs/scout-rules.md`) | `.claude/agents/scout-nights-music.md` | `data/candidates/nights-music/<date>/`, `data/runs/nights-music/` |
 | Verifier | `.claude/agents/verifier.md` | `data/verification/<date>/`, `data/events/`, `data/runs/verifier/` |
 | Venue profiler | `.claude/agents/venue-profiler.md` | `data/venues/`, `data/runs/venue-profiler/` |
-| Arts, food & drink, community scouts | not yet written | their own `data/candidates/<category>/` |
+| Arts scout | `.claude/agents/scout-arts.md` | `data/candidates/arts/<date>/`, `data/runs/arts/` |
+| Food & drink scout | `.claude/agents/scout-food-drink.md` | `data/candidates/food-drink/<date>/`, `data/runs/food-drink/` |
+| Community scout | `.claude/agents/scout-community.md` | `data/candidates/community/<date>/`, `data/runs/community/` |
 | Organiser profiler, listing writer, newsletter editor, QA | not yet written | — |
 | (people only) | — | `site/` — the website. Agents never edit it during scheduled runs. |
 
@@ -33,6 +35,7 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 - `routines/` — the prompts and settings for the scheduled runs.
 - `site/` — the website (Astro). It reads `data/events/`, `data/sources/` and `data/venues/` at build time; it never calls Claude or any AI service. `site/src/site.config.mjs` holds the settings a person decides (newsletter, corrections contact).
 - `_example` folders and `docs/examples/` — illustrative records, not real events.
+- A **run** (an exhibition, a theatre run, a special menu over several days) is one record: `starts_at` is the opening day, `ends_at` the closing day, `run_schedule` the opening times as printed.
 - An event with `needs_review` set is in doubt: the site must hide it or show it as "details being checked".
 
 ## Conventions
@@ -47,7 +50,7 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 
 ```
 pip install -r requirements.txt
-python scripts/validate.py candidates data/candidates/nights-music/<date> --window
+python scripts/validate.py candidates data/candidates/<category>/<date> --window
 python scripts/validate.py verification data/verification/<date>
 python scripts/validate.py events data/events
 python scripts/validate.py venues data/venues

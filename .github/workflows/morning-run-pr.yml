@@ -55,10 +55,15 @@ jobs:
           RUN="${GITHUB_REF_NAME#claude/morning-run-}"
           DATE="${RUN:0:10}"
           {
-            echo "Automatic morning run for **${DATE}**: the scout found events, the verifier checked them, and every check passed on GitHub."
+            echo "Automatic morning run for **${DATE}**: the scouts found events, the verifier checked them, and every check passed on GitHub."
             echo
             if [ -f "data/runs/verifier/${DATE}.md" ]; then echo "## Verifier's report"; echo; cat "data/runs/verifier/${DATE}.md"; echo; fi
-            if [ -f "data/runs/nights-music/${DATE}.md" ]; then echo "## Scout's report"; echo; cat "data/runs/nights-music/${DATE}.md"; echo; fi
+            for f in data/runs/*/"${DATE}".md; do
+              [ -f "$f" ] || continue
+              agent="$(basename "$(dirname "$f")")"
+              case "$agent" in verifier|setup) continue ;; esac
+              echo "## Scout's report: ${agent}"; echo; cat "$f"; echo
+            done
             echo
             echo "🤖 Generated with [Claude Code](https://claude.com/claude-code)"
           } > pr-body.md
