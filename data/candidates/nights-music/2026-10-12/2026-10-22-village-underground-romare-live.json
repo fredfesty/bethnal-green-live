@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-22-village-underground-romare-live",
+  "subcategory": "gig",
+  "title": "Romare (Live)",
+  "summary": "Live show by London electronic musician Romare at Village Underground.",
+  "venue": {
+    "venue_id": "village-underground",
+    "name": "Village Underground",
+    "address": "54 Holywell Lane, London",
+    "postcode": "EC2A 3PQ"
+  },
+  "starts_at": "2026-10-22T19:30:00+01:00",
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Romare"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 29.87,
+    "max_gbp": null,
+    "notes": "From £29.87"
+  },
+  "ticket_url": "https://dice.fm/event/6a35654bc559de0001c34b61",
+  "age_restriction": "16+ event. (16-17 with a responsible adult 18+,1:1)",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url",
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/6a35654bc559de0001c34b61",
+      "quote": "Romare (Live) Village Underground Thu 22 Oct, 7:30 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/6a35654bc559de0001c34b61",
+      "quote": "From £29.87 The price you'll pay",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/6a35654bc559de0001c34b61",
+      "quote": "16+ event. (16-17 with a responsible adult 18+,1:1)",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/6a35654bc559de0001c34b61",
+      "quote": "54 Holywell Lane, London EC2A 3PQ, UK",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "why_its_good"
+      ],
+      "url": "https://dice.fm/event/6a35654bc559de0001c34b61",
+      "quote": "London musician Romare takes a similar collage-like approach when creating his sample-heavy electronic sound",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Worth the trip: billed as a live set from Romare, whose sample-heavy electronic sound is described on the listing.",
+  "notes_for_verifier": "Outer-zone standout (Monday run). DICE page; Village Underground has no other primary listing in the registry.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "ends_at": null,
+  "recurrence": null,
+  "genres": [],
+  "accessibility": null,
+  "status": "scheduled"
+}

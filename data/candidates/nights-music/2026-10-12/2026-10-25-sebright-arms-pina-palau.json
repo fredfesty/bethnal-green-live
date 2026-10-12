@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-25-sebright-arms-pina-palau",
+  "subcategory": "gig",
+  "title": "Pina Palau",
+  "summary": "Sunday-night gig by Zurich-based Pina Palau and band at the Sebright Arms.",
+  "venue": {
+    "venue_id": "sebright-arms",
+    "name": "The Sebright Arms",
+    "address": "31-35 Coate St, London",
+    "postcode": "E2 9AG"
+  },
+  "starts_at": "2026-10-25T20:00:00+00:00",
+  "zone": "core",
+  "lineup": [
+    "Pina Palau"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 13.2,
+    "max_gbp": 13.2,
+    "notes": "£13.2"
+  },
+  "ticket_url": "https://dice.fm/event/69fde4ad38737e00011fc7e4",
+  "age_restriction": "18+",
+  "recurrence": null,
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/69fde4ad38737e00011fc7e4",
+      "quote": "Pina Palau Sebright Arms Sun 25 Oct, 8:00 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/69fde4ad38737e00011fc7e4",
+      "quote": "2026-10-25T20:00:00+00:00 2026-10-25T23:00:00+00:00",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/69fde4ad38737e00011fc7e4",
+      "quote": "£13.20 The price you'll pay",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/69fde4ad38737e00011fc7e4",
+      "quote": "Sebright Arms 31-35 Coate St, London E2 9AG",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/69fde4ad38737e00011fc7e4",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/69fde4ad38737e00011fc7e4",
+      "quote": "Lineup Pina Palau",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Read on DICE (the Sebright's own site is unreachable). DICE JSON-LD end time not shown in page text, so ends_at left empty. Venue name on DICE is 'Sebright Arms'. Clocks go back at 02:00 on 25 Oct, so the evening start carries +00:00.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "ends_at": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "2026-10-27-hackney-empire-dexys-midnight-runners",
+  "candidate_file": "data/candidates/nights-music/2026-10-12/2026-10-27-hackney-empire-dexys-midnight-runners.json",
+  "run_id": "2026-10-12-v",
+  "verified_at": "2026-10-12T23:16:07+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Venue not named in any quote (the quote is \"Dexys Midnight Runners 27 - 28 Oct\"); no start time (date only) and no year printed on the page.",
+    "The run is 27-28 Oct; the candidate records only 27 Oct and the page does not say which night or time. Person to check the box office page for dates and times."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "unverifiable",
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "No quote names Hackney Empire."
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Page says \"27 - 28 Oct\" with no year, no time and the Dates and times block is empty."
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Same page the title and date were found on, so it loads and is for this event."
+    },
+    {
+      "field": "age_restriction",
+      "result": "confirmed",
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

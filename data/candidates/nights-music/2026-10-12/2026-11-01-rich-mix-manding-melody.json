@@ -1,0 +1,84 @@
+{
+  "id": "2026-11-01-rich-mix-manding-melody",
+  "subcategory": "gig",
+  "title": "Manding Melody featuring Habib Koite & Sura Susso",
+  "summary": "Concert pairing Malian guitarist Habib Koite with Gambian kora player Sura Susso, presenting a new joint project.",
+  "venue": {
+    "venue_id": "rich-mix",
+    "name": "Rich Mix",
+    "address": "35-47 Bethnal Green Rd, London",
+    "postcode": "E1 6LA"
+  },
+  "starts_at": "2026-11-01T19:00:00+00:00",
+  "zone": "fringe",
+  "lineup": [
+    "Habib Koite",
+    "Sura Susso"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 27.12,
+    "max_gbp": 27.12,
+    "notes": "£27.12"
+  },
+  "ticket_url": "https://dice.fm/event/6a0b4bf5bc16550001f6bfea",
+  "age_restriction": "18+",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url",
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/6a0b4bf5bc16550001f6bfea",
+      "quote": "Manding Melody featuring Habib Koite & Sura Susso Rich Mix Sun 1 Nov, 7:00 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/6a0b4bf5bc16550001f6bfea",
+      "quote": "£27.12 The price you'll pay",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/6a0b4bf5bc16550001f6bfea",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/6a0b4bf5bc16550001f6bfea",
+      "quote": "35-47 Bethnal Green Rd, London E1 6LA",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "notes_for_verifier": "Read on DICE because richmix.org.uk answers bots with a 403 Cloudflare challenge. Other Rich Mix music on its DICE page (14 and 28 Nov) falls outside the window.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "ends_at": null,
+  "recurrence": null,
+  "worth_the_trip": false,
+  "genres": [],
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": null
+}

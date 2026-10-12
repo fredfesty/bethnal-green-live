@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-19-sebright-arms-freddy-keach-the-mop-sugartax-the-sly-velocipede",
+  "candidate_file": "data/candidates/nights-music/2026-10-12/2026-10-19-sebright-arms-freddy-keach-the-mop-sugartax-the-sly-velocipede.json",
+  "run_id": "2026-10-12-v",
+  "verified_at": "2026-10-12T23:16:07+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Published with gaps; removed: lineup, age_restriction.",
+    "lineup: Quote is on the page but the event title is not near it (title_nearby false), so not accepted.",
+    "age_restriction: Quote is on the page but the event title is not near it (title_nearby false), so not accepted."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Monday 19 Oct 2026 19:15; offset +01:00 is right for London on that date."
+    },
+    {
+      "field": "lineup",
+      "result": "unverifiable",
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Quote is on the page but the event title is not near it (title_nearby false), so not accepted."
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Same page the title and date were found on, so it loads and is for this event."
+    },
+    {
+      "field": "age_restriction",
+      "result": "unverifiable",
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Quote is on the page but the event title is not near it (title_nearby false), so not accepted."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-18-troxy-sweetnotes",
+  "candidate_file": "data/candidates/nights-music/2026-10-12/2026-10-18-troxy-sweetnotes.json",
+  "run_id": "2026-10-12-v",
+  "verified_at": "2026-10-12T23:16:07+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Start time unconfirmed: the \"17:00 - Doors Open / Event Starts\" quote has no title nearby, so only the date (18.10.26) is confirmed. Page also says \"VIP doors 3pm-5pm GA doors 5pm\".",
+    "Line-up \"Sweetnotes Music\" is not in any quote. Age quote also has no title nearby. Person to check the start time on the Troxy page."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Date 18.10.26 confirmed; time quote has no title nearby."
+    },
+    {
+      "field": "lineup",
+      "result": "unverifiable",
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Quote is \"18.10.26 Sweetnotes\"; it does not say \"Sweetnotes Music\"."
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Same page the title and date were found on, so it loads and is for this event."
+    },
+    {
+      "field": "age_restriction",
+      "result": "unverifiable",
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Quote is on the page but the event title is not near it (title_nearby false), so not accepted."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

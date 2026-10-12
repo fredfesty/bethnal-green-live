@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-31-bgwmc-not-dead-yet-halloween-bash",
+  "candidate_file": "data/candidates/nights-music/2026-10-12/2026-10-31-bgwmc-not-dead-yet-halloween-bash.json",
+  "run_id": "2026-10-12-v",
+  "verified_at": "2026-10-12T23:16:07+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Published with gaps; removed: ends_at.",
+    "ends_at: Header says 2:00 AM but the page body says \"CLOSE 2.30AM\"; the page contradicts itself, so the end time is dropped."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club/2465731",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club/2465731",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club/2465731",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Saturday 31 Oct 2026 21:00; offset +00:00 is right for London on that date."
+    },
+    {
+      "field": "ends_at",
+      "result": "unverifiable",
+      "url": "https://www.tickettailor.com/events/workingmens-club/2465731",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Header says 2:00 AM but the page body says \"CLOSE 2.30AM\"; the page contradicts itself, so the end time is dropped."
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club/2465731",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Same page the title and date were found on, so it loads and is for this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

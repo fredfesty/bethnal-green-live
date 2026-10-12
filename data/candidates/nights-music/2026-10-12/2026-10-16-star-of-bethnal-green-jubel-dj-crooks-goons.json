@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-16-star-of-bethnal-green-jubel-dj-crooks-goons",
+  "subcategory": "dj-bar",
+  "title": "Jubel: DJ Crooks & Goons",
+  "summary": "Friday-night DJ session at the Star of Bethnal Green, with music running until 2am and free pints for early arrivals.",
+  "venue": {
+    "venue_id": "star-of-bethnal-green",
+    "name": "The Star of Bethnal Green",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-16T20:00:00+01:00",
+  "ends_at": "2026-10-17T02:00:00+01:00",
+  "zone": "core",
+  "lineup": [
+    "DJ Crooks & Goons"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://ma.to/event/jubel-dj-crooks-goons-16-oct-2026",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ends_at",
+        "lineup",
+        "ticket_url"
+      ],
+      "url": "https://ma.to/event/jubel-dj-crooks-goons-16-oct-2026",
+      "quote": "Jubel: DJ Crooks & Goons When Friday, 16 October 20:00-02:00",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://ma.to/event/jubel-dj-crooks-goons-16-oct-2026",
+      "quote": "2026-10-16T20:00:00.000+01:00 2026-10-17T02:00:00.000+01:00",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://ma.to/event/jubel-dj-crooks-goons-16-oct-2026",
+      "quote": "Jubel takes over the Friday night slot with DJ Crooks & Goons on the decks.",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "medium",
+  "notes_for_verifier": "Aggregator-only (ma.to); the venue has no primary listing online (registry no_primary_listing), so confidence capped at medium. The ma.to page gives no street address, so venue address left empty. Price left unknown: the page has no price line (JSON-LD offer price 0, and 'first 50 pints on the house' is a promotion, not an entry price).",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "recurrence": null,
+  "worth_the_trip": false,
+  "genres": [],
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": null
+}

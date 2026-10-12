@@ -451,6 +451,8 @@ def check_duplicate_events(events: list[tuple[Path, dict]]) -> dict[Path, list[s
                 continue
             if {a["status"], b["status"]} & {"cancelled", "postponed"}:
                 continue
+            if a.get("ticket_url") and b.get("ticket_url") and a["ticket_url"] != b["ticket_url"]:
+                continue  # separate ticket pages: a run of nights, not one night listed twice
             try:
                 gap = abs((dt.date.fromisoformat(a["starts_at"][:10]) - dt.date.fromisoformat(b["starts_at"][:10])).days)
             except ValueError:

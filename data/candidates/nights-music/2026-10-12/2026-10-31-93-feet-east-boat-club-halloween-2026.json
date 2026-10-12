@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-31-93-feet-east-boat-club-halloween-2026",
+  "subcategory": "club-night",
+  "title": "BOAT CLUB HALLOWEEN 2026",
+  "summary": "Boat Club's annual Halloween party, first of two chapters, at 93 Feet East from 5pm to 1am.",
+  "venue": {
+    "venue_id": "93-feet-east",
+    "name": "93 Feet East",
+    "address": "150 Brick Lane, London",
+    "postcode": "E1 6QL"
+  },
+  "starts_at": "2026-10-31T17:00:00+00:00",
+  "ends_at": "2026-11-01T01:00:00+00:00",
+  "zone": "fringe",
+  "lineup": [],
+  "genres": [
+    "House",
+    "Tech House"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.93feeteast.co.uk/?post_type=event&p=9638",
+  "age_restriction": "18+",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=event&p=9638",
+      "quote": "Sat 31 Oct 5 PM - 1 AM BOAT CLUB HALLOWEEN 2026",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=event&p=9638",
+      "quote": "93 Feet East, 150 Brick Lane London, E1 6QL",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction",
+        "genres"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=event&p=9638",
+      "quote": "18+ House Tech House",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Own event page; no year printed (2026 from the site calendar and weekday). Tickets via an external seller; price not on page. Page describes two 'chapters', only the 93 Feet East one is recorded. ra.co ticket link on the site not followed.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "recurrence": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled"
+}

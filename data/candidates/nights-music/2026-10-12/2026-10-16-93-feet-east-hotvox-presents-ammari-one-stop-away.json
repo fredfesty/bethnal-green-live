@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-16-93-feet-east-hotvox-presents-ammari-one-stop-away",
+  "subcategory": "gig",
+  "title": "HOTVOX PRESENTS AMMARI // ONE STOP AWAY",
+  "summary": "Hot Vox night of live bands, headed by Ammari and One Stop Away, followed by a club night, in the 93 Feet East live room.",
+  "venue": {
+    "venue_id": "93-feet-east",
+    "name": "93 Feet East",
+    "address": "150 Brick Lane, London",
+    "postcode": "E1 6QL"
+  },
+  "starts_at": "2026-10-16T19:00:00+01:00",
+  "ends_at": "2026-10-16T23:00:00+01:00",
+  "zone": "fringe",
+  "lineup": [
+    "AMMARI",
+    "ONE STOP AWAY"
+  ],
+  "genres": [
+    "Indie",
+    "Indie Rock"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.93feeteast.co.uk/?post_type=one50&p=9716",
+  "age_restriction": "18+",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9716",
+      "quote": "Fri 16 Oct 7 PM - 11 PM HOTVOX PRESENTS AMMARI // ONE STOP AWAY",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9716",
+      "quote": "93 Feet East, 150 Brick Lane London, E1 6QL",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction",
+        "genres"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9716",
+      "quote": "18+ Indie Indie Rock",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9716",
+      "quote": "HOT VOX brings you a fully fledged night of entertainment with a whole host of live bands",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Own event page; no year printed (2026 from the site calendar and weekday). Tickets via an external seller; price not on page.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "recurrence": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled"
+}

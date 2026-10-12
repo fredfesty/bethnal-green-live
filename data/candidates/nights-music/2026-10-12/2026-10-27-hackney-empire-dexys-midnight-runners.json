@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-27-hackney-empire-dexys-midnight-runners",
+  "subcategory": "gig",
+  "title": "Dexys Midnight Runners",
+  "summary": "Two-night run of concerts by Dexys, fronted by Kevin Rowland, at Hackney Empire. Showtimes are not printed in the page text.",
+  "venue": {
+    "venue_id": "hackney-empire",
+    "name": "Hackney Empire",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-27",
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Dexys Midnight Runners"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 45,
+    "max_gbp": 75,
+    "notes": "£45 - £75 (plus £1.50 per ticket online, and over the phone)"
+  },
+  "ticket_url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+  "age_restriction": "Under 14's must be accompanied by an adult",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "quote": "Dexys Midnight Runners 27 – 28 Oct",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "quote": "£45 - £75 (plus £1.50 per ticket online, and over the phone)",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "quote": "Under 14's must be accompanied by an adult",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "quote": "Join Dexys Midnight Runners live in Hackney for their U.K. tour starting this October!",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "why_its_good"
+      ],
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "quote": "first time Dexys, fronted by Kevin Rowland, have toured under the name of Dexys Midnight Runners since 2003",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "Worth the trip: the first tour under the Dexys Midnight Runners name since 2003, per the venue page.",
+  "notes_for_verifier": "Date only: the 'Dates and times' block on the page is empty in the text (JavaScript), and the page prints no year (2026 taken from the registry and 'tour starting this October'). Runs 27 and 28 Oct; only the first night recorded. Venue address not on page.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "ends_at": null,
+  "recurrence": null,
+  "genres": [],
+  "accessibility": null,
+  "status": "scheduled"
+}

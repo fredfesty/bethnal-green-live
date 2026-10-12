@@ -1,0 +1,84 @@
+{
+  "id": "2026-11-06-93-feet-east-93-live-presents-lo-fidelity-allstars",
+  "subcategory": "gig",
+  "title": "93 Live Presents: Lo Fidelity Allstars",
+  "summary": "Live show by Lo Fidelity Allstars in the 93 Feet East live room.",
+  "venue": {
+    "venue_id": "93-feet-east",
+    "name": "93 Feet East",
+    "address": "150 Brick Lane, London",
+    "postcode": "E1 6QL"
+  },
+  "starts_at": "2026-11-06T20:00:00+00:00",
+  "ends_at": "2026-11-07T00:00:00+00:00",
+  "zone": "fringe",
+  "lineup": [
+    "Lo Fidelity Allstars"
+  ],
+  "genres": [
+    "90s",
+    "Dance",
+    "Electronic"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.93feeteast.co.uk/?post_type=one50&p=9374",
+  "age_restriction": "18+",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url",
+        "lineup"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9374",
+      "quote": "Fri 06 Nov 8 PM - 12 AM 93 Live Presents: Lo Fidelity Allstars",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9374",
+      "quote": "93 Feet East, 150 Brick Lane London, E1 6QL",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction",
+        "genres"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9374",
+      "quote": "18+ 90s Dance Electronic",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "why_its_good"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9374",
+      "quote": "Lo Fidelity Allstars made a return to the stage in April ’26 with their first live dates for ten years.",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Band back on stage for the first live dates in ten years, per the venue page.",
+  "notes_for_verifier": "Own event page; no year printed (2026 from the site calendar and weekday). Tickets via an external seller; price not on page.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "recurrence": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled"
+}

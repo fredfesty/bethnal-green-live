@@ -258,6 +258,13 @@ def test_event_must_sit_in_its_month_folder(validators, repo):
     assert has(validate.check_event(wrong, load(wrong), None), "should be data/events/2026-10/")
 
 
+def test_run_of_nights_with_their_own_ticket_pages_is_not_a_duplicate(validators, repo):
+    twin = load(repo.event)
+    twin.update(id="2026-10-31-bgwmc-example-night", starts_at="2026-10-31T21:00:00+00:00", ends_at="2026-11-01T03:00:00+00:00",
+                ticket_url="https://www.tickettailor.com/events/workingmens-club/0000001")
+    assert validate.check_duplicate_events([(repo.event, load(repo.event)), (Path("twin.json"), twin)]) == {}
+
+
 def test_same_night_listed_twice_is_caught(validators, repo):
     twin = load(repo.event)
     twin.update(id="2026-10-31-bgwmc-example-night-2", title="EXAMPLE NIGHT (illustrative)",

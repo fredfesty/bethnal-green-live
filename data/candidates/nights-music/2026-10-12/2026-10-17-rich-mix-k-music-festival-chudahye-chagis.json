@@ -1,0 +1,94 @@
+{
+  "id": "2026-10-17-rich-mix-k-music-festival-chudahye-chagis",
+  "subcategory": "gig",
+  "title": "K-MUSIC FESTIVAL: CHUDAHYE CHAGIS",
+  "summary": "Gig by a Korean band led by singer Chu Dahye, billed as part of a K-Music Festival at Rich Mix.",
+  "venue": {
+    "venue_id": "rich-mix",
+    "name": "Rich Mix",
+    "address": "35-47 Bethnal Green Rd, London",
+    "postcode": "E1 6LA"
+  },
+  "starts_at": "2026-10-17T19:30:00+01:00",
+  "zone": "fringe",
+  "lineup": [
+    "CHUDAHYE CHAGIS"
+  ],
+  "genres": [
+    "psychedelic shamanic funk"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 15,
+    "max_gbp": 15,
+    "notes": "£15"
+  },
+  "ticket_url": "https://dice.fm/event/69ce409c4232c80001c24d25",
+  "age_restriction": "16+",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url",
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/69ce409c4232c80001c24d25",
+      "quote": "K-MUSIC FESTIVAL: CHUDAHYE CHAGIS Rich Mix Sat 17 Oct, 7:30 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/69ce409c4232c80001c24d25",
+      "quote": "£15 The price you'll pay",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/69ce409c4232c80001c24d25",
+      "quote": "This is an 16+ event",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/69ce409c4232c80001c24d25",
+      "quote": "Driven by a striking voice, Chu Dahye returns with psychedelic shamanic funk.",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/69ce409c4232c80001c24d25",
+      "quote": "35-47 Bethnal Green Rd, London E1 6LA",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "notes_for_verifier": "Read on DICE because richmix.org.uk answers bots with a 403 Cloudflare challenge. DICE page title spells the act 'CHUDAHYE CHAGIS'; DICE venue list spells it 'CHAGIS' too. JSON-LD gives an end time of 21:30 but it is not shown in the page text, so ends_at left empty.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "ends_at": null,
+  "recurrence": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": null
+}

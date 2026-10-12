@@ -37,6 +37,8 @@ Run the Bethnal Green Live morning run. The run date is today's date in Europe/L
    verifier's run report followed by the scout's run report.
 6. Do not merge. Do not edit anything outside data/candidates/, data/verification/,
    data/events/ and data/runs/.
+7. End your final message with the pull request's URL as a markdown hyperlink, for example
+   [Pull request #12: Morning run — 2026-10-20](https://github.com/fredfesty/bethnal-green-live/pull/12).
 ```
 
 ## Reviewing the pull request

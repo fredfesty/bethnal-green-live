@@ -1,0 +1,94 @@
+{
+  "id": "2026-10-24-village-underground-origins-x-vu-free-party-house-techno-trance",
+  "subcategory": "club-night",
+  "title": "Origins x VU Free Party: House Techno Trance",
+  "summary": "Late-night house, techno and trance party at Village Underground, billed as a free rave with a guest still to be announced.",
+  "venue": {
+    "venue_id": "village-underground",
+    "name": "Village Underground",
+    "address": "54 Holywell Lane, London",
+    "postcode": "EC2A 3PQ"
+  },
+  "starts_at": "2026-10-24T23:00:00+01:00",
+  "zone": "outer",
+  "worth_the_trip": true,
+  "genres": [
+    "House",
+    "Techno",
+    "Trance"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "From free"
+  },
+  "ticket_url": "https://dice.fm/event/6abe466a1a4cdd0001de56c2",
+  "age_restriction": "18+",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url",
+        "genres"
+      ],
+      "url": "https://dice.fm/event/6abe466a1a4cdd0001de56c2",
+      "quote": "Origins x VU Free Party: House Techno Trance Village Underground Sat 24 Oct, 11:00 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/6abe466a1a4cdd0001de56c2",
+      "quote": "From free The price you'll pay",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/6abe466a1a4cdd0001de56c2",
+      "quote": "This is an 18+ event. Valid ID required.",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/6abe466a1a4cdd0001de56c2",
+      "quote": "54 Holywell Lane, London EC2A 3PQ, UK",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "why_its_good"
+      ],
+      "url": "https://dice.fm/event/6abe466a1a4cdd0001de56c2",
+      "quote": "Origins Free Rave Returns",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Worth the trip: a billed free rave ('From free') at Village Underground, with a special guest to be announced.",
+  "notes_for_verifier": "Outer-zone standout (Monday run). Price shown as 'From free'; the page hints free tickets may be limited ('hopefully for free...?') and says last entry 2am, so check availability.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "ends_at": null,
+  "recurrence": null,
+  "lineup": [],
+  "accessibility": null,
+  "status": "scheduled"
+}

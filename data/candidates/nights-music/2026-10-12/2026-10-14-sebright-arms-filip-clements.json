@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-14-sebright-arms-filip-clements",
+  "subcategory": "gig",
+  "title": "Filip Clements",
+  "summary": "Live Nation-presented gig by Filip Clements with special guests at the Sebright Arms.",
+  "venue": {
+    "venue_id": "sebright-arms",
+    "name": "The Sebright Arms",
+    "address": "31-35 Coate St, London",
+    "postcode": "E2 9AG"
+  },
+  "starts_at": "2026-10-14T19:00:00+01:00",
+  "zone": "core",
+  "lineup": [
+    "Filip Clements"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 12.35,
+    "max_gbp": 12.35,
+    "notes": "£12.35"
+  },
+  "ticket_url": "https://dice.fm/event/6ab6aa2d1c26910001915061",
+  "age_restriction": "18+",
+  "recurrence": null,
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/6ab6aa2d1c26910001915061",
+      "quote": "Filip Clements Sebright Arms Wed 14 Oct, 7:00 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/6ab6aa2d1c26910001915061",
+      "quote": "2026-10-14T19:00:00+01:00 2026-10-14T23:00:00+01:00",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/6ab6aa2d1c26910001915061",
+      "quote": "£12.35 The price you'll pay",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/6ab6aa2d1c26910001915061",
+      "quote": "Sebright Arms 31-35 Coate St, London E2 9AG",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/6ab6aa2d1c26910001915061",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/6ab6aa2d1c26910001915061",
+      "quote": "Filip Clements Plus Special Guests",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Read on DICE (the Sebright's own site is unreachable). DICE JSON-LD end time not shown in page text, so ends_at left empty. Venue name on DICE is 'Sebright Arms'.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "ends_at": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled"
+}

@@ -27,7 +27,7 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 - `data/candidates/` → `data/verification/` → `data/events/YYYY-MM/` — the pipeline, one JSON file per event.
 - `data/runs/<agent>/<date>.md` — each run's report for a person.
 - `data/inbox/tips/` — reader tips waiting to be checked.
-- `scripts/validate.py` — format and house-rule checks. `scripts/check_quote.py` — re-fetches a page and looks for a quote.
+- `scripts/validate.py` — format and house-rule checks. `scripts/check_quote.py` — re-fetches a page and looks for a quote. `scripts/page_text.py` — prints a page's exact text for quoting (scouts read pages with this, never with a summarising reader).
 - `routines/` — the prompts and settings for the scheduled runs.
 - `site/` — the website (Astro). It reads `data/events/` and `data/sources/` at build time; it never calls Claude or any AI service. `site/src/site.config.mjs` holds the settings a person decides (newsletter, corrections contact).
 - `_example` folders and `docs/examples/` — illustrative records, not real events.
@@ -50,5 +50,6 @@ python scripts/validate.py verification data/verification/<date>
 python scripts/validate.py events data/events
 python scripts/validate.py all
 python scripts/check_quote.py --file <files…>
+python scripts/page_text.py <url> [--find "words"]
 python -m pytest -q
 ```

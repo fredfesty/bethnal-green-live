@@ -1,0 +1,108 @@
+{
+  "id": "2026-10-24-sebright-arms-dr-telefunk-at-sebright",
+  "subcategory": "club-night",
+  "title": "Dr. Telefunk at Sebright",
+  "summary": "Free late-night DJ set by Dr. Telefunk at the Sebright Arms.",
+  "venue": {
+    "venue_id": "sebright-arms",
+    "name": "The Sebright Arms",
+    "address": "31-35 Coate St, London",
+    "postcode": "E2 9AG"
+  },
+  "starts_at": "2026-10-24T22:00:00+01:00",
+  "zone": "core",
+  "lineup": [
+    "Dr. Telefunk"
+  ],
+  "genres": [
+    "funk",
+    "soul",
+    "disco",
+    "RnB",
+    "salsa",
+    "house"
+  ],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": 0,
+    "notes": "Free"
+  },
+  "ticket_url": "https://dice.fm/event/6ab680dea03ebf0001aa4fcf",
+  "age_restriction": "18+",
+  "recurrence": null,
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/6ab680dea03ebf0001aa4fcf",
+      "quote": "Dr. Telefunk at Sebright Sebright Arms Sat 24 Oct, 10:00 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/6ab680dea03ebf0001aa4fcf",
+      "quote": "2026-10-24T22:00:00+01:00 2026-10-25T02:00:00+00:00",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/6ab680dea03ebf0001aa4fcf",
+      "quote": "Free The price you'll pay",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/6ab680dea03ebf0001aa4fcf",
+      "quote": "Sebright Arms 31-35 Coate St, London E2 9AG",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/6ab680dea03ebf0001aa4fcf",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup",
+        "genres"
+      ],
+      "url": "https://dice.fm/event/6ab680dea03ebf0001aa4fcf",
+      "quote": "Dr. Telefunk plays a 5 hour set of classics ranging from Funk, Soul, Disco, RnB, Salsa and House.",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Free five-hour DJ set on a Saturday night, per the listing.",
+  "notes_for_verifier": "Read on DICE (the Sebright's own site is unreachable). DICE JSON-LD end time not shown in page text, so ends_at left empty. Venue name on DICE is 'Sebright Arms'. DICE JSON-LD end time 02:00+00:00 falls after the clocks go back on 25 Oct; the description says a 5 hour set, so end time not recorded.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "ends_at": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled"
+}

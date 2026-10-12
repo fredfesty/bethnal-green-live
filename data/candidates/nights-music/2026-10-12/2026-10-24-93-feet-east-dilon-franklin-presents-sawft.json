@@ -1,0 +1,67 @@
+{
+  "id": "2026-10-24-93-feet-east-dilon-franklin-presents-sawft",
+  "subcategory": "club-night",
+  "title": "Dilon franklin presents SAWFT",
+  "summary": "SAWFT day-to-night event on the members bar and rooftop terrace, from 3pm to 1am. No genres or line-up named.",
+  "venue": {
+    "venue_id": "93-feet-east",
+    "name": "93 Feet East",
+    "address": "150 Brick Lane, London",
+    "postcode": "E1 6QL"
+  },
+  "starts_at": "2026-10-24T15:00:00+01:00",
+  "ends_at": "2026-10-25T01:00:00+01:00",
+  "zone": "fringe",
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.93feeteast.co.uk/?post_type=event&p=9711",
+  "age_restriction": "18+",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=event&p=9711",
+      "quote": "Sat 24 Oct 3 PM - 1 AM Dilon franklin presents SAWFT",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=event&p=9711",
+      "quote": "93 Feet East, 150 Brick Lane London, E1 6QL",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=event&p=9711",
+      "quote": "Tickets are limited secure yours and be part of it. 18+",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Own event page; no year printed (2026 from the site calendar and weekday). Tickets via an external seller; price not on page. Ends 01:00 on Sun 25 Oct, before the clocks change at 02:00, so +01:00. No genres or line-up stated.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "recurrence": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled"
+}
