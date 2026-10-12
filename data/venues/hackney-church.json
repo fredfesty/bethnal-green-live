@@ -1,0 +1,223 @@
+{
+  "id": "hackney-church",
+  "name": "Hackney Church",
+  "zone": "outer",
+  "address": "St John at Hackney, Lower Clapton Rd, London",
+  "postcode": "E5 0PD",
+  "website": "https://hackney.church/",
+  "summary": "St John at Hackney, the borough's parish church dating from 1792, is still a working church and since a multi-million-pound restoration has also been a large venue for concerts, arts and culture. Artists who have played include Ed Sheeran, Sampha and Biffy Clyro.",
+  "music": {
+    "styles": [],
+    "notes": "Ticketed concerts, with standing room on the ground floor and unreserved pew seating up on the balcony. Most shows start at 7pm and are over by 11pm."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": true,
+    "hearing_loop": null,
+    "notes": "Wheelchair spaces and seats sit in a ground-floor access area near the stage, close to a disabled toilet; contact support@hackney.church before buying. Essential companions of ground-floor access ticket holders go free with proof. No lift to the balcony.",
+    "access_page": "https://hackney.church/event-faq/"
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Card only: the venue takes no cash. Each ticket carries a £1 levy towards upkeep of the listed building."
+  },
+  "age_policy": "Varies by event; check each listing.",
+  "capacity": 1800,
+  "evidence": [
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://hackney.church/",
+      "quote": "HACKNEY CHURCH LIVE MUSIC AND EVENTS",
+      "retrieved_at": "2026-10-12T22:40:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "summary"
+      ],
+      "url": "https://hackney.church/about-us/",
+      "quote": "Hackney Church, officially known as St John at Hackney, is the historic parish church of Hackney, dating back to 1792.",
+      "retrieved_at": "2026-10-12T22:42:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://hackney.church/event-faq/",
+      "quote": "is outside the church grounds on Lower Clapton Road",
+      "retrieved_at": "2026-10-12T22:44:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.tagvenue.com/venues/london/9378/hackney-church",
+      "quote": "Lower Clapton Road, London, E5 0PD",
+      "retrieved_at": "2026-10-12T22:50:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://hackney.church/about-us/",
+      "quote": "Following a multi-million-pound restoration, part-funded by the National Lottery Heritage Fund, the church has undergone a substantial transformation",
+      "retrieved_at": "2026-10-12T22:42:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://hackney.church/about-us/",
+      "quote": "Hackney Church functions as a premier venue for live music, arts and culture",
+      "retrieved_at": "2026-10-12T22:42:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.recordoftheday.com/news-and-press/hackney-church-celebrates-three-years-of-community-and-creativity-post-restoration",
+      "quote": "the church has not only become a thriving place of worship, but also a vibrant centre for community engagement and cultural events",
+      "retrieved_at": "2026-10-12T22:45:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "capacity"
+      ],
+      "url": "https://www.recordoftheday.com/news-and-press/hackney-church-celebrates-three-years-of-community-and-creativity-post-restoration",
+      "quote": "the 1800-capacity venue, equipped with state-of-the-art d&b audio system, has hosted performances by major artists such as Ed Sheeran, Sampha, Biffy Clyro and Joy Crookes",
+      "retrieved_at": "2026-10-12T22:45:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://hackney.church/event-faq/",
+      "quote": "Most events at Hackney Church will begin at 7pm and finish by 11pm.",
+      "retrieved_at": "2026-10-12T22:44:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://hackney.church/event-faq/",
+      "quote": "We are unable to provide Essential Companion tickets for customers who have purchased Ground Floor Standing or Balcony Unreserved Seating tickets.",
+      "retrieved_at": "2026-10-12T22:44:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://hackney.church/event-faq/",
+      "quote": "Seating is reserved for balcony ticket holders only in unreserved pews.",
+      "retrieved_at": "2026-10-12T22:44:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes",
+        "accessibility.access_page"
+      ],
+      "url": "https://hackney.church/event-faq/",
+      "quote": "Wheelchairs spaces are available in our Ground Floor Access Area.",
+      "retrieved_at": "2026-10-12T22:44:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free"
+      ],
+      "url": "https://hackney.church/faq/",
+      "quote": "Yes, all of our locations are accessible to the ground floor level.",
+      "retrieved_at": "2026-10-12T22:43:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet",
+        "accessibility.notes"
+      ],
+      "url": "https://hackney.church/event-faq/",
+      "quote": "Our Ground Floor Access Area is a seated area by the front of the stage with quick access to a disabled toilet.",
+      "retrieved_at": "2026-10-12T22:44:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://hackney.church/event-faq/",
+      "quote": "Please get in touch with us via support@hackney.church before you purchase your tickets with your accessibility and Essential Companion requirements",
+      "retrieved_at": "2026-10-12T22:44:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://hackney.church/event-faq/",
+      "quote": "We provide Essential Companion tickets free of charge (1 per person) for Ground Floor Accessibility ticket holders. If you would like to bring an Essential Companion please contact us with proof",
+      "retrieved_at": "2026-10-12T22:44:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://hackney.church/event-faq/",
+      "quote": "Please note we do not have lifts to the Balcony",
+      "retrieved_at": "2026-10-12T22:44:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://hackney.church/event-faq/",
+      "quote": "Hackney Church is a cashless venue and as such will not accept cash payments.",
+      "retrieved_at": "2026-10-12T22:44:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://hackney.church/event-faq/",
+      "quote": "Hackney Church charges a restoration levy of £1.00 per ticket for the continued upkeep and preservation of our Grade II* listed building",
+      "retrieved_at": "2026-10-12T22:44:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://hackney.church/event-faq/",
+      "quote": "Age restrictions for events at Hackney Church are dependent on the nature of the event. Please refer to the event for age restriction details.",
+      "retrieved_at": "2026-10-12T22:44:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:10:00Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:04Z",
+    "removed_fields": [
+      "accessibility.step_free"
+    ]
+  },
+  "needs_review": null
+}

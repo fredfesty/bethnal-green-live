@@ -3,11 +3,13 @@ import type { SiteEvent } from "../lib/data";
 import { SUBCATEGORY, CATEGORY, STATUS, ZONE } from "../lib/labels";
 import { hasTime, clock } from "../lib/time";
 import { rel } from "../lib/rel";
+import { venuePath } from "../lib/venues";
 
-interface Props { e: SiteEvent }
-const { e } = Astro.props;
+interface Props { e: SiteEvent; hideVenue?: boolean }
+const { e, hideVenue = false } = Astro.props;
 const here = Astro.url.pathname;
 const kind = e.category === "nights-music" ? SUBCATEGORY[e.subcategory] : CATEGORY[e.category];
+const vpath = venuePath(e.venue.venue_id);
 const off = e.status === "cancelled" || e.status === "postponed";
 ---
 <li
@@ -24,7 +26,7 @@ const off = e.status === "cancelled" || e.status === "postponed";
   </p>
   <div class="event__body">
     <h3 class="event__title"><a href={rel(here, `events/${e.id}.html`)}>{e.title}</a></h3>
-    <p class="event__where">{e.venue.name}{e.zone === "outer" && <span class="event__trip"> {ZONE.outer.toLowerCase()}</span>}</p>
+    {!hideVenue && <p class="event__where">{vpath ? <a class="event__venue" href={rel(here, vpath)}>{e.venue.name}</a> : e.venue.name}{e.zone === "outer" && <span class="event__trip"> {ZONE.outer.toLowerCase()}</span>}</p>}
     <p class="event__meta">
       <span>{kind}</span>
       <span class:list={["event__price", { "event__price--free": e.price.is_free }]}>{e.priceLabel}</span>
@@ -51,6 +53,8 @@ const off = e.status === "cancelled" || e.status === "postponed";
   .event__title a { color: var(--ink); text-decoration: none; }
   .event__title a:hover { text-decoration: underline; text-decoration-color: var(--green); }
   .event__where { margin: 0.2rem 0 0; }
+  .event__venue { color: inherit; text-decoration-color: var(--rule); }
+  .event__venue:hover { text-decoration-color: var(--green); }
   .event__trip { color: var(--muted); font-size: 0.9rem; }
   .event__meta { display: flex; flex-wrap: wrap; gap: 0.15rem 1rem; margin: 0.3rem 0 0; color: var(--muted); font-size: 0.92rem; }
   .event__price { color: var(--ink); font-weight: 600; }

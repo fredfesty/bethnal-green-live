@@ -1,0 +1,148 @@
+{
+  "id": "paper-dress-vintage",
+  "name": "Paper Dress Vintage",
+  "zone": "outer",
+  "address": "352A Mare St, London",
+  "postcode": "E8 1HR",
+  "website": "https://paperdressvintage.co.uk",
+  "summary": "A vintage shop on Mare Street that becomes a bar, gig venue and club after dark. By day it sells hand-picked pieces dating from Victorian times to the 1990s.",
+  "music": {
+    "styles": [],
+    "notes": "Live music on five evenings each week, with club nights at the weekend. Outside promoters book most shows; the venue programmes a few itself each month."
+  },
+  "crowd": "The venue says it wants its music nights to feel accessible and welcoming to everyone.",
+  "accessibility": {
+    "step_free": false,
+    "accessible_toilet": false,
+    "hearing_loop": null,
+    "notes": "Gigs and club nights are upstairs, 20 steps up, and are standing only, though a seat can be arranged if you contact the venue beforehand. The ground-floor bar has no steps. Gender-neutral toilets are on the first floor.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": "18+ after 8pm",
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://paperdressvintage.co.uk/",
+      "quote": "Join us in the evening for a transformed atmosphere, where our vintage shop becomes a vibrant live music venue and nightclub.",
+      "retrieved_at": "2026-10-12T22:54:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://paperdressvintage.co.uk/",
+      "quote": "Indulge in our fully stocked bar offering craft beer and cocktails, while enjoying live music events five nights a week and club nights on weekends.",
+      "retrieved_at": "2026-10-12T22:54:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://paperdressvintage.co.uk/",
+      "quote": "we pride ourselves on hand-sourcing exquisite pieces from across the UK, spanning the Victorian era to the 1990s.",
+      "retrieved_at": "2026-10-12T22:54:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode",
+        "summary"
+      ],
+      "url": "https://paperdressvintage.co.uk/",
+      "quote": "352a Mare Street London E8 1HR",
+      "retrieved_at": "2026-10-12T22:54:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://paperdressvintage.co.uk/faqs",
+      "quote": "The majority of our events are booked by external promoters and we only program a small number of events in-house per month.",
+      "retrieved_at": "2026-10-12T22:55:06Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://paperdressvintage.co.uk/faqs",
+      "quote": "The venue is strictly 18+ after 8pm in accordance with our licensing conditions set out by Hackney Council.",
+      "retrieved_at": "2026-10-12T22:55:06Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes"
+      ],
+      "url": "https://paperdressvintage.co.uk/faqs",
+      "quote": "There is no step-free access to the performance space where we host gigs and club nights. To access the performance space at Paper Dress, there are 20 steps up.",
+      "retrieved_at": "2026-10-12T22:55:06Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://paperdressvintage.co.uk/faqs",
+      "quote": "The performance space is a standing-only venue. However, for those who are unable to stand for long periods of time it is possible to arrange a seat. Please contact us in advance to make arrangements",
+      "retrieved_at": "2026-10-12T22:55:06Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://paperdressvintage.co.uk/faqs",
+      "quote": "Our ground floor bar has step-free access.",
+      "retrieved_at": "2026-10-12T22:55:06Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://paperdressvintage.co.uk/faqs",
+      "quote": "We have gender-neutral toilets with 2 cubicles and a urinal, located on our first floor.",
+      "retrieved_at": "2026-10-12T22:55:06Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://paperdressvintage.co.uk/faqs",
+      "quote": "Unfortunately we do not have a wheelchair accessible toilet on the premises.",
+      "retrieved_at": "2026-10-12T22:55:06Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://paperdressvintage.co.uk/faqs",
+      "quote": "Our mission is to present high quality music experiences which are accessible & welcoming for all.",
+      "retrieved_at": "2026-10-12T22:55:06Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:05:57Z",
+  "review": {
+    "checked_at": "2026-10-12T23:13:30Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

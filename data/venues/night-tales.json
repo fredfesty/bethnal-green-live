@@ -1,0 +1,146 @@
+{
+  "id": "night-tales",
+  "name": "Night Tales",
+  "zone": "outer",
+  "address": "14 Bohemia Place, London",
+  "postcode": "E8 1DU",
+  "website": "https://www.nighttales.co.uk",
+  "summary": "A bar and club on Bohemia Place that has been going for more than 12 years. It has a covered, heated terrace with a pizza kitchen, the Palm Bar in Arch 14, and a club room with a Funktion-One sound system for DJ nights.",
+  "music": {
+    "styles": [
+      "house",
+      "disco"
+    ],
+    "notes": "DJ-led club nights; the music changes from one night to the next, so check the listings."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": "The venue is at ground level, with disabled access through the main entrance; Bohemia Place is reached from Mare Street.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "The venue says the terrace is usually free to get into; when it isn't, details go out on its social media."
+  },
+  "age_policy": "18+; physical ID needed for entry",
+  "capacity": 600,
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.nighttales.co.uk",
+      "quote": "A cornerstone of East London nightlife for over 12 years, our space features three unique spaces designed to host revellers from open to close.",
+      "retrieved_at": "2026-10-12T22:54:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.nighttales.co.uk",
+      "quote": "Open from 6pm every weekend, the terrace seats up to 200 guests and is home to Sons of Slice Pizza Restaurant.",
+      "retrieved_at": "2026-10-12T22:54:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.nighttales.co.uk",
+      "quote": "Our lively, covered and heated terrace is perfect for enjoying crafted cocktails and premium beers from early evening through late night.",
+      "retrieved_at": "2026-10-12T22:54:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.nighttales.co.uk",
+      "quote": "Arch 14 houses our iconic Palm Bar and is ideal for group bookings of all sizes",
+      "retrieved_at": "2026-10-12T22:54:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.nighttales.co.uk",
+      "quote": "Featuring a Funktion-One sound system, an embracing dance floor, and finely tuned line-ups of the world’s best DJs.",
+      "retrieved_at": "2026-10-12T22:54:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode",
+        "summary"
+      ],
+      "url": "https://www.nighttales.co.uk",
+      "quote": "Night Tales, 14 Bohemia Place London E8 1DU",
+      "retrieved_at": "2026-10-12T22:54:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.nighttales.co.uk/contact-us",
+      "quote": "This totally depends on the night! We play everything, including house, disco, tech etc",
+      "retrieved_at": "2026-10-12T23:02:13Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://www.nighttales.co.uk/contact-us",
+      "quote": "All customers must provide physical ID prior to entry to prove they are at least 18 years old.",
+      "retrieved_at": "2026-10-12T23:02:13Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.free_entry",
+        "cost.notes"
+      ],
+      "url": "https://www.nighttales.co.uk/contact-us",
+      "quote": "entry to our 6000sq ft terrace is free most of the time. If it’s not, we would announce more information on our socials",
+      "retrieved_at": "2026-10-12T23:02:13Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "capacity"
+      ],
+      "url": "https://www.nighttales.co.uk/venue-hire",
+      "quote": "Spanning 9,000 sq ft with a 600-capacity, Night Tales brings together indoor and outdoor spaces",
+      "retrieved_at": "2026-10-12T22:55:47Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes"
+      ],
+      "url": "https://www.nighttales.co.uk/venue-hire",
+      "quote": "Bohemia Place is accessible via Mare Street, the venue is on ground level and disabled access via main entrance.",
+      "retrieved_at": "2026-10-12T22:55:47Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:05:57Z",
+  "review": {
+    "checked_at": "2026-10-12T23:13:30Z",
+    "removed_fields": [
+      "cost.free_entry"
+    ]
+  },
+  "needs_review": null
+}

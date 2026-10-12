@@ -1,0 +1,175 @@
+---
+import Base from "../../layouts/Base.astro";
+import EventRow from "../../components/EventRow.astro";
+import { loadVenues, venueMapLink, accessLines, FREE_ENTRY, ZONE_HEADING, type SiteVenue } from "../../lib/venues";
+import { byDate } from "../../lib/data";
+import { weekday, dayMonth, dayMonthShort, londonDate } from "../../lib/time";
+import { rel } from "../../lib/rel";
+import config from "../../site.config.mjs";
+
+export function getStaticPaths() {
+  return loadVenues().map((v) => ({ params: { id: v.id }, props: { v } }));
+}
+
+const { v } = Astro.props as { v: SiteVenue };
+const here = Astro.url.pathname;
+const p = v.profile;
+const access = p ? accessLines(p) : [];
+const days = byDate(v.events);
+const pageUrl = new URL(`venues/${v.id}.html`, Astro.site).href;
+const KIND_LABEL: Record<string, string> = { primary: "the venue's own page", press: "a review or article", directory: "an access guide or directory", aggregator: "a listings site" };
+const hosts = [...new Map(v.sources.map((s) => [s.host, s])).values()];
+const checked = p?.review ? dayMonthShort(londonDate(new Date(p.review.checked_at))) : null;
+const description = p?.summary ?? `${v.name}${v.postcode ? `, ${v.postcode}` : ""}: what's on there, from Bethnal Green Live.`;
+const jsonld = {
+  "@context": "https://schema.org",
+  "@type": "Place",
+  name: v.name,
+  address: { "@type": "PostalAddress", streetAddress: v.address ?? undefined, postalCode: v.postcode ?? undefined, addressLocality: "London", addressCountry: "GB" },
+  ...(v.website ? { sameAs: v.website } : {}),
+  ...(p?.capacity ? { maximumAttendeeCapacity: p.capacity } : {}),
+  url: pageUrl,
+};
+const mail = config.correctionsContact;
+const fixHref = !mail ? null : mail.includes("@")
+  ? `mailto:${mail}?subject=${encodeURIComponent(`Correction: ${v.name}`)}&body=${encodeURIComponent(`Venue: ${pageUrl}\n\nWhat's wrong:\n`)}`
+  : mail;
+---
+<Base title={v.name} current="venues" description={description} jsonld={jsonld}
+  demoNote="Preview build: the event listings are made up, but this venue guide is real.">
+  <article class="vn">
+    <p class="vn__back"><a href={rel(here, "venues.html")}>Back to all venues</a></p>
+
+    <p class="plate plate--date"><span>{ZONE_HEADING[v.zone]?.title ?? v.zone}</span>{v.postcode && <span class="plate__district">{v.postcode}</span>}</p>
+    <h1>{v.name}</h1>
+    {v.kinds.length > 0 && <p class="vn__kind">{v.kinds.join(" · ")}</p>}
+    {p?.summary && <p class="vn__summary">{p.summary}</p>}
+    {!p && (
+      <p class="vn__pending">
+        We're still checking this venue's details, so for now there's just the address and what's on. Plans and
+        access change, so check with the venue before you go.
+      </p>
+    )}
+
+    <div class="vn__grid">
+      <dl class="vn__facts">
+        <div>
+          <dt>Where</dt>
+          <dd>
+            {[v.address, v.postcode].filter(Boolean).join(", ") || <span class="vn__muted">Address not confirmed</span>}
+            <br /><a href={venueMapLink(v)}>Show on a map</a>
+            {v.zone === "outer" && <><br /><span class="vn__muted">A bit further from Bethnal Green than most of what we list.</span></>}
+          </dd>
+        </div>
+        {p && (
+          <>
+            <div>
+              <dt>Music</dt>
+              <dd>
+                {p.music.styles.length > 0 && <p>{p.music.styles.join(", ")}</p>}
+                {p.music.notes && <p>{p.music.notes}</p>}
+                {v.listingKinds.length > 0 && <p class="vn__muted">In our listings: {v.listingKinds.join(", ").toLowerCase()}.</p>}
+                {!p.music.styles.length && !p.music.notes && !v.listingKinds.length && <p class="vn__muted">Not confirmed yet.</p>}
+              </dd>
+            </div>
+            <div>
+              <dt>Who goes</dt>
+              <dd>{p.crowd ? <p>{p.crowd}</p> : <p class="vn__muted">Not confirmed yet. We only describe a crowd the way the venue or a review does.</p>}</dd>
+            </div>
+            <div>
+              <dt>Access</dt>
+              <dd>
+                {access.length > 0 && <ul class="tags">{access.map((a) => <li class:list={["tag", { "tag--no": !a.good }]}>{a.text}</li>)}</ul>}
+                {p.accessibility.notes && <p>{p.accessibility.notes}</p>}
+                {p.accessibility.access_page && <p><a href={p.accessibility.access_page} rel="noopener">The venue's access information</a></p>}
+                {!access.length && !p.accessibility.notes && <p class="vn__muted">Not confirmed. Contact the venue before you go.</p>}
+              </dd>
+            </div>
+            <div>
+              <dt>Cost</dt>
+              <dd>
+                {p.cost.free_entry && <p>{FREE_ENTRY[p.cost.free_entry]}</p>}
+                {p.cost.notes && <p>{p.cost.notes}</p>}
+                {v.listingPrices && <p>{v.listingPrices} for the {v.events.length === 1 ? "night" : `${v.events.length} nights`} in our listings</p>}
+                {!p.cost.free_entry && !p.cost.notes && !v.listingPrices && <p class="vn__muted">Not confirmed yet. Prices vary by night; check the ticket page.</p>}
+              </dd>
+            </div>
+            {p.age_policy && <div><dt>Age</dt><dd><p>{p.age_policy}</p></dd></div>}
+            {p.capacity && <div><dt>Capacity</dt><dd><p>{p.capacity.toLocaleString("en-GB")}</p></dd></div>}
+          </>
+        )}
+      </dl>
+
+      <div class="vn__actions">
+        {v.website && <a class="button" href={v.website} rel="noopener">Venue website</a>}
+        {v.events.length > 0 && <a class="button button--quiet" href="#whats-on">What's on here</a>}
+      </div>
+    </div>
+
+    <section class="vn__on" id="whats-on" aria-labelledby="on-head">
+      <h2 id="on-head">What's on here</h2>
+      {days.length === 0 ? (
+        <p class="vn__muted">Nothing in our listings for the next few weeks. {v.website && <>The <a href={v.website} rel="noopener">venue's website</a> may have more.</>}</p>
+      ) : (
+        days.map(([date, list]) => (
+          <section class="vn__day" aria-label={`${weekday(date)} ${dayMonth(date)}`}>
+            <h3 class="vn__date">{weekday(date)} {dayMonth(date)}</h3>
+            <ul class="vn__list">{list.map((e) => <EventRow e={e} hideVenue />)}</ul>
+          </section>
+        ))
+      )}
+    </section>
+
+    {p && (
+      <section class="vn__checked" aria-labelledby="checked">
+        <h2 id="checked">How we checked this</h2>
+        <p>
+          Everything above comes from
+          {hosts.map((s, i) => (
+            <>{i > 0 && (i === hosts.length - 1 ? " and " : ", ")}<a href={s.url} rel="noopener">{s.host}</a> ({KIND_LABEL[s.kind] ?? s.kind})</>
+          ))}, quoted word for word and re-checked against those pages{checked && <> on {checked}</>}.
+          Anything we couldn't find in writing is marked "not confirmed" rather than guessed.
+          {(p.review?.removed_fields.length ?? 0) > 0 && " A few details we couldn't confirm have been left out."}
+        </p>
+        {fixHref && <p><a href={fixHref}>Spotted a mistake? Tell us</a></p>}
+      </section>
+    )}
+  </article>
+</Base>
+
+<style>
+  .vn { max-width: 56rem; }
+  .vn__back { margin: 0.5rem 0 1.5rem; }
+  .plate--date { font-size: 1.35rem; margin: 0 0 1.25rem 5px; flex-wrap: wrap; }
+  .plate--date .plate__district { font-size: 0.7em; }
+  .vn h1 { font-size: clamp(2rem, 6vw, 3.2rem); font-variation-settings: "wdth" 75; font-weight: 800; line-height: 1.02; }
+  .vn__kind { font-size: 1.1rem; margin: 0.6rem 0 0; color: var(--muted); }
+  .vn__summary { font-size: 1.2rem; line-height: 1.55; margin: 1.25rem 0 0; max-width: var(--measure); }
+  .vn__pending { margin: 1.25rem 0 0; padding: 0.75rem 1rem; background: var(--plate); border-left: 4px solid var(--rule); max-width: var(--measure); }
+  .vn__grid { display: grid; grid-template-columns: 1fr auto; gap: 1.5rem 2.5rem; margin-top: 2rem; align-items: start; }
+  .vn__facts { margin: 0; display: grid; gap: 0.9rem; }
+  .vn__facts > div { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1rem; padding-top: 0.9rem; border-top: 1px solid var(--rule); }
+  .vn__facts > div:first-child { border-top: 0; padding-top: 0; }
+  .vn__facts dt { font-weight: 700; }
+  .vn__facts dd { margin: 0; }
+  .vn__facts dd p { margin: 0 0 0.4rem; }
+  .vn__facts dd p:last-child { margin-bottom: 0; }
+  .vn__muted { color: var(--muted); }
+  .vn__actions { display: grid; gap: 0.6rem; min-width: 13rem; }
+  .tags { list-style: none; margin: 0 0 0.5rem; padding: 0; display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .tag { font-size: 0.9rem; font-weight: 600; padding: 0.15rem 0.55rem; border-radius: 4px; background: var(--green-tint); color: var(--green); }
+  .tag--no { background: #f3e9e7; color: #8a2a20; }
+  .vn__on { margin-top: 3rem; }
+  .vn__on h2, .vn__checked h2 { font-size: 1.35rem; font-weight: 750; }
+  .vn__day { margin-top: 1.25rem; }
+  .vn__date { font-size: 1rem; font-weight: 700; }
+  .vn__list { list-style: none; margin: 0.25rem 0 0; padding: 0; }
+  .vn__checked { margin-top: 2.5rem; padding: 1.1rem 1.25rem; background: var(--green-tint); border-radius: 8px; max-width: 46rem; }
+  .vn__checked h2 { font-size: 1.05rem; }
+  .vn__checked p { margin: 0.5rem 0 0; }
+  @media (max-width: 40rem) {
+    .vn__grid { grid-template-columns: 1fr; }
+    .vn__facts > div { grid-template-columns: 1fr; gap: 0.2rem; }
+    .vn__actions { min-width: 0; }
+  }
+</style>

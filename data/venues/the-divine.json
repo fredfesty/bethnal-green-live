@@ -1,0 +1,223 @@
+{
+  "id": "the-divine",
+  "name": "The Divine",
+  "zone": "outer",
+  "address": "33 Stoke Newington Rd, London",
+  "postcode": "N16 8BJ",
+  "website": "https://thedivine.co.uk",
+  "summary": "A queer bar, drag venue and weekend nightclub in Dalston, run by the people behind The Glory and owned by drag performers Jonny Woo and John Sizzle with Colin Rothbart. Drag and other LGBTQ+ shows take place in its downstairs performance space on most nights.",
+  "music": {
+    "styles": [
+      "drag cabaret"
+    ],
+    "notes": "Ticketed drag and queer arts shows downstairs most evenings, and a two-floor party with DJs on Friday and Saturday nights."
+  },
+  "crowd": "Calls itself a queer bar and LGBTQ+ performance venue.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": true,
+    "hearing_loop": null,
+    "notes": "Level entry to the ground-floor bar, which suits wheelchair users; the lower floor where shows happen is down 17 steps with handrails, and the stage has two steps. Accessible toilet on the ground floor (ask the bar for the key). A hearing loop is planned. Email ahead about seating.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": "some-nights",
+    "notes": "The main bar costs nothing to enter on weekdays and before 10pm at weekends, after which there is a door charge. Downstairs shows are ticketed."
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://thedivine.co.uk/contact/",
+      "quote": "General Enquiries 33 Stoke Newington Road London N16 8BJ",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "crowd"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "East London’s newest queer bar, drag hothouse, LGBTQ+ performance venue and nightclub brought to you by the team behind The Glory",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "The Divine is proudly owned by iconic London drag queens Jonny Woo and John Sizzle, plus legendary party-starter Colin Rothbart",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "The Divine is located in Dalston, about 200m north of the Kingsland Road and Shacklwell Lane junction.",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "There are drag shows and LGBTQ+ arts events here most nights.",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes",
+        "cost.notes",
+        "accessibility.notes"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "Ticketed shows happen downstairs most evenings (see What’s On), and you can stay on after a show and enjoy the music over both floors ‘til late.",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "At the weekends we turn into a 2-floor disco from 9pm with surprise shows and amazing local DJs.",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "Saturday nights usually include ‘Glory Lates’ – a weekly in-house show at 10.30pm downstairs from a major cabaret star that we book ourselves.",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "Sadly, The Divine is currently not fully accessible.",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes",
+        "summary"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "Weekend discos are every Friday and Saturday on the lower level of The Divine",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "LIPSYNC 1000 is our drag lip-sync contest",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "The Ground floor bar is at street level and there are no steps on entry. The main door is wide enough to accommodate wheelchairs.",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "we have finally managed to make the main bar on the ground floor of The Divine fully accessible to wheelchair users",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "There are 17 wide steps with slip resistant treads down to the lower level with sturdy handrails either side.",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "Once in the basement, there are two steps up to the stage.",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet",
+        "accessibility.notes"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "There is a new accessible toilet on the ground floor that require a key to use. Please ask the bar for use of it if you do not have your own.",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "We are working with our sound install team to provide a hearing loop in the performance area",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "If you require further information or need to secure seating etc please email in advance: info@thedivine.co.uk",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.free_entry",
+        "cost.notes"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "Our main bar is free entry during the week, and free before 10pm on weekends – with a door charge kicking in after.",
+      "retrieved_at": "2026-10-12T22:30:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:05:00Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:04Z",
+    "removed_fields": [
+      "accessibility.step_free"
+    ]
+  },
+  "needs_review": null
+}

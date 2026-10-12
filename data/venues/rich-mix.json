@@ -1,0 +1,81 @@
+{
+  "id": "rich-mix",
+  "name": "Rich Mix",
+  "zone": "fringe",
+  "address": "35-47 Bethnal Green Rd, London",
+  "postcode": "E1 6LA",
+  "website": null,
+  "summary": "An independent arts centre, run as a charity, with three cinema screens plus spaces for exhibitions and performances and a café-bar. Its programme takes in gigs, theatre, art shows, festivals and workshops as well as films.",
+  "music": {
+    "styles": [],
+    "notes": null
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": "In its listing on the council's venue-hire directory, Rich Mix says every space, the three cinemas included, is fully accessible.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": 370,
+  "evidence": [
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/rich-mix-4w2r",
+      "quote": "35-47 Bethnal Green Rd, London E1 6LA",
+      "retrieved_at": "2026-10-12T22:54:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "capacity"
+      ],
+      "url": "https://dice.fm/venue/rich-mix-4w2r",
+      "quote": "Capacity 370 Address 35-47 Bethnal Green Rd",
+      "retrieved_at": "2026-10-12T22:54:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/cinemas/rich-mix",
+      "quote": "Shoreditch’s independent cultural centre houses three cinema screens alongside exhibition and performance spaces and a cafe/bar.",
+      "retrieved_at": "2026-10-12T22:59:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/cinemas/rich-mix",
+      "quote": "Run as a charity, it's a vibrant arts hub and any given week could see it hosting an assortment of music gigs, theatre shows, art exhibitions, themed festivals and all manner of workshops.",
+      "retrieved_at": "2026-10-12T22:59:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Rich_Mix.aspx",
+      "quote": "All our spaces (including our 3 cinema screens) are available for hire and are fully accessible.",
+      "retrieved_at": "2026-10-12T23:03:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:08:23Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:31Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

@@ -1,0 +1,108 @@
+{
+  "id": "star-of-bethnal-green",
+  "name": "The Star of Bethnal Green",
+  "zone": "core",
+  "address": "359 Bethnal Green Road, London",
+  "postcode": "E2 6LG",
+  "website": null,
+  "summary": "A Bethnal Green pub run by the Electric Star group, which reopened it after a 2008 refurbishment. It is known for its private karaoke rooms, alongside DJ nights and guest street-food kitchens.",
+  "music": {
+    "styles": [
+      "disco",
+      "karaoke"
+    ],
+    "notes": "DJ sets and disco nights, karaoke (CAMRA lists DJs and karaoke Thursday to Sunday, and there are five private rooms), drag brunches and a pub quiz."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": false,
+    "accessible_toilet": true,
+    "hearing_loop": null,
+    "notes": "CAMRA says there is a small step at the entrance and an accessible toilet.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/the-star-of-bethnal-green",
+      "quote": "refurbished in 2008 and reopened as the flagship venue of the Electric Star Group",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/the-star-of-bethnal-green",
+      "quote": "is known for its ever-popular private karaoke rooms, street food residencies and a lively events programme encompassing everything from drag brunch to DJ nights",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://camra.org.uk/pubs/star-of-bethnal-green-bethnal-green-155533",
+      "quote": "Trendy music-focused pub in Bethnal Green run by Electric Star; DJ & karaoke Thu-Sun, one changing beer, live music & Wi-Fi.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.accessible_toilet",
+        "accessibility.notes"
+      ],
+      "url": "https://camra.org.uk/pubs/star-of-bethnal-green-bethnal-green-155533",
+      "quote": "Mobility Access Statement Small step at entrance. Accessible toilet.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.designmynight.com/london/pubs/bethnal-green/the-star-of-bethnal-green",
+      "quote": "From DJ sets and disco nights to our popular pub quiz",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.designmynight.com/london/pubs/bethnal-green/the-star-of-bethnal-green",
+      "quote": "Our friendly local pub now boasts five dedicated Karaoke rooms",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.designmynight.com/london/pubs/bethnal-green/the-star-of-bethnal-green",
+      "quote": "The Star of Bethnal Green, 359, Bethnal Green Road, E2 6LG",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "aggregator"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:05:39Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:31Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

@@ -1,0 +1,76 @@
+{
+  "id": "sebright-arms",
+  "name": "The Sebright Arms",
+  "zone": "core",
+  "address": "31-35 Coate St, London",
+  "postcode": "E2 9AG",
+  "website": null,
+  "summary": "A pub with a gig room in its basement. The building was once a cinema and music hall, and it is where Courtney Barnett, Charli XCX and Catfish and the Bottlemen played early in their careers.",
+  "music": {
+    "styles": [],
+    "notes": "Live gigs in the basement music room, below the ground-floor bar."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": "Gigs are held downstairs in the basement; the pub itself is on the ground floor.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": 150,
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://dice.fm/venue/sebright-arms-4mm9",
+      "quote": "Historically a movie theatre & music hall. Now an east-end boozer and music venue with early shows by Courtney Barnett, Charli XCX & Catfish and the Bottlemen to it's name.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "capacity",
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/sebright-arms-4mm9",
+      "quote": "Capacity 150 Address 31-35 Coate St, London E2 9AG",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes",
+        "accessibility.notes"
+      ],
+      "url": "https://agg.uk.com/properties/lonl462",
+      "quote": "Ground floor pub with established live music venue in the basement",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "music.notes",
+        "accessibility.notes"
+      ],
+      "url": "https://www.tagvenue.com/venues/london/66102/the-sebright-arms",
+      "quote": "Our gig venue in the basement is also a popular spot for a private celebration",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "aggregator"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:05:39Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:31Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

@@ -5,6 +5,7 @@ Usage
   python scripts/validate.py candidates data/candidates/nights-music/2026-10-13 --window
   python scripts/validate.py verification data/verification/2026-10-13
   python scripts/validate.py events data/events
+  python scripts/validate.py venues data/venues
   python scripts/validate.py all            # everything under data/ (what CI runs)
 
 Options
@@ -24,6 +25,9 @@ verifier confirmed that quote. So beyond the formats, they tie the three stages 
   events        every fact equals the candidate's, or was emptied because it could not be confirmed;
                 every fact left has a confirmed check; evidence comes from the candidate (plus the
                 verifier's own status quote); no duplicate listings of the same night
+  venues        the venue is in a registry (same name and zone) and not closed; every filled-in field is
+                named by an evidence item; the website and access page come from the venue itself; the
+                written fields are in our own words, not copied from the quotes
 """
 from __future__ import annotations
 
@@ -99,7 +103,8 @@ def load_validators() -> dict[str, jsonschema.Draft202012Validator]:
     fmt = jsonschema.FormatChecker()
     return {
         kind: jsonschema.Draft202012Validator(by_name[f"{name}.schema.json"], registry=registry, format_checker=fmt)
-        for kind, name in [("candidates", "candidate-event"), ("events", "event"), ("verification", "verification")]
+        for kind, name in [("candidates", "candidate-event"), ("events", "event"), ("verification", "verification"),
+                           ("venues", "venue")]
     }
 
 
@@ -465,8 +470,103 @@ def check_duplicate_events(events: list[tuple[Path, dict]]) -> dict[Path, list[s
     return out
 
 
-CHECKS = {"candidates": check_candidate, "verification": check_verification, "events": check_event}
-DEFAULT_DIRS = {"candidates": "data/candidates", "verification": "data/verification", "events": "data/events"}
+# ---------------------------------------------------------------- venue profiles
+
+VENUE_FACTS = [
+    "summary", "crowd", "website", "age_policy", "capacity", "address", "postcode",
+    "music.styles", "music.notes",
+    "accessibility.step_free", "accessibility.accessible_toilet", "accessibility.hearing_loop",
+    "accessibility.notes", "accessibility.access_page",
+    "cost.free_entry", "cost.notes",
+]
+WRITTEN_FIELDS = ["summary", "crowd", "music.notes", "accessibility.notes", "cost.notes"]
+COPY_RUN = 7  # this many words in a row lifted from a quote is copying, not our own words
+
+
+def all_registry_venues() -> tuple[dict[str, dict], list[dict]]:
+    venues, closed = {}, []
+    for p in sorted(SOURCES.glob("*.json")):
+        reg = read_json(p)[0]
+        if isinstance(reg, dict):
+            for v in reg.get("venues", []):
+                venues.setdefault(v["id"], v)
+            closed += reg.get("do_not_list", [])
+    return venues, closed
+
+
+def _words(s: str) -> list[str]:
+    return re.findall(r"[a-z0-9£']+", (s or "").lower().replace("’", "'"))
+
+
+def copied_run(text: str, quote: str, n: int = COPY_RUN) -> str | None:
+    """The first run of n words that appears in both, or None."""
+    w, q = _words(text), _words(quote)
+    grams = {tuple(q[i:i + n]) for i in range(len(q) - n + 1)}
+    for i in range(len(w) - n + 1):
+        if tuple(w[i:i + n]) in grams:
+            return " ".join(w[i:i + n])
+    return None
+
+
+def check_venue_profile(path: Path, data: dict, today: dt.date | None = None, days: int = 31) -> list[str]:
+    errs = check_filename(path, data)
+    venues, closed = all_registry_venues()
+    for c in closed:
+        if data["id"] == c["id"] or norm_name(data["name"]) == norm_name(c["name"]):
+            return errs + [f"venue: {c['name']} is on the do-not-list ({c['reason']})"]
+    reg = venues.get(data["id"])
+    if reg is None:
+        errs.append(f"id: '{data['id']}' is not a venue in data/sources/ (a person adds venues there first)")
+    else:
+        names = {norm_name(reg["name"])} | {norm_name(a) for a in reg.get("aliases", [])}
+        if norm_name(data["name"]) not in names:
+            errs.append(f"name: registry calls this venue '{reg['name']}'")
+        if reg["zone"] != data["zone"]:
+            errs.append(f"zone: registry says {reg['zone']}, profile says {data['zone']}")
+
+    ev = data["evidence"]
+    for i, e in enumerate(ev):
+        if policy.is_forbidden(e["url"]):
+            errs.append(f"evidence[{i}]: {policy.domain_of(e['url'])} is a never-use source")
+        elif e["source_kind"] == "primary" and policy.is_discovery_only(e["url"]):
+            errs.append(f"evidence[{i}]: {policy.domain_of(e['url'])} is an aggregator; it cannot be 'primary'")
+
+    named = {f for e in ev for f in e["fields"]}
+    for field in VENUE_FACTS:
+        v = get(data, field)
+        filled = v not in (None, "", []) if not isinstance(v, bool) else True
+        if filled and not covered(field, named):
+            errs.append(f"evidence: '{field}' is filled in but no evidence item names it")
+
+    for field in ("website", "accessibility.access_page"):
+        url = get(data, field)
+        if url and not any(e["source_kind"] == "primary" and covered(field, set(e["fields"])) for e in ev):
+            errs.append(f"{field}: must be backed by a quote from the venue's own page (source_kind 'primary')")
+        if url and policy.is_forbidden(url):
+            errs.append(f"{field}: points to a never-use source")
+
+    for field in WRITTEN_FIELDS:
+        text = get(data, field)
+        if not text:
+            continue
+        for e in ev:
+            run_ = copied_run(text, e["quote"])
+            if run_:
+                errs.append(f"{field}: copies the source word for word (\"{run_}\"); write it in our own words")
+                break
+
+    removed = (data.get("review") or {}).get("removed_fields", [])
+    for f in removed:
+        v = get(data, f)
+        if v not in (None, "", []):
+            errs.append(f"review: '{f}' is listed as removed but still filled in")
+    return errs
+
+
+CHECKS = {"candidates": check_candidate, "verification": check_verification, "events": check_event,
+          "venues": check_venue_profile}
+DEFAULT_DIRS = {"candidates": "data/candidates", "verification": "data/verification", "events": "data/events",
+                "venues": "data/venues"}
 
 
 def run(kind: str, paths: list[Path], today: dt.date | None, days: int, validators) -> tuple[int, int]:
@@ -518,7 +618,7 @@ def run(kind: str, paths: list[Path], today: dt.date | None, days: int, validato
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("kind", choices=["candidates", "verification", "events", "all"])
+    ap.add_argument("kind", choices=["candidates", "verification", "events", "venues", "all"])
     ap.add_argument("paths", nargs="*", type=Path)
     ap.add_argument("--window", action="store_true", help="reject candidates outside yesterday..+DAYS")
     ap.add_argument("--days", type=int, default=31)
@@ -527,7 +627,7 @@ def main(argv: list[str] | None = None) -> int:
 
     validators = load_validators()
     today = (args.today or dt.datetime.now(LONDON).date()) if args.window else None
-    kinds = ["candidates", "verification", "events"] if args.kind == "all" else [args.kind]
+    kinds = ["candidates", "verification", "events", "venues"] if args.kind == "all" else [args.kind]
 
     total = failed = 0
     for kind in kinds:

@@ -1,0 +1,234 @@
+{
+  "id": "grow-hackney",
+  "name": "Grow Hackney",
+  "zone": "outer",
+  "address": "98c Wallis Road, Main Yard, Hackney Wick",
+  "postcode": "E9 5LN",
+  "website": "https://www.growhackney.co.uk",
+  "summary": "A grassroots music venue, bar and kitchen by the River Lea in Hackney Wick, set in a former canalside factory and trading since 2014. Besides food and drink it hosts gigs, DJs, jazz, workshops and community events, and it runs on solar and green power.",
+  "music": {
+    "styles": [
+      "jazz"
+    ],
+    "notes": "A mixed programme all year round that favours new artists, local crews and culture led by the community."
+  },
+  "crowd": "Under-18s can come until 8pm with a parent or guardian, and the Sunday afternoon canalside sessions are billed as the most family-friendly; most evening events are for over-18s.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": true,
+    "hearing_loop": false,
+    "notes": "The indoor bar area is the only wheelchair-accessible part, with a wheelchair-accessible side bar. Terrace, greenhouse and mezzanine are reached only by stairs. No BSL or captioning unless an event says so. Parking for access reasons can be requested by email.",
+    "access_page": "https://www.growhackney.co.uk/access-accessibility"
+  },
+  "cost": {
+    "free_entry": "some-nights",
+    "notes": "Lots of events are free or cheap, but some are ticketed and late on Fridays and Saturdays there may be a charge on the door. Card and contactless only; cloakroom £2 an item."
+  },
+  "age_policy": "Under-18s with a parent or guardian until 8pm; most events 18+ (Challenge 25)",
+  "capacity": 290,
+  "evidence": [
+    {
+      "fields": [
+        "website",
+        "summary"
+      ],
+      "url": "https://www.growhackney.co.uk",
+      "quote": "Grow is an independent canalside cafe, bar, kitchen and grassroots music venue on the River Lea, serving Hackney Wick since 2014.",
+      "retrieved_at": "2026-10-12T23:05:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.growhackney.co.uk",
+      "quote": "Repurposed from a canalside factory and built by artists, Grow is an independent bar, kitchen and grassroots music venue on the River Lea.",
+      "retrieved_at": "2026-10-12T23:05:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.growhackney.co.uk",
+      "quote": "Grow runs on solar and green energy, pays the London Living Wage and supports local suppliers",
+      "retrieved_at": "2026-10-12T23:05:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.growhackney.co.uk",
+      "quote": "Our programme moves through eclectic global sounds all year round, with a focus on emerging artists, local crews and community-led culture.",
+      "retrieved_at": "2026-10-12T23:05:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.styles"
+      ],
+      "url": "https://www.growhackney.co.uk/faqs",
+      "quote": "Grow hosts live music, DJs, jazz, workshops, talks, markets, community gatherings and cultural events in Hackney Wick.",
+      "retrieved_at": "2026-10-12T23:05:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes",
+        "crowd"
+      ],
+      "url": "https://www.growhackney.co.uk/faqs",
+      "quote": "We recommend canalside sessions on a Sunday (1pm-4pm) for our most family-friendly live music event.",
+      "retrieved_at": "2026-10-12T23:05:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd",
+        "age_policy"
+      ],
+      "url": "https://www.growhackney.co.uk/faqs",
+      "quote": "Under-18s are welcome until 8pm if accompanied by a parent or guardian and seated at your table. Most evening events are 18+",
+      "retrieved_at": "2026-10-12T23:05:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://www.growhackney.co.uk/faqs",
+      "quote": "Most events are 18+. Challenge 25 is in place",
+      "retrieved_at": "2026-10-12T23:05:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.free_entry",
+        "cost.notes"
+      ],
+      "url": "https://www.growhackney.co.uk/faqs",
+      "quote": "Many Grow events are free or low-cost, including live music, DJs, jazz and community events. Some events are ticketed",
+      "retrieved_at": "2026-10-12T23:05:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.growhackney.co.uk/faqs",
+      "quote": "After 9pm on Fridays and Saturdays, guests may need to join the general queue and pay for entry, depending on the event.",
+      "retrieved_at": "2026-10-12T23:05:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.growhackney.co.uk/faqs",
+      "quote": "Grow is a cashless venue. We accept card and contactless payments only.",
+      "retrieved_at": "2026-10-12T23:05:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.growhackney.co.uk/faqs",
+      "quote": "The cloakroom is £2 per item at the main bar.",
+      "retrieved_at": "2026-10-12T23:05:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode",
+        "accessibility.access_page"
+      ],
+      "url": "https://www.growhackney.co.uk/access-accessibility",
+      "quote": "Venue address is: Grow Hackney, 98c Wallis Road, Main Yard, Hackney Wick, E9 5LN",
+      "retrieved_at": "2026-10-12T23:05:16Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet",
+        "accessibility.notes"
+      ],
+      "url": "https://www.growhackney.co.uk/access-accessibility",
+      "quote": "The inside bar area is wheelchair accessible with an accessible gender-neutral toilet.",
+      "retrieved_at": "2026-10-12T23:05:16Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.growhackney.co.uk/access-accessibility",
+      "quote": "Grow has a wheelchair-accessible bar on the side with a height of 102 cm.",
+      "retrieved_at": "2026-10-12T23:05:16Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.growhackney.co.uk/access-accessibility",
+      "quote": "The outside terrace, greenhouse and mezzanine are not wheelchair accessible and can only be accessed via a series of stairs",
+      "retrieved_at": "2026-10-12T23:05:16Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.growhackney.co.uk/access-accessibility",
+      "quote": "This is the only wheelchair accessible area in GROW",
+      "retrieved_at": "2026-10-12T23:05:16Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.hearing_loop"
+      ],
+      "url": "https://www.growhackney.co.uk/access-accessibility",
+      "quote": "There is no loop system for hearing aid users",
+      "retrieved_at": "2026-10-12T23:05:16Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.growhackney.co.uk/access-accessibility",
+      "quote": "We do not have BSL or live captioning at events, unless otherwise specified on the event page.",
+      "retrieved_at": "2026-10-12T23:05:16Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.growhackney.co.uk/access-accessibility",
+      "quote": "GROW can arrange parking for those who require it for access reasons. Please email hello@growhackney.co.uk to request this",
+      "retrieved_at": "2026-10-12T23:05:16Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "capacity"
+      ],
+      "url": "https://www.growhackney.co.uk/private-hire",
+      "quote": "Venue Capacity: Standing:290 // Dining:200 // Sq/ft:1000.00",
+      "retrieved_at": "2026-10-12T23:05:16Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:05:16Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:04Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

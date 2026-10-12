@@ -1,0 +1,147 @@
+{
+  "id": "moth-club",
+  "name": "MOTH Club",
+  "zone": "outer",
+  "address": "Old Trades Hall, Valette St, London",
+  "postcode": "E9 6NU",
+  "website": "https://mothclub.co.uk/",
+  "summary": "A Hackney Central ex-servicemen's club, opened in 1972 and named after the Memorable Order of Tin Hats, that became a gig and comedy venue after a gold-glitter refit in 2015.",
+  "music": {
+    "styles": [
+      "indie",
+      "northern soul",
+      "disco",
+      "soul",
+      "italo"
+    ],
+    "notes": "Indie gigs on a small stage in front of gold curtains, plus regular club nights such as Deptford Northern Soul Club and Dancing in the Dark, Knock2Bag stand-up comedy and film screenings."
+  },
+  "crowd": "Time Out says MOTH and British Legion members still hold their meetings at the club.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": 300,
+  "evidence": [
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://mothclub.co.uk/",
+      "quote": "MOTH Club | Live Music Venue in Hackney, London",
+      "retrieved_at": "2026-10-12T22:56:08Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/moth-club-43ox",
+      "quote": "Old Trades Hall, Valette Street, London E9 6NU",
+      "retrieved_at": "2026-10-12T22:57:43Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/music/moth-club",
+      "quote": "First opened in 1972, this Hackney Central trade hall takes its name from the Memorable Order of Tin Hats, an order of ex-military servicemen and women who still regularly meet and drink at the venue",
+      "retrieved_at": "2026-10-12T22:58:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/music/moth-club",
+      "quote": "who gave it a glittery gold refurb with the intention of using the venue as a gig space platforming some of the city’s buzziest indie bands",
+      "retrieved_at": "2026-10-12T22:58:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/music/moth-club",
+      "quote": "you’ll find time-weathered regulars mixing with a hip young east London crowd, with the club playing host to an eclectic programme of live music, stand-up comedy, film screenings and club nights as well as all all of its former MOTH and British Legion meetings.",
+      "retrieved_at": "2026-10-12T22:58:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/music/moth-club",
+      "quote": "Featuring a small stage backed by spangly gold foil curtains, the club’s main room is the venue for regular nights including Deptford Northern Soul Club, ’80s night Dancing in the Dark and disco, soul and italo club Pull Up To The Bumper",
+      "retrieved_at": "2026-10-12T22:58:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://londonist.com/london/news/moth-club-hackney-saved",
+      "quote": "MOTH Club — the ex-servicemen's members club in Hackney Central, known for its live music, and Knock2Bag comedy nights",
+      "retrieved_at": "2026-10-12T22:58:01Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/news/iconic-hackney-venue-moth-club-has-been-saved-from-property-developers-032626",
+      "quote": "A planning application for a building next to Hackney’s Moth Club has been refused by Hackney Council.",
+      "retrieved_at": "2026-10-12T22:58:02Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/news/iconic-hackney-venue-moth-club-has-been-saved-from-property-developers-032626",
+      "quote": "there is another planning application in progress which means the future of the venue remains at risk.",
+      "retrieved_at": "2026-10-12T22:58:02Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/news/iconic-hackney-venue-moth-club-has-been-saved-from-property-developers-032626",
+      "quote": "In 2015, the building was given a gold-glittered makeover and swiftly gained a reputation for its excellent gig and comedy programming",
+      "retrieved_at": "2026-10-12T22:58:02Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "capacity"
+      ],
+      "url": "https://www.tagvenue.com/rooms/london/27816/moth-club/main-hall",
+      "quote": "With space for 150 seated and 300 standing the venue is the ideal multi-purpose space.",
+      "retrieved_at": "2026-10-12T23:00:37Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:04:43Z",
+  "review": {
+    "checked_at": "2026-10-12T23:13:30Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}
