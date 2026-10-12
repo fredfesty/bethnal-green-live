@@ -1,0 +1,1004 @@
+{
+  "category": "arts",
+  "last_reviewed": "2026-10-12",
+  "notes": [
+    "Seeded from a research pass on 12 Oct 2026. Every venue's listing URL was tested with scripts/page_text.py that day; 'readable' records the result.",
+    "Arts covers theatre, comedy, cinema and screenings, galleries, museum exhibitions and events, talks/readings and dance. Music gigs and club nights belong to nights-music; food and markets to their own scouts.",
+    "Galleries print date ranges ('9 October - 12 December 2026'); list each exhibition once, not once per day. Many sites also list art-fair booths or shows at other museums - take only shows at the address below.",
+    "Several cinema and theatre pages print dates without a year (e.g. 'Wed 14 Oct'); take the year from the event's own page, never assume it.",
+    "Scouts may read this file but must not edit it. Suggested changes go in the run report for a human to apply.",
+    "A venue with no_primary_listing: true has no venue or ticket page online; cap its confidence at medium.",
+    "Platform 'domains' are enforced by scripts/validate.py and scripts/check_quote.py across all registries: artrabbit.com is now never-use (robots.txt blocks ClaudeBot); timeout.com is discovery-only.",
+    "Postcodes left null were not printed on the venue's own site; the venue profiler should confirm them."
+  ],
+  "zones": {
+    "core": "E2 postcode or within about 1km of Bethnal Green tube. Scanned every run.",
+    "fringe": "Up to about a 20-minute walk (1.6km) from Bethnal Green tube. Scanned every run.",
+    "outer": "Further out (Dalston, Hackney Central, Hackney Wick, west Shoreditch, Clapton). Scanned weekly, standout nights only, max 5 candidates per run, flagged worth_the_trip."
+  },
+  "platforms": [
+    {
+      "id": "ra",
+      "name": "Resident Advisor (ra.co)",
+      "policy": "do-not-use",
+      "why": "No public API. Terms 4.4 ban automated extraction without written permission; robots.txt blocks ClaudeBot. Do not fetch, do not use third-party RA scrapers.",
+      "source": "https://ra.co/terms",
+      "domains": [
+        "ra.co",
+        "residentadvisor.net"
+      ]
+    },
+    {
+      "id": "dice",
+      "name": "DICE",
+      "policy": "primary-read",
+      "how": "Read public dice.fm venue and event pages one at a time. Mostly music; for arts only use it for performance, spoken-word or comedy events at venues listed below (e.g. Rich Mix).",
+      "source": "https://apis.io/providers/dice-fm/",
+      "domains": [
+        "dice.fm"
+      ]
+    },
+    {
+      "id": "ticket-tailor",
+      "name": "Ticket Tailor",
+      "policy": "primary-read",
+      "how": "Read public box-office pages, e.g. tickettailor.com/events/<box-office>. Used by BGWMC for cabaret and comedy nights.",
+      "source": "https://developers.tickettailor.com/docs/intro",
+      "domains": [
+        "tickettailor.com"
+      ]
+    },
+    {
+      "id": "eventbrite",
+      "name": "Eventbrite",
+      "policy": "api-by-id",
+      "how": "Location search was shut off in 2020. Only list events by organiser or venue id stored on a venue below. Key in env EVENTBRITE_TOKEN.",
+      "source": "https://github.com/Automattic/eventbrite-api/issues/83",
+      "domains": [
+        "eventbrite.co.uk",
+        "eventbrite.com"
+      ]
+    },
+    {
+      "id": "designmynight",
+      "name": "DesignMyNight",
+      "policy": "discovery-only",
+      "how": "Leads only (registry-wide policy). Note: it appears to be the actual booking system for Backyard Comedy Club and lists Three Colts Tavern's comedy night, so for those venues it is the best text available. A person should decide whether to allow a per-venue exception; until then, cap confidence at medium.",
+      "domains": [
+        "designmynight.com"
+      ]
+    },
+    {
+      "id": "mato",
+      "name": "ma.to",
+      "policy": "discovery-only",
+      "how": "Leads only. Its Backyard Comedy Club page was empty when tested on 12 Oct 2026.",
+      "domains": [
+        "ma.to"
+      ]
+    },
+    {
+      "id": "timeout",
+      "name": "Time Out London",
+      "policy": "discovery-only",
+      "how": "Editorial listings and venue guides; readable with page_text. Use for leads and venue addresses only, then confirm on the venue's own page. Never copy its text.",
+      "domains": [
+        "timeout.com"
+      ]
+    },
+    {
+      "id": "artrabbit",
+      "name": "ArtRabbit",
+      "policy": "do-not-use",
+      "why": "robots.txt disallows ClaudeBot (page_text refused it on 12 Oct 2026). Do not fetch. Gallery shows must come from the gallery's own site.",
+      "domains": [
+        "artrabbit.com"
+      ]
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "policy": "do-not-scrape",
+      "how": "Not fetched by agents. Events seen there arrive as reader tips or manual entries.",
+      "domains": [
+        "instagram.com"
+      ]
+    }
+  ],
+  "venues": [
+    {
+      "id": "young-va",
+      "name": "Young V&A",
+      "address": "Cambridge Heath Rd, Bethnal Green, London",
+      "postcode": "E2 9PA",
+      "zone": "core",
+      "type": [
+        "museum",
+        "exhibition",
+        "family"
+      ],
+      "website": "https://www.vam.ac.uk/young",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.vam.ac.uk/young",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Home page lists current exhibition and featured events with full dates. /young/whats-on returns 404; event pages sit under vam.ac.uk/whatson/."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Exhibition 'Inside Aardman: Wallace & Gromit and Friends' closes Sunday, 15 November 2026; Family Workshop 29-31 October 2026.",
+      "notes": "Children's and family museum; tag family events clearly."
+    },
+    {
+      "id": "museum-of-the-home",
+      "name": "Museum of the Home",
+      "address": "136 Kingsland Road, London",
+      "postcode": "E2 8EA",
+      "zone": "core",
+      "type": [
+        "museum",
+        "exhibition",
+        "talks",
+        "family"
+      ],
+      "website": "https://museumofthehome.org.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://museumofthehome.org.uk/whats-on/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Server-rendered list with type, date and price per event."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Talk 'Spitalfields Fogeys and New Georgians' on Wednesday 21 October 2026; Diwali Family Day on Tuesday 27 October 2026.",
+      "notes": "E2 postcode, so core, though it is about 1.8 km from the tube (Hoxton end). Closed Mondays."
+    },
+    {
+      "id": "oxford-house",
+      "name": "Oxford House",
+      "address": "Derbyshire Street, Bethnal Green, London",
+      "postcode": "E2 6HG",
+      "zone": "core",
+      "type": [
+        "arts-centre",
+        "theatre",
+        "talks",
+        "community"
+      ],
+      "website": "https://www.oxfordhouse.org.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.oxfordhouse.org.uk/whats-on/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Dated list of events. /events/ returns 404 - use /whats-on/."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Black History Month 2026: Open Mic Night on October 21, 2026; Kayd Somali Arts Week 2026 hosted in October.",
+      "notes": "Also in nights-music (Friday Jazz). Arts scout takes theatre, talks, exhibitions and community arts only."
+    },
+    {
+      "id": "backyard-comedy-club",
+      "name": "Backyard Comedy Club",
+      "address": "231 Cambridge Heath Rd, Bethnal Green, London",
+      "postcode": "E2 0EL",
+      "zone": "core",
+      "type": [
+        "comedy"
+      ],
+      "website": "https://backyardcomedyclub.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://backyardcomedyclub.co.uk/",
+          "role": "primary",
+          "readable": "js-only",
+          "notes": "'Upcoming Events' block is empty in page text (built by script). /whats-on/ returns 404."
+        },
+        {
+          "platform": "designmynight",
+          "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "Lists dated shows (Thursday/Friday/Saturday club nights and one-offs). Appears to be the club's real booking system."
+        },
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/backyardcomedyclub",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "Readable but had no events when tested."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "DesignMyNight lists shows on Wed 14 Oct 2026, Thursday 15th October 2026 and Mon 9 Nov 2026.",
+      "notes": "Biggest comedy venue in the area. Own site gives no readable dates, so confidence is capped at medium until a person approves DesignMyNight for this venue or the club shares a feed. Strong candidate for a direct relationship."
+    },
+    {
+      "id": "bgwmc",
+      "name": "Bethnal Green Working Men's Club",
+      "address": "42-44 Pollard Row, London",
+      "postcode": "E2 6NB",
+      "zone": "core",
+      "type": [
+        "cabaret",
+        "comedy",
+        "performance"
+      ],
+      "website": "https://bgwmc.com",
+      "listings": [
+        {
+          "platform": "ticket-tailor",
+          "url": "https://www.tickettailor.com/events/workingmens-club",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Box office lists dated events with times and BST/GMT."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Ticket Tailor lists events on Wed 21 Oct 2026, Sat 31 Oct 2026 and Fri 27 Nov 2026.",
+      "notes": "Shared with nights-music. Arts scout takes only cabaret, comedy and variety shows; leave club nights to nights-music. Website taken from nights-music.json, not re-tested."
+    },
+    {
+      "id": "three-colts-tavern",
+      "name": "Three Colts Tavern (Glue Factory)",
+      "address": "199 Cambridge Heath Road, London",
+      "postcode": "E2 0EL",
+      "zone": "core",
+      "type": [
+        "pub",
+        "comedy",
+        "open-mic"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "designmynight",
+          "url": "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "Free open-mic stand-up on the 1st and 3rd Monday of the month; 1st Monday is a charity night."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "DesignMyNight lists Monday Night Open Mic Comedy on Monday 19th October 2026 and 2 other Mondays.",
+      "no_primary_listing": true,
+      "notes": "No venue or ticket page found. Address and postcode come from DesignMyNight only. Max scout_confidence = medium."
+    },
+    {
+      "id": "cell-project-space",
+      "name": "Cell Project Space",
+      "address": "258 Cambridge Heath Rd, London",
+      "postcode": "E2 9DA",
+      "zone": "core",
+      "type": [
+        "gallery"
+      ],
+      "website": "https://www.cellprojects.org",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.cellprojects.org/exhibitions/future",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Forthcoming shows with dates. Current shows: https://www.cellprojects.org/exhibitions (readable; said 'closed for installation' on 12 Oct 2026). Also has an Events page."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Jeff Preiss, 'Orchard Documents', 08.10.2026 - 13.12.2026 (Future page).",
+      "notes": "Non-profit space with studios; free."
+    },
+    {
+      "id": "maureen-paley",
+      "name": "Maureen Paley",
+      "address": "60 Three Colts Lane, London (second space: 4 Herald Street, London E2 6JT, first floor, stairs only)",
+      "postcode": "E2 6GQ",
+      "zone": "core",
+      "type": [
+        "gallery"
+      ],
+      "website": "https://www.maureenpaley.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.maureenpaley.com/exhibitions",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Current show with dates for both spaces."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Rebecca Warren, 'There Will Be Another You', 9 October - 12 December 2026 at both spaces.",
+      "notes": "Open Wednesday-Saturday, 11am-6pm. Herald Street space has stairs only - note for access."
+    },
+    {
+      "id": "herald-st",
+      "name": "Herald St",
+      "address": "2 Herald St, London",
+      "postcode": "E2 6JT",
+      "zone": "core",
+      "type": [
+        "gallery"
+      ],
+      "website": "https://www.heraldst.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.heraldst.com/exhibitions",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Redirects to a page per year (https://www.heraldst.com/2026) with dates. Year path will change in 2027."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Esteban Jefferson, 9 October - 28 November 2026.",
+      "notes": "Dated items on the year page also include shows elsewhere (e.g. museums); take only those at 2 Herald St."
+    },
+    {
+      "id": "the-approach",
+      "name": "The Approach",
+      "address": "1st Floor, 47 Approach Road, Bethnal Green, London",
+      "postcode": "E2 9LY",
+      "zone": "core",
+      "type": [
+        "gallery"
+      ],
+      "website": "https://www.theapproach.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.theapproach.co.uk/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Home page shows the current show with dates (format 17.09-31.10.26). /exhibitions/ returns almost no text."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Olivia Jia, 'Faun', 17.09-31.10.26.",
+      "notes": "Above The Approach Tavern; first floor. Open Wednesday-Saturday 12-6pm."
+    },
+    {
+      "id": "mothers-tankstation-london",
+      "name": "mother's tankstation London",
+      "address": "Dressage Court, 48 Three Colts Lane, Bethnal Green, London",
+      "postcode": "E2 6GQ",
+      "zone": "core",
+      "type": [
+        "gallery"
+      ],
+      "website": "https://www.motherstankstation.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.motherstankstation.com/exhibitions/london/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "London-only list with dates. The home page mixes Dublin and London - use this page."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Yuko Mohri, '12 Red', 11 October - 5 December 2026.",
+      "notes": "Dublin gallery with a London space. Open Thursday-Saturday, noon-6pm; closed July and August."
+    },
+    {
+      "id": "rose-easton",
+      "name": "Rose Easton",
+      "address": "223 Cambridge Heath Road, London",
+      "postcode": null,
+      "zone": "core",
+      "type": [
+        "gallery"
+      ],
+      "website": "https://www.roseeaston.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.roseeaston.com/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Home page lists current shows with dates. It also lists art-fair booths (e.g. Frieze London) - ignore those."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Parker Ito, 'Happiness is a Butterfly, Full Metal Bunny', 3 Oct - 12 Dec 2026.",
+      "notes": "Address from Time Out, not confirmed on the gallery's own site (contact/info pages 404). Postcode unknown."
+    },
+    {
+      "id": "soft-opening",
+      "name": "Soft Opening",
+      "address": "6 Minerva Street, London",
+      "postcode": null,
+      "zone": "core",
+      "type": [
+        "gallery"
+      ],
+      "website": "https://softopening.london",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://softopening.london/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Very short home page: artist, title, dates, address."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Maren Karlson, 'LAG', 11 September-17 October, 2026.",
+      "notes": "Postcode not printed on its site; leave empty until confirmed."
+    },
+    {
+      "id": "kate-macgarry",
+      "name": "Kate MacGarry",
+      "address": "27 Old Nichol Street, London",
+      "postcode": "E2 7HR",
+      "zone": "core",
+      "type": [
+        "gallery"
+      ],
+      "website": "https://www.katemacgarry.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.katemacgarry.com/exhibitions/current-future/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Artlogic site; current and future shows with dates."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Bernard Piffaretti, 'Painting & Caption', 2 October - 14 November 2026.",
+      "notes": "E2 postcode, so core, though it is near Arnold Circus (about 1.5 km from the tube)."
+    },
+    {
+      "id": "chisenhale-gallery",
+      "name": "Chisenhale Gallery",
+      "address": "64 Chisenhale Road, London",
+      "postcode": "E3 5QZ",
+      "zone": "fringe",
+      "type": [
+        "gallery",
+        "talks"
+      ],
+      "website": "https://chisenhale.org.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://chisenhale.org.uk/whats-on/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Current show, events (e.g. 29 October, 7-8:30pm) and next year's shows. /exhibitions/ redirects to the archive."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Kibuuka Omumbaale / Wakaliga Uganda until 6 December (2026 archive); evening events on 29 October and 5 November 2026.",
+      "notes": "Year is not printed next to every date on the What's On page; take the year from the event page."
+    },
+    {
+      "id": "carlos-ishikawa",
+      "name": "Carlos/Ishikawa",
+      "address": "Unit 4, 88 Mile End Road, London",
+      "postcode": "E1 4UN",
+      "zone": "fringe",
+      "type": [
+        "gallery"
+      ],
+      "website": "https://www.carlosishikawa.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.carlosishikawa.com/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Home page shows the gallery show first, then artists' shows at museums worldwide - take only the gallery show."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Maxwell Alexandre, 'Black painter, white figuration', 9 Oct - 28 Nov 2026."
+    },
+    {
+      "id": "genesis-cinema",
+      "name": "Genesis Cinema",
+      "address": "93-95 Mile End Road, Whitechapel, London",
+      "postcode": "E1 4UJ",
+      "zone": "fringe",
+      "type": [
+        "cinema"
+      ],
+      "website": "https://www.genesiscinema.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.genesiscinema.co.uk/whats-on",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Film titles and day tabs readable; per-film times may need the film page."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "What's On lists 'Cat Video Fest 2026' and screenings on Wed 14 Oct to Fri 16 Oct; the contact page lists an event on Monday 19th October 2026.",
+      "notes": "Independent cinema with regular special screenings and Q&As."
+    },
+    {
+      "id": "rich-mix",
+      "name": "Rich Mix",
+      "address": "35-47 Bethnal Green Rd, London",
+      "postcode": "E1 6LA",
+      "zone": "fringe",
+      "type": [
+        "arts-centre",
+        "cinema",
+        "theatre",
+        "comedy",
+        "dance"
+      ],
+      "website": "https://www.richmix.org.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.richmix.org.uk/whats-on/",
+          "role": "primary",
+          "readable": "refused",
+          "notes": "HTTP 403 on 12 Oct 2026 - stopped as per house rules. Do not retry in scheduled runs."
+        },
+        {
+          "platform": "dice",
+          "url": "https://dice.fm/venue/rich-mix-4w2r",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Mostly music and club nights; some performance. Cinema and most theatre are not here."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "DICE venue page lists K-MUSIC FESTIVAL on Sat 17 Oct and 'After Dark: Club' on Sat 28 Nov (2026).",
+      "notes": "Address from DICE. Key arts centre (cinema, theatre, dance, comedy) but its own site blocks us, so most of the programme is unreadable. Ask Rich Mix for permission or a feed - worth a direct relationship."
+    },
+    {
+      "id": "whitechapel-gallery",
+      "name": "Whitechapel Gallery",
+      "address": "77-82 Whitechapel High St, London",
+      "postcode": "E1 7QX",
+      "zone": "fringe",
+      "type": [
+        "gallery",
+        "talks",
+        "film"
+      ],
+      "website": "https://www.whitechapelgallery.org",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.whitechapelgallery.org/exhibitions/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Exhibitions with date ranges."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://www.whitechapelgallery.org/events/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Redirects to /events-2-2/; talks, screenings and tours with dates."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Cecilia Vicuña: Living Threads, 7 Oct - 14 Feb 2027; 'Relaxed Hours: Cecilia Vicuña' on 27 Oct 2026.",
+      "notes": "About 2 km from the tube (Aldgate East end) - edge of fringe, but a major venue."
+    },
+    {
+      "id": "brick-lane-bookshop",
+      "name": "Brick Lane Bookshop",
+      "address": "Brick Lane, London",
+      "postcode": null,
+      "zone": "fringe",
+      "type": [
+        "bookshop",
+        "talks",
+        "readings"
+      ],
+      "website": "https://bricklanebookshop.org",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://bricklanebookshop.org/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "/events redirects to the home page, which lists upcoming events (e.g. book launches) with links to event pages."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Home page (updated 1 Oct 2026) lists 'Book Launch: Blessings by Caroline Albertine Minor (October 22nd)' and the 2026 Short Story Prize.",
+      "notes": "Street number and postcode not confirmed on its site; leave empty until the venue profiler checks."
+    },
+    {
+      "id": "v-and-a-east",
+      "name": "V&A East (Museum and Storehouse)",
+      "address": "V&A East Museum, Parkes Street, Queen Elizabeth Olympic Park, London (Storehouse: 107 Carpenters Rd, London E20 2AR)",
+      "postcode": "E20 3AX",
+      "zone": "outer",
+      "type": [
+        "museum",
+        "exhibition",
+        "talks"
+      ],
+      "website": "https://www.vam.ac.uk/east",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.vam.ac.uk/east",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Exhibitions and events for both sites with dates."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Season 'New Work: Making East London' closes Sunday, 18 October 2026; exhibition 'The Music is Black: A British Story' at V&A East Museum.",
+      "notes": "Major new museum; standout exhibitions only."
+    },
+    {
+      "id": "nunnery-gallery",
+      "name": "Nunnery Gallery (Bow Arts)",
+      "address": "181 Bow Road, London",
+      "postcode": "E3 2SJ",
+      "zone": "outer",
+      "type": [
+        "gallery",
+        "talks"
+      ],
+      "website": "https://bowarts.org/nunnery-gallery/",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Current and upcoming shows with dates."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://bowarts.org/bow-arts-events/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Events list with JSON-LD Event data. Includes Bow Arts events at other sites (e.g. SE2) - take only Nunnery/Bow Road."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Bhajan Hunjan: speaking through materials, Friday 9th October 2026 - Sunday 20th December 2026.",
+      "notes": "Free; open Wednesday-Sunday 10am-4pm. About 2.3 km from the tube."
+    },
+    {
+      "id": "hackney-empire",
+      "name": "Hackney Empire",
+      "address": "291 Mare Street, London",
+      "postcode": "E8 1EJ",
+      "zone": "outer",
+      "type": [
+        "theatre",
+        "comedy"
+      ],
+      "website": "https://hackneyempire.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.hackneyempire.co.uk/whats-on",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Day-by-day list; year not always printed next to the date - take it from the show page."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Panto 'Jack and the Beanstalk' 21 Nov - 31 Dec; 'Producer Bootcamp' 7 - 11 Dec 2026.",
+      "notes": "Big comedy names and panto."
+    },
+    {
+      "id": "arcola-theatre",
+      "name": "Arcola Theatre",
+      "address": "24 Ashwin Street, Dalston, London",
+      "postcode": "E8 3DL",
+      "zone": "outer",
+      "type": [
+        "theatre",
+        "opera"
+      ],
+      "website": "https://www.arcolatheatre.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.arcolatheatre.com/whats-on/",
+          "role": "primary",
+          "readable": "js-only",
+          "notes": "Show list says 'Loading...' - built by script. Individual show pages not yet tested."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Site menu lists 'Grimeborn 2026'; WhatsOnStage reported its autumn/winter 2026 season (The Turn of the Screw).",
+      "notes": "Find show pages via discovery, then test each show page with page_text before relying on it."
+    },
+    {
+      "id": "theatre-royal-stratford-east",
+      "name": "Theatre Royal Stratford East",
+      "address": "Gerry Raffles Square, London",
+      "postcode": "E15 1BN",
+      "zone": "outer",
+      "type": [
+        "theatre"
+      ],
+      "website": "https://www.stratfordeast.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.stratfordeast.com/whats-on",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Shows with full dates including year."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "'Robin Hood and the Merry Mandem', SAT 21 NOV 2026 - SAT 02 JAN 2027."
+    },
+    {
+      "id": "the-yard-theatre",
+      "name": "The Yard Theatre",
+      "address": "Queen's Yard, White Post Lane, London",
+      "postcode": "E9 5EN",
+      "zone": "outer",
+      "type": [
+        "theatre"
+      ],
+      "website": "https://www.theyardtheatre.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.theyardtheatre.co.uk/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Home page lists shows with full dates. A first try at /whats-on/ was refused because robots.txt did not answer (temporary); retry before relying on it."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "'Lear', 17 November 2026 - 2 January 2027.",
+      "notes": "Theatre only; its club nights belong to nights-music."
+    },
+    {
+      "id": "hackney-picturehouse",
+      "name": "Hackney Picturehouse",
+      "address": "Mare Street, Hackney, London",
+      "postcode": null,
+      "zone": "outer",
+      "type": [
+        "cinema",
+        "comedy"
+      ],
+      "website": "https://www.picturehouses.com/cinema/hackney-picturehouse",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.picturehouses.com/cinema/hackney-picturehouse",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Day tabs and times readable."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Listings for 13-19 Oct 2026 and a preview on Tue 15 Dec; runs 'The Attic Comedy Club'.",
+      "notes": "Street number and postcode not confirmed from its site."
+    },
+    {
+      "id": "rio-cinema",
+      "name": "Rio Cinema",
+      "address": "Kingsland High Street, Dalston, London",
+      "postcode": null,
+      "zone": "outer",
+      "type": [
+        "cinema"
+      ],
+      "website": "https://riocinema.org.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Film list with 'Showing from' dates."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "'SEBASTIANE' showing from Wed 14 Oct (Oct 2026 programme).",
+      "notes": "Community-owned independent cinema. Street number and postcode not confirmed from its site."
+    },
+    {
+      "id": "castle-cinema",
+      "name": "The Castle Cinema",
+      "address": "First floor, 64-66 Brooksby's Walk, Hackney, London",
+      "postcode": "E9 6DA",
+      "zone": "outer",
+      "type": [
+        "cinema"
+      ],
+      "website": "https://thecastlecinema.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://thecastlecinema.com/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Home page lists films by day with times."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "'Rye Lane - Black History Month 2026', 18:30, Pay What You Can."
+    },
+    {
+      "id": "wiltons-music-hall",
+      "name": "Wilton's Music Hall",
+      "address": "Graces Alley, London",
+      "postcode": "E1 8JB",
+      "zone": "outer",
+      "type": [
+        "theatre",
+        "music-hall",
+        "comedy",
+        "talks"
+      ],
+      "website": "https://wiltons.org.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://wiltons.org.uk/whats-on/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Dates and times per show; year not printed - take it from the show page."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Shakespeare's Romeo & Juliet, Thu 15 - Sat 17 Oct (2026 programme); events listed nightly 19-24 Oct.",
+      "notes": "About 2.5 km (Shadwell). Standout events only."
+    },
+    {
+      "id": "shoreditch-town-hall",
+      "name": "Shoreditch Town Hall",
+      "address": "380 Old Street, London",
+      "postcode": "EC1V 9LT",
+      "zone": "outer",
+      "type": [
+        "theatre",
+        "dance",
+        "performance"
+      ],
+      "website": "https://shoreditchtownhall.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://shoreditchtownhall.com/whats-on",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Shows and classes with full dates."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Theatre Re workshop 'Re:Treat', Mon 19 - Fri 23 October 2026.",
+      "notes": "West Shoreditch. Skip classes and hires; list performances only."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "close-up-film-centre",
+      "name": "Close-Up Film Centre",
+      "postcode": null,
+      "reason": "Brick Lane area (Sclater St) cinema and film library - would be a strong fringe venue, but its site answered 403 on 12 Oct 2026 and no dated 2026 programme was found elsewhere. Ask them for permission or a feed."
+    },
+    {
+      "id": "hoxton-hall",
+      "name": "Hoxton Hall",
+      "postcode": null,
+      "reason": "Theatre (Hoxton St, N1). robots.txt disallows ClaudeBot, so it cannot be read. 2026 status not confirmed."
+    },
+    {
+      "id": "idea-stores-bethnal-green-library",
+      "name": "Idea Stores / Bethnal Green Library (Tower Hamlets)",
+      "postcode": null,
+      "reason": "Talks and author events. ideastore.towerhamlets.gov.uk answered 403 on 12 Oct 2026; no dated 2026 event found. Ask the council's library team for a feed."
+    },
+    {
+      "id": "toynbee-hall",
+      "name": "Toynbee Hall",
+      "postcode": null,
+      "reason": "Its /events/ page redirects to the home page; no public arts programme found for 2026."
+    },
+    {
+      "id": "bishopsgate-institute",
+      "name": "Bishopsgate Institute",
+      "postcode": null,
+      "reason": "Big talks programme, but in the City (outside our zones) and its what's-on search is built by script (no listings in page text)."
+    },
+    {
+      "id": "raven-row",
+      "name": "Raven Row",
+      "postcode": null,
+      "reason": "Spitalfields gallery. Home page gives no text (script-built); ArtRabbit refuses us. Only 2026 trace is a review last updated 22 Mar 2026. Check quarterly."
+    },
+    {
+      "id": "brick-lane-gallery",
+      "name": "The Brick Lane Gallery",
+      "postcode": "E1 6SA",
+      "reason": "Hire gallery at 216 Brick Lane. Newest show on its site is from Nov 2025; no 2026 evidence."
+    },
+    {
+      "id": "project-native-informant",
+      "name": "Project Native Informant",
+      "postcode": null,
+      "reason": "Named as a Three Colts Lane gallery (Plaster, Jan 2024), but its site shows nothing later than April 2024."
+    },
+    {
+      "id": "espacio-gallery",
+      "name": "Espacio Gallery",
+      "postcode": "E2 7DG",
+      "reason": "Core (159 Bethnal Green Road) and readable, with dated 2026 shows (30 Oct - 2 Nov 2026), but it is a hire space with short pay-to-show group exhibitions. Add only if a person wants them."
+    },
+    {
+      "id": "hales-gallery",
+      "name": "Hales",
+      "postcode": null,
+      "reason": "Readable (halesgallery.com/exhibitions/) with a London show 10 Sep - 17 Oct 2026, but address not confirmed on its site and it is in west Shoreditch (outer). Add if a person wants it."
+    },
+    {
+      "id": "space-studios",
+      "name": "SPACE",
+      "postcode": "E8 3RH",
+      "reason": "Readable what's-on page, but most 2026 events are at SPACE Ilford; Mare Street and Hackney open studios (23-24 Oct 2026) only occasionally."
+    },
+    {
+      "id": "neven-gallery",
+      "name": "Neven",
+      "postcode": null,
+      "reason": "New E2 gallery (opened Oct 2023 per Plaster). Website not found; 2026 status not checked."
+    },
+    {
+      "id": "st-margarets-house",
+      "name": "St Margaret's House / Gallery Cafe",
+      "postcode": null,
+      "reason": "Old Ford Rd community arts centre; /whats-on returns 404. Find the right page before adding."
+    },
+    {
+      "id": "burley-fisher-books",
+      "name": "Burley Fisher Books",
+      "postcode": null,
+      "reason": "Kingsland Rd bookshop with author events; /events returns 404. Find the right page before adding."
+    }
+  ],
+  "do_not_list": [
+    {
+      "id": "sherbet-green",
+      "name": "Sherbet Green",
+      "reason": "Former Minerva Street gallery. Its domain now serves an Indonesian gambling spam page (seen 12 Oct 2026) - never follow links to it. Whether the gallery still exists elsewhere is unknown.",
+      "domains": [
+        "sherbetgreen.com"
+      ]
+    },
+    {
+      "id": "matts-gallery",
+      "name": "Matt's Gallery",
+      "reason": "Left Mile End; its exhibitions page (Oct 2026) gives Webster Road, Bermondsey - outside our area."
+    },
+    {
+      "id": "vitrine",
+      "name": "VITRINE",
+      "reason": "Bermondsey / Fitzrovia - not East London."
+    },
+    {
+      "id": "studio-voltaire",
+      "name": "Studio Voltaire",
+      "reason": "Clapham, south London - out of area."
+    },
+    {
+      "id": "barbican",
+      "name": "Barbican Centre",
+      "reason": "City of London - out of area by decision."
+    }
+  ]
+}

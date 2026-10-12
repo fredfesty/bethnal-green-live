@@ -90,6 +90,14 @@
         "null"
       ]
     },
+    "run_schedule": {
+      "description": "For runs (exhibitions, theatre runs, special menus over several days): opening days and times in the source's own words, e.g. 'Tue–Sun 11am–6pm' or 'Tue–Sat 7.30pm, Sat matinee 2.30pm'. Needs evidence like any other fact.",
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 200
+    },
     "zone": {
       "$ref": "common.schema.json#/$defs/zone"
     },

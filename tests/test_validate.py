@@ -15,7 +15,7 @@ import validate  # noqa: E402
 EX_CAND = REPO / "data/candidates/nights-music/_example/2026-10-30-bgwmc-example-night.json"
 EX_VER = REPO / "data/verification/_example/2026-10-30-bgwmc-example-night.json"
 EX_EVENT = REPO / "docs/examples/event.json"
-SONGKICK = "https://www.songkick.com/concerts/123-example"
+AGGREGATOR = "https://www.timeout.com/london/things-to-do/123-example"
 
 
 @pytest.fixture(scope="module")
@@ -90,12 +90,15 @@ def test_example_candidate_passes(validators):
     (lambda d: d["evidence"][0].update(url="https://ra.co/events/123"), "never-use source"),
     (lambda d: d["evidence"][0].update(url="https://www.instagram.com/p/abc"), "never-use source"),
     (lambda d: d["evidence"][0].update(url="https://thepicklefactory.co.uk/x"), "never-use source"),
-    (lambda d: d["evidence"][0].update(url=SONGKICK), "cannot be 'primary'"),
+    (lambda d: d["evidence"][0].update(url=AGGREGATOR), "cannot be 'primary'"),
     (lambda d: d.update(ticket_url="javascript:alert(1)"), "format: ticket_url"),
     (lambda d: d.update(ticket_url="see venue site"), "format: ticket_url"),
     (lambda d: d.update(found_at="2026-13-45T99:99:00Z"), "format: found_at"),
     (lambda d: d["evidence"][0].update(quote="   "), "format: evidence.0.quote"),
     (lambda d: d["evidence"][0].update(quote="Fri"), "format: evidence.0.quote"),
+    (lambda d: d.update(subcategory="exhibition"), "is not a nights-music type"),
+    (lambda d: d.update(run_schedule="Tue–Sun 11am–6pm"), "'run_schedule' is filled in"),
+    (lambda d: d.update(ends_at="2027-08-01"), "runs for more than"),
     (lambda d: (d["venue"].update(venue_id="star-of-bethnal-green", name="The Star of Bethnal Green",
                                   address="359 Bethnal Green Rd, London", postcode="E2 6LG")), "'medium' at most"),
 ])
@@ -109,6 +112,15 @@ def test_candidate_rules(validators, mutate, expected):
 def test_candidate_file_name_must_match_id(validators):
     errs = errors("candidates", load(EX_CAND), validators, path=Path("other.json"))
     assert has(errs, "name should be 2026-10-30-bgwmc-example-night.json")
+
+
+def test_a_run_that_opened_earlier_is_still_current(validators):
+    d = copy.deepcopy(load(EX_CAND))
+    d.update(id="2026-09-01-bgwmc-example-night", starts_at="2026-09-01", ends_at="2026-11-30")
+    d["evidence"][1]["quote"] = "Exhibition runs 1 September to 30 November 2026"
+    assert not has(validate.check_candidate(EX_CAND.with_name(d["id"] + ".json"), d, dt.date(2026, 10, 13)), "outside the scouting window")
+    d.update(ends_at="2026-10-01")
+    assert has(validate.check_candidate(EX_CAND.with_name(d["id"] + ".json"), d, dt.date(2026, 10, 13)), "outside the scouting window")
 
 
 def test_window_only_when_asked(validators):
@@ -287,3 +299,13 @@ def test_bad_files_fail_without_crashing(validators, tmp_path, capsys):
 
 def test_whole_repo_is_valid():
     assert validate.main(["all"]) == 0
+
+
+def test_a_run_needs_its_closing_date_for_high_confidence(validators):
+    d = copy.deepcopy(load(EX_CAND))
+    d.update(starts_at="2026-10-30", ends_at="2026-12-12")
+    d["evidence"][1]["fields"] = [f for f in d["evidence"][1]["fields"] if f != "ends_at"]
+    errs = validate.check_candidate(EX_CAND, d, None)
+    assert has(errs, "closing date quoted from a primary source"), errs
+    assert not has(errs, "needs a start time")
+    assert validate.is_run(d) and not validate.is_run(load(EX_CAND))

@@ -1,17 +1,18 @@
 {
   "category": "nights-music",
-  "last_reviewed": "2026-10-12",
+  "last_reviewed": "2026-10-13",
   "notes": [
     "Seeded from a research pass on 12 Oct 2026. Each venue was confirmed open via a dated 2026 listing or 2026 news (see status_evidence).",
     "Official website URLs were not all fetched individually; the venue profiler should confirm them on its first run.",
     "Scouts may read this file but must not edit it. Suggested changes go in the run report for a human to apply.",
     "A venue with no_primary_listing: true has no venue or ticket page online; the verifier may publish its events on aggregator evidence alone.",
-    "Platform 'domains' are enforced by scripts/validate.py and scripts/check_quote.py: do-not-use and do-not-scrape domains are never fetched or accepted as evidence; discovery-only domains can never be labelled primary."
+    "Platform 'domains' are enforced by scripts/validate.py and scripts/check_quote.py: do-not-use and do-not-scrape domains are never fetched or accepted as evidence; discovery-only domains can never be labelled primary.",
+    "13 Oct 2026: DJ-coverage pass added 19 venues (mostly fringe/outer), DICE's 'DJ in London' browse page for daily discovery, and marked Songkick, EventsList (republishes RA), Shotgun (429) do-not-use."
   ],
   "zones": {
     "core": "E2 postcode or within about 1km of Bethnal Green tube. Scanned every run.",
     "fringe": "Up to about a 20-minute walk (1.6km) from Bethnal Green tube. Scanned every run.",
-    "outer": "Further out (Dalston, Hackney Central, Hackney Wick, west Shoreditch, Clapton). Scanned weekly, standout nights only, max 5 candidates per run, flagged worth_the_trip."
+    "outer": "Further out (Dalston, Hackney Central, Hackney Wick, west Shoreditch, Clapton). Club and DJ nights: scanned every run, up to 15 standout nights. Other music: Monday runs only, max 5. All flagged worth_the_trip."
   },
   "platforms": [
     {
@@ -29,31 +30,77 @@
       "id": "dice",
       "name": "DICE",
       "policy": "primary-read",
-      "how": "Read public dice.fm event and venue pages one at a time. Check robots.txt at the start of each run and stop if disallowed. The Partners API needs a venue or promoter to grant access, so it is only an option if a venue partners with us.",
+      "how": "Venue pages (dice.fm/venue/<slug>) carry up to ~30 events in JSON-LD with ISO dates; best primary source found. Browse pages give about 20 London-wide events (title, 'Fri 16 Oct' with no year, venue, price) with no addresses and no paging in the text; use them to spot venues, then read venue/event pages. Some venues' JSON-LD startDate is door time (Ridley Road: always 18:00).",
       "source": "https://apis.io/providers/dice-fm/",
       "domains": [
         "dice.fm"
+      ],
+      "browse_urls": [
+        {
+          "url": "https://dice.fm/browse/london-54d8a23438fe5d27d500001c/music/dj",
+          "readable": "ok",
+          "what_it_shows": "'DJ in London': ~20 soonest DJ events, title/day-date/venue/price as text. Best single daily DJ discovery page."
+        },
+        {
+          "url": "https://dice.fm/browse/london-54d8a23438fe5d27d500001c/music/party",
+          "readable": "ok",
+          "what_it_shows": "Party category, same format."
+        },
+        {
+          "url": "https://dice.fm/browse/london-54d8a23438fe5d27d500001c/music/dj/house",
+          "readable": "ok",
+          "what_it_shows": "Genre sub-page (also /disco, /techno and ~100 other genre slugs)."
+        },
+        {
+          "url": "https://dice.fm/browse/london",
+          "readable": "ok",
+          "what_it_shows": "Popular London events, all types; little DJ value."
+        }
       ]
     },
     {
       "id": "ticket-tailor",
       "name": "Ticket Tailor",
       "policy": "primary-read",
-      "how": "Read public box-office pages, e.g. tickettailor.com/events/<box-office>. The API key is per box office, so it is only available if the venue gives us one.",
+      "how": "Box-office pages as before. Discovery hub is global and uncurated - no London/DJ filter in text.",
       "source": "https://developers.tickettailor.com/docs/intro",
       "domains": [
         "tickettailor.com"
+      ],
+      "browse_urls": [
+        {
+          "url": "https://www.tickettailor.com/discover",
+          "readable": "ok",
+          "what_it_shows": "Worldwide sample of events by category; no London filter. Not useful."
+        }
       ]
     },
     {
       "id": "skiddle",
       "name": "Skiddle",
-      "policy": "api-pending",
-      "how": "GET /api/v1/events/search/ with latitude, longitude, radius (miles), eventcode (CLUB, LIVE, LGB, BARPUB) and minDate. Key in env SKIDDLE_API_KEY. If the key is missing, skip silently.",
+      "policy": "primary-read",
+      "how": "Public event and venue pages are readable (dates, postcodes): read them with page_text.py. API search also possible once SKIDDLE_API_KEY is set (non-commercial unless Skiddle agrees in writing). Public pages are readable and robots-allowed: venue pages (skiddle.com/whats-on/London/<Venue-Name>/) and listing pages embed JSON-LD events with ISO dates, venue address and postcode. Suggest allowing public-page reads alongside the pending API.",
       "blocker": "Free key is non-commercial unless Skiddle approves in writing. Apply and confirm before relying on it.",
       "source": "https://github.com/Skiddle/web-api/wiki/Events-API",
       "domains": [
         "skiddle.com"
+      ],
+      "browse_urls": [
+        {
+          "url": "https://www.skiddle.com/clubs/London/",
+          "readable": "ok",
+          "what_it_shows": "'Club Nights in London': 24 events per page in JSON-LD with dates, venue and postcode (filterable by E1/E2/E8...). London-wide, few East London results."
+        },
+        {
+          "url": "https://www.skiddle.com/whats-on/London/",
+          "readable": "ok",
+          "what_it_shows": "All London events, JSON-LD; not DJ-specific."
+        },
+        {
+          "url": "https://www.skiddle.com/whats-on/London/clubbing/",
+          "readable": "failed",
+          "what_it_shows": "404."
+        }
       ]
     },
     {
@@ -71,36 +118,70 @@
       "id": "outsavvy",
       "name": "OutSavvy",
       "policy": "primary-read",
-      "how": "Public event pages, mostly queer events. Read the specific event page.",
+      "how": "Search/explore page is readable text with event name, full date ('Tuesday 13th October 2026'), venue and price. Category filter in the query string is ignored by the text render, so expect all LGBTQ+ event types.",
       "domains": [
         "outsavvy.com"
+      ],
+      "browse_urls": [
+        {
+          "url": "https://www.outsavvy.com/search?location=London&category=club-nights",
+          "readable": "ok",
+          "what_it_shows": "'Events Near London' with names, full dates, venues, prices; mixed categories."
+        }
       ]
     },
     {
       "id": "songkick",
       "name": "Songkick",
-      "policy": "discovery-only",
-      "how": "Good for spotting gigs, but it is an aggregator. Use it to find leads, then confirm on the venue or ticket page. Never the only evidence for a high-confidence candidate. Light reads only; review its terms before scaling up.",
+      "policy": "do-not-use",
+      "how": "CHANGE: songkick.com robots.txt now has 'User-agent: ClaudeBot / Disallow: /'; page_text refuses every Songkick URL tested, including registry venue pages. All Songkick listings in nights-music.json are now unreadable.",
       "domains": [
         "songkick.com"
-      ]
+      ],
+      "browse_urls": [
+        {
+          "url": "https://www.songkick.com/venues/1539808",
+          "readable": "refused",
+          "what_it_shows": "robots.txt disallows ClaudeBot."
+        }
+      ],
+      "why": "Since October 2026 Songkick's robots.txt disallows ClaudeBot entirely. Do not fetch."
     },
     {
       "id": "mato",
       "name": "ma.to",
       "policy": "discovery-only",
-      "how": "Venue pages list DJ nights for several pubs and bars. Leads only; confirm on a primary page where one exists. If the venue has no other listing (e.g. Star of Bethnal Green), keep it at medium confidence at most.",
+      "how": "Venue pages (ma.to/venue/<slug>) list up to 5 upcoming events in JSON-LD with ISO dates and offsets; visible text has titles but no dates. Event pages (ma.to/event/...) carry full JSON-LD and an organizer.url that reveals venue slugs. Images are pulled from Instagram posts, so treat as leads only. robots.txt allows all except /api/ and /admin/.",
       "domains": [
         "ma.to"
+      ],
+      "browse_urls": [
+        {
+          "url": "https://ma.to/events/london",
+          "readable": "ok",
+          "what_it_shows": "'What's Happening Today in London': titles and venues, London-wide, no dates, no JSON-LD. Weak."
+        },
+        {
+          "url": "https://ma.to/cities",
+          "readable": "ok",
+          "what_it_shows": "City index (gives the /events/<city> URL pattern)."
+        }
       ]
     },
     {
       "id": "designmynight",
       "name": "DesignMyNight",
       "policy": "discovery-only",
-      "how": "Leads only.",
+      "how": "Individual event pages readable; venue pages carry no dated events; no working clubbing browse URL found. Also states closures (Juju's).",
       "domains": [
         "designmynight.com"
+      ],
+      "browse_urls": [
+        {
+          "url": "https://www.designmynight.com/london/whats-on/clubbing",
+          "readable": "failed",
+          "what_it_shows": "404."
+        }
       ]
     },
     {
@@ -110,6 +191,130 @@
       "how": "Not fetched by agents. Events seen there arrive as reader tips or manual entries.",
       "domains": [
         "instagram.com"
+      ]
+    },
+    {
+      "id": "nts",
+      "name": "NTS Radio events",
+      "policy": "primary-read",
+      "how": "Organiser's own events page; readable with dates. Check weekly for NTS parties in Dalston/Hackney (e.g. NTS Square Party, Gillett Square).",
+      "domains": [
+        "nts.live"
+      ],
+      "browse_urls": [
+        {
+          "url": "https://www.nts.live/events",
+          "readable": "ok",
+          "what_it_shows": "NTS events with date lines ('12 Sep 2026'); at test time only past events were listed."
+        }
+      ]
+    },
+    {
+      "id": "timeout",
+      "name": "Time Out London",
+      "policy": "discovery-only",
+      "how": "Editorial guides and news (useful for openings/closures); no dated club listings on the clubs hub.",
+      "domains": [
+        "timeout.com"
+      ],
+      "browse_urls": [
+        {
+          "url": "https://www.timeout.com/london/clubs",
+          "readable": "ok",
+          "what_it_shows": "Editorial club guides; no dated listings."
+        }
+      ]
+    },
+    {
+      "id": "fatsoma",
+      "name": "Fatsoma",
+      "policy": "discovery-only",
+      "how": "JS-only: page_text sees 'Loading...' on the London discover page. Not usable by agents as things stand.",
+      "domains": [
+        "fatsoma.com"
+      ],
+      "browse_urls": [
+        {
+          "url": "https://www.fatsoma.com/discover/london",
+          "readable": "js-only",
+          "what_it_shows": "Nothing but 'Loading...'."
+        }
+      ]
+    },
+    {
+      "id": "xceed",
+      "name": "XCEED",
+      "policy": "discovery-only",
+      "how": "JS-only for events: the London events page renders only navigation (Spanish/Italian venue links), no London events.",
+      "domains": [
+        "xceed.me"
+      ],
+      "browse_urls": [
+        {
+          "url": "https://xceed.me/en/london/events",
+          "readable": "js-only",
+          "what_it_shows": "No events in text."
+        }
+      ]
+    },
+    {
+      "id": "shotgun",
+      "name": "Shotgun",
+      "policy": "do-not-use",
+      "how": "Returned HTTP 429 on the first request; under house rules we stopped and did not retry. Re-test by hand later before any use.",
+      "domains": [
+        "shotgun.live"
+      ],
+      "browse_urls": [
+        {
+          "url": "https://shotgun.live/en/cities/london",
+          "readable": "refused",
+          "what_it_shows": "HTTP 429."
+        }
+      ]
+    },
+    {
+      "id": "eventslist",
+      "name": "EventsList.co.uk",
+      "policy": "do-not-use",
+      "how": "Readable venue pages with JSON-LD, but its offers link to ra.co event pages - it republishes Resident Advisor listings. Using it would launder RA data.",
+      "domains": [
+        "eventslist.co.uk"
+      ],
+      "browse_urls": [
+        {
+          "url": "https://eventslist.co.uk/london/venues/the-glove-that-fits-london",
+          "readable": "ok",
+          "what_it_shows": "23 upcoming events, ticket links to ra.co."
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "policy": "do-not-scrape",
+      "how": "Not in the registry yet, so scripts/policy.py does not block it. Add it alongside Instagram.",
+      "domains": [
+        "facebook.com",
+        "fb.com"
+      ]
+    },
+    {
+      "id": "towerhamletsslice",
+      "name": "Tower Hamlets Slice",
+      "policy": "do-not-use",
+      "how": "Local news site; robots.txt disallows ClaudeBot.",
+      "domains": [
+        "towerhamletsslice.co.uk"
+      ]
+    },
+    {
+      "id": "djmag",
+      "name": "DJ Mag",
+      "policy": "do-not-use",
+      "how": "News site; robots.txt disallows ClaudeBot.",
+      "domains": [
+        "djmag.com"
       ]
     }
   ],
@@ -193,7 +398,8 @@
         {
           "platform": "songkick",
           "url": "https://www.songkick.com/venues/1539808",
-          "role": "discovery"
+          "role": "unusable",
+          "notes": "Songkick blocks our crawler since Oct 2026; do not fetch."
         },
         {
           "platform": "mato",
@@ -203,7 +409,7 @@
       ],
       "status": "open",
       "status_evidence": "Songkick shows gigs through Sept 2026; Stereoboard lists 29 Oct 2026.",
-      "notes": "Own site blocked automated fetching during research."
+      "notes": "Own site blocked automated fetching during research. Its Songkick discovery listing is now refused (robots); ma.to remains."
     },
     {
       "id": "st-john-on-bethnal-green",
@@ -220,11 +426,13 @@
         {
           "platform": "songkick",
           "url": "https://www.songkick.com/venues/32302",
-          "role": "discovery"
+          "role": "unusable",
+          "notes": "Songkick blocks our crawler since Oct 2026; do not fetch."
         }
       ],
       "status": "open",
-      "status_evidence": "Songkick lists gigs on 27 Nov and 12 Dec 2026."
+      "status_evidence": "Songkick lists gigs on 27 Nov and 12 Dec 2026.",
+      "notes": "Only listing is Songkick, now refused (robots). Not a DJ venue; flag for the gigs side."
     },
     {
       "id": "oxford-house",
@@ -263,13 +471,13 @@
         {
           "platform": "songkick",
           "url": null,
-          "role": "discovery",
-          "notes": "Listed as 'Dream Bags Jaguar Shoes'."
+          "role": "unusable",
+          "notes": "Songkick blocks our crawler since Oct 2026; do not fetch."
         }
       ],
       "status": "open",
       "status_evidence": "Songkick gigs in Jul and Sept 2026.",
-      "notes": "E2 postcode but about 1.8km from Bethnal Green tube, so treated as fringe."
+      "notes": "E2 postcode but about 1.8km from Bethnal Green tube, so treated as fringe. Only listing is Songkick, now refused (robots). No readable replacement found."
     },
     {
       "id": "rich-mix",
@@ -325,7 +533,8 @@
         {
           "platform": "songkick",
           "url": "https://www.songkick.com/venues/6975",
-          "role": "discovery"
+          "role": "unusable",
+          "notes": "Songkick blocks our crawler since Oct 2026; do not fetch."
         }
       ],
       "status": "open",
@@ -407,7 +616,8 @@
         {
           "platform": "songkick",
           "url": "https://www.songkick.com/venues/7898",
-          "role": "discovery"
+          "role": "unusable",
+          "notes": "Songkick blocks our crawler since Oct 2026; do not fetch."
         }
       ],
       "status": "open",
@@ -434,7 +644,8 @@
         {
           "platform": "songkick",
           "url": "https://www.songkick.com/venues/628031",
-          "role": "discovery"
+          "role": "unusable",
+          "notes": "Songkick blocks our crawler since Oct 2026; do not fetch."
         }
       ],
       "status": "open",
@@ -461,7 +672,8 @@
         {
           "platform": "songkick",
           "url": "https://www.songkick.com/venues/3256",
-          "role": "discovery"
+          "role": "unusable",
+          "notes": "Songkick blocks our crawler since Oct 2026; do not fetch."
         }
       ],
       "status": "open",
@@ -488,7 +700,8 @@
         {
           "platform": "songkick",
           "url": "https://www.songkick.com/venues/3062884",
-          "role": "discovery"
+          "role": "unusable",
+          "notes": "Songkick blocks our crawler since Oct 2026; do not fetch."
         }
       ],
       "status": "open",
@@ -540,12 +753,20 @@
         {
           "platform": "songkick",
           "url": "https://www.songkick.com/venues/3991334",
-          "role": "discovery"
+          "role": "unusable",
+          "notes": "Songkick blocks our crawler since Oct 2026; do not fetch."
+        },
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/nighttalesldn",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "JSON-LD: 'Luke Unabomber: É Soul Cultura' 16 Oct 2026 22:00."
         }
       ],
       "status": "open",
       "status_evidence": "Nights on 17, 23 and 30 Oct and 1 Nov 2026.",
-      "notes": "Also on RA — do not use RA."
+      "notes": "Also on RA — do not use RA. Its Songkick listing is now unreadable (robots). 'Night Tales Loft' (second room) events sell on DICE (DJ browse: BRIDGE & Marcia Carr, Fri 16 Oct); DICE venue URL not found."
     },
     {
       "id": "joiners-heart",
@@ -588,7 +809,8 @@
         }
       ],
       "status": "open",
-      "status_evidence": "Gig on 15 Oct 2026; ma.to lists 7 Nov 2026."
+      "status_evidence": "Gig on 15 Oct 2026; ma.to lists 7 Nov 2026.",
+      "notes": "DICE DJ browse lists 'Decadance Club Night' (free) on Fri 16 Oct, so it also sells on DICE; venue URL not found."
     },
     {
       "id": "hackney-empire",
@@ -627,11 +849,13 @@
         {
           "platform": "songkick",
           "url": "https://www.songkick.com/venues/1127176",
-          "role": "discovery"
+          "role": "unusable",
+          "notes": "Songkick blocks our crawler since Oct 2026; do not fetch."
         }
       ],
       "status": "open",
-      "status_evidence": "Mercury Rev on 17 Oct and The Mountain Goats on 21-22 Oct 2026."
+      "status_evidence": "Mercury Rev on 17 Oct and The Mountain Goats on 21-22 Oct 2026.",
+      "notes": "Only listing is Songkick, now refused (robots)."
     },
     {
       "id": "dalston-superstore",
@@ -653,7 +877,8 @@
         }
       ],
       "status": "open",
-      "status_evidence": "Club nights 14-28 Oct 2026."
+      "status_evidence": "Club nights 14-28 Oct 2026.",
+      "notes": "ma.to page re-tested OK: JSON-LD gives up to 5 dated events (e.g. Bledi Fantasy 16 Oct 2026 22:00). Still no primary listing."
     },
     {
       "id": "the-divine",
@@ -692,11 +917,13 @@
         {
           "platform": "songkick",
           "url": null,
-          "role": "discovery"
+          "role": "unusable",
+          "notes": "Songkick blocks our crawler since Oct 2026; do not fetch."
         }
       ],
       "status": "open",
-      "status_evidence": "Songkick gigs Jul-Oct 2026."
+      "status_evidence": "Songkick gigs Jul-Oct 2026.",
+      "notes": "Songkick refused. DICE DJ browse lists 'Back to 2001' (free) on Thu 15 Oct, so it sells on DICE; venue URL not found."
     },
     {
       "id": "earth-hackney",
@@ -718,7 +945,8 @@
         {
           "platform": "songkick",
           "url": "https://www.songkick.com/venues/4464464",
-          "role": "discovery"
+          "role": "unusable",
+          "notes": "Songkick blocks our crawler since Oct 2026; do not fetch."
         }
       ],
       "status": "open",
@@ -739,10 +967,18 @@
           "platform": "skiddle",
           "url": "https://www.skiddle.com/whats-on/London/Colour-Factory/",
           "role": "primary"
+        },
+        {
+          "platform": "dice",
+          "url": "https://dice.fm/venue/colour-factory-z6v7",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "23 events in JSON-LD, e.g. 'Bubbledee: House Music Haven in Hackney Wick' 17 Oct 2026 22:00."
         }
       ],
       "status": "open",
-      "status_evidence": "Nights on 10 Oct and 19 Dec 2026."
+      "status_evidence": "Nights on 10 Oct and 19 Dec 2026.",
+      "notes": "DICE is a better primary than the Skiddle page."
     },
     {
       "id": "number-90",
@@ -758,14 +994,16 @@
         {
           "platform": "songkick",
           "url": "https://www.songkick.com/venues/2590378",
-          "role": "discovery"
+          "role": "unusable",
+          "notes": "Songkick blocks our crawler since Oct 2026; do not fetch."
         }
       ],
       "status": "open",
       "status_evidence": "Events 15 Oct-7 Nov 2026. Formerly Studio 9294 (renamed 2023); 6am licence.",
       "aliases": [
         "Studio 9294"
-      ]
+      ],
+      "notes": "Only listing is Songkick, which now refuses us (robots). DICE DJ browse lists '160 Unity presents: DJ Slugo' at Number 90 on Fri 16 Oct, so it sells on DICE - record the DICE venue URL from an event page. Skiddle venue guess 404."
     },
     {
       "id": "grow-hackney",
@@ -783,11 +1021,614 @@
         {
           "platform": "songkick",
           "url": "https://tickets.songkick.com/venues/3273524",
-          "role": "discovery"
+          "role": "unusable",
+          "notes": "Songkick blocks our crawler since Oct 2026; do not fetch."
         }
       ],
       "status": "open",
-      "status_evidence": "Nights 15-29 Oct 2026."
+      "status_evidence": "Nights 15-29 Oct 2026.",
+      "notes": "Only listing is tickets.songkick.com, now refused (robots). No readable replacement found; Skiddle guess 404."
+    },
+    {
+      "id": "queen-adelaide",
+      "name": "The Queen Adelaide",
+      "address": "483 Hackney Rd, London",
+      "postcode": "E2 9ED",
+      "zone": "core",
+      "type": [
+        "pub",
+        "queer-venue",
+        "club",
+        "dj-bar"
+      ],
+      "website": "https://www.thequeenadelaide.com",
+      "listings": [
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/thequeenadelaide",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "JSON-LD lists upcoming events with ISO dates (e.g. Club Shilpa 13 Nov 2026 22:00)."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://www.thequeenadelaide.com",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Readable but has no event listings (bookings, basement hire only)."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "ma.to lists 'Club Shilpa' (queer club night) on 13 Nov 2026 22:00; also 'Joe Egg After Dark' at the Queen Adelaide on Joe Egg's ma.to page (fetched 13 Oct 2026).",
+      "no_primary_listing": true,
+      "notes": "LGBTQ+ pub with basement club. Address from Time Out venue page. No dated primary listing found: candidate for a direct relationship."
+    },
+    {
+      "id": "cafe-1001",
+      "name": "Café 1001",
+      "address": "91 Brick Lane (Dray Walk), London",
+      "postcode": "E1 6QL",
+      "zone": "fringe",
+      "type": [
+        "cafe-bar",
+        "dj-bar",
+        "hi-fi-listening-bar",
+        "radio"
+      ],
+      "website": "https://www.cafe1001.co.uk",
+      "listings": [
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/cafe_1001",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "Venue page; JSON-LD carries upcoming events with dates (e.g. Athens of the North Disco Club, 30 Oct 2026 19:00). Note slug cafe_1001 (ma.to/venue/cafe1001 is 404)."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://www.cafe1001.co.uk",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Readable but shows no event listings."
+        },
+        {
+          "platform": "songkick",
+          "url": "https://www.songkick.com/venues/15750-cafe-1001",
+          "role": "discovery",
+          "readable": "refused",
+          "notes": "Songkick robots.txt disallows ClaudeBot."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "ma.to lists 'Athens of the North Disco Club' at Cafe 1001 on 30 Oct 2026, and the 25th anniversary weekend from 28 Aug 2026.",
+      "no_primary_listing": true,
+      "notes": "Nightly DJs on a hi-fi system; streams as Radio 1001 (Thursday 'Radio 1001 Live'). Tickets for big nights via the venue's Linktree (not tested)."
+    },
+    {
+      "id": "basing-house",
+      "name": "Basing House",
+      "address": "25 Kingsland Road, London",
+      "postcode": "E2 8AA",
+      "zone": "fringe",
+      "type": [
+        "club",
+        "dj-bar",
+        "rooftop"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/basing_house",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "JSON-LD: NEFS London Edition Part 3 (16 Oct 2026 22:00), Division Sounds Halloween Pt2 (23 Oct 2026)."
+        },
+        {
+          "platform": "dice",
+          "url": null,
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Sells on DICE (DJ browse page lists 'YOUR MUM'S HOUSE', Thu 15 Oct) but the DICE venue URL was not found; scout should record it from an event page."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "ma.to lists 'NEFS London Edition Part 3' on 16 Oct 2026 and 'Division Sounds Halloween Pt2' on 23 Oct 2026.",
+      "notes": "300-capacity late-licence basement club with rooftop. E2 postcode but about 1.6-1.9 km from Bethnal Green tube, so fringe like Jaguar Shoes. DesignMyNight venue page has no dated events."
+    },
+    {
+      "id": "mare-street-market",
+      "name": "Mare Street Market",
+      "address": "117 Mare Street, Hackney, London",
+      "postcode": "E8 4RU",
+      "zone": "fringe",
+      "type": [
+        "bar",
+        "restaurant",
+        "dj-bar",
+        "day-party"
+      ],
+      "website": "https://marestreetmarket.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://marestreetmarket.com/events-hackney/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "'WHATS' ON / HACKNEY' lists date (16.10.26), time and act as plain text, e.g. 'Enjoy Fridays With Maurice Alexander' 16.10.26 18.00, Free entry. The /events link redirects here."
+        },
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/marestreetmarket",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "JSON-LD with dates (DJ day sessions and evening sets)."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Own events page lists 'Enjoy Fridays With Maurice Alexander' on 16.10.26 at 18.00 and 'Paul Day' on 17.10.26 at 12.00, free entry.",
+      "notes": "Free weekend DJ day sessions and Friday evening sets. Shares the building with Stranger Than Paradise Records. Has a King's Cross sister site: take Hackney only."
+    },
+    {
+      "id": "stranger-than-paradise-records",
+      "name": "Stranger Than Paradise Records",
+      "address": "Mare Street Market, 117 Mare Street, London",
+      "postcode": "E8 4RU",
+      "zone": "fringe",
+      "type": [
+        "record-shop",
+        "in-store",
+        "dj-sets"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/strangerthanparadiserecords",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "Venue page readable; no upcoming events at time of test. Its bio says events sell on DICE."
+        },
+        {
+          "platform": "dice",
+          "url": null,
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Events on DICE per the shop's own Linktree text; DICE organiser/venue URL not found."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "ma.to: hosted DJs for 'The Dig' East London record shop crawl on 27 Jun 2026.",
+      "notes": "Record-shop DJ sets are occasional; scan monthly."
+    },
+    {
+      "id": "netil360",
+      "name": "Netil360",
+      "address": "Netil House, 1 Westgate St, Hackney, London",
+      "postcode": "E8 3RL",
+      "zone": "fringe",
+      "type": [
+        "rooftop-bar",
+        "dj-bar"
+      ],
+      "website": "https://www.netil360.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.netil360.com",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Readable; standing line 'DJs every Friday & Saturday' plus Jazz Thursdays, but no dated listings."
+        },
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/netil360",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "'No upcoming events scheduled'; past events show September rooftop DJ sessions."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Website live on 13 Oct 2026 says 'DJs every Friday & Saturday'; ma.to shows past September rooftop DJ sessions. No dated upcoming event yet - confirm before first listing.",
+      "no_primary_listing": true,
+      "notes": "Good 'On repeat' candidate (weekend DJs) rather than per-event scouting. Netil Radio is based in the same building but its site has no events page."
+    },
+    {
+      "id": "george-tavern",
+      "name": "The George Tavern",
+      "address": "373 Commercial Rd, London",
+      "postcode": "E1 0LA",
+      "zone": "fringe",
+      "type": [
+        "pub",
+        "gig-venue",
+        "dj-party"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "dice",
+          "url": "https://dice.fm/venue/the-george-tavern-kx88",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "25 events in JSON-LD with ISO dates; also plain-text dates."
+        },
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/thegeorgetavern",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "JSON-LD with dates."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "DICE lists 'Bathtime Fall Party: Kissing Gate, Ike Goldman + more' on 17 Oct 2026 14:00 and 'You Wanted a Party?' on 16 Oct 2026.",
+      "notes": "Mainly gigs and karaoke; take only DJ parties. About 1.5 km south of Bethnal Green tube (Stepney)."
+    },
+    {
+      "id": "glove-that-fits",
+      "name": "The Glove That Fits (and Gloves Off garden)",
+      "address": "179 Morning Lane, Hackney, London",
+      "postcode": "E9 6LH",
+      "zone": "outer",
+      "type": [
+        "club",
+        "dj-bar",
+        "day-party"
+      ],
+      "website": "https://www.theglovethatfits.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.theglovethatfits.com",
+          "role": "primary",
+          "readable": "refused",
+          "notes": "page_text: 'robots.txt unreachable' - treated as refused."
+        },
+        {
+          "platform": "skiddle",
+          "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Venue page readable (postcode E9 6LH) but no upcoming events."
+        },
+        {
+          "platform": "eventslist",
+          "url": "https://eventslist.co.uk/london/venues/the-glove-that-fits-london",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "Lists 23 upcoming events but its ticket links point to ra.co - do not use (see platforms)."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Time Out, 18 Feb 2026: refurbished and granted a permanent licence to 4am on Fridays and Saturdays.",
+      "no_primary_listing": true,
+      "notes": "Basement DJ club, very active, but its events sell on RA. No readable primary listing - RA-only gap; candidate for a direct relationship. Gloves Off is its open-air garden (day sessions)."
+    },
+    {
+      "id": "ridley-road-market-bar",
+      "name": "Ridley Road Market Bar",
+      "address": "49 Ridley Road, Dalston, London",
+      "postcode": "E8 2NP",
+      "zone": "outer",
+      "type": [
+        "dj-bar",
+        "queer-friendly",
+        "karaoke"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "dice",
+          "url": "https://dice.fm/venue/ridley-road-market-bar-a28q",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "30 events in JSON-LD with dates. Every startDate is 18:00 (door time, not set time) - quote the event page for times."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "DICE lists 'ICONS ONLY' on 16 Oct 2026 and 'Club Mix' on 17 Oct 2026 (to 03:00).",
+      "notes": "Free DJ nights most days; the most frequent East London venue on the DICE DJ browse page. Skip karaoke and screenings."
+    },
+    {
+      "id": "farrs-dalston",
+      "name": "Farr's Dalston",
+      "address": "17-19 Dalston Lane, London",
+      "postcode": "E8 3DF",
+      "zone": "outer",
+      "type": [
+        "bar",
+        "dj-bar"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/farrsdalston",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "JSON-LD: '¡OYE! Fundraiser for Colombia' 17 Oct 2026 17:00."
+        },
+        {
+          "platform": "dice",
+          "url": null,
+          "role": "primary",
+          "readable": "ok",
+          "notes": "DICE DJ browse lists 'Vinyl Lounge Session' (Fri 16 Oct, free); DICE venue URL not found."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "ma.to lists '¡OYE! Fundraiser for Colombia' at Farr's Dalston on 17 Oct 2026.",
+      "notes": "Former Farr's School of Dancing; basement DJ room."
+    },
+    {
+      "id": "the-jago",
+      "name": "The Jago",
+      "address": "440 Kingsland Road, London",
+      "postcode": "E8 4AA",
+      "zone": "outer",
+      "type": [
+        "club",
+        "bar",
+        "live-music"
+      ],
+      "website": "http://www.thejagodalston.com",
+      "listings": [
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/thejagodalston",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "JSON-LD: Move Your Boots 16 Oct 2026 22:00; The Social Club 001 24 Oct 2026 15:00."
+        },
+        {
+          "platform": "dice",
+          "url": null,
+          "role": "primary",
+          "readable": "ok",
+          "notes": "DICE DJ browse lists 'Move Your Boots x Bliss Out' (Fri 16 Oct, £8); DICE venue URL not found."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "ma.to lists 'Move Your Boots' on 16 Oct 2026 and 'Nu Earth Groove' on 4 Nov 2026.",
+      "notes": "All-vinyl parties, afrobeats/disco/reggae. Address from Time Out. Next door to The Haggerston (438)."
+    },
+    {
+      "id": "brilliant-corners",
+      "name": "Brilliant Corners",
+      "address": null,
+      "postcode": null,
+      "zone": "outer",
+      "type": [
+        "dj-bar",
+        "hi-fi-listening-bar",
+        "restaurant"
+      ],
+      "website": "https://brilliantcornerslondon.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://brilliantcornerslondon.co.uk/dates/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Plain-text list: 'Fri 16 Oct 26' then the DJ's name, for about 80 nights ahead."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Own /dates page lists DJs nightly from 'Mon 12 Oct 26' (Udi Ehrlich) to late Dec 2026.",
+      "notes": "Kingsland Road, Dalston; exact address not confirmed by a fetched page (contact page 404). Listing gives DJ name only, no start time or price - every night has a DJ, so best as an 'On repeat' entry plus standout guests."
+    },
+    {
+      "id": "shacklewell-arms",
+      "name": "The Shacklewell Arms",
+      "address": "71 Shacklewell Lane, London",
+      "postcode": "E8 2EB",
+      "zone": "outer",
+      "type": [
+        "pub",
+        "gig-venue",
+        "club"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "dice",
+          "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "29 events in JSON-LD with dates."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "DICE lists 'Caliente' on 16 Oct 2026 23:00-03:00 and 'Sweet Dreams Soul & Disco' on Fri 23 Oct.",
+      "notes": "Mostly gigs; late club nights after the bands. Take DJ nights only."
+    },
+    {
+      "id": "three-compasses-dalston",
+      "name": "The Three Compasses",
+      "address": "99 Dalston Ln, London",
+      "postcode": "E8 1NH",
+      "zone": "outer",
+      "type": [
+        "pub",
+        "dj-bar"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "dice",
+          "url": "https://dice.fm/venue/the-three-compasses-qony",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "30 events in JSON-LD with dates."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "DICE lists 'Break It Down' on 16 Oct 2026 21:00 and 'Certified Bangers' on 24 Oct 2026."
+    },
+    {
+      "id": "queen-of-hoxton",
+      "name": "Queen of Hoxton",
+      "address": "1 Curtain Rd, London",
+      "postcode": "EC2A 3JX",
+      "zone": "outer",
+      "type": [
+        "bar",
+        "club",
+        "rooftop",
+        "drag"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "dice",
+          "url": "https://dice.fm/venue/queen-of-hoxton-4ng8",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "15 events in JSON-LD with dates."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "DICE lists 'So Fresh So Clean' on 16 Oct 2026 19:00-02:00 and again 23 Oct 2026.",
+      "notes": "Mix of club nights and drag cabaret; take club nights."
+    },
+    {
+      "id": "26-curtain-road",
+      "name": "26 Curtain Road",
+      "address": "26 Curtain Road, London",
+      "postcode": "EC2A 3NY",
+      "zone": "outer",
+      "type": [
+        "dj-bar",
+        "vinyl-bar"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "skiddle",
+          "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "JSON-LD lists events with dates (Strictly Vinyl free Thursday DJ Sessions 15, 22, 29 Oct 2026)."
+        },
+        {
+          "platform": "dice",
+          "url": null,
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Also on DICE (DJ browse page); venue URL not found."
+        },
+        {
+          "platform": "designmynight",
+          "url": "https://www.designmynight.com/london/restaurants/shoreditch/26-curtain-road/strictly-vinyl-free-thursdays-dj-sessions-the-autumn-winter-relaunch",
+          "role": "discovery",
+          "readable": "ok"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Skiddle lists 'Strictly Vinyl free Thursday DJ Sessions' on 15, 22 and 29 Oct 2026, 19:00.",
+      "notes": "Free vinyl-only DJ sessions weekly; 'On repeat' candidate."
+    },
+    {
+      "id": "xoyo",
+      "name": "XOYO",
+      "address": "32-37 Cowper St, London",
+      "postcode": "EC2A 4AP",
+      "zone": "outer",
+      "type": [
+        "club"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "dice",
+          "url": "https://dice.fm/venue/xoyo-london-4n38",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "JSON-LD with dates; only 6 events (club nights also sell elsewhere, e.g. Skiddle)."
+        },
+        {
+          "platform": "skiddle",
+          "url": null,
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Skiddle London clubs page lists 'Groovin' x Cure' at XOYO on 17 Oct 2026 23:00."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "DICE lists 'MOTION: Every Monday' on 19 Oct 2026 23:00; Skiddle lists 'Groovin' x Cure' on 17 Oct 2026.",
+      "notes": "Standout nights only (outer)."
+    },
+    {
+      "id": "colours-hoxton",
+      "name": "Colours Hoxton",
+      "address": "2-4 Hoxton Square, London",
+      "postcode": "N1 6NU",
+      "zone": "outer",
+      "type": [
+        "club",
+        "gig-venue"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "dice",
+          "url": "https://dice.fm/venue/colours-hoxton-mxew",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "30 events in JSON-LD with dates."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "DICE lists 'Lady Olé presents Ciao Iitalia: Tutti Frutti Edition' on 17 Oct 2026 22:30.",
+      "notes": "Mostly gigs early evening, club nights late. Take DJ nights only."
+    },
+    {
+      "id": "hackney-bridge",
+      "name": "Hackney Bridge (incl. Nico's bar)",
+      "address": "Hackney Bridge, East Bay Lane, London",
+      "postcode": "E15 2SJ",
+      "zone": "outer",
+      "type": [
+        "day-party",
+        "dj-bar",
+        "market"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/nicos.hackneybridge",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "Nico's bar: JSON-LD 'Based On Taste' 23 Oct 2026 17:00, 'EPIC Jam Afterparty' 21 Nov 2026."
+        },
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/hackney_bridge",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "No upcoming events at test time."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://hackneybridge.org/whats-on/",
+          "role": "primary",
+          "readable": "failed",
+          "notes": "404."
+        },
+        {
+          "platform": "songkick",
+          "url": "https://www.songkick.com/venues/4417882-hackney-bridge",
+          "role": "discovery",
+          "readable": "refused",
+          "notes": "Songkick blocks ClaudeBot."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "ma.to lists 'Based On Taste' at Nico's bar, Hackney Bridge, on 23 Oct 2026; NTS hosted a party here on 11 Jul 2026 (nts.live/events).",
+      "no_primary_listing": true,
+      "notes": "Canal-side Hackney Wick hub; open-air day parties in summer. Address line from ma.to ('Hackney Bridge, London E15 2SJ')."
     }
   ],
   "watchlist": [
@@ -816,6 +1657,54 @@
       "name": "Sun Tavern",
       "postcode": null,
       "reason": "Trading, but no 2026 music programme found."
+    },
+    {
+      "id": "love-vinyl",
+      "name": "Love Vinyl",
+      "postcode": null,
+      "reason": "Hoxton record shop; took part in The Dig record shop crawl on 27 Jun 2026 (ma.to). lovevinyl.london now redirects to a gambling spam site - real site is lovevinyl.net (no events page). No dated in-store DJ events found."
+    },
+    {
+      "id": "kristina-records",
+      "name": "Kristina Records",
+      "postcode": null,
+      "reason": "Time Out marks it CLOSED, but ma.to's listing of The Dig (27 Jun 2026) names it as a participating shop. Status unclear - confirm before use."
+    },
+    {
+      "id": "flashback-records",
+      "name": "Flashback Records (Shoreditch branch)",
+      "postcode": null,
+      "reason": "Record shop with occasional in-store DJs (ma.to: 'DJ Andy Smith & 7Locks', 27 Jun 2026; ma.to/venue/flashbacklondon). Branch address on Bethnal Green Rd not confirmed by a fetched page."
+    },
+    {
+      "id": "peoples-park-tavern",
+      "name": "People's Park Tavern",
+      "postcode": "E9 7BT",
+      "reason": "ma.to describes 'resident DJs' but its only dated 2026 listing is a life-drawing class (22 Oct 2026). Check for dated DJ events."
+    },
+    {
+      "id": "london-fields-brewery",
+      "name": "London Fields Brewery",
+      "postcode": null,
+      "reason": "Hosts DJ parties, but its site's robots.txt disallows BethnalGreenLiveBot. Only route is its Eventbrite organiser 3843117821 via the API. No dated 2026 DJ event confirmed."
+    },
+    {
+      "id": "boxpark-shoreditch",
+      "name": "Boxpark Shoreditch",
+      "postcode": null,
+      "reason": "DICE DJ browse lists free DJ nights ('Birdnoise: R&B Edition', Fri 16 Oct). Container food park, not a DJ venue; consider only standout nights."
+    },
+    {
+      "id": "dona-stoke-newington",
+      "name": "Doña",
+      "postcode": null,
+      "reason": "Small DJ/salsa bar (DICE browse: 'Salsa Tropicalista w/ Tryb', Fri 16 Oct; many DesignMyNight event pages). Address and ma.to/DICE venue URLs not found; outside the listed outer areas."
+    },
+    {
+      "id": "moonrays-coven-hq",
+      "name": "Moonrays / COVEN HEADQUARTERS",
+      "postcode": null,
+      "reason": "Both appear repeatedly on the DICE London DJ page but their locations are unknown - check whether either is in East London."
     }
   ],
   "do_not_list": [
@@ -855,6 +1744,20 @@
       "name": "Space289",
       "reason": "Closed July 2022.",
       "source": "https://djmag.com/news/londons-space289-announces-closure-due-rent-increase"
+    },
+    {
+      "id": "jujus-bar-and-stage",
+      "name": "Juju's Bar & Stage (Old Truman Brewery)",
+      "reason": "Closed - DesignMyNight venue page says 'Sorry, JuJu's Bar & Stage is now closed.' (fetched 13 Oct 2026).",
+      "source": "https://www.designmynight.com/london/bars/shoreditch/jujus"
+    },
+    {
+      "id": "love-vinyl-old-domain",
+      "name": "lovevinyl.london (old Love Vinyl domain)",
+      "reason": "Domain now redirects to a gambling spam site (hitclub7.it). The shop itself trades at lovevinyl.net - block the domain only.",
+      "domains": [
+        "lovevinyl.london"
+      ]
     }
   ],
   "recurring_highlights": [
