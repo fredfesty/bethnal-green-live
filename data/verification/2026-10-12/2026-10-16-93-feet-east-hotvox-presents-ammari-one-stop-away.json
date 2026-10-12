@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-16-93-feet-east-hotvox-presents-ammari-one-stop-away",
+  "candidate_file": "data/candidates/nights-music/2026-10-12/2026-10-16-93-feet-east-hotvox-presents-ammari-one-stop-away.json",
+  "run_id": "2026-10-12-v",
+  "verified_at": "2026-10-12T23:16:07+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Published with gaps; removed: age_restriction, genres, lineup.",
+    "age_restriction: Quote is on the page but the event title is not near it (title_nearby false), so not accepted.",
+    "genres: Quote is on the page but the event title is not near it (title_nearby false), so not accepted.",
+    "lineup: The only lineup quote names no acts (\"a whole host of live bands\"); the names come from the title, so the line-up is not confirmed."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9716",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9716",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9716",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Friday 16 Oct 2026 19:00; offset +01:00 is right for London on that date."
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9716",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "unverifiable",
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9716",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "The only lineup quote names no acts (\"a whole host of live bands\"); the names come from the title, so the line-up is not confirmed."
+    },
+    {
+      "field": "genres",
+      "result": "unverifiable",
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9716",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Quote is on the page but the event title is not near it (title_nearby false), so not accepted."
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9716",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Same page the title and date were found on, so it loads and is for this event."
+    },
+    {
+      "field": "age_restriction",
+      "result": "unverifiable",
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9716",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Quote is on the page but the event title is not near it (title_nearby false), so not accepted."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

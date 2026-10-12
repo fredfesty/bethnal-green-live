@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-17-rich-mix-k-music-festival-chudahye-chagis",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "K-MUSIC FESTIVAL: CHUDAHYE CHAGIS",
+  "venue": {
+    "venue_id": "rich-mix",
+    "name": "Rich Mix",
+    "address": "35-47 Bethnal Green Rd, London",
+    "postcode": "E1 6LA"
+  },
+  "starts_at": "2026-10-17T19:30:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "CHUDAHYE CHAGIS"
+  ],
+  "genres": [
+    "psychedelic shamanic funk"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 15,
+    "max_gbp": 15,
+    "notes": "£15"
+  },
+  "ticket_url": "https://dice.fm/event/69ce409c4232c80001c24d25",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url",
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/69ce409c4232c80001c24d25",
+      "quote": "K-MUSIC FESTIVAL: CHUDAHYE CHAGIS Rich Mix Sat 17 Oct, 7:30 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/69ce409c4232c80001c24d25",
+      "quote": "£15 The price you'll pay",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/69ce409c4232c80001c24d25",
+      "quote": "Driven by a striking voice, Chu Dahye returns with psychedelic shamanic funk.",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/69ce409c4232c80001c24d25",
+      "quote": "35-47 Bethnal Green Rd, London E1 6LA",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-12T23:16:07+01:00",
+    "run_id": "2026-10-12-v",
+    "outcome": "verified-with-gaps",
+    "removed_fields": [
+      "age_restriction"
+    ],
+    "record": "data/verification/2026-10-12/2026-10-17-rich-mix-k-music-festival-chudahye-chagis.json"
+  },
+  "editor_note": null,
+  "listing": null,
+  "first_seen": "2026-10-12T23:16:07+01:00",
+  "updated_at": "2026-10-12T23:16:07+01:00",
+  "history": [],
+  "needs_review": null
+}

@@ -1,0 +1,66 @@
+{
+  "id": "2026-10-16-star-of-bethnal-green-jubel-dj-crooks-goons",
+  "candidate_file": "data/candidates/nights-music/2026-10-12/2026-10-16-star-of-bethnal-green-jubel-dj-crooks-goons.json",
+  "run_id": "2026-10-12-v",
+  "verified_at": "2026-10-12T23:16:07+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Venue unconfirmed: no quote on the ma.to page names The Star of Bethnal Green (the page itself shows \"Where The Star of Bethnal Green\").",
+    "Title and start (Fri 16 Oct 20:00-02:00) are confirmed on ma.to, an aggregator; venue is no_primary_listing so that would be enough if the venue were quoted.",
+    "Person to check: open the ma.to page and approve if the venue line matches, or ask the scout to quote it."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://ma.to/event/jubel-dj-crooks-goons-16-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "unverifiable",
+      "url": "https://ma.to/event/jubel-dj-crooks-goons-16-oct-2026",
+      "method": "none",
+      "source_kind": "aggregator",
+      "note": "No evidence quote names the venue: the quotes are the title/date line and the lineup line only. The page shows \"Where The Star of Bethnal Green\" but that was not quoted, and nothing else confirms the venue."
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/jubel-dj-crooks-goons-16-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Friday 16 Oct 2026 20:00; offset +01:00 is right for London on that date."
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/jubel-dj-crooks-goons-16-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://ma.to/event/jubel-dj-crooks-goons-16-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://ma.to/event/jubel-dj-crooks-goons-16-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Same page the title and date were found on, so it loads and is for this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "2026-10-23-troxy-yll-limani-international-live-tour-2026",
+  "subcategory": "gig",
+  "title": "Yll Limani – International Live Tour 2026",
+  "summary": "Live concert by Yll Limani with a full band, on his tour named after his latest album.",
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-23T19:00:00+01:00",
+  "zone": "fringe",
+  "lineup": [
+    "Yll Limani"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+  "age_restriction": "14+",
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ticket_url",
+        "lineup"
+      ],
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "quote": "23.10.26 Yll Limani – International Live Tour 2026",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "quote": "19:00 - Doors Open / Event Starts",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "quote": "Yll Limani – International Live Tour 2026 - Troxy",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "quote": "14+ A max of 6 tickets per person and per household applies.",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Troxy's page shows no price, so price left unknown. Venue address not on the page, left empty. Start time is the schedule's 'Doors Open / Event Starts' entry.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "ends_at": null,
+  "recurrence": null,
+  "worth_the_trip": false,
+  "accessibility": null
+}

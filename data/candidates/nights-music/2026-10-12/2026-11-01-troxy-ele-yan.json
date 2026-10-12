@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-01-troxy-ele-yan",
+  "subcategory": "gig",
+  "title": "Ele Yan",
+  "summary": "Concert by Ele Yan at Troxy, listed as sold out.",
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-11-01T18:00:00+00:00",
+  "zone": "fringe",
+  "lineup": [
+    "Ele Yan"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://troxy.co.uk/event/ele-yan/",
+  "age_restriction": "Over 14s only",
+  "status": "sold-out",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ticket_url",
+        "lineup"
+      ],
+      "url": "https://troxy.co.uk/event/ele-yan/",
+      "quote": "01.11.26 Sold Out Ele Yan",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/event/ele-yan/",
+      "quote": "18:00 - Doors Open / Event Starts",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://troxy.co.uk/event/ele-yan/",
+      "quote": "Ele Yan - Troxy",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://troxy.co.uk/event/ele-yan/",
+      "quote": "Over 14s only for this event. A max of 6 tickets per person and per household applies.",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "status"
+      ],
+      "url": "https://troxy.co.uk/event/ele-yan/",
+      "quote": "01.11.26 Sold Out Ele Yan",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Troxy's page shows no price, so price left unknown. Venue address not on the page, left empty. Start time is the schedule's 'Doors Open / Event Starts' entry.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "ends_at": null,
+  "recurrence": null,
+  "worth_the_trip": false,
+  "accessibility": null
+}

@@ -1,0 +1,112 @@
+{
+  "id": "2026-10-29-sebright-arms-adult-leisure",
+  "subcategory": "gig",
+  "title": "Adult Leisure",
+  "summary": "Metropolis Music presents Bristol band Adult Leisure with Office Party at the Sebright Arms.",
+  "venue": {
+    "venue_id": "sebright-arms",
+    "name": "The Sebright Arms",
+    "address": "31-35 Coate St, London",
+    "postcode": "E2 9AG"
+  },
+  "starts_at": "2026-10-29T19:00:00+00:00",
+  "zone": "core",
+  "lineup": [
+    "Adult Leisure",
+    "Office Party"
+  ],
+  "genres": [
+    "melodic alt-indie"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 18.87,
+    "max_gbp": 18.87,
+    "notes": "£18.87"
+  },
+  "ticket_url": "https://dice.fm/event/6a1d38c44203470001ccb330",
+  "age_restriction": "18+",
+  "recurrence": null,
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/6a1d38c44203470001ccb330",
+      "quote": "Adult Leisure Sebright Arms Thu 29 Oct, 7:00 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/6a1d38c44203470001ccb330",
+      "quote": "2026-10-29T19:00:00+00:00 2026-10-29T23:00:00+00:00",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/6a1d38c44203470001ccb330",
+      "quote": "£18.87 The price you'll pay",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/6a1d38c44203470001ccb330",
+      "quote": "Sebright Arms 31-35 Coate St, London E2 9AG",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/6a1d38c44203470001ccb330",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/6a1d38c44203470001ccb330",
+      "quote": "Adult Leisure Plus Special Guests Office Party",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/6a1d38c44203470001ccb330",
+      "quote": "Formed in 2020, Bristol’s melodic alt-indie four-piece Adult Leisure",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Read on DICE (the Sebright's own site is unreachable). DICE JSON-LD end time not shown in page text, so ends_at left empty. Venue name on DICE is 'Sebright Arms'.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "ends_at": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled"
+}

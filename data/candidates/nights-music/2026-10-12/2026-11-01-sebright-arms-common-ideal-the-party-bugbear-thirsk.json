@@ -1,0 +1,114 @@
+{
+  "id": "2026-11-01-sebright-arms-common-ideal-the-party-bugbear-thirsk",
+  "subcategory": "gig",
+  "title": "Common Ideal / The Party / Bugbear / Thirsk",
+  "summary": "Scream/Shout night with four bands at the Sebright Arms, billed with shoegaze attitude and electronic elements.",
+  "venue": {
+    "venue_id": "sebright-arms",
+    "name": "The Sebright Arms",
+    "address": "31-35 Coate St, London",
+    "postcode": "E2 9AG"
+  },
+  "starts_at": "2026-11-01T19:00:00+00:00",
+  "zone": "core",
+  "lineup": [
+    "Common Ideal",
+    "The Party",
+    "Bugbear",
+    "Thirsk"
+  ],
+  "genres": [
+    "shoegaze"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 5,
+    "max_gbp": 5,
+    "notes": "£5"
+  },
+  "ticket_url": "https://dice.fm/event/6abbd64c214d4c0001f6c18c",
+  "age_restriction": "18+",
+  "recurrence": null,
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/6abbd64c214d4c0001f6c18c",
+      "quote": "Common Ideal / The Party / Bugbear / Thirsk Sebright Arms Sun 1 Nov, 7:00 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/6abbd64c214d4c0001f6c18c",
+      "quote": "2026-11-01T19:00:00+00:00 2026-11-01T23:00:00+00:00",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/6abbd64c214d4c0001f6c18c",
+      "quote": "£5 The price you'll pay",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/6abbd64c214d4c0001f6c18c",
+      "quote": "Sebright Arms 31-35 Coate St, London E2 9AG",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/6abbd64c214d4c0001f6c18c",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/6abbd64c214d4c0001f6c18c",
+      "quote": "Common Ideal / The Party / Bugbear / Thirsk",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/6abbd64c214d4c0001f6c18c",
+      "quote": "Big shoegaze attitude, electronic elements and whirling melodies",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Read on DICE (the Sebright's own site is unreachable). DICE JSON-LD end time not shown in page text, so ends_at left empty. Venue name on DICE is 'Sebright Arms'. DICE page lists the line-up as Bugbear, The Party, common ideal; Thirsk appears in the title.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "ends_at": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled"
+}

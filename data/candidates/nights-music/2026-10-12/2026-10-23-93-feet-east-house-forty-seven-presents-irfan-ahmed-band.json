@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-23-93-feet-east-house-forty-seven-presents-irfan-ahmed-band",
+  "subcategory": "gig",
+  "title": "House Forty Seven presents: Irfan Ahmed & Band",
+  "summary": "Live Sufi and qawwali evening with Irfan Ahmed & Band in the live room.",
+  "venue": {
+    "venue_id": "93-feet-east",
+    "name": "93 Feet East",
+    "address": "150 Brick Lane, London",
+    "postcode": "E1 6QL"
+  },
+  "starts_at": "2026-10-23T20:00:00+01:00",
+  "ends_at": "2026-10-24T00:00:00+01:00",
+  "zone": "fringe",
+  "lineup": [
+    "Irfan Ahmed & Band"
+  ],
+  "genres": [
+    "Bollywood",
+    "Sufi"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.93feeteast.co.uk/?post_type=one50&p=9702",
+  "age_restriction": "18+",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url",
+        "lineup"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9702",
+      "quote": "Fri 23 Oct 8 PM - 12 AM House Forty Seven presents: Irfan Ahmed & Band",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9702",
+      "quote": "93 Feet East, 150 Brick Lane London, E1 6QL",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction",
+        "genres"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9702",
+      "quote": "18+ Bollywood Sufi",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Own event page; no year printed (2026 from the site calendar and weekday). Tickets via an external seller; price not on page. DATE CONFLICT: header says Fri 23 Oct but promo text says '23 November' (a Monday). Header and calendar used; verifier to confirm on the ticket page.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "recurrence": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled"
+}

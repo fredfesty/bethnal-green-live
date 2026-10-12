@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-17-93-feet-east-trmnl-london",
+  "subcategory": "club-night",
+  "title": "TRMNL London",
+  "summary": "TRMNL daytime-to-midnight house and tech house party in the main room and courtyard.",
+  "venue": {
+    "venue_id": "93-feet-east",
+    "name": "93 Feet East",
+    "address": "150 Brick Lane, London",
+    "postcode": "E1 6QL"
+  },
+  "starts_at": "2026-10-17T15:00:00+01:00",
+  "ends_at": "2026-10-18T00:00:00+01:00",
+  "zone": "fringe",
+  "lineup": [],
+  "genres": [
+    "House",
+    "Tech House"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.93feeteast.co.uk/?post_type=event&p=9667",
+  "age_restriction": "18+",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=event&p=9667",
+      "quote": "Sat 17 Oct 3 PM - 12 AM TRMNL London",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=event&p=9667",
+      "quote": "93 Feet East, 150 Brick Lane London, E1 6QL",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction",
+        "genres"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=event&p=9667",
+      "quote": "18+ House Tech House",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Own event page; no year printed (2026 from the site calendar and weekday). Tickets via an external seller; price not on page.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "recurrence": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled"
+}

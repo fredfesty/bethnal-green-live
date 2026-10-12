@@ -1,0 +1,80 @@
+{
+  "id": "2026-11-06-sebright-arms-insider-trading",
+  "candidate_file": "data/candidates/nights-music/2026-10-12/2026-11-06-sebright-arms-insider-trading.json",
+  "run_id": "2026-10-12-v",
+  "verified_at": "2026-10-12T23:16:07+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue, start and every other filled field confirmed on the primary page."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6a6c7fc3ca3d9500015813f4",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6a6c7fc3ca3d9500015813f4",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6a6c7fc3ca3d9500015813f4",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Friday 06 Nov 2026 19:30; offset +00:00 is right for London on that date."
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6a6c7fc3ca3d9500015813f4",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "genres",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6a6c7fc3ca3d9500015813f4",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6a6c7fc3ca3d9500015813f4",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6a6c7fc3ca3d9500015813f4",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Same page the title and date were found on, so it loads and is for this event."
+    },
+    {
+      "field": "age_restriction",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6a6c7fc3ca3d9500015813f4",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

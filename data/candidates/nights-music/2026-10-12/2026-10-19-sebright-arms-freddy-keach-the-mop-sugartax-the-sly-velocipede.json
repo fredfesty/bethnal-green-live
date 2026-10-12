@@ -1,0 +1,121 @@
+{
+  "id": "2026-10-19-sebright-arms-freddy-keach-the-mop-sugartax-the-sly-velocipede",
+  "subcategory": "gig",
+  "title": "Freddy Keach + The Mop/SugarTax/The Sly/Velocipede",
+  "summary": "Four-act Monday gig, billed as the last night of the Sugar Tax residency at the Sebright Arms.",
+  "venue": {
+    "venue_id": "sebright-arms",
+    "name": "The Sebright Arms",
+    "address": "31-35 Coate St, London",
+    "postcode": "E2 9AG"
+  },
+  "starts_at": "2026-10-19T19:15:00+01:00",
+  "zone": "core",
+  "lineup": [
+    "Velocipede",
+    "The Sly",
+    "Sugar Tax",
+    "Freddy Keach & The Mop"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 6,
+    "max_gbp": 6,
+    "notes": "£6"
+  },
+  "ticket_url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+  "age_restriction": "18+",
+  "recurrence": null,
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "quote": "Freddy Keach + The Mop/SugarTax/The Sly/Velocipede Sebright Arms Mon 19 Oct, 7:15 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "quote": "2026-10-19T19:15:00+01:00 2026-10-19T23:15:00+01:00",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "quote": "£6 The price you'll pay",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "quote": "Sebright Arms 31-35 Coate St, London E2 9AG",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "quote": "Velocipede 7:45 pm The Sly 8:30 pm Sugar Tax 9:15 pm Follow Freddy Keach & The Mop 10:00 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "why_its_good"
+      ],
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "quote": "the final night (for now...) of of our residency at the Sebright Arms.",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "why_its_good"
+      ],
+      "url": "https://dice.fm/event/6ac5f5bc1cf15d000120c6d6",
+      "quote": "The Sly come to London for their first show outside of Manchester",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Billed as the final night (for now) of the Sugar Tax residency, and The Sly's first show outside Manchester.",
+  "notes_for_verifier": "Read on DICE (the Sebright's own site is unreachable). DICE JSON-LD end time not shown in page text, so ends_at left empty. Venue name on DICE is 'Sebright Arms'.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "ends_at": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled"
+}

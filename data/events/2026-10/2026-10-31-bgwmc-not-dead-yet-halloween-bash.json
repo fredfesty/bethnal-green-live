@@ -1,0 +1,64 @@
+{
+  "id": "2026-10-31-bgwmc-not-dead-yet-halloween-bash",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "NOT DEAD YET! HALLOWEEN BASH!",
+  "venue": {
+    "venue_id": "bgwmc",
+    "name": "Bethnal Green Working Men's Club",
+    "address": null,
+    "postcode": "E2 6NB"
+  },
+  "starts_at": "2026-10-31T21:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.tickettailor.com/events/workingmens-club/2465731",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club/2465731",
+      "quote": "NOT DEAD YET! HALLOWEEN BASH! Sat 31 Oct 2026 9:00 PM - 2:00 AM GMT",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club/2465731",
+      "quote": "BETHNAL GREEN WORKING MENS CLUB, E2 6NB",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-12T23:16:07+01:00",
+    "run_id": "2026-10-12-v",
+    "outcome": "verified-with-gaps",
+    "removed_fields": [
+      "ends_at"
+    ],
+    "record": "data/verification/2026-10-12/2026-10-31-bgwmc-not-dead-yet-halloween-bash.json"
+  },
+  "editor_note": null,
+  "listing": null,
+  "first_seen": "2026-10-12T23:16:07+01:00",
+  "updated_at": "2026-10-12T23:16:07+01:00",
+  "history": [],
+  "needs_review": null
+}

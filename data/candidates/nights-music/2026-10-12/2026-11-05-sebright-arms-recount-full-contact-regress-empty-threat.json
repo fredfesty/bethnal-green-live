@@ -1,0 +1,114 @@
+{
+  "id": "2026-11-05-sebright-arms-recount-full-contact-regress-empty-threat",
+  "subcategory": "gig",
+  "title": "Recount, Full Contact, Regress, Empty Threat",
+  "summary": "Tombstone Promotions hardcore bill led by German band Recount at the Sebright Arms.",
+  "venue": {
+    "venue_id": "sebright-arms",
+    "name": "The Sebright Arms",
+    "address": "31-35 Coate St, London",
+    "postcode": "E2 9AG"
+  },
+  "starts_at": "2026-11-05T18:30:00+00:00",
+  "zone": "core",
+  "lineup": [
+    "Recount",
+    "Full Contact",
+    "Regress",
+    "Empty Threat"
+  ],
+  "genres": [
+    "Beatdown HC"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 12.5,
+    "max_gbp": 12.5,
+    "notes": "£12.5"
+  },
+  "ticket_url": "https://dice.fm/event/6a5b64829cd0700001db0fef",
+  "age_restriction": "18+",
+  "recurrence": null,
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/6a5b64829cd0700001db0fef",
+      "quote": "Recount, Full Contact, Regress, Empty Threat Sebright Arms Thu 5 Nov, 6:30 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/6a5b64829cd0700001db0fef",
+      "quote": "2026-11-05T18:30:00+00:00 2026-11-05T22:30:00+00:00",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/6a5b64829cd0700001db0fef",
+      "quote": "£12.50 The price you'll pay",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/6a5b64829cd0700001db0fef",
+      "quote": "Sebright Arms 31-35 Coate St, London E2 9AG",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/6a5b64829cd0700001db0fef",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/6a5b64829cd0700001db0fef",
+      "quote": "Recount, Full Contact, Regress, Empty Threat",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/6a5b64829cd0700001db0fef",
+      "quote": "RECOUNT (GERMANY) Beatdown HC Heavyweights are back!",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Read on DICE (the Sebright's own site is unreachable). DICE JSON-LD end time not shown in page text, so ends_at left empty. Venue name on DICE is 'Sebright Arms'. Line-up taken from the title; the description instead names Full Contact, Sudokara and Empty Threat as support (Regress not in the description). Verifier to check.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "ends_at": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled"
+}

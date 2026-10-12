@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-07-93-feet-east-escapada-returns",
+  "subcategory": "club-night",
+  "title": "Escapada Returns",
+  "summary": "Day-to-night house session with nine DJs on the members room and rooftop terrace.",
+  "venue": {
+    "venue_id": "93-feet-east",
+    "name": "93 Feet East",
+    "address": "150 Brick Lane, London",
+    "postcode": "E1 6QL"
+  },
+  "starts_at": "2026-11-07T15:00:00+00:00",
+  "ends_at": "2026-11-08T01:30:00+00:00",
+  "zone": "fringe",
+  "lineup": [
+    "MARK RADFORD",
+    "JEROME SIX",
+    "RENZO.",
+    "STEVEN LEE",
+    "ALEX HANSHAW",
+    "CARLOS ARIES",
+    "LEE LUXE",
+    "LUCY CRANE",
+    "RHIAVASS"
+  ],
+  "genres": [
+    "House"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.93feeteast.co.uk/?post_type=event&p=9649",
+  "age_restriction": null,
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=event&p=9649",
+      "quote": "Sat 07 Nov 3 PM - 1:30 AM Escapada Returns",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=event&p=9649",
+      "quote": "93 Feet East, 150 Brick Lane London, E1 6QL",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=event&p=9649",
+      "quote": "LINE-UP MARK RADFORD JEROME SIX RENZO. STEVEN LEE ALEX HANSHAW CARLOS ARIES LEE LUXE LUCY CRANE RHIAVASS",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://www.93feeteast.co.uk/?post_type=event&p=9649",
+      "quote": "a carefully curated line-up of DJs rooted in the deeper, groove-led sounds of house music",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Own event page; no year printed (2026 from the site calendar and weekday). Tickets via an external seller; price not on page. CONFLICT on the page: header says 3 PM - 1:30 AM and tag 18+, but the body says 'From 4PM until 1:30AM' and '21+'. Header time used; age restriction left empty. Hence medium.",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-12-a"
+  },
+  "found_at": "2026-10-12T23:30:00+01:00",
+  "category": "nights-music",
+  "recurrence": null,
+  "worth_the_trip": false,
+  "accessibility": null,
+  "status": "scheduled"
+}

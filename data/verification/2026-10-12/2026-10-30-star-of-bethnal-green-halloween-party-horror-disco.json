@@ -1,0 +1,82 @@
+{
+  "id": "2026-10-30-star-of-bethnal-green-halloween-party-horror-disco",
+  "candidate_file": "data/candidates/nights-music/2026-10-12/2026-10-30-star-of-bethnal-green-halloween-party-horror-disco.json",
+  "run_id": "2026-10-12-v",
+  "verified_at": "2026-10-12T23:16:07+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Venue unconfirmed: no quote on the ma.to page names The Star of Bethnal Green.",
+    "Title, start (Fri 30 Oct 21:00-02:00), price Free and lineup are confirmed on ma.to, an aggregator; venue is no_primary_listing.",
+    "Page says free tickets come via an RA link in bio, so free entry may need a ticket. Person to check venue line and entry terms."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "unverifiable",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "none",
+      "source_kind": "aggregator",
+      "note": "No evidence quote names the venue: the quotes are the title/date line and the lineup line only. The page shows \"Where The Star of Bethnal Green\" but that was not quoted, and nothing else confirms the venue."
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Fri 30 Oct 21:00-02:00 in the first quote; second quote has no title nearby."
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "genres",
+      "result": "confirmed",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Same page the title and date were found on, so it loads and is for this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

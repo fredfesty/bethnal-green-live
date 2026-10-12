@@ -1,0 +1,82 @@
+{
+  "id": "2026-10-23-star-of-bethnal-green-sam-redmore",
+  "candidate_file": "data/candidates/nights-music/2026-10-12/2026-10-23-star-of-bethnal-green-sam-redmore.json",
+  "run_id": "2026-10-12-v",
+  "verified_at": "2026-10-12T23:16:07+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Venue unconfirmed: no quote on the ma.to page names The Star of Bethnal Green (the page URL does, the quoted text does not).",
+    "Title, start (Fri 23 Oct 21:00-02:00), free price and genres are confirmed on ma.to, an aggregator; venue is no_primary_listing.",
+    "Person to check: open the ma.to page and approve if the venue line matches, or ask the scout to quote it."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://ma.to/event/sam-redmore-the-star-of-bethnal-green-23-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "unverifiable",
+      "url": "https://ma.to/event/sam-redmore-the-star-of-bethnal-green-23-oct-2026",
+      "method": "none",
+      "source_kind": "aggregator",
+      "note": "No evidence quote names the venue: the quotes are the title/date line and the lineup line only. The page shows \"Where The Star of Bethnal Green\" but that was not quoted, and nothing else confirms the venue."
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/sam-redmore-the-star-of-bethnal-green-23-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Friday 23 Oct 2026 21:00; offset +01:00 is right for London on that date."
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/sam-redmore-the-star-of-bethnal-green-23-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://ma.to/event/sam-redmore-the-star-of-bethnal-green-23-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "genres",
+      "result": "confirmed",
+      "url": "https://ma.to/event/sam-redmore-the-star-of-bethnal-green-23-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://ma.to/event/sam-redmore-the-star-of-bethnal-green-23-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://ma.to/event/sam-redmore-the-star-of-bethnal-green-23-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Same page the title and date were found on, so it loads and is for this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

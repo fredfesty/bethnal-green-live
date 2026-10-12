@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-24-village-underground-origins-x-vu-free-party-house-techno-trance",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Origins x VU Free Party: House Techno Trance",
+  "venue": {
+    "venue_id": "village-underground",
+    "name": "Village Underground",
+    "address": "54 Holywell Lane, London",
+    "postcode": "EC2A 3PQ"
+  },
+  "starts_at": "2026-10-24T23:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [
+    "House",
+    "Techno",
+    "Trance"
+  ],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://dice.fm/event/6abe466a1a4cdd0001de56c2",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url",
+        "genres"
+      ],
+      "url": "https://dice.fm/event/6abe466a1a4cdd0001de56c2",
+      "quote": "Origins x VU Free Party: House Techno Trance Village Underground Sat 24 Oct, 11:00 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/6abe466a1a4cdd0001de56c2",
+      "quote": "54 Holywell Lane, London EC2A 3PQ, UK",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "why_its_good"
+      ],
+      "url": "https://dice.fm/event/6abe466a1a4cdd0001de56c2",
+      "quote": "Origins Free Rave Returns",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-12T23:16:07+01:00",
+    "run_id": "2026-10-12-v",
+    "outcome": "verified-with-gaps",
+    "removed_fields": [
+      "price",
+      "age_restriction"
+    ],
+    "record": "data/verification/2026-10-12/2026-10-24-village-underground-origins-x-vu-free-party-house-techno-trance.json"
+  },
+  "editor_note": "Worth the trip: a billed free rave ('From free') at Village Underground, with a special guest to be announced.",
+  "listing": null,
+  "first_seen": "2026-10-12T23:16:07+01:00",
+  "updated_at": "2026-10-12T23:16:07+01:00",
+  "history": [],
+  "needs_review": null
+}

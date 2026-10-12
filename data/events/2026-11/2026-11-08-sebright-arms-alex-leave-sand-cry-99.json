@@ -1,0 +1,104 @@
+{
+  "id": "2026-11-08-sebright-arms-alex-leave-sand-cry-99",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Alex, Leave! / SAND / Cry-99",
+  "venue": {
+    "venue_id": "sebright-arms",
+    "name": "The Sebright Arms",
+    "address": "31-35 Coate St, London",
+    "postcode": "E2 9AG"
+  },
+  "starts_at": "2026-11-08T19:30:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 5.67,
+    "max_gbp": 5.67,
+    "notes": "£5.67"
+  },
+  "ticket_url": "https://dice.fm/event/6ac761703d21200001a7ac16",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/6ac761703d21200001a7ac16",
+      "quote": "Alex, Leave! / SAND / Cry-99 Sebright Arms Sun 8 Nov, 7:30 pm",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/6ac761703d21200001a7ac16",
+      "quote": "2026-11-08T19:30:00+00:00 2026-11-08T23:00:00+00:00",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/6ac761703d21200001a7ac16",
+      "quote": "£5.67 The price you'll pay",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/6ac761703d21200001a7ac16",
+      "quote": "Sebright Arms 31-35 Coate St, London E2 9AG",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/6ac761703d21200001a7ac16",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "why_its_good"
+      ],
+      "url": "https://dice.fm/event/6ac761703d21200001a7ac16",
+      "quote": "3 bands in our basement, for less than a pint.",
+      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-12T23:16:07+01:00",
+    "run_id": "2026-10-12-v",
+    "outcome": "verified-with-gaps",
+    "removed_fields": [
+      "lineup"
+    ],
+    "record": "data/verification/2026-10-12/2026-11-08-sebright-arms-alex-leave-sand-cry-99.json"
+  },
+  "editor_note": "Three bands for £5.67, billed by the venue as less than a pint.",
+  "listing": null,
+  "first_seen": "2026-10-12T23:16:07+01:00",
+  "updated_at": "2026-10-12T23:16:07+01:00",
+  "history": [],
+  "needs_review": null
+}
