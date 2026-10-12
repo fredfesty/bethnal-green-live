@@ -19,7 +19,7 @@ sources ──► scouts ──► data/candidates ──► verifier ──► 
 3. Published events land in `data/events/YYYY-MM/`. The website and newsletter read only from there.
 4. Everything arrives as a **pull request**. A person merges it. CI re-checks every file first.
 
-The agents run as a scheduled Claude Code routine; settings and prompt in [`routines/morning-run.md`](routines/morning-run.md). Rules every agent follows: [`CLAUDE.md`](CLAUDE.md).
+The agents run every morning as a Claude scheduled task; settings and prompt in [`routines/morning-run.md`](routines/morning-run.md). GitHub then re-checks the work, opens the pull request and, while the `AUTO_MERGE` repository variable is `true`, merges it and republishes the site. Rules every agent follows: [`CLAUDE.md`](CLAUDE.md).
 
 ## Layout
 
@@ -73,4 +73,4 @@ Publishing: `.github/workflows/site.yml` builds on every pull request and, once 
 - No fact without a quote and a link. Empty is better than wrong.
 - No scraping where terms forbid it: never Resident Advisor, never Instagram, always robots.txt.
 - Our own words in summaries; no copied promo text or images.
-- Agents never push to `main` or edit `data/sources/`; people do.
+- Agents never push to `main`, merge, or edit `data/sources/`. Merges happen through GitHub's checks (auto-merge) or a person.
