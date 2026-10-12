@@ -8,7 +8,7 @@ Create it at claude.ai/code/routines (or with `/schedule` in Claude Code):
 | --- | --- |
 | Repository | `fredfesty/bethnal-green-live` |
 | Schedule | Daily at 06:07 Europe/London (a few minutes past the hour starts more reliably) |
-| Model | Sonnet |
+| Model | Sonnet for the main session; the scout runs on Haiku and the verifier on Sonnet (set in each agent file) |
 | Environment | A custom environment. Network access **Full**, or **Custom** with the venue and ticketing domains from `data/sources/nights-music.json` plus the default package list. The default "Trusted" list cannot reach venue websites. |
 | Setup script | `pip install -r requirements.txt` |
 | API credentials (optional) | `SKIDDLE_API_KEY`, once Skiddle approves the application |
