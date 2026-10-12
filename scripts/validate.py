@@ -678,10 +678,13 @@ def check_issue(path: Path, data: dict, today: dt.date | None = None, days: int 
             day = newsletter.event_date(e)
             if s["kind"] == "save-the-date":
                 if not to < day <= to + dt.timedelta(days=newsletter.SAVE_THE_DATE_DAYS):
-                    errs.append(f"{at}: save-the-date events fall after this week and within "
+                    errs.append(f"{at}: save-the-date events open after this week and within "
                                 f"{newsletter.SAVE_THE_DATE_DAYS} days of it ({day} doesn't)")
-            elif not frm <= day <= to:
+            elif not newsletter.on_during(e, frm, to):
                 errs.append(f"{at}: {eid} is on {day}, outside this issue's week")
+            wanted = newsletter.SECTION_CATEGORY.get(s["kind"])
+            if wanted and e["category"] != wanted:
+                errs.append(f"{at}: {s['kind']} is for {wanted} events ({eid} is {e['category']})")
             if s["kind"] == "worth-the-trip" and e["zone"] != "outer":
                 errs.append(f"{at}: worth-the-trip is for outer-zone events")
             if s["kind"] == "free-and-cheap":

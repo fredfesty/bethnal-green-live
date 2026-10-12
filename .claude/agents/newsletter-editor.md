@@ -23,7 +23,7 @@ The issue date is the Thursday it goes out (the run date's next Thursday, or the
 python scripts/newsletter.py week <issue-date>
 ```
 
-It prints, as JSON, only checked facts: `this_week` (events in the issue's week), `later` (up to six weeks after, for *save the date*), `left_out` (cancelled, sold out or under review: never use these), each event's checked venue profile, and `in_earlier_issues`. Use nothing else as a fact. `scout_opinion_internal` is the scout's opinion: it may help you choose, but it is not a fact and its words never go in the email.
+It prints, as JSON, only checked facts: `this_week` (events in the issue's week), `later` (up to six weeks after, for *save the date*), `left_out` (cancelled, postponed, sold out or under review: never use these), each event's checked venue profile, and `in_earlier_issues`. Use nothing else as a fact. `scout_opinion_internal` is the scout's opinion: it may help you choose, but it is not a fact and its words never go in the email.
 
 ## Step 2: choose and order
 
@@ -34,6 +34,9 @@ Sections, in this order when you use them. Use a section only when you have good
 | `pick-of-the-week` | The one night you'd tell a friend about. Prefer core zone, a known time and price, not sold out, not the pick in an earlier issue | exactly 1 | `hero` |
 | `featured` | The nights worth crossing the road for | 2–5 | `cards` or `list` |
 | `quick-hits` | More good ones, shorter | 3–8 | `list` or `compact` |
+| `cinema-and-arts` | Films, theatre, comedy, exhibitions, talks (category `arts` only) | 2–6 | `list` or `cards` |
+| `food-and-drink` | Supper clubs, pop-ups, markets, tastings (category `food-drink` only) | 2–5 | `list` or `compact` |
+| `community` | Markets, fairs, workshops, family things, walks (category `community` only) | 2–5 | `list` or `compact` |
 | `free-and-cheap` | Free, or a checked price under £10 | 2–6 | `list` or `compact` |
 | `worth-the-trip` | Outer-zone standouts only | 1–3 | `cards` or `list` |
 | `on-repeat` | Regular nights (only events with a `recurrence`) | 2–8 | `compact` |
@@ -41,6 +44,8 @@ Sections, in this order when you use them. Use a section only when you have good
 
 Rules of thumb:
 - **10 to 20 events in all.** A reader should get through it in three minutes.
+- **Not just nights out.** When there are arts, food and community listings, give them their sections; a week that is all club nights reads like a flyer.
+- **Runs** (an exhibition or theatre run open on many days; `run` is set) count for every week they're on. Mention one only in its opening or closing week, or once if it's a standout, not every week.
 - **Spread it out.** Mix days of the week, venues and kinds of night. No more than three events from one venue, and no two near-identical nights next to each other.
 - **Each event once.** Prefer events not featured in earlier issues, except in save-the-date.
 - **Core first.** Bethnal Green itself before the fringe; outer-zone events only in worth-the-trip or as the pick if truly special.

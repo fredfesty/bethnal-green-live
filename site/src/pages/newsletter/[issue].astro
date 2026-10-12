@@ -2,7 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import Subscribe from "../../components/Subscribe.astro";
 import { loadIssues, isOut, resolveSections, type Issue } from "../../lib/newsletter";
-import { SUBCATEGORY, CATEGORY, STATUS } from "../../lib/labels";
+import { kindLabel, STATUS } from "../../lib/labels";
 import { weekdayShort, dayMonthShort, timeRange, dayMonth, hasTime, clock } from "../../lib/time";
 import { rel } from "../../lib/rel";
 
@@ -16,7 +16,6 @@ const sections = resolveSections(i);
 const preview = !isOut(i);
 const from = i.covers.from, to = i.covers.to;
 const week = from.slice(0, 7) === to.slice(0, 7) ? `${Number(from.slice(8))}–${dayMonth(to)}` : `${dayMonth(from)} – ${dayMonth(to)}`;
-const kindOf = (e: any) => (e.category === "nights-music" ? SUBCATEGORY[e.subcategory] : CATEGORY[e.category]);
 ---
 <Base title={`Issue ${i.issue_number}: ${week}`} current="newsletter" description={i.preheader} noindex={preview}>
   <article class="issue">
@@ -42,7 +41,9 @@ const kindOf = (e: any) => (e.category === "nights-music" ? SUBCATEGORY[e.subcat
           <ul class="sec__rows">
             {s.entries.map(({ item, e }) => (
               <li class="row">
-                <p class="row__when">{weekdayShort(e.date)} {Number(e.date.slice(8))}<span>{hasTime(e.starts_at) ? clock(e.starts_at) : "tbc"}</span></p>
+                <p class="row__when">{e.isRun
+                  ? <>Until<span>{weekdayShort(e.until)} {Number(e.until.slice(8))}</span></>
+                  : <>{weekdayShort(e.date)} {Number(e.date.slice(8))}<span>{hasTime(e.starts_at) ? clock(e.starts_at) : "tbc"}</span></>}</p>
                 <p class="row__what">
                   <a href={rel(here, `events/${e.id}.html`)}>{item.headline || e.title}</a>
                   {STATUS[e.status] && <span class="entry__status">{STATUS[e.status]}</span>}
@@ -61,8 +62,10 @@ const kindOf = (e: any) => (e.category === "nights-music" ? SUBCATEGORY[e.subcat
                 </h3>
                 {item.headline && <p class="entry__real">{e.title}</p>}
                 <p class="entry__facts">
-                  {weekdayShort(e.date)} {dayMonthShort(e.date)} · {timeRange(e.starts_at, e.ends_at)} · {e.venue.name} · {e.priceLabel}
-                  <span class="entry__kind"> · {kindOf(e)}</span>
+                  {e.isRun
+                    ? <>Until {weekdayShort(e.until)} {dayMonthShort(e.until)}{e.run_schedule && ` (${e.run_schedule})`}</>
+                    : <>{weekdayShort(e.date)} {dayMonthShort(e.date)} · {timeRange(e.starts_at, e.ends_at)}</>} · {e.venue.name} · {e.priceLabel}
+                  <span class="entry__kind"> · {kindLabel(e)}</span>
                 </p>
                 {item.blurb && <p class="entry__blurb">{item.blurb}</p>}
                 <p class="entry__links">

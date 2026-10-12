@@ -160,3 +160,19 @@ def test_week_lists_only_usable_events(repo):
 ])
 def test_clock(starts, expected):
     assert newsletter.clock(starts) == expected
+
+
+def test_runs_count_for_every_week_they_are_on(repo, validators):
+    ev = repo / "data/events/2026-10/2026-10-30-bgwmc-example-night.json"
+    e = load(ev)
+    e.update(category="arts", subcategory="exhibition", ends_at="2026-11-20", starts_at="2026-10-30",
+             run_schedule="Tue–Sun 11am–6pm")
+    ev.write_text(json.dumps(e), encoding="utf-8")
+    d = load(EX_ISSUE)
+    d.update(id="2026-11-05", covers={"from": "2026-11-05", "to": "2026-11-11"})
+    d["intro"]["paragraphs"] = ["A quiet week, but a good one for a slow afternoon at an exhibition."]
+    d["sections"][0]["items"][0]["blurb"] = "Open until 6pm most days, so it works for a Saturday afternoon too."
+    assert errors(d, validators, today=dt.date(2026, 11, 4)) == []
+    assert "Until Fri 20 Nov (Tue–Sun 11am–6pm)" in newsletter.render_markdown(d, newsletter.load_events(repo))
+    d["sections"][0].update(kind="food-and-drink")
+    assert has(errors(d, validators, today=dt.date(2026, 11, 4)), "food-and-drink is for food-drink events")

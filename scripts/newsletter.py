@@ -35,10 +35,28 @@ SAVE_THE_DATE_DAYS = 42   # how far past the issue's week "save the date" may re
 WEEKDAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 STATUS_LABEL = {"few-left": "Last few tickets", "sold-out": "Sold out", "cancelled": "Cancelled",
                 "postponed": "Postponed"}
-SUBCATEGORY = {"club-night": "Club night", "gig": "Gig", "dj-bar": "DJ bar", "queer-party": "Queer party",
-               "cabaret-drag": "Cabaret & drag", "karaoke": "Karaoke", "jazz": "Jazz", "open-mic": "Open mic",
-               "folk-acoustic": "Folk & acoustic", "in-store": "In-store gig", "festival": "Festival",
-               "other": "Music"}
+CATEGORY = {"nights-music": "Nights & music", "arts": "Cinema & arts", "food-drink": "Food & drink",
+            "community": "Community"}
+SUBCATEGORY = {
+    "club-night": "Club night", "gig": "Gig", "dj-bar": "DJ night", "queer-party": "Queer party",
+    "cabaret-drag": "Cabaret & drag", "karaoke": "Karaoke", "jazz": "Jazz", "open-mic": "Open mic",
+    "folk-acoustic": "Folk & acoustic", "in-store": "In-store gig", "theatre": "Theatre", "comedy": "Comedy",
+    "film": "Film", "exhibition": "Exhibition", "dance": "Dance", "performance": "Performance",
+    "supper-club": "Supper club", "pop-up": "Pop-up", "tasting": "Tasting", "special-menu": "Special menu",
+    "cookery-class": "Cookery class", "food-market": "Food market", "food-festival": "Food festival",
+    "opening": "Opening", "quiz": "Quiz", "market": "Market", "fair": "Fair", "workshop": "Workshop",
+    "family": "Family", "outdoors": "Outdoors", "sport": "Sport", "volunteering": "Volunteering",
+    "open-studios": "Open studios", "tour": "Walk or tour", "talk": "Talk", "festival": "Festival",
+}
+# Sections that only take one category of event.
+SECTION_CATEGORY = {"cinema-and-arts": "arts", "food-and-drink": "food-drink", "community": "community"}
+
+
+def kind_label(e: dict) -> str:
+    sub = e.get("subcategory")
+    if sub and sub != "other" and sub in SUBCATEGORY:
+        return SUBCATEGORY[sub]
+    return "Music" if e.get("category") == "nights-music" else CATEGORY.get(e.get("category"), "Event")
 
 
 # ---------------------------------------------------------------- loading
@@ -108,6 +126,21 @@ def end_date(e: dict) -> dt.date | None:
     return local(w).date() if has_time(w) else dt.date.fromisoformat(w)
 
 
+def last_date(e: dict) -> dt.date:
+    return end_date(e) or event_date(e)
+
+
+def is_run(e: dict) -> bool:
+    """An exhibition, theatre run or multi-day menu: ends two or more days after it opens.
+    (An overnight club night ends the next day, which is not a run.)"""
+    return (last_date(e) - event_date(e)).days >= 2
+
+
+def on_during(e: dict, frm: dt.date, to: dt.date) -> bool:
+    """On at some point between frm and to: a one-off on one of those days, or a run that overlaps them."""
+    return event_date(e) <= to and last_date(e) >= frm
+
+
 def clock(w: str) -> str:
     t = local(w)
     if t.minute == 0 and t.hour == 0:
@@ -158,8 +191,14 @@ def week_label(a: dt.date, b: dt.date) -> str:
     return f"{a.day} {a.strftime('%B')} – {b.day} {b.strftime('%B')}"
 
 
+def when_label(e: dict) -> str:
+    if is_run(e):
+        return f"Until {short_date(last_date(e))}" + (f" ({e['run_schedule']})" if e.get("run_schedule") else "")
+    return f"{short_date(event_date(e))} · {time_label(e)}"
+
+
 def details_line(e: dict) -> str:
-    return " · ".join([short_date(event_date(e)), time_label(e), e["venue"]["name"], price_label(e["price"])])
+    return " · ".join([when_label(e), e["venue"]["name"], price_label(e["price"])])
 
 
 def event_url(e: dict, site_url: str = SITE_URL) -> str:
@@ -187,7 +226,7 @@ def price_numbers(e: dict) -> set[float]:
 
 
 def event_times(e: dict) -> set[tuple[int, int]]:
-    out = set()
+    out = {hm for _, hm in _mentioned_times(e.get("run_schedule") or "")}
     for w in (e["starts_at"], e.get("ends_at")):
         if w and has_time(w):
             t = local(w)
@@ -231,14 +270,16 @@ def fact_problems(text: str, events: list[dict], one_event: bool) -> list[str]:
             errs.append(f"says '{said}', which isn't a checked start or end time")
     if one_event and events:
         e = events[0]
+        if _FREE.search(text) and not is_free_ish(e) and not _FREE.search(e["title"]):
+            errs.append("says 'free' but the checked price isn't free")
+        if is_run(e):  # open on many days: a weekday is fine if its opening hours mention it, so don't guess
+            return errs
         days = {WEEKDAYS[event_date(e).weekday()]}
         if end_date(e):
             days.add(WEEKDAYS[end_date(e).weekday()])
         for m in _WEEKDAY.finditer(text):
             if m.group(1).lower() not in days and not (e.get("recurrence") and m.group(1).lower() in e["recurrence"].lower()):
                 errs.append(f"says '{m.group(0)}' but it's on a {WEEKDAYS[event_date(e).weekday()].title()}")
-        if _FREE.search(text) and not is_free_ish(e) and not _FREE.search(e["title"]):
-            errs.append("says 'free' but the checked price isn't free")
     return errs
 
 
@@ -262,7 +303,8 @@ def week(issue_date: dt.date, root: Path | None = None) -> dict:
         return {
             "id": e["id"], "title": e["title"], "date": event_date(e).isoformat(),
             "weekday": event_date(e).strftime("%A"), "time": time_label(e),
-            "venue": e["venue"]["name"], "zone": e["zone"], "type": SUBCATEGORY.get(e["subcategory"], e["subcategory"]),
+            "run": {"until": last_date(e).isoformat(), "opening_hours": e.get("run_schedule")} if is_run(e) else None,
+            "venue": e["venue"]["name"], "zone": e["zone"], "type": kind_label(e),
             "category": e["category"], "price": price_label(e["price"]), "price_notes": e["price"].get("notes"),
             "status": e["status"], "lineup": e.get("lineup") or [], "genres": e.get("genres") or [],
             "recurrence": e.get("recurrence"), "age_restriction": e.get("age_restriction"),
@@ -276,8 +318,8 @@ def week(issue_date: dt.date, root: Path | None = None) -> dict:
             "in_earlier_issues": featured_before.get(e["id"], []),
         }
 
-    usable = [e for e in events.values() if not e.get("needs_review") and e["status"] not in ("cancelled", "postponed")]
-    this_week = sorted((e for e in usable if frm <= event_date(e) <= to), key=lambda e: (e["starts_at"], e["title"]))
+    usable = [e for e in events.values() if not e.get("needs_review") and e["status"] not in ("cancelled", "postponed", "sold-out")]
+    this_week = sorted((e for e in usable if on_during(e, frm, to)), key=lambda e: (e["starts_at"], e["title"]))
     later = sorted((e for e in usable if to < event_date(e) <= last), key=lambda e: (e["starts_at"], e["title"]))
     return {
         "issue_id": issue_date.isoformat(),
@@ -287,7 +329,7 @@ def week(issue_date: dt.date, root: Path | None = None) -> dict:
         "save_the_date_window": {"after": to.isoformat(), "until": last.isoformat()},
         "later": [view(e) for e in later],
         "left_out": [{"id": e["id"], "why": "under review" if e.get("needs_review") else e["status"]}
-                     for e in events.values() if e not in usable and frm <= event_date(e) <= last],
+                     for e in events.values() if e not in usable and on_during(e, frm, last)],
     }
 
 
@@ -388,10 +430,15 @@ def _section_html(s: dict, items: list[tuple[dict, dict]], site_url: str) -> str
         rows = ""
         for i, (it, e) in enumerate(items):
             top = "" if i == 0 else f"border-top:1px solid {C['rule']};"
-            d = event_date(e)
+            if is_run(e):
+                end = last_date(e)
+                left, sub = "Until", f"{end.strftime('%a')} {end.day} {end.strftime('%b')}"
+            else:
+                d = event_date(e)
+                left, sub = f"{d.strftime('%a')} {d.day}", time_label(e).split("–")[0]
             rows += (f'<tr><td valign="top" style="{top}padding:10px 12px 10px 0;width:74px;font:800 15px/1.25 {NARROW};'
-                     f'color:{C["ink"]};white-space:nowrap">{esc(d.strftime("%a"))} {d.day}<br>'
-                     f'<span style="font-weight:600;color:{C["muted"]}">{esc(time_label(e).split("–")[0])}</span></td>'
+                     f'color:{C["ink"]};white-space:nowrap">{esc(left)}<br>'
+                     f'<span style="font-weight:600;color:{C["muted"]}">{esc(sub)}</span></td>'
                      f'<td valign="top" style="{top}padding:10px 0;font:15px/1.4 {SANS};color:{C["ink"]}">'
                      f'<a href="{esc(e.get("ticket_url") or event_url(e, site_url))}" style="color:{C["ink"]};font-weight:700">'
                      f'{esc(it.get("headline") or e["title"])}</a>{_status_badge(e)}<br>'
@@ -483,7 +530,7 @@ def render_markdown(issue: dict, events: dict[str, dict], site_url: str = SITE_U
             status = f" — **{STATUS_LABEL[e['status']]}**" if e["status"] in STATUS_LABEL else ""
             link = e.get("ticket_url") or event_url(e, site_url)
             if s["layout"] == "compact":
-                out.append(f"- **{short_date(event_date(e))}, {time_label(e)}** [{it.get('headline') or e['title']}]({link})"
+                out.append(f"- **{when_label(e).replace(' · ', ', ')}** [{it.get('headline') or e['title']}]({link})"
                            f" · {e['venue']['name']} · {price_label(e['price'])}{status}")
                 continue
             out += [f"### [{it.get('headline') or e['title']}]({link}){status}"]
