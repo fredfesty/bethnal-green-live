@@ -23,7 +23,11 @@ function fold(line: string): string {
 
 export function vevent(e: SiteEvent, pageUrl: string): string[] {
   const lines = ["BEGIN:VEVENT", `UID:${e.id}@bethnal-green-live`, `DTSTAMP:${icsStamp(new Date(e.updated_at))}`];
-  if (hasTime(e.starts_at)) {
+  if (e.isRun) {
+    // A run (an exhibition, say) is an all-day entry from its opening day to its last day.
+    lines.push(`DTSTART;VALUE=DATE:${e.date.replace(/-/g, "")}`);
+    lines.push(`DTEND;VALUE=DATE:${addDays(e.until, 1).replace(/-/g, "")}`);
+  } else if (hasTime(e.starts_at)) {
     lines.push(`DTSTART:${icsStamp(instant(e.starts_at))}`);
     lines.push(`DTEND:${icsStamp(new Date(e.endsAtIso))}`);
   } else {
@@ -33,7 +37,7 @@ export function vevent(e: SiteEvent, pageUrl: string): string[] {
   const status = STATUS[e.status] ? `${STATUS[e.status]}: ` : "";
   lines.push(`SUMMARY:${esc(status + e.title)}`);
   lines.push(`LOCATION:${esc([e.venue.name, e.venue.address, e.venue.postcode].filter(Boolean).join(", "))}`);
-  const desc = [e.priceLabel, e.lineup?.length ? `With ${e.lineup.join(", ")}` : "", e.ticket_url ? `Tickets: ${e.ticket_url}` : "", `Details: ${pageUrl}`]
+  const desc = [e.priceLabel, e.isRun && e.run_schedule ? `Open: ${e.run_schedule}` : "", e.lineup?.length ? `With ${e.lineup.join(", ")}` : "", e.ticket_url ? `Tickets: ${e.ticket_url}` : "", `Details: ${pageUrl}`]
     .filter(Boolean).join("\n");
   lines.push(`DESCRIPTION:${esc(desc)}`);
   lines.push(`URL:${pageUrl}`);

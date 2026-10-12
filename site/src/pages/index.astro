@@ -2,14 +2,19 @@
 import Base from "../layouts/Base.astro";
 import EventRow from "../components/EventRow.astro";
 import Subscribe from "../components/Subscribe.astro";
-import { loadEvents, byDate } from "../lib/data";
+import { loadEvents, byDate, regularMarkets } from "../lib/data";
 import { TYPE_GROUPS } from "../lib/labels";
-import { weekday, dayMonth } from "../lib/time";
+import { weekday, dayMonth, todayInLondon } from "../lib/time";
 import { rel } from "../lib/rel";
 import config from "../site.config.mjs";
 
 const events = loadEvents();
-const days = byDate(events);
+// Runs already open first (closing soonest first), then the ones opening later (opening soonest first).
+const today = todayInLondon();
+const runKey = (e: { date: string; until: string }) => (e.date <= today ? `0${e.until}` : `1${e.date}`);
+const runs = events.filter((e) => e.isRun).sort((a, b) => runKey(a).localeCompare(runKey(b)) || a.title.localeCompare(b.title));
+const days = byDate(events.filter((e) => !e.isRun));
+const markets = regularMarkets();
 const groups = TYPE_GROUPS.filter((g) => events.some((e) => e.group === g.id));
 const here = Astro.url.pathname;
 ---
@@ -17,7 +22,7 @@ const here = Astro.url.pathname;
   <section class="intro">
     <h1>What's on around Bethnal Green</h1>
     <p>
-      Club nights, gigs, films, food and more, within a short walk of {config.district}. Every listing is checked
+      Club nights, gigs, theatre, exhibitions, food, markets and more, within a short walk of {config.district}. Every listing is checked
       against the venue's or ticket seller's own page before it goes up.
     </p>
   </section>
@@ -36,7 +41,7 @@ const here = Astro.url.pathname;
       <form class="filters" id="filters" role="search" aria-label="Filter the listings" onsubmit="return false">
         <div class="filters__search">
           <label for="q">Search</label>
-          <input id="q" name="q" type="search" placeholder="Venue, act, music…" autocomplete="off" />
+          <input id="q" name="q" type="search" placeholder="Venue, act, show, DJ…" autocomplete="off" />
         </div>
 
         <details class="filters__more" id="more">
@@ -89,6 +94,17 @@ const here = Astro.url.pathname;
 
       <div class="results">
         <p class="results__count" id="count" aria-live="polite">{events.length} {events.length === 1 ? "listing" : "listings"}</p>
+        {runs.length > 0 && (
+          <section class="day day--runs" aria-labelledby="runs-head">
+            <h2 class="day__head" id="runs-head">
+              <span class="plate plate--day">Exhibitions & runs</span>
+              <span class="day__rel">On for more than a day</span>
+            </h2>
+            <ul class="day__list">
+              {runs.map((e) => <EventRow e={e} />)}
+            </ul>
+          </section>
+        )}
         {days.map(([date, list]) => (
           <section class="day" data-date={date} aria-labelledby={`d-${date}`}>
             <h2 class="day__head" id={`d-${date}`}>
@@ -107,6 +123,22 @@ const here = Astro.url.pathname;
         </div>
       </div>
     </div>
+  )}
+
+  {markets.length > 0 && (
+    <section class="markets" aria-labelledby="markets-head">
+      <h2 id="markets-head">Markets every week</h2>
+      <p>These trade week in, week out. The times are in each market's own words, from its own page.</p>
+      <ul>
+        {markets.map((m) => (
+          <li>
+            <strong>{m.name}</strong>
+            <span class="markets__when">“{m.schedule}”</span>
+            <a href={m.source} rel="noopener">Their page</a>
+          </li>
+        ))}
+      </ul>
+    </section>
   )}
 
   <Subscribe />
@@ -172,7 +204,7 @@ const here = Astro.url.pathname;
       let ok = new Date(d.end).getTime() > now;
       if (ok && q) ok = q.split(/\s+/).every((w) => d.text.includes(w));
       if (ok && type !== "all") ok = d.group === type;
-      if (ok && r) ok = d.date >= r[0] && d.date <= r[1];
+      if (ok && r) ok = d.date <= r[1] && d.until >= r[0]; // on at any point in the chosen days
       if (ok && price === "free") ok = d.price === "free";
       if (ok && (price === "10" || price === "20")) ok = d.price === "free" || (d.price !== "unknown" && Number(d.price) <= Number(price));
       if (ok && area === "near") ok = d.zone !== "outer";
@@ -253,6 +285,13 @@ const here = Astro.url.pathname;
   .day__rel { font-weight: 700; font-size: 0.95rem; color: var(--muted); }
   .day__rel--today { color: var(--red); }
   .day__list { list-style: none; margin: 0.75rem 0 0; padding: 0; }
+  .day--runs .day__rel { font-weight: 500; }
+  .markets { max-width: 50rem; margin: 1rem 0 2.5rem; }
+  .markets h2 { font-size: 1.5rem; font-variation-settings: "wdth" 80; font-weight: 750; }
+  .markets p { margin: 0.4rem 0 0.8rem; color: var(--muted); }
+  .markets ul { list-style: none; padding: 0; margin: 0; }
+  .markets li { display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem; align-items: baseline; padding: 0.6rem 0; border-top: 1px solid var(--rule); }
+  .markets__when { flex: 1 1 16rem; }
   .no-results { padding: 2rem 0; }
   .no-results h2 { font-size: 1.3rem; }
   .empty-site { max-width: 44rem; padding: 1.5rem 0 0.5rem; }

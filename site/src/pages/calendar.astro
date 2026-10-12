@@ -2,7 +2,7 @@
 import Base from "../layouts/Base.astro";
 import { loadEvents, type SiteEvent } from "../lib/data";
 import { FEEDS } from "../lib/feeds";
-import { addDays, monthYear, todayInLondon } from "../lib/time";
+import { addDays, dayMonth, monthYear, todayInLondon } from "../lib/time";
 import { rel } from "../lib/rel";
 import config from "../site.config.mjs";
 
@@ -12,7 +12,9 @@ const today = todayInLondon();
 const last = addDays(today, config.daysAhead);
 
 const byDay = new Map<string, SiteEvent[]>();
-for (const e of events) byDay.set(e.date, [...(byDay.get(e.date) ?? []), e]);
+// Runs (exhibitions, theatre runs) appear on their opening day only; the ones already open are listed above the grid.
+for (const e of events.filter((e) => !e.isRun || e.date >= today)) byDay.set(e.date, [...(byDay.get(e.date) ?? []), e]);
+const onNow = events.filter((e) => e.isRun && e.date < today);
 
 // Month grids, Monday first, from this month to the last month we list.
 function monthGrid(first: string) {
@@ -43,6 +45,15 @@ const feeds = FEEDS.filter((f) => f.id === "all" || f.id === "free" || events.so
     <p>The next {config.daysAhead} days at a glance. Pick a day to see everything on.</p>
   </section>
 
+  {onNow.length > 0 && (
+    <section class="on-now" aria-labelledby="on-now-title">
+      <h2 id="on-now-title">On now: exhibitions and runs</h2>
+      <ul>
+        {onNow.map((e) => <li><a href={rel(here, `events/${e.id}.html`)}>{e.title}</a> at {e.venue.name}, until {dayMonth(e.until)}</li>)}
+      </ul>
+    </section>
+  )}
+
   {months.map((m) => (
     <section class="month" aria-labelledby={`m-${m}`}>
       <h2 id={`m-${m}`}><span class="plate plate--month">{monthYear(m)}</span></h2>
@@ -69,7 +80,7 @@ const feeds = FEEDS.filter((f) => f.id === "all" || f.id === "free" || events.so
                     <ul class="cell__list">
                       {list.slice(0, 3).map((e) => (
                         <li class:list={{ off: e.status === "cancelled" || e.status === "postponed" }}>
-                          <a href={rel(here, `events/${e.id}.html`)}>{e.title}</a>
+                          <a href={rel(here, `events/${e.id}.html`)}>{e.isRun && "Opens: "}{e.title}</a>
                         </li>
                       ))}
                       {list.length > 3 && <li class="more"><a href={rel(here, `index.html?on=${d}`)}>{list.length - 3} more</a></li>}
@@ -105,6 +116,9 @@ const feeds = FEEDS.filter((f) => f.id === "all" || f.id === "free" || events.so
   .cal-intro { margin: 1.5rem 0 1.5rem; }
   .cal-intro h1 { font-size: clamp(2.1rem, 6vw, 3.4rem); font-variation-settings: "wdth" 72; font-weight: 800; }
   .cal-intro p { margin: 0.6rem 0 0; }
+  .on-now { max-width: 50rem; margin: 0 0 1.5rem; }
+  .on-now h2 { font-size: 1.15rem; margin: 0 0 0.4rem; }
+  .on-now ul { margin: 0; padding-left: 1.1rem; display: grid; gap: 0.2rem; }
   .month { margin: 2rem 0 2.5rem; }
   .month h2 { margin: 0 0 1rem 5px; }
   .plate--month { font-size: 1.2rem; }

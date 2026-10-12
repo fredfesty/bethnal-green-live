@@ -2,7 +2,7 @@
 
 What's on around Bethnal Green, London E2: a listings website and a weekly newsletter, researched by Claude agents and checked by people. Inspired by Peckham.Live.
 
-**Status:** the data formats, the checking scripts, the first two agents (nights & music scout, verifier) and the website are in place. The newsletter and the other agents come next. See the blueprint doc in the Bethnal Green Live project for the full plan.
+**Status:** the data formats, the checking scripts, five agents (scouts for nights & music, arts, food & drink and community, plus the verifier), the daily run and the website are in place. The newsletter, venue profiles and the listing writer come next. See the blueprint doc in the Bethnal Green Live project for the full plan.
 
 ## How it works
 
@@ -25,7 +25,8 @@ The agents run every morning as a Claude scheduled task; settings and prompt in 
 
 | Path | What's there |
 | --- | --- |
-| `.claude/agents/` | Agent instructions: `scout-nights-music.md`, `verifier.md` |
+| `.claude/agents/` | Agent instructions: `scout-nights-music.md`, `scout-arts.md`, `scout-food-drink.md`, `scout-community.md`, `verifier.md` |
+| `docs/scout-rules.md` | Rules every scout follows |
 | `schemas/` | Data formats: candidate, verification record, event, shared parts |
 | `data/sources/` | Per-category venue and platform registry (zones, watchlist, closed venues) |
 | `data/candidates/` | Scout output, by category and run date |
@@ -45,7 +46,7 @@ The agents run every morning as a Claude scheduled task; settings and prompt in 
 pip install -r requirements.txt
 python -m pytest -q                 # the scripts work
 python scripts/validate.py all      # every data file is valid
-claude                              # then ask: "use the scout-nights-music agent for today"
+claude                              # then ask: "use the scout-arts agent for today"
 ```
 
 ## The website
