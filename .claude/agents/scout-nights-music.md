@@ -18,6 +18,7 @@ Not yours (another scout covers them; do not record): comedy, theatre, film, tal
 ## Where and when
 
 - Read `data/sources/nights-music.json` first. It defines the zones, the venues, the platforms and what you may do with each.
+- Also read `data/venues/*.json` for venues **not** in the registry (the weekly venue run adds them there, with `discovered` set). Treat each one whose `status` is open like a registry venue in its `zone`: check its `website` and any ticketing page you find for it, and use its id as `venue_id`. Skip any with `status: closed`.
 - **core** and **fringe** venues: check every run.
 - **outer** venues: only on Monday runs, standout nights only, at most 5 candidates in total, each with `worth_the_trip: true` and a one-line reason in `why_its_good`.
 - Venues on `do_not_list` are closed. Never record an event there. If a source claims one is open again, put it in the run report with the link and do nothing else.

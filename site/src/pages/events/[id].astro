@@ -4,7 +4,7 @@ import { loadEvents, mapLink, type SiteEvent } from "../../lib/data";
 import { SUBCATEGORY, CATEGORY, STATUS, ZONE } from "../../lib/labels";
 import { timeRange, weekday, dayMonth, longDate, hasTime, londonDate, dayMonthShort } from "../../lib/time";
 import { rel } from "../../lib/rel";
-import { venuePath } from "../../lib/venues";
+import { venuePathFor } from "../../lib/venues";
 import config from "../../site.config.mjs";
 
 export function getStaticPaths() {
@@ -40,7 +40,7 @@ const jsonld = {
     : {}),
   url: pageUrl,
 };
-const vpath = venuePath(e.venue.venue_id);
+const vpath = venuePathFor(e);
 const mail = config.correctionsContact;
 const fixHref = !mail ? null : mail.includes("@")
   ? `mailto:${mail}?subject=${encodeURIComponent(`Correction: ${e.title} (${e.date})`)}&body=${encodeURIComponent(`Listing: ${pageUrl}\n\nWhat's wrong:\n`)}`
@@ -56,7 +56,7 @@ const fixHref = !mail ? null : mail.includes("@")
     </p>
 
     <h1>{e.title}</h1>
-    <p class="ev__kind">{kind} at {e.venue.name}</p>
+    <p class="ev__kind">{kind} at <a href={rel(here, vpath)}>{e.venue.name}</a></p>
 
     {STATUS[e.status] && (
       <p class:list={["ev__status", `ev__status--${e.status}`]} role="status">
@@ -76,7 +76,7 @@ const fixHref = !mail ? null : mail.includes("@")
             {e.venue.name}
             {(e.venue.address || e.venue.postcode) && <><br />{[e.venue.address, e.venue.postcode].filter(Boolean).join(", ")}</>}
             <br /><a href={mapLink(e)}>Show on a map</a>
-            {vpath && <><br /><a href={rel(here, vpath)}>About this venue: access, crowd and cost</a></>}
+            <br /><a href={rel(here, vpath)}>About this venue: access, crowd and cost</a>
             {e.zone === "outer" && <><br /><span class="ev__note">{ZONE.outer}: a bit further from Bethnal Green than most listings.</span></>}
           </dd>
         </div>

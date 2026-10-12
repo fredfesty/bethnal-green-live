@@ -6,6 +6,8 @@ Usage
   python scripts/validate.py verification data/verification/2026-10-13
   python scripts/validate.py events data/events
   python scripts/validate.py venues data/venues
+  python scripts/validate.py venue-leads data/venue-leads/2026-10-18
+  python scripts/validate.py venue-findings data/venue-research/2026-10-18
   python scripts/validate.py all            # everything under data/ (what CI runs)
 
 Options
@@ -27,7 +29,12 @@ verifier confirmed that quote. So beyond the formats, they tie the three stages 
                 verifier's own status quote); no duplicate listings of the same night
   venues        the venue is in a registry (same name and zone) and not closed; every filled-in field is
                 named by an evidence item; the website and access page come from the venue itself; the
-                written fields are in our own words, not copied from the quotes
+                written fields are in our own words, not copied from the quotes; a venue found by the weekly
+                run (not in a registry) has its own types, address, postcode and location, sits in the core
+                or fringe zone, and doesn't duplicate a venue we know
+  venue-leads   every lead has a quote for its name and anything else it states; news about a known venue
+                names that venue; nothing from a never-use site
+  venue-findings  every proposed value is backed by a quote naming that field; written values are our own words
 """
 from __future__ import annotations
 
@@ -48,6 +55,7 @@ except ImportError:  # pragma: no cover
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import policy  # noqa: E402
+import venuelib  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 SCHEMAS = ROOT / "schemas"
@@ -104,7 +112,8 @@ def load_validators() -> dict[str, jsonschema.Draft202012Validator]:
     return {
         kind: jsonschema.Draft202012Validator(by_name[f"{name}.schema.json"], registry=registry, format_checker=fmt)
         for kind, name in [("candidates", "candidate-event"), ("events", "event"), ("verification", "verification"),
-                           ("venues", "venue")]
+                           ("venues", "venue"), ("venue-leads", "venue-lead"),
+                           ("venue-findings", "venue-findings")]
     }
 
 
@@ -262,7 +271,14 @@ def check_venue(data: dict) -> list[str]:
     if vid is None:
         return errs
     if vid not in venues:
-        errs.append(f"venue: '{vid}' is not in the registry (use null and flag it in the run report)")
+        # A venue the weekly venue run added has a profile in data/venues/ instead of a registry entry.
+        prof = read_json(ROOT / "data" / "venues" / f"{vid}.json")[0] if (ROOT / "data" / "venues" / f"{vid}.json").exists() else None
+        if not isinstance(prof, dict):
+            errs.append(f"venue: '{vid}' is not in the registry or data/venues/ (use null and flag it in the run report)")
+        elif prof.get("status") == "closed":
+            errs.append(f"venue: {prof.get('name', vid)} is marked closed in data/venues/{vid}.json")
+        elif prof.get("zone") != data["zone"]:
+            errs.append(f"zone: data/venues/{vid}.json says {prof.get('zone')}, record says {data['zone']}")
     elif venues[vid]["zone"] != data["zone"]:
         errs.append(f"zone: registry says {venues[vid]['zone']}, record says {data['zone']}")
     return errs
@@ -473,7 +489,7 @@ def check_duplicate_events(events: list[tuple[Path, dict]]) -> dict[Path, list[s
 # ---------------------------------------------------------------- venue profiles
 
 VENUE_FACTS = [
-    "summary", "crowd", "website", "age_policy", "capacity", "address", "postcode",
+    "types", "status", "aliases", "summary", "crowd", "website", "age_policy", "capacity", "address", "postcode",
     "music.styles", "music.notes",
     "accessibility.step_free", "accessibility.accessible_toilet", "accessibility.hearing_loop",
     "accessibility.notes", "accessibility.access_page",
@@ -508,6 +524,29 @@ def copied_run(text: str, quote: str, n: int = COPY_RUN) -> str | None:
     return None
 
 
+def _other_profiles(exclude: str) -> list[dict]:
+    out = []
+    for p in sorted((ROOT / "data" / "venues").glob("*.json")):
+        d = read_json(p)[0]
+        if isinstance(d, dict) and d.get("id") and d["id"] != exclude:
+            out.append(d)
+    return out
+
+
+def _filled(v) -> bool:
+    return v not in (None, "", []) if not isinstance(v, bool) else True
+
+
+def check_sources_any(ev: list[dict]) -> list[str]:
+    errs = []
+    for i, e in enumerate(ev):
+        if policy.is_forbidden(e["url"]):
+            errs.append(f"evidence[{i}]: {policy.domain_of(e['url'])} is a never-use source")
+        elif e["source_kind"] == "primary" and policy.is_discovery_only(e["url"]):
+            errs.append(f"evidence[{i}]: {policy.domain_of(e['url'])} is an aggregator; it cannot be 'primary'")
+    return errs
+
+
 def check_venue_profile(path: Path, data: dict, today: dt.date | None = None, days: int = 31) -> list[str]:
     errs = check_filename(path, data)
     venues, closed = all_registry_venues()
@@ -515,27 +554,43 @@ def check_venue_profile(path: Path, data: dict, today: dt.date | None = None, da
         if data["id"] == c["id"] or norm_name(data["name"]) == norm_name(c["name"]):
             return errs + [f"venue: {c['name']} is on the do-not-list ({c['reason']})"]
     reg = venues.get(data["id"])
-    if reg is None:
-        errs.append(f"id: '{data['id']}' is not a venue in data/sources/ (a person adds venues there first)")
-    else:
-        names = {norm_name(reg["name"])} | {norm_name(a) for a in reg.get("aliases", [])}
-        if norm_name(data["name"]) not in names:
+    names = {norm_name(data["name"])} | {norm_name(a) for a in data.get("aliases", [])}
+    if reg is not None:
+        reg_names = {norm_name(reg["name"])} | {norm_name(a) for a in reg.get("aliases", [])}
+        if norm_name(data["name"]) not in reg_names | {norm_name(a) for a in data.get("aliases", [])}:
             errs.append(f"name: registry calls this venue '{reg['name']}'")
         if reg["zone"] != data["zone"]:
             errs.append(f"zone: registry says {reg['zone']}, profile says {data['zone']}")
+    else:
+        # A venue the weekly run found: it carries everything the registry would.
+        for f in ("types", "address", "postcode", "location"):
+            if not _filled(data.get(f)):
+                errs.append(f"{f}: a venue that is not in data/sources/ needs its own {f}")
+        if data["zone"] == "outer":
+            errs.append("zone: new venues are only added in the core or fringe zone (outer ones go to a person)")
+        loc = data.get("location")
+        if loc:
+            dist = venuelib.distance_m(loc["lat"], loc["lon"])
+            if abs(dist - loc["distance_m"]) > 25:
+                errs.append(f"location: distance_m says {loc['distance_m']} but lat/lon are {dist} m from the tube")
+            expected = venuelib.zone_for(data.get("postcode"), dist)
+            if expected != data["zone"]:
+                errs.append(f"zone: {dist} m from Bethnal Green tube is '{expected}', not '{data['zone']}'")
+        for k, v in venues.items():
+            if names & ({norm_name(v["name"])} | {norm_name(a) for a in v.get("aliases", [])}):
+                errs.append(f"name: '{data['name']}' is already in the registry as '{k}'; use that id")
+    for other in _other_profiles(data["id"]):
+        if names & ({norm_name(other["name"])} | {norm_name(a) for a in other.get("aliases", [])}):
+            errs.append(f"name: '{data['name']}' already has a profile, data/venues/{other['id']}.json")
 
     ev = data["evidence"]
-    for i, e in enumerate(ev):
-        if policy.is_forbidden(e["url"]):
-            errs.append(f"evidence[{i}]: {policy.domain_of(e['url'])} is a never-use source")
-        elif e["source_kind"] == "primary" and policy.is_discovery_only(e["url"]):
-            errs.append(f"evidence[{i}]: {policy.domain_of(e['url'])} is an aggregator; it cannot be 'primary'")
-
+    errs += check_sources_any(ev)
     named = {f for e in ev for f in e["fields"]}
     for field in VENUE_FACTS:
         v = get(data, field)
-        filled = v not in (None, "", []) if not isinstance(v, bool) else True
-        if filled and not covered(field, named):
+        if field == "status" and v in (None, "open"):
+            continue
+        if _filled(v) and not covered(field, named):
             errs.append(f"evidence: '{field}' is filled in but no evidence item names it")
 
     for field in ("website", "accessibility.access_page"):
@@ -557,16 +612,54 @@ def check_venue_profile(path: Path, data: dict, today: dt.date | None = None, da
 
     removed = (data.get("review") or {}).get("removed_fields", [])
     for f in removed:
-        v = get(data, f)
-        if v not in (None, "", []):
+        if _filled(get(data, f)) and not isinstance(get(data, f), bool):
             errs.append(f"review: '{f}' is listed as removed but still filled in")
     return errs
 
 
+def check_venue_lead(path: Path, data: dict, today: dt.date | None = None, days: int = 31) -> list[str]:
+    errs = []
+    if path.stem != f"{data['found_by']}-{data['id']}":
+        errs.append(f"file: name should be {data['found_by']}-{data['id']}.json")
+    errs += check_sources_any(data["evidence"])
+    named = {f for e in data["evidence"] for f in e["fields"]}
+    for field in ("name", "address", "postcode", "website", "kind_hint"):
+        if field == "name" or _filled(data.get(field)):
+            if field not in named:
+                errs.append(f"evidence: '{field}' {'is filled in but ' if field != 'name' else ''}no evidence item names it")
+    if data["signal"] != "new" and "signal" not in named:
+        errs.append(f"evidence: signal '{data['signal']}' needs a quote that says so (fields: ['signal'])")
+    if data["signal"] != "new" and not data.get("about_venue_id"):
+        errs.append(f"about_venue_id: news ('{data['signal']}') must name the known venue it is about")
+    if data.get("about_venue_id"):
+        ids = {k["id"] for k in venuelib.known_venues()}
+        if data["about_venue_id"] not in ids:
+            errs.append(f"about_venue_id: '{data['about_venue_id']}' is not a venue we know")
+    return errs
+
+
+def check_venue_findings(path: Path, data: dict, today: dt.date | None = None, days: int = 31) -> list[str]:
+    errs = []
+    if path.name != f"{data['venue_id']}.{data['aspect']}.json":
+        errs.append(f"file: name should be {data['venue_id']}.{data['aspect']}.json")
+    for i, f in enumerate(data["findings"]):
+        errs += [f"findings[{i}] {e}" for e in check_sources_any(f["evidence"])]
+        if not any(covered(f["field"], set(e["fields"])) for e in f["evidence"]):
+            errs.append(f"findings[{i}]: no evidence item names '{f['field']}'")
+        if f["field"] in WRITTEN_FIELDS and isinstance(f["value"], str):
+            for e in f["evidence"]:
+                run_ = copied_run(f["value"], e["quote"])
+                if run_:
+                    errs.append(f"findings[{i}]: '{f['field']}' copies the source word for word (\"{run_}\")")
+                    break
+    return errs
+
+
 CHECKS = {"candidates": check_candidate, "verification": check_verification, "events": check_event,
-          "venues": check_venue_profile}
+          "venues": check_venue_profile, "venue-leads": check_venue_lead, "venue-findings": check_venue_findings}
 DEFAULT_DIRS = {"candidates": "data/candidates", "verification": "data/verification", "events": "data/events",
-                "venues": "data/venues"}
+                "venues": "data/venues", "venue-leads": "data/venue-leads", "venue-findings": "data/venue-research"}
+KINDS = list(CHECKS)
 
 
 def run(kind: str, paths: list[Path], today: dt.date | None, days: int, validators) -> tuple[int, int]:
@@ -575,7 +668,7 @@ def run(kind: str, paths: list[Path], today: dt.date | None, days: int, validato
         if not p.exists():
             print(f"(nothing to check at {p})")
         elif p.is_dir():
-            files += sorted(p.rglob("*.json"))
+            files += sorted(f for f in p.rglob("*.json") if not f.name.startswith("_"))  # _triage.json etc.
         else:
             files.append(p)
     seen: dict[str, Path] = {}
@@ -595,7 +688,7 @@ def run(kind: str, paths: list[Path], today: dt.date | None, days: int, validato
             if kind == "events":
                 good_events.append((f, data))
         ident = data.get("id")
-        if isinstance(ident, str):
+        if isinstance(ident, str) and kind in ("candidates", "verification", "events", "venues"):
             key = ident if kind == "events" else f"{f.parent}/{ident}"
             if key in seen:
                 errs.append(f"duplicate id, also in {seen[key]}")
@@ -618,7 +711,7 @@ def run(kind: str, paths: list[Path], today: dt.date | None, days: int, validato
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("kind", choices=["candidates", "verification", "events", "venues", "all"])
+    ap.add_argument("kind", choices=KINDS + ["all"])
     ap.add_argument("paths", nargs="*", type=Path)
     ap.add_argument("--window", action="store_true", help="reject candidates outside yesterday..+DAYS")
     ap.add_argument("--days", type=int, default=31)
@@ -627,7 +720,7 @@ def main(argv: list[str] | None = None) -> int:
 
     validators = load_validators()
     today = (args.today or dt.datetime.now(LONDON).date()) if args.window else None
-    kinds = ["candidates", "verification", "events", "venues"] if args.kind == "all" else [args.kind]
+    kinds = KINDS if args.kind == "all" else [args.kind]
 
     total = failed = 0
     for kind in kinds:

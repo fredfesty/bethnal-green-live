@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bethnalgreen.live/schemas/venue-findings.schema.json",
+  "title": "Venue research findings",
+  "description": "What one venue researcher found about one venue in the weekly venue run: proposed values for profile fields, each with word-for-word quotes. One file per venue per researcher at data/venue-research/<run-date>/<venue-id>.<aspect>.json. Findings are not published: the venue editor compares them with the published profile and decides.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["venue_id", "venue_name", "aspect", "researched_at", "findings", "not_found"],
+  "properties": {
+    "venue_id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "venue_name": { "type": "string", "minLength": 2 },
+    "aspect": {
+      "description": "reviews = reviews and articles (summary, crowd, music, status news); programme = the kind of events, past listings and music genres; facts = address, website, access, cost, age, capacity.",
+      "enum": ["reviews", "programme", "facts"]
+    },
+    "researched_at": { "$ref": "common.schema.json#/$defs/timestamp" },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["field", "value", "evidence"],
+        "properties": {
+          "field": {
+            "description": "A venue profile field, named as in venue evidence (summary, crowd, types, status, music.styles, accessibility.step_free, cost.notes …).",
+            "type": "string",
+            "pattern": "^(summary|crowd|types|status|aliases|website|age_policy|capacity|address|postcode|music\\.styles|music\\.notes|accessibility\\.(step_free|accessible_toilet|hearing_loop|notes|access_page)|cost\\.(free_entry|notes))$"
+          },
+          "value": {
+            "description": "The proposed value, in the profile's format (a string in our own words, a list of styles, true/false, a number)."
+          },
+          "source_date": {
+            "description": "When the source was published or last updated, if the page says (YYYY, YYYY-MM or YYYY-MM-DD). Old sources can't back crowd, music or access.",
+            "type": ["string", "null"],
+            "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+          },
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "venue.schema.json#/$defs/venue_evidence" }
+          }
+        }
+      }
+    },
+    "not_found": {
+      "description": "Fields this researcher looked for and couldn't find in writing.",
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "notes": { "type": ["string", "null"], "maxLength": 600 }
+  }
+}

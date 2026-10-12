@@ -1,10 +1,10 @@
 ---
 import Base from "../layouts/Base.astro";
 import VenueCard from "../components/VenueCard.astro";
-import { loadVenues, KIND_GROUPS, ZONE_ORDER, ZONE_HEADING } from "../lib/venues";
+import { listedVenues, KIND_GROUPS, ZONE_ORDER, ZONE_HEADING } from "../lib/venues";
 import { rel } from "../lib/rel";
 
-const venues = loadVenues();
+const venues = listedVenues();
 const zones = ZONE_ORDER.map((z) => ({ id: z, ...ZONE_HEADING[z], list: venues.filter((v) => v.zone === z) })).filter((z) => z.list.length);
 const groups = KIND_GROUPS.filter((g) => venues.some((v) => v.kindGroups.includes(g.id)));
 const checked = venues.filter((v) => v.profile).length;
@@ -14,7 +14,7 @@ const here = Astro.url.pathname;
   title="Venues"
   current="venues"
   description="The venues around Bethnal Green: what they're like, what they play, who goes, access and cost."
-  demoNote="Preview build: the event listings are made up, but this venue guide is real."
+  demoNote="Preview build: the event listings are made up, and so are venues that appear only in them. The rest of this guide is real."
 >
   <section class="intro">
     <h1>Venues</h1>

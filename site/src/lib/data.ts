@@ -95,17 +95,31 @@ function enrich(e: RawEvent, venues: Map<string, any>): SiteEvent {
 }
 
 let cache: SiteEvent[] | null = null;
+let allCache: SiteEvent[] | null = null;
+
+/** Every publishable event we have ever listed, past and future. Events under review are never included. */
+export function loadAllEvents(): SiteEvent[] {
+  if (allCache) return allCache;
+  const venues = venueRegistry();
+  const raw: RawEvent[] = DEMO ? demoEvents(todayInLondon()) : readJsonFiles(path.join(REPO, "data", "events"));
+  allCache = raw.filter((e) => e && e.id && !e.needs_review).map((e) => enrich(e, venues));
+  return allCache;
+}
+
+/** Events that have finished, most recent first. */
+export function loadPastEvents(): SiteEvent[] {
+  const now = Date.now();
+  return loadAllEvents()
+    .filter((e) => new Date(e.endsAtIso).getTime() <= now)
+    .sort((a, b) => instant(b.starts_at).getTime() - instant(a.starts_at).getTime());
+}
 
 /** Upcoming, publishable events, soonest first. Events under review are never shown. */
 export function loadEvents(): SiteEvent[] {
   if (cache) return cache;
-  const venues = venueRegistry();
-  const raw: RawEvent[] = DEMO ? demoEvents(todayInLondon()) : readJsonFiles(path.join(REPO, "data", "events"));
   const now = Date.now();
   const last = addDays(todayInLondon(), config.daysAhead);
-  cache = raw
-    .filter((e) => e && e.id && !e.needs_review)
-    .map((e) => enrich(e, venues))
+  cache = loadAllEvents()
     .filter((e) => new Date(e.endsAtIso).getTime() > now && e.date <= last)
     .sort((a, b) => instant(a.starts_at).getTime() - instant(b.starts_at).getTime() || a.title.localeCompare(b.title));
   return cache;

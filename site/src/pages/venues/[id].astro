@@ -1,7 +1,8 @@
 ---
 import Base from "../../layouts/Base.astro";
 import EventRow from "../../components/EventRow.astro";
-import { loadVenues, venueMapLink, accessLines, FREE_ENTRY, ZONE_HEADING, type SiteVenue } from "../../lib/venues";
+import { loadVenues, venueMapLink, accessLines, FREE_ENTRY, ZONE_HEADING, STATUS_NOTE, type SiteVenue } from "../../lib/venues";
+import { SUBCATEGORY, CATEGORY } from "../../lib/labels";
 import { byDate } from "../../lib/data";
 import { weekday, dayMonth, dayMonthShort, londonDate } from "../../lib/time";
 import { rel } from "../../lib/rel";
@@ -16,6 +17,13 @@ const here = Astro.url.pathname;
 const p = v.profile;
 const access = p ? accessLines(p) : [];
 const days = byDate(v.events);
+// What we've listed here before: a count per kind of night, and the most recent few.
+const pastKinds = Object.entries(v.past.reduce((m: Record<string, number>, e) => {
+  const k = e.category === "nights-music" ? SUBCATEGORY[e.subcategory] : CATEGORY[e.category];
+  m[k] = (m[k] ?? 0) + 1;
+  return m;
+}, {})).sort((a, b) => b[1] - a[1]);
+const recentPast = v.past.slice(0, 6);
 const pageUrl = new URL(`venues/${v.id}.html`, Astro.site).href;
 const KIND_LABEL: Record<string, string> = { primary: "the venue's own page", press: "a review or article", directory: "an access guide or directory", aggregator: "a listings site" };
 const hosts = [...new Map(v.sources.map((s) => [s.host, s])).values()];
@@ -43,11 +51,14 @@ const fixHref = !mail ? null : mail.includes("@")
     <p class="plate plate--date"><span>{ZONE_HEADING[v.zone]?.title ?? v.zone}</span>{v.postcode && <span class="plate__district">{v.postcode}</span>}</p>
     <h1>{v.name}</h1>
     {v.kinds.length > 0 && <p class="vn__kind">{v.kinds.join(" · ")}</p>}
+    {STATUS_NOTE[v.status] && <p class="vn__status" role="status">{STATUS_NOTE[v.status]}</p>}
     {p?.summary && <p class="vn__summary">{p.summary}</p>}
     {!p && (
       <p class="vn__pending">
-        We're still checking this venue's details, so for now there's just the address and what's on. Plans and
-        access change, so check with the venue before you go.
+        {v.source === "listings"
+          ? "This venue is in our listings but we haven't profiled it yet; that happens in our weekly venue check. For now there's just the address and what's on."
+          : "We're still checking this venue's details, so for now there's just the address and what's on."}
+        {" "}Plans and access change, so check with the venue before you go.
       </p>
     )}
 
@@ -120,6 +131,21 @@ const fixHref = !mail ? null : mail.includes("@")
       )}
     </section>
 
+    {v.past.length > 0 && (
+      <section class="vn__past" aria-labelledby="past-head">
+        <h2 id="past-head">Previously listed here</h2>
+        <p class="vn__muted">
+          {v.past.length} {v.past.length === 1 ? "night" : "nights"} in our listings so far:{" "}
+          {pastKinds.map(([k, n], i) => <>{i > 0 && ", "}{k.toLowerCase()} ({n})</>)}.
+        </p>
+        <ul class="vn__pastlist">
+          {recentPast.map((e) => (
+            <li><span class="vn__pastdate">{dayMonthShort(e.date)}</span> {e.title}{e.genres && e.genres.length > 0 && <span class="vn__muted"> · {e.genres.slice(0, 3).join(", ")}</span>}</li>
+          ))}
+        </ul>
+      </section>
+    )}
+
     {p && (
       <section class="vn__checked" aria-labelledby="checked">
         <h2 id="checked">How we checked this</h2>
@@ -160,6 +186,12 @@ const fixHref = !mail ? null : mail.includes("@")
   .tag { font-size: 0.9rem; font-weight: 600; padding: 0.15rem 0.55rem; border-radius: 4px; background: var(--green-tint); color: var(--green); }
   .tag--no { background: #f3e9e7; color: #8a2a20; }
   .vn__on { margin-top: 3rem; }
+  .vn__status { margin: 1.25rem 0 0; padding: 0.75rem 1rem; border-left: 4px solid var(--red); background: #fff; font-weight: 600; max-width: var(--measure); }
+  .vn__past { margin-top: 2.5rem; }
+  .vn__past h2 { font-size: 1.35rem; font-weight: 750; }
+  .vn__past p { margin: 0.5rem 0 0; }
+  .vn__pastlist { list-style: none; margin: 0.75rem 0 0; padding: 0; display: grid; gap: 0.35rem; }
+  .vn__pastdate { display: inline-block; min-width: 4.2rem; font-weight: 650; font-feature-settings: "tnum"; }
   .vn__on h2, .vn__checked h2 { font-size: 1.35rem; font-weight: 750; }
   .vn__day { margin-top: 1.25rem; }
   .vn__date { font-size: 1rem; font-weight: 700; }

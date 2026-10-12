@@ -3,13 +3,13 @@ import type { SiteEvent } from "../lib/data";
 import { SUBCATEGORY, CATEGORY, STATUS, ZONE } from "../lib/labels";
 import { hasTime, clock } from "../lib/time";
 import { rel } from "../lib/rel";
-import { venuePath } from "../lib/venues";
+import { venuePathFor } from "../lib/venues";
 
 interface Props { e: SiteEvent; hideVenue?: boolean }
 const { e, hideVenue = false } = Astro.props;
 const here = Astro.url.pathname;
 const kind = e.category === "nights-music" ? SUBCATEGORY[e.subcategory] : CATEGORY[e.category];
-const vpath = venuePath(e.venue.venue_id);
+const vpath = venuePathFor(e);
 const off = e.status === "cancelled" || e.status === "postponed";
 ---
 <li
@@ -26,7 +26,7 @@ const off = e.status === "cancelled" || e.status === "postponed";
   </p>
   <div class="event__body">
     <h3 class="event__title"><a href={rel(here, `events/${e.id}.html`)}>{e.title}</a></h3>
-    {!hideVenue && <p class="event__where">{vpath ? <a class="event__venue" href={rel(here, vpath)}>{e.venue.name}</a> : e.venue.name}{e.zone === "outer" && <span class="event__trip"> {ZONE.outer.toLowerCase()}</span>}</p>}
+    {!hideVenue && <p class="event__where"><a class="event__venue" href={rel(here, vpath)}>{e.venue.name}</a>{e.zone === "outer" && <span class="event__trip"> {ZONE.outer.toLowerCase()}</span>}</p>}
     <p class="event__meta">
       <span>{kind}</span>
       <span class:list={["event__price", { "event__price--free": e.price.is_free }]}>{e.priceLabel}</span>
