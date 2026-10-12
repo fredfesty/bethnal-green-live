@@ -1,0 +1,116 @@
+{
+  "id": "palm-tree",
+  "name": "The Palm Tree",
+  "zone": "fringe",
+  "address": "127 Grove Rd (Mile End Park), London",
+  "postcode": "E3 5RP",
+  "website": null,
+  "summary": "A Grade II-listed pub rebuilt by Truman's, standing on its own in Mile End Park by the Regent's Canal, with its 1930s interior intact. It has two handpumps, puts on live music at weekends and takes cash only.",
+  "music": {
+    "styles": [
+      "jazz"
+    ],
+    "notes": "Live music at weekends; Time Out says there is often a jazz band playing."
+  },
+  "crowd": "Time Out says its regulars can be real characters.",
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": false,
+    "hearing_loop": null,
+    "notes": "CAMRA says step-free entry is through the side or rear doors, and there is no accessible toilet.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Cash only."
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "music.notes",
+        "cost.notes"
+      ],
+      "url": "https://camra.org.uk/pubs/palm-tree-bow-156727",
+      "quote": "Grade II listed pub in Bow by Mile End Park with intact 1930s interior, two handpumps & regular weekend live music. Cash only.",
+      "retrieved_at": "2026-10-12T23:02:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://camra.org.uk/pubs/palm-tree-bow-156727",
+      "quote": "Rebuilt by Truman's and now one of London's Real Heritage Pubs, it was marooned when surrounding buildings were demolished to create Mile End Park. Run by the same family for over 40 years",
+      "retrieved_at": "2026-10-12T23:02:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://camra.org.uk/pubs/palm-tree-bow-156727",
+      "quote": "it looks strangely adrift in parkland beside the Regent’s Canal",
+      "retrieved_at": "2026-10-12T23:02:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "cost.notes",
+        "music.notes"
+      ],
+      "url": "https://camra.org.uk/pubs/palm-tree-bow-156727",
+      "quote": "Cash payments only at this pub still using an old cash register. Live music at weekends",
+      "retrieved_at": "2026-10-12T23:02:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://camra.org.uk/pubs/palm-tree-bow-156727",
+      "quote": "127 Grove Road, Bow, E3 5RP",
+      "retrieved_at": "2026-10-12T23:02:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.accessible_toilet",
+        "accessibility.notes"
+      ],
+      "url": "https://camra.org.uk/pubs/palm-tree-bow-156727",
+      "quote": "Step free access via rear/side doors. No accessible toilet.",
+      "retrieved_at": "2026-10-12T23:02:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/palm-tree",
+      "quote": "There’s often a live jazz band, and since there are no neighbours within shouting distance, late-night knees-ups often get lairy.",
+      "retrieved_at": "2026-10-12T23:03:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/palm-tree",
+      "quote": "Regulars can be real characters",
+      "retrieved_at": "2026-10-12T23:03:00Z",
+      "source_kind": "press"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:08:23Z",
+  "review": {
+    "checked_at": "2026-10-12T23:13:30Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

@@ -1,0 +1,166 @@
+{
+  "id": "oxford-house",
+  "name": "Oxford House",
+  "zone": "core",
+  "address": "Derbyshire Street, London",
+  "postcode": "E2 6HG",
+  "website": "https://www.oxfordhouse.org.uk",
+  "summary": "A community arts centre in a Grade II listed building in Bethnal Green. It began in 1884 as the original settlement house, where Oxford graduates lived and volunteered, and now has a 120-seat theatre, a café, a Victorian chapel, a gallery and a roof terrace.",
+  "music": {
+    "styles": [
+      "jazz"
+    ],
+    "notes": "A jazz session in the café on the last Friday of each month, played by a young four-piece house band."
+  },
+  "crowd": "A community arts centre for Bethnal Green; it says its free programmes aim to reach people who face extra barriers to taking part in the arts.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": "The theatre's backstage area has an accessible toilet. A venue-hire listing says every room is fully accessible.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "website",
+        "summary"
+      ],
+      "url": "https://www.oxfordhouse.org.uk",
+      "quote": "Oxford House is a community arts centre in Bethnal Green. It was established in 1884 as the first Settlement House where graduates from Keble College, Oxford lived and volunteered their time",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.oxfordhouse.org.uk",
+      "quote": "Derbyshire Street Bethnal Green London E2 6HG",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.oxfordhouse.org.uk",
+      "quote": "Building harmonious and creative communities in Bethnal Green",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "capacity"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/history/",
+      "quote": "Based in our original Grade II listed building on Derbyshire Street, we underwent a major refurbishment in 2019 and are now home to a 120-seat theatre, gallery, dance studio, Victorian chapel, café and roof terrace.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "capacity"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/hire/theatre/",
+      "quote": "it has a sprung wooden floor and a retractable seating rack for 120 people",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/hire/theatre/",
+      "quote": "The backstage area comprises of a well-lit dressing room for up to six performers (complete with Hollywood-style mirrors), an accessible toilet, a green room and a backstage bar.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes",
+        "cost.free_entry"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "quote": "Friday Jazz Last Friday of each month.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "quote": "our monthly jazz performance curated by the OH House Band of brilliant young musicians",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "quote": "Our four-piece ensemble includes sax, double bass, keys and drums.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "quote": "Location Oxford House, Café",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.free_entry",
+        "cost.notes",
+        "crowd"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "quote": "This event is free, but donations are welcome. Donations allow us to continue to offer free programmes and projects reaching those who may face additional barriers to engaging in arts and culture.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/hire/cafe/",
+      "quote": "With its own PA system and speakers, it is perfect for networking events, intimate gigs, supper clubs and wedding receptions.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.venuescanner.com/bethnal-green/oxford-house-in-bethnal-green/theatre",
+      "quote": "All of our rooms are fully accessible, natural light and WI-FI.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "aggregator"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:05:39Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:31Z",
+    "removed_fields": [
+      "cost.free_entry",
+      "cost.notes",
+      "capacity"
+    ]
+  },
+  "needs_review": null
+}

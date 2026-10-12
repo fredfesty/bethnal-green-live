@@ -1,0 +1,133 @@
+{
+  "id": "rough-trade-east",
+  "name": "Rough Trade East",
+  "zone": "fringe",
+  "address": "Old Truman Brewery, 91 Brick Lane, London",
+  "postcode": "E1 6QL",
+  "website": "https://www.roughtrade.com/en-gb/stores/east-london",
+  "summary": "Rough Trade's flagship UK record shop, inside the Old Truman Brewery complex off Brick Lane. The 5,000 sq ft store sells vinyl, books and merchandise, has a photobooth and a bar, and puts on in-store gigs on its own stage.",
+  "music": {
+    "styles": [],
+    "notes": "In-store live events every day of the week on a purpose-built stage. Sets are shorter than at a normal gig, and well-known acts can draw long queues."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "hearing_loop": null,
+    "notes": "Ramped, wheelchair-friendly entrance and a shop floor all on one level. Accessible parking bays are on site, within 50 metres of the entrance, and the Old Truman Brewery has public car parks.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": "some-nights",
+    "notes": "Time Out says in-store gigs are usually free but must be booked through DICE, or are free when you buy the performer's new album."
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website",
+        "music.notes"
+      ],
+      "url": "https://www.roughtrade.com/en-gb/stores/east-london",
+      "quote": "Located in Old Truman Brewery, just off Brick Lane, this is our flagship UK store. The 5000 square feet space boasts a large vinyl selection, a complimentary selection of books and merchandise as well as our legendary Photobooth and Bar.",
+      "retrieved_at": "2026-10-12T23:01:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes",
+        "summary"
+      ],
+      "url": "https://www.roughtrade.com/en-gb/stores/east-london",
+      "quote": "The store hosts live events 7 days a week",
+      "retrieved_at": "2026-10-12T23:01:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode",
+        "website"
+      ],
+      "url": "https://www.roughtrade.com/en-gb/stores/east-london",
+      "quote": "Old Truman Brewery 91, Brick Ln, London E1 6QL",
+      "retrieved_at": "2026-10-12T23:01:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/shopping/rough-trade-east",
+      "quote": "it also welcomes live performers of pretty much every persuasion to their purpose-built stage",
+      "retrieved_at": "2026-10-12T23:00:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "cost.free_entry",
+        "cost.notes"
+      ],
+      "url": "https://www.timeout.com/london/shopping/rough-trade-east",
+      "quote": "Gigs are more often than not free (although tickets need to be booked via Dice), or free with purchase of the new album by whoever's playing.",
+      "retrieved_at": "2026-10-12T23:00:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/shopping/rough-trade-east",
+      "quote": "Sets are shorter than a regular gig and there can be long queues for bigger named acts",
+      "retrieved_at": "2026-10-12T23:00:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes"
+      ],
+      "url": "https://www.euansguide.com/venues/rough-trade-east-london-7907",
+      "quote": "The shop has a wheelchair accessible entrance ramp, and is laid out on a single level without the need for stairs.",
+      "retrieved_at": "2026-10-12T23:02:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.euansguide.com/venues/rough-trade-east-london-7907",
+      "quote": "On-site accessible parking bays are available within 50 metres of the entrance.",
+      "retrieved_at": "2026-10-12T23:02:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.euansguide.com/venues/rough-trade-east-london-7907",
+      "quote": "The Old Truman Brewery has three public car parks.",
+      "retrieved_at": "2026-10-12T23:02:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://www.euansguide.com/venues/rough-trade-east-london-7907",
+      "quote": "A designated accessible toilet designed for wheelchair users and others with visible and non-visible accessibility requirements is available within the main public areas.",
+      "retrieved_at": "2026-10-12T23:02:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:08:23Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:31Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

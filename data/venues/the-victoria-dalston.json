@@ -1,0 +1,104 @@
+{
+  "id": "the-victoria-dalston",
+  "name": "The Victoria",
+  "zone": "outer",
+  "address": "451 Queensbridge Rd, London",
+  "postcode": "E8 3AS",
+  "website": "https://www.jaguarshoes.com/pages/the-victoria",
+  "summary": "A Victorian corner pub run by the Jaguar Shoes group since 2015, with a preserved 1950s bar, food and a beer garden. Its live music room has been part of London's independent scene since the 1980s.",
+  "music": {
+    "styles": [],
+    "notes": "Gigs in the live room, along with DJs and a mixed range of club nights."
+  },
+  "crowd": "Calls itself an easy-going Hackney local and a community pub.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.jaguarshoes.com/pages/the-victoria",
+      "quote": "PUB FOOD ~ LEGENDARY LIVE MUSIC ~ BEER GARDEN 451 QUEENSBRIDGE RD, E8 3AS",
+      "retrieved_at": "2026-10-12T22:52:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "crowd"
+      ],
+      "url": "https://www.jaguarshoes.com/pages/the-victoria",
+      "quote": "A FRIENDLY, LAID-BACK HACKNEY LOCAL WITH DEEP EAST LONDON ROOTS.",
+      "retrieved_at": "2026-10-12T22:52:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.jaguarshoes.com/pages/the-victoria",
+      "quote": "THE VENUE IS A FIXTURE OF LONDON'S INDEPENDENT MUSIC SCENE, HOSTING LIVE ACTS, DJS AND ECLECTIC CLUB NIGHTS.",
+      "retrieved_at": "2026-10-12T22:52:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "crowd"
+      ],
+      "url": "https://www.jaguarshoes.com/pages/the-victoria",
+      "quote": "The Victoria is an East London community pub with more than a century of history behind it. Behind the beautifully preserved 1950s bar",
+      "retrieved_at": "2026-10-12T22:52:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.jaguarshoes.com/pages/the-victoria",
+      "quote": "Our legendary live room has been a fixture of London's independent music scene since the 1980s.",
+      "retrieved_at": "2026-10-12T22:52:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www1.camra.org.uk/pubs/156075",
+      "quote": "Victorian corner pub in Dalston with a long live-music history, food & front/side garden",
+      "retrieved_at": "2026-10-12T22:54:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www1.camra.org.uk/pubs/156075",
+      "quote": "Taken over by Jaguar Shoes in May 2015.",
+      "retrieved_at": "2026-10-12T22:54:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:10:00Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:04Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

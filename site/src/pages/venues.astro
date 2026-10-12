@@ -1,0 +1,206 @@
+---
+import Base from "../layouts/Base.astro";
+import VenueCard from "../components/VenueCard.astro";
+import { loadVenues, KIND_GROUPS, ZONE_ORDER, ZONE_HEADING } from "../lib/venues";
+import { rel } from "../lib/rel";
+
+const venues = loadVenues();
+const zones = ZONE_ORDER.map((z) => ({ id: z, ...ZONE_HEADING[z], list: venues.filter((v) => v.zone === z) })).filter((z) => z.list.length);
+const groups = KIND_GROUPS.filter((g) => venues.some((v) => v.kindGroups.includes(g.id)));
+const checked = venues.filter((v) => v.profile).length;
+const here = Astro.url.pathname;
+---
+<Base
+  title="Venues"
+  current="venues"
+  description="The venues around Bethnal Green: what they're like, what they play, who goes, access and cost."
+  demoNote="Preview build: the event listings are made up, but this venue guide is real."
+>
+  <section class="intro">
+    <h1>Venues</h1>
+    <p>
+      The clubs, pubs, gig rooms and halls we list, from round the corner to worth the trip: what each place is like,
+      what it plays, who goes, how easy it is to get in and what a night costs.
+    </p>
+    <p class="intro__small">
+      Like the listings, every detail comes from the venue's own website, an access guide or a review, word for word,
+      and was checked again before it went up. Where it says "not confirmed", we couldn't find it in writing, so ask
+      the venue. <a href={rel(here, "about.html")}>How we check</a>.
+    </p>
+  </section>
+
+  <div class="listings">
+    <form class="filters" id="vfilters" role="search" aria-label="Filter the venues" onsubmit="return false">
+      <div class="filters__search">
+        <label for="vq">Search</label>
+        <input id="vq" name="q" type="search" placeholder="Venue, music, postcode…" autocomplete="off" />
+      </div>
+      <details class="filters__more" id="vmore">
+        <summary>Filters <span id="vactive"></span></summary>
+        <div class="filters__sets">
+          <fieldset>
+            <legend>Kind of place</legend>
+            <div class="chips">
+              <label><input type="radio" name="kind" value="all" checked /><span>All venues</span></label>
+              {groups.map((g) => <label><input type="radio" name="kind" value={g.id} /><span>{g.label}</span></label>)}
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Where</legend>
+            <div class="chips">
+              <label><input type="radio" name="area" value="all" checked /><span>Everywhere we list</span></label>
+              <label><input type="radio" name="area" value="near" /><span>Walking distance</span></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Getting in</legend>
+            <div class="chips">
+              <label><input type="checkbox" name="stepfree" value="1" /><span>Step-free entry</span></label>
+              <label><input type="checkbox" name="free" value="1" /><span>Free some nights</span></label>
+            </div>
+          </fieldset>
+        </div>
+      </details>
+    </form>
+
+    <div class="results">
+      <p class="results__count" id="vcount" aria-live="polite">
+        {venues.length} venues · {checked} with checked details
+      </p>
+      {zones.map((z) => (
+        <section class="zone" data-zone-section={z.id} aria-labelledby={`z-${z.id}`}>
+          <h2 class="zone__head" id={`z-${z.id}`}>
+            <span class="plate plate--day">{z.title}</span>
+            <span class="zone__blurb">{z.blurb}</span>
+          </h2>
+          <ul class="venues">
+            {z.list.map((v) => <VenueCard v={v} />)}
+          </ul>
+        </section>
+      ))}
+      <div class="no-results" id="vnone" hidden>
+        <h2>No venues match those filters</h2>
+        <p>Try another kind of place, or fewer filters. Many venues haven't told us about access yet, so "Step-free entry" only shows places where it's confirmed in writing.</p>
+        <button class="button button--quiet" type="button" id="vclear">Clear all filters</button>
+      </div>
+    </div>
+  </div>
+</Base>
+
+<script is:inline>
+(() => {
+  const form = document.getElementById("vfilters");
+  if (!form) return;
+  const cards = [...document.querySelectorAll(".venue")];
+  const zones = [...document.querySelectorAll("[data-zone-section]")];
+  const count = document.getElementById("vcount");
+  const none = document.getElementById("vnone");
+  const more = document.getElementById("vmore");
+  const active = document.getElementById("vactive");
+  const wide = matchMedia("(min-width: 52.01rem)");
+  const syncOpen = () => { if (wide.matches) more.open = true; };
+  wide.addEventListener("change", syncOpen);
+  syncOpen();
+  const initial = count.textContent;
+
+  function apply() {
+    const q = form.elements.q.value.trim().toLowerCase();
+    const kind = form.elements.kind.value;
+    const area = form.elements.area.value;
+    const stepfree = form.elements.stepfree.checked;
+    const free = form.elements.free.checked;
+    let shown = 0;
+    for (const c of cards) {
+      const ok = (!q || q.split(/\s+/).every((w) => c.dataset.text.includes(w)))
+        && (kind === "all" || c.dataset.kinds.split(" ").includes(kind))
+        && (area === "all" || c.dataset.zone !== "outer")
+        && (!stepfree || c.dataset.stepfree === "1")
+        && (!free || c.dataset.free === "1");
+      c.hidden = !ok;
+      if (ok) shown++;
+    }
+    for (const z of zones) z.hidden = !z.querySelector(".venue:not([hidden])");
+    const n = (kind !== "all") + (area !== "all") + stepfree + free;
+    active.textContent = n ? `(${n})` : "";
+    count.textContent = q || n ? `${shown} ${shown === 1 ? "venue" : "venues"}` : initial;
+    none.hidden = shown > 0;
+    const params = new URLSearchParams();
+    if (q) params.set("q", q);
+    if (kind !== "all") params.set("kind", kind);
+    if (area !== "all") params.set("area", area);
+    if (stepfree) params.set("stepfree", "1");
+    if (free) params.set("free", "1");
+    const s = params.toString();
+    history.replaceState(null, "", s ? `?${s}` : location.pathname);
+  }
+
+  // Restore a shared filtered view.
+  const p = new URLSearchParams(location.search);
+  if (p.get("q")) form.elements.q.value = p.get("q");
+  for (const name of ["kind", "area"]) {
+    const v = p.get(name);
+    const input = v && form.querySelector(`input[name="${name}"][value="${CSS.escape(v)}"]`);
+    if (input) input.checked = true;
+  }
+  form.elements.stepfree.checked = p.get("stepfree") === "1";
+  form.elements.free.checked = p.get("free") === "1";
+
+  form.addEventListener("input", apply);
+  document.getElementById("vclear").addEventListener("click", () => { form.reset(); apply(); });
+  apply();
+})();
+</script>
+
+<style>
+  .intro { max-width: 46rem; margin: 1.5rem 0 2rem; }
+  .intro h1 {
+    font-size: clamp(2.1rem, 6vw, 3.6rem); font-variation-settings: "wdth" 72; font-weight: 800;
+    letter-spacing: -0.01em; line-height: 1;
+  }
+  .intro p { font-size: 1.15rem; margin: 0.9rem 0 0; max-width: 56ch; }
+  .intro .intro__small { font-size: 0.98rem; color: var(--muted); }
+
+  .listings { display: grid; grid-template-columns: 17.5rem 1fr; gap: 2.5rem; align-items: start; }
+  .filters { position: sticky; top: 1rem; display: grid; gap: 1.1rem; }
+  .filters fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+  .filters__sets { display: grid; gap: 1.1rem; }
+  .filters__more > summary { display: none; }
+  .filters legend, .filters__search label { font-weight: 700; font-size: 0.95rem; margin-bottom: 0.4rem; display: block; padding: 0; }
+  .filters__search input {
+    width: 100%; font: inherit; padding: 0.55rem 0.7rem; border: 1.5px solid #000; border-radius: 6px; background: #fff;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .chips label { position: relative; }
+  .chips input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+  .chips span {
+    display: inline-block; padding: 0.3rem 0.7rem; border: 1.5px solid var(--rule); border-radius: 999px;
+    background: #fff; font-size: 0.92rem; font-weight: 550; cursor: pointer; white-space: nowrap;
+  }
+  .chips label:hover span { border-color: #000; }
+  .chips input:checked + span { background: var(--green); border-color: var(--green); color: #fff; }
+  .chips input:focus-visible + span { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+  .results__count { margin: 0 0 0.5rem; color: var(--muted); font-size: 0.95rem; }
+  .zone { margin: 0 0 2.5rem; }
+  .zone__head { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; margin: 0.5rem 0 1rem 5px; font-size: 1.05rem; }
+  .zone__blurb { color: var(--muted); font-weight: 500; font-size: 0.95rem; }
+  .plate--day { font-size: 1.25rem; }
+  .venues { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); gap: 1rem; align-items: start; }
+  .no-results { padding: 2rem 0; max-width: 40rem; }
+  .no-results h2 { font-size: 1.3rem; margin-bottom: 0.5rem; }
+
+  @media (max-width: 52rem) {
+    .listings { grid-template-columns: 1fr; gap: 1.5rem; }
+    .filters { position: static; gap: 0.75rem; }
+    .filters__more > summary {
+      display: inline-flex; gap: 0.4rem; align-items: center; cursor: pointer; font-weight: 700;
+      padding: 0.45rem 0.9rem; border: 1.5px solid #000; border-radius: 6px; background: #fff; list-style: none;
+    }
+    .filters__more > summary::-webkit-details-marker { display: none; }
+    .filters__more > summary::after { content: ""; width: 0.45rem; height: 0.45rem; border: solid currentColor; border-width: 0 2px 2px 0; transform: rotate(45deg) translateY(-2px); margin-left: 0.2rem; }
+    .filters__more[open] > summary::after { transform: rotate(-135deg) translateY(-1px); }
+    .filters__more[open] .filters__sets { margin-top: 1rem; }
+    #vactive { color: var(--green); }
+    .chips { flex-wrap: nowrap; overflow-x: auto; padding: 3px 3px 6px; margin: -3px; scrollbar-width: thin; }
+  }
+</style>

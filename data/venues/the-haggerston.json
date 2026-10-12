@@ -1,0 +1,107 @@
+{
+  "id": "the-haggerston",
+  "name": "The Haggerston",
+  "zone": "fringe",
+  "address": "438 Kingsland Rd, London",
+  "postcode": "E8 4AA",
+  "website": null,
+  "summary": "An independent pub on Kingsland Road, known as Uncle Sam's for over a decade before reopening under its current name in 2008. It hosts free jazz nights on Sundays.",
+  "music": {
+    "styles": [
+      "jazz"
+    ],
+    "notes": "Free jazz nights on Sundays; CAMRA also lists live music among the pub's facilities."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": false,
+    "accessible_toilet": true,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": "some-nights",
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://camra.org.uk/pubs/haggerston-hackney-156101",
+      "quote": "438 Kingsland Road, Hackney, E8 4AA",
+      "retrieved_at": "2026-10-12T22:56:45Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://camra.org.uk/pubs/haggerston-hackney-156101",
+      "quote": "Was the Swan, then Richmonds, from late 1980s Uncle Sam's for over a decade. Reopened in 2008 as the Haggerston.",
+      "retrieved_at": "2026-10-12T22:56:45Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://camra.org.uk/pubs/haggerston-hackney-156101",
+      "quote": "Operator: Independent",
+      "retrieved_at": "2026-10-12T22:56:45Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.styles",
+        "music.notes",
+        "cost.free_entry"
+      ],
+      "url": "https://www.soas.ac.uk/about/blogs/explore-londons-hidden-music-scene-top-weekly-jazz-and-jam-spots",
+      "quote": "The Haggerston offers free Sunday jazz nights in Dalston.",
+      "retrieved_at": "2026-10-12T22:58:04Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.soas.ac.uk/about/blogs/explore-londons-hidden-music-scene-top-weekly-jazz-and-jam-spots",
+      "quote": "This free event is a hotspot for young music enthusiasts and jazz lovers alike. With its lively crowd and high-energy performances",
+      "retrieved_at": "2026-10-12T22:58:04Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://camra.org.uk/pubs/haggerston-hackney-156101",
+      "quote": "Facilities Evening Meals Live Music",
+      "retrieved_at": "2026-10-12T22:56:45Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://camra.org.uk/pubs/haggerston-hackney-156101",
+      "quote": "Mobility Access Statement Steps at entrance. Accessible toilet.",
+      "retrieved_at": "2026-10-12T22:56:45Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:04:43Z",
+  "review": {
+    "checked_at": "2026-10-12T23:13:30Z",
+    "removed_fields": [
+      "crowd"
+    ]
+  },
+  "needs_review": null
+}

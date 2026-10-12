@@ -1,0 +1,229 @@
+{
+  "id": "earth-hackney",
+  "name": "EartH",
+  "zone": "outer",
+  "address": "11-17 Stoke Newington Rd, Dalston, London",
+  "postcode": "N16 8BH",
+  "website": "https://earthackney.co.uk/",
+  "summary": "An arts venue in Dalston set in a 1930s Art Deco former cinema, reopened in 2018 by the people who run Village Underground. Under one roof it has a tiered theatre, a standing hall downstairs and a bar and kitchen, and puts on gigs, club nights, comedy and cabaret.",
+  "music": {
+    "styles": [],
+    "notes": "Everything from small seated concerts and rowdy live shows to late club nights, plus comedy and cabaret. Time Out says it is a regular stop for mid-sized touring acts as well as nightlife events."
+  },
+  "crowd": "Calls itself an arts space for Hackney and further afield where everyone is welcome. It takes a zero-tolerance line on harassment and has signed up to Good Night Out and the Women's Night Safety Charter.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": true,
+    "hearing_loop": null,
+    "notes": "The downstairs hall has an accessible bar, and a lift is available (300kg limit). The theatre has no step-free route: 15 rear steps, with a staff-run stairclimber for manual wheelchairs. The kitchen is not wheelchair accessible. Access tickets are sold only via DICE; carers go free.",
+    "access_page": "https://earthackney.co.uk/access/"
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Bars and cloakroom take cards only (no cash machines on site); the cloakroom charges £2.50 for coats and £3 for bags."
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "website",
+        "summary"
+      ],
+      "url": "https://earthackney.co.uk/",
+      "quote": "EartH is an arts venue and creative hub in the heart of Dalston, Hackney.",
+      "retrieved_at": "2026-10-12T23:04:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://earthackney.co.uk/",
+      "quote": "Originally built in the 1930s as the Savoy cinema, EartH is a prime example of Art Deco architecture.",
+      "retrieved_at": "2026-10-12T23:04:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://earthackney.co.uk/",
+      "quote": "In 2018, the building was given a new lease of life when the team behind Shoreditch’s Village Underground venue refurbished and reopened EartH to the public.",
+      "retrieved_at": "2026-10-12T23:04:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://earthackney.co.uk/",
+      "quote": "With three distinct venues under one roof – EartH Theatre, EartH Hall, and EartH Kitchen – our programme is an eclectic and vibrant mix of art forms.",
+      "retrieved_at": "2026-10-12T23:04:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://earthackney.co.uk/",
+      "quote": "11-17 Stoke Newington Rd Dalston London N16 8BH",
+      "retrieved_at": "2026-10-12T23:04:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://earthackney.co.uk/hire/",
+      "quote": "EartH theatre is a 680-capacity tiered seated venue, built originally as a cinema in the 1930s",
+      "retrieved_at": "2026-10-12T23:04:58Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://earthackney.co.uk/about/our-programme/",
+      "quote": "Our programme spans everything from intimate seated gigs to high-energy mosh pits, comedy, cabaret, and late-night clubbing.",
+      "retrieved_at": "2026-10-12T23:04:59Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/music/earth-evolutionary-arts-hackney",
+      "quote": "the venue is a popular destination for mid-level tours and nightlife events",
+      "retrieved_at": "2026-10-12T23:05:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://earthackney.co.uk/faqs/",
+      "quote": "EartH is an evolutionary arts space for the Hackney community and beyond. We welcome everyone no matter their class, language, sexuality, religious belief, race, gender presentation, body type, disability (visible or nonvisible)",
+      "retrieved_at": "2026-10-12T23:05:02Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://earthackney.co.uk/faqs/",
+      "quote": "We have a zero tolerance approach to harassment within our venue.",
+      "retrieved_at": "2026-10-12T23:05:02Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://earthackney.co.uk/faqs/",
+      "quote": "EartH is a signatory of the Women’s Night Safety Charter and Good Night Out; our staff have received training by GNO.",
+      "retrieved_at": "2026-10-12T23:05:02Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "accessibility.notes",
+        "accessibility.access_page"
+      ],
+      "url": "https://earthackney.co.uk/access/",
+      "quote": "Our downstairs hall is a standing space with an accessible bar and toilet.",
+      "retrieved_at": "2026-10-12T23:05:03Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://earthackney.co.uk/access/",
+      "quote": "we have a lift available that carries a maximum weight of 300kg including the wheelchair and person",
+      "retrieved_at": "2026-10-12T23:05:03Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://earthackney.co.uk/access/",
+      "quote": "There is currently no step-free access in the theatre space. We have a rear access point with 15 steps and a rail.",
+      "retrieved_at": "2026-10-12T23:05:03Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://earthackney.co.uk/access/",
+      "quote": "we have a motorised stairclimber (view this here) which is operated by our trained duty managers, this is suitable for manual wheelchairs only",
+      "retrieved_at": "2026-10-12T23:05:03Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://earthackney.co.uk/access/",
+      "quote": "EartH Kitchen unfortunately does not have step-free access or a compatible stair climber, so is not accessible via wheelchair.",
+      "retrieved_at": "2026-10-12T23:05:03Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://earthackney.co.uk/access/",
+      "quote": "Access tickets are only available through Dice. We offer complimentary tickets for carers.",
+      "retrieved_at": "2026-10-12T23:05:03Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://earthackney.co.uk/access/",
+      "quote": "All spaces have a dedicated accessible toilet please ask the duty manager on the night and they can show you where this is located.",
+      "retrieved_at": "2026-10-12T23:05:03Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://earthackney.co.uk/faqs/",
+      "quote": "All of our bars are card only. We accept American Express, MasterCard and Visa. We do not have cash points on-site.",
+      "retrieved_at": "2026-10-12T23:05:02Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://earthackney.co.uk/faqs/",
+      "quote": "Yes – coats and bags can be checked into the cloakroom. The price is £2.50 for clothes and £3 for bags.",
+      "retrieved_at": "2026-10-12T23:05:02Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://earthackney.co.uk/faqs/",
+      "quote": "The cloakroom and box office are card payment only",
+      "retrieved_at": "2026-10-12T23:05:02Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:06:05Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:04Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

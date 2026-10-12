@@ -1,0 +1,136 @@
+{
+  "id": "bgwmc",
+  "name": "Bethnal Green Working Men's Club",
+  "zone": "core",
+  "address": "42-46 Pollard Row, London",
+  "postcode": "E2 6NB",
+  "website": "https://bgwmc.com",
+  "summary": "A historic East End working men's club, with wood-panelled walls and old-fashioned carpets, best known for cabaret, burlesque and drag. Its future has been uncertain since 2024, when the club's committee moved to sell the building, and Theatres Trust says it has not yet been saved.",
+  "music": {
+    "styles": [
+      "cabaret",
+      "burlesque",
+      "drag"
+    ],
+    "notes": "Cabaret, burlesque and drag shows, along with underground performance and queer nightlife."
+  },
+  "crowd": "Theatres Trust describes it as mainly serving the LGBTQ+ community and Time Out calls it a queer venue; event listings mention a zero-tolerance policy on harassment.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": 200,
+  "evidence": [
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://bgwmc.com",
+      "quote": "BGWMC 42-46 POLLARD ROW LONDON E26NB",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.timeout.com/london/nightlife/bethnal-green-working-mens-club",
+      "quote": "Address 42-46 Pollard Row London E2 6NB",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Boro-Bethnal-Green-Working-Mens-Club.aspx",
+      "quote": "BGWMC is a historic venue in the heart of London’s East End, with wood panelled walls and traditional carpets that highlight a bygone era!",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "capacity"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Boro-Bethnal-Green-Working-Mens-Club.aspx",
+      "quote": "Our multi-purpose space can accommodate up to 200 people, with fully stocked bar, dance floor, stage and sound system.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://londonist.com/london/latest-news/bethnal-green-working-mens-club-closing-down",
+      "quote": "The club, known for lively cabaret, burlesque and drag shows, is holding a huge party on Saturday night",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.theatrestrust.org.uk/how-we-help/case-studies/2715-bethnal-green-working-mens-club",
+      "quote": "In 2024, the Committee of Bethnal Green Working Men’s Club gave two months’ notice to vacate to the venue’s programmers, with an intention to sell the building to developers.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.theatrestrust.org.uk/how-we-help/case-studies/2715-bethnal-green-working-mens-club",
+      "quote": "While this is a positive development, we recognise that the venue is not yet saved",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.theatrestrust.org.uk/how-we-help/case-studies/2715-bethnal-green-working-mens-club",
+      "quote": "predominantly serving the LGBTQ+ community and providing an important stage for the drag and cabaret sector",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/news/bethnal-green-working-mens-club-has-launched-a-fundraising-campaign-to-survive-030625",
+      "quote": "Last year, the Friends of BGWMC gathered more than 13,000 signatures in a petition to save the beloved queer venue",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd",
+        "music.notes"
+      ],
+      "url": "https://thegaypassport.com/events/bethnal-green-working-mens-club/",
+      "quote": "A legendary East End venue offering drag and underground performance in an inclusive space. With a ZERO TOLERANCE FOR HARASSMENT policy. BGWMC stands as a safe, joyful, and iconic hub for creativity, self-expression, and queer nightlife.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "aggregator"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:05:39Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:31Z",
+    "removed_fields": []
+  },
+  "needs_review": {
+    "since": "2026-10-12T23:14:31Z",
+    "reason": "Venue status in doubt: Theatres Trust says the committee served the programmers notice in 2024 to sell the building and it is 'not yet saved'; Londonist reports it closing down; bgwmc.com now redirects to workersplaytime.net. Music and crowd may describe a past format."
+  }
+}

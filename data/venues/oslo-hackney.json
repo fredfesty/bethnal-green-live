@@ -1,0 +1,75 @@
+{
+  "id": "oslo-hackney",
+  "name": "Oslo Hackney",
+  "zone": "outer",
+  "address": "1A Amhurst Rd, London",
+  "postcode": "E8 1LL",
+  "website": null,
+  "summary": "A late-opening bar, gig room and club spread over two floors of Hackney Central's former station building, a 140-year-old structure, open since 2014. Gigs happen in the upstairs room, while the ground-floor bar has DJs late into the night, plus pizza and cocktails.",
+  "music": {
+    "styles": [],
+    "notes": "Live shows upstairs from artists across a wide range of genres, with DJs in the ground-floor bar until late."
+  },
+  "crowd": "Time Out describes the crowd as lively and mixed.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": 370,
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/music/oslo-hackney",
+      "quote": "Oslo Hackney is a double-decker late-night bar, gig venue and club that opened inside a 140-year-old former Hackney Central station in 2014.",
+      "retrieved_at": "2026-10-12T22:55:40Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/music/oslo-hackney",
+      "quote": "Downstairs, the bar has DJs until late – along with plenty of Italian-American-style Cowboys Pizza pies and 2-4-£14 cocktails served up daily – while upstairs, there’s a gig club venue with an impressive capacity of up to 375.",
+      "retrieved_at": "2026-10-12T22:55:40Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/music/oslo-hackney",
+      "quote": "Hosting an array of musical artists and genres, Oslo caters to an energetic, mixed crowd.",
+      "retrieved_at": "2026-10-12T22:55:40Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "capacity",
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "Capacity 370 Address 1a Amhurst Road, Hackney, London, E8 1LL",
+      "retrieved_at": "2026-10-12T22:55:11Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:05:57Z",
+  "review": {
+    "checked_at": "2026-10-12T23:13:30Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

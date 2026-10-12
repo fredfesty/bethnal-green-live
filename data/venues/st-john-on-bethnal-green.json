@@ -1,0 +1,93 @@
+{
+  "id": "st-john-on-bethnal-green",
+  "name": "St John on Bethnal Green",
+  "zone": "core",
+  "address": "200 Cambridge Heath Road, London",
+  "postcode": "E2 9PA",
+  "website": "https://www.stjohnonbethnalgreen.church",
+  "summary": "A Church of England parish church designed by Sir John Soane, at the centre of its parish since 1828; the building is Grade I listed. It also hosts concerts and live music.",
+  "music": {
+    "styles": [],
+    "notes": "Concerts and live music in the church."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": true,
+    "hearing_loop": null,
+    "notes": "The Church of England's directory lists a ramp, an accessible toilet and large-print material; it does not say where the ramp is.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/",
+      "quote": "St John on Bethnal Green 200 Cambridge Heath Road London E2 9PA",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/",
+      "quote": "St John on Bethnal Green is a Church of England parish church in the Diocese of London.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/",
+      "quote": "St John on Bethnal Green is a Grade 1 listed building of international significance which has been at the centre of the vibrant parish of Bethnal Green since 1828.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/",
+      "quote": "It is one of only three churches to be designed by the world-renowned architect, Sir John Soane.",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet",
+        "accessibility.notes"
+      ],
+      "url": "https://www.achurchnearyou.com/church/15447/facilities/",
+      "quote": "Accessibility Ramp Accessible toilet Large print",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.achurchnearyou.com/church/15447/facilities/",
+      "quote": "Music and Worship Concerts / Live Music",
+      "retrieved_at": "2026-10-12T23:07:24Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:05:39Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:31Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

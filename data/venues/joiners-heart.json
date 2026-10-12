@@ -1,0 +1,121 @@
+{
+  "id": "joiners-heart",
+  "name": "The Joiner's Heart (Friends of the Joiners Arms)",
+  "zone": "outer",
+  "address": "Arch 18, Bohemia Place, London",
+  "postcode": "E8 1DU",
+  "website": null,
+  "summary": "A new community-run LGBTQIA+ pub and performance space in a railway arch on Bohemia Place. It comes from Friends of the Joiners Arms, the group formed after the Hackney Road Joiners Arms shut in 2015, and over 2,000 community shareholders own it.",
+  "music": {
+    "styles": [
+      "cabaret"
+    ],
+    "notes": "A pub that doubles as a stage for performance, culture and workshops, and the new permanent base for FOTJA's existing nights such as the Lèse Majesté cabaret."
+  },
+  "crowd": "Set up as a bar for the LGBTQIA+ community, and community-run.",
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "hearing_loop": null,
+    "notes": "Wheelchair users get in by a ramp. Besides the accessible toilet there are two ambulant ones, and all toilets are gender-neutral. Access was planned with FOTJA's access advisory group and disabled LGBTQIA+ community members.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": 120,
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "address",
+        "crowd"
+      ],
+      "url": "https://londontheinside.com/the-joiners-arms-has-a-new-lgbtqia-venue-in-hackney/",
+      "quote": "The Joiner’s Heart, London’s newest accessible, community-run LGBTQIA+ pub, opens at Arch 18, Bohemia Place, Hackney on Friday 28th August.",
+      "retrieved_at": "2026-10-12T22:55:38Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://londontheinside.com/the-joiners-arms-has-a-new-lgbtqia-venue-in-hackney/",
+      "quote": "It’s the work of Friends of the Joiners Arms (FOTJA), the award-winning Community Benefit Society formed after the beloved Hackney Road pub closed in 2015, and it’s owned by more than 2,000 community shareholders.",
+      "retrieved_at": "2026-10-12T22:55:38Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "capacity",
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://londontheinside.com/the-joiners-arms-has-a-new-lgbtqia-venue-in-hackney/",
+      "quote": "The 120-capacity venue has been designed as a community hub from the ground up: a pub and social space, a performance and cultural venue, room for workshops and events",
+      "retrieved_at": "2026-10-12T22:55:38Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes",
+        "cost.notes",
+        "accessibility.notes"
+      ],
+      "url": "https://londontheinside.com/the-joiners-arms-has-a-new-lgbtqia-venue-in-hackney/",
+      "quote": "the venue will become the permanent home for FOTJA’s existing events, including its Lèse Majesté cabaret night, known for its commitment to d/Deaf accessibility and free tickets for those on lower incomes.",
+      "retrieved_at": "2026-10-12T22:55:38Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://londontheinside.com/the-joiners-arms-has-a-new-lgbtqia-venue-in-hackney/",
+      "quote": "Accessibility has been built in throughout, developed alongside FOTJA’s Access Advisory Group and co-designed with disabled LGBTQIA+ community members",
+      "retrieved_at": "2026-10-12T22:55:38Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "crowd"
+      ],
+      "url": "https://camra.org.uk/pubs/joiners-heart-london-200331",
+      "quote": "New bar for the LGBTQIA+ community in a railway arch. Community run by the Friends of Joiners Arms, which closed in 2015.",
+      "retrieved_at": "2026-10-12T22:55:10Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.accessible_toilet",
+        "accessibility.notes"
+      ],
+      "url": "https://camra.org.uk/pubs/joiners-heart-london-200331",
+      "quote": "Step free access with a ramp for a wheelchair.. Accessible toilet and two ambulant toilets. Toilets are gender neutral",
+      "retrieved_at": "2026-10-12T22:55:10Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://camra.org.uk/pubs/joiners-heart-london-200331",
+      "quote": "18 Bohemia Place, Hackney, London, E8 1DU",
+      "retrieved_at": "2026-10-12T22:55:10Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:05:57Z",
+  "review": {
+    "checked_at": "2026-10-12T23:13:30Z",
+    "removed_fields": [
+      "cost.notes"
+    ]
+  },
+  "needs_review": null
+}

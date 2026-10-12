@@ -1,0 +1,103 @@
+---
+import type { SiteVenue } from "../lib/venues";
+import { accessLines, FREE_ENTRY } from "../lib/venues";
+import { rel } from "../lib/rel";
+
+interface Props { v: SiteVenue }
+const { v } = Astro.props;
+const here = Astro.url.pathname;
+const p = v.profile;
+const href = rel(here, `venues/${v.id}.html`);
+const access = p ? accessLines(p) : [];
+const n = v.events.length;
+---
+<li
+  class="venue"
+  data-zone={v.zone}
+  data-kinds={v.kindGroups.join(" ")}
+  data-stepfree={p?.accessibility.step_free === true ? "1" : "0"}
+  data-free={p && (p.cost.free_entry === "always" || p.cost.free_entry === "some-nights") || v.listingPrices?.startsWith("Free") ? "1" : "0"}
+  data-text={v.searchText}
+>
+  <h3 class="venue__name"><a href={href}>{v.name}</a></h3>
+  <p class="venue__where">
+    {v.kinds.length > 0 && <span>{v.kinds.slice(0, 3).join(" · ")}</span>}
+    {v.postcode && <span class="venue__postcode">{v.postcode}</span>}
+  </p>
+
+  {p ? (
+    <>
+      {p.summary && <p class="venue__summary">{p.summary}</p>}
+      <dl class="venue__facts">
+        <div>
+          <dt>Music</dt>
+          <dd>
+            {p.music.styles.length > 0 ? p.music.styles.join(", ")
+              : p.music.notes ? p.music.notes
+              : v.listingKinds.length > 0 ? <>{v.listingKinds.join(", ")} <span class="venue__muted">(from our listings)</span></>
+              : <span class="venue__muted">Not confirmed yet</span>}
+          </dd>
+        </div>
+        <div>
+          <dt>Who goes</dt>
+          <dd>{p.crowd ?? <span class="venue__muted">Not confirmed yet</span>}</dd>
+        </div>
+        <div>
+          <dt>Access</dt>
+          <dd>
+            {access.length > 0
+              ? <ul class="tags">{access.map((a) => <li class:list={["tag", { "tag--no": !a.good }]}>{a.text}</li>)}</ul>
+              : p.accessibility.notes ? <span>See the venue page for details</span>
+              : <span class="venue__muted">Not confirmed. Check with the venue.</span>}
+          </dd>
+        </div>
+        <div>
+          <dt>Cost</dt>
+          <dd>
+            {p.cost.free_entry && <span>{FREE_ENTRY[p.cost.free_entry]}</span>}
+            {v.listingPrices && <span>{p.cost.free_entry ? " · " : ""}Listings here: {v.listingPrices}</span>}
+            {!p.cost.free_entry && !v.listingPrices && (p.cost.notes ? <span>{p.cost.notes}</span> : <span class="venue__muted">Not confirmed yet</span>)}
+          </dd>
+        </div>
+      </dl>
+    </>
+  ) : (
+    <p class="venue__pending">We're still checking this venue's details.{v.listingPrices && <> Listings here: {v.listingPrices}.</>}</p>
+  )}
+
+  <p class="venue__more">
+    <a href={href}>About {v.name}</a>
+    {n > 0 && <span class="venue__count">{n} {n === 1 ? "listing" : "listings"} coming up</span>}
+  </p>
+</li>
+
+<style>
+  .venue {
+    display: flex; flex-direction: column; gap: 0.55rem;
+    background: var(--plate); border: 1px solid var(--rule); border-radius: 10px; padding: 1.1rem 1.2rem 1rem;
+  }
+  .venue__name { font-size: 1.35rem; font-variation-settings: "wdth" 80; font-weight: 800; }
+  .venue__name a { color: var(--ink); text-decoration: none; }
+  .venue__name a:hover { text-decoration: underline; text-decoration-color: var(--green); }
+  .venue__where { margin: 0; display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem; color: var(--muted); font-size: 0.92rem; }
+  .venue__postcode { font-weight: 650; color: var(--ink); letter-spacing: 0.02em; }
+  .venue__summary { margin: 0.15rem 0 0; line-height: 1.5; }
+  .venue__facts { margin: 0.2rem 0 0; display: grid; gap: 0.45rem; font-size: 0.95rem; }
+  .venue__facts > div { display: grid; grid-template-columns: 5.6rem 1fr; gap: 0.75rem; padding-top: 0.45rem; border-top: 1px solid var(--rule); }
+  .venue__facts dt { font-weight: 700; }
+  .venue__facts dd { margin: 0; }
+  .venue__muted { color: var(--muted); }
+  .venue__pending { margin: 0.2rem 0 0; color: var(--muted); }
+  .venue__more { margin: auto 0 0; padding-top: 0.6rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.3rem 1rem; font-size: 0.95rem; }
+  .venue__more a { font-weight: 650; }
+  .venue__count { color: var(--muted); }
+  .tags { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.3rem; }
+  .tag {
+    font-size: 0.85rem; font-weight: 600; padding: 0.1rem 0.5rem; border-radius: 4px;
+    background: var(--green-tint); color: var(--green);
+  }
+  .tag--no { background: #f3e9e7; color: #8a2a20; }
+  @media (max-width: 30rem) {
+    .venue__facts > div { grid-template-columns: 1fr; gap: 0.1rem; }
+  }
+</style>
