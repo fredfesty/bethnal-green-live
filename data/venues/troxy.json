@@ -1,0 +1,202 @@
+{
+  "id": "troxy",
+  "name": "Troxy",
+  "zone": "fringe",
+  "address": "490 Commercial Rd, London",
+  "postcode": "E1 0HX",
+  "website": "https://troxy.co.uk/",
+  "summary": "A Grade II-listed art deco building that opened as a cinema in 1933, has since served as an opera school and as a bingo hall, and now hosts events.",
+  "music": {
+    "styles": [],
+    "notes": "Live concerts and club nights, alongside MMA fights, immersive cinema, and seated talks, comedy nights and podcast recordings."
+  },
+  "crowd": "Troxy says everyone is welcome and that its staff are trained to make the experience inclusive.",
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "hearing_loop": null,
+    "notes": "Step-free through the front entrance and upper ground floor; the Circle is 43 steps up with no lift, and Front Stalls are 3 steps down. Hearing loop at the box office window. Accessible and free carer tickets; Hot Pink Wristband scheme; email accesstickets@troxy.co.uk.",
+    "access_page": "https://troxy.co.uk/accessibility/"
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Tickets are sold online only; there are no phone sales."
+  },
+  "age_policy": "Varies by event; shown on each event listing.",
+  "capacity": 3600,
+  "evidence": [
+    {
+      "fields": [
+        "website",
+        "summary"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "Troxy first opened its doors in 1933 and ever since then our beautiful art deco building has played host to some of the capital’s most extraordinary events.",
+      "retrieved_at": "2026-10-12T22:54:10Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://troxy.co.uk/discover/getting-to-troxy/",
+      "quote": "490 Commercial Road, London, E1 0HX",
+      "retrieved_at": "2026-10-12T22:55:39Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/music/troxy",
+      "quote": "This characterful Grade II-listed building opened in 1933 as one of London's biggest and flashiest cinemas. It spent time as an opera school and a bingo hall",
+      "retrieved_at": "2026-10-12T22:59:27Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/music/troxy",
+      "quote": "including MMA fights, immersive cinema, club nights and a huge range of live music concerts",
+      "retrieved_at": "2026-10-12T22:59:27Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://troxy.co.uk/accessibility/",
+      "quote": "For our talks, comedy nights, live podcasts and some gigs, we have seats available in both the Stalls on the ground floor and the Circle upstairs.",
+      "retrieved_at": "2026-10-12T22:54:57Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd",
+        "accessibility.access_page"
+      ],
+      "url": "https://troxy.co.uk/accessibility/",
+      "quote": "Everyone’s welcome at Troxy – our team will always do their best to accommodate you and make sure your visit is relaxed, welcoming and accessible.",
+      "retrieved_at": "2026-10-12T22:54:57Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://troxy.co.uk/discover/history/",
+      "quote": "In 2019 Troxy cemented its reputation as one of the flagship venues for LGBTQ+ led events.",
+      "retrieved_at": "2026-10-12T22:54:58Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://troxy.co.uk/discover/history/",
+      "quote": "All staff at the venue are highly trained to create a fully inclusive customer experience",
+      "retrieved_at": "2026-10-12T22:54:58Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes"
+      ],
+      "url": "https://troxy.co.uk/accessibility/",
+      "quote": "Our building has step-free access via the front entrance, and throughout the upper section of the ground floor. Unfortunately, as we’re a grade II listed building, there’s no lift to the Circle seating upstairs, and this can only be accessed via 43 steps to our upper level.",
+      "retrieved_at": "2026-10-12T22:54:57Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://troxy.co.uk/accessibility/",
+      "quote": "Please note that Front Stalls tickets are not step-free accessible, as the lower ground floor area at the front of the auditorium is only accessible via 3 steps down from the upper ground floor.",
+      "retrieved_at": "2026-10-12T22:54:57Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://troxy.co.uk/accessibility/",
+      "quote": "We have a hearing loop system in place at our box office window.",
+      "retrieved_at": "2026-10-12T22:54:57Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://troxy.co.uk/accessibility/",
+      "quote": "Our accessible toilet is located in the left-hand side of the foyer through the main entrance, and is accessible via Radar key.",
+      "retrieved_at": "2026-10-12T22:54:57Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://troxy.co.uk/accessibility/",
+      "quote": "The accessible ticket policy limits one free carer ticket to each accessible ticket purchased.",
+      "retrieved_at": "2026-10-12T22:54:57Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://troxy.co.uk/accessibility/",
+      "quote": "You can contact our accessibility team directly at accesstickets@troxy.co.uk",
+      "retrieved_at": "2026-10-12T22:54:57Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://troxy.co.uk/accessibility/",
+      "quote": "Hot Pink Wristbands are a discreet and simple way to indicate non-visible disabilities/conditions",
+      "retrieved_at": "2026-10-12T22:54:57Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://troxy.co.uk/discover/faq/",
+      "quote": "Unfortunately, we don’t sell tickets over the phone, as we’re a digital only venue.",
+      "retrieved_at": "2026-10-12T22:54:57Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://troxy.co.uk/discover/faq/",
+      "quote": "Age restrictions will vary for each event and will be listed on our website and on ticketing sites when you purchase tickets",
+      "retrieved_at": "2026-10-12T22:54:57Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "capacity"
+      ],
+      "url": "https://troxy.co.uk/discover/history/",
+      "quote": "as the capacity increases from 3,100 to 3,600",
+      "retrieved_at": "2026-10-12T22:54:58Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:04:43Z",
+  "review": {
+    "checked_at": "2026-10-12T23:13:30Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

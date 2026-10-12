@@ -1,0 +1,211 @@
+{
+  "id": "colour-factory",
+  "name": "Colour Factory",
+  "zone": "outer",
+  "address": "8 Queen's Yard, London",
+  "postcode": "E9 5EN",
+  "website": "https://www.colourfactory.com",
+  "summary": "Time Out describes it as a Black-owned club and live music space in Hackney Wick, noted for putting female, non-binary and queer artists on its bills. It sits in Queen's Yard and also has a food court and space for other kinds of events.",
+  "music": {
+    "styles": [
+      "jazz",
+      "techno",
+      "experimental pop"
+    ],
+    "notes": "Time Out highlights low-key weeknight sessions and jams alongside weekend events that sell out."
+  },
+  "crowd": "Says it champions cultural diversity and aims to be inclusive, with everyone welcome. Nights are aimed at different communities, and the venue may turn away anyone it judges wrong for a given event.",
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "hearing_loop": null,
+    "notes": "The second room is up 15 steps. The garden is step-free as far as the bar but the ground is uneven; temporary ramps on request. The accessible toilet needs a RADAR key (ask staff if you lack one). Disabled visitors can bring a PA or support worker free: email welfare@colourfactory.com.",
+    "access_page": "https://www.colourfactory.com/faqs"
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": "Late-night events are 18+",
+  "capacity": 1600,
+  "evidence": [
+    {
+      "fields": [
+        "website",
+        "summary"
+      ],
+      "url": "https://www.colourfactory.com/about-us",
+      "quote": "We are a nightclub, live music venue, food court and multi-functional events space in hackney wick.",
+      "retrieved_at": "2026-10-12T23:05:04Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.colourfactory.com/about-us",
+      "quote": "We advocate cultural diversity and offer an all inclusive environment in which everybody is welcome.",
+      "retrieved_at": "2026-10-12T23:05:04Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/nightlife/colour-factory",
+      "quote": "Colour Factory is a Black-owned nightclub and live music venue in the heart of Hackney Wick. It’s known for spotlighting female, non-binary, and queer artists",
+      "retrieved_at": "2026-10-12T23:05:04Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/nightlife/colour-factory",
+      "quote": "has an excellent programme of low-key nights and jam sessions during the week in addition to their sell-out weekend events",
+      "retrieved_at": "2026-10-12T23:05:04Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://www.timeout.com/london/nightlife/colour-factory",
+      "quote": "Expect everything from jazz to techno and experimental pop.",
+      "retrieved_at": "2026-10-12T23:05:04Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode",
+        "capacity"
+      ],
+      "url": "https://www.colourfactory.com/hire",
+      "quote": "Colour Factory is a 1600-capacity venue providing a blank canvas that can be tailored for all manner of events.",
+      "retrieved_at": "2026-10-12T23:05:04Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode",
+        "summary"
+      ],
+      "url": "https://www.colourfactory.com/hire",
+      "quote": "8 Queen's Yard London E9 5EN",
+      "retrieved_at": "2026-10-12T23:05:04Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.colourfactory.com/faqs",
+      "quote": "Colour Factory host events catering to different communities, and as such, reserve the right to refuse entry if an individual is deemed unsuitable for the event in question.",
+      "retrieved_at": "2026-10-12T23:05:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.access_page"
+      ],
+      "url": "https://www.colourfactory.com/faqs",
+      "quote": "The 700-cap main room is fully accessible and step-free.",
+      "retrieved_at": "2026-10-12T23:05:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.colourfactory.com/faqs",
+      "quote": "The 300-cap second room is accessible by a 15-step staircase.",
+      "retrieved_at": "2026-10-12T23:05:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.colourfactory.com/faqs",
+      "quote": "The 300-cap outdoor garden space has step-free access until the bar. Please bear in mind the ground can be uneven",
+      "retrieved_at": "2026-10-12T23:05:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.colourfactory.com/faqs",
+      "quote": "If needed, temporary ramps are available upon request.",
+      "retrieved_at": "2026-10-12T23:05:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet",
+        "accessibility.notes"
+      ],
+      "url": "https://www.colourfactory.com/faqs",
+      "quote": "We also have an accessible toilet located between the garden and main space. To gain access, you must use a RADAR Key",
+      "retrieved_at": "2026-10-12T23:05:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.colourfactory.com/faqs",
+      "quote": "If you do not have one, please alert a member of staff upon arrival.",
+      "retrieved_at": "2026-10-12T23:05:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.colourfactory.com/faqs",
+      "quote": "we run an access scheme that allows people with disabilities and/or long-term medical condition to bring their personal assistant or support worker in for free.",
+      "retrieved_at": "2026-10-12T23:05:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.colourfactory.com/faqs",
+      "quote": "Please email us at welfare@colourfactory.com so that we can make the necessary arrangements.",
+      "retrieved_at": "2026-10-12T23:05:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://www.colourfactory.com/faqs",
+      "quote": "Late-night events at Colour Factory are +18.",
+      "retrieved_at": "2026-10-12T23:05:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.colourfactory.com/faqs",
+      "quote": "The price is £4 per item when in operation.",
+      "retrieved_at": "2026-10-12T23:05:05Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:06:05Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:04Z",
+    "removed_fields": [
+      "cost.notes"
+    ]
+  },
+  "needs_review": null
+}

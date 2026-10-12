@@ -1,0 +1,196 @@
+{
+  "id": "93-feet-east",
+  "name": "93 Feet East",
+  "zone": "fringe",
+  "address": "150 Brick Lane, London",
+  "postcode": "E1 6QL",
+  "website": "https://www.93feeteast.co.uk",
+  "summary": "A club, bar and gig venue on Brick Lane inside the Old Truman Brewery complex, running since 1999. Spaces include a main room and a live room, both with Funktion-One sound, a courtyard, and a first-floor members' bar with its own roof terrace.",
+  "music": {
+    "styles": [
+      "electronic",
+      "techno",
+      "afrobeats",
+      "jazz",
+      "uk garage",
+      "drum 'n' bass",
+      "r&b"
+    ],
+    "notes": "Runs its own club night, 93 Degrees, and hosts outside promoters for electronic music and live shows; some parties start in the afternoon."
+  },
+  "crowd": "The venue says it wants to be a welcoming, inclusive place for everyone. Over-18s only.",
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": "The venue says it is wheelchair accessible, using ramps where required, and offers accessible seating; staff will help with particular needs if you ask. The members' bar is on the first floor.",
+    "access_page": "https://www.93feeteast.co.uk/info/"
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": "18+ (some events 19+ or 21+); valid ID required",
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.93feeteast.co.uk",
+      "quote": "93 Feet East is a bar, club and live music venue in the heart of Brick Lane, east London.",
+      "retrieved_at": "2026-10-12T22:55:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.93feeteast.co.uk/info/",
+      "quote": "93 Feet East, 150 Brick Lane",
+      "retrieved_at": "2026-10-12T22:57:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.93feeteast.co.uk",
+      "quote": "150 Brick Lane London E1 6QL",
+      "retrieved_at": "2026-10-12T22:55:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.93feeteast.co.uk/about/",
+      "quote": "Established in 1999, 93 Feet East is an iconic institution in East London, located in the heart of Brick Lane, Shoreditch. The venue hosts international and local talents as part of their in-house night, 93 Degrees,",
+      "retrieved_at": "2026-10-12T22:57:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.93feeteast.co.uk/about/",
+      "quote": "also provides space for external brands and promoters across all sub-genres of Electronic music and Live performances.",
+      "retrieved_at": "2026-10-12T22:57:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.93feeteast.co.uk/about/",
+      "quote": "93 Feet East features Function One sound systems in the Main Room and Live Room",
+      "retrieved_at": "2026-10-12T22:57:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.nightclubber.ro/news/93-feet-east-marks-25-years-with-host-of-audio-visual-upgrades",
+      "quote": "93 Feet East is situated within Shoreditch’s Old Truman Brewery complex",
+      "retrieved_at": "2026-10-12T23:00:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "accessibility.notes"
+      ],
+      "url": "https://www.93feeteast.co.uk/hire/",
+      "quote": "The Members' Bar This quirky and intimate space is nestled on the first floor of our iconic building and can be rearranged to cater to all your needs. It boasts a powerful Function One sound system and has its own private rooftop terrace",
+      "retrieved_at": "2026-10-12T22:58:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.93feeteast.co.uk/hire/",
+      "quote": "With two large rooms, an outside courtyard and additional spaces and terrace area on the first floor",
+      "retrieved_at": "2026-10-12T22:58:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://www.timeout.com/london/nightlife/93-feet-east",
+      "quote": "It hosts regular nights covering everything from afrobeats, jazz, and techno, to UK garage, drum ‘n’ bass and R&B.",
+      "retrieved_at": "2026-10-12T23:00:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.nightclubber.ro/news/93-feet-east-marks-25-years-with-host-of-audio-visual-upgrades",
+      "quote": "When parties start in the afternoon, the sun beams in through the big windows and bathes everyone in light.",
+      "retrieved_at": "2026-10-12T23:00:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd",
+        "accessibility.step_free",
+        "accessibility.notes",
+        "accessibility.access_page"
+      ],
+      "url": "https://www.93feeteast.co.uk/info/",
+      "quote": "Our venue is wheelchair accessible, with ramps where needed, and we provide accessible seating options to cater to our guests with disabilities.",
+      "retrieved_at": "2026-10-12T22:57:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.93feeteast.co.uk/info/",
+      "quote": "If you have specific requirements or need additional assistance during your visit, our team is here to help",
+      "retrieved_at": "2026-10-12T22:57:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.93feeteast.co.uk/info/",
+      "quote": "We believe music is for everyone and strive to create a welcoming and inclusive environment for all.",
+      "retrieved_at": "2026-10-12T22:57:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy",
+        "crowd"
+      ],
+      "url": "https://www.93feeteast.co.uk/info/",
+      "quote": "You must be 18 years or older to enter, however, some events require you to be 19 or 21+ Make sure you check the event information.",
+      "retrieved_at": "2026-10-12T22:57:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://www.93feeteast.co.uk/info/",
+      "quote": "You must provide a valid ID at the door. No ID, no entry.",
+      "retrieved_at": "2026-10-12T22:57:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:08:23Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:31Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

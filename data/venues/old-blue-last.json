@@ -1,0 +1,176 @@
+{
+  "id": "old-blue-last",
+  "name": "The Old Blue Last",
+  "zone": "outer",
+  "address": "38 Great Eastern St, London",
+  "postcode": "EC2A 3ES",
+  "website": "https://www.theoldbluelast.com/",
+  "summary": "A centuries-old East End pub with a live music room and a programme running seven days a week. It has hosted early gigs by acts such as Arctic Monkeys, Amy Winehouse and IDLES, and was owned by Vice from 2004 until the magazine sold its stake in 2021.",
+  "music": {
+    "styles": [
+      "jazz"
+    ],
+    "notes": "A place for new bands to cut their teeth, with gigs through the week in an upstairs live room and a free jazz night every Sunday."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": "The live room is on the second floor, and parts of the pub reached by stairs have no wheelchair access. Seating is available; there is no quiet area. Ask the promoter about companion tickets, and contact the venue before visiting with access questions.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": "some-nights",
+    "notes": "Time Out says gigs cost anything from nothing up to £15; the Sunday jazz is free."
+  },
+  "age_policy": null,
+  "capacity": 150,
+  "evidence": [
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.theoldbluelast.com",
+      "quote": "38 Great Eastern St, London EC2A 3ES",
+      "retrieved_at": "2026-10-12T22:56:04Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.theoldbluelast.com",
+      "quote": "Live music venue, east-end boozer, apparently (definitely) haunted by Shakespeare with a 7-day weekly program",
+      "retrieved_at": "2026-10-12T22:56:04Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.theoldbluelast.com",
+      "quote": "300 YEARS OF HISTORY.",
+      "retrieved_at": "2026-10-12T22:56:04Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.theoldbluelast.com",
+      "quote": "having hosted early shows by Arctic Monkeys, Amy Winehouse, IDLES, George Ezra and more.",
+      "retrieved_at": "2026-10-12T22:56:04Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/music/the-old-blue-last",
+      "quote": "The Old Blue Last was bought by Vice in 2004",
+      "retrieved_at": "2026-10-12T22:59:29Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/music/the-old-blue-last",
+      "quote": "the now defunct magazine sold its stake in the pub in 2021",
+      "retrieved_at": "2026-10-12T22:59:29Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes",
+        "cost.notes",
+        "cost.free_entry"
+      ],
+      "url": "https://www.timeout.com/london/music/the-old-blue-last",
+      "quote": "still lives on as a spot for up-and-coming bands to cut their teeth, and is a great place to see some live music on the cheap (gigs range from free to £15). It also hosts free weekly jazz nights on Sundays.",
+      "retrieved_at": "2026-10-12T22:59:29Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.theoldbluelast.com",
+      "quote": "SUNDAY JAZZ EVERY SUNDAY",
+      "retrieved_at": "2026-10-12T22:56:04Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "capacity",
+        "music.notes",
+        "accessibility.notes",
+        "accessibility.step_free"
+      ],
+      "url": "https://www.theoldbluelast.com/privatehire",
+      "quote": "Located on the second floor, our 150-capacity live room has seen a whole host of events, from live bands, karaoke, private parties, club nights, and more.",
+      "retrieved_at": "2026-10-12T22:57:43Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes"
+      ],
+      "url": "https://www.theoldbluelast.com/contact",
+      "quote": "Some areas of the venue are accessed by stairs and, unfortunately, there is no wheelchair access to these areas.",
+      "retrieved_at": "2026-10-12T22:56:54Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.theoldbluelast.com/contact",
+      "quote": "Seating: We have seating available within the venue.",
+      "retrieved_at": "2026-10-12T22:56:54Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.theoldbluelast.com/contact",
+      "quote": "Quiet areas: Please note that we do not have a dedicated quiet or safe area.",
+      "retrieved_at": "2026-10-12T22:56:54Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.theoldbluelast.com/contact",
+      "quote": "If you require a companion ticket, please contact the event promoter directly before the event.",
+      "retrieved_at": "2026-10-12T22:56:54Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.theoldbluelast.com/contact",
+      "quote": "If you have any concerns about accessibility, please contact us before your visit",
+      "retrieved_at": "2026-10-12T22:56:54Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:04:43Z",
+  "review": {
+    "checked_at": "2026-10-12T23:13:30Z",
+    "removed_fields": [
+      "accessibility.step_free"
+    ]
+  },
+  "needs_review": null
+}

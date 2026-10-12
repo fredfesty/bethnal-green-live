@@ -1,0 +1,104 @@
+{
+  "id": "jaguar-shoes",
+  "name": "Jaguar Shoes / Dream Bags",
+  "zone": "fringe",
+  "address": "32-34 Kingsland Rd, London",
+  "postcode": "E2 8DA",
+  "website": "https://www.jaguarshoes.com",
+  "summary": "An independent bar, gallery and music venue in Shoreditch, open since 2001 and named after a former 1980s bag-and-shoe wholesaler, whose sign is still above the door. Art shows fill the upper floor; gigs happen on the lower one.",
+  "music": {
+    "styles": [],
+    "notes": "Live music and late-night DJ sets, alongside seasonal art installations and other cultural events."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": "The music space is downstairs and the gallery is upstairs.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": 180,
+  "evidence": [
+    {
+      "fields": [
+        "website",
+        "summary"
+      ],
+      "url": "https://www.jaguarshoes.com",
+      "quote": "Home to three independent East London bars, pubs and music venues, Jaguar Shoes presents live music, DJs, contemporary art exhibitions and a year-round programme of cultural events.",
+      "retrieved_at": "2026-10-12T23:03:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.jaguarshoes.com",
+      "quote": "32-36 Kingsland Rd, Shoreditch, London E2 8DA",
+      "retrieved_at": "2026-10-12T23:03:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.jaguarshoes.com/pages/dream-bags-jaguar-shoes",
+      "quote": "BAR ~ GALLERY ~ CLUB ~ MUSIC VENUE",
+      "retrieved_at": "2026-10-12T23:04:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.jaguarshoes.com/pages/dream-bags-jaguar-shoes",
+      "quote": "Opened in 2001, our flagship Shoreditch venue takes its name from the 1980s bag and shoe wholesalers whose original signage still hangs above the door.",
+      "retrieved_at": "2026-10-12T23:04:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.jaguarshoes.com/pages/dream-bags-jaguar-shoes",
+      "quote": "Twenty-five years on, it's still home to seasonal art installations, live music, late night DJs and curious cultural programming.",
+      "retrieved_at": "2026-10-12T23:04:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes",
+        "accessibility.notes"
+      ],
+      "url": "https://www.jaguarshoes.com/pages/dream-bags-jaguar-shoes",
+      "quote": "Art upstairs. Live music downstairs.",
+      "retrieved_at": "2026-10-12T23:04:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode",
+        "capacity"
+      ],
+      "url": "https://dice.fm/venue/dream-bags-jaguar-shoes-8e67",
+      "quote": "Capacity 180 Address 32-34 Kingsland Rd, London E2 8DA",
+      "retrieved_at": "2026-10-12T23:04:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:08:23Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:31Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

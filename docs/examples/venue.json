@@ -1,0 +1,200 @@
+{
+  "id": "dalston-superstore",
+  "name": "Dalston Superstore",
+  "zone": "outer",
+  "address": "117 Kingsland High St, London",
+  "postcode": "E8 2PB",
+  "website": "https://dalstonsuperstore.com",
+  "summary": "A queer venue on Kingsland High Street, open since 2009, that works as a club, cabaret stage, cafe, gallery and community space all at once. It puts on DJ-led club nights alongside drag shows, including a weekend drag brunch.",
+  "music": {
+    "styles": [
+      "dance music",
+      "drag cabaret"
+    ],
+    "notes": "Club nights with a DJ on each floor, the basement club room opening on Fridays and Saturdays, plus drag and cabaret shows and a drag brunch on weekend afternoons."
+  },
+  "crowd": "Describes itself as a queer space catering to London's LGBTQ+ community, and says it supports LGBTQ+ charities and grassroots groups.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": false,
+    "hearing_loop": null,
+    "notes": "One 20cm step at the door, with a ramp on request; the ground-floor bar is level. The basement club (Fri and Sat) is stairs only. No toilet is wheelchair accessible. PAs and access workers get in free (email ahead). Strobes and smoke can be switched off if you ask in advance.",
+    "access_page": "https://dalstonsuperstore.com/accessibility/"
+  },
+  "cost": {
+    "free_entry": "some-nights",
+    "notes": "Paid club nights usually cost £7 to £10, and entry is normally free before 10pm. Free concession tickets for people on low or no income, arranged by email."
+  },
+  "age_policy": null,
+  "capacity": 230,
+  "evidence": [
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode",
+        "summary"
+      ],
+      "url": "https://dalstonsuperstore.com/",
+      "quote": "Dalston Superstore 117 Kingsland High St London E8 2PB",
+      "retrieved_at": "2026-10-12T22:31:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "crowd"
+      ],
+      "url": "https://dalstonsuperstore.com/about-us/",
+      "quote": "Functioning in equal parts as a thriving queer club, cabaret spot, cafe, gallery and community space, the venue proudly caters to London’s diverse LGBTQ+ community.",
+      "retrieved_at": "2026-10-12T22:33:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://dalstonsuperstore.com/about-us/",
+      "quote": "The venue first slid open its rainbow shutters in 2009",
+      "retrieved_at": "2026-10-12T22:33:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://dalstonsuperstore.com/about-us/",
+      "quote": "Dalston Superstore is as much a thriving music-centred club as it is a front-running drag and performance space. We’ve played host to dance music heavy-hitters",
+      "retrieved_at": "2026-10-12T22:33:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://dalstonsuperstore.com/drag-brunch/",
+      "quote": "East London’s maddest and messiest drag queens, kings and things hit the mothership, dishing up a smorgasbord of bacon, bubbles, and fake boobs every Saturday and Sunday from 12-4pm.",
+      "retrieved_at": "2026-10-12T22:36:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://dalstonsuperstore.com/about-us/",
+      "quote": "Supporting and uplifting LGBTQ+ charities and organisations is also central to who we are",
+      "retrieved_at": "2026-10-12T22:33:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://dalstonsuperstore.com/community/",
+      "quote": "provide our space free of charge to grassroots community organisations in need",
+      "retrieved_at": "2026-10-12T22:33:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes",
+        "accessibility.step_free",
+        "accessibility.notes"
+      ],
+      "url": "https://dalstonsuperstore.com/accessibility/",
+      "quote": "On Friday and Saturday nights, our downstairs nightclub room is open. This space is accessible by stairs only.",
+      "retrieved_at": "2026-10-12T22:38:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes",
+        "summary"
+      ],
+      "url": "https://dalstonsuperstore.com/accessibility/",
+      "quote": "On club nights we have 2 DJs playing, one in the upstairs space, and one in the downstairs club space",
+      "retrieved_at": "2026-10-12T22:38:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes",
+        "accessibility.access_page"
+      ],
+      "url": "https://dalstonsuperstore.com/accessibility/",
+      "quote": "There is one 20 cm step up to the entrance from street level. We have a ramp available, please let a member of the door team know if you would like to use the ramp.",
+      "retrieved_at": "2026-10-12T22:38:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes"
+      ],
+      "url": "https://dalstonsuperstore.com/accessibility/",
+      "quote": "The lobby door opens out onto our main ground floor bar/restaurant area. There is level access to all facilities on this floor.",
+      "retrieved_at": "2026-10-12T22:38:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet",
+        "accessibility.notes"
+      ],
+      "url": "https://dalstonsuperstore.com/accessibility/",
+      "quote": "None of the toilets are wheelchair accessible.",
+      "retrieved_at": "2026-10-12T22:38:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes",
+        "cost.notes"
+      ],
+      "url": "https://dalstonsuperstore.com/accessibility/",
+      "quote": "We offer free concession tickets if you are on low or no income. We offer free entry for PAs or access-workers. To arrange free or concession entry, please email us ahead of your visit.",
+      "retrieved_at": "2026-10-12T22:38:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://dalstonsuperstore.com/accessibility/",
+      "quote": "Please let us know in advance if you would like us to avoid using either/both the smoke machine and strobe light.",
+      "retrieved_at": "2026-10-12T22:38:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.free_entry",
+        "cost.notes"
+      ],
+      "url": "https://dalstonsuperstore.com/accessibility/",
+      "quote": "generally charge an entry fee between £7 – 10. It is usually free to enter before 10pm.",
+      "retrieved_at": "2026-10-12T22:38:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "capacity"
+      ],
+      "url": "https://dalstonsuperstore.com/accessibility/",
+      "quote": "The venue can hold up to 230 people at once during a busy weekend party, across 2 floors.",
+      "retrieved_at": "2026-10-12T22:38:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:05:00Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:04Z",
+    "removed_fields": [
+      "accessibility.step_free"
+    ]
+  },
+  "needs_review": null
+}

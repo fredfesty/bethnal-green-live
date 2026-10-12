@@ -309,3 +309,48 @@ def test_a_run_needs_its_closing_date_for_high_confidence(validators):
     assert has(errs, "closing date quoted from a primary source"), errs
     assert not has(errs, "needs a start time")
     assert validate.is_run(d) and not validate.is_run(load(EX_CAND))
+
+
+# ---------------------------------------------------------------- venue profiles
+
+EX_VENUE = REPO / "docs/examples/venue.json"
+
+
+def test_example_venue_passes(validators):
+    d = load(EX_VENUE)
+    assert errors("venues", d, validators) == []
+
+
+def _no_website_evidence(d):
+    for ev in d["evidence"]:
+        ev["fields"] = [f for f in ev["fields"] if f != "website"] or ["address"]
+
+
+@pytest.mark.parametrize("mutate,expected", [
+    (lambda d: d.update(id="not-a-venue"), "not a venue in data/sources"),
+    (lambda d: d.update(id="oval-space", name="Oval Space"), "do-not-list"),
+    (lambda d: d.update(zone="core"), "registry says outer"),
+    (lambda d: d.update(name="Some Other Bar"), "registry calls this venue"),
+    (lambda d: d.update(age_policy="18+"), "'age_policy' is filled in but no evidence item names it"),
+    (lambda d: d["accessibility"].update(hearing_loop=True), "'accessibility.hearing_loop' is filled in"),
+    (lambda d: d.update(crowd="Functioning in equal parts as a thriving queer club, cabaret spot and more."),
+     "copies the source word for word"),
+    (_no_website_evidence, "website: must be backed"),
+    (lambda d: d["evidence"].append({**d["evidence"][0], "url": "https://ra.co/clubs/1234"}), "never-use source"),
+    (lambda d: d.update(review={"checked_at": "2026-10-13T00:00:00Z", "removed_fields": ["crowd"]}),
+     "'crowd' is listed as removed but still filled in"),
+    (lambda d: d["evidence"][0].update(fields=["vibes"]), "format:"),
+])
+def test_venue_rules(validators, mutate, expected):
+    d = copy.deepcopy(load(EX_VENUE))
+    mutate(d)
+    errs = errors("venues", d, validators, path=Path(f"{d['id']}.json"))
+    assert has(errs, expected), errs
+
+
+def test_unknown_access_needs_no_evidence_but_a_stated_no_does(validators):
+    d = load(EX_VENUE)
+    d["accessibility"]["accessible_toilet"] = None
+    assert errors("venues", d, validators) == []
+    d["accessibility"]["hearing_loop"] = False  # a 'no' is a fact too
+    assert has(errors("venues", d, validators), "accessibility.hearing_loop")

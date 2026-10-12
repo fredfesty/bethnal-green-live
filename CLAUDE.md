@@ -16,22 +16,24 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 | --- | --- | --- |
 | Nights & music scout (all scouts also follow `docs/scout-rules.md`) | `.claude/agents/scout-nights-music.md` | `data/candidates/nights-music/<date>/`, `data/runs/nights-music/` |
 | Verifier | `.claude/agents/verifier.md` | `data/verification/<date>/`, `data/events/`, `data/runs/verifier/` |
+| Venue profiler | `.claude/agents/venue-profiler.md` | `data/venues/`, `data/runs/venue-profiler/` |
 | Arts scout | `.claude/agents/scout-arts.md` | `data/candidates/arts/<date>/`, `data/runs/arts/` |
 | Food & drink scout | `.claude/agents/scout-food-drink.md` | `data/candidates/food-drink/<date>/`, `data/runs/food-drink/` |
 | Community scout | `.claude/agents/scout-community.md` | `data/candidates/community/<date>/`, `data/runs/community/` |
-| Venue and organiser profilers, listing writer, newsletter editor, QA | not yet written | — |
+| Organiser profiler, listing writer, newsletter editor, QA | not yet written | — |
 | (people only) | — | `site/` — the website. Agents never edit it during scheduled runs. |
 
 ## Repo map
 
-- `schemas/` — the data formats. `common` (shared parts), `candidate-event` (scout output), `verification` (verifier's verdict), `event` (what the site shows).
+- `schemas/` — the data formats. `common` (shared parts), `candidate-event` (scout output), `verification` (verifier's verdict), `event` (what the site shows), `venue` (a venue profile for the Venues page).
 - `data/sources/<category>.json` — the venues and platforms each scout works from, with zones, a watchlist and a do-not-list of closed venues.
 - `data/candidates/` → `data/verification/` → `data/events/YYYY-MM/` — the pipeline, one JSON file per event.
+- `data/venues/<venue-id>.json` — venue profiles: what it's like, music, crowd, access, cost, each fact quoted. The site shows one only after its independent `review` and while `needs_review` is empty.
 - `data/runs/<agent>/<date>.md` — each run's report for a person.
 - `data/inbox/tips/` — reader tips waiting to be checked.
 - `scripts/validate.py` — format and house-rule checks. `scripts/check_quote.py` — re-fetches a page and looks for a quote. `scripts/page_text.py` — prints a page's exact text for quoting (scouts read pages with this, never with a summarising reader).
 - `routines/` — the prompts and settings for the scheduled runs.
-- `site/` — the website (Astro). It reads `data/events/` and `data/sources/` at build time; it never calls Claude or any AI service. `site/src/site.config.mjs` holds the settings a person decides (newsletter, corrections contact).
+- `site/` — the website (Astro). It reads `data/events/`, `data/sources/` and `data/venues/` at build time; it never calls Claude or any AI service. `site/src/site.config.mjs` holds the settings a person decides (newsletter, corrections contact).
 - `_example` folders and `docs/examples/` — illustrative records, not real events.
 - A **run** (an exhibition, a theatre run, a special menu over several days) is one record: `starts_at` is the opening day, `ends_at` the closing day, `run_schedule` the opening times as printed.
 - An event with `needs_review` set is in doubt: the site must hide it or show it as "details being checked".
@@ -51,6 +53,7 @@ pip install -r requirements.txt
 python scripts/validate.py candidates data/candidates/<category>/<date> --window
 python scripts/validate.py verification data/verification/<date>
 python scripts/validate.py events data/events
+python scripts/validate.py venues data/venues
 python scripts/validate.py all
 python scripts/check_quote.py --file <files…>
 python scripts/page_text.py <url> [--find "words"]

@@ -1,0 +1,124 @@
+{
+  "id": "number-90",
+  "name": "Number 90",
+  "zone": "outer",
+  "address": "90 Wallis Road, London",
+  "postcode": "E9 5LN",
+  "website": "https://www.number90bar.co.uk",
+  "summary": "A canalside warehouse venue in Hackney Wick, previously called Studio 9294. It brings together a large bar, separate club rooms, a canal boat and a waterside terrace, and is also hired out for private and corporate events.",
+  "music": {
+    "styles": [
+      "electronic"
+    ],
+    "notes": "Club nights and live music run across its rooms all year, alongside markets, art shows and other events."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.number90bar.co.uk",
+      "quote": "90 Wallis Road, E9 5LN London",
+      "retrieved_at": "2026-10-12T23:05:08Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/nightlife/studio-9294",
+      "quote": "Formerly known as Studio 9294, this Hackney Wick hotspot is made up of four venues used for live music and club events year round, all connected by a rather nice-looking canalside terrace.",
+      "retrieved_at": "2026-10-12T23:05:09Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/nightlife/studio-9294",
+      "quote": "The Mary Read Boat @No90, a 30-foot canal boat with a bar, AV and DJ decks, as well as the No90Bar, a vast warehouse",
+      "retrieved_at": "2026-10-12T23:05:09Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://number90corporate.co.uk/",
+      "quote": "Number 90 offers adaptable, canal-side venues in Hackney Wick, perfect for weddings, corporate functions, art exhibitions, and live performances.",
+      "retrieved_at": "2026-10-12T23:05:10Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.nightclubber.ro/news/londons-number-90-undergoes-refurbishment-and-announces-launch-party-details",
+      "quote": "including cutting-edge electronic music showcases, immersive art exhibitions, independent market gatherings, and unforgettable cultural experiences",
+      "retrieved_at": "2026-10-12T23:05:11Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://number90corporate.co.uk/number-90-lock/",
+      "quote": "Step-free, with loading access and flexible crew timings",
+      "retrieved_at": "2026-10-12T23:05:13Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://number90corporate.co.uk/number-90-lock/",
+      "quote": "It’s our largest venue, favoured by event producers, promoters, and planners looking for flexibility and impact.",
+      "retrieved_at": "2026-10-12T23:05:13Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://number90corporate.co.uk/further-info/",
+      "quote": "Please contact our team directly to discuss any specific accessibility needs. From step-free entry to reserved parking or seating arrangements.",
+      "retrieved_at": "2026-10-12T23:05:14Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://number90corporate.co.uk/further-info/",
+      "quote": "While the adjacent car park is private, accessible parking can be pre-arranged with our team.",
+      "retrieved_at": "2026-10-12T23:05:14Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:05:14Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:04Z",
+    "removed_fields": [
+      "accessibility.notes"
+    ]
+  },
+  "needs_review": null
+}

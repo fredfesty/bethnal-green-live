@@ -2,7 +2,7 @@
 
 What's on around Bethnal Green, London E2: a listings website and a weekly newsletter, researched by Claude agents and checked by people. Inspired by Peckham.Live.
 
-**Status:** the data formats, the checking scripts, five agents (scouts for nights & music, arts, food & drink and community, plus the verifier), the daily run and the website are in place. The newsletter, venue profiles and the listing writer come next. See the blueprint doc in the Bethnal Green Live project for the full plan.
+**Status:** the data formats, the checking scripts, six agents (scouts for nights & music, arts, food & drink and community, the verifier and the venue profiler), the daily run and the website, including its Venues guide, are in place. The newsletter, organiser profiles and the listing writer come next. See the blueprint doc in the Bethnal Green Live project for the full plan.
 
 ## How it works
 
@@ -25,19 +25,20 @@ The agents run every morning as a Claude scheduled task; settings and prompt in 
 
 | Path | What's there |
 | --- | --- |
-| `.claude/agents/` | Agent instructions: `scout-nights-music.md`, `scout-arts.md`, `scout-food-drink.md`, `scout-community.md`, `verifier.md` |
+| `.claude/agents/` | Agent instructions: `scout-nights-music.md`, `scout-arts.md`, `scout-food-drink.md`, `scout-community.md`, `verifier.md`, `venue-profiler.md` |
 | `docs/scout-rules.md` | Rules every scout follows |
-| `schemas/` | Data formats: candidate, verification record, event, shared parts |
+| `schemas/` | Data formats: candidate, verification record, event, venue profile, shared parts |
 | `data/sources/` | Per-category venue and platform registry (zones, watchlist, closed venues) |
 | `data/candidates/` | Scout output, by category and run date |
 | `data/verification/` | The verifier's verdict on every candidate |
 | `data/events/` | Verified events, by month — what the public sees |
+| `data/venues/` | Venue profiles behind the Venues page, one per venue, every fact quoted |
 | `data/runs/` | Each run's report for a person |
 | `data/inbox/tips/` | Reader tips waiting to be checked |
 | `scripts/` | `validate.py` (format and house rules), `check_quote.py` (quote checker) |
 | `tests/` | Tests for both scripts |
 | `routines/` | Scheduled-run prompts and settings |
-| `docs/examples/` | Example event record |
+| `docs/examples/` | Example event record and venue profile |
 | `site/` | The website: listings with search and filters, calendar, event pages, calendar feeds, newsletter sign-up |
 
 ## Working on it locally
@@ -56,6 +57,7 @@ A static site built with Astro from the verified events in `data/events/`. No se
 - **Listings** grouped by day, with search and filters for type, date (today, tomorrow, this weekend, next 7 days, pick dates), price and distance. Filtered views have shareable links.
 - **Calendar**: month view, plus subscribable calendar feeds (everything, free things, and one per type of night).
 - **Event pages** with tickets, map link, add-to-calendar, and a "How we checked this" note linking the pages each listing was checked against. They also carry schema.org event data for search engines.
+- **Venues**: every venue we list, grouped by distance, with filters for kind of place, step-free entry and free nights. Each venue page covers what it's like, the music, who goes, access, cost, what's on there next and the pages it was checked against. A profile shows only after an independent check; anything not found in writing says "not confirmed".
 - **Newsletter sign-up**: set `buttondownUsername` in `site/src/site.config.mjs` once the Buttondown account exists.
 - Events with `needs_review` are never shown, and finished events drop off. The site rebuilds every morning.
 - All links are relative, so it works on GitHub Pages, a custom domain or from a folder. The font is self-hosted, so no visitor data goes to a font CDN.

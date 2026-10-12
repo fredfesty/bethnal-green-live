@@ -1,0 +1,244 @@
+{
+  "id": "village-underground",
+  "name": "Village Underground",
+  "zone": "outer",
+  "address": "54 Holywell Lane, London",
+  "postcode": "EC2A 3PQ",
+  "website": "https://villageunderground.co.uk/",
+  "summary": "An independent venue in a converted Victorian warehouse in Shoreditch, recognisable by the tube carriages on its roof; it started out as affordable artists' studios. Its programme mixes new and emerging acts with big-name artists.",
+  "music": {
+    "styles": [
+      "electronic"
+    ],
+    "notes": "Club nights and live gigs most nights of the week, many booked by outside promoters; Time Out notes it often books leading electronic DJs alongside up-and-coming artists."
+  },
+  "crowd": "The venue says it welcomes a diverse audience and works to be a safe space free of harassment and discrimination for everyone there.",
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "hearing_loop": null,
+    "notes": "The Great Eastern Street entrance is fully accessible; the Holywell Lane one has a couple of steps. A ramped, raised viewing platform has seating and wheelchair space (Seated/Wheelchair + Carer tickets on DICE). No accessible bar; staff can serve you if you have no carer. Strobes at some shows.",
+    "access_page": "https://villageunderground.co.uk/access/"
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Fully cashless: pay by card or contactless. The venue's own tickets are sold through DICE."
+  },
+  "age_policy": "Gigs 16+ (16–17s with an adult); club nights 18+.",
+  "capacity": 700,
+  "evidence": [
+    {
+      "fields": [
+        "website",
+        "summary"
+      ],
+      "url": "https://villageunderground.co.uk/about/",
+      "quote": "Village Underground is a renovated turn-of-the-century warehouse in the heart of Shoreditch, East London.",
+      "retrieved_at": "2026-10-12T22:55:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://villageunderground.co.uk/about/",
+      "quote": "our curated programme showcases the best in new and emerging talent alongside world-class artists.",
+      "retrieved_at": "2026-10-12T22:55:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://villageunderground.co.uk/about/",
+      "quote": "Home to cutting-edge culture, clubbing and live music",
+      "retrieved_at": "2026-10-12T22:55:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://villageunderground.co.uk/about/",
+      "quote": "we’re one of the few remaining independent venues in East London.",
+      "retrieved_at": "2026-10-12T22:55:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://villageunderground.co.uk/hire/",
+      "quote": "Village Underground, with its rich history and unique character, has transformed from a Victorian coal warehouse into one of the most iconic cultural venues in London.",
+      "retrieved_at": "2026-10-12T22:56:02Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/music/village-underground",
+      "quote": "You can’t miss Village Underground thanks to the four brightly coloured, graffiti-covered tube carriages perched on its roof. But the main draw of this venue that opened as an affordable artists’ studio is the renovated Victorian warehouse space inside.",
+      "retrieved_at": "2026-10-12T22:59:30Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/music/village-underground",
+      "quote": "which often hosts top electronic DJs and exciting up-and-coming artists",
+      "retrieved_at": "2026-10-12T22:59:30Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://villageunderground.co.uk/about/",
+      "quote": "Most nights of the week you can catch an artist or DJ on the cusp of huge things in our intimate, underground, setting.",
+      "retrieved_at": "2026-10-12T22:55:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://villageunderground.co.uk/faqs/",
+      "quote": "Shows at Village Underground are usually booked by external promoters",
+      "retrieved_at": "2026-10-12T22:56:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://villageunderground.co.uk/faqs/",
+      "quote": "We welcome diversity in our audience and work to create a safe space for everyone present",
+      "retrieved_at": "2026-10-12T22:56:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://villageunderground.co.uk/faqs/",
+      "quote": "VU is a club for people to enjoy music without fear of harassment or discrimination.",
+      "retrieved_at": "2026-10-12T22:56:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes",
+        "accessibility.access_page"
+      ],
+      "url": "https://villageunderground.co.uk/access/",
+      "quote": "We have 2 entrances/exits – one is located on Holywell Lane and has a couple of steps, the other is located on Great Eastern Street and is fully accessible. There is permanent ramp access to the accessible viewing area where we have a raised platform and offer seating or wheelchair space.",
+      "retrieved_at": "2026-10-12T22:55:55Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://villageunderground.co.uk/access/",
+      "quote": "We do not have an accessible bar however we can provide a bartender if a customer is without a carer.",
+      "retrieved_at": "2026-10-12T22:55:55Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://villageunderground.co.uk/access/",
+      "quote": "Seated/Wheelchair + Carer Tickets are only available to purchase on Dice.",
+      "retrieved_at": "2026-10-12T22:55:55Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://villageunderground.co.uk/access/",
+      "quote": "We do use strobe and flashing lighting in the venue on some shows",
+      "retrieved_at": "2026-10-12T22:55:55Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://villageunderground.co.uk/access/",
+      "quote": "We have one dedicated accessible toilet. This is located at the front of the building next to the cloakroom area. It is accessible via the ramp from the main floor.",
+      "retrieved_at": "2026-10-12T22:55:55Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://villageunderground.co.uk/faqs/",
+      "quote": "Our venue is now 100% cashless. All payments must be made by card or contactless methods.",
+      "retrieved_at": "2026-10-12T22:56:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://villageunderground.co.uk/faqs/",
+      "quote": "VU’s ticket allocation is sold through Dice.",
+      "retrieved_at": "2026-10-12T22:56:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://villageunderground.co.uk/faqs/",
+      "quote": "Live music events are strictly over 16 and each 16-17 year old under 18 must be accompanied by one responsible adult",
+      "retrieved_at": "2026-10-12T22:56:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://villageunderground.co.uk/faqs/",
+      "quote": "Any Club night is strictly over 18 and right of admission will be reserved.",
+      "retrieved_at": "2026-10-12T22:56:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "capacity"
+      ],
+      "url": "https://villageunderground.co.uk/hire/",
+      "quote": "700 Standing",
+      "retrieved_at": "2026-10-12T22:56:02Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "capacity",
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "Capacity 700 Address 54 Holywell Lane, London EC2A 3PQ, UK",
+      "retrieved_at": "2026-10-12T22:56:03Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:04:43Z",
+  "review": {
+    "checked_at": "2026-10-12T23:13:30Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}

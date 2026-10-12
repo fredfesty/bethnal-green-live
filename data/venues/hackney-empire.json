@@ -1,0 +1,175 @@
+{
+  "id": "hackney-empire",
+  "name": "Hackney Empire",
+  "zone": "outer",
+  "address": "291 Mare St, London",
+  "postcode": "E8 1EJ",
+  "website": "https://www.hackneyempire.co.uk",
+  "summary": "A Grade II listed Frank Matcham theatre on Mare Street, built as a music hall in 1901. It now puts on theatre, comedy, music, dance and more.",
+  "music": {
+    "styles": [],
+    "notes": "Concerts are one part of a mixed programme that also covers theatre, comedy and dance."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "hearing_loop": null,
+    "notes": "Step-free entrances on Mare Street (into the Stalls) and Wilton Way (to a lift serving every level). Seven wheelchair spaces at the back of the Stalls, none in the Upper Circle or Gallery. Free PA tickets for members. Some BSL, captioned and relaxed shows; assistive listening via a free app.",
+    "access_page": "https://www.hackneyempire.co.uk/visit/access"
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": "Under-14s must come with an adult",
+  "capacity": 1275,
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "music.notes",
+        "website"
+      ],
+      "url": "https://www.hackneyempire.co.uk",
+      "quote": "125 years of bringing unforgettable theatre, comedy, music, dance and more to Hackney.",
+      "retrieved_at": "2026-10-12T22:54:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.hackneyempire.co.uk",
+      "quote": "291 Mare Street London E8 1EJ",
+      "retrieved_at": "2026-10-12T22:54:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://officiallondontheatre.com/venue/hackney-empire/",
+      "quote": "The Hackney Empire is a theatre on Mare Street, in Hackney, that was built in 1901 as a music hall.",
+      "retrieved_at": "2026-10-12T22:55:45Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://officiallondontheatre.com/venue/hackney-empire/",
+      "quote": "Hackney Empire is a Grade II listed building. The venue was designed by Frank Matcham.",
+      "retrieved_at": "2026-10-12T22:55:45Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "capacity"
+      ],
+      "url": "https://officiallondontheatre.com/venue/hackney-empire/",
+      "quote": "Because of its refurbishment, the theatre is now able to seat 1,275 audience members.",
+      "retrieved_at": "2026-10-12T22:55:45Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes",
+        "accessibility.access_page"
+      ],
+      "url": "https://www.hackneyempire.co.uk/visit/access",
+      "quote": "We have a step-free entrance that goes straight into our Stalls on Mare Street, and another step-free entrance at the side of the building on Wilton Way that takes you straight to the lift.",
+      "retrieved_at": "2026-10-12T22:55:08Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.hackneyempire.co.uk/visit/access",
+      "quote": "We have a lift to all levels of the theatre for you to use.",
+      "retrieved_at": "2026-10-12T22:55:08Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.hackneyempire.co.uk/visit/access",
+      "quote": "There are seven wheelchair spaces located at the back of the Stalls.",
+      "retrieved_at": "2026-10-12T22:55:08Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.hackneyempire.co.uk/visit/access",
+      "quote": "There are currently no wheelchair accessible seats in the Upper Circle or Gallery.",
+      "retrieved_at": "2026-10-12T22:55:08Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.hackneyempire.co.uk/visit/access",
+      "quote": "When you have a membership linked to your account, it will allow you to book your free Personal Assistant ticket online.",
+      "retrieved_at": "2026-10-12T22:55:08Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.hackneyempire.co.uk/visit/access",
+      "quote": "Throughout the year we have a range of British Sign Language Interpreted, Captioned, Relaxed and Dementia Friendly performances.",
+      "retrieved_at": "2026-10-12T22:55:08Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.hackneyempire.co.uk/visit/access",
+      "quote": "Our auditorium is fitted with the Sennheiser Mobile Connect assistive listening system for the benefit of those who are deaf or hard of hearing.",
+      "retrieved_at": "2026-10-12T22:55:08Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.hackneyempire.co.uk/visit/access",
+      "quote": "This system provides a live stream of the performance via a free app that you can download on your personal mobile device.",
+      "retrieved_at": "2026-10-12T22:55:08Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://www.hackneyempire.co.uk/visit/access",
+      "quote": "There is at least one accessible toilet on every level of our theatre.",
+      "retrieved_at": "2026-10-12T22:55:08Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://www.hackneyempire.co.uk/visit",
+      "quote": "we don't allow unaccompanied children under the age of 14 into Hackney Empire and all under 14's must be accompanied by an adult (18+).",
+      "retrieved_at": "2026-10-12T22:57:01Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-12T23:05:57Z",
+  "review": {
+    "checked_at": "2026-10-12T23:14:04Z",
+    "removed_fields": []
+  },
+  "needs_review": null
+}
