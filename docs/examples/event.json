@@ -1,0 +1,93 @@
+{
+  "id": "2026-10-30-bgwmc-example-night",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "EXAMPLE NIGHT (illustrative only)",
+  "summary": "Illustrative record showing the format. Not a real event.",
+  "venue": {
+    "venue_id": "bgwmc",
+    "name": "Bethnal Green Working Men's Club",
+    "address": "42-44 Pollard Row, London",
+    "postcode": "E2 6NB"
+  },
+  "starts_at": "2026-10-30T21:00:00+00:00",
+  "ends_at": "2026-10-31T03:00:00+00:00",
+  "recurrence": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [
+    "DJ Example",
+    "Example Live Act"
+  ],
+  "genres": [
+    "disco",
+    "house"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 8,
+    "max_gbp": 12,
+    "notes": "£8 early bird, £12 general admission"
+  },
+  "ticket_url": "https://www.tickettailor.com/events/workingmens-club",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "few-left",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "EXAMPLE NIGHT at Bethnal Green Working Men's Club",
+      "retrieved_at": "2026-10-13T06:11:40+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "Fri 30 Oct 2026, 9:00 PM – 3:00 AM",
+      "retrieved_at": "2026-10-13T06:11:40+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price",
+        "status",
+        "ticket_url"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "Early bird £8 General admission £12 — only a few left",
+      "retrieved_at": "2026-10-13T06:11:40+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup",
+        "genres",
+        "age_restriction"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "Disco and house all night with DJ Example plus a live set from Example Live Act. Strictly 18+.",
+      "retrieved_at": "2026-10-13T06:11:40+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-13T07:20:00+01:00",
+    "run_id": "2026-10-13-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/_example/2026-10-30-bgwmc-example-night.json"
+  },
+  "editor_note": "Illustrative: the scout's opinion travels here for the newsletter editor.",
+  "listing": null,
+  "first_seen": "2026-10-13T07:20:00+01:00",
+  "updated_at": "2026-10-13T07:20:00+01:00",
+  "history": []
+}

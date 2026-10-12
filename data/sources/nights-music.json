@@ -1,0 +1,836 @@
+{
+  "category": "nights-music",
+  "last_reviewed": "2026-10-12",
+  "notes": [
+    "Seeded from a research pass on 12 Oct 2026. Each venue was confirmed open via a dated 2026 listing or 2026 news (see status_evidence).",
+    "Official website URLs were not all fetched individually; the venue profiler should confirm them on its first run.",
+    "Scouts may read this file but must not edit it. Suggested changes go in the run report for a human to apply.",
+    "A venue with no_primary_listing: true has no venue or ticket page online; the verifier may publish its events on aggregator evidence alone."
+  ],
+  "zones": {
+    "core": "E2 postcode or within about 1km of Bethnal Green tube. Scanned every run.",
+    "fringe": "Up to about a 20-minute walk (1.6km) from Bethnal Green tube. Scanned every run.",
+    "outer": "Further out (Dalston, Hackney Central, Hackney Wick, west Shoreditch, Clapton). Scanned weekly, standout nights only, max 5 candidates per run, flagged worth_the_trip."
+  },
+  "platforms": [
+    {
+      "id": "ra",
+      "name": "Resident Advisor (ra.co)",
+      "policy": "do-not-use",
+      "why": "No public API. Terms 4.4 ban automated extraction without written permission; robots.txt blocks ClaudeBot. Do not fetch, do not use third-party RA scrapers.",
+      "source": "https://ra.co/terms"
+    },
+    {
+      "id": "dice",
+      "name": "DICE",
+      "policy": "primary-read",
+      "how": "Read public dice.fm event and venue pages one at a time. Check robots.txt at the start of each run and stop if disallowed. The Partners API needs a venue or promoter to grant access, so it is only an option if a venue partners with us.",
+      "source": "https://apis.io/providers/dice-fm/"
+    },
+    {
+      "id": "ticket-tailor",
+      "name": "Ticket Tailor",
+      "policy": "primary-read",
+      "how": "Read public box-office pages, e.g. tickettailor.com/events/<box-office>. The API key is per box office, so it is only available if the venue gives us one.",
+      "source": "https://developers.tickettailor.com/docs/intro"
+    },
+    {
+      "id": "skiddle",
+      "name": "Skiddle",
+      "policy": "api-pending",
+      "how": "GET /api/v1/events/search/ with latitude, longitude, radius (miles), eventcode (CLUB, LIVE, LGB, BARPUB) and minDate. Key in env SKIDDLE_API_KEY. If the key is missing, skip silently.",
+      "blocker": "Free key is non-commercial unless Skiddle approves in writing. Apply and confirm before relying on it.",
+      "source": "https://github.com/Skiddle/web-api/wiki/Events-API"
+    },
+    {
+      "id": "eventbrite",
+      "name": "Eventbrite",
+      "policy": "api-by-id",
+      "how": "Location search was shut off in 2020. Only list events by organiser or venue id stored on a venue below. Key in env EVENTBRITE_TOKEN.",
+      "source": "https://github.com/Automattic/eventbrite-api/issues/83"
+    },
+    {
+      "id": "outsavvy",
+      "name": "OutSavvy",
+      "policy": "primary-read",
+      "how": "Public event pages, mostly queer events. Read the specific event page."
+    },
+    {
+      "id": "songkick",
+      "name": "Songkick",
+      "policy": "discovery-only",
+      "how": "Good for spotting gigs, but it is an aggregator. Use it to find leads, then confirm on the venue or ticket page. Never the only evidence for a high-confidence candidate. Light reads only; review its terms before scaling up."
+    },
+    {
+      "id": "mato",
+      "name": "ma.to",
+      "policy": "discovery-only",
+      "how": "Venue pages list DJ nights for several pubs and bars. Leads only; confirm on a primary page where one exists. If the venue has no other listing (e.g. Star of Bethnal Green), keep it at medium confidence at most."
+    },
+    {
+      "id": "designmynight",
+      "name": "DesignMyNight",
+      "policy": "discovery-only",
+      "how": "Leads only."
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "policy": "do-not-scrape",
+      "how": "Not fetched by agents. Events seen there arrive as reader tips or manual entries."
+    }
+  ],
+  "venues": [
+    {
+      "id": "bgwmc",
+      "name": "Bethnal Green Working Men's Club",
+      "address": "42-44 Pollard Row, London",
+      "postcode": "E2 6NB",
+      "zone": "core",
+      "type": [
+        "club",
+        "cabaret",
+        "queer-friendly"
+      ],
+      "website": "https://bgwmc.com",
+      "listings": [
+        {
+          "platform": "ticket-tailor",
+          "url": "https://www.tickettailor.com/events/workingmens-club",
+          "role": "primary"
+        },
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/bgwmc",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Ticket Tailor lists events on 16 Oct, 31 Oct and 27 Nov 2026."
+    },
+    {
+      "id": "star-of-bethnal-green",
+      "name": "The Star of Bethnal Green",
+      "address": "359 Bethnal Green Rd, London",
+      "postcode": "E2 6LG",
+      "zone": "core",
+      "type": [
+        "pub",
+        "dj-bar",
+        "karaoke",
+        "drag"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/starbethgreen",
+          "role": "discovery"
+        },
+        {
+          "platform": "designmynight",
+          "url": "https://www.designmynight.com/london/pubs/bethnal-green/the-star-of-bethnal-green",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "ma.to lists DJ nights on 16, 23 and 30 Oct 2026. Own site (starofbethnalgreen.com) is stale since 2020 — do not use it as evidence.",
+      "notes": "No primary listing source online. Max scout_confidence = medium. Good candidate for a direct relationship.",
+      "no_primary_listing": true
+    },
+    {
+      "id": "sebright-arms",
+      "name": "The Sebright Arms",
+      "address": "31-35 Coate St, London",
+      "postcode": "E2 9AG",
+      "zone": "core",
+      "type": [
+        "pub",
+        "gig-venue",
+        "karaoke"
+      ],
+      "website": "https://www.sebrightarms.co.uk",
+      "listings": [
+        {
+          "platform": "dice",
+          "url": null,
+          "role": "primary",
+          "notes": "Gigs sell through DICE event pages; find them via the venue site or Songkick, then read the DICE page."
+        },
+        {
+          "platform": "songkick",
+          "url": "https://www.songkick.com/venues/1539808",
+          "role": "discovery"
+        },
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/sebrightarms",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Songkick shows gigs through Sept 2026; Stereoboard lists 29 Oct 2026.",
+      "notes": "Own site blocked automated fetching during research."
+    },
+    {
+      "id": "st-john-on-bethnal-green",
+      "name": "St John on Bethnal Green",
+      "address": "200 Cambridge Heath Rd, London",
+      "postcode": "E2 9PA",
+      "zone": "core",
+      "type": [
+        "church",
+        "gig-venue"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "songkick",
+          "url": "https://www.songkick.com/venues/32302",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Songkick lists gigs on 27 Nov and 12 Dec 2026."
+    },
+    {
+      "id": "oxford-house",
+      "name": "Oxford House",
+      "address": "Derbyshire St, London",
+      "postcode": "E2 6HG",
+      "zone": "core",
+      "type": [
+        "arts-centre",
+        "jazz",
+        "open-mic"
+      ],
+      "website": "https://www.oxfordhouse.org.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.oxfordhouse.org.uk",
+          "role": "primary"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Friday Jazz listed for 30 Oct 2026 on its own site."
+    },
+    {
+      "id": "jaguar-shoes",
+      "name": "Jaguar Shoes / Dream Bags",
+      "address": "32-34 Kingsland Rd, London",
+      "postcode": "E2 8DA",
+      "zone": "fringe",
+      "type": [
+        "dj-bar",
+        "gig-venue"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "songkick",
+          "url": null,
+          "role": "discovery",
+          "notes": "Listed as 'Dream Bags Jaguar Shoes'."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Songkick gigs in Jul and Sept 2026.",
+      "notes": "E2 postcode but about 1.8km from Bethnal Green tube, so treated as fringe."
+    },
+    {
+      "id": "rich-mix",
+      "name": "Rich Mix",
+      "address": "35-47 Bethnal Green Rd, London",
+      "postcode": "E1 6LA",
+      "zone": "fringe",
+      "type": [
+        "arts-centre",
+        "gig-venue",
+        "club",
+        "cinema"
+      ],
+      "website": "https://www.richmix.org.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.richmix.org.uk/whats-on/",
+          "role": "primary"
+        },
+        {
+          "platform": "dice",
+          "url": "https://dice.fm/venue/rich-mix-4w2r",
+          "role": "primary"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "What's on lists events on 17 and 22 Oct 2026.",
+      "notes": "Shared with the cinema & arts scout: this scout takes music and club events only."
+    },
+    {
+      "id": "93-feet-east",
+      "name": "93 Feet East",
+      "address": "150 Brick Lane, London",
+      "postcode": "E1 6QL",
+      "zone": "fringe",
+      "type": [
+        "club",
+        "gig-venue"
+      ],
+      "website": "https://www.93feeteast.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.93feeteast.co.uk",
+          "role": "primary"
+        },
+        {
+          "platform": "skiddle",
+          "url": null,
+          "role": "primary"
+        },
+        {
+          "platform": "songkick",
+          "url": "https://www.songkick.com/venues/6975",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Events on 17 Oct, 6 Nov and 14 Nov 2026."
+    },
+    {
+      "id": "rough-trade-east",
+      "name": "Rough Trade East",
+      "address": "Old Truman Brewery, 91 Brick Lane, London",
+      "postcode": "E1 6QL",
+      "zone": "fringe",
+      "type": [
+        "record-shop",
+        "in-store"
+      ],
+      "website": "https://www.roughtrade.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.roughtrade.com",
+          "role": "primary"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "In-store gigs on 19 Aug and 16 Sept 2026.",
+      "notes": "Free in-stores often need a wristband with album purchase — capture that in price.notes."
+    },
+    {
+      "id": "palm-tree",
+      "name": "The Palm Tree",
+      "address": "127 Grove Rd (Mile End Park), London",
+      "postcode": "E3 5RP",
+      "zone": "fringe",
+      "type": [
+        "pub",
+        "live-music",
+        "jazz"
+      ],
+      "website": null,
+      "listings": [],
+      "status": "open",
+      "status_evidence": "CAMRA lists it as trading with live music at weekends. No dated events online.",
+      "notes": "No online listings. Candidate for a manual 'On repeat' entry rather than scouting."
+    },
+    {
+      "id": "the-haggerston",
+      "name": "The Haggerston",
+      "address": "438 Kingsland Rd, London",
+      "postcode": "E8 4AA",
+      "zone": "fringe",
+      "type": [
+        "pub",
+        "live-music",
+        "jazz"
+      ],
+      "website": null,
+      "listings": [],
+      "status": "open",
+      "status_evidence": "CAMRA notes live music and late opening; long-running Sunday jazz.",
+      "notes": "No online listings found. Candidate for a manual 'On repeat' entry."
+    },
+    {
+      "id": "troxy",
+      "name": "Troxy",
+      "address": "490 Commercial Rd, London",
+      "postcode": "E1 0HX",
+      "zone": "fringe",
+      "type": [
+        "gig-venue",
+        "club"
+      ],
+      "website": "https://www.troxy.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.troxy.co.uk",
+          "role": "primary"
+        },
+        {
+          "platform": "songkick",
+          "url": "https://www.songkick.com/venues/7898",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Gigs on 19 Oct, 23 Oct and 5 Nov 2026.",
+      "notes": "About 25 minutes' walk — edge of fringe. Big-ticket shows only."
+    },
+    {
+      "id": "village-underground",
+      "name": "Village Underground",
+      "address": "54 Holywell Lane, London",
+      "postcode": "EC2A 3PQ",
+      "zone": "outer",
+      "type": [
+        "club",
+        "gig-venue"
+      ],
+      "website": "https://www.villageunderground.co.uk",
+      "listings": [
+        {
+          "platform": "dice",
+          "url": "https://dice.fm/venue/village-underground-wwop",
+          "role": "primary"
+        },
+        {
+          "platform": "songkick",
+          "url": "https://www.songkick.com/venues/628031",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Gigs on 11 Oct, 6 Nov and 10 Nov 2026."
+    },
+    {
+      "id": "old-blue-last",
+      "name": "The Old Blue Last",
+      "address": "38 Great Eastern St, London",
+      "postcode": "EC2A 3ES",
+      "zone": "outer",
+      "type": [
+        "pub",
+        "gig-venue",
+        "dj-bar"
+      ],
+      "website": "https://www.theoldbluelast.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.theoldbluelast.com",
+          "role": "primary"
+        },
+        {
+          "platform": "songkick",
+          "url": "https://www.songkick.com/venues/3256",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Gigs 13-18 Oct 2026."
+    },
+    {
+      "id": "moth-club",
+      "name": "MOTH Club",
+      "address": "Old Trades Hall, Valette St, London",
+      "postcode": "E9 6NU",
+      "zone": "outer",
+      "type": [
+        "gig-venue",
+        "club",
+        "comedy"
+      ],
+      "website": "https://www.mothclub.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.mothclub.co.uk",
+          "role": "primary"
+        },
+        {
+          "platform": "songkick",
+          "url": "https://www.songkick.com/venues/3062884",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Gigs 12-17 Oct 2026. A neighbouring planning application is still pending (Londonist, Apr 2026) — watch for news."
+    },
+    {
+      "id": "oslo-hackney",
+      "name": "Oslo Hackney",
+      "address": "1A Amhurst Rd, London",
+      "postcode": "E8 1LL",
+      "zone": "outer",
+      "type": [
+        "gig-venue",
+        "dj-bar"
+      ],
+      "website": "https://www.oslohackney.com",
+      "listings": [
+        {
+          "platform": "dice",
+          "url": "https://dice.fm/venue/oslo-hackney-je6z",
+          "role": "primary"
+        },
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/oslohackney",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Gigs 13-17 Oct 2026, about 70 upcoming."
+    },
+    {
+      "id": "night-tales",
+      "name": "Night Tales",
+      "address": "14 Bohemia Place, London",
+      "postcode": "E8 1DU",
+      "zone": "outer",
+      "type": [
+        "club",
+        "bar"
+      ],
+      "website": "https://www.nighttales.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.nighttales.co.uk",
+          "role": "primary"
+        },
+        {
+          "platform": "songkick",
+          "url": "https://www.songkick.com/venues/3991334",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Nights on 17, 23 and 30 Oct and 1 Nov 2026.",
+      "notes": "Also on RA — do not use RA."
+    },
+    {
+      "id": "joiners-heart",
+      "name": "The Joiner's Heart (Friends of the Joiners Arms)",
+      "address": "Arch 18, Bohemia Place, London",
+      "postcode": "E8 1DU",
+      "zone": "outer",
+      "type": [
+        "queer-venue",
+        "cabaret"
+      ],
+      "website": null,
+      "listings": [],
+      "status": "open",
+      "status_evidence": "Opened 28 Aug 2026 as successor to the Joiners Arms (London The Inside).",
+      "notes": "New venue — find where it lists events on the first run and report it."
+    },
+    {
+      "id": "paper-dress-vintage",
+      "name": "Paper Dress Vintage",
+      "address": "352A Mare St, London",
+      "postcode": "E8 1HR",
+      "zone": "outer",
+      "type": [
+        "bar",
+        "gig-venue",
+        "dj-bar"
+      ],
+      "website": "https://www.paperdressvintage.co.uk",
+      "listings": [
+        {
+          "platform": "skiddle",
+          "url": "https://www.skiddle.com/whats-on/London/Paper-Dress-Vintage/",
+          "role": "primary"
+        },
+        {
+          "platform": "mato",
+          "url": null,
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Gig on 15 Oct 2026; ma.to lists 7 Nov 2026."
+    },
+    {
+      "id": "hackney-empire",
+      "name": "Hackney Empire",
+      "address": "291 Mare St, London",
+      "postcode": "E8 1EJ",
+      "zone": "outer",
+      "type": [
+        "theatre",
+        "gig-venue"
+      ],
+      "website": "https://www.hackneyempire.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.hackneyempire.co.uk",
+          "role": "primary"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Dexys on 27-28 Oct 2026.",
+      "notes": "Music shows only; theatre and comedy belong to the arts scout."
+    },
+    {
+      "id": "hackney-church",
+      "name": "Hackney Church",
+      "address": "St John at Hackney, Lower Clapton Rd, London",
+      "postcode": "E5 0PD",
+      "zone": "outer",
+      "type": [
+        "church",
+        "gig-venue"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "songkick",
+          "url": "https://www.songkick.com/venues/1127176",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Mercury Rev on 17 Oct and The Mountain Goats on 21-22 Oct 2026."
+    },
+    {
+      "id": "dalston-superstore",
+      "name": "Dalston Superstore",
+      "address": "117 Kingsland High St, London",
+      "postcode": "E8 2PB",
+      "zone": "outer",
+      "type": [
+        "queer-venue",
+        "club",
+        "bar"
+      ],
+      "website": "https://www.dalstonsuperstore.com",
+      "listings": [
+        {
+          "platform": "mato",
+          "url": "https://ma.to/venue/dsuperstore",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Club nights 14-28 Oct 2026."
+    },
+    {
+      "id": "the-divine",
+      "name": "The Divine",
+      "address": "33 Stoke Newington Rd, London",
+      "postcode": "N16 8BJ",
+      "zone": "outer",
+      "type": [
+        "queer-venue",
+        "cabaret-drag",
+        "club"
+      ],
+      "website": "https://thedivine.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://thedivine.co.uk",
+          "role": "primary"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Listings 12 Oct-30 Nov 2026. Successor to The Glory, same team."
+    },
+    {
+      "id": "the-victoria-dalston",
+      "name": "The Victoria",
+      "address": "451 Queensbridge Rd, London",
+      "postcode": "E8 3AS",
+      "zone": "outer",
+      "type": [
+        "pub",
+        "gig-venue"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "songkick",
+          "url": null,
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Songkick gigs Jul-Oct 2026."
+    },
+    {
+      "id": "earth-hackney",
+      "name": "EartH",
+      "address": "11-17 Stoke Newington Rd, London",
+      "postcode": "N16 8BH",
+      "zone": "outer",
+      "type": [
+        "gig-venue",
+        "theatre"
+      ],
+      "website": "https://www.earthackney.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.earthackney.co.uk",
+          "role": "primary"
+        },
+        {
+          "platform": "songkick",
+          "url": "https://www.songkick.com/venues/4464464",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Shows on 13 and 15 Nov 2026."
+    },
+    {
+      "id": "colour-factory",
+      "name": "Colour Factory",
+      "address": "Unit 8A Queens Yard, White Post Lane, London",
+      "postcode": "E9 5EN",
+      "zone": "outer",
+      "type": [
+        "club"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "skiddle",
+          "url": "https://www.skiddle.com/whats-on/London/Colour-Factory/",
+          "role": "primary"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Nights on 10 Oct and 19 Dec 2026."
+    },
+    {
+      "id": "number-90",
+      "name": "Number 90",
+      "address": "90 Wallis Rd, London",
+      "postcode": "E9 5LN",
+      "zone": "outer",
+      "type": [
+        "club"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "songkick",
+          "url": "https://www.songkick.com/venues/2590378",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Events 15 Oct-7 Nov 2026. Formerly Studio 9294 (renamed 2023); 6am licence.",
+      "aliases": [
+        "Studio 9294"
+      ]
+    },
+    {
+      "id": "grow-hackney",
+      "name": "Grow Hackney",
+      "address": "98C Main Yard, Wallis Rd, London",
+      "postcode": "E9 5LN",
+      "zone": "outer",
+      "type": [
+        "bar",
+        "dj-bar",
+        "gig-venue"
+      ],
+      "website": null,
+      "listings": [
+        {
+          "platform": "songkick",
+          "url": "https://tickets.songkick.com/venues/3273524",
+          "role": "discovery"
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Nights 15-29 Oct 2026."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "kansas-smittys",
+      "name": "Kansas Smitty's",
+      "postcode": "E8 4PH",
+      "reason": "No dated 2025/26 events found; own site blocks fetching. Check monthly."
+    },
+    {
+      "id": "approach-tavern",
+      "name": "The Approach Tavern",
+      "postcode": null,
+      "address": "47 Approach Rd, E2",
+      "reason": "CAMRA mentions Sunday open mic and monthly folk; no dated 2026 evidence. Possible 'On repeat' entry if confirmed."
+    },
+    {
+      "id": "the-macbeth",
+      "name": "The Macbeth",
+      "postcode": null,
+      "address": "70 Hoxton St, N1",
+      "reason": "Last Songkick gig Feb 2025; relaunched as food-led Aug 2025."
+    },
+    {
+      "id": "sun-tavern",
+      "name": "Sun Tavern",
+      "postcode": null,
+      "reason": "Trading, but no 2026 music programme found."
+    }
+  ],
+  "do_not_list": [
+    {
+      "id": "oval-space",
+      "name": "Oval Space",
+      "reason": "Closed — licence revoked Sept 2022.",
+      "source": "https://www.timeout.com/london/news/bethnal-green-venue-oval-space-has-lost-its-license-093022"
+    },
+    {
+      "id": "pickle-factory",
+      "name": "The Pickle Factory",
+      "reason": "Closed 25 Aug 2024; its old domain is now a spam site — never follow links to it.",
+      "source": "https://djmag.com/news/pickle-factory-shut-its-first-incarnation-after-nine-years-unveils-final-season-line"
+    },
+    {
+      "id": "the-glory",
+      "name": "The Glory",
+      "reason": "Closed 31 Jan 2024. Same team now runs The Divine.",
+      "source": "https://thepinknews.com/2023/12/06/beloved-east-london-queer-venue-the-glory-announces-closure"
+    },
+    {
+      "id": "visions-video-bar",
+      "name": "Visions Video Bar",
+      "reason": "Closed 2018."
+    },
+    {
+      "id": "peg-patriot",
+      "name": "Peg + Patriot (Town Hall Hotel)",
+      "reason": "Closed 2017."
+    },
+    {
+      "id": "space289",
+      "name": "Space289",
+      "reason": "Closed July 2022.",
+      "source": "https://djmag.com/news/londons-space289-announces-closure-due-rent-increase"
+    }
+  ],
+  "recurring_highlights": [
+    {
+      "name": "Brick Lane Jazz Festival",
+      "when": "Each April",
+      "venues": [
+        "93-feet-east",
+        "rich-mix",
+        "village-underground"
+      ],
+      "source": "https://www.bricklanejazzfestival.com/about"
+    }
+  ]
+}

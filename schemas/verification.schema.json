@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bethnalgreen.live/schemas/verification.schema.json",
+  "title": "Verification record",
+  "description": "The verifier's verdict on one candidate: what it checked, what it found, and what it decided. Lives in data/verification/<run-date>/<id>.json. Kept for every candidate, including rejected ones, so decisions can be audited.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "candidate_file", "run_id", "verified_at", "decision", "reasons", "field_checks", "page_status_seen"],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/event_id" },
+    "candidate_file": { "type": "string", "pattern": "^data/candidates/" },
+    "run_id": { "type": "string" },
+    "verified_at": { "$ref": "common.schema.json#/$defs/timestamp" },
+    "decision": {
+      "description": "publish = written to data/events; hold = needs a person (reason given); reject = not published (reason given).",
+      "enum": ["publish", "hold", "reject"]
+    },
+    "reasons": {
+      "description": "Plain-English reasons, one per line. Required for hold and reject; for publish, note any fields removed.",
+      "type": "array", "items": { "type": "string", "maxLength": 300 }
+    },
+    "field_checks": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["field", "result", "method"],
+        "properties": {
+          "field": { "type": "string" },
+          "result": {
+            "description": "confirmed = the quote was found AND it says what the record says; contradicted = the page says something different; unverifiable = quote not found or page unreachable.",
+            "enum": ["confirmed", "contradicted", "unverifiable"]
+          },
+          "url": { "type": ["string", "null"] },
+          "method": {
+            "description": "exact/near = scripts/check_quote.py found the quote; read = page read by the verifier because the script could not (e.g. page built by JavaScript); none = nothing could be checked.",
+            "enum": ["exact", "near", "read", "none"]
+          },
+          "source_kind": { "enum": ["primary", "aggregator", "reader-tip", null] },
+          "note": { "type": ["string", "null"], "maxLength": 300 }
+        }
+      }
+    },
+    "page_status_seen": {
+      "description": "What the primary page says about availability right now.",
+      "enum": ["none", "few-left", "sold-out", "cancelled", "postponed", "page-gone"]
+    },
+    "existing_event": {
+      "description": "Path in data/events if this event was already published, else null.",
+      "type": ["string", "null"]
+    },
+    "changes": {
+      "description": "For an existing event: what is different now.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["field", "from", "to"],
+        "properties": {
+          "field": { "type": "string" },
+          "from": {},
+          "to": {}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bethnalgreen.live/schemas/event.schema.json",
+  "title": "Event",
+  "description": "A verified event, as the website and newsletter read it. Written only by the verifier (facts) and later the listing writer (the 'listing' block). Lives in data/events/<YYYY-MM>/<id>.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "category", "subcategory", "title", "venue", "starts_at", "zone",
+    "price", "ticket_url", "status", "evidence", "verification",
+    "first_seen", "updated_at"
+  ],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/event_id" },
+    "category": { "$ref": "common.schema.json#/$defs/category" },
+    "subcategory": { "$ref": "common.schema.json#/$defs/subcategory" },
+    "title": { "type": "string", "minLength": 2, "maxLength": 160 },
+    "summary": { "type": ["string", "null"], "maxLength": 320 },
+    "venue": { "$ref": "common.schema.json#/$defs/venue" },
+    "starts_at": { "$ref": "common.schema.json#/$defs/when" },
+    "ends_at": { "oneOf": [{ "$ref": "common.schema.json#/$defs/when" }, { "type": "null" }] },
+    "recurrence": { "type": ["string", "null"] },
+    "zone": { "$ref": "common.schema.json#/$defs/zone" },
+    "worth_the_trip": { "type": "boolean", "default": false },
+    "lineup": { "type": "array", "items": { "type": "string" }, "maxItems": 30 },
+    "genres": { "type": "array", "items": { "type": "string" }, "maxItems": 8 },
+    "price": { "$ref": "common.schema.json#/$defs/price" },
+    "ticket_url": { "type": ["string", "null"], "format": "uri" },
+    "age_restriction": { "type": ["string", "null"] },
+    "accessibility": { "type": ["string", "null"] },
+    "status": { "$ref": "common.schema.json#/$defs/status" },
+    "evidence": {
+      "description": "Only evidence items the verifier confirmed.",
+      "type": "array", "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/evidence_item" }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["verified_at", "run_id", "outcome", "record"],
+      "properties": {
+        "verified_at": { "$ref": "common.schema.json#/$defs/timestamp" },
+        "run_id": { "type": "string" },
+        "outcome": {
+          "description": "verified = every filled field confirmed; verified-with-gaps = key facts confirmed, some optional fields removed because they could not be confirmed.",
+          "enum": ["verified", "verified-with-gaps"]
+        },
+        "removed_fields": {
+          "description": "Fields the scout filled in that the verifier could not confirm and therefore emptied.",
+          "type": "array", "items": { "type": "string" }
+        },
+        "record": {
+          "description": "Path to the verification record, e.g. data/verification/2026-10-13/<id>.json",
+          "type": "string", "pattern": "^data/verification/"
+        }
+      }
+    },
+    "editor_note": {
+      "description": "The scout's opinion (why_its_good), carried over for the newsletter editor. Never shown as fact.",
+      "type": ["string", "null"], "maxLength": 220
+    },
+    "listing": {
+      "description": "Filled by the listing writer later. Null until then.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["blurb", "written_at", "run_id"],
+          "properties": {
+            "headline": { "type": ["string", "null"], "maxLength": 100 },
+            "blurb": { "type": "string", "maxLength": 600 },
+            "written_at": { "$ref": "common.schema.json#/$defs/timestamp" },
+            "run_id": { "type": "string" }
+          }
+        }
+      ]
+    },
+    "first_seen": { "$ref": "common.schema.json#/$defs/timestamp" },
+    "updated_at": { "$ref": "common.schema.json#/$defs/timestamp" },
+    "history": {
+      "description": "What changed after first publication, newest last.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["at", "by", "change"],
+        "properties": {
+          "at": { "$ref": "common.schema.json#/$defs/timestamp" },
+          "by": { "type": "string", "examples": ["verifier", "human"] },
+          "change": { "type": "string", "maxLength": 300 }
+        }
+      }
+    }
+  }
+}
