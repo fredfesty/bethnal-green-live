@@ -1,0 +1,65 @@
+name: Website
+
+# Builds the site on every pull request (as a check) and publishes it to GitHub Pages from main.
+# It also rebuilds every morning so finished events drop off even on days with no new listings.
+#
+# Publishing only happens once GitHub Pages is switched on for this repository
+# (Settings > Pages > Source: GitHub Actions) AND the repository variable DEPLOY_SITE is set to true
+# (Settings > Secrets and variables > Actions > Variables).
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "37 5 * * *"   # 05:37 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm ci
+        working-directory: site
+      - name: Check the preview build (sample events)
+        run: npm run build:demo
+        working-directory: site
+        env:
+          TZ: Europe/London
+      - name: Build the real site (verified events only)
+        run: rm -rf dist && npm run build
+        working-directory: site
+        env:
+          TZ: Europe/London
+          BGL_SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) }}
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request' && vars.DEPLOY_SITE == 'true'
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && vars.DEPLOY_SITE == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

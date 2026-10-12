@@ -1,0 +1,179 @@
+---
+import config from "../site.config.mjs";
+import { rel } from "../lib/rel";
+import { DEMO } from "../lib/data";
+
+interface Props { title?: string; description?: string; current?: string; jsonld?: object | null }
+const { title, description = config.tagline, current = "", jsonld = null } = Astro.props;
+const here = Astro.url.pathname;
+const pageTitle = title ? `${title} | ${config.name}` : `${config.name}: what's on around Bethnal Green`;
+const canonical = new URL(here.replace(/^\//, ""), Astro.site).href;
+// Archivo (SIL Open Font Licence) is served from this site, so readers' browsers never call a font CDN.
+const font = (file: string) => rel(here, `fonts/${file}`);
+const fontFaces = `
+@font-face { font-family: "Archivo"; font-style: normal; font-display: swap; font-weight: 100 900; font-stretch: 62% 125%;
+  src: url(${font("archivo-latin-ext-wdth-normal.woff2")}) format("woff2");
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Archivo"; font-style: normal; font-display: swap; font-weight: 100 900; font-stretch: 62% 125%;
+  src: url(${font("archivo-latin-wdth-normal.woff2")}) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }`;
+const nav = [
+  { href: "index.html", label: "What's on", id: "listings" },
+  { href: "calendar.html", label: "Calendar", id: "calendar" },
+  { href: "newsletter.html", label: "Newsletter", id: "newsletter" },
+  { href: "about.html", label: "How it works", id: "about" },
+];
+---
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{pageTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <meta property="og:title" content={pageTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#f4f5f1" />
+  {DEMO && <meta name="robots" content="noindex" />}
+  <link rel="icon" href={rel(here, "favicon.svg")} type="image/svg+xml" />
+  <link rel="preload" href={rel(here, "fonts/archivo-latin-wdth-normal.woff2")} as="font" type="font/woff2" crossorigin />
+  <style set:html={fontFaces} />
+  {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld).replace(/</g, "\\u003c")} />}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to the listings</a>
+  {DEMO && (
+    <p class="demo-banner" role="note">Preview with made-up events. None of these venues or nights are real.</p>
+  )}
+  <header class="site-header">
+    <a class="plate plate--logo" href={rel(here, "index.html")} aria-label={`${config.name}, home`}>
+      <span class="plate__name">Bethnal Green Live</span>
+      <span class="plate__district">{config.district}</span>
+    </a>
+    <nav aria-label="Main">
+      <ul>
+        {nav.map((n) => (
+          <li><a href={rel(here, n.href)} aria-current={current === n.id ? "page" : undefined}>{n.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+    <slot />
+  </main>
+  <footer class="site-footer">
+    <p>
+      Listings are found by AI agents and checked word for word against the venue's or ticket seller's own page before
+      they go up. Plans change, so check the ticket page before you head out.
+    </p>
+    <ul>
+      <li><a href={rel(here, "about.html")}>How listings are checked</a></li>
+      <li><a href={rel(here, "newsletter.html")}>Get the weekly newsletter</a></li>
+      <li><a href={rel(here, "calendar.html#feeds")}>Add listings to your calendar</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
+
+<style is:global>
+  :root {
+    --paper: #f4f5f1;
+    --plate: #ffffff;
+    --ink: #1b1d1b;
+    --muted: #5a605b;
+    --rule: #d5d9d1;
+    --red: #d42a1f;
+    --green: #1d5a39;
+    --green-tint: #e3ede6;
+    --focus: #1d5a39;
+    --sans: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --measure: 68ch;
+    color-scheme: light;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-variation-settings: "wdth" 100;
+    font-size: 1.0625rem;
+    line-height: 1.5;
+  }
+  a { color: var(--green); text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+  a:hover { text-decoration-thickness: 2px; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
+  h1, h2, h3 { line-height: 1.1; margin: 0; }
+  img { max-width: 100%; }
+  [hidden] { display: none !important; }
+  .visually-hidden {
+    position: absolute !important; width: 1px; height: 1px; overflow: hidden;
+    clip: rect(0 0 0 0); white-space: nowrap;
+  }
+  .skip { position: absolute; left: -9999px; }
+  .skip:focus { left: 1rem; top: 1rem; z-index: 10; background: var(--plate); padding: 0.5rem 0.75rem; }
+
+  .demo-banner {
+    margin: 0; padding: 0.5rem 1rem; text-align: center;
+    background: #fff4c2; color: #4a3b00; font-size: 0.9rem;
+    border-bottom: 1px solid #e8d77a;
+  }
+
+  /* The street-name plate: the site's one signature device. */
+  .plate {
+    display: inline-flex; align-items: baseline; gap: 0.55em;
+    background: var(--plate); color: #000;
+    border: 2px solid #000; border-radius: 5px;
+    box-shadow: 0 0 0 4px var(--plate), 0 0 0 5px var(--rule);
+    padding: 0.32em 0.7em 0.26em;
+    font-variation-settings: "wdth" 62; font-weight: 800;
+    text-transform: uppercase; letter-spacing: 0.015em; line-height: 1;
+    text-decoration: none;
+  }
+  .plate__district { color: var(--red); font-size: 0.62em; font-weight: 800; letter-spacing: 0.04em; }
+  .plate--logo { font-size: 1.55rem; margin: 5px; }
+  .plate--logo:hover { text-decoration: none; }
+
+  .site-header {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+    gap: 1rem 2rem; padding: 1.25rem clamp(1rem, 4vw, 2.5rem) 1rem;
+    max-width: 78rem; margin: 0 auto;
+  }
+  .site-header nav ul { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; list-style: none; margin: 0; padding: 0; }
+  .site-header nav a {
+    color: var(--ink); text-decoration: none; font-weight: 550; padding: 0.25rem 0;
+    border-bottom: 2px solid transparent;
+  }
+  .site-header nav a:hover { border-bottom-color: var(--rule); }
+  .site-header nav a[aria-current="page"] { border-bottom-color: var(--green); }
+
+  main { max-width: 78rem; margin: 0 auto; padding: 0 clamp(1rem, 4vw, 2.5rem) 3rem; }
+
+  .site-footer {
+    border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.95rem;
+    padding: 2rem clamp(1rem, 4vw, 2.5rem) 3rem; max-width: 78rem; margin: 0 auto;
+  }
+  .site-footer p { max-width: var(--measure); margin: 0 0 1rem; }
+  .site-footer ul { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; list-style: none; margin: 0; padding: 0; }
+
+  .button {
+    display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+    background: var(--green); color: #fff; border: 2px solid var(--green); border-radius: 6px;
+    padding: 0.6rem 1.1rem; font: inherit; font-weight: 650; text-decoration: none; cursor: pointer;
+  }
+  .button:hover { background: #164a2e; border-color: #164a2e; text-decoration: none; }
+  .button--quiet { background: transparent; color: var(--green); }
+  .button--quiet:hover { background: var(--green-tint); }
+
+  .prose { max-width: var(--measure); }
+  .prose h1 { font-size: clamp(2rem, 5vw, 2.8rem); font-variation-settings: "wdth" 80; font-weight: 750; margin: 1rem 0 1.25rem; }
+  .prose h2 { font-size: 1.35rem; font-weight: 700; margin: 2.25rem 0 0.6rem; }
+  .prose p, .prose li { line-height: 1.6; }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  }
+</style>

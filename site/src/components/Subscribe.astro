@@ -1,0 +1,40 @@
+---
+import config from "../site.config.mjs";
+interface Props { compact?: boolean }
+const { compact = false } = Astro.props;
+const user = config.buttondownUsername;
+---
+<section class:list={["subscribe", { "subscribe--compact": compact }]} aria-labelledby="subscribe-title">
+  <h2 id="subscribe-title">The week ahead, every Thursday</h2>
+  <p>The best of what's on around E2 in one email: a pick of the week, the nights worth crossing the road for, and what's coming up. Free.</p>
+  {user ? (
+    <form action={`https://buttondown.com/api/emails/embed-subscribe/${user}`} method="post" target="_blank" class="subscribe__form">
+      <label for={compact ? "email-c" : "email"}>Email address</label>
+      <div class="subscribe__row">
+        <input id={compact ? "email-c" : "email"} type="email" name="email" autocomplete="email" required placeholder="you@example.com" />
+        <input type="hidden" name="embed" value="1" />
+        <button class="button" type="submit">Subscribe</button>
+      </div>
+      <p class="subscribe__small">One email a week. Unsubscribe with one click.</p>
+    </form>
+  ) : (
+    <p class="subscribe__soon"><strong>The newsletter starts soon.</strong> The sign-up form will appear here once it's ready.</p>
+  )}
+</section>
+
+<style>
+  .subscribe {
+    background: var(--plate); border: 2px solid #000; border-radius: 8px;
+    padding: clamp(1.25rem, 3vw, 2rem); max-width: 44rem; margin: 3rem 0 0;
+  }
+  .subscribe h2 { font-size: clamp(1.4rem, 3vw, 1.8rem); font-variation-settings: "wdth" 80; font-weight: 750; }
+  .subscribe p { margin: 0.6rem 0 0; max-width: 60ch; }
+  .subscribe__form { margin-top: 1rem; }
+  .subscribe__form label { display: block; font-weight: 600; margin-bottom: 0.35rem; }
+  .subscribe__row { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .subscribe__row input[type="email"] {
+    flex: 1 1 14rem; font: inherit; padding: 0.6rem 0.75rem; border: 1.5px solid #000; border-radius: 6px; background: #fff;
+  }
+  .subscribe__small, .subscribe__soon { color: var(--muted); font-size: 0.92rem; }
+  .subscribe__soon strong { color: var(--ink); }
+</style>

@@ -1,0 +1,56 @@
+---
+import Base from "../layouts/Base.astro";
+import { rel } from "../lib/rel";
+import config from "../site.config.mjs";
+const here = Astro.url.pathname;
+const mail = config.correctionsContact;
+---
+<Base title="How it works" current="about" description="How Bethnal Green Live finds and checks its listings.">
+  <article class="prose">
+    <h1>How Bethnal Green Live works</h1>
+    <p>
+      Bethnal Green Live is a free guide to what's on around Bethnal Green, London E2: club nights, gigs, films, food,
+      markets and community events, from the streets around the station out to about a twenty-minute walk. Now and then
+      we list something further away when it's worth the trip.
+    </p>
+
+    <h2>Who finds the listings</h2>
+    <p>
+      AI agents do the legwork. Every morning they read venue websites and ticket pages, and for every fact they
+      record (the date, the time, the price, who's playing) they keep the exact words from the page it came from.
+    </p>
+
+    <h2>How they're checked</h2>
+    <p>
+      A separate checking agent opens every one of those pages again and looks for those exact words. A listing only goes
+      up if the name, the venue and the date are all confirmed on the venue's or ticket seller's own page. Anything
+      that can't be confirmed is left out rather than guessed. Anything doubtful waits for a person, and a person
+      approves every update before it reaches this site.
+    </p>
+    <p>
+      Each event page says when it was checked and links to the pages it was checked against, so you can see for
+      yourself. Events in the next fortnight are checked again as they get closer.
+    </p>
+
+    <h2>What we don't do</h2>
+    <ul>
+      <li>We don't copy promoters' descriptions or photos.</li>
+      <li>We don't collect listings from sites whose terms say no, or from social media.</li>
+      <li>We don't take money to list things. If that ever changes, paid listings will be clearly labelled.</li>
+    </ul>
+
+    <h2>If something's wrong</h2>
+    <p>
+      Plans change, so check the ticket page before you go.
+      {mail
+        ? <> If you spot a mistake, <a href={mail.includes("@") ? `mailto:${mail}` : mail}>tell us</a> and we'll fix it the same day.</>
+        : " A way to report mistakes is coming soon."}
+    </p>
+
+    <h2>Never miss a night</h2>
+    <p>
+      <a href={rel(here, "newsletter.html")}>Get the weekly newsletter</a>, or
+      <a href={rel(here, "calendar.html#feeds")}>add the listings to your own calendar</a>.
+    </p>
+  </article>
+</Base>

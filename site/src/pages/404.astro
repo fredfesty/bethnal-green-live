@@ -1,0 +1,10 @@
+---
+import Base from "../layouts/Base.astro";
+const home = new URL("index.html", Astro.site).href;
+---
+<Base title="Page not found">
+  <article class="prose">
+    <h1>That page isn't here</h1>
+    <p>The event may have finished or been taken down. Everything still to come is on the <a href={home}>listings</a>.</p>
+  </article>
+</Base>

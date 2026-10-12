@@ -1,0 +1,140 @@
+---
+import Base from "../../layouts/Base.astro";
+import { loadEvents, mapLink, type SiteEvent } from "../../lib/data";
+import { SUBCATEGORY, CATEGORY, STATUS, ZONE } from "../../lib/labels";
+import { timeRange, weekday, dayMonth, longDate, hasTime, londonDate, dayMonthShort } from "../../lib/time";
+import { rel } from "../../lib/rel";
+import config from "../../site.config.mjs";
+
+export function getStaticPaths() {
+  return loadEvents().map((e) => ({ params: { id: e.id }, props: { e } }));
+}
+
+const { e } = Astro.props as { e: SiteEvent };
+const here = Astro.url.pathname;
+const kind = e.category === "nights-music" ? SUBCATEGORY[e.subcategory] : CATEGORY[e.category];
+const pageUrl = new URL(`events/${e.id}.html`, Astro.site).href;
+const checked = londonDate(new Date(e.verification.verified_at));
+const statusSchema: Record<string, string> = {
+  cancelled: "https://schema.org/EventCancelled",
+  postponed: "https://schema.org/EventPostponed",
+};
+const jsonld = {
+  "@context": "https://schema.org",
+  "@type": e.category === "nights-music" ? "MusicEvent" : "Event",
+  name: e.title,
+  startDate: e.starts_at,
+  ...(e.ends_at ? { endDate: e.ends_at } : {}),
+  eventStatus: statusSchema[e.status] ?? "https://schema.org/EventScheduled",
+  eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+  location: {
+    "@type": "Place",
+    name: e.venue.name,
+    address: { "@type": "PostalAddress", streetAddress: e.venue.address ?? undefined, postalCode: e.venue.postcode ?? undefined, addressLocality: "London", addressCountry: "GB" },
+  },
+  ...(e.lineup?.length ? { performer: e.lineup.map((name) => ({ "@type": "PerformingGroup", name })) } : {}),
+  ...(e.price.known && e.ticket_url
+    ? { offers: { "@type": "Offer", url: e.ticket_url, price: e.price.is_free ? 0 : e.price.min_gbp, priceCurrency: "GBP",
+        availability: e.status === "sold-out" ? "https://schema.org/SoldOut" : "https://schema.org/InStock" } }
+    : {}),
+  url: pageUrl,
+};
+const mail = config.correctionsContact;
+const fixHref = !mail ? null : mail.includes("@")
+  ? `mailto:${mail}?subject=${encodeURIComponent(`Correction: ${e.title} (${e.date})`)}&body=${encodeURIComponent(`Listing: ${pageUrl}\n\nWhat's wrong:\n`)}`
+  : mail;
+---
+<Base title={e.title} description={`${kind} at ${e.venue.name}, ${weekday(e.date)} ${dayMonth(e.date)}. ${e.priceLabel}.`} jsonld={jsonld}>
+  <article class="ev">
+    <p class="ev__back"><a href={rel(here, "index.html")}>Back to all listings</a></p>
+
+    <p class="plate plate--date">
+      <span>{weekday(e.date)} {dayMonth(e.date)}</span>
+      {hasTime(e.starts_at) && <span class="plate__district">{timeRange(e.starts_at, e.ends_at)}</span>}
+    </p>
+
+    <h1>{e.title}</h1>
+    <p class="ev__kind">{kind} at {e.venue.name}</p>
+
+    {STATUS[e.status] && (
+      <p class:list={["ev__status", `ev__status--${e.status}`]} role="status">
+        {e.status === "cancelled" && "This event has been cancelled."}
+        {e.status === "postponed" && "This event has been postponed. Check the ticket page for the new date."}
+        {e.status === "sold-out" && "Sold out. The ticket page may have returns or a waiting list."}
+        {e.status === "few-left" && "The last few tickets are on sale."}
+      </p>
+    )}
+
+    <div class="ev__grid">
+      <dl class="ev__facts">
+        <div><dt>When</dt><dd>{longDate(e.date)}<br />{timeRange(e.starts_at, e.ends_at)}{e.recurrence && <><br />Regular night: {e.recurrence}</>}</dd></div>
+        <div>
+          <dt>Where</dt>
+          <dd>
+            {e.venue.name}
+            {(e.venue.address || e.venue.postcode) && <><br />{[e.venue.address, e.venue.postcode].filter(Boolean).join(", ")}</>}
+            <br /><a href={mapLink(e)}>Show on a map</a>
+            {e.zone === "outer" && <><br /><span class="ev__note">{ZONE.outer}: a bit further from Bethnal Green than most listings.</span></>}
+          </dd>
+        </div>
+        <div><dt>Price</dt><dd>{e.priceLabel}{e.price.notes && <><br /><span class="ev__note">{e.price.notes}</span></>}</dd></div>
+        {e.lineup && e.lineup.length > 0 && <div><dt>Line-up</dt><dd>{e.lineup.join(", ")}</dd></div>}
+        {e.genres && e.genres.length > 0 && <div><dt>Music</dt><dd>{e.genres.join(", ")}</dd></div>}
+        {e.age_restriction && <div><dt>Age</dt><dd>{e.age_restriction}</dd></div>}
+        <div><dt>Access</dt><dd>{e.accessibility ?? <span class="ev__note">Not listed. Check with the venue before you go.</span>}</dd></div>
+      </dl>
+
+      <div class="ev__actions">
+        {e.ticket_url && e.status !== "cancelled" && (
+          <a class="button" href={e.ticket_url} rel="noopener">{e.price.is_free ? "Event page" : "Get tickets"}</a>
+        )}
+        <a class="button button--quiet" href={rel(here, `events/${e.id}.ics`)} download>Add to my calendar</a>
+      </div>
+    </div>
+
+    {e.listing?.blurb && <p class="ev__blurb">{e.listing.blurb}</p>}
+
+    <section class="ev__checked" aria-labelledby="checked">
+      <h2 id="checked">How we checked this</h2>
+      <p>
+        Checked on {dayMonthShort(checked)} against
+        {e.sources.map((s, i) => (
+          <>{i > 0 && (i === e.sources.length - 1 ? " and " : ", ")}<a href={s.url} rel="noopener">{s.host}</a>{s.kind === "primary" ? " (the event's own page)" : " (a listings site)"}</>
+        ))}.
+        {(e.verification.removed_fields?.length ?? 0) > 0 && " Some details weren't on those pages, so we've left them out."}
+        {" "}Plans change, so check the ticket page before you go.
+      </p>
+      {fixHref && <p><a href={fixHref}>Spotted a mistake? Tell us</a></p>}
+    </section>
+  </article>
+</Base>
+
+<style>
+  .ev { max-width: 52rem; }
+  .ev__back { margin: 0.5rem 0 1.5rem; }
+  .plate--date { font-size: 1.5rem; margin: 0 0 1.25rem 5px; flex-wrap: wrap; }
+  .plate--date .plate__district { font-size: 0.7em; }
+  .ev h1 { font-size: clamp(2rem, 6vw, 3.2rem); font-variation-settings: "wdth" 75; font-weight: 800; line-height: 1.02; }
+  .ev__kind { font-size: 1.15rem; margin: 0.6rem 0 0; }
+  .ev__status {
+    margin: 1.25rem 0 0; padding: 0.75rem 1rem; border-left: 4px solid var(--red); background: #fff; font-weight: 600;
+  }
+  .ev__status--few-left { border-left-color: #b86a00; }
+  .ev__grid { display: grid; grid-template-columns: 1fr auto; gap: 1.5rem 2.5rem; margin-top: 2rem; align-items: start; }
+  .ev__facts { margin: 0; display: grid; gap: 0.9rem; }
+  .ev__facts > div { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; padding-top: 0.9rem; border-top: 1px solid var(--rule); }
+  .ev__facts > div:first-child { border-top: 0; padding-top: 0; }
+  .ev__facts dt { font-weight: 700; }
+  .ev__facts dd { margin: 0; }
+  .ev__note { color: var(--muted); font-size: 0.95rem; }
+  .ev__actions { display: grid; gap: 0.6rem; min-width: 13rem; }
+  .ev__blurb { margin: 2rem 0 0; font-size: 1.1rem; max-width: var(--measure); }
+  .ev__checked { margin-top: 2.5rem; padding: 1.1rem 1.25rem; background: var(--green-tint); border-radius: 8px; max-width: 46rem; }
+  .ev__checked h2 { font-size: 1.05rem; }
+  .ev__checked p { margin: 0.5rem 0 0; }
+  @media (max-width: 40rem) {
+    .ev__grid { grid-template-columns: 1fr; }
+    .ev__facts > div { grid-template-columns: 1fr; gap: 0.2rem; }
+    .ev__actions { min-width: 0; }
+  }
+</style>

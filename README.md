@@ -2,7 +2,7 @@
 
 What's on around Bethnal Green, London E2: a listings website and a weekly newsletter, researched by Claude agents and checked by people. Inspired by Peckham.Live.
 
-**Status:** the data formats, the checking scripts and the first two agents (nights & music scout, verifier) are in place. The website, newsletter and other agents come next. See the blueprint doc in the Bethnal Green Live project for the full plan.
+**Status:** the data formats, the checking scripts, the first two agents (nights & music scout, verifier) and the website are in place. The newsletter and the other agents come next. See the blueprint doc in the Bethnal Green Live project for the full plan.
 
 ## How it works
 
@@ -37,6 +37,7 @@ The agents run as a scheduled Claude Code routine; settings and prompt in [`rout
 | `tests/` | Tests for both scripts |
 | `routines/` | Scheduled-run prompts and settings |
 | `docs/examples/` | Example event record |
+| `site/` | The website: listings with search and filters, calendar, event pages, calendar feeds, newsletter sign-up |
 
 ## Working on it locally
 
@@ -46,6 +47,26 @@ python -m pytest -q                 # the scripts work
 python scripts/validate.py all      # every data file is valid
 claude                              # then ask: "use the scout-nights-music agent for today"
 ```
+
+## The website
+
+A static site built with Astro from the verified events in `data/events/`. No server, no database and no AI at page-view time.
+
+- **Listings** grouped by day, with search and filters for type, date (today, tomorrow, this weekend, next 7 days, pick dates), price and distance. Filtered views have shareable links.
+- **Calendar**: month view, plus subscribable calendar feeds (everything, free things, and one per type of night).
+- **Event pages** with tickets, map link, add-to-calendar, and a "How we checked this" note linking the pages each listing was checked against. They also carry schema.org event data for search engines.
+- **Newsletter sign-up**: set `buttondownUsername` in `site/src/site.config.mjs` once the Buttondown account exists.
+- Events with `needs_review` are never shown, and finished events drop off. The site rebuilds every morning.
+- All links are relative, so it works on GitHub Pages, a custom domain or from a folder. The font is self-hosted, so no visitor data goes to a font CDN.
+
+```
+cd site
+npm install
+npm run build:demo && npx astro preview    # preview with made-up sample events
+npm run build                              # the real site, from data/events
+```
+
+Publishing: `.github/workflows/site.yml` builds on every pull request and, once Pages is switched on (Settings > Pages > Source: GitHub Actions) and the repository variable `DEPLOY_SITE` is `true`, publishes from `main`. Set `SITE_URL` as a repository variable if you use a custom domain.
 
 ## Rules of the road
 

@@ -8,3 +8,6 @@ venv/
 Thumbs.db
 node_modules/
 dist/
+site/node_modules/
+site/dist/
+site/.astro/

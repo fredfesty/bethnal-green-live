@@ -18,6 +18,7 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 | Verifier | `.claude/agents/verifier.md` | `data/verification/<date>/`, `data/events/`, `data/runs/verifier/` |
 | Arts, food & drink, community scouts | not yet written | their own `data/candidates/<category>/` |
 | Venue and organiser profilers, listing writer, newsletter editor, QA | not yet written | — |
+| (people only) | — | `site/` — the website. Agents never edit it during scheduled runs. |
 
 ## Repo map
 
@@ -28,6 +29,7 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 - `data/inbox/tips/` — reader tips waiting to be checked.
 - `scripts/validate.py` — format and house-rule checks. `scripts/check_quote.py` — re-fetches a page and looks for a quote.
 - `routines/` — the prompts and settings for the scheduled runs.
+- `site/` — the website (Astro). It reads `data/events/` and `data/sources/` at build time; it never calls Claude or any AI service. `site/src/site.config.mjs` holds the settings a person decides (newsletter, corrections contact).
 - `_example` folders and `docs/examples/` — illustrative records, not real events.
 - An event with `needs_review` set is in doubt: the site must hide it or show it as "details being checked".
 

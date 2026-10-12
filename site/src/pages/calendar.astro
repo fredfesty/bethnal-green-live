@@ -1,0 +1,146 @@
+---
+import Base from "../layouts/Base.astro";
+import { loadEvents, type SiteEvent } from "../lib/data";
+import { FEEDS } from "../lib/feeds";
+import { addDays, monthYear, todayInLondon } from "../lib/time";
+import { rel } from "../lib/rel";
+import config from "../site.config.mjs";
+
+const here = Astro.url.pathname;
+const events = loadEvents();
+const today = todayInLondon();
+const last = addDays(today, config.daysAhead);
+
+const byDay = new Map<string, SiteEvent[]>();
+for (const e of events) byDay.set(e.date, [...(byDay.get(e.date) ?? []), e]);
+
+// Month grids, Monday first, from this month to the last month we list.
+function monthGrid(first: string) {
+  const [y, m] = first.split("-").map(Number);
+  const start = new Date(Date.UTC(y, m - 1, 1));
+  const lead = (start.getUTCDay() + 6) % 7;
+  const daysIn = new Date(Date.UTC(y, m, 0)).getUTCDate();
+  const cells: (string | null)[] = Array(lead).fill(null);
+  for (let d = 1; d <= daysIn; d++) cells.push(`${first.slice(0, 8)}${String(d).padStart(2, "0")}`);
+  while (cells.length % 7) cells.push(null);
+  return cells;
+}
+const months: string[] = [];
+for (let m = `${today.slice(0, 7)}-01`; m <= last; ) {
+  months.push(m);
+  const [y, mo] = m.split("-").map(Number);
+  m = mo === 12 ? `${y + 1}-01-01` : `${y}-${String(mo + 1).padStart(2, "0")}-01`;
+}
+
+const feedBase = new URL("feeds/", Astro.site);
+const webcal = (id: string) => new URL(`${id}.ics`, feedBase).href.replace(/^https?:/, "webcal:");
+const https = (id: string) => new URL(`${id}.ics`, feedBase).href;
+const feeds = FEEDS.filter((f) => f.id === "all" || f.id === "free" || events.some((e) => f.match(e)));
+---
+<Base title="Calendar" current="calendar" description="Month view of everything on around Bethnal Green, plus calendar feeds to subscribe to.">
+  <section class="cal-intro">
+    <h1>Calendar</h1>
+    <p>The next {config.daysAhead} days at a glance. Pick a day to see everything on.</p>
+  </section>
+
+  {months.map((m) => (
+    <section class="month" aria-labelledby={`m-${m}`}>
+      <h2 id={`m-${m}`}><span class="plate plate--month">{monthYear(m)}</span></h2>
+      <div class="grid" role="table" aria-label={monthYear(m)}>
+        <div class="grid__row grid__head" role="row">
+          {["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((d) => <span role="columnheader">{d}</span>)}
+        </div>
+        {Array.from({ length: monthGrid(m).length / 7 }, (_, w) => (
+          <div class="grid__row" role="row">
+            {monthGrid(m).slice(w * 7, w * 7 + 7).map((d) => {
+              if (!d) return <span class="cell cell--blank" role="cell"></span>;
+              const list = byDay.get(d) ?? [];
+              const out = d < today || d > last;
+              return (
+                <div role="cell" class:list={["cell", { "cell--out": out, "cell--today": d === today, "cell--has": list.length > 0 }]}>
+                  {list.length > 0 ? (
+                    <a class="cell__day" href={rel(here, `index.html?on=${d}`)} aria-label={`${Number(d.slice(8))}: ${list.length} ${list.length === 1 ? "listing" : "listings"}`}>
+                      {Number(d.slice(8))}<span class="cell__count">{list.length}</span>
+                    </a>
+                  ) : (
+                    <span class="cell__day">{Number(d.slice(8))}</span>
+                  )}
+                  {list.length > 0 && (
+                    <ul class="cell__list">
+                      {list.slice(0, 3).map((e) => (
+                        <li class:list={{ off: e.status === "cancelled" || e.status === "postponed" }}>
+                          <a href={rel(here, `events/${e.id}.html`)}>{e.title}</a>
+                        </li>
+                      ))}
+                      {list.length > 3 && <li class="more"><a href={rel(here, `index.html?on=${d}`)}>{list.length - 3} more</a></li>}
+                    </ul>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        ))}
+      </div>
+    </section>
+  ))}
+
+  <section class="feeds" id="feeds" aria-labelledby="feeds-title">
+    <h2 id="feeds-title">Put the listings in your own calendar</h2>
+    <p>
+      Subscribe once and new listings appear in your calendar by themselves, and changes and cancellations update too.
+      On a phone or a Mac, tap a feed. For Google Calendar, copy the link and add it under <em>Other calendars, From URL</em>.
+    </p>
+    <ul class="feeds__list">
+      {feeds.map((f) => (
+        <li>
+          <a class="feeds__name" href={webcal(f.id)}>{f.label}</a>
+          <span class="feeds__copy">Link: <code>{https(f.id)}</code></span>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Base>
+
+<style>
+  .cal-intro { margin: 1.5rem 0 1.5rem; }
+  .cal-intro h1 { font-size: clamp(2.1rem, 6vw, 3.4rem); font-variation-settings: "wdth" 72; font-weight: 800; }
+  .cal-intro p { margin: 0.6rem 0 0; }
+  .month { margin: 2rem 0 2.5rem; }
+  .month h2 { margin: 0 0 1rem 5px; }
+  .plate--month { font-size: 1.2rem; }
+  .grid { display: grid; gap: 4px; }
+  .grid__row { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
+  .grid__head span { font-weight: 700; font-size: 0.85rem; color: var(--muted); padding: 0 0.4rem; }
+  .cell { background: #fff; border: 1px solid var(--rule); border-radius: 6px; min-height: 7.2rem; padding: 0.4rem 0.45rem; min-width: 0; }
+  .cell--blank { background: transparent; border: 0; }
+  .cell--out { background: transparent; color: var(--muted); }
+  .cell--today { border: 2px solid var(--red); }
+  .cell__day { display: inline-flex; align-items: center; gap: 0.4rem; font-weight: 700; font-variation-settings: "wdth" 80; color: var(--ink); text-decoration: none; }
+  a.cell__day:hover { color: var(--green); }
+  .cell__count { display: none; }
+  .cell__list { list-style: none; margin: 0.3rem 0 0; padding: 0; display: grid; gap: 0.2rem; font-size: 0.8rem; line-height: 1.25; }
+  .cell__list a { color: var(--ink); text-decoration: none; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .cell__list a:hover { color: var(--green); text-decoration: underline; }
+  .cell__list .off a { text-decoration: line-through; color: var(--muted); }
+  .cell__list .more a { color: var(--green); font-weight: 600; }
+
+  .feeds { margin-top: 3rem; max-width: 50rem; }
+  .feeds h2 { font-size: 1.5rem; font-variation-settings: "wdth" 80; font-weight: 750; }
+  .feeds p { max-width: var(--measure); }
+  .feeds__list { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 0.6rem; }
+  .feeds__list li { display: grid; gap: 0.1rem; padding: 0.6rem 0; border-top: 1px solid var(--rule); }
+  .feeds__name { font-weight: 700; }
+  .feeds__copy { color: var(--muted); font-size: 0.85rem; overflow-wrap: anywhere; }
+  .feeds__copy code { font-size: 0.85rem; }
+
+  @media (max-width: 46rem) {
+    .cell { min-height: 3.2rem; padding: 0.3rem; text-align: center; }
+    .cell__list { display: none; }
+    .cell__day { flex-direction: column; gap: 0.1rem; width: 100%; }
+    .cell--has .cell__count {
+      display: block; font-size: 0.72rem; font-weight: 700; background: var(--green); color: #fff;
+      border-radius: 999px; min-width: 1.4rem; padding: 0 0.3rem; margin: 0 auto;
+    }
+    .grid__head span { padding: 0; text-align: center; font-size: 0.75rem; }
+  }
+</style>

@@ -1,0 +1,276 @@
+---
+import Base from "../layouts/Base.astro";
+import EventRow from "../components/EventRow.astro";
+import Subscribe from "../components/Subscribe.astro";
+import { loadEvents, byDate } from "../lib/data";
+import { TYPE_GROUPS } from "../lib/labels";
+import { weekday, dayMonth } from "../lib/time";
+import { rel } from "../lib/rel";
+import config from "../site.config.mjs";
+
+const events = loadEvents();
+const days = byDate(events);
+const groups = TYPE_GROUPS.filter((g) => events.some((e) => e.group === g.id));
+const here = Astro.url.pathname;
+---
+<Base current="listings">
+  <section class="intro">
+    <h1>What's on around Bethnal Green</h1>
+    <p>
+      Club nights, gigs, films, food and more, within a short walk of {config.district}. Every listing is checked
+      against the venue's or ticket seller's own page before it goes up.
+    </p>
+  </section>
+
+  {events.length === 0 ? (
+    <section class="empty-site">
+      <h2>The first listings are on their way</h2>
+      <p>
+        We're checking the first batch of nights, gigs and events now. Get the newsletter and you'll hear the moment
+        they're up, or add the calendar feed and they'll appear in your calendar by themselves.
+      </p>
+      <p><a class="button" href={rel(here, "newsletter.html")}>Get the newsletter</a> <a class="button button--quiet" href={rel(here, "calendar.html#feeds")}>Add the calendar feed</a></p>
+    </section>
+  ) : (
+    <div class="listings">
+      <form class="filters" id="filters" role="search" aria-label="Filter the listings" onsubmit="return false">
+        <div class="filters__search">
+          <label for="q">Search</label>
+          <input id="q" name="q" type="search" placeholder="Venue, act, music…" autocomplete="off" />
+        </div>
+
+        <details class="filters__more" id="more">
+          <summary>Filters <span id="active"></span></summary>
+          <div class="filters__sets">
+        <fieldset>
+          <legend>What</legend>
+          <div class="chips">
+            <label><input type="radio" name="type" value="all" checked /><span>Everything</span></label>
+            {groups.map((g) => <label><input type="radio" name="type" value={g.id} /><span>{g.label}</span></label>)}
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>When</legend>
+          <div class="chips">
+            <label><input type="radio" name="when" value="any" checked /><span>Any time</span></label>
+            <label><input type="radio" name="when" value="today" /><span>Today</span></label>
+            <label><input type="radio" name="when" value="tomorrow" /><span>Tomorrow</span></label>
+            <label><input type="radio" name="when" value="weekend" /><span>This weekend</span></label>
+            <label><input type="radio" name="when" value="week" /><span>Next 7 days</span></label>
+            <label><input type="radio" name="when" value="dates" /><span>Pick dates</span></label>
+          </div>
+          <div class="filters__dates" id="dates" hidden>
+            <label>From <input type="date" name="from" /></label>
+            <label>To <input type="date" name="to" /></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Price</legend>
+          <div class="chips">
+            <label><input type="radio" name="price" value="any" checked /><span>Any price</span></label>
+            <label><input type="radio" name="price" value="free" /><span>Free</span></label>
+            <label><input type="radio" name="price" value="10" /><span>Up to £10</span></label>
+            <label><input type="radio" name="price" value="20" /><span>Up to £20</span></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Where</legend>
+          <div class="chips">
+            <label><input type="radio" name="area" value="all" checked /><span>Everywhere we list</span></label>
+            <label><input type="radio" name="area" value="near" /><span>Walking distance</span></label>
+          </div>
+        </fieldset>
+          </div>
+        </details>
+      </form>
+
+      <div class="results">
+        <p class="results__count" id="count" aria-live="polite">{events.length} {events.length === 1 ? "listing" : "listings"}</p>
+        {days.map(([date, list]) => (
+          <section class="day" data-date={date} aria-labelledby={`d-${date}`}>
+            <h2 class="day__head" id={`d-${date}`}>
+              <span class="plate plate--day">{weekday(date)} {dayMonth(date)}</span>
+              <span class="day__rel" data-rel-for={date}></span>
+            </h2>
+            <ul class="day__list">
+              {list.map((e) => <EventRow e={e} />)}
+            </ul>
+          </section>
+        ))}
+        <div class="no-results" id="none" hidden>
+          <h2>Nothing matches those filters</h2>
+          <p>Try a wider date range or another kind of night.</p>
+          <button class="button button--quiet" type="button" id="clear">Clear all filters</button>
+        </div>
+      </div>
+    </div>
+  )}
+
+  <Subscribe />
+</Base>
+
+<script is:inline>
+(() => {
+  const form = document.getElementById("filters");
+  if (!form) return;
+  const rows = [...document.querySelectorAll(".event")];
+  const days = [...document.querySelectorAll(".day")];
+  const count = document.getElementById("count");
+  const none = document.getElementById("none");
+  const dates = document.getElementById("dates");
+  const more = document.getElementById("more");
+  const active = document.getElementById("active");
+  const wide = matchMedia("(min-width: 52.01rem)");
+  const syncOpen = () => { if (wide.matches) more.open = true; };
+  wide.addEventListener("change", syncOpen);
+  syncOpen();
+
+  // Dates in London, whatever the reader's own time zone.
+  const londonToday = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/London" }).format(new Date());
+  const add = (d, n) => { const t = new Date(d + "T12:00:00Z"); t.setUTCDate(t.getUTCDate() + n); return t.toISOString().slice(0, 10); };
+  const dow = (d) => new Date(d + "T12:00:00Z").getUTCDay(); // 0 = Sunday
+  const tomorrow = add(londonToday, 1);
+  function weekend() {
+    const w = dow(londonToday);
+    if (w === 0) return [londonToday, londonToday];
+    if (w >= 5) return [londonToday, add(londonToday, 7 - w)];
+    return [add(londonToday, 5 - w), add(londonToday, 7 - w)];
+  }
+
+  // Relabel day headers for today and tomorrow (the page may have been built a few hours ago).
+  document.querySelectorAll("[data-rel-for]").forEach((el) => {
+    const d = el.dataset.relFor;
+    el.textContent = d === londonToday ? "Today" : d === tomorrow ? "Tomorrow" : "";
+    el.classList.toggle("day__rel--today", d === londonToday);
+  });
+
+  const val = (name) => (form.elements[name] instanceof RadioNodeList ? form.elements[name].value : form.elements[name].value);
+
+  function range() {
+    switch (val("when")) {
+      case "today": return [londonToday, londonToday];
+      case "tomorrow": return [tomorrow, tomorrow];
+      case "weekend": return weekend();
+      case "week": return [londonToday, add(londonToday, 6)];
+      case "dates": return [form.elements.from.value || londonToday, form.elements.to.value || form.elements.from.value || "9999-12-31"];
+      default: return null;
+    }
+  }
+
+  function apply(pushUrl = true) {
+    const q = form.elements.q.value.trim().toLowerCase();
+    const type = val("type"), price = val("price"), area = val("area");
+    const r = range();
+    const now = Date.now();
+    dates.hidden = val("when") !== "dates";
+    let shown = 0;
+    for (const li of rows) {
+      const d = li.dataset;
+      let ok = new Date(d.end).getTime() > now;
+      if (ok && q) ok = q.split(/\s+/).every((w) => d.text.includes(w));
+      if (ok && type !== "all") ok = d.group === type;
+      if (ok && r) ok = d.date >= r[0] && d.date <= r[1];
+      if (ok && price === "free") ok = d.price === "free";
+      if (ok && (price === "10" || price === "20")) ok = d.price === "free" || (d.price !== "unknown" && Number(d.price) <= Number(price));
+      if (ok && area === "near") ok = d.zone !== "outer";
+      li.hidden = !ok;
+      if (ok) shown++;
+    }
+    for (const day of days) day.hidden = !day.querySelector(".event:not([hidden])");
+    count.textContent = `${shown} ${shown === 1 ? "listing" : "listings"}`;
+    none.hidden = shown !== 0;
+    const n = [type !== "all", val("when") !== "any", price !== "any", area !== "all"].filter(Boolean).length;
+    active.textContent = n ? `(${n} on)` : "";
+    if (pushUrl) {
+      const p = new URLSearchParams();
+      if (q) p.set("q", q);
+      if (type !== "all") p.set("type", type);
+      if (val("when") !== "any") p.set("when", val("when"));
+      if (val("when") === "dates") { if (form.elements.from.value) p.set("from", form.elements.from.value); if (form.elements.to.value) p.set("to", form.elements.to.value); }
+      if (price !== "any") p.set("price", price);
+      if (area !== "all") p.set("area", area);
+      const qs = p.toString();
+      history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+    }
+  }
+
+  // Start from the address bar, so filtered views can be shared and the calendar can link to a day.
+  const p = new URLSearchParams(location.search);
+  if (p.get("on")) { p.set("when", "dates"); p.set("from", p.get("on")); p.set("to", p.get("on")); }
+  for (const name of ["type", "when", "price", "area"]) {
+    const v = p.get(name);
+    const input = v && form.querySelector(`input[name="${name}"][value="${CSS.escape(v)}"]`);
+    if (input) input.checked = true;
+  }
+  if (p.get("q")) form.elements.q.value = p.get("q");
+  if (p.get("from")) form.elements.from.value = p.get("from");
+  if (p.get("to")) form.elements.to.value = p.get("to");
+
+  form.addEventListener("input", () => apply());
+  form.addEventListener("change", () => apply());
+  document.getElementById("clear").addEventListener("click", () => { form.reset(); apply(); });
+  apply(false);
+})();
+</script>
+
+<style>
+  .intro { max-width: 46rem; margin: 1.5rem 0 2rem; }
+  .intro h1 {
+    font-size: clamp(2.1rem, 6vw, 3.6rem); font-variation-settings: "wdth" 72; font-weight: 800;
+    letter-spacing: -0.01em; line-height: 1;
+  }
+  .intro p { font-size: 1.15rem; margin: 0.9rem 0 0; max-width: 56ch; }
+
+  .listings { display: grid; grid-template-columns: 17.5rem 1fr; gap: 2.5rem; align-items: start; }
+  .filters { position: sticky; top: 1rem; display: grid; gap: 1.1rem; }
+  .filters fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+  .filters__sets { display: grid; gap: 1.1rem; }
+  .filters__more > summary { display: none; }
+  .filters legend, .filters__search label { font-weight: 700; font-size: 0.95rem; margin-bottom: 0.4rem; display: block; padding: 0; }
+  .filters__search input {
+    width: 100%; font: inherit; padding: 0.55rem 0.7rem; border: 1.5px solid #000; border-radius: 6px; background: #fff;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .chips label { position: relative; }
+  .chips input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+  .chips span {
+    display: inline-block; padding: 0.3rem 0.7rem; border: 1.5px solid var(--rule); border-radius: 999px;
+    background: #fff; font-size: 0.92rem; font-weight: 550; cursor: pointer; white-space: nowrap;
+  }
+  .chips label:hover span { border-color: #000; }
+  .chips input:checked + span { background: var(--green); border-color: var(--green); color: #fff; }
+  .chips input:focus-visible + span { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .filters__dates { display: flex; gap: 0.75rem; margin-top: 0.6rem; flex-wrap: wrap; font-size: 0.92rem; }
+  .filters__dates input { display: block; font: inherit; padding: 0.35rem 0.4rem; border: 1.5px solid var(--rule); border-radius: 6px; }
+
+  .results__count { margin: 0 0 0.5rem; color: var(--muted); font-size: 0.95rem; }
+  .day { margin: 0 0 2.25rem; }
+  .day__head { display: flex; align-items: center; gap: 1rem; margin: 0.5rem 0 0.5rem 5px; font-size: 1.05rem; }
+  .plate--day { font-size: 1.15rem; }
+  .day__rel { font-weight: 700; font-size: 0.95rem; color: var(--muted); }
+  .day__rel--today { color: var(--red); }
+  .day__list { list-style: none; margin: 0.75rem 0 0; padding: 0; }
+  .no-results { padding: 2rem 0; }
+  .no-results h2 { font-size: 1.3rem; }
+  .empty-site { max-width: 44rem; padding: 1.5rem 0 0.5rem; }
+  .empty-site h2 { font-size: 1.6rem; font-variation-settings: "wdth" 80; }
+  .empty-site .button { margin: 0.5rem 0.5rem 0 0; }
+
+  @media (max-width: 52rem) {
+    .listings { grid-template-columns: 1fr; gap: 1.5rem; }
+    .filters { position: static; gap: 0.75rem; }
+    .filters__more > summary {
+      display: inline-flex; gap: 0.4rem; align-items: center; cursor: pointer; font-weight: 700;
+      padding: 0.45rem 0.9rem; border: 1.5px solid #000; border-radius: 6px; background: #fff; list-style: none;
+    }
+    .filters__more > summary::-webkit-details-marker { display: none; }
+    .filters__more > summary::after { content: ""; width: 0.45rem; height: 0.45rem; border: solid currentColor; border-width: 0 2px 2px 0; transform: rotate(45deg) translateY(-2px); margin-left: 0.2rem; }
+    .filters__more[open] > summary::after { transform: rotate(-135deg) translateY(-1px); }
+    .filters__more[open] .filters__sets { margin-top: 1rem; }
+    #active { color: var(--green); }
+    .chips { flex-wrap: nowrap; overflow-x: auto; padding: 3px 3px 6px; margin: -3px; scrollbar-width: thin; }
+  }
+</style>

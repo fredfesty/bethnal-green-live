@@ -1,0 +1,68 @@
+---
+import type { SiteEvent } from "../lib/data";
+import { SUBCATEGORY, CATEGORY, STATUS, ZONE } from "../lib/labels";
+import { hasTime, clock } from "../lib/time";
+import { rel } from "../lib/rel";
+
+interface Props { e: SiteEvent }
+const { e } = Astro.props;
+const here = Astro.url.pathname;
+const kind = e.category === "nights-music" ? SUBCATEGORY[e.subcategory] : CATEGORY[e.category];
+const off = e.status === "cancelled" || e.status === "postponed";
+---
+<li
+  class:list={["event", { "event--off": off }]}
+  data-group={e.group}
+  data-date={e.date}
+  data-price={e.priceFilter}
+  data-zone={e.zone}
+  data-end={e.endsAtIso}
+  data-text={e.searchText}
+>
+  <p class="event__time">
+    {hasTime(e.starts_at) ? clock(e.starts_at) : <span class="event__tbc">Time tbc</span>}
+  </p>
+  <div class="event__body">
+    <h3 class="event__title"><a href={rel(here, `events/${e.id}.html`)}>{e.title}</a></h3>
+    <p class="event__where">{e.venue.name}{e.zone === "outer" && <span class="event__trip"> {ZONE.outer.toLowerCase()}</span>}</p>
+    <p class="event__meta">
+      <span>{kind}</span>
+      <span class:list={["event__price", { "event__price--free": e.price.is_free }]}>{e.priceLabel}</span>
+      {hasTime(e.starts_at) && e.ends_at && hasTime(e.ends_at) && <span class="event__until">Until {clock(e.ends_at)}</span>}
+      {e.recurrence && <span>Regular: {e.recurrence}</span>}
+    </p>
+  </div>
+  {STATUS[e.status] && <p class:list={["event__status", `event__status--${e.status}`]}>{STATUS[e.status]}</p>}
+</li>
+
+<style>
+  .event {
+    display: grid; grid-template-columns: 4.6rem 1fr auto; gap: 0 1rem; align-items: start;
+    padding: 0.95rem 0; border-top: 1px solid var(--rule);
+  }
+  .event:first-child { border-top: 0; }
+  .event__time {
+    margin: 0.1rem 0 0; font-variation-settings: "wdth" 75; font-weight: 700; font-size: 1.15rem;
+    font-feature-settings: "tnum"; white-space: nowrap;
+  }
+  .event__tbc { font-size: 0.85rem; font-weight: 500; color: var(--muted); font-variation-settings: "wdth" 90; }
+  .event__body { min-width: 0; }
+  .event__title { font-size: 1.2rem; font-weight: 700; line-height: 1.2; }
+  .event__title a { color: var(--ink); text-decoration: none; }
+  .event__title a:hover { text-decoration: underline; text-decoration-color: var(--green); }
+  .event__where { margin: 0.2rem 0 0; }
+  .event__trip { color: var(--muted); font-size: 0.9rem; }
+  .event__meta { display: flex; flex-wrap: wrap; gap: 0.15rem 1rem; margin: 0.3rem 0 0; color: var(--muted); font-size: 0.92rem; }
+  .event__price { color: var(--ink); font-weight: 600; }
+  .event__price--free { color: var(--green); }
+  .event__status {
+    margin: 0.15rem 0 0; font-size: 0.82rem; font-weight: 700; white-space: nowrap;
+    padding: 0.15rem 0.5rem; border-radius: 4px; border: 1.5px solid currentColor; color: var(--red);
+  }
+  .event__status--few-left { color: #8a4b00; }
+  .event--off .event__title a, .event--off .event__time { text-decoration: line-through; text-decoration-thickness: 1.5px; color: var(--muted); }
+  @media (max-width: 34rem) {
+    .event { grid-template-columns: 3.9rem 1fr; }
+    .event__status { grid-column: 2; justify-self: start; margin-top: 0.45rem; }
+  }
+</style>
