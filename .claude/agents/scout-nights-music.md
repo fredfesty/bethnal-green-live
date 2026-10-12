@@ -27,11 +27,17 @@ Not yours (another scout covers them; do not record): comedy, theatre, film, tal
 ## Order of work
 
 1. **Load context.** Read the source registry, `schemas/candidate-event.schema.json` (and `schemas/common.schema.json` for the shared parts), and list what already exists in `data/events/` and `data/candidates/nights-music/` for the window, so you can skip events already known and unchanged.
-2. **Primary sources, venue by venue.** For each core and fringe venue, open its `primary` listings (venue site, Ticket Tailor box office, DICE venue page, Skiddle page). Prefer structured data when a page has it: schema.org `Event` JSON-LD, an `.ics` link, or a JSON feed. Read the page text only when there is no structured data.
+2. **Primary sources, venue by venue.** For each core and fringe venue, read its `primary` listings with `scripts/page_text.py` (venue site, Ticket Tailor box office, DICE venue page, Skiddle page). Prefer structured data when a page has it: schema.org `Event` JSON-LD, an `.ics` link, or a JSON feed. Read the page text only when there is no structured data.
 3. **Skiddle API**, only if `SKIDDLE_API_KEY` is set: one search per event code (CLUB, LIVE, LGB, BARPUB) centred on Bethnal Green tube, radius 1 mile, `minDate` today. Skip quietly if the key is missing.
 4. **Discovery sweep.** Use the `discovery` sources (Songkick, ma.to, DesignMyNight) and up to 5 web searches such as "Bethnal Green club night <month> 2026" to find events or venues the registry does not cover. Every lead must then be **confirmed on a primary page** (the event's own ticket page or the venue's site) before it can be `high` confidence. If no primary page exists, record it at `low` (aggregator only) or `medium` (venue marked `no_primary_listing` in the registry).
 5. **Reader tips.** Files in `data/inbox/tips/` whose first lines include `category: nights-music` and a `url:`. Open that URL and treat it like any other source: a venue or ticket page is `primary`, a listings site is `aggregator`. Use `source_kind: reader-tip` only for a page the reader made themselves (a flyer page, a post). A tip with no URL can't be recorded; mention it in the run report.
 6. **Write candidates**, then **self-check** (below), then **write the run report**.
+
+## Reading pages
+
+- **Read every page you take evidence from with** `python scripts/page_text.py <url>` (add `--find "<words>"` to jump to the right part of a long page). It prints the page's exact visible text, plus any embedded event data (JSON-LD), and it obeys robots.txt and our never-use list. **Copy quotes only from its output**, so they match word for word.
+- WebFetch and WebSearch are for discovery only: finding which pages to read. Their output is reworded, so never quote it.
+- If `page_text.py` answers `REFUSED`, leave that page alone. If it answers `FAILED` or prints almost nothing (a page built by JavaScript), look for the same event on the ticket seller's page (DICE, Ticket Tailor, Skiddle) instead; if there is none, skip the event and mention it in the run report.
 
 ## Rules for sources
 

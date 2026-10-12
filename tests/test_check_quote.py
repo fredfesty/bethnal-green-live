@@ -180,3 +180,15 @@ def test_per_site_limit(monkeypatch):
         assert check_quote.check(base + "/old", QUOTE)["result"] == "rate-limited"
     finally:
         srv.shutdown()
+
+
+def test_readable_text_keeps_wording_and_lines():
+    html = (FIX / "event_page.html").read_text(encoding="utf-8")
+    text = check_quote.readable_text(html)
+    assert "Disco and house all night with DJ Example plus a live set from Example Live Act. It’s strictly 18+." in text
+    assert "Fri 30 Oct 2026, 9:00 PM – 3:00 AM" in text      # nbsp normalised, dash kept
+    assert "SECRET SCRIPT TEXT" not in text
+    # whatever the scout quotes from readable text, the checker finds it exactly
+    for line in text.split("\n"):
+        if 12 <= len(line) <= 300 and "{" not in line:
+            assert check_quote.check(PAGE, line)["result"] == "exact", line

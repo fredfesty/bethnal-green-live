@@ -127,7 +127,7 @@ class _TextExtractor(HTMLParser):
         elif self._hidden(a) and tag not in ("br", "img", "input", "meta", "link", "hr"):
             self._hide_tag, self._hide_nest = tag, 1
         elif tag in self.BLOCK:
-            self.parts.append(" ")
+            self.parts.append("\n")
 
     def handle_endtag(self, tag):
         if self._hide_tag:
@@ -148,7 +148,7 @@ class _TextExtractor(HTMLParser):
         if tag in self.SKIP and self._skip_depth:
             self._skip_depth -= 1
         elif tag in self.BLOCK:
-            self.parts.append(" ")
+            self.parts.append("\n")
 
     def handle_data(self, data):
         if self._hide_tag:
@@ -165,6 +165,15 @@ def _json_strings(obj) -> list[str]:
     if isinstance(obj, list):
         return [s for v in obj for s in _json_strings(v)]
     return [str(obj)] if isinstance(obj, (str, int, float)) and not isinstance(obj, bool) else []
+
+
+def readable_text(raw_html: str) -> str:
+    """The page's visible text with its original wording and case, one block per line. Quote from this."""
+    p = _TextExtractor()
+    p.feed(raw_html)
+    text = unicodedata.normalize("NFKC", "".join(p.parts)).replace("\u00a0", " ")
+    lines = (re.sub(r"[ \t\r\f\v]+", " ", line).strip() for line in text.split("\n"))
+    return "\n".join(l for l in lines if l)
 
 
 def page_text(raw_html: str) -> str:
@@ -236,8 +245,9 @@ def fetch(url: str) -> dict:
         with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
             body = r.read(MAX_BYTES + 1)
             note = "page truncated at 5 MB" if len(body) > MAX_BYTES else None
+            html_doc = decode(body[:MAX_BYTES], r.headers.get_content_charset())
             out = {"status": getattr(r, "status", 200), "final_url": r.geturl(),
-                   "text": page_text(decode(body[:MAX_BYTES], r.headers.get_content_charset())), "error": note}
+                   "text": page_text(html_doc), "readable": readable_text(html_doc), "error": note}
     except urllib.error.HTTPError as e:
         if e.code in (403, 429):
             _slowed.add(host)
