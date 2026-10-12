@@ -25,8 +25,13 @@ Run the Bethnal Green Live morning run. The run date is today's date in Europe/L
 3. When the scout has finished, use the verifier subagent (.claude/agents/verifier.md) on
    the new candidates. Do not pass it the scout's run report or any of your own views on
    the candidates; it must work only from the files.
-4. Run: python scripts/validate.py all  and  python -m pytest -q. Both must pass. If they
-   do not, fix the data files (never the checks or tests) or change publish decisions to hold.
+4. Run: python scripts/validate.py all  and  python -m pytest -q. Both must pass. If they do
+   not, you may only do these things, never edit a fact in any file and never edit checks or tests:
+   - for a new event that fails: change its verification decision from publish to hold, add the
+     failure as a reason, and delete the event file;
+   - for an update to an existing event that fails: do the same, and restore the event file from
+     main (git checkout main -- <path>);
+   - delete a candidate file that fails its format check and note it in the PR body.
 5. Commit everything under data/candidates/, data/verification/, data/events/ and data/runs/,
    push the branch, and open a pull request titled "Morning run — <run-date>". The body is the
    verifier's run report followed by the scout's run report.
@@ -36,7 +41,8 @@ Run the Bethnal Green Live morning run. The run date is today's date in Europe/L
 
 ## Reviewing the pull request
 
-1. Read the verifier's report at the top. Anything under **Held** needs you: check the link it gives and either fix the event by hand (add `history` with `by: "human"`) or leave it out.
+1. Read the verifier's report at the top. Anything under **Held** needs you: check the link it gives. To publish it anyway (say, after phoning the venue), edit its verification record: set `"decision": "publish"`, `"decided_by": "human"` and put what you checked in `reasons`; then create the event file (copy `docs/examples/event.json` as a template) with a `history` line `by: "human"`. Otherwise leave it out.
 2. Skim the new files in `data/events/`. The CI check at the bottom of the PR must be green.
-3. Merge. The website rebuilds from `main` (once it exists).
-4. Apply any **Registry suggestions** from the scout's report in a separate small commit.
+3. Check the **flagged** events: anything with `needs_review` is hidden or flagged on the site until a person clears it (set it to null and add a `history` line).
+4. Merge. The website rebuilds from `main` (once it exists).
+5. Apply any **Registry suggestions** from the scout's report in a separate small commit.

@@ -3,7 +3,6 @@
   "category": "nights-music",
   "subcategory": "club-night",
   "title": "EXAMPLE NIGHT (illustrative only)",
-  "summary": "Illustrative record showing the format. Not a real event.",
   "venue": {
     "venue_id": "bgwmc",
     "name": "Bethnal Green Working Men's Club",
@@ -30,7 +29,7 @@
     "max_gbp": 12,
     "notes": "£8 early bird, £12 general admission"
   },
-  "ticket_url": "https://www.tickettailor.com/events/workingmens-club",
+  "ticket_url": "https://www.tickettailor.com/events/workingmens-club/0000000",
   "age_restriction": "18+",
   "accessibility": null,
   "status": "few-left",
@@ -40,7 +39,7 @@
         "title",
         "venue"
       ],
-      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "url": "https://www.tickettailor.com/events/workingmens-club/0000000",
       "quote": "EXAMPLE NIGHT at Bethnal Green Working Men's Club",
       "retrieved_at": "2026-10-13T06:11:40+01:00",
       "source_kind": "primary"
@@ -50,7 +49,7 @@
         "starts_at",
         "ends_at"
       ],
-      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "url": "https://www.tickettailor.com/events/workingmens-club/0000000",
       "quote": "Fri 30 Oct 2026, 9:00 PM – 3:00 AM",
       "retrieved_at": "2026-10-13T06:11:40+01:00",
       "source_kind": "primary"
@@ -61,7 +60,7 @@
         "status",
         "ticket_url"
       ],
-      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "url": "https://www.tickettailor.com/events/workingmens-club/0000000",
       "quote": "Early bird £8 General admission £12 — only a few left",
       "retrieved_at": "2026-10-13T06:11:40+01:00",
       "source_kind": "primary"
@@ -72,7 +71,7 @@
         "genres",
         "age_restriction"
       ],
-      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "url": "https://www.tickettailor.com/events/workingmens-club/0000000",
       "quote": "Disco and house all night with DJ Example plus a live set from Example Live Act. Strictly 18+.",
       "retrieved_at": "2026-10-13T06:11:40+01:00",
       "source_kind": "primary"
@@ -89,5 +88,6 @@
   "listing": null,
   "first_seen": "2026-10-13T07:20:00+01:00",
   "updated_at": "2026-10-13T07:20:00+01:00",
-  "history": []
+  "history": [],
+  "needs_review": null
 }

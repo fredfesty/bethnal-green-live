@@ -9,18 +9,89 @@
     "accessibility was not provided, so nothing to check."
   ],
   "field_checks": [
-    { "field": "title", "result": "confirmed", "url": "https://www.tickettailor.com/events/workingmens-club", "method": "exact", "source_kind": "primary", "note": null },
-    { "field": "venue", "result": "confirmed", "url": "https://www.tickettailor.com/events/workingmens-club", "method": "exact", "source_kind": "primary", "note": null },
-    { "field": "starts_at", "result": "confirmed", "url": "https://www.tickettailor.com/events/workingmens-club", "method": "exact", "source_kind": "primary", "note": "Fri 30 Oct 2026 9:00 PM; clocks went back on 25 Oct, so +00:00 is right." },
-    { "field": "ends_at", "result": "confirmed", "url": "https://www.tickettailor.com/events/workingmens-club", "method": "exact", "source_kind": "primary", "note": null },
-    { "field": "price", "result": "confirmed", "url": "https://www.tickettailor.com/events/workingmens-club", "method": "exact", "source_kind": "primary", "note": null },
-    { "field": "ticket_url", "result": "confirmed", "url": "https://www.tickettailor.com/events/workingmens-club", "method": "exact", "source_kind": "primary", "note": "Page loads and sells this event." },
-    { "field": "status", "result": "confirmed", "url": "https://www.tickettailor.com/events/workingmens-club", "method": "exact", "source_kind": "primary", "note": "Page says only a few left." },
-    { "field": "lineup", "result": "confirmed", "url": "https://www.tickettailor.com/events/workingmens-club", "method": "exact", "source_kind": "primary", "note": null },
-    { "field": "genres", "result": "confirmed", "url": "https://www.tickettailor.com/events/workingmens-club", "method": "exact", "source_kind": "primary", "note": null },
-    { "field": "age_restriction", "result": "confirmed", "url": "https://www.tickettailor.com/events/workingmens-club", "method": "exact", "source_kind": "primary", "note": null }
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club/0000000",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club/0000000",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club/0000000",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Fri 30 Oct 2026 9:00 PM; clocks went back on 25 Oct, so +00:00 is right."
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club/0000000",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club/0000000",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club/0000000",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Page loads and sells this event."
+    },
+    {
+      "field": "status",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club/0000000",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Page says only a few left."
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club/0000000",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "genres",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club/0000000",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "age_restriction",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club/0000000",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
   ],
   "page_status_seen": "few-left",
   "existing_event": null,
-  "changes": []
+  "changes": [],
+  "decided_by": "verifier"
 }

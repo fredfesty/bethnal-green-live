@@ -5,7 +5,8 @@
     "Seeded from a research pass on 12 Oct 2026. Each venue was confirmed open via a dated 2026 listing or 2026 news (see status_evidence).",
     "Official website URLs were not all fetched individually; the venue profiler should confirm them on its first run.",
     "Scouts may read this file but must not edit it. Suggested changes go in the run report for a human to apply.",
-    "A venue with no_primary_listing: true has no venue or ticket page online; the verifier may publish its events on aggregator evidence alone."
+    "A venue with no_primary_listing: true has no venue or ticket page online; the verifier may publish its events on aggregator evidence alone.",
+    "Platform 'domains' are enforced by scripts/validate.py and scripts/check_quote.py: do-not-use and do-not-scrape domains are never fetched or accepted as evidence; discovery-only domains can never be labelled primary."
   ],
   "zones": {
     "core": "E2 postcode or within about 1km of Bethnal Green tube. Scanned every run.",
@@ -18,21 +19,31 @@
       "name": "Resident Advisor (ra.co)",
       "policy": "do-not-use",
       "why": "No public API. Terms 4.4 ban automated extraction without written permission; robots.txt blocks ClaudeBot. Do not fetch, do not use third-party RA scrapers.",
-      "source": "https://ra.co/terms"
+      "source": "https://ra.co/terms",
+      "domains": [
+        "ra.co",
+        "residentadvisor.net"
+      ]
     },
     {
       "id": "dice",
       "name": "DICE",
       "policy": "primary-read",
       "how": "Read public dice.fm event and venue pages one at a time. Check robots.txt at the start of each run and stop if disallowed. The Partners API needs a venue or promoter to grant access, so it is only an option if a venue partners with us.",
-      "source": "https://apis.io/providers/dice-fm/"
+      "source": "https://apis.io/providers/dice-fm/",
+      "domains": [
+        "dice.fm"
+      ]
     },
     {
       "id": "ticket-tailor",
       "name": "Ticket Tailor",
       "policy": "primary-read",
       "how": "Read public box-office pages, e.g. tickettailor.com/events/<box-office>. The API key is per box office, so it is only available if the venue gives us one.",
-      "source": "https://developers.tickettailor.com/docs/intro"
+      "source": "https://developers.tickettailor.com/docs/intro",
+      "domains": [
+        "tickettailor.com"
+      ]
     },
     {
       "id": "skiddle",
@@ -40,44 +51,66 @@
       "policy": "api-pending",
       "how": "GET /api/v1/events/search/ with latitude, longitude, radius (miles), eventcode (CLUB, LIVE, LGB, BARPUB) and minDate. Key in env SKIDDLE_API_KEY. If the key is missing, skip silently.",
       "blocker": "Free key is non-commercial unless Skiddle approves in writing. Apply and confirm before relying on it.",
-      "source": "https://github.com/Skiddle/web-api/wiki/Events-API"
+      "source": "https://github.com/Skiddle/web-api/wiki/Events-API",
+      "domains": [
+        "skiddle.com"
+      ]
     },
     {
       "id": "eventbrite",
       "name": "Eventbrite",
       "policy": "api-by-id",
       "how": "Location search was shut off in 2020. Only list events by organiser or venue id stored on a venue below. Key in env EVENTBRITE_TOKEN.",
-      "source": "https://github.com/Automattic/eventbrite-api/issues/83"
+      "source": "https://github.com/Automattic/eventbrite-api/issues/83",
+      "domains": [
+        "eventbrite.co.uk",
+        "eventbrite.com"
+      ]
     },
     {
       "id": "outsavvy",
       "name": "OutSavvy",
       "policy": "primary-read",
-      "how": "Public event pages, mostly queer events. Read the specific event page."
+      "how": "Public event pages, mostly queer events. Read the specific event page.",
+      "domains": [
+        "outsavvy.com"
+      ]
     },
     {
       "id": "songkick",
       "name": "Songkick",
       "policy": "discovery-only",
-      "how": "Good for spotting gigs, but it is an aggregator. Use it to find leads, then confirm on the venue or ticket page. Never the only evidence for a high-confidence candidate. Light reads only; review its terms before scaling up."
+      "how": "Good for spotting gigs, but it is an aggregator. Use it to find leads, then confirm on the venue or ticket page. Never the only evidence for a high-confidence candidate. Light reads only; review its terms before scaling up.",
+      "domains": [
+        "songkick.com"
+      ]
     },
     {
       "id": "mato",
       "name": "ma.to",
       "policy": "discovery-only",
-      "how": "Venue pages list DJ nights for several pubs and bars. Leads only; confirm on a primary page where one exists. If the venue has no other listing (e.g. Star of Bethnal Green), keep it at medium confidence at most."
+      "how": "Venue pages list DJ nights for several pubs and bars. Leads only; confirm on a primary page where one exists. If the venue has no other listing (e.g. Star of Bethnal Green), keep it at medium confidence at most.",
+      "domains": [
+        "ma.to"
+      ]
     },
     {
       "id": "designmynight",
       "name": "DesignMyNight",
       "policy": "discovery-only",
-      "how": "Leads only."
+      "how": "Leads only.",
+      "domains": [
+        "designmynight.com"
+      ]
     },
     {
       "id": "instagram",
       "name": "Instagram",
       "policy": "do-not-scrape",
-      "how": "Not fetched by agents. Events seen there arrive as reader tips or manual entries."
+      "how": "Not fetched by agents. Events seen there arrive as reader tips or manual entries.",
+      "domains": [
+        "instagram.com"
+      ]
     }
   ],
   "venues": [
@@ -796,7 +829,10 @@
       "id": "pickle-factory",
       "name": "The Pickle Factory",
       "reason": "Closed 25 Aug 2024; its old domain is now a spam site — never follow links to it.",
-      "source": "https://djmag.com/news/pickle-factory-shut-its-first-incarnation-after-nine-years-unveils-final-season-line"
+      "source": "https://djmag.com/news/pickle-factory-shut-its-first-incarnation-after-nine-years-unveils-final-season-line",
+      "domains": [
+        "thepicklefactory.co.uk"
+      ]
     },
     {
       "id": "the-glory",
