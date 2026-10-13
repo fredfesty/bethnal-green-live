@@ -1,0 +1,254 @@
+---
+import Base from "../layouts/Base.astro";
+import { loadVenues } from "../lib/venues";
+import { rel } from "../lib/rel";
+import config from "../site.config.mjs";
+
+const here = Astro.url.pathname;
+const mail = config.correctionsContact;
+// Link to a venue's page only when the venue guide has one.
+const venueIds = new Set(loadVenues().map((v) => v.id));
+const venue = (id: string) => (venueIds.has(id) ? rel(here, `venues/${id}.html`) : null);
+
+type Moment = { when: string; text: string; link?: { id: string; label: string } };
+type Era = { id: string; span: string; title: string; intro: string; moments: Moment[] };
+
+const eras: Era[] = [
+  {
+    id: "hamlet",
+    span: "Middle Ages to 1600s",
+    title: "A hamlet round a green",
+    intro:
+      "For most of its history Bethnal Green was a scatter of cottages round a village common, a hamlet in the big parish of Stepney with fields and market gardens beyond. The name started out as Blithehale or Blythenhale: the second half is the Old English healh, a nook or corner, and the first is either blithe (happy) or a man called Blitha.",
+    moments: [
+      { when: "1100s–1200s", text: "The first records of a settlement here." },
+      { when: "1570", text: "The merchant John Kirby builds a big timber mansion on the east side of the green. Locals call it Kirby's Castle." },
+      { when: "1598", text: "John Stow's Survey of London spells the place Blethenal Green." },
+      { when: "1624", text: "The first clear mention of the ballad of the Blind Beggar of Bethnal Green, about a beggar with a rich daughter. Later versions make him Henry de Montfort, blinded at the Battle of Evesham in 1265." },
+      { when: "1666", text: "As the Great Fire spreads, Samuel Pepys rides out at four in the morning, in his nightgown, on a cart carrying his money and silver to Sir William Rider's house at Bethnal Green for safe keeping." },
+      { when: "1690", text: "The green is put in trust to stay open for the parish's poor. It survives as Bethnal Green Gardens, by the tube." },
+    ],
+  },
+  {
+    id: "weavers",
+    span: "1685 to 1830s",
+    title: "Weavers and a parish of its own",
+    intro:
+      "Huguenot silk weavers who fled France after 1685 settled in Spitalfields, and as the trade grew their workshops and houses spread east across the fields. Bethnal Green became a weavers' town, crowded and often poor, at the mercy of the price of silk.",
+    moments: [
+      { when: "1694", text: "About a hundred of the 520 people taxed in Bethnal Green are Huguenots." },
+      { when: "1711–1743", text: "The population nearly doubles, from about 8,500 to about 15,000." },
+      { when: "1727", text: "Kirby's Castle becomes a private madhouse, later Bethnal House asylum." },
+      { when: "1743", text: "Bethnal Green splits from Stepney and becomes a parish in its own right. Its church, St Matthew's, designed by George Dance the Elder, follows in 1746." },
+      { when: "1769", text: "After months of strikes and machine-breaking in the silk trade, two weavers are hanged outside the Salmon and Ball pub." },
+      { when: "1773–1824", text: "The Spitalfields Acts fix weavers' pay. After they are repealed, the trade sinks into a long decline." },
+      { when: "1826–1828", text: "Sir John Soane builds St John on Bethnal Green, by the green.", link: { id: "st-john-on-bethnal-green", label: "St John on Bethnal Green in our venue guide" } },
+    ],
+  },
+  {
+    id: "victorian",
+    span: "1840s to 1900",
+    title: "Slums, missions and reformers",
+    intro:
+      "By Victorian times Bethnal Green was one of the poorest places in London, and it drew reformers, preachers and philanthropists. Much of what they built is still here.",
+    moments: [
+      { when: "1865", text: "William Booth preaches his first open-air sermon outside the Blind Beggar pub. His East London Christian Mission becomes the Salvation Army. The pub you see now was rebuilt in 1894." },
+      { when: "1869", text: "The philanthropist Angela Burdett-Coutts opens Columbia Market, a grand covered food market with 400 stalls. Traders prefer the street and it closes in 1886, but the Sunday flower market on Columbia Road carries on, moved to Sunday to suit Jewish traders." },
+      { when: "1872", text: "The Bethnal Green Museum opens inside an iron hall moved from South Kensington, where it had housed the beginnings of the V&A." },
+      { when: "1884", text: "Oxford House is founded, a settlement where Oxford graduates live and work among their neighbours.", link: { id: "oxford-house", label: "Oxford House in our venue guide" } },
+      { when: "1896", text: "Arthur Morrison's novel A Child of the Jago makes the Old Nichol, the slum off Shoreditch High Street, notorious." },
+      { when: "1900", text: "The Prince of Wales opens the Boundary Estate, built by the London County Council where the Old Nichol stood: 730 houses demolished and over 5,700 people moved. It is one of the first council estates. Arnold Circus, its bandstand on a mound of earth from the foundations, sits at its heart." },
+    ],
+  },
+  {
+    id: "borough",
+    span: "1900 to 1946",
+    title: "A borough, and a war",
+    intro:
+      "In 1900 Bethnal Green became a metropolitan borough with its own mayor. It built baths, a town hall and a library, and then bore some of the worst of the Blitz.",
+    moments: [
+      { when: "1910", text: "Bethnal Green Town Hall is finished." },
+      { when: "1922", text: "The asylum has closed, and its 1896 block in Bethnal Green Gardens opens as the public library." },
+      { when: "1929", text: "York Hall opens as public baths with a hall for 1,200. Later it becomes a famous boxing venue." },
+      { when: "1940", text: "The Blitz begins on 7 September and the library is hit on the first night. Its staff set up a lending library in the shelter below ground. Over the war, 555 people in the borough are killed and more than 2,200 homes destroyed." },
+      { when: "3 March 1943", text: "Hearing an unannounced test firing of new anti-aircraft guns in Victoria Park, people rush to shelter in the unfinished tube station. In the crush on the entrance stairs 173 die, 62 of them children. The council had asked to make the entrance safer and been refused. The Stairway to Heaven memorial, completed in December 2017, stands above those steps in Bethnal Green Gardens." },
+      { when: "1946", text: "Bethnal Green station opens to Central line trains on 4 December." },
+    ],
+  },
+  {
+    id: "now",
+    span: "1950s to now",
+    title: "Rebuilding, and a new East End",
+    intro:
+      "After the war, bomb sites and slums gave way to council flats, some of them landmarks of modern architecture. Bethnal Green joined Tower Hamlets, and new communities, above all from Bangladesh, made it home.",
+    moments: [
+      { when: "1957", text: "Michael Young and Peter Willmott publish Family and Kinship in East London, a famous study of close family life in Bethnal Green and what was lost when people were rehoused in Essex." },
+      { when: "1957", text: "Denys Lasdun's Keeling House, a sixteen-storey 'cluster block' whose wings face each other so neighbours meet, is finished. It is listed Grade II* in 1993 and converted to private flats around 2001." },
+      { when: "1965", text: "The borough of Bethnal Green merges with Stepney and Poplar to form the London Borough of Tower Hamlets." },
+      { when: "1966", text: "Ronnie Kray shoots George Cornell dead at the bar of the Blind Beggar on 9 March." },
+      { when: "1974", text: "The Bethnal Green Museum becomes the Museum of Childhood. It reopens as Young V&A on 1 July 2023." },
+      { when: "2011", text: "People of Bangladeshi descent are the largest group in Bethnal Green at the census, 38 per cent of residents." },
+    ],
+  },
+];
+
+type Stop = { name: string; where: string; why: string; venueId?: string };
+const stops: Stop[] = [
+  { name: "Stairway to Heaven memorial", where: "Bethnal Green Gardens, by the tube", why: "Remembers the 173 people who died on the station steps in 1943." },
+  { name: "Bethnal Green Library", where: "Bethnal Green Gardens", why: "A former asylum block on the site of Kirby's Castle." },
+  { name: "St John on Bethnal Green", where: "Cambridge Heath Road", why: "Soane's church, now also a venue.", venueId: "st-john-on-bethnal-green" },
+  { name: "St Matthew's", where: "St Matthew's Row", why: "The 1746 parish church, the start of Bethnal Green as a place of its own." },
+  { name: "Oxford House", where: "Derbyshire Street", why: "The 1884 settlement, still a community arts centre.", venueId: "oxford-house" },
+  { name: "Young V&A", where: "Cambridge Heath Road", why: "The 1872 museum in its iron hall, now for children and families." },
+  { name: "Columbia Road Flower Market", where: "Columbia Road, Sundays", why: "The flower market that outlived Burdett-Coutts's grand hall." },
+  { name: "Arnold Circus", where: "Boundary Estate", why: "The bandstand at the heart of one of the first council estates." },
+  { name: "York Hall", where: "Old Ford Road", why: "The 1929 baths, still hosting boxing nights." },
+  { name: "The Blind Beggar", where: "Whitechapel Road", why: "Named after the ballad. Booth preached outside it in 1865; Ronnie Kray killed George Cornell inside in 1966." },
+];
+
+const sources = [
+  { title: "Bethnal Green: Settlement and Building to 1836", publisher: "Victoria County History of Middlesex, vol. 11, via British History Online", url: "https://www.british-history.ac.uk/vch/middx/vol11/pp91-95" },
+  { title: "Bethnal Green", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Bethnal_Green" },
+  { title: "Diary entry for Monday 3 September 1666", publisher: "The Diary of Samuel Pepys", url: "https://www.pepysdiary.com/diary/1666/09/03/" },
+  { title: "The Blind Beggar", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/The_Blind_Beggar" },
+  { title: "Bethnal Green Library", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Bethnal_Green_Library" },
+  { title: "Columbia Road Flower Market", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Columbia_Road_Flower_Market" },
+  { title: "Young V&A", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Young_V%26A" },
+  { title: "Boundary Estate", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Boundary_Estate" },
+  { title: "Completed Bethnal Green tube disaster memorial unveiled", publisher: "Rushanara Ali MP", url: "https://www.rushanaraali.org/rushanara_ali_mp_joined_by_mayor_of_london_to_unveil_complete_bethnal_green_tube_disaster_memorial_after_74_year_wait" },
+  { title: "Keeling House", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Keeling_House" },
+  { title: "Family and Kinship in East London", publisher: "Wikipedia", url: "https://en.wikipedia.org/wiki/Family_and_Kinship_in_East_London" },
+];
+---
+<Base
+  title="History"
+  current="history"
+  description="A short history of Bethnal Green, London E2: from a hamlet round a green to weavers, reformers, the Blitz and the East End today."
+  demoNote="Preview build: the event listings are made up, but this history is real."
+>
+  <article class="history">
+    <header class="prose history__head">
+      <h1>A short history of Bethnal Green</h1>
+      <p class="history__lede">
+        Before the bars and clubs, Bethnal Green was a village green, then a town of silk weavers, then one of the
+        poorest corners of Victorian London, then a borough that lived through the Blitz. A lot of that story is still
+        standing within a few minutes' walk of the station.
+      </p>
+      <nav class="history__jump" aria-label="Jump to a period">
+        <ul>
+          {eras.map((e) => <li><a href={`#${e.id}`}>{e.title}</a></li>)}
+          <li><a href="#visit">History you can visit</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    {eras.map((e) => (
+      <section class="era" id={e.id} aria-labelledby={`${e.id}-title`}>
+        <div class="era__head prose">
+          <p class="era__span">{e.span}</p>
+          <h2 id={`${e.id}-title`}>{e.title}</h2>
+          <p>{e.intro}</p>
+        </div>
+        <ol class="timeline">
+          {e.moments.map((m) => {
+            const href = m.link ? venue(m.link.id) : null;
+            return (
+              <li class="timeline__item">
+                <span class="timeline__when">{m.when}</span>
+                <p class="timeline__text">
+                  {m.text}
+                  {href && m.link && <> <a href={href}>{m.link.label}</a>.</>}
+                </p>
+              </li>
+            );
+          })}
+        </ol>
+      </section>
+    ))}
+
+    <section class="visit" id="visit" aria-labelledby="visit-title">
+      <div class="prose">
+        <h2 id="visit-title">History you can visit</h2>
+        <p>All of these are in or near E2, and most are free to look at from the street.</p>
+      </div>
+      <ul class="visit__list">
+        {stops.map((s) => {
+          const href = s.venueId ? venue(s.venueId) : null;
+          return (
+            <li class="visit__stop">
+              <h3>{href ? <a href={href}>{s.name}</a> : s.name}</h3>
+              <p class="visit__where">{s.where}</p>
+              <p>{s.why}</p>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+
+    <section class="sources prose" aria-labelledby="sources-title">
+      <h2 id="sources-title">Where this comes from</h2>
+      <p>
+        This page was written from the sources below. Dates are as they give them; where a story is legend, like the
+        Blind Beggar, we say so.
+        {mail && <> If you know better, <a href={mail.includes("@") ? `mailto:${mail}` : mail}>tell us</a> and we'll put it right.</>}
+      </p>
+      <ul>
+        {sources.map((s) => (
+          <li><a href={s.url} rel="noopener">{s.title}</a>, {s.publisher}</li>
+        ))}
+      </ul>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .history__head { margin-bottom: 1rem; }
+  .history__lede { font-size: 1.15rem; line-height: 1.55; }
+  .history__jump ul {
+    display: flex; flex-wrap: wrap; gap: 0.4rem 0.5rem; list-style: none; margin: 1.25rem 0 0; padding: 0;
+  }
+  .history__jump a {
+    display: inline-block; padding: 0.3rem 0.7rem; border: 1px solid var(--rule); border-radius: 999px;
+    background: var(--plate); color: var(--ink); text-decoration: none; font-size: 0.92rem; font-weight: 550;
+  }
+  .history__jump a:hover { border-color: var(--green); color: var(--green); }
+
+  .era { border-top: 1px solid var(--rule); padding-top: 0.5rem; margin-top: 2.5rem; scroll-margin-top: 1rem; }
+  .era__head h2 { font-size: clamp(1.5rem, 3.5vw, 2rem); font-variation-settings: "wdth" 80; font-weight: 750; margin: 0.2rem 0 0.75rem; }
+  .era__span {
+    margin: 1rem 0 0; color: var(--red); font-size: 0.85rem; font-weight: 800;
+    text-transform: uppercase; letter-spacing: 0.06em; font-variation-settings: "wdth" 75;
+  }
+
+  .timeline { list-style: none; margin: 1.5rem 0 0; padding: 0; max-width: 52rem; }
+  .timeline__item {
+    display: grid; grid-template-columns: 8.5rem 1fr; gap: 0 1.25rem;
+    padding: 0.85rem 0; border-top: 1px dashed var(--rule);
+  }
+  .timeline__item:first-child { border-top: 0; }
+  .timeline__when {
+    font-weight: 800; font-variation-settings: "wdth" 70; font-size: 1.15rem; line-height: 1.35;
+    color: var(--green); font-variant-numeric: tabular-nums;
+  }
+  .timeline__text { margin: 0; line-height: 1.6; max-width: var(--measure); }
+  @media (max-width: 34rem) {
+    .timeline__item { grid-template-columns: 1fr; gap: 0.15rem; }
+  }
+
+  .visit { border-top: 1px solid var(--rule); margin-top: 3rem; padding-top: 0.5rem; scroll-margin-top: 1rem; }
+  .visit h2 { font-size: clamp(1.5rem, 3.5vw, 2rem); font-variation-settings: "wdth" 80; font-weight: 750; margin: 1rem 0 0.6rem; }
+  .visit__list {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 1rem;
+    list-style: none; margin: 1.5rem 0 0; padding: 0;
+  }
+  .visit__stop { background: var(--plate); border: 1px solid var(--rule); border-radius: 8px; padding: 1rem 1.1rem; }
+  .visit__stop h3 { font-size: 1.08rem; font-weight: 700; margin: 0 0 0.2rem; }
+  .visit__stop h3 a { color: var(--ink); }
+  .visit__stop p { margin: 0.35rem 0 0; line-height: 1.5; }
+  .visit__where { color: var(--muted); font-size: 0.92rem; }
+
+  .sources { border-top: 1px solid var(--rule); margin-top: 3rem; }
+  .sources h2 { margin-top: 1.5rem; }
+  .sources ul { padding-left: 1.2rem; color: var(--muted); font-size: 0.95rem; }
+  .sources li { margin: 0.3rem 0; }
+</style>
