@@ -1,9 +1,9 @@
-# Routine: morning run (four scouts + verifier + listing writer)
+# Routine: morning run (five scouts + verifier + listing writer)
 
-Every morning one scheduled run finds new events (four scouts on Haiku: nights & music, arts, food & drink, community), checks them (the verifier, on Sonnet), writes a short description for each published event (the listing writer, on Sonnet), runs every check and pushes a branch. GitHub then takes over (`.github/workflows/morning-run-pr.yml`): it re-runs the checks, opens the pull request and, while **auto-merge** is on, merges it and republishes the site.
+Every morning one scheduled run finds new events (five scouts on Haiku: nights & music, arts, food & drink, community, health & wellness), checks them (the verifier, on Sonnet), writes a short description for each published event (the listing writer, on Sonnet), runs every check and pushes a branch. GitHub then takes over (`.github/workflows/morning-run-pr.yml`): it re-runs the checks, opens the pull request and, while **auto-merge** is on, merges it and republishes the site.
 
 ```
-06:07  scheduled run ──► 4 scouts (side by side) ──► verifier ──► listing writer ──► checks ──► push claude/morning-run-<date>
+06:07  scheduled run ──► 5 scouts (side by side) ──► verifier ──► listing writer ──► checks ──► push claude/morning-run-<date>
                                                                                    │
        GitHub workflow ◄────────────────────────────────────────┘
          re-run checks ──► open pull request ──► merge (if AUTO_MERGE=true) ──► site republishes
@@ -14,7 +14,7 @@ Every morning one scheduled run finds new events (four scouts on Haiku: nights &
 | Setting | Value |
 | --- | --- |
 | Schedule | Daily at 06:07 Europe/London, as a Claude scheduled task (claude.ai, scheduled tasks) |
-| Models | The main session coordinates; the four scouts run on Haiku, the verifier and the listing writer on Sonnet (set in each agent file) |
+| Models | The main session coordinates; the five scouts run on Haiku, the verifier and the listing writer on Sonnet (set in each agent file) |
 | Network | The run needs to reach venue and ticket websites; the environment this was set up in can |
 | Auto-merge | Repository variable `AUTO_MERGE` = `true`. Set it to `false` to review every pull request yourself |
 | GitHub setting | Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests" must be ticked |
@@ -36,9 +36,10 @@ Setup
    GitHub, use claude/morning-run-<run-date>-2 (then -3, and so on).
 
 Work
-3. Start these four scout subagents at the same time, each with the run date and the day of the week,
+3. Start these five scout subagents at the same time, each with the run date and the day of the week,
    and let each follow its instructions in full (they also read docs/scout-rules.md):
-   scout-nights-music, scout-arts, scout-food-drink, scout-community (.claude/agents/).
+   scout-nights-music, scout-arts, scout-food-drink, scout-community, scout-health-wellness
+   (.claude/agents/).
    Each writes only to its own data/candidates/<category>/ and data/runs/<category>/ folders.
    If one fails, carry on with the others and say so in the report.
 4. When all the scouts have finished, use the verifier subagent (.claude/agents/verifier.md), with the

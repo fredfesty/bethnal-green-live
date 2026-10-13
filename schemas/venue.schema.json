@@ -70,7 +70,10 @@
           "in-store",
           "community-venue",
           "gallery",
-          "music-venue"
+          "music-venue",
+          "yoga-studio",
+          "wellness-studio",
+          "sauna"
         ]
       }
     },

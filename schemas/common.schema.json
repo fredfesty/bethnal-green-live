@@ -25,11 +25,12 @@
         "nights-music",
         "arts",
         "food-drink",
-        "community"
+        "community",
+        "health-wellness"
       ]
     },
     "subcategory": {
-      "description": "What kind of event. Each category allows its own set (enforced by scripts/validate.py): nights-music: club-night, gig, dj-bar, queer-party, cabaret-drag, karaoke, jazz, open-mic, folk-acoustic, in-store, festival, other. arts: theatre, comedy, film, exhibition, talk, dance, performance, other. food-drink: supper-club, pop-up, tasting, special-menu, cookery-class, food-market, food-festival, opening, quiz, other. community: market, fair, workshop, family, outdoors, sport, talk, volunteering, open-studios, tour, festival, other.",
+      "description": "What kind of event. Each category allows its own set (enforced by scripts/validate.py): nights-music: club-night, gig, dj-bar, queer-party, cabaret-drag, karaoke, jazz, open-mic, folk-acoustic, in-store, festival, other. arts: theatre, comedy, film, exhibition, talk, dance, performance, other. food-drink: supper-club, pop-up, tasting, special-menu, cookery-class, food-market, food-festival, opening, quiz, other. community: market, fair, workshop, family, outdoors, sport, talk, volunteering, open-studios, tour, festival, other. health-wellness: yoga, pilates, fitness, run, sauna, sound-bath, meditation, breathwork, retreat, workshop, talk, festival, other.",
       "enum": [
         "club-night",
         "gig",
@@ -67,6 +68,15 @@
         "open-studios",
         "tour",
         "festival",
+        "yoga",
+        "pilates",
+        "fitness",
+        "run",
+        "sauna",
+        "sound-bath",
+        "meditation",
+        "breathwork",
+        "retreat",
         "other"
       ]
     },

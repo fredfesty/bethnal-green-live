@@ -19,6 +19,7 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 | Arts scout | `.claude/agents/scout-arts.md` | `data/candidates/arts/<date>/`, `data/runs/arts/` |
 | Food & drink scout | `.claude/agents/scout-food-drink.md` | `data/candidates/food-drink/<date>/`, `data/runs/food-drink/` |
 | Community scout | `.claude/agents/scout-community.md` | `data/candidates/community/<date>/`, `data/runs/community/` |
+| Health & wellness scout | `.claude/agents/scout-health-wellness.md` | `data/candidates/health-wellness/<date>/`, `data/runs/health-wellness/` |
 | Venue finders: web, map, listings (weekly, Haiku) | `.claude/agents/venue-finder-*.md` | `data/venue-leads/<date>/` |
 | Venue researchers: reviews, programme, facts (weekly, Haiku) | `.claude/agents/venue-researcher-*.md` | `data/venue-research/<date>/` |
 | Venue editor (weekly, Sonnet) | `.claude/agents/venue-editor.md` | `data/venues/`, `data/runs/venue-editor/` |

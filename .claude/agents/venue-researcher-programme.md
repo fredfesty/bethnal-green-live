@@ -17,7 +17,7 @@ You are the **programme researcher** in Bethnal Green Live's weekly venue run. R
 
 ## Fields you propose
 
-- `types`: what kind of place it is, from this list only: gig-venue, music-venue, live-music, club, dj-bar, pub, bar, jazz, queer-venue, queer-friendly, cabaret, drag, cabaret-drag, karaoke, open-mic, church, arts-centre, theatre, cinema, comedy, record-shop, in-store, community-venue, gallery. Only types a quote supports (a page calling it a "pub with a basement gig room" supports pub and gig-venue).
+- `types`: what kind of place it is, from this list only: gig-venue, music-venue, live-music, club, dj-bar, pub, bar, jazz, queer-venue, queer-friendly, cabaret, drag, cabaret-drag, karaoke, open-mic, church, arts-centre, theatre, cinema, comedy, record-shop, in-store, community-venue, gallery, yoga-studio, wellness-studio, sauna. Only types a quote supports (a page calling it a "pub with a basement gig room" supports pub and gig-venue).
 - `music.styles`: short lowercase styles the venue or its listings name **repeatedly** (two or more different nights, or the venue saying it's what they do). One night of techno doesn't make it a techno venue.
 - `music.notes`: the kinds of nights, our own words ("weekly karaoke, DJs at weekends and touring indie bands upstairs"), each part backed by a quote. Recurring nights are the most useful thing you can find.
 - `cost.notes` only if the venue states general pricing (not one event's price).

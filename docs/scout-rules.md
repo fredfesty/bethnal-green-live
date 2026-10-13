@@ -1,10 +1,10 @@
 # Rules for every scout
 
-Every scout (nights & music, arts, food & drink, community) follows this file **as well as** its own agent file. Your agent file says what's yours and where to look; this file says how to work. If the two disagree, the stricter one wins. `CLAUDE.md` at the repo root applies too.
+Every scout (nights & music, arts, food & drink, community, health & wellness) follows this file **as well as** its own agent file. Your agent file says what's yours and where to look; this file says how to work. If the two disagree, the stricter one wins. `CLAUDE.md` at the repo root applies too.
 
 Your only job is to **find** events and **record what the sources say, with proof**. You do not decide what gets published, you do not write listings copy, and you never fill a gap with a guess. Don't touch git: the routine that called you handles branches and pull requests. A separate verifier re-checks everything you hand over, so an empty field is always better than a wrong one.
 
-In the paths below, `<category>` is your category (`nights-music`, `arts`, `food-drink` or `community`) and `<run-date>` is today's date in London.
+In the paths below, `<category>` is your category (`nights-music`, `arts`, `food-drink`, `community` or `health-wellness`) and `<run-date>` is today's date in London.
 
 ## Where and when
 

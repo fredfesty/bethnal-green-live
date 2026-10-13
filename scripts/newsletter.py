@@ -36,7 +36,7 @@ WEEKDAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", 
 STATUS_LABEL = {"few-left": "Last few tickets", "sold-out": "Sold out", "cancelled": "Cancelled",
                 "postponed": "Postponed"}
 CATEGORY = {"nights-music": "Nights & music", "arts": "Cinema & arts", "food-drink": "Food & drink",
-            "community": "Community"}
+            "community": "Community", "health-wellness": "Health & wellness"}
 SUBCATEGORY = {
     "club-night": "Club night", "gig": "Gig", "dj-bar": "DJ night", "queer-party": "Queer party",
     "cabaret-drag": "Cabaret & drag", "karaoke": "Karaoke", "jazz": "Jazz", "open-mic": "Open mic",
@@ -47,9 +47,12 @@ SUBCATEGORY = {
     "opening": "Opening", "quiz": "Quiz", "market": "Market", "fair": "Fair", "workshop": "Workshop",
     "family": "Family", "outdoors": "Outdoors", "sport": "Sport", "volunteering": "Volunteering",
     "open-studios": "Open studios", "tour": "Walk or tour", "talk": "Talk", "festival": "Festival",
+    "yoga": "Yoga", "pilates": "Pilates", "fitness": "Fitness", "run": "Run or race", "sauna": "Sauna",
+    "sound-bath": "Sound bath", "meditation": "Meditation", "breathwork": "Breathwork", "retreat": "Retreat",
 }
 # Sections that only take one category of event.
-SECTION_CATEGORY = {"cinema-and-arts": "arts", "food-and-drink": "food-drink", "community": "community"}
+SECTION_CATEGORY = {"cinema-and-arts": "arts", "food-and-drink": "food-drink", "community": "community",
+                    "health-and-wellness": "health-wellness"}
 
 
 def kind_label(e: dict) -> str:

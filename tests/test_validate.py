@@ -580,3 +580,58 @@ def test_empty_listing_is_fine(validators):
     d = copy.deepcopy(load(EX_EVENT))
     d["listing"] = None
     assert errors("events", d, validators, path=EX_EVENT) == []
+
+
+# ---------------------------------------------------------------- categories
+
+def common_defs():
+    return load(REPO / "schemas/common.schema.json")["$defs"]
+
+
+def test_every_category_has_its_event_types_and_its_registry():
+    """A category the format allows must also have a list of event types and a source registry, and back."""
+    categories = set(common_defs()["category"]["enum"])
+    assert categories == set(validate.CATEGORY_SUBCATEGORIES)
+    for c in categories:
+        reg = load(REPO / f"data/sources/{c}.json")
+        assert reg["category"] == c
+
+
+def test_every_event_type_is_in_the_format():
+    allowed = set(common_defs()["subcategory"]["enum"])
+    for c, subs in validate.CATEGORY_SUBCATEGORIES.items():
+        assert subs <= allowed, (c, subs - allowed)
+
+
+@pytest.mark.parametrize("category, sub, ok", [
+    ("health-wellness", "sound-bath", True),
+    ("health-wellness", "sauna", True),
+    ("health-wellness", "run", True),
+    ("health-wellness", "workshop", True),
+    ("health-wellness", "gig", False),
+    ("health-wellness", "market", False),
+    ("community", "yoga", False),
+    ("arts", "breathwork", False),
+])
+def test_health_wellness_event_types(category, sub, ok):
+    errs = validate.check_subcategory({"category": category, "subcategory": sub})
+    assert (errs == []) == ok, errs
+
+
+def test_a_health_wellness_candidate_passes_the_format(validators):
+    d = copy.deepcopy(load(EX_CAND))
+    d.update(category="health-wellness", subcategory="sound-bath", genres=[], lineup=[])
+    d["scout"]["name"] = "health-wellness"
+    assert validate.schema_errors(validators["candidates"], d) == []
+
+
+def test_venues_shared_between_registries_agree():
+    """The same venue id in two registries must be the same place: same name and zone."""
+    seen = {}
+    for p in sorted((REPO / "data/sources").glob("*.json")):
+        for v in load(p).get("venues", []):
+            if v["id"] in seen:
+                other, where = seen[v["id"]]
+                assert (v["name"], v["zone"]) == (other["name"], other["zone"]), (v["id"], p.name, where)
+            else:
+                seen[v["id"]] = (v, p.name)
