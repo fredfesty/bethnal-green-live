@@ -1,0 +1,110 @@
+{
+  "id": "2026-10-16-ridley-road-market-bar-icons-only",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "ICONS ONLY",
+  "venue": {
+    "venue_id": "ridley-road-market-bar",
+    "name": "Ridley Road Market Bar",
+    "address": "49 Ridley Road, Dalston, London, E8 2NP",
+    "postcode": "E8 2NP"
+  },
+  "starts_at": "2026-10-16T18:00:00+01:00",
+  "ends_at": null,
+  "recurrence": "Fridays at Ridley",
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [
+    "Disco",
+    "90s R&B",
+    "Pop",
+    "Club Classics"
+  ],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "DICE price label 'Free'"
+  },
+  "ticket_url": "https://dice.fm/event/avkmr2-icons-only-16th-oct-ridley-road-market-bar-london-tickets",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/avkmr2-icons-only-16th-oct-ridley-road-market-bar-london-tickets",
+      "quote": "ICONS ONLY Ridley Road Market Bar Fri 16 Oct, 6:00 pm",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "postcode"
+      ],
+      "url": "https://dice.fm/event/avkmr2-icons-only-16th-oct-ridley-road-market-bar-london-tickets",
+      "quote": "49 Ridley Road, Dalston, London, E8 2NP, United Kingdom",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/avkmr2-icons-only-16th-oct-ridley-road-market-bar-london-tickets",
+      "quote": "FreeThe price you'll pay. No surprises later.",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/avkmr2-icons-only-16th-oct-ridley-road-market-bar-london-tickets",
+      "quote": "Disco, 90s R&B, Pop, Club Classics and SO much more...",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence",
+        "why_its_good"
+      ],
+      "url": "https://dice.fm/event/avkmr2-icons-only-16th-oct-ridley-road-market-bar-london-tickets",
+      "quote": "One of East London’s longest-running and most iconic nights. Fridays at Ridley are always a vibe with ICONS ONLY!",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/avkmr2-icons-only-16th-oct-ridley-road-market-bar-london-tickets",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-13T11:00:00+01:00",
+    "run_id": "2026-10-13-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-13/2026-10-16-ridley-road-market-bar-icons-only.json"
+  },
+  "editor_note": "The event page calls it one of East London's longest-running and most iconic nights. Disco, 90s R&B and club classics, with the price shown as free.",
+  "listing": null,
+  "first_seen": "2026-10-13T11:00:00+01:00",
+  "updated_at": "2026-10-13T11:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

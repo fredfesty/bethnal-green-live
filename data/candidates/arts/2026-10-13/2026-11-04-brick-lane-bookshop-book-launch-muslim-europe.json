@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-04-brick-lane-bookshop-book-launch-muslim-europe",
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-13-b"
+  },
+  "found_at": "2026-10-13T06:15:00+01:00",
+  "category": "arts",
+  "subcategory": "talk",
+  "title": "Book Launch: Muslim Europe by Tharik Hussain (4th Nov.)",
+  "summary": "Book launch for Muslim Europe by Tharik Hussain at Brick Lane Bookshop.",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "venue": {
+    "venue_id": "brick-lane-bookshop",
+    "name": "Brick Lane Bookshop",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-11-04",
+  "ends_at": null,
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 6,
+    "max_gbp": 17.69,
+    "notes": "Price range: £6.00 through £17.69"
+  },
+  "ticket_url": "https://bricklanebookshop.org/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://bricklanebookshop.org/",
+      "quote": "Book Launch: Muslim Europe by Tharik Hussain (4th Nov.)",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://bricklanebookshop.org/",
+      "quote": "Price range: £6.00 through £17.69",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://bricklanebookshop.org/",
+      "quote": "Brick Lane Bookshop is an independent bookshop in Tower Hamlets, London, established in 1978.",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Date printed as '4th Nov.' with no year, time or weekday. 2026 is the year that puts it inside the window (Wednesday 4 Nov 2026), so date only. The home page lists it with a price range but no start time, so confidence is medium. Ticket link is the bookshop home page. The author is named in the title only; the page does not say who speaks, so no lineup is recorded."
+}

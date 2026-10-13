@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-13-th-local-history-library-communities-of-liberation",
+  "candidate_file": "data/candidates/community/2026-10-13/2026-10-13-th-local-history-library-communities-of-liberation.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T11:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary page; nothing contradicted.",
+    "Event is today (13 Oct), 11:00-16:00; not yet over at run time. Price rests on the council \"Free to attend\" tag in the category line."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Communities-of-Liberation-Discover-Black-East-London.aspx",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Communities-of-Liberation-Discover-Black-East-London.aspx",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Communities-of-Liberation-Discover-Black-East-London.aspx",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Communities-of-Liberation-Discover-Black-East-London.aspx",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Communities-of-Liberation-Discover-Black-East-London.aspx",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Communities-of-Liberation-Discover-Black-East-London.aspx",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

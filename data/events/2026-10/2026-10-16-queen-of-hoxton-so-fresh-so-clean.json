@@ -1,0 +1,120 @@
+{
+  "id": "2026-10-16-queen-of-hoxton-so-fresh-so-clean",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "So Fresh So Clean",
+  "venue": {
+    "venue_id": "queen-of-hoxton",
+    "name": "Queen Of Hoxton",
+    "address": "1 Curtain Rd, London EC2A 3JX",
+    "postcode": "EC2A 3JX"
+  },
+  "starts_at": "2026-10-16T19:00:00+01:00",
+  "ends_at": null,
+  "recurrence": "Every Friday",
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [
+    "Hip-Hop",
+    "R&B",
+    "Afrobeats",
+    "Bashment",
+    "UK Garage"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "DICE shows 'From free'. Event page: 'FREE ENTRY from 7PM–9PM' on the rooftop; later entry price not quoted."
+  },
+  "ticket_url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "quote": "So Fresh So Clean Queen Of Hoxton Fri 16 Oct, 7:00 pm",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "postcode"
+      ],
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "quote": "1 Curtain Rd, London EC2A 3JX",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "quote": "From freeThe price you'll pay. No surprises later.",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price",
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "quote": "Start the night on the rooftop with FREE ENTRY from 7PM–9PM, before we head downstairs",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "quote": "Timeless Hip-Hop & RnB, plus Afrobeats, Bashment and UK Garage.",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "quote": "Every Friday at Queen of Hoxton.",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-13T11:00:00+01:00",
+    "run_id": "2026-10-13-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-13/2026-10-16-queen-of-hoxton-so-fresh-so-clean.json"
+  },
+  "editor_note": "A weekly Friday hip-hop, R&B and UK garage night. The event page says entry is free on the rooftop from 7pm to 9pm.",
+  "listing": null,
+  "first_seen": "2026-10-13T11:00:00+01:00",
+  "updated_at": "2026-10-13T11:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

@@ -1,0 +1,80 @@
+{
+  "id": "2026-10-16-queen-of-hoxton-so-fresh-so-clean",
+  "candidate_file": "data/candidates/nights-music/2026-10-13/2026-10-16-queen-of-hoxton-so-fresh-so-clean.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T11:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary page; nothing contradicted."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "method": "near",
+      "source_kind": "primary",
+      "note": "\"From free\" with free rooftop entry 7-9pm: is_free false, min_gbp 0 is right."
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "genres",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "age_restriction",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "recurrence",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

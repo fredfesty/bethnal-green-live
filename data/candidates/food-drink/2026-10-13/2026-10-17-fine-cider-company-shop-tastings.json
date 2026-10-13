@@ -2,9 +2,9 @@
   "id": "2026-10-17-fine-cider-company-shop-tastings",
   "scout": {
     "name": "food-drink",
-    "run_id": "2026-10-13-a"
+    "run_id": "2026-10-13-b"
   },
-  "found_at": "2026-10-13T00:55:00+01:00",
+  "found_at": "2026-10-13T06:11:45+01:00",
   "category": "food-drink",
   "subcategory": "tasting",
   "title": "Tastings at The Fine Cider Company Shop",
@@ -42,7 +42,7 @@
       ],
       "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
       "quote": "Tastings at The Fine Cider Company Shop",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     },
     {
@@ -51,7 +51,7 @@
       ],
       "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
       "quote": "The Fine Cider Company Shop, 399 Mentmore Terrace, London Fields, E8 3PH",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     },
     {
@@ -61,7 +61,7 @@
       ],
       "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
       "quote": "\"startDate\":\"2026-10-17T18:30:00+01:00\",\"endDate\":\"2026-10-17T20:00:00+01:00\"",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     },
     {
@@ -70,7 +70,7 @@
       ],
       "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
       "quote": "Out tastings are available to book every Friday & Saturday, and always run from 6:30pm, to 8pm.",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     },
     {
@@ -79,7 +79,7 @@
       ],
       "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
       "quote": "\"name\":\"Public Tasting\"",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     },
     {
@@ -88,7 +88,7 @@
       ],
       "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
       "quote": "\"price\":30,\"availability\"",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     },
     {
@@ -97,11 +97,11 @@
       ],
       "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
       "quote": "strictly for over 18's only",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     }
   ],
   "scout_confidence": "high",
   "why_its_good": null,
-  "notes_for_verifier": "Recurring ticket page: event data holds sessions on 17, 23 and 30 Oct (all 6:30-8pm). Only the next, 17 Oct, is written. No Friday 16 Oct session is in the data. Price is from event data, not visible text. Age quote is on this single-event page, so title_nearby false is expected. Venue not in registry: suggest adding it as fringe."
+  "notes_for_verifier": "Ticket page event data (JSON-LD) lists 17, 23 and 30 Oct, each 6:30pm-8pm; only the next, 17 Oct, is written. 'Every Friday & Saturday' suggests a Fri 16 Oct session, but none is in the data, so none is recorded. £30 comes from JSON-LD offer. Age quote is on a single-event page (title_nearby false expected). Venue not in registry: suggest adding as fringe."
 }

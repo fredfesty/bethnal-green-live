@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-th-local-history-library-seeking-liberation-workshop-with-dr-peggy-brunache",
+  "candidate_file": "data/candidates/community/2026-10-13/2026-10-17-th-local-history-library-seeking-liberation-workshop-with-dr-peggy-brunache.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T11:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary page; nothing contradicted.",
+    "Price not stated on the page; left unknown. Price evidence item dropped (it supports no value)."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Seeking-Liberation-Workshop-with-Dr-Peggy-Brunache.aspx",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Seeking-Liberation-Workshop-with-Dr-Peggy-Brunache.aspx",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Seeking-Liberation-Workshop-with-Dr-Peggy-Brunache.aspx",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Seeking-Liberation-Workshop-with-Dr-Peggy-Brunache.aspx",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Seeking-Liberation-Workshop-with-Dr-Peggy-Brunache.aspx",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

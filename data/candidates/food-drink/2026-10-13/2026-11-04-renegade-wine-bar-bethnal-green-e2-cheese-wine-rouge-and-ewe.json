@@ -2,9 +2,9 @@
   "id": "2026-11-04-renegade-wine-bar-bethnal-green-e2-cheese-wine-rouge-and-ewe",
   "scout": {
     "name": "food-drink",
-    "run_id": "2026-10-13-a"
+    "run_id": "2026-10-13-b"
   },
-  "found_at": "2026-10-13T00:55:00+01:00",
+  "found_at": "2026-10-13T06:11:45+01:00",
   "category": "food-drink",
   "subcategory": "tasting",
   "title": "E2 Cheese & Wine: Rouge and Ewe",
@@ -38,7 +38,7 @@
       ],
       "url": "https://www.renegadelondonwine.com/events",
       "quote": "E2 Cheese & Wine: Rouge and Ewe",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     },
     {
@@ -47,7 +47,7 @@
       ],
       "url": "https://www.renegadelondonwine.com/events",
       "quote": "4 November 2026\nE2 Cheese & Wine: Rouge and Ewe",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     },
     {
@@ -56,7 +56,7 @@
       ],
       "url": "https://www.renegadelondonwine.com/events",
       "quote": "Bethnal Green: Renegade Wine Bar, Arch 12, Gales Gardens, London E2 0EJ",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     },
     {
@@ -65,11 +65,11 @@
       ],
       "url": "https://www.renegadelondonwine.com/events",
       "quote": "every first Wednesday of the month you have the opportunity to learn how to perfectly pair wine and cheese",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     }
   ],
   "scout_confidence": "medium",
   "why_its_good": null,
-  "notes_for_verifier": "Medium: the venue's events page gives date, title and description, but no time or price. DesignMyNight (discovery only, not evidence) lists a 'Cheese and Wine Pairing Evening' on 4 Nov 'from £33.00'; titles differ, so check it is the same event. Skipped: WSB Lates Halloween tasting (29 Oct, no E2 in title)."
+  "notes_for_verifier": "Events page gives date, title and description, but no time or price (rechecked 13 Oct). DesignMyNight (discovery only) lists 'from £33.00' and 'Wednesday 4th November 2026 and 14 other Wednesdays', which conflicts with the monthly wording. Skipped: WSB Lates Halloween tasting (29 Oct, no E2 prefix); E17 events; Fizz and Feast (2 Dec, outside window)."
 }

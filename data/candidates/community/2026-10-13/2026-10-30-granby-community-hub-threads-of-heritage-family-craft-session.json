@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-30-granby-community-hub-threads-of-heritage-family-craft-session",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-b"
+  },
+  "found_at": "2026-10-13T06:13:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Threads of Heritage: Family Craft Session and Community Celebration",
+  "summary": "A family craft session exploring Somali craft traditions, followed by a community celebration, run by Numbi Arts CIC at Granby Community Hub.",
+  "venue": {
+    "venue_id": null,
+    "name": "Granby Community Hub",
+    "address": "37 St Matthew's Row",
+    "postcode": null
+  },
+  "starts_at": "2026-10-30T16:00:00+00:00",
+  "ends_at": "2026-10-30T19:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Threads-of-Heritage-Family-Craft-Session-and-Community-Celebration.aspx",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Threads-of-Heritage-Family-Craft-Session-and-Community-Celebration.aspx",
+      "quote": "Threads of Heritage: Family Craft Session and Community Celebration",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Threads-of-Heritage-Family-Craft-Session-and-Community-Celebration.aspx",
+      "quote": "Friday 30th October 2026 (16:00-19:00)",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Threads-of-Heritage-Family-Craft-Session-and-Community-Celebration.aspx",
+      "quote": "Granby Community Hub 37 St Matthew's Row London E2 6D",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Threads-of-Heritage-Family-Craft-Session-and-Community-Celebration.aspx",
+      "quote": "Numbi Arts CIC present a series of free participatory workshops.",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Threads-of-Heritage-Family-Craft-Session-and-Community-Celebration.aspx",
+      "quote": "The workshops will explore Somali cultural heritage through Somali craft traditions.",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Threads-of-Heritage-Family-Craft-Session-and-Community-Celebration.aspx",
+      "quote": "Threads of Heritage: Family Craft Session and Community Celebration",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Council calendar event page: time and venue are printed; the venue's postcode is printed truncated as 'E2 6D', so postcode left null. Zone core on the E2 postcode rule. Price is not stated for this session; the 'free' wording refers to the series, so is_free is left null for the verifier to check with Numbi Arts or the council. Category printed 'Black History Month'."
+}

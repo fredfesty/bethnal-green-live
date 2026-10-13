@@ -2,9 +2,9 @@
   "id": "2026-10-16-e5-bakehouse-e5-x-neals-yard-x-the-fine-cider-tasting",
   "scout": {
     "name": "food-drink",
-    "run_id": "2026-10-13-a"
+    "run_id": "2026-10-13-b"
   },
-  "found_at": "2026-10-13T00:55:00+01:00",
+  "found_at": "2026-10-13T06:11:45+01:00",
   "category": "food-drink",
   "subcategory": "tasting",
   "title": "e5 X Neals Yard X The Fine Cider Tasting",
@@ -43,7 +43,7 @@
       ],
       "url": "https://e5bakehouse.com/events",
       "quote": "16/10/26\ne5 X Neals Yard X The Fine Cider Tasting",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     },
     {
@@ -52,7 +52,7 @@
       ],
       "url": "https://e5bakehouse.com/events",
       "quote": "e5 X Neals Yard X The Fine Cider Tasting\n£35.00",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     },
     {
@@ -61,7 +61,7 @@
       ],
       "url": "https://e5bakehouse.com/events",
       "quote": "Arch 395, Mentmore Terrace",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     },
     {
@@ -70,11 +70,11 @@
       ],
       "url": "https://e5bakehouse.com/events",
       "quote": "A Friday night dedicated to three things we really love: bread, cheese and cider.",
-      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "retrieved_at": "2026-10-13T06:11:45+01:00",
       "source_kind": "primary"
     }
   ],
   "scout_confidence": "medium",
   "why_its_good": null,
-  "notes_for_verifier": "Date, title and £35 are from e5's events list. Its event page redirected to 'Fine Cider Tasting September' (no date printed), so no time is written and this session's location is unconfirmed. Some e5 events run at Poplar (E14) or V&A East (E20), which would make this outer. Address is e5's general address."
+  "notes_for_verifier": "Date, title and £35 come from e5's events list (rechecked 13 Oct). No start time is printed. e5's detail page /event/fine-cider-tasting-september ('Fine Cider Tasting September') prints no date, so it is not evidence. Please confirm the 16 Oct date and time on e5's own page. Location is e5's general address. Some e5 events run at Poplar (E14) or V&A East (E20), which would be outer."
 }
