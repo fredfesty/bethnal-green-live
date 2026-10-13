@@ -1,0 +1,121 @@
+name: Newsletter pull request
+
+# When the weekly newsletter run pushes its branch (claude/newsletter-<issue-date>), this workflow:
+#   1. re-runs every check (tests, data, the issue against today's events, the site build),
+#   2. opens the pull request with the whole issue as its description, so it can be read on a phone,
+#   3. attaches the real email (HTML) to the run as "newsletter-email",
+#   4. merges only if the repository variable NEWSLETTER_AUTO_MERGE is "true" (off by default: Fred reads it first),
+#      then starts the Buttondown draft workflow and the website rebuild.
+# Needs: Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
+
+on:
+  push:
+    branches: ["claude/newsletter-*"]
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: newsletter-pr-${{ github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  check-and-open:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Europe/London
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Which issue
+        id: issue
+        run: |
+          RUN="${GITHUB_REF_NAME#claude/newsletter-}"
+          DATE="${RUN:0:10}"
+          FILE="data/newsletter/issues/${DATE}.json"
+          test -f "$FILE" || { echo "::error::No issue file at $FILE"; exit 1; }
+          echo "date=${DATE}" >> "$GITHUB_OUTPUT"
+          echo "file=${FILE}" >> "$GITHUB_OUTPUT"
+      - name: Tests
+        run: python -m pytest -q
+      - name: Check every data file
+        run: python scripts/validate.py all
+      - name: Check the issue against today's events
+        run: python scripts/validate.py newsletter "${{ steps.issue.outputs.file }}" --window
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Site builds
+        working-directory: site
+        run: npm ci && npm run build
+      - name: Render the email
+        env:
+          BGL_SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) }}
+        run: |
+          python scripts/newsletter.py render "${{ steps.issue.outputs.file }}" --format html --out newsletter-email.html
+          python scripts/newsletter.py render "${{ steps.issue.outputs.file }}" --format md --out newsletter.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: newsletter-email
+          path: newsletter-email.html
+
+      - name: Write the pull request description
+        run: |
+          DATE="${{ steps.issue.outputs.date }}"
+          {
+            echo "This week's newsletter, for **${DATE}**: laid out by the newsletter editor, letter written by the intro writer, every check passed. Read it below; merge when you're happy. Nothing is emailed until you press send in Buttondown."
+            echo
+            python - "${{ steps.issue.outputs.file }}" <<'PY'
+          import json, sys
+          notes = json.load(open(sys.argv[1], encoding="utf-8")).get("notes_for_fred") or []
+          if notes:
+              print("## Notes for Fred\n")
+              for n in notes:
+                  print(f"- {n}")
+              print()
+          PY
+            echo "## The issue"
+            echo
+            cat newsletter.md
+            echo
+            if [ -f "data/runs/newsletter/${DATE}.md" ]; then echo "## Editor's report"; echo; cat "data/runs/newsletter/${DATE}.md"; echo; fi
+            echo "The real email is attached to this workflow run as **newsletter-email**."
+            echo
+            echo "🤖 Generated with [Claude Code](https://claude.com/claude-code)"
+          } > pr-body.md
+          head -c 60000 pr-body.md > pr-body-trimmed.md
+
+      - name: Open the pull request
+        id: pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          EXISTING=$(gh pr list --head "$GITHUB_REF_NAME" --state open --json number --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            gh pr edit "$EXISTING" --body-file pr-body-trimmed.md
+            NUMBER="$EXISTING"
+          else
+            URL=$(gh pr create --base main --head "$GITHUB_REF_NAME" \
+              --title "Newsletter — ${{ steps.issue.outputs.date }}" --body-file pr-body-trimmed.md)
+            NUMBER="${URL##*/}"
+          fi
+          echo "number=${NUMBER}" >> "$GITHUB_OUTPUT"
+          echo "Pull request: https://github.com/${GITHUB_REPOSITORY}/pull/${NUMBER}" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Merge (newsletter auto-merge is on)
+        if: vars.NEWSLETTER_AUTO_MERGE == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr merge "${{ steps.pr.outputs.number }}" --merge --delete-branch \
+            --subject "Newsletter ${{ steps.issue.outputs.date }} (auto-merged after all checks passed)"
+          # A merge made by this workflow doesn't start other workflows by itself.
+          gh workflow run newsletter-buttondown.yml --ref main -f issue="${{ steps.issue.outputs.date }}"
+          gh workflow run site.yml --ref main

@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bethnalgreen.live/schemas/newsletter-issue.schema.json",
+  "title": "Newsletter issue",
+  "description": "One weekly newsletter issue: which verified events go in, in which sections, in what order and with what layout (chosen by the newsletter editor agent), plus Fred's editor's letter at the top (written by the intro writer agent). It holds no event facts of its own: dates, times, prices and venues are read from data/events when the issue is rendered, so the email always shows the checked facts. Lives in data/newsletter/issues/<id>.json, where id is the send date.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "issue_number", "covers", "subject", "preheader", "intro", "sections", "laid_out", "notes_for_fred"],
+  "properties": {
+    "id": {
+      "description": "The send date (normally a Thursday), YYYY-MM-DD.",
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "issue_number": { "type": "integer", "minimum": 1 },
+    "covers": {
+      "description": "The week this issue is about, inclusive. Normally the send date and the six days after it.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from", "to"],
+      "properties": {
+        "from": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "to": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
+      }
+    },
+    "subject": { "type": "string", "minLength": 10, "maxLength": 90 },
+    "preheader": {
+      "description": "The line inboxes show after the subject. A teaser of the issue's highlights, in our own words.",
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 140
+    },
+    "intro": {
+      "description": "Fred's editor's letter. Null until the intro writer has run; an issue with a null intro is not ready to send.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["greeting", "paragraphs", "sign_off", "signed", "written_by", "written_at"],
+          "properties": {
+            "greeting": { "type": "string", "minLength": 2, "maxLength": 40 },
+            "paragraphs": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 4,
+              "items": { "type": "string", "minLength": 20, "maxLength": 600 }
+            },
+            "sign_off": { "type": "string", "minLength": 2, "maxLength": 60 },
+            "signed": { "const": "Fred" },
+            "postscript": { "type": ["string", "null"], "maxLength": 300 },
+            "written_by": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["agent", "model"],
+              "properties": {
+                "agent": { "const": "newsletter-intro" },
+                "model": { "type": "string", "pattern": "opus" }
+              }
+            },
+            "used_notes": {
+              "description": "Path of Fred's notes for this issue, if the writer used them.",
+              "type": ["string", "null"]
+            },
+            "written_at": { "$ref": "common.schema.json#/$defs/timestamp" }
+          }
+        }
+      ]
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "heading", "layout", "items"],
+        "properties": {
+          "kind": {
+            "description": "pick-of-the-week: one event, first section. featured: the nights worth crossing the road for. quick-hits: more good ones, shorter. cinema-and-arts, food-and-drink, community: events of that category only. free-and-cheap: free or under £10. on-repeat: regular nights. worth-the-trip: outer-zone standouts. save-the-date: opening after this week, worth booking now.",
+            "enum": ["pick-of-the-week", "featured", "quick-hits", "cinema-and-arts", "food-and-drink", "community", "free-and-cheap", "on-repeat", "worth-the-trip", "save-the-date"]
+          },
+          "heading": { "type": "string", "minLength": 2, "maxLength": 60 },
+          "emoji": { "type": ["string", "null"], "maxLength": 8 },
+          "layout": {
+            "description": "hero: one big feature. cards: boxed entries with a blurb. list: title, details line and a short blurb. compact: one line per event, no blurb.",
+            "enum": ["hero", "cards", "list", "compact"]
+          },
+          "lede": { "type": ["string", "null"], "maxLength": 240 },
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 12,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["event_id"],
+              "properties": {
+                "event_id": { "$ref": "common.schema.json#/$defs/event_id" },
+                "headline": { "type": ["string", "null"], "maxLength": 90 },
+                "blurb": { "type": ["string", "null"], "maxLength": 360 }
+              }
+            }
+          }
+        }
+      }
+    },
+    "laid_out": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["agent", "model", "run_id", "at"],
+      "properties": {
+        "agent": { "const": "newsletter-editor" },
+        "model": { "type": "string" },
+        "run_id": { "type": "string" },
+        "at": { "$ref": "common.schema.json#/$defs/timestamp" }
+      }
+    },
+    "notes_for_fred": {
+      "description": "Anything Fred should look at before it goes out (tight picks, events close to selling out, gaps). Never shown to readers.",
+      "type": "array",
+      "items": { "type": "string", "maxLength": 300 }
+    }
+  }
+}

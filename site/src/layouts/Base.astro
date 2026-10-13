@@ -3,8 +3,8 @@ import config from "../site.config.mjs";
 import { rel } from "../lib/rel";
 import { DEMO } from "../lib/data";
 
-interface Props { title?: string; description?: string; current?: string; jsonld?: object | null; demoNote?: string }
-const { title, description = config.tagline, current = "", jsonld = null, demoNote = "Preview with made-up events. None of these venues or nights are real." } = Astro.props;
+interface Props { title?: string; description?: string; current?: string; jsonld?: object | null; demoNote?: string; noindex?: boolean }
+const { title, description = config.tagline, current = "", jsonld = null, noindex = false, demoNote = "Preview with made-up events. None of these venues or nights are real." } = Astro.props;
 const here = Astro.url.pathname;
 const pageTitle = title ? `${title} | ${config.name}` : `${config.name}: what's on around Bethnal Green`;
 const canonical = new URL(here.replace(/^\//, ""), Astro.site).href;
@@ -38,7 +38,7 @@ const nav = [
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
   <meta name="theme-color" content="#f4f5f1" />
-  {DEMO && <meta name="robots" content="noindex" />}
+  {(DEMO || noindex) && <meta name="robots" content="noindex" />}
   <link rel="icon" href={rel(here, "favicon.svg")} type="image/svg+xml" />
   <link rel="preload" href={rel(here, "fonts/archivo-latin-wdth-normal.woff2")} as="font" type="font/woff2" crossorigin />
   <style set:html={fontFaces} />

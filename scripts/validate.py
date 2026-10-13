@@ -6,12 +6,14 @@ Usage
   python scripts/validate.py verification data/verification/2026-10-13
   python scripts/validate.py events data/events
   python scripts/validate.py venues data/venues
+  python scripts/validate.py newsletter data/newsletter/issues
   python scripts/validate.py venue-leads data/venue-leads/2026-10-18
   python scripts/validate.py venue-findings data/venue-research/2026-10-18
   python scripts/validate.py all            # everything under data/ (what CI runs)
 
 Options
-  --window        also reject candidates dated outside yesterday .. +DAYS (use during runs, not in CI)
+  --window        also reject candidates dated outside yesterday .. +DAYS, and check newsletter issues against
+                  the events as they stand today (use during runs, not in CI)
   --days N        size of that window (default 31: the scouts look 28 days ahead, plus slack)
   --today DATE    pretend today is DATE (YYYY-MM-DD), for tests. Default: today in London.
 
@@ -35,6 +37,10 @@ verifier confirmed that quote. So beyond the formats, they tie the three stages 
   venue-leads   every lead has a quote for its name and anything else it states; news about a known venue
                 names that venue; nothing from a never-use site
   venue-findings  every proposed value is backed by a quote naming that field; written values are our own words
+  newsletter    every event in an issue is published, not in doubt, not cancelled or sold out, and in the
+                right week for its section; the editor's words are our own, and any price, time, day or
+                'free' they mention matches the checked facts; Fred's letter claims no first-hand
+                experience unless his notes for that issue supplied it
 """
 from __future__ import annotations
 
@@ -55,6 +61,7 @@ except ImportError:  # pragma: no cover
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import policy  # noqa: E402
+import newsletter  # noqa: E402
 import venuelib  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -125,7 +132,7 @@ def load_validators() -> dict[str, jsonschema.Draft202012Validator]:
         kind: jsonschema.Draft202012Validator(by_name[f"{name}.schema.json"], registry=registry, format_checker=fmt)
         for kind, name in [("candidates", "candidate-event"), ("events", "event"), ("verification", "verification"),
                            ("venues", "venue"), ("venue-leads", "venue-lead"),
-                           ("venue-findings", "venue-findings")]
+                           ("venue-findings", "venue-findings"), ("newsletter", "newsletter-issue")]
     }
 
 
@@ -702,10 +709,132 @@ def check_venue_findings(path: Path, data: dict, today: dt.date | None = None, d
     return errs
 
 
+# ---------------------------------------------------------------- newsletter issues
+
+def without_names(text: str, events: list[dict]) -> str:
+    """Event titles, venue names and line-up names may be repeated word for word; take them out first."""
+    names = sorted({n for e in events for n in [e["title"], e["venue"]["name"], *(e.get("lineup") or [])] if n},
+                   key=len, reverse=True)
+    for n in names:
+        text = re.sub(re.escape(n), " ", text, flags=re.I)
+    return text
+
+
+def check_issue(path: Path, data: dict, today: dt.date | None = None, days: int = 31) -> list[str]:
+    errs = check_filename(path, data)
+    frm, to = (dt.date.fromisoformat(data["covers"][k]) for k in ("from", "to"))
+    sent = dt.date.fromisoformat(data["id"])
+    if not frm <= to <= frm + dt.timedelta(days=6):
+        errs.append("covers: must be one week at most, 'from' no later than 'to'")
+    if sent > frm:
+        errs.append("covers: the issue must go out on or before the first day it covers")
+
+    # Structure is always checked. Everything that depends on the events (which keep changing after an issue
+    # has gone out: tickets sell out, prices move) is checked only with --window, when an issue is being made.
+    fresh = today is not None
+    events = newsletter.load_events(ROOT)
+    venues = newsletter.load_venue_profiles(ROOT)
+    used: list[dict] = []
+    seen: set[str] = set()
+    picks = [i for i, s in enumerate(data["sections"]) if s["kind"] == "pick-of-the-week"]
+    if len(picks) > 1:
+        errs.append("sections: only one pick of the week")
+    if picks and picks[0] != 0:
+        errs.append("sections: the pick of the week comes first")
+
+    for si, s in enumerate(data["sections"]):
+        where = f"sections[{si}] ({s['kind']})"
+        if s["kind"] == "pick-of-the-week" and (len(s["items"]) != 1 or s["layout"] != "hero"):
+            errs.append(f"{where}: one event, laid out as 'hero'")
+        if s["layout"] == "hero" and len(s["items"]) > 2:
+            errs.append(f"{where}: 'hero' is for one or two events")
+        for ii, it in enumerate(s["items"]):
+            at = f"{where}.items[{ii}]"
+            eid = it["event_id"]
+            if eid in seen:
+                errs.append(f"{at}: {eid} is already in this issue")
+            seen.add(eid)
+            if s["layout"] == "compact" and it.get("blurb"):
+                errs.append(f"{at}: compact entries show no blurb; leave it null")
+            if not fresh:
+                continue
+            e = events.get(eid)
+            if e is None:
+                errs.append(f"{at}: no published event {eid} in data/events")
+                continue
+            used.append(e)
+            if e.get("needs_review"):
+                errs.append(f"{at}: {eid} is under review, so it can't go out")
+            if e["status"] in ("cancelled", "postponed", "sold-out"):
+                errs.append(f"{at}: {eid} is {e['status']}")
+            day = newsletter.event_date(e)
+            if s["kind"] == "save-the-date":
+                if not to < day <= to + dt.timedelta(days=newsletter.SAVE_THE_DATE_DAYS):
+                    errs.append(f"{at}: save-the-date events open after this week and within "
+                                f"{newsletter.SAVE_THE_DATE_DAYS} days of it ({day} doesn't)")
+            elif not newsletter.on_during(e, frm, to):
+                errs.append(f"{at}: {eid} is on {day}, outside this issue's week")
+            wanted = newsletter.SECTION_CATEGORY.get(s["kind"])
+            if wanted and e["category"] != wanted:
+                errs.append(f"{at}: {s['kind']} is for {wanted} events ({eid} is {e['category']})")
+            if s["kind"] == "worth-the-trip" and e["zone"] != "outer":
+                errs.append(f"{at}: worth-the-trip is for outer-zone events")
+            if s["kind"] == "free-and-cheap":
+                lo = e["price"].get("min_gbp")
+                if not (e["price"].get("known") and (e["price"].get("is_free") or (lo is not None and lo < 10))):
+                    errs.append(f"{at}: free-and-cheap needs a checked price that is free or under £10")
+            if s["kind"] == "on-repeat" and not e.get("recurrence"):
+                errs.append(f"{at}: on-repeat is for regular nights (the event has no recurrence)")
+            quotes = [ev["quote"] for ev in e["evidence"]]
+            v = venues.get(e["venue"].get("venue_id") or "")
+            quotes += [ev["quote"] for ev in (v or {}).get("evidence", [])]
+            for field in ("headline", "blurb"):
+                text = it.get(field)
+                if not text:
+                    continue
+                for q in quotes:
+                    run_ = copied_run(without_names(text, [e]), q)
+                    if run_:
+                        errs.append(f"{at}.{field}: copies a source word for word (\"{run_}\"); write it in our own words")
+                        break
+                errs += [f"{at}.{field}: {p}" for p in newsletter.fact_problems(text, [e], one_event=True)]
+
+    if not fresh:
+        return errs
+    all_quotes = [ev["quote"] for e in used for ev in e["evidence"]]
+    texts = [("subject", data["subject"]), ("preheader", data["preheader"])]
+    texts += [(f"sections[{i}].lede", s.get("lede")) for i, s in enumerate(data["sections"])]
+    intro = data.get("intro")
+    if intro:
+        texts += [(f"intro.paragraphs[{i}]", p) for i, p in enumerate(intro["paragraphs"])]
+        texts += [("intro.postscript", intro.get("postscript"))]
+        notes = intro.get("used_notes")
+        if notes and not (ROOT / notes).is_file():
+            errs.append(f"intro.used_notes: {notes} doesn't exist")
+        if not notes:
+            for i, p in enumerate(intro["paragraphs"] + [intro.get("postscript") or ""]):
+                m = newsletter.FIRST_HAND.search(p)
+                if m:
+                    errs.append(f"intro: claims a first-hand experience (\"{m.group(0)}\"); only Fred's notes for "
+                                f"this issue can supply one")
+    for where, text in texts:
+        if not text:
+            continue
+        for q in all_quotes:
+            run_ = copied_run(without_names(text, used), q)
+            if run_:
+                errs.append(f"{where}: copies a source word for word (\"{run_}\")")
+                break
+        errs += [f"{where}: {p}" for p in newsletter.fact_problems(text, used, one_event=False)]
+    return errs
+
+
 CHECKS = {"candidates": check_candidate, "verification": check_verification, "events": check_event,
-          "venues": check_venue_profile, "venue-leads": check_venue_lead, "venue-findings": check_venue_findings}
+          "venues": check_venue_profile, "venue-leads": check_venue_lead, "venue-findings": check_venue_findings,
+          "newsletter": check_issue}
 DEFAULT_DIRS = {"candidates": "data/candidates", "verification": "data/verification", "events": "data/events",
-                "venues": "data/venues", "venue-leads": "data/venue-leads", "venue-findings": "data/venue-research"}
+                "venues": "data/venues", "venue-leads": "data/venue-leads", "venue-findings": "data/venue-research",
+                "newsletter": "data/newsletter/issues"}
 KINDS = list(CHECKS)
 
 

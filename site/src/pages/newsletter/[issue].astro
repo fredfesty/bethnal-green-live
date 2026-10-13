@@ -1,0 +1,141 @@
+---
+import Base from "../../layouts/Base.astro";
+import Subscribe from "../../components/Subscribe.astro";
+import { loadIssues, isOut, resolveSections, type Issue } from "../../lib/newsletter";
+import { kindLabel, STATUS } from "../../lib/labels";
+import { weekdayShort, dayMonthShort, timeRange, dayMonth, hasTime, clock } from "../../lib/time";
+import { rel } from "../../lib/rel";
+
+export function getStaticPaths() {
+  return loadIssues().map((i) => ({ params: { issue: i.id }, props: { i } }));
+}
+
+const { i } = Astro.props as { i: Issue };
+const here = Astro.url.pathname;
+const sections = resolveSections(i);
+const preview = !isOut(i);
+const from = i.covers.from, to = i.covers.to;
+const week = from.slice(0, 7) === to.slice(0, 7) ? `${Number(from.slice(8))}–${dayMonth(to)}` : `${dayMonth(from)} – ${dayMonth(to)}`;
+---
+<Base title={`Issue ${i.issue_number}: ${week}`} current="newsletter" description={i.preheader} noindex={preview}>
+  <article class="issue">
+    {preview && <p class="issue__preview" role="note">Preview: this issue goes out on {dayMonth(i.id)}.</p>}
+    <p class="issue__kicker"><a href={rel(here, "newsletter.html")}>The newsletter</a> · Issue {i.issue_number}</p>
+    <h1>What's on {week}</h1>
+
+    {i.intro && (
+      <section class="letter" aria-label="Editor's letter">
+        <p class="letter__greeting">{i.intro.greeting}</p>
+        {i.intro.paragraphs.map((p) => <p>{p}</p>)}
+        <p class="letter__off">{i.intro.sign_off}</p>
+        <p class="letter__sig">{i.intro.signed}</p>
+        {i.intro.postscript && <p class="letter__ps">PS {i.intro.postscript}</p>}
+      </section>
+    )}
+
+    {sections.map((s) => (
+      <section class:list={["sec", `sec--${s.layout}`]}>
+        <h2>{s.emoji && <span aria-hidden="true">{s.emoji} </span>}{s.heading}</h2>
+        {s.lede && <p class="sec__lede">{s.lede}</p>}
+        {s.layout === "compact" ? (
+          <ul class="sec__rows">
+            {s.entries.map(({ item, e }) => (
+              <li class="row">
+                <p class="row__when">{e.isRun
+                  ? <>Until<span>{weekdayShort(e.until)} {Number(e.until.slice(8))}</span></>
+                  : <>{weekdayShort(e.date)} {Number(e.date.slice(8))}<span>{hasTime(e.starts_at) ? clock(e.starts_at) : "tbc"}</span></>}</p>
+                <p class="row__what">
+                  <a href={rel(here, `events/${e.id}.html`)}>{item.headline || e.title}</a>
+                  {STATUS[e.status] && <span class="entry__status">{STATUS[e.status]}</span>}
+                  <span class="row__where">{e.venue.name} · {e.priceLabel}</span>
+                </p>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <div class="sec__items">
+            {s.entries.map(({ item, e }) => (
+              <div class:list={["entry", `entry--${s.layout}`]}>
+                <h3 class="entry__title">
+                  <a href={rel(here, `events/${e.id}.html`)}>{item.headline || e.title}</a>
+                  {STATUS[e.status] && <span class="entry__status">{STATUS[e.status]}</span>}
+                </h3>
+                {item.headline && <p class="entry__real">{e.title}</p>}
+                <p class="entry__facts">
+                  {e.isRun
+                    ? <>Until {weekdayShort(e.until)} {dayMonthShort(e.until)}{e.run_schedule && ` (${e.run_schedule})`}</>
+                    : <>{weekdayShort(e.date)} {dayMonthShort(e.date)} · {timeRange(e.starts_at, e.ends_at)}</>} · {e.venue.name} · {e.priceLabel}
+                  <span class="entry__kind"> · {kindLabel(e)}</span>
+                </p>
+                {item.blurb && <p class="entry__blurb">{item.blurb}</p>}
+                <p class="entry__links">
+                  {e.ticket_url && <a href={e.ticket_url} rel="noopener">Tickets</a>}
+                  <a href={rel(here, `events/${e.id}.html`)}>How we checked it</a>
+                </p>
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
+    ))}
+
+    <p class="issue__small">
+      Every listing was checked word for word against the venue's or ticket seller's own page before it went in.
+      Plans change, so check the ticket page before you head out. This is the issue as it was sent; for what's on now,
+      see <a href={rel(here, "index.html")}>the listings</a>.
+    </p>
+  </article>
+  <Subscribe />
+</Base>
+
+<style>
+  .issue { max-width: 46rem; }
+  .issue__preview { background: #fff4c2; border: 1px solid #e8d77a; color: #4a3b00; padding: 0.5rem 0.8rem; border-radius: 6px; margin: 1rem 0 0; }
+  .issue__kicker { margin: 1.25rem 0 0; color: var(--muted); font-weight: 650; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.85rem; }
+  .issue__kicker a { color: inherit; }
+  .issue h1 { font-size: clamp(2rem, 5vw, 2.8rem); font-variation-settings: "wdth" 80; font-weight: 750; margin: 0.35rem 0 1.5rem; }
+
+  .letter { background: var(--plate); border-left: 4px solid var(--red); border-radius: 4px; padding: 1.4rem 1.5rem 1.25rem; }
+  .letter p { margin: 0 0 0.9rem; font-family: Georgia, "Times New Roman", serif; font-size: 1.1rem; line-height: 1.6; max-width: 62ch; }
+  .letter .letter__greeting { font-family: var(--sans); font-weight: 750; font-variation-settings: "wdth" 80; font-size: 1.3rem; }
+  .letter .letter__off { margin: 0.2rem 0 0; }
+  .letter .letter__sig { margin: 0.1rem 0 0; font-style: italic; font-weight: 700; font-size: 1.5rem; color: var(--red); }
+  .letter .letter__ps { margin: 1rem 0 0; font-style: italic; color: var(--muted); font-size: 1rem; }
+
+  .sec { margin-top: 2.5rem; }
+  .sec h2 {
+    font-size: 1.55rem; font-variation-settings: "wdth" 75; font-weight: 800; text-transform: uppercase;
+    letter-spacing: 0.01em; padding-bottom: 0.45rem; border-bottom: 3px solid var(--ink);
+  }
+  .sec__lede { color: var(--muted); margin: 0.6rem 0 0; }
+  .sec__rows { list-style: none; margin: 0.5rem 0 0; padding: 0; }
+  .row { display: grid; grid-template-columns: 4.2rem 1fr; gap: 0 1rem; padding: 0.7rem 0; border-top: 1px solid var(--rule); }
+  .row:first-child { border-top: 0; }
+  .row p { margin: 0; }
+  .row__when { font-weight: 800; font-variation-settings: "wdth" 75; font-size: 1.05rem; line-height: 1.25; }
+  .row__when span { display: block; font-weight: 600; color: var(--muted); }
+  .row__what a { color: var(--ink); font-weight: 700; text-decoration: none; }
+  .row__what a:hover { text-decoration: underline; text-decoration-color: var(--green); }
+  .row__where { display: block; color: var(--muted); font-size: 0.95rem; }
+  .sec__items { display: grid; gap: 0.9rem; margin-top: 0.9rem; }
+  .sec--list .sec__items { gap: 0; }
+
+  .entry__title { font-size: 1.25rem; font-weight: 750; line-height: 1.2; }
+  .entry__title a { color: var(--ink); text-decoration: none; }
+  .entry__title a:hover { text-decoration: underline; text-decoration-color: var(--green); }
+  .entry__status { margin-left: 0.5rem; font-size: 0.8rem; font-weight: 700; color: var(--red); border: 1.5px solid currentColor; border-radius: 4px; padding: 0.05rem 0.4rem; vertical-align: middle; }
+  .entry__real { margin: 0.2rem 0 0; color: var(--muted); font-size: 0.92rem; }
+  .entry__facts { margin: 0.35rem 0 0; font-weight: 650; font-size: 0.95rem; }
+  .entry__kind { color: var(--muted); font-weight: 500; }
+  .entry__blurb { margin: 0.5rem 0 0; line-height: 1.55; max-width: 62ch; }
+  .entry__links { display: flex; gap: 1.25rem; margin: 0.5rem 0 0; font-size: 0.95rem; font-weight: 600; }
+
+  .entry--hero { background: var(--plate); border: 2px solid #000; border-radius: 8px; padding: 1.4rem 1.5rem; }
+  .entry--hero .entry__title { font-size: clamp(1.6rem, 4vw, 2.1rem); font-variation-settings: "wdth" 80; font-weight: 800; }
+  .entry--hero .entry__blurb { font-size: 1.1rem; }
+  .entry--cards { background: var(--plate); border: 1.5px solid #000; border-radius: 8px; padding: 1rem 1.15rem; }
+  .entry--list { padding: 0.95rem 0; border-top: 1px solid var(--rule); }
+  .entry--list:first-child { border-top: 0; }
+
+  .issue__small { margin-top: 2.5rem; color: var(--muted); font-size: 0.95rem; max-width: 62ch; }
+</style>

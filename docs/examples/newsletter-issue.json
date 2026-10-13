@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-29",
+  "issue_number": 3,
+  "covers": { "from": "2026-10-29", "to": "2026-11-04" },
+  "subject": "What's on in E2 · 29 October – 4 November: Halloween, early",
+  "preheader": "Disco and house at the Working Men's Club, plus the free and cheap nights around the station.",
+  "intro": {
+    "greeting": "Morning, E2,",
+    "paragraphs": [
+      "The clocks have gone back, it's dark by five, and Halloween lands on a Saturday this year, so expect the weekend to start early and finish late.",
+      "If you only do one thing, make it Friday at the Working Men's Club: disco and house from 9pm, and there are only a few tickets left."
+    ],
+    "sign_off": "See you out there,",
+    "signed": "Fred",
+    "postscript": null,
+    "written_by": { "agent": "newsletter-intro", "model": "opus" },
+    "used_notes": null,
+    "written_at": "2026-10-28T09:05:00+00:00"
+  },
+  "sections": [
+    {
+      "kind": "pick-of-the-week",
+      "heading": "This week's pick",
+      "emoji": "⭐",
+      "layout": "hero",
+      "lede": null,
+      "items": [
+        {
+          "event_id": "2026-10-30-bgwmc-example-night",
+          "headline": null,
+          "blurb": "Disco and house from DJ Example, with a live set from Example Live Act to break up the night. Early-bird tickets are £8, and there aren't many left."
+        }
+      ]
+    }
+  ],
+  "laid_out": { "agent": "newsletter-editor", "model": "sonnet", "run_id": "2026-10-28-nl", "at": "2026-10-28T08:55:00+00:00" },
+  "notes_for_fred": ["Illustrative example only: not a real issue."]
+}
