@@ -1,0 +1,77 @@
+{
+  "venue_id": "numbers-wine",
+  "venue_name": "Numbers Wine",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T14:15:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["bar"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.numberswine.com/blogs/events",
+          "quote": "CELLAR DOOR & BAR",
+          "retrieved_at": "2026-10-13T14:09:08Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "No music nights seen. Its events are wine workshops (a pet nat making workshop that recurs), exhibitions and talks such as Pecha Kucha, with film nights listed as a category.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.numberswine.com/blogs/events",
+          "quote": "PET NAT MAKING WORKSHOP – 31 OCTOBER",
+          "retrieved_at": "2026-10-13T14:09:08Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.numberswine.com/blogs/events?page=2",
+          "quote": "PET NAT MAKING WORKSHOP – 19 DECEMBER",
+          "retrieved_at": "2026-10-13T14:09:08Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.numberswine.com/blogs/events?page=2",
+          "quote": "PET NAT MAKING WORKSHOP – 26 SEPTEMBER",
+          "retrieved_at": "2026-10-13T14:09:08Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.numberswine.com/blogs/events",
+          "quote": "PECHA KUCHA – 5 NOVEMBER",
+          "retrieved_at": "2026-10-13T14:09:08Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.numberswine.com/blogs/events",
+          "quote": "VICTORIA'S TREES – IMMO KLINK",
+          "retrieved_at": "2026-10-13T14:09:08Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.numberswine.com/blogs/events",
+          "quote": "Film night",
+          "retrieved_at": "2026-10-13T14:09:08Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no music nights seen",
+    "dated film nights: 'Film night' is a category on the events page, but no dated film night was on the pages read",
+    "cost.notes: only per-event prices (the workshop ticket), no general pricing stated"
+  ],
+  "notes": "Upcoming and past events on its events page (read 13 Oct 2026): Pet Nat Making Workshop, Sat 31 Oct 2026 (12.30-2.30pm); Victoria's Trees exhibition, 23 Oct to 22 Nov 2026; Pecha Kucha, Thu 5 Nov 2026; Wine Xmas Salon, Sat 5 Dec 2026; Pet Nat Making Workshop, Sat 19 Dec 2026. Earlier Pet Nat workshop on Sat 26 Sep 2026. Its visit page says 'JOIN US FOR REGULAR EVENTS, BOOK'. The map lead's Tower Hamlets temporary event notice (10 to 11 Oct) was not read here."
+}

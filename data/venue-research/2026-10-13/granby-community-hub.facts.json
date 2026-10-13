@@ -1,0 +1,53 @@
+{
+  "venue_id": "granby-community-hub",
+  "venue_name": "Granby Community Hub",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T14:11:43Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "37 St Matthew's Row, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Threads-of-Heritage-Family-Craft-Session-and-Community-Celebration.aspx",
+          "quote": "Granby Community Hub 37 St Matthew's Row London E2 6D",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The council page places the hub close to Bethnal Green station and on the bus routes along Bethnal Green Road. It gives no statement on step-free access, toilets or a lift.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
+          "quote": "The hub is situated within a 10 minute walk from Bethnal Green station",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "postcode (the council page prints 'E2 6D', cut short, so no full postcode is quoted)",
+    "website (no own site; the council's hub page is the only page read)",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity (no whole-venue figure; see notes)"
+  ],
+  "notes": "Address from the council's events page for its Threads of Heritage craft session on 30 October 2026; that page prints the postcode cut short, and the hub's own council page gives no full address. The council hub page lists rooms, not a building total: two large halls that can be joined for up to 80 people, one large hall for up to 40, and two community rooms for up to 15 each. It lists a prayer room, kitchen and free Wi-Fi, and bookings go through the council's community booking team. It gives no pricing for public events."
+}

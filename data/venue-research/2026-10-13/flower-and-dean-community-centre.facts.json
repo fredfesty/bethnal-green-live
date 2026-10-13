@@ -1,0 +1,49 @@
+{
+  "venue_id": "flower-and-dean-community-centre",
+  "venue_name": "Flower and Dean Community Centre",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T14:11:43Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "41 Flower & Dean Walk, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address", "postcode"],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+          "quote": "Flower and Dean Community Centre 41 Flower & Dean Walk London E1 6QT",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 6QT",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+          "quote": "Flower and Dean Community Centre 41 Flower & Dean Walk London E1 6QT",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website (no own site found; a search returned only One Housing pages, and onehousing.co.uk answered HTTP 403, so it was not read)",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Only a Tower Hamlets council events page was read, for its Big Draw session on 28 October 2026. The council's hire page for this centre was not found (a guessed address returned 404). The centre's own pages could not be reached, so nothing about access, hire or capacity is recorded."
+}

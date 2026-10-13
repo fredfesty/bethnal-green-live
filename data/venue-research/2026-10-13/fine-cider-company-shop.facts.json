@@ -1,0 +1,75 @@
+{
+  "venue_id": "fine-cider-company-shop",
+  "venue_name": "The Fine Cider Company Shop",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T14:11:43Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "399 Mentmore Terrace, London Fields",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
+          "quote": "The Fine Cider Company Shop, 399 Mentmore Terrace, London Fields, E8 3PH",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E8 3PH",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
+          "quote": "The Fine Cider Company Shop, 399 Mentmore Terrace, London Fields, E8 3PH",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "age_policy",
+      "value": "18+ only, for tastings",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["age_policy"],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
+          "quote": "is strictly for over 18's only",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Tastings are booked and paid for in advance through the shop's Ticket Tailor page, and a public tasting goes ahead only with at least four people booked.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["cost.notes"],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
+          "quote": "we need a minimum of 4 people to book for a public tasting to go ahead",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website (the shop has no site in the registry or leads; its tastings are sold on its Ticket Tailor page, which is used as the source)",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "capacity"
+  ],
+  "notes": "Everything here comes from one Ticket Tailor page, which is the organiser's own page on a ticketing site. Its tastings run on Friday and Saturday evenings, 6:30pm to 8pm, for up to 12 people, and under-25s are asked for ID. The per-tasting ticket price on that page is one event's price and is left out. The lead's three dated tastings are listed in the programme aspect, not here. No access detail appears anywhere on the page."
+}

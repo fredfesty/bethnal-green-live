@@ -2,62 +2,72 @@
   "venue_id": "rich-mix",
   "venue_name": "Rich Mix",
   "aspect": "reviews",
-  "researched_at": "2026-10-13T00:20:00Z",
+  "researched_at": "2026-10-13T14:12:00Z",
   "findings": [
     {
       "field": "summary",
-      "value": "A charity-run arts venue and cinema in Shoreditch that also hosts gigs, festivals and live events. Its cinema screenings are paused for the next 12 months during renovation, and the cinema is earmarked to reopen in autumn 2027.",
+      "value": "A charity-run arts centre with gigs, theatre, art shows, festivals and workshops, and a café-bar. Time Out reported on 17 September 2026 that its cinema screenings are paused for 12 months during renovation, and that the building stays open for gigs and festivals.",
       "source_date": "2026-09-17",
       "evidence": [
         {
           "fields": ["summary"],
           "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
           "quote": "East London’s Rich Mix has paused its cinema screenings for the next 12 months.",
-          "retrieved_at": "2026-10-13T00:12:30Z",
+          "retrieved_at": "2026-10-13T14:12:00Z",
           "source_kind": "press"
         },
         {
           "fields": ["summary"],
           "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
           "quote": "While its cinema programme will be on pause, Rich Mix will remain open for gigs and festivals.",
-          "retrieved_at": "2026-10-13T00:12:30Z",
+          "retrieved_at": "2026-10-13T14:12:00Z",
           "source_kind": "press"
         },
         {
           "fields": ["summary"],
           "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
-          "quote": "The new-look cinema is earmarked for reopening in autumn 2027.",
-          "retrieved_at": "2026-10-13T00:12:30Z",
+          "quote": "is undertaking significant renovations",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/cinemas/rich-mix",
+          "quote": "Run as a charity, it's a vibrant arts hub and any given week could see it hosting an assortment of music gigs, theatre shows, art exhibitions, themed festivals and all manner of workshops.",
+          "retrieved_at": "2026-10-13T14:12:00Z",
           "source_kind": "press"
         }
       ]
     },
     {
       "field": "music.notes",
-      "value": "Hosts gigs and festivals this autumn, and a season about London's underground culture that mixes music, talks and occasional films.",
+      "value": "Gigs and festivals continue while the cinema is paused, including a season called London, From the Margins that mixes music, talks and occasional film.",
       "source_date": "2026-09-17",
       "evidence": [
         {
           "fields": ["music.notes"],
           "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
-          "quote": "The building remains open this autumn, with a busy programme of live events,",
-          "retrieved_at": "2026-10-13T00:12:30Z",
+          "quote": "While its cinema programme will be on pause, Rich Mix will remain open for gigs and festivals.",
+          "retrieved_at": "2026-10-13T14:12:00Z",
           "source_kind": "press"
         },
         {
           "fields": ["music.notes"],
           "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
-          "quote": "a special programme of music, talks and occasional film screenings celebrating the sounds, spaces and communities that have shaped London’s underground culture",
-          "retrieved_at": "2026-10-13T00:12:30Z",
+          "quote": "our recently announced London, From the Margins season",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
+          "quote": "a special programme of music, talks and occasional film screenings",
+          "retrieved_at": "2026-10-13T14:12:00Z",
           "source_kind": "press"
         }
       ]
     }
   ],
-  "not_found": [
-    "crowd",
-    "music.styles",
-    "aliases"
-  ],
-  "notes": "Time Out (17 Sept 2026) says only the cinema is paused and the building stays open for gigs, so this is not a closure: no status proposed. The triage 'temporarily-closed' signal should not be applied. richmix.org.uk returned 403 and was not read."
+  "not_found": ["crowd", "status"],
+  "notes": "Time Out (17 Sept 2026) says only the cinema is paused for 12 months; the building stays open for gigs and festivals. That is not a closure, so the web finder's temporarily-closed signal is not supported and status should stay open. richmix.org.uk answered 403 earlier and was not read. One WebSearch found no closure news beyond the Time Out piece."
 }

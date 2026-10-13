@@ -1,0 +1,66 @@
+{
+  "venue_id": "dundee-arms",
+  "venue_name": "The Dundee Arms",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T14:12:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A pub on Cambridge Heath Road in Bethnal Green, E2, open since 2015, with craft beer, games on screen and guest DJs.",
+      "source_date": "2026-05-27",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.thedundeearms.co.uk/",
+          "quote": "The Dundee Arms - A Pub in Bethnal Green",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.thedundeearms.co.uk/",
+          "quote": "Open since 2nd April 2015",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.thedundeearms.co.uk/",
+          "quote": "Great music, guest DJs, craft beer & top games on screen.",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "types",
+      "value": ["pub"],
+      "source_date": "2026-05-27",
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.thedundeearms.co.uk/",
+          "quote": "The Dundee Arms - A Pub in Bethnal Green",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "The pub's own website advertises guest DJs and 'great music'; no styles or nights are named.",
+      "source_date": "2026-05-27",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.thedundeearms.co.uk/",
+          "quote": "Great music, guest DJs, craft beer & top games on screen.",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": ["crowd", "music.styles", "status"],
+  "notes": "The homepage's metadata gives a last-modified date of 27 May 2026, used as source_date. Londonist's pub entry describes a 2015 visit and is too old for crowd or music, so it is not quoted. The CAMRA WhatPub link found in search returned the London region home page, not the pub entry, and was not used. One WebSearch found no recent press review."
+}

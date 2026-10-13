@@ -1,0 +1,101 @@
+{
+  "venue_id": "dundee-arms",
+  "venue_name": "The Dundee Arms",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T14:11:43Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://www.thedundeearms.co.uk/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.thedundeearms.co.uk/",
+          "quote": "The Dundee Arms - A Pub in Bethnal Green",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "339 Cambridge Heath Road, Bethnal Green, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.thedundeearms.co.uk/contact/",
+          "quote": "The Dundee Arms, 339 Cambridge Heath Road, Bethnal Green, London, E2 9LH",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 9LH",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.thedundeearms.co.uk/contact/",
+          "quote": "The Dundee Arms, 339 Cambridge Heath Road, Bethnal Green, London, E2 9LH",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": false,
+      "source_date": "2026-08-03",
+      "evidence": [
+        {
+          "fields": ["accessibility.step_free", "accessibility.accessible_toilet", "accessibility.notes"],
+          "url": "https://camra.org.uk/pubs/dundee-arms-bethnal-green-155651",
+          "quote": "Steps at entrance. No accessible toilet. Main toilets are upstairs.",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": false,
+      "source_date": "2026-08-03",
+      "evidence": [
+        {
+          "fields": ["accessibility.accessible_toilet"],
+          "url": "https://camra.org.uk/pubs/dundee-arms-bethnal-green-155651",
+          "quote": "No accessible toilet.",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "CAMRA's mobility statement says there are steps at the entrance and that the main toilets are upstairs, with no accessible toilet. The pub's own site has no access page.",
+      "source_date": "2026-08-03",
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://camra.org.uk/pubs/dundee-arms-bethnal-green-155651",
+          "quote": "Main toilets are upstairs.",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.hearing_loop",
+    "accessibility.access_page (the pub's own site has no access page; its pages are home, gallery, contact)",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Address and postcode from the pub's own home and contact pages. The access statement comes from its CAMRA WhatPub entry, which says it was last updated 03/08/2026 (the statement's own date is not shown). The pub's own contact page gives opening hours, which are not a profile field. Its guest DJ and live-music claims come from the home page ('Great music, guest DJs'), for the programme researcher."
+}

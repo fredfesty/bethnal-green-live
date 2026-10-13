@@ -1,0 +1,83 @@
+{
+  "venue_id": "mission-e1",
+  "venue_name": "Mission",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T14:13:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A yoga and movement centre at 7-9 Fashion Street, E1, with five studios, two treatment rooms, a sauna and a restaurant. Time Out called it ‘Europe’s largest yoga space’ when it opened in 2023.",
+      "source_date": "2025-02-12",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.mission-e1.com/about-us/",
+          "quote": "Mission is the biggest yoga and movement centre in Europe with 14,000 square feet of space housing five studios, two treatment rooms, extensive changing facilities, sauna, and a restaurant",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.mission-e1.com/about-us/",
+          "quote": "7-9 Fashion Street London E1 6PX",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/news/europes-largest-yoga-space-has-just-opened-in-east-london-032923",
+          "quote": "Europe’s largest yoga space has just opened in east London",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The studio says it was founded by yoga and movement students and is accessible to all.",
+      "source_date": "2025-02-12",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.mission-e1.com/about-us/",
+          "quote": "Founded by yoga and movement students, accessible to all",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "aliases",
+      "value": [
+        "Mission E1"
+      ],
+      "source_date": "2023-03-29",
+      "evidence": [
+        {
+          "fields": [
+            "aliases"
+          ],
+          "url": "https://www.timeout.com/london/news/europes-largest-yoga-space-has-just-opened-in-east-london-032923",
+          "quote": "Mission E1, 7-9 Fashion St, E1 6PX.",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "types",
+    "status"
+  ],
+  "notes": "Own about page (dateModified 2025-02-12) and Time Out, 29 March 2023 (press, by Alice Saville). Time Out's line on the venue's 'massive hub for fitness lovers' is not used as crowd. Class prices in the Time Out piece (£12-£25) are for the cost researcher. Yoga and movement, not music; no news of closing or renaming found."
+}

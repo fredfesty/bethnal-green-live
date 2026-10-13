@@ -1,0 +1,55 @@
+{
+  "id": "dundee-arms",
+  "name": "The Dundee Arms",
+  "about_venue_id": null,
+  "address": "The Dundee Arms, 339 Cambridge Heath Road, Bethnal Green, London, E2 9LH",
+  "postcode": "E2 9LH",
+  "website": "https://www.thedundeearms.co.uk/",
+  "found_by": "map",
+  "signal": "new",
+  "kind_hint": "pub with guest DJs and live music",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": [
+        "name",
+        "website"
+      ],
+      "url": "https://www.thedundeearms.co.uk/",
+      "quote": "The Dundee Arms - A Pub in Bethnal Green",
+      "retrieved_at": "2026-10-13T14:08:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.thedundeearms.co.uk/",
+      "quote": "The Dundee Arms, 339 Cambridge Heath Road, Bethnal Green, London, E2 9LH",
+      "retrieved_at": "2026-10-13T14:08:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://www.thedundeearms.co.uk/",
+      "quote": "Great music, guest DJs, craft beer & top games on screen.",
+      "retrieved_at": "2026-10-13T14:08:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/business/licences/alcohol_and_entertainment/Licence_applications_received_this_week.aspx",
+      "quote": "339 Cambridge Heath Road, London, E2 9LH",
+      "retrieved_at": "2026-10-13T14:08:05Z",
+      "source_kind": "directory"
+    }
+  ],
+  "found_at": "2026-10-13T14:08:05Z",
+  "notes": "Found by the map finder from the venue's own site and the Tower Hamlets register for the week to 12 October 2026, which lists a Temporary Event Notice for The Dundee Arms, 339 Cambridge Heath Road, for 31 October to 1 November 2026 (a TEN alone is not a venue; the site's DJs are the public-events evidence). The site says it is open till 1am Thursday to Saturday. Its CAMRA entry was not checked."
+}

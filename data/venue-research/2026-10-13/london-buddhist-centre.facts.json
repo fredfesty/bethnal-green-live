@@ -1,0 +1,92 @@
+{
+  "venue_id": "london-buddhist-centre",
+  "venue_name": "London Buddhist Centre",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T14:13:53Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "51 Roman Road, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.londonbuddhistcentre.com/",
+          "quote": "51 Roman rd, London, E2 0HU",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 0HU",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.londonbuddhistcentre.com/",
+          "quote": "51 Roman rd, London, E2 0HU",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.londonbuddhistcentre.com",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.londonbuddhistcentre.com/about-us/about-the-lbc",
+          "quote": "You don’t need to be a Buddhist to get involved at the LBC.",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Regular classes are free. Retreats and courses ask for a set amount when you book.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.londonbuddhistcentre.com/info/booking-policy",
+          "quote": "all our regular classes are free of charge",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.londonbuddhistcentre.com/info/booking-policy",
+          "quote": "need to ask for a certain amount when you book",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "No access statement for the Bethnal Green centre found. The only accessibility guide on the site (listed on /info/policies) is for Vajrasana Retreat Centre near Bury St Edmunds, so it is not used. The site's sitemap has no visit or access page; /access-denied was in the sitemap and was not fetched. Whole-venue capacity not stated. The booking-policy quote on retreat and course pricing is general, not a single event's price."
+}

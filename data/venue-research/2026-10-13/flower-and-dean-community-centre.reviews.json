@@ -1,0 +1,31 @@
+{
+  "venue_id": "flower-and-dean-community-centre",
+  "venue_name": "Flower and Dean Community Centre",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T14:12:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A community centre at 41 Flower and Dean Walk, E1, where Tower Hamlets Council's events calendar lists a free family creative workshop for Black History Month 2026.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+          "quote": "A free family friendly creative workshop during half-term to celebrate communities",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+          "quote": "Black History Month, Community events",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": ["crowd", "music.styles", "status", "website"],
+  "notes": "The only source is one council events page, which names the centre as the location. No website, press review or own description was found, so the summary says only what the council page shows. One WebSearch returned nothing about the centre itself."
+}

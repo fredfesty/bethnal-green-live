@@ -1,0 +1,145 @@
+{
+  "id": "numbers-wine",
+  "name": "Numbers Wine",
+  "zone": "core",
+  "types": [
+    "bar"
+  ],
+  "location": {
+    "lat": 51.534717,
+    "lon": -0.055189,
+    "distance_m": 858,
+    "source": "postcodes.io"
+  },
+  "discovered": {
+    "first_seen": "2026-10-13",
+    "found_by": [
+      "map"
+    ]
+  },
+  "address": "63 Vyner Street, London",
+  "postcode": "E2 9DQ",
+  "website": "https://www.numberswine.com/",
+  "summary": "A winery on Vyner Street, based in a former umbrella factory, that makes its wine on site. The public can drink and taste there on Fridays and Saturdays, and it hosts workshops and other events.",
+  "music": {
+    "styles": [],
+    "notes": "Events include wine workshops, film nights, chef-led dinners and Pecha Kucha."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.numberswine.com/",
+      "quote": "Londons local winery and makers of First Red since 1750",
+      "retrieved_at": "2026-10-13T14:11:43Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.numberswine.com/pages/visit",
+      "quote": "63 VYNER STREET",
+      "retrieved_at": "2026-10-13T14:11:43Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.numberswine.com/pages/visit",
+      "quote": "E2 9DQ LONDON",
+      "retrieved_at": "2026-10-13T14:11:43Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "types"
+      ],
+      "url": "https://www.numberswine.com/blogs/events",
+      "quote": "CELLAR DOOR & BAR",
+      "retrieved_at": "2026-10-13T14:09:08Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.numberswine.com/pages/about",
+      "quote": "SITUATED IN A FORMER UMBRELLA FACTORY IN THE HEART OF EAST LONDON",
+      "retrieved_at": "2026-10-13T14:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "types"
+      ],
+      "url": "https://londontheinside.com/low-intervention-english-wine-made-in-bethnal-green-neighbourhood-watch/",
+      "quote": "The winery is open to the public as a bar and tasting venue on Fridays and Saturdays",
+      "retrieved_at": "2026-10-13T14:12:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://londontheinside.com/low-intervention-english-wine-made-in-bethnal-green-neighbourhood-watch/",
+      "quote": "Hugh and Caroline vinify and bottle on-site, with production done in small batches",
+      "retrieved_at": "2026-10-13T14:12:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://londontheinside.com/low-intervention-english-wine-made-in-bethnal-green-neighbourhood-watch/",
+      "quote": "the winery plays host to a number of other events, including film nights, chef-led dinners, and Pet Nat making workshops",
+      "retrieved_at": "2026-10-13T14:12:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.numberswine.com/blogs/events",
+      "quote": "PECHA KUCHA – 5 NOVEMBER",
+      "retrieved_at": "2026-10-13T14:09:08Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T14:17:34Z",
+  "review": {
+    "checked_at": "2026-10-13T14:20:42Z",
+    "removed_fields": []
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-13T14:17:34Z",
+      "by": "venue-editor",
+      "change": "new venue, found by the map finder; profile from its own site and a London On The Inside piece (23 March 2026)"
+    },
+    {
+      "at": "2026-10-13T14:20:42Z",
+      "by": "venue-checker",
+      "change": "cut 'No music nights found' (an absence, not sourced) and 'talks' (not stated) from music.notes"
+    }
+  ]
+}

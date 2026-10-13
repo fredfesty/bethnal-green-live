@@ -2,71 +2,18 @@
   "venue_id": "dalston-superstore",
   "venue_name": "Dalston Superstore",
   "aspect": "facts",
-  "researched_at": "2026-10-13T00:36:00Z",
+  "researched_at": "2026-10-13T14:10:40Z",
   "findings": [
-    {
-      "field": "address",
-      "value": "117 Kingsland High Street, London",
-      "source_date": null,
-      "evidence": [
-        {
-          "fields": [
-            "address",
-            "postcode"
-          ],
-          "url": "https://dalstonsuperstore.com/",
-          "quote": "117 Kingsland High St London E8 2PB",
-          "retrieved_at": "2026-10-13T00:36:00Z",
-          "source_kind": "primary"
-        }
-      ]
-    },
-    {
-      "field": "postcode",
-      "value": "E8 2PB",
-      "source_date": null,
-      "evidence": [
-        {
-          "fields": [
-            "address",
-            "postcode"
-          ],
-          "url": "https://dalstonsuperstore.com/",
-          "quote": "117 Kingsland High St London E8 2PB",
-          "retrieved_at": "2026-10-13T00:36:00Z",
-          "source_kind": "primary"
-        }
-      ]
-    },
-    {
-      "field": "website",
-      "value": "https://dalstonsuperstore.com/",
-      "source_date": null,
-      "evidence": [
-        {
-          "fields": [
-            "website"
-          ],
-          "url": "https://dalstonsuperstore.com/",
-          "quote": "Home - Dalston Superstore",
-          "retrieved_at": "2026-10-13T00:36:00Z",
-          "source_kind": "primary"
-        }
-      ]
-    },
     {
       "field": "accessibility.accessible_toilet",
       "value": false,
       "source_date": "2026-08-10",
       "evidence": [
         {
-          "fields": [
-            "accessibility.accessible_toilet",
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.accessible_toilet", "accessibility.notes"],
           "url": "https://dalstonsuperstore.com/accessibility/",
           "quote": "None of the toilets are wheelchair accessible.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         }
       ]
@@ -77,141 +24,73 @@
       "source_date": "2026-08-10",
       "evidence": [
         {
-          "fields": [
-            "accessibility.access_page"
-          ],
+          "fields": ["accessibility.access_page"],
           "url": "https://dalstonsuperstore.com/accessibility/",
-          "quote": "Access Statement - Dalston Superstore",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "quote": "There is one 20 cm step up to the entrance from street level.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         }
       ]
     },
     {
       "field": "accessibility.notes",
-      "value": "A 20 cm lip at the front door can be bypassed by ramp on request, arranged with the door team. The ground-floor bar, restaurant and facilities are level. The downstairs club room, open on Friday and Saturday nights, is reached by stairs only. The only customer toilet on the ground floor is at the back; the other toilets are downstairs. None of the toilets is wheelchair accessible. PAs and access workers get in free if you email ahead. Smoke machine and strobe can be switched off on request if you tell them in advance.",
+      "value": "Inside, the ground floor is level. The basement club room, open on Friday and Saturday nights, is reached only by a spiral staircase. A ramp is available at the front door on request. PAs and access workers get free entry if they email ahead. Smoke and strobe can be switched off if asked in advance.",
       "source_date": "2026-08-10",
       "evidence": [
         {
-          "fields": [
-            "accessibility.notes"
-          ],
-          "url": "https://dalstonsuperstore.com/accessibility/",
-          "quote": "There is one 20 cm step up to the entrance from street level.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.notes", "accessibility.step_free"],
           "url": "https://dalstonsuperstore.com/accessibility/",
           "quote": "We have a ramp available, please let a member of the door team know if you would like to use the ramp.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         },
         {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.notes"],
           "url": "https://dalstonsuperstore.com/accessibility/",
           "quote": "There is level access to all facilities on this floor.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         },
         {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.notes"],
           "url": "https://dalstonsuperstore.com/accessibility/",
           "quote": "This space is accessible by stairs only.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         },
         {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.notes", "cost.notes"],
           "url": "https://dalstonsuperstore.com/accessibility/",
-          "quote": "We have one customer toilet on the ground floor at the back of the venue.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "quote": "We offer free entry for PAs or access-workers.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         },
         {
-          "fields": [
-            "accessibility.notes",
-            "cost.notes"
-          ],
+          "fields": ["accessibility.notes", "cost.notes"],
           "url": "https://dalstonsuperstore.com/accessibility/",
-          "quote": "We offer free entry for PAs or access-workers. To arrange free or concession entry, please email us ahead of your visit.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "quote": "To arrange free or concession entry, please email us ahead of your visit.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         },
         {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.notes"],
           "url": "https://dalstonsuperstore.com/accessibility/",
           "quote": "Please let us know in advance if you would like us to avoid using either/both the smoke machine and strobe light.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
-          "source_kind": "primary"
-        }
-      ]
-    },
-    {
-      "field": "cost.free_entry",
-      "value": "some-nights",
-      "source_date": "2026-08-10",
-      "evidence": [
-        {
-          "fields": [
-            "cost.free_entry",
-            "cost.notes"
-          ],
-          "url": "https://dalstonsuperstore.com/accessibility/",
-          "quote": "generally charge an entry fee between £7 – 10. It is usually free to enter before 10pm.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
-          "source_kind": "primary"
-        }
-      ]
-    },
-    {
-      "field": "cost.notes",
-      "value": "Paid club nights typically cost £7 to £10 and are usually free before 10pm. Free concession tickets are available to people on low or no income, arranged by email in advance.",
-      "source_date": "2026-08-10",
-      "evidence": [
-        {
-          "fields": [
-            "cost.notes"
-          ],
-          "url": "https://dalstonsuperstore.com/accessibility/",
-          "quote": "We offer free concession tickets if you are on low or no income.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "cost.notes"
-          ],
-          "url": "https://dalstonsuperstore.com/accessibility/",
-          "quote": "generally charge an entry fee between £7 – 10. It is usually free to enter before 10pm.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         }
       ]
     },
     {
       "field": "age_policy",
-      "value": "Security run a challenge 25 ID check at the door; no minimum age is stated.",
+      "value": "Challenge 25 at the door; security may ask for ID.",
       "source_date": "2026-08-10",
       "evidence": [
         {
-          "fields": [
-            "age_policy"
-          ],
+          "fields": ["age_policy"],
           "url": "https://dalstonsuperstore.com/accessibility/",
           "quote": "Security operate a ‘challenge 25’ policy, and may ask you for ID.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         }
       ]
@@ -222,20 +101,53 @@
       "source_date": "2026-08-10",
       "evidence": [
         {
-          "fields": [
-            "capacity"
-          ],
+          "fields": ["capacity"],
           "url": "https://dalstonsuperstore.com/accessibility/",
           "quote": "The venue can hold up to 230 people at once during a busy weekend party, across 2 floors.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.free_entry",
+      "value": "some-nights",
+      "source_date": "2026-08-10",
+      "evidence": [
+        {
+          "fields": ["cost.free_entry", "cost.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "It is usually free to enter before 10pm.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Paid club nights usually cost £7 to £10, and entry is usually free before 10pm. Free concession tickets for people on low or no income, arranged by email.",
+      "source_date": "2026-08-10",
+      "evidence": [
+        {
+          "fields": ["cost.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "generally charge an entry fee between £7 – 10.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["cost.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "We offer free concession tickets if you are on low or no income.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         }
       ]
     }
   ],
   "not_found": [
-    "accessibility.step_free",
-    "accessibility.hearing_loop"
+    "accessibility.step_free: left empty on purpose. There is one 20 cm step with a ramp on request, the ground floor is level, and the basement club is stairs only, so no plain statement covers the whole venue",
+    "accessibility.hearing_loop: not stated"
   ],
-  "notes": "Step-free is left empty: the entrance has a 20 cm step (ramp on request) and the basement club is stairs only, so no whole-building yes or no is stated. The 230 capacity is the whole venue across two floors, as the access statement says. The access statement was last changed on 10 August 2026 according to its own page data. The age check is a door ID policy, not a minimum age, so the editor should not present it as an age limit."
+  "notes": "The access statement (dateModified 2026-08-10 in its page data) was read in full and confirms the profile's accessible_toilet, access and capacity facts. The checker removed step_free; this keeps it empty because the ramp is only on request and the basement is stairs only. The statement also says the venue charges entry at the door from 10pm on Fridays and Saturdays; that detail is for the editor and is not proposed as a profile value."
 }

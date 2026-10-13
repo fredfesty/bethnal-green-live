@@ -1,0 +1,86 @@
+{
+  "id": "mission-e1",
+  "name": "Mission",
+  "zone": "fringe",
+  "address": "7-9 Fashion Street, London",
+  "postcode": "E1 6PX",
+  "website": "https://www.mission-e1.com",
+  "summary": "A yoga and movement centre at 7-9 Fashion Street, E1, which calls itself the biggest of its kind in Europe. It has five studios, two treatment rooms, a sauna and a restaurant.",
+  "music": {
+    "styles": [],
+    "notes": null
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.mission-e1.com/contact-us/",
+      "quote": "7-9 Fashion Street London E1 6PX",
+      "retrieved_at": "2026-10-13T14:13:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.mission-e1.com/about-us/",
+      "quote": "Mission was born in the middle of lockdown out of the desire to reunite communities",
+      "retrieved_at": "2026-10-13T14:13:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.mission-e1.com/about-us/",
+      "quote": "Mission is the biggest yoga and movement centre in Europe with 14,000 square feet of space housing five studios, two treatment rooms, extensive changing facilities, sauna, and a restaurant",
+      "retrieved_at": "2026-10-13T14:13:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.mission-e1.com/about-us/",
+      "quote": "Founded by yoga and movement students, accessible to all",
+      "retrieved_at": "2026-10-13T14:13:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T14:17:34Z",
+  "review": {
+    "checked_at": "2026-10-13T14:20:42Z",
+    "removed_fields": [
+      "crowd"
+    ]
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-13T14:17:34Z",
+      "by": "venue-editor",
+      "change": "first profile, from the centre's own about and contact pages; no access information found"
+    },
+    {
+      "at": "2026-10-13T14:20:42Z",
+      "by": "venue-checker",
+      "change": "emptied crowd: 'accessible to all' does not plainly say open to everyone"
+    }
+  ]
+}

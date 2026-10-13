@@ -1,0 +1,145 @@
+{
+  "venue_id": "the-divine",
+  "venue_name": "The Divine",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T14:10:40Z",
+  "findings": [
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": "2025-08",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet",
+            "accessibility.notes"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "There is a new accessible toilet on the ground floor that require a key to use.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://thedivine.co.uk/about/",
+      "source_date": "2025-08",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.access_page",
+            "accessibility.step_free"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "Sadly, The Divine is currently not fully accessible.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The ground-floor bar is level from the street, and the main door is wide enough for wheelchairs. The lower floor, where shows and discos happen, is down 17 steps with handrails, and the stage is two steps up. A small slope runs from the bar to the seating and dance area. The ground-floor accessible toilet needs a key from the bar. Email info@thedivine.co.uk before visiting to arrange seating.",
+      "source_date": "2025-08",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "The Ground floor bar is at street level and there are no steps on entry.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "The main door is wide enough to accommodate wheelchairs.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "There are 17 wide steps with slip resistant treads down to the lower level with sturdy handrails either side.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "Once in the basement, there are two steps up to the stage.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "There is a small slope from the bar area to the seating and dance area.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "Please ask the bar for use of it if you do not have your own.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "If you require further information or need to secure seating etc please email in advance: info@thedivine.co.uk",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "The main bar is free to enter on weekdays and before 10pm at weekends, with a door charge after that. Downstairs shows are ticketed.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes",
+            "cost.free_entry"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "Our main bar is free entry during the week, and free before 10pm on weekends – with a door charge kicking in after.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "Ticketed shows happen downstairs most evenings",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free: left empty on purpose. The page says the venue is not fully accessible, and the lower floor is reached only by 17 steps, so no plain statement covers the whole venue",
+    "accessibility.hearing_loop: a hearing loop is planned for the performance area, not yet in place, so the field stays empty",
+    "age_policy: not stated on the about page",
+    "capacity: not stated on the about page"
+  ],
+  "notes": "The about page carries the venue's accessibility section, marked 'Updated August 2025' on the page. It is the only access page found. The checker removed step_free; this keeps it empty. The about page is also the venue's only source for the bar's entry terms; the editor may want a What's On page check before any age policy is published."
+}

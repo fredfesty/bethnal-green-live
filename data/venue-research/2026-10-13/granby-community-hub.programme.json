@@ -1,0 +1,49 @@
+{
+  "venue_id": "granby-community-hub",
+  "venue_name": "Granby Community Hub",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T14:15:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["community-venue"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Threads-of-Heritage-Family-Craft-Session-and-Community-Celebration.aspx",
+          "quote": "Granby Community Hub 37 St Matthew's Row London E2 6D",
+          "retrieved_at": "2026-10-13T14:10:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Council-listed community events. One found: a free series of participatory family craft workshops, with a community celebration, on a Friday evening. No music nights seen.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Threads-of-Heritage-Family-Craft-Session-and-Community-Celebration.aspx",
+          "quote": "Numbi Arts CIC present a series of free participatory workshops",
+          "retrieved_at": "2026-10-13T14:10:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Threads-of-Heritage-Family-Craft-Session-and-Community-Celebration.aspx",
+          "quote": "Friday 30th October 2026 (16:00-19:00)",
+          "retrieved_at": "2026-10-13T14:10:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no music nights seen",
+    "its own website or events page: none in the lead; not searched for",
+    "postcode: the council page prints 'E2 6D', cut short, so not recorded here (facts researcher's field)"
+  ],
+  "notes": "One event on the Tower Hamlets events page: 'Threads of Heritage: Family Craft Session and Community Celebration', Fri 30 Oct 2026, 4pm to 7pm. The council page is the only source; the hub's own programme was not seen."
+}

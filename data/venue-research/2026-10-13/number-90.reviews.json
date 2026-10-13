@@ -1,0 +1,119 @@
+{
+  "venue_id": "number-90",
+  "venue_name": "Number 90",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T14:14:32Z",
+  "findings": [
+    {
+      "field": "aliases",
+      "value": [
+        "Studio 9294"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "aliases"
+          ],
+          "url": "https://www.timeout.com/london/nightlife/studio-9294",
+          "quote": "Formerly known as Studio 9294",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2025-07-14"
+    },
+    {
+      "field": "summary",
+      "value": "A canalside venue in Hackney Wick, formerly Studio 9294, with several club and live music rooms, a canal boat and a warehouse bar.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/nightlife/studio-9294",
+          "quote": "made up of four venues used for live music and club events year round",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/nightlife/studio-9294",
+          "quote": "The Mary Read Boat @No90, a 30-foot canal boat with a bar, AV and DJ decks",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/nightlife/studio-9294",
+          "quote": "the No90Bar, a vast warehouse",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://mixmag.net/read/new-450-capacity-venue-no-90-hideout-to-open-in-hackney-lab-news",
+          "quote": "Born from canalside venue Number 90 splitting into three",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2025-07-14"
+    },
+    {
+      "field": "music.notes",
+      "value": "Live music and club nights run year round across its rooms, with electronic showcases and immersive art shows too.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/nightlife/studio-9294",
+          "quote": "used for live music and club events year round",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.nightclubber.ro/news/londons-number-90-undergoes-refurbishment-and-announces-launch-party-details",
+          "quote": "including cutting-edge electronic music showcases, immersive art exhibitions",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": null
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "electronic"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.nightclubber.ro/news/londons-number-90-undergoes-refurbishment-and-announces-launch-party-details",
+          "quote": "including cutting-edge electronic music showcases, immersive art exhibitions",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": null
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "status",
+    "cost.notes",
+    "accessibility.notes"
+  ],
+  "notes": "Time Out (14 July 2025) and Mixmag (28 March 2025) show it trading under the Number 90 name, with the former Studio 9294 rooms; no closing news found. The Nightclubber article gives no date for itself, so its music claim has no source date; its launch dates point to 2023. The Number 90 rename itself is over six months old and is used for history only."
+}

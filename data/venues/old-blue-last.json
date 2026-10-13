@@ -18,7 +18,7 @@
     "accessible_toilet": null,
     "hearing_loop": null,
     "notes": "The live room is on the second floor, and parts of the pub reached by stairs have no wheelchair access. Seating is available; there is no quiet area. Ask the promoter about companion tickets, and contact the venue before visiting with access questions.",
-    "access_page": null
+    "access_page": "https://www.theoldbluelast.com/contact"
   },
   "cost": {
     "free_entry": "some-nights",
@@ -163,14 +163,33 @@
       "quote": "If you have any concerns about accessibility, please contact us before your visit",
       "retrieved_at": "2026-10-12T22:56:54Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.access_page"
+      ],
+      "url": "https://www.theoldbluelast.com/contact",
+      "quote": "Stairs & wheelchair access: Some areas of the venue are accessed by stairs and, unfortunately, there is no wheelchair access to these areas.",
+      "retrieved_at": "2026-10-13T14:10:40Z",
+      "source_kind": "primary"
     }
   ],
-  "profiled_at": "2026-10-12T23:04:43Z",
+  "profiled_at": "2026-10-13T14:17:34Z",
   "review": {
-    "checked_at": "2026-10-12T23:13:30Z",
-    "removed_fields": [
-      "accessibility.step_free"
-    ]
+    "checked_at": "2026-10-13T14:20:42Z",
+    "removed_fields": []
   },
-  "needs_review": null
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-13T14:17:34Z",
+      "by": "venue-editor",
+      "change": "filled access_page: the venue's contact page holds its only access section"
+    },
+    {
+      "at": "2026-10-13T14:20:42Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ]
 }

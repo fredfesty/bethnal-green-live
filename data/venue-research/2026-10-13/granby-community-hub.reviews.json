@@ -1,0 +1,73 @@
+{
+  "venue_id": "granby-community-hub",
+  "venue_name": "Granby Community Hub",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T14:12:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A community hub just off Bethnal Green Road, listed among Tower Hamlets Council's community hubs, with halls and rooms that local groups can book for community activities, social clubs, youth groups and celebrations.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
+          "quote": "Set just off Bethnal Green Road, Granby Community Hub is perfect for a range of activities",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
+          "quote": "To book spaces please contact the Community Booking Co-ordinator",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
+          "quote": "The versatile spaces hold events such as community activities, social clubs, youth groups, parties and celebrations.",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "Local community groups and residents use the hub, including resident associations, according to the council's page.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["crowd"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
+          "quote": "The space is available to host local community groups including events for",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["crowd"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
+          "quote": "resident associations and local residents",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "types",
+      "value": ["community-venue"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
+          "quote": "The versatile spaces hold events such as community activities, social clubs, youth groups, parties and celebrations.",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": ["music.styles", "status", "website"],
+  "notes": "Source is the council's community hub page, which lists the hub among its hubs. The council's event page for October 2026 gives a postcode cut short, so no postcode is proposed here. The hub has no website or press review found; one WebSearch returned only the council page and unrelated results."
+}

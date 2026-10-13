@@ -1,0 +1,60 @@
+{
+  "venue_id": "number-90",
+  "venue_name": "Number 90",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T14:10:40Z",
+  "findings": [
+    {
+      "field": "accessibility.access_page",
+      "value": "https://number90corporate.co.uk/further-info/",
+      "source_date": "2025-08-29",
+      "evidence": [
+        {
+          "fields": ["accessibility.access_page", "accessibility.notes"],
+          "url": "https://number90corporate.co.uk/further-info/",
+          "quote": "Please contact our team directly to discuss any specific accessibility needs.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The bar's own website gives no access details. The events site says to contact its team about access needs, that accessible parking can be arranged in advance, and that loading is at street level. Its Number 90 Lock room is described as step-free, but that is for event hire, not the public bar.",
+      "source_date": "2025-08-29",
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://number90corporate.co.uk/further-info/",
+          "quote": "While the adjacent car park is private, accessible parking can be pre-arranged with our team.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://number90corporate.co.uk/further-info/",
+          "quote": "We can also facilitate street-level loading for deliveries during setup and breakdown.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://number90corporate.co.uk/number-90-lock/",
+          "quote": "Step-free, with loading access and flexible crew timings",
+          "retrieved_at": "2026-10-13T14:10:40Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free: the only step-free statement is for the Number 90 Lock room on the events site, a hire space, so the venue field stays empty",
+    "accessibility.accessible_toilet: not stated on the bar site or the events site read",
+    "accessibility.hearing_loop: not stated",
+    "age_policy: not stated",
+    "capacity: the whole venue is not stated; the events site gives the Lock room as 180 seated and 650 standing",
+    "cost.free_entry: not stated",
+    "cost.notes: not stated"
+  ],
+  "notes": "Read the bar's homepage (number90bar.co.uk): no access page or sitemap entry for access was found there, and its homepage gives the address as '90 Wallis Road, E9 5LN London'. The events site (number90corporate.co.uk) is the only access source; its Further Info page carries the Accessibility section and says accessible parking can be arranged. The WhatPub and aggregator pages were not read for access. One WebSearch (AccessAble) found no access guide for this venue."
+}

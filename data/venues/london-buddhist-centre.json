@@ -1,0 +1,122 @@
+{
+  "id": "london-buddhist-centre",
+  "name": "London Buddhist Centre",
+  "zone": "core",
+  "address": "51 Roman Rd, London",
+  "postcode": "E2 0HU",
+  "website": "https://www.londonbuddhistcentre.com",
+  "summary": "A Buddhist centre on Roman Road, E2, that teaches meditation and Buddhism, runs yoga classes every day and holds retreats at its centre in Suffolk.",
+  "music": {
+    "styles": [],
+    "notes": null
+  },
+  "crowd": "The centre says taking part does not depend on being a Buddhist, and that most of its events suit people new to meditation or Buddhism.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": "some-nights",
+    "notes": "Regular classes are free of charge; retreats and courses ask for payment when you book."
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/",
+      "quote": "51 Roman rd, London, E2 0HU",
+      "retrieved_at": "2026-10-13T14:13:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website",
+        "crowd"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/about-us/about-the-lbc",
+      "quote": "You don’t need to be a Buddhist to get involved at the LBC.",
+      "retrieved_at": "2026-10-13T14:13:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/about-us/about-the-lbc",
+      "quote": "We teach Buddhism and meditation in a way which is relevant to contemporary life.",
+      "retrieved_at": "2026-10-13T14:13:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/about-us/about-the-lbc",
+      "quote": "In addition we run daily yoga classes",
+      "retrieved_at": "2026-10-13T14:13:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/about-us/about-the-lbc",
+      "quote": "We host regular retreats at our rural retreat centre in Suffolk.",
+      "retrieved_at": "2026-10-13T14:13:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/about-us/about-the-lbc",
+      "quote": "most of our events are suitable for those with no previous experience of meditation or Buddhism",
+      "retrieved_at": "2026-10-13T14:13:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.free_entry",
+        "cost.notes"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/info/booking-policy",
+      "quote": "all our regular classes are free of charge",
+      "retrieved_at": "2026-10-13T14:13:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/info/booking-policy",
+      "quote": "need to ask for a certain amount when you book",
+      "retrieved_at": "2026-10-13T14:13:53Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T14:17:34Z",
+  "review": {
+    "checked_at": "2026-10-13T14:20:42Z",
+    "removed_fields": []
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-13T14:17:34Z",
+      "by": "venue-editor",
+      "change": "first profile, from the centre's own site; no access information for this centre found"
+    },
+    {
+      "at": "2026-10-13T14:20:42Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ]
+}

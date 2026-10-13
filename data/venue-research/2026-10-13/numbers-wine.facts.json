@@ -1,0 +1,62 @@
+{
+  "venue_id": "numbers-wine",
+  "venue_name": "Numbers Wine",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T14:11:43Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://www.numberswine.com/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.numberswine.com/",
+          "quote": "Londons local winery and makers of First Red since 1750",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "63 Vyner Street, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.numberswine.com/pages/visit",
+          "quote": "63 VYNER STREET",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 9DQ",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.numberswine.com/pages/visit",
+          "quote": "E2 9DQ LONDON",
+          "retrieved_at": "2026-10-13T14:11:43Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page (the site has visit, contact, events and about pages, none with an access statement)",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Address and postcode from its own visit page. Its visit page gives the cellar door and bar as open Friday 4pm to 9pm and Saturday 12pm to 4pm, which is not a profile field. Its events page lists dated events (for example a workshop on 31 October 2026, priced on the page, which is one event's price and not for the profile). It says it rents the space, with events and partnerships on enquiry. No access detail was found on any page."
+}

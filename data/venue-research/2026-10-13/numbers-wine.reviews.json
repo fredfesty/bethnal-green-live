@@ -1,0 +1,73 @@
+{
+  "venue_id": "numbers-wine",
+  "venue_name": "Numbers Wine",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T14:12:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "An urban winery in a former umbrella factory on Vyner Street, making small-batch English wine on site, with a bar and tasting room open to the public on Fridays and Saturdays, and events such as film nights and workshops.",
+      "source_date": "2026-03-23",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.numberswine.com/pages/about",
+          "quote": "SITUATED IN A FORMER UMBRELLA FACTORY IN THE HEART OF EAST LONDON",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://londontheinside.com/low-intervention-english-wine-made-in-bethnal-green-neighbourhood-watch/",
+          "quote": "The winery is open to the public as a bar and tasting venue on Fridays and Saturdays",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://londontheinside.com/low-intervention-english-wine-made-in-bethnal-green-neighbourhood-watch/",
+          "quote": "Housed inside a former umbrella factory in Bethnal Green",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://londontheinside.com/low-intervention-english-wine-made-in-bethnal-green-neighbourhood-watch/",
+          "quote": "Hugh and Caroline vinify and bottle on-site, with production done in small batches",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "types",
+      "value": ["bar"],
+      "source_date": "2026-03-23",
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://londontheinside.com/low-intervention-english-wine-made-in-bethnal-green-neighbourhood-watch/",
+          "quote": "The winery is open to the public as a bar and tasting venue on Fridays and Saturdays",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Film nights, workshops and chef-led dinners, alongside its own tastings. No music is named.",
+      "source_date": "2026-03-23",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://londontheinside.com/low-intervention-english-wine-made-in-bethnal-green-neighbourhood-watch/",
+          "quote": "the winery plays host to a number of other events, including film nights, chef-led dinners, and Pet Nat making workshops",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": ["crowd", "music.styles", "status"],
+  "notes": "Only one recent press piece was found (London On The Inside, 23 March 2026); no review in a national or listings publication. The venue's own events page lists exhibitions, film nights, pecha kucha and workshops, which is for the programme researcher. Cellar door hours on its visit page are for the facts researcher."
+}

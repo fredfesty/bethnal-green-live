@@ -1,0 +1,74 @@
+{
+  "id": "bethnal-green-market",
+  "name": "Bethnal Green Market",
+  "zone": "core",
+  "address": "Bethnal Green Road, E2",
+  "postcode": null,
+  "website": null,
+  "summary": "A street market on Bethnal Green Road, E2, selling a range of goods from clothing to fruit and vegetables. Tower Hamlets Council describes the area as a major local shopping area and a social meeting place.",
+  "music": {
+    "styles": [],
+    "notes": null
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+      "quote": "Bethnal Green Road, E2",
+      "retrieved_at": "2026-10-13T14:13:53Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+      "quote": "sells a wide range of items from clothes to fruit and vegetables",
+      "retrieved_at": "2026-10-13T14:13:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+      "quote": "Bethnal Green is perhaps better known for its on-going association with boxing, but it is also a major local shopping area and an important social meeting place for the community",
+      "retrieved_at": "2026-10-13T14:13:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-13T14:17:34Z",
+  "review": {
+    "checked_at": "2026-10-13T14:20:42Z",
+    "removed_fields": []
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-13T14:17:34Z",
+      "by": "venue-editor",
+      "change": "first profile, from the council's markets page only; no website, postcode or access details found"
+    },
+    {
+      "at": "2026-10-13T14:20:42Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ]
+}

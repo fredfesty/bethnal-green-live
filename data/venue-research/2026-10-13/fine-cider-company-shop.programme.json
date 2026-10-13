@@ -1,0 +1,42 @@
+{
+  "venue_id": "fine-cider-company-shop",
+  "venue_name": "The Fine Cider Company Shop",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T14:15:00Z",
+  "findings": [
+    {
+      "field": "music.notes",
+      "value": "Booked, paid cider tastings in the shop on Fridays and Saturdays, 6.30pm to 8pm, offered as public or private sessions. Adults only (over 18s).",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
+          "quote": "Out tastings are available to book every Friday & Saturday, and always run from 6:30pm, to 8pm.",
+          "retrieved_at": "2026-10-13T14:09:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
+          "quote": "This event involves alcohol, so is strictly for over 18's only.",
+          "retrieved_at": "2026-10-13T14:09:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
+          "quote": "Tastings at The Fine Cider Company Shop",
+          "retrieved_at": "2026-10-13T14:09:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types: a cider shop that runs tastings; no type in the list fits it on a quote",
+    "music.styles: not applicable, no music nights",
+    "cost.notes: only the per-ticket price on the event page (30 GBP public tasting), no general pricing stated"
+  ],
+  "notes": "Ticket Tailor page of the organiser (read 13 Oct 2026) lists three dated tastings, each 6.30pm to 8pm: Sat 17 Oct 2026, Fri 23 Oct 2026 and Fri 30 Oct 2026 (dates from the page's event data). Its own website was not in the lead and was not searched for."
+}

@@ -2,49 +2,49 @@
   "venue_id": "bethnal-green-market",
   "venue_name": "Bethnal Green Market",
   "aspect": "reviews",
-  "researched_at": "2026-10-13T00:13:46Z",
+  "researched_at": "2026-10-13T14:13:00Z",
   "findings": [
     {
       "field": "summary",
-      "value": "Time Out reported in November 2025 a new Saturday market of six art and craft stalls outside E Pellicci on Bethnal Green Road, planned to run until 20 December.",
+      "value": "A street market on Bethnal Green Road, E2, with a mix of goods from clothing to fresh produce. The council calls the area a busy local shopping spot and a place where people meet.",
+      "source_date": null,
       "evidence": [
         {
           "fields": [
             "summary"
           ],
-          "url": "https://www.timeout.com/london/news/a-brand-new-weekend-market-has-launched-in-east-london-111425",
-          "quote": "a new Saturday market has launched in Bethnal Green, east London, with six stalls selling an array of artsy goods",
-          "retrieved_at": "2026-10-13T00:13:46Z",
-          "source_kind": "press"
+          "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+          "quote": "sells a wide range of items from clothes to fruit and vegetables",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "directory"
         },
         {
           "fields": [
             "summary"
           ],
-          "url": "https://www.timeout.com/london/news/a-brand-new-weekend-market-has-launched-in-east-london-111425",
-          "quote": "in front of legendary cafe E Pellicci on Bethnal Green Road",
-          "retrieved_at": "2026-10-13T00:13:46Z",
-          "source_kind": "press"
+          "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+          "quote": "Bethnal Green is perhaps better known for its on-going association with boxing, but it is also a major local shopping area and an important social meeting place for the community",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "directory"
         },
         {
           "fields": [
             "summary"
           ],
-          "url": "https://www.timeout.com/london/news/a-brand-new-weekend-market-has-launched-in-east-london-111425",
-          "quote": "It’ll be open every Saturday from 9am to 4pm, until December 20.",
-          "retrieved_at": "2026-10-13T00:13:46Z",
-          "source_kind": "press"
+          "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+          "quote": "Bethnal Green Road, E2",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "directory"
         }
-      ],
-      "source_date": "2025-11-14"
+      ]
     }
   ],
   "not_found": [
     "crowd",
+    "types",
     "music.styles",
     "music.notes",
-    "status",
-    "aliases"
+    "status"
   ],
-  "notes": "Only the 2025 pop-up market was found. It is an eight-week Saturday market, not clearly the same as a permanent 'Bethnal Green Market'; the editor should check the match before publishing. The Tower Hamlets council news page (November 2025) gives 10am to 4pm hours, Time Out gives 9am to 4pm; the programme or facts researcher should settle hours. Any status change would be news older than six months, so none is proposed."
+  "notes": "One council page only (markets_in_tower_hamlets.aspx, undated). It gives the hours as 'Monday to Saturday, 8am to 6pm'; that is for the facts researcher. The council page calls the area 'Bethnal Green' rather than the market's own site; the market has no website of its own found. A separate Saturday pop-up on Bethnal Green Road (outside E. Pellicci, 2025) is a different market and was not used. Press search found no review."
 }

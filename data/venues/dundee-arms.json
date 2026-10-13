@@ -1,0 +1,113 @@
+{
+  "id": "dundee-arms",
+  "name": "The Dundee Arms",
+  "zone": "core",
+  "types": [
+    "pub"
+  ],
+  "location": {
+    "lat": 51.528641,
+    "lon": -0.055923,
+    "distance_m": 196,
+    "source": "postcodes.io"
+  },
+  "discovered": {
+    "first_seen": "2026-10-13",
+    "found_by": [
+      "map"
+    ]
+  },
+  "address": "339 Cambridge Heath Road, Bethnal Green, London",
+  "postcode": "E2 9LH",
+  "website": "https://www.thedundeearms.co.uk/",
+  "summary": "A pub on Cambridge Heath Road in Bethnal Green, open since April 2015, that advertises guest DJs, craft beer and sport on screen.",
+  "music": {
+    "styles": [],
+    "notes": "The pub's site advertises music and guest DJs but names no styles or regular nights."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": false,
+    "accessible_toilet": false,
+    "hearing_loop": null,
+    "notes": "CAMRA's entry notes steps at the entrance and says the main toilets are upstairs, with no accessible toilet.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "website",
+        "types",
+        "summary"
+      ],
+      "url": "https://www.thedundeearms.co.uk/",
+      "quote": "The Dundee Arms - A Pub in Bethnal Green",
+      "retrieved_at": "2026-10-13T14:11:43Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.thedundeearms.co.uk/contact/",
+      "quote": "The Dundee Arms, 339 Cambridge Heath Road, Bethnal Green, London, E2 9LH",
+      "retrieved_at": "2026-10-13T14:11:43Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.thedundeearms.co.uk/",
+      "quote": "Open since 2nd April 2015",
+      "retrieved_at": "2026-10-13T14:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.thedundeearms.co.uk/",
+      "quote": "Great music, guest DJs, craft beer & top games on screen.",
+      "retrieved_at": "2026-10-13T14:09:08Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.accessible_toilet",
+        "accessibility.notes"
+      ],
+      "url": "https://camra.org.uk/pubs/dundee-arms-bethnal-green-155651",
+      "quote": "Steps at entrance. No accessible toilet. Main toilets are upstairs.",
+      "retrieved_at": "2026-10-13T14:11:43Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-13T14:17:34Z",
+  "review": {
+    "checked_at": "2026-10-13T14:20:42Z",
+    "removed_fields": []
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-13T14:17:34Z",
+      "by": "venue-editor",
+      "change": "new venue, found by the map finder; profile from the pub's own site and its CAMRA access entry"
+    },
+    {
+      "at": "2026-10-13T14:20:42Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "venue_id": "andsoul-sanctuary",
+  "venue_name": "AndSoul Sanctuary",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T14:13:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A wellness club on Cheshire Street, E2, with a 40-person sauna, a cold plunge, Reformer Pilates, coached classes and a café. City AM says it brands itself as a ‘social experimental wellness space’.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://andsoulsanctuary.com/",
+          "quote": "AndSoul Sanctuary is a club in Shoreditch, east London, built to support the whole you: move, recover and connect.",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://andsoulsanctuary.com/",
+          "quote": "It combines a coached class programme, a 40-person Aufguss sauna amphitheatre, a 4°C cold plunge, a Reformer Pilates studio, a movement studio and the Palm Greens café",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.cityam.com/howl-like-a-wolf-and-imitate-monkeys-and-this-new-london-spa/",
+          "quote": "brands itself as the UK’s first ‘social experimental wellness space’",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "aliases",
+      "value": [
+        "The Sanctuary & Soul",
+        "Shoreditch &Soul"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "aliases"
+          ],
+          "url": "https://andsoulsanctuary.com/",
+          "quote": "The Sanctuary & Soul",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "aliases"
+          ],
+          "url": "https://www.cityam.com/howl-like-a-wolf-and-imitate-monkeys-and-this-new-london-spa/",
+          "quote": "At new London spa Shoreditch &Soul, strangers laugh like wolves in a 40-person sauna.",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The club says visitors should come as they are. City AM describes strangers laughing together in its sauna.",
+      "source_date": "2025-06-20",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://andsoulsanctuary.com/",
+          "quote": "Come as you are and leave feeling better than when you arrived.",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.cityam.com/howl-like-a-wolf-and-imitate-monkeys-and-this-new-london-spa/",
+          "quote": "At new London spa Shoreditch &Soul, strangers laugh like wolves in a 40-person sauna.",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "City AM reports life drawing and storytelling sessions, and mini raves, held in the sauna.",
+      "source_date": "2025-06-20",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.cityam.com/howl-like-a-wolf-and-imitate-monkeys-and-this-new-london-spa/",
+          "quote": "The Sensorium hosts life drawing, storytelling and even mini raves",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "types",
+    "status"
+  ],
+  "notes": "Own FAQ on the homepage (undated) and City AM, 20 June 2025 (press). City AM says the venue 'opened this month' in June 2025; that is over six months old, so it is not news here. Site and City AM say 'Shoreditch' while the postcode is E2. The homepage JSON shows an aggregate rating (4.5 from 239), which is not quoted: it is not a source's description. The opening-hours mismatch between footer and FAQ is for the facts researcher."
+}
