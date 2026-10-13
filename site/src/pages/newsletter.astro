@@ -1,11 +1,19 @@
 ---
 import Base from "../layouts/Base.astro";
 import Subscribe from "../components/Subscribe.astro";
-import { loadIssues, isOut } from "../lib/newsletter";
-import { dayMonth } from "../lib/time";
+import { loadIssues } from "../lib/newsletter";
+import { sentIssues, nextIssue } from "../lib/archive";
+import { dayMonth, todayInLondon, weekday } from "../lib/time";
 import { rel } from "../lib/rel";
 const here = Astro.url.pathname;
-const issues = loadIssues().filter(isOut);
+const today = todayInLondon();
+const all = loadIssues();
+const sent = sentIssues(all, today);
+const upcoming = nextIssue(all, today);
+const [latest, ...older] = sent;
+const RECENT = 4; // older issues listed here; the archive page has every one
+const week = (from: string, to: string) =>
+  from.slice(0, 7) === to.slice(0, 7) ? `${Number(from.slice(8))}–${dayMonth(to)}` : `${dayMonth(from)} – ${dayMonth(to)}`;
 ---
 <Base title="Newsletter" current="newsletter" description="The best of what's on around Bethnal Green, every Thursday morning. Free.">
   <article class="prose">
@@ -18,27 +26,57 @@ const issues = loadIssues().filter(isOut);
     <p>It's free, and every event in it has been checked the same way as the listings here.</p>
   </article>
   <Subscribe />
-  {issues.length > 0 && (
-    <section class="archive" aria-labelledby="archive-title">
-      <h2 id="archive-title">Past issues</h2>
-      <ul>
-        {issues.map((i) => (
-          <li>
-            <a href={rel(here, `newsletter/${i.id}.html`)}><strong>Issue {i.issue_number}</strong> · {dayMonth(i.id)}</a>
-            <span>{i.preheader}</span>
-          </li>
-        ))}
-      </ul>
-    </section>
-  )}
+  <section class="archive" id="archive" aria-labelledby="archive-title">
+    <h2 id="archive-title">Past issues</h2>
+    {!latest ? (
+      <p class="archive__empty">
+        {upcoming
+          ? <>The first issue goes out on {`${weekday(upcoming.id)} ${dayMonth(upcoming.id)}`}. Every issue is kept here afterwards, so you can catch up on any you missed.</>
+          : <>Every issue is kept here once it has gone out, so you can catch up on any you missed.</>}
+      </p>
+    ) : (
+      <>
+        <a class="latest" href={rel(here, `newsletter/${latest.id}.html`)}>
+          <span class="latest__kicker">{`Latest · Issue ${latest.issue_number} · ${weekday(latest.id)} ${dayMonth(latest.id)}`}</span>
+          <span class="latest__title">{latest.subject}</span>
+          <span class="latest__pre">{latest.preheader}</span>
+          <span class="latest__go">Read the week of {week(latest.covers.from, latest.covers.to)}</span>
+        </a>
+        {older.length > 0 && (
+          <ul class="archive__list">
+            {older.slice(0, RECENT).map((i) => (
+              <li>
+                <a href={rel(here, `newsletter/${i.id}.html`)}><strong>Issue {i.issue_number}</strong> · {dayMonth(i.id)}</a>
+                <span>{i.subject}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+        <p class="archive__all">
+          <a href={rel(here, "newsletter/archive.html")}>{sent.length === 1 ? "The archive" : `All ${sent.length} past issues`}</a>
+        </p>
+      </>
+    )}
+  </section>
 </Base>
 
 <style>
   .archive { max-width: 44rem; margin-top: 3rem; }
   .archive h2 { font-size: 1.35rem; font-weight: 700; }
-  .archive ul { list-style: none; margin: 0.75rem 0 0; padding: 0; }
-  .archive li { padding: 0.75rem 0; border-top: 1px solid var(--rule); }
-  .archive li:first-child { border-top: 0; }
-  .archive a { color: var(--ink); text-decoration-color: var(--rule); }
-  .archive span { display: block; color: var(--muted); font-size: 0.95rem; margin-top: 0.15rem; }
+  .archive__empty { color: var(--muted); max-width: 62ch; }
+
+  .latest { display: block; margin-top: 0.9rem; background: var(--plate); border: 1.5px solid #000; border-radius: 8px; padding: 1.1rem 1.25rem; color: var(--ink); text-decoration: none; }
+  .latest span { display: block; }
+  .latest__kicker { color: var(--muted); font-weight: 650; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.8rem; }
+  .latest__title { margin-top: 0.35rem; font-size: 1.3rem; font-weight: 750; font-variation-settings: "wdth" 85; line-height: 1.25; }
+  .latest__pre { margin-top: 0.4rem; color: var(--muted); line-height: 1.5; }
+  .latest__go { margin-top: 0.6rem; font-weight: 650; color: var(--green); text-decoration: underline; text-decoration-color: var(--green-tint); }
+  .latest:hover .latest__go { text-decoration-color: var(--green); }
+
+  .archive__list { list-style: none; margin: 0.75rem 0 0; padding: 0; }
+  .archive__list li { padding: 0.75rem 0; border-top: 1px solid var(--rule); }
+  .archive__list li:first-child { border-top: 0; }
+  .archive__list a { color: var(--ink); text-decoration-color: var(--rule); }
+  .archive__list span { display: block; color: var(--muted); font-size: 0.95rem; margin-top: 0.15rem; }
+  .archive__all { margin: 0.9rem 0 0; font-weight: 650; }
 </style>

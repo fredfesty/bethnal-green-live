@@ -34,6 +34,9 @@ jobs:
           cache-dependency-path: site/package-lock.json
       - run: npm ci
         working-directory: site
+      - name: Unit tests
+        run: npm test
+        working-directory: site
       - name: Check the preview build (sample events)
         run: npm run build:demo
         working-directory: site

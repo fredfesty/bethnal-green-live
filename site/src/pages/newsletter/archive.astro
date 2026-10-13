@@ -1,0 +1,83 @@
+---
+// Every newsletter issue that has gone out, newest first, grouped by the month it was sent.
+import Base from "../../layouts/Base.astro";
+import Subscribe from "../../components/Subscribe.astro";
+import { loadIssues } from "../../lib/newsletter";
+import { sentIssues, nextIssue, groupByMonth } from "../../lib/archive";
+import { dayMonth, monthYear, todayInLondon, weekday, weekdayShort } from "../../lib/time";
+import { rel } from "../../lib/rel";
+
+const here = Astro.url.pathname;
+const today = todayInLondon();
+const all = loadIssues();
+const sent = sentIssues(all, today);
+const upcoming = nextIssue(all, today);
+const months = groupByMonth(sent);
+const week = (from: string, to: string) =>
+  from.slice(0, 7) === to.slice(0, 7) ? `${Number(from.slice(8))}–${dayMonth(to)}` : `${dayMonth(from)} – ${dayMonth(to)}`;
+---
+<Base title="Newsletter archive" current="newsletter" description="Every past issue of the Bethnal Green Live newsletter, newest first.">
+  <article class="archive-page">
+    <p class="kicker"><a href={rel(here, "newsletter.html")}>The newsletter</a> · Archive</p>
+    <h1>Past issues</h1>
+    {sent.length === 0 ? (
+      <p class="lede">
+        {upcoming
+          ? <>Nothing here yet: the first issue goes out on {`${weekday(upcoming.id)} ${dayMonth(upcoming.id)}`}.</>
+          : <>Nothing here yet. Issues appear here once they have gone out.</>}
+      </p>
+    ) : (
+      <p class="lede">
+        {sent.length === 1 ? "One issue so far" : `${sent.length} issues so far`}, newest first. Each is shown as it was
+        sent; for what's on now, see <a href={rel(here, "index.html")}>the listings</a>.
+      </p>
+    )}
+
+    {months.map((m) => (
+      <section class="month" aria-labelledby={`m-${m.month}`}>
+        <h2 id={`m-${m.month}`}>{monthYear(`${m.month}-01`)}</h2>
+        <ol class="issues">
+          {m.issues.map((i) => (
+            <li class="issue-row">
+              <p class="issue-row__when">
+                <span class="issue-row__num">No. {i.issue_number}</span>
+                <span>{`${weekdayShort(i.id)} ${Number(i.id.slice(8))}`}</span>
+              </p>
+              <div>
+                <a class="issue-row__title" href={rel(here, `newsletter/${i.id}.html`)}>{i.subject}</a>
+                <p class="issue-row__pre">{i.preheader}</p>
+                <p class="issue-row__week">The week of {week(i.covers.from, i.covers.to)}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))}
+  </article>
+  <Subscribe />
+</Base>
+
+<style>
+  .archive-page { max-width: 46rem; }
+  .kicker { margin: 1.25rem 0 0; color: var(--muted); font-weight: 650; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.85rem; }
+  .kicker a { color: inherit; }
+  .archive-page h1 { font-size: clamp(2rem, 5vw, 2.8rem); font-variation-settings: "wdth" 80; font-weight: 750; margin: 0.35rem 0 0.75rem; }
+  .lede { color: var(--muted); max-width: 62ch; margin: 0; }
+
+  .month { margin-top: 2.25rem; }
+  .month h2 {
+    font-size: 1.35rem; font-variation-settings: "wdth" 75; font-weight: 800; text-transform: uppercase;
+    letter-spacing: 0.01em; padding-bottom: 0.4rem; border-bottom: 3px solid var(--ink);
+  }
+  .issues { list-style: none; margin: 0.25rem 0 0; padding: 0; }
+  .issue-row { display: grid; grid-template-columns: 4.6rem 1fr; gap: 0 1rem; padding: 0.9rem 0; border-top: 1px solid var(--rule); }
+  .issue-row:first-child { border-top: 0; }
+  .issue-row p { margin: 0; }
+  .issue-row__when { font-weight: 800; font-variation-settings: "wdth" 75; font-size: 1.05rem; line-height: 1.25; }
+  .issue-row__when span { display: block; }
+  .issue-row__when .issue-row__num { color: var(--muted); font-weight: 650; font-size: 0.9rem; }
+  .issue-row__title { color: var(--ink); font-weight: 700; font-size: 1.1rem; line-height: 1.3; text-decoration: none; }
+  .issue-row__title:hover { text-decoration: underline; text-decoration-color: var(--green); }
+  .issue-row__pre { margin-top: 0.3rem !important; line-height: 1.5; max-width: 62ch; }
+  .issue-row__week { margin-top: 0.25rem !important; color: var(--muted); font-size: 0.92rem; }
+</style>
