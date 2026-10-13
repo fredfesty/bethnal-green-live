@@ -3,24 +3,26 @@ import Base from "../../layouts/Base.astro";
 import Subscribe from "../../components/Subscribe.astro";
 import { loadIssues, isOut, resolveSections, type Issue } from "../../lib/newsletter";
 import { kindLabel, STATUS } from "../../lib/labels";
-import { weekdayShort, dayMonthShort, timeRange, dayMonth, hasTime, clock } from "../../lib/time";
+import { neighbours } from "../../lib/archive";
+import { weekdayShort, dayMonthShort, timeRange, dayMonth, hasTime, clock, todayInLondon, weekLabel } from "../../lib/time";
 import { rel } from "../../lib/rel";
 
 export function getStaticPaths() {
-  return loadIssues().map((i) => ({ params: { issue: i.id }, props: { i } }));
+  const issues = loadIssues();
+  const today = todayInLondon();
+  return issues.map((i) => ({ params: { issue: i.id }, props: { i, ...neighbours(issues, i.id, today) } }));
 }
 
-const { i } = Astro.props as { i: Issue };
+const { i, older, newer } = Astro.props as { i: Issue; older: Issue | null; newer: Issue | null };
 const here = Astro.url.pathname;
 const sections = resolveSections(i);
 const preview = !isOut(i);
-const from = i.covers.from, to = i.covers.to;
-const week = from.slice(0, 7) === to.slice(0, 7) ? `${Number(from.slice(8))}–${dayMonth(to)}` : `${dayMonth(from)} – ${dayMonth(to)}`;
+const week = weekLabel(i.covers.from, i.covers.to);
 ---
 <Base title={`Issue ${i.issue_number}: ${week}`} current="newsletter" description={i.preheader} noindex={preview}>
   <article class="issue">
     {preview && <p class="issue__preview" role="note">Preview: this issue goes out on {dayMonth(i.id)}.</p>}
-    <p class="issue__kicker"><a href={rel(here, "newsletter.html")}>The newsletter</a> · Issue {i.issue_number}</p>
+    <p class="issue__kicker"><a href={rel(here, "newsletter.html")}>The newsletter</a> · {!preview && <><a href={rel(here, "newsletter/archive.html")}>Archive</a> · </>}Issue {i.issue_number}</p>
     <h1>What's on {week}</h1>
 
     {i.intro && (
@@ -42,8 +44,8 @@ const week = from.slice(0, 7) === to.slice(0, 7) ? `${Number(from.slice(8))}–$
             {s.entries.map(({ item, e }) => (
               <li class="row">
                 <p class="row__when">{e.isRun
-                  ? <>Until<span>{weekdayShort(e.until)} {Number(e.until.slice(8))}</span></>
-                  : <>{weekdayShort(e.date)} {Number(e.date.slice(8))}<span>{hasTime(e.starts_at) ? clock(e.starts_at) : "tbc"}</span></>}</p>
+                  ? <>Until<span>{`${weekdayShort(e.until)} ${Number(e.until.slice(8))}`}</span></>
+                  : <>{`${weekdayShort(e.date)} ${Number(e.date.slice(8))}`}<span>{hasTime(e.starts_at) ? clock(e.starts_at) : "tbc"}</span></>}</p>
                 <p class="row__what">
                   <a href={rel(here, `events/${e.id}.html`)}>{item.headline || e.title}</a>
                   {STATUS[e.status] && <span class="entry__status">{STATUS[e.status]}</span>}
@@ -63,8 +65,8 @@ const week = from.slice(0, 7) === to.slice(0, 7) ? `${Number(from.slice(8))}–$
                 {item.headline && <p class="entry__real">{e.title}</p>}
                 <p class="entry__facts">
                   {e.isRun
-                    ? <>Until {weekdayShort(e.until)} {dayMonthShort(e.until)}{e.run_schedule && ` (${e.run_schedule})`}</>
-                    : <>{weekdayShort(e.date)} {dayMonthShort(e.date)} · {timeRange(e.starts_at, e.ends_at)}</>} · {e.venue.name} · {e.priceLabel}
+                    ? <>{`Until ${weekdayShort(e.until)} ${dayMonthShort(e.until)}${e.run_schedule ? ` (${e.run_schedule})` : ""}`}</>
+                    : <>{`${weekdayShort(e.date)} ${dayMonthShort(e.date)} · ${timeRange(e.starts_at, e.ends_at)}`}</>} · {e.venue.name} · {e.priceLabel}
                   <span class="entry__kind"> · {kindLabel(e)}</span>
                 </p>
                 {item.blurb && <p class="entry__blurb">{item.blurb}</p>}
@@ -84,6 +86,18 @@ const week = from.slice(0, 7) === to.slice(0, 7) ? `${Number(from.slice(8))}–$
       Plans change, so check the ticket page before you head out. This is the issue as it was sent; for what's on now,
       see <a href={rel(here, "index.html")}>the listings</a>.
     </p>
+
+    {!preview && (
+      <nav class="issue-nav" aria-label="Other issues">
+        {older
+          ? <a class="issue-nav__older" href={rel(here, `newsletter/${older.id}.html`)} rel="prev"><span><span aria-hidden="true">‹ </span>Previous</span>Issue {older.issue_number} · {dayMonth(older.id)}</a>
+          : <span />}
+        <a class="issue-nav__all" href={rel(here, "newsletter/archive.html")}>All past issues</a>
+        {newer
+          ? <a class="issue-nav__newer" href={rel(here, `newsletter/${newer.id}.html`)} rel="next"><span>Next<span aria-hidden="true"> ›</span></span>Issue {newer.issue_number} · {dayMonth(newer.id)}</a>
+          : <span />}
+      </nav>
+    )}
   </article>
   <Subscribe />
 </Base>
@@ -138,4 +152,15 @@ const week = from.slice(0, 7) === to.slice(0, 7) ? `${Number(from.slice(8))}–$
   .entry--list:first-child { border-top: 0; }
 
   .issue__small { margin-top: 2.5rem; color: var(--muted); font-size: 0.95rem; max-width: 62ch; }
+
+  .issue-nav { display: grid; grid-template-columns: 1fr auto 1fr; align-items: end; gap: 1rem; margin-top: 2rem; padding-top: 1rem; border-top: 3px solid var(--ink); font-weight: 650; }
+  .issue-nav a { color: var(--ink); text-decoration-color: var(--rule); }
+  .issue-nav a:hover { text-decoration-color: var(--green); }
+  .issue-nav > a > span { display: block; color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  .issue-nav__all { text-align: center; }
+  .issue-nav__newer { text-align: right; }
+  @media (max-width: 34rem) {
+    .issue-nav { grid-template-columns: 1fr 1fr; }
+    .issue-nav__all { grid-column: 1 / -1; grid-row: 2; }
+  }
 </style>

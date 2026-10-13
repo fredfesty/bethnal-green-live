@@ -10,7 +10,9 @@ name: Newsletter pull request
 
 on:
   push:
-    branches: ["claude/newsletter-*"]
+    # Only the weekly run's branches, claude/newsletter-<issue-date>[-2, -3, …], so a hand-made branch such as
+    # claude/newsletter-archive-… isn't mistaken for an issue.
+    branches: ["claude/newsletter-[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]*"]
 
 permissions:
   contents: write

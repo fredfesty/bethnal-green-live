@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "build:demo": "BGL_DEMO=1 astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "test": "node --test --experimental-strip-types \"tests/**/*.test.ts\""
   },
   "dependencies": {
     "astro": "5.18.2"

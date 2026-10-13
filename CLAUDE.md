@@ -78,4 +78,5 @@ python scripts/newsletter.py render data/newsletter/issues/<issue-date>.json --f
 python scripts/check_quote.py --file <files…>
 python scripts/page_text.py <url> [--find "words"]
 python -m pytest -q
+(cd site && npm test)
 ```

@@ -44,6 +44,11 @@ export const dayMonthShort = (d: string) => dateFmt(d, { day: "numeric", month: 
 export const monthYear = (d: string) => dateFmt(d, { month: "long", year: "numeric" });
 export const longDate = (d: string) => dateFmt(d, { weekday: "long", day: "numeric", month: "long", year: "numeric" });
 
+/** The week an issue covers: "15–21 October", or "29 October – 4 November" across a month end. */
+export function weekLabel(from: string, to: string): string {
+  return from.slice(0, 7) === to.slice(0, 7) ? `${Number(from.slice(8))}–${dayMonth(to)}` : `${dayMonth(from)} – ${dayMonth(to)}`;
+}
+
 export function addDays(d: string, n: number): string {
   const t = new Date(`${d}T12:00:00Z`);
   t.setUTCDate(t.getUTCDate() + n);
