@@ -100,7 +100,7 @@ function enrich(e: RawEvent, venues: Map<string, any>): SiteEvent {
     group: typeGroup(e),
     priceLabel: priceLabel(e.price),
     priceFilter: !e.price.known ? "unknown" : e.price.is_free ? "free" : String(e.price.min_gbp ?? "unknown"),
-    searchText: [e.title, venue.name, kindLabel(e), ...(e.lineup ?? []), ...(e.genres ?? [])].join(" ").toLowerCase(),
+    searchText: [e.title, venue.name, kindLabel(e), ...(e.lineup ?? []), ...(e.genres ?? []), e.listing?.blurb ?? ""].join(" ").toLowerCase(),
     sources,
   };
 }

@@ -33,6 +33,16 @@ const free = { known: true, is_free: true, min_gbp: 0, max_gbp: null, notes: nul
 const gbp = (min: number, max: number | null = null, notes: string | null = null) => ({ known: true, is_free: false, min_gbp: min, max_gbp: max, notes });
 const unknown = { known: false, is_free: null, min_gbp: null, max_gbp: null, notes: null };
 
+// Sample short descriptions, so previews show what the listing writer's text looks like.
+const BLURBS: Record<string, string> = {
+  "Jazz jam at the Finch": "A weekly jazz jam in the pub's back room, with The House Trio setting the tunes and anyone with an instrument welcome to sit in.",
+  "Low Light": "Disco and house under the railway arches, with DJ Placeholder and Sample Selector sharing the decks until late.",
+  "Small Hours: photographs of the night bus": "An exhibition of photographs taken on London's night buses, free to wander round on any afternoon it's open.",
+  "Autumn supper club": "A sit-down autumn dinner cooked by Chef Example in the arches: one long table, one set menu.",
+};
+const listingFor = (title: string, today: string) =>
+  BLURBS[title] ? { headline: null, blurb: BLURBS[title], written_at: `${today}T07:30:00+01:00`, run_id: "demo" } : null;
+
 export function demoEvents(today: string): RawEvent[] {
   const rows: [number, string, string | null, V, string, string, string, any, string[], string[], string?, string?][] = [
     // dayOffset, start, end, venue, title, category, subcategory, price, lineup, genres, status, recurrence
@@ -79,7 +89,7 @@ export function demoEvents(today: string): RawEvent[] {
       age_restriction: null, accessibility: null, status: "scheduled",
       evidence: [{ fields: ["title", "starts_at", "ends_at", "venue", "price"], url, quote: "(sample event)", retrieved_at: `${today}T07:00:00+01:00`, source_kind: "primary" }],
       verification: { verified_at: `${today}T07:20:00+01:00`, outcome: "verified", removed_fields: [] },
-      listing: null, needs_review: null, updated_at: `${today}T07:20:00+01:00`,
+      listing: listingFor(title, today), needs_review: null, updated_at: `${today}T07:20:00+01:00`,
     } as RawEvent;
   });
   return runEvents.concat(rows.map(([d, start, end, v, title, category, subcategory, price, lineup, genres, status = "scheduled", recurrence = null], i) => {
@@ -103,7 +113,7 @@ export function demoEvents(today: string): RawEvent[] {
       status,
       evidence: [{ fields: ["title", "starts_at", "venue", "price"], url, quote: "(sample event)", retrieved_at: `${today}T07:00:00+01:00`, source_kind: "primary" }],
       verification: { verified_at: `${today}T07:20:00+01:00`, outcome: "verified", removed_fields: [] },
-      listing: null,
+      listing: listingFor(title, today),
       needs_review: null,
       updated_at: `${today}T07:20:00+01:00`,
     } as RawEvent;

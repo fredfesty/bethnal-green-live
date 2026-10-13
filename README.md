@@ -2,7 +2,7 @@
 
 What's on around Bethnal Green, London E2: a listings website and a weekly newsletter, researched by Claude agents and checked by people. Inspired by Peckham.Live.
 
-**Status:** the data formats, the checking scripts, the daily events run (scouts for nights & music, arts, food & drink and community, and the verifier), the weekly venue run (three finders, three researchers, an editor and a checker), the venue profiler, the website (with its Venues guide) and the weekly newsletter (an AI editor that lays it out and an intro writer for Fred's letter) are in place. Organiser profiles and the listing writer come next. See the blueprint doc in the Bethnal Green Live project for the full plan.
+**Status:** the data formats, the checking scripts, the daily events run (scouts for nights & music, arts, food & drink and community, and the verifier), the weekly venue run (three finders, three researchers, an editor and a checker), the venue profiler, the website (with its Venues guide) and the weekly newsletter (an AI editor that lays it out and an intro writer for Fred's letter) are in place. The listing writer adds a short description to every published event. Organiser profiles come next. See the blueprint doc in the Bethnal Green Live project for the full plan.
 
 ## How it works
 
@@ -16,7 +16,7 @@ sources ──► scouts ──► data/candidates ──► verifier ──► 
 
 1. **Scouts** (one per category) find events and save each as a *candidate*, with a word-for-word quote and link for every fact.
 2. The **verifier** re-opens every cited page, confirms each quote and what it says, and decides: publish, hold for a person, or reject. Every decision is saved in `data/verification/`.
-3. Published events land in `data/events/YYYY-MM/`. The website and newsletter read only from there.
+3. Published events land in `data/events/YYYY-MM/`. The website and newsletter read only from there. The **listing writer** then adds a line or two in our own words to each one, built only from its checked facts.
 4. Everything arrives as a **pull request**. A person merges it. CI re-checks every file first.
 5. Once a week the **newsletter editor** lays out Thursday's issue from those events, and the **intro writer** adds Fred's letter. Fred reads it in the pull request and sends it from Buttondown.
 
@@ -26,7 +26,7 @@ The events agents run every morning as a Claude scheduled task; settings and pro
 
 | Path | What's there |
 | --- | --- |
-| `.claude/agents/` | Agent instructions: `scout-nights-music.md`, `scout-arts.md`, `scout-food-drink.md`, `scout-community.md`, `verifier.md`, the weekly venue team (`venue-finder-*`, `venue-researcher-*`, `venue-editor`, `venue-checker`), `venue-profiler.md`, `newsletter-editor.md` and `newsletter-intro.md` |
+| `.claude/agents/` | Agent instructions: `scout-nights-music.md`, `scout-arts.md`, `scout-food-drink.md`, `scout-community.md`, `verifier.md`, the weekly venue team (`venue-finder-*`, `venue-researcher-*`, `venue-editor`, `venue-checker`), `venue-profiler.md`, `listing-writer.md`, `newsletter-editor.md` and `newsletter-intro.md` |
 | `docs/scout-rules.md` | Rules every scout follows |
 | `schemas/` | Data formats: candidate, verification record, event, venue profile, shared parts |
 | `data/sources/` | Per-category venue and platform registry (zones, watchlist, closed venues) |

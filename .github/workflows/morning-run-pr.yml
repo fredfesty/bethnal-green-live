@@ -2,7 +2,7 @@ name: Morning run pull request
 
 # When a morning run pushes its branch (claude/morning-run-<date>), this workflow:
 #   1. re-runs every check on GitHub's machines (tests + data validation + site build),
-#   2. opens the pull request, with the verifier's and scout's run reports as its description,
+#   2. opens the pull request, with the verifier's, scouts' and listing writer's run reports as its description,
 #   3. merges it if the repository variable AUTO_MERGE is "true" and every check passed,
 #   4. starts the Website workflow so the site republishes straight away.
 #
@@ -61,8 +61,11 @@ jobs:
             for f in data/runs/*/"${DATE}".md; do
               [ -f "$f" ] || continue
               agent="$(basename "$(dirname "$f")")"
-              case "$agent" in verifier|setup) continue ;; esac
-              echo "## Scout's report: ${agent}"; echo; cat "$f"; echo
+              case "$agent" in
+                verifier|setup) continue ;;
+                listing-writer) echo "## Listing writer's report"; echo; cat "$f"; echo ;;
+                *) echo "## Scout's report: ${agent}"; echo; cat "$f"; echo ;;
+              esac
             done
             echo
             echo "🤖 Generated with [Claude Code](https://claude.com/claude-code)"

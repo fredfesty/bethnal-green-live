@@ -470,3 +470,55 @@ def test_findings_rules(validators):
     assert has(errs, "name should be troxy.reviews.json")
     assert has(errs, "no evidence item names 'crowd'")
     assert has(errs, "copies the source word for word")
+
+
+# ============================================================= the short description ('listing')
+
+def with_listing(blurb, headline=None):
+    d = copy.deepcopy(load(EX_EVENT))
+    d["listing"] = {"headline": headline, "blurb": blurb, "written_at": "2026-10-13T07:40:00+01:00", "run_id": "2026-10-13-lw"}
+    return d
+
+
+GOOD_BLURB = ("Disco and house into the small hours at the working men's club, with DJ Example on the decks and a "
+              "live set from Example Live Act. A proper Friday night out.")
+
+
+def test_good_listing_passes(validators):
+    assert errors("events", with_listing(GOOD_BLURB), validators, path=EX_EVENT) == []
+
+
+@pytest.mark.parametrize("blurb, expected", [
+    ("A club night.", "keep it to one or two sentences"),
+    ("x " * 200, "keep it to one or two sentences"),
+    ("Disco and house all night, and entry is £5 if you get there before the rush.", "which no checked price says"),
+    ("Disco and house all night, with the doors opening at 10pm for the early crowd.", "isn't a checked start or end time"),
+    ("Disco and house all night: a good way to see out a Sunday in Bethnal Green.", "it's on a Friday"),
+    ("Disco and house all night, and it's free, so there's no excuse not to drop in.", "checked price isn't free"),
+    ("Disco and house at the club, and early bird £8, general admission £12, only a few left.", "copies a source word for word"),
+    ("Disco and house in an iconic East End room, with a live set to break up the night.", "advert language"),
+    ("Disco and house in the club's main hall tonight, with a live set to break up the night.", "depends on the day"),
+    ("Disco and house in the club's main hall, and it's nearly sold out, so book a ticket soon.", "ticket status"),
+    ("We went last year and danced till close: disco and house with a live set halfway through.", "first-hand"),
+    ("Disco! House! A live set! All in the club's main hall, from start to finish, for one night.", "exclamation mark"),
+])
+def test_listing_rules(validators, blurb, expected):
+    errs = errors("events", with_listing(blurb), validators, path=EX_EVENT)
+    assert has(errs, expected), errs
+
+
+def test_listing_headline_is_checked_too(validators):
+    errs = errors("events", with_listing(GOOD_BLURB, headline="An unmissable disco"), validators, path=EX_EVENT)
+    assert has(errs, "listing.headline: 'unmissable' is advert language"), errs
+
+
+def test_listing_may_repeat_names_and_matching_facts(validators):
+    blurb = ("EXAMPLE NIGHT (illustrative only) brings DJ Example and Example Live Act to Bethnal Green Working Men's Club "
+             "on a Friday, from 9pm, with early-bird tickets at £8.")
+    assert errors("events", with_listing(blurb), validators, path=EX_EVENT) == []
+
+
+def test_empty_listing_is_fine(validators):
+    d = copy.deepcopy(load(EX_EVENT))
+    d["listing"] = None
+    assert errors("events", d, validators, path=EX_EVENT) == []

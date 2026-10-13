@@ -24,9 +24,10 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 | Venue editor (weekly, Sonnet) | `.claude/agents/venue-editor.md` | `data/venues/`, `data/runs/venue-editor/` |
 | Venue checker (weekly, Sonnet) | `.claude/agents/venue-checker.md` | `review`, `needs_review` and `history` in `data/venues/` |
 | Venue profiler (one-off profiling by hand) | `.claude/agents/venue-profiler.md` | `data/venues/`, `data/runs/venue-profiler/` |
+| Listing writer (Sonnet) | `.claude/agents/listing-writer.md` | the `listing` block of `data/events/` files only, `data/runs/listing-writer/` |
 | Newsletter editor (Sonnet) | `.claude/agents/newsletter-editor.md` | `data/newsletter/issues/<issue-date>.json` (all but `intro`), `data/runs/newsletter/` |
 | Newsletter intro writer (Opus) | `.claude/agents/newsletter-intro.md` | the `intro` of that issue file only, plus one line in its run report |
-| Organiser profiler, listing writer, QA | not yet written | — |
+| Organiser profiler, QA | not yet written | — |
 | (people only) | — | `data/newsletter/voice.md` and `data/newsletter/notes/` — what Fred's letter may say about him |
 | (people only) | — | `site/` — the website. Agents never edit it during scheduled runs. |
 
@@ -38,6 +39,7 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 - `data/venues/<venue-id>.json` — venue profiles: what it's like, music, crowd, access, cost, each fact quoted. The site shows one only after an independent `review` newer than its `profiled_at`, and while `needs_review` is empty. Venues the weekly run finds live only here (not in `data/sources/`) and carry their own types, zone and location; scouts list events at them too.
 - `data/venue-leads/<date>/` and `data/venue-research/<date>/` — the weekly venue run's leads and research findings (`docs/venue-run.md`). `scripts/venue_triage.py` chooses what gets researched; `scripts/zone.py` places a postcode; `scripts/places_search.py` uses Google's Places API when `GOOGLE_MAPS_API_KEY` is set (never open Google Maps pages, never store Google's details).
 - `data/newsletter/issues/<issue-date>.json` — one weekly issue (the Thursday it goes out): which verified events, in which sections and layouts, with what words, and Fred's letter. It holds no event facts; they're read from `data/events/` when it's rendered. `scripts/newsletter.py` lists the week's events for the editor and renders an issue as email HTML or Markdown.
+- `listing` in an event file — the short description shown with it on the site, written by the listing writer from checked facts only (`scripts/listings.py todo` lists what it may use). The verifier empties it when a fact it mentions changes.
 - `data/runs/<agent>/<date>.md` — each run's report for a person.
 - `data/inbox/tips/` — reader tips waiting to be checked.
 - `scripts/validate.py` — format and house-rule checks. `scripts/check_quote.py` — re-fetches a page and looks for a quote. `scripts/page_text.py` — prints a page's exact text for quoting (scouts read pages with this, never with a summarising reader).
@@ -70,6 +72,7 @@ python scripts/validate.py newsletter data/newsletter/issues/<issue-date>.json -
 python scripts/validate.py all
 python scripts/venue_triage.py <date>
 python scripts/zone.py "<postcode>"
+python scripts/listings.py todo --date <run-date>
 python scripts/newsletter.py week <issue-date>
 python scripts/newsletter.py render data/newsletter/issues/<issue-date>.json --format md
 python scripts/check_quote.py --file <files…>

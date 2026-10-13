@@ -51,7 +51,7 @@ const fixHref = !mail ? null : mail.includes("@")
   ? `mailto:${mail}?subject=${encodeURIComponent(`Correction: ${e.title} (${e.date})`)}&body=${encodeURIComponent(`Listing: ${pageUrl}\n\nWhat's wrong:\n`)}`
   : mail;
 ---
-<Base title={e.title} description={e.isRun ? `${kind} at ${e.venue.name}, until ${dayMonth(e.until)}. ${e.priceLabel}.` : `${kind} at ${e.venue.name}, ${weekday(e.date)} ${dayMonth(e.date)}. ${e.priceLabel}.`} jsonld={jsonld}>
+<Base title={e.title} description={e.listing?.blurb ? e.listing.blurb : e.isRun ? `${kind} at ${e.venue.name}, until ${dayMonth(e.until)}. ${e.priceLabel}.` : `${kind} at ${e.venue.name}, ${weekday(e.date)} ${dayMonth(e.date)}. ${e.priceLabel}.`} jsonld={jsonld}>
   <article class="ev">
     <p class="ev__back"><a href={rel(here, "index.html")}>Back to all listings</a></p>
 
@@ -64,6 +64,7 @@ const fixHref = !mail ? null : mail.includes("@")
 
     <h1>{e.title}</h1>
     <p class="ev__kind">{kind} at <a href={rel(here, vpath)}>{e.venue.name}</a></p>
+    {e.listing?.blurb && <p class="ev__blurb">{e.listing.blurb}</p>}
 
     {STATUS[e.status] && (
       <p class:list={["ev__status", `ev__status--${e.status}`]} role="status">
@@ -107,8 +108,6 @@ const fixHref = !mail ? null : mail.includes("@")
       </div>
     </div>
 
-    {e.listing?.blurb && <p class="ev__blurb">{e.listing.blurb}</p>}
-
     <section class="ev__checked" aria-labelledby="checked">
       <h2 id="checked">How we checked this</h2>
       <p>
@@ -143,7 +142,7 @@ const fixHref = !mail ? null : mail.includes("@")
   .ev__facts dd { margin: 0; }
   .ev__note { color: var(--muted); font-size: 0.95rem; }
   .ev__actions { display: grid; gap: 0.6rem; min-width: 13rem; }
-  .ev__blurb { margin: 2rem 0 0; font-size: 1.1rem; max-width: var(--measure); }
+  .ev__blurb { margin: 1rem 0 0; font-size: 1.15rem; line-height: 1.5; max-width: var(--measure); }
   .ev__checked { margin-top: 2.5rem; padding: 1.1rem 1.25rem; background: var(--green-tint); border-radius: 8px; max-width: 46rem; }
   .ev__checked h2 { font-size: 1.05rem; }
   .ev__checked p { margin: 0.5rem 0 0; }
