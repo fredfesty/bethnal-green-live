@@ -121,7 +121,12 @@
     "record": "data/verification/2026-10-13/2026-08-01-young-va-send-play-august-dec-2026.json"
   },
   "editor_note": "A free, relaxed play session designed for children with sensory differences or SEND, with step-free access.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A family play session at Young V&A that comes round on the first Saturday of each month, with sessions continuing until early December.",
+    "written_at": "2026-10-13T01:50:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

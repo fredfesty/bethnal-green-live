@@ -58,7 +58,12 @@
     "record": "data/verification/2026-10-13/2026-10-09-carlos-ishikawa-black-painter-white-figuration.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "An exhibition of work by Maxwell Alexandre at Carlos/Ishikawa, on until late November. A walk out from Bethnal Green, and a good excuse for a longer gallery wander.",
+    "written_at": "2026-10-13T01:50:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

@@ -96,7 +96,12 @@
     "record": "data/verification/2026-10-12/2026-10-25-sebright-arms-pina-palau.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "Pina Palau plays the Sebright Arms' basement music room. A Sunday-evening way to end the weekend with live music.",
+    "written_at": "2026-10-13T01:41:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

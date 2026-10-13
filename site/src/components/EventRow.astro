@@ -39,6 +39,7 @@ const off = e.status === "cancelled" || e.status === "postponed";
       {!e.isRun && hasTime(e.starts_at) && e.ends_at && hasTime(e.ends_at) && <span class="event__until">Until {clock(e.ends_at)}</span>}
       {e.recurrence && <span>Regular: {e.recurrence}</span>}
     </p>
+    {e.listing?.blurb && <p class="event__blurb">{e.listing.blurb}</p>}
   </div>
   {STATUS[e.status] && <p class:list={["event__status", `event__status--${e.status}`]}>{STATUS[e.status]}</p>}
 </li>
@@ -65,6 +66,11 @@ const off = e.status === "cancelled" || e.status === "postponed";
   .event__trip { color: var(--muted); font-size: 0.9rem; }
   .event__meta { display: flex; flex-wrap: wrap; gap: 0.15rem 1rem; margin: 0.3rem 0 0; color: var(--muted); font-size: 0.92rem; }
   .event__price { color: var(--ink); font-weight: 600; }
+  .event__blurb {
+    margin: 0.4rem 0 0; max-width: var(--measure, 62ch); font-size: 0.95rem; line-height: 1.45;
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden;
+  }
+  .event--off .event__blurb { color: var(--muted); }
   .event__price--free { color: var(--green); }
   .event__status {
     margin: 0.15rem 0 0; font-size: 0.82rem; font-weight: 700; white-space: nowrap;

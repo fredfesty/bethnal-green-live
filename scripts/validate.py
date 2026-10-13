@@ -28,8 +28,11 @@ verifier confirmed that quote. So beyond the formats, they tie the three stages 
                 contradicted; new events that are cancelled are rejected
   events        every fact equals the candidate's, or was emptied because it could not be confirmed;
                 every fact left has a confirmed check; evidence comes from the candidate (plus the
-                verifier's own status quote); no duplicate listings of the same night
-  venues        the venue is in a registry (same name and zone) and not closed; every filled-in field is
+                verifier's own status quote); no duplicate listings of the same night; the short
+                description ('listing') is one or two sentences in our own words, any price, time, day
+                or 'free' it mentions matches the checked facts, and it has no advert words, no
+                'tonight' and no ticket status
+  venues       the venue is in a registry (same name and zone) and not closed; every filled-in field is
                 named by an evidence item; the website and access page come from the venue itself; the
                 written fields are in our own words, not copied from the quotes; a venue found by the weekly
                 run (not in a registry) has its own types, address, postcode and location, sits in the core
@@ -446,7 +449,8 @@ def check_verification(path: Path, data: dict, today: dt.date | None, days: int 
 
 def check_event(path: Path, data: dict, today: dt.date | None, days: int = 31) -> list[str]:
     errs = (check_sources(data) + check_evidence_coverage(data) + check_subcategory(data)
-            + check_id_and_date(data, None, days) + check_venue(data) + check_price(data["price"]))
+            + check_id_and_date(data, None, days) + check_venue(data) + check_price(data["price"])
+            + check_listing(data))
     try:  # the folder-and-name rule for events covers the file name
         rel = path.resolve().relative_to(ROOT.resolve())
         expected = Path("data/events") / data["starts_at"][:7] / f"{data['id']}.json"
@@ -720,6 +724,53 @@ def without_names(text: str, events: list[dict]) -> str:
     return text
 
 
+LISTING_BLURB_CHARS = (40, 320)  # the short description under each event: one or two sentences
+LISTING_HEADLINE_CHARS = 90
+
+
+def _not_after(a: str | None, b: str | None) -> bool:
+    try:
+        return dt.datetime.fromisoformat(a) <= dt.datetime.fromisoformat(b)
+    except (TypeError, ValueError):
+        return True
+
+
+def check_listing(data: dict) -> list[str]:
+    """The event's short description: our own words, consistent with the checked facts, in house style."""
+    lst = data.get("listing")
+    if not lst:
+        return []
+    errs = []
+    lo, hi = LISTING_BLURB_CHARS
+    n = len(lst["blurb"].strip())
+    if not lo <= n <= hi:
+        errs.append(f"listing.blurb: {n} characters; keep it to one or two sentences ({lo} to {hi} characters)")
+    head = lst.get("headline")
+    if head and len(head) > LISTING_HEADLINE_CHARS:
+        errs.append(f"listing.headline: {len(head)} characters; keep it to {LISTING_HEADLINE_CHARS}")
+    quotes = [ev["quote"] for ev in data["evidence"]]
+    vid = data["venue"].get("venue_id")
+    if vid:
+        profile = read_json(ROOT / "data" / "venues" / f"{vid}.json")[0]
+        # Only the profile as it stood when the description was written: quotes a later venue run adds
+        # must not turn a description that was fine into a failure in someone else's run.
+        if isinstance(profile, dict) and _not_after(profile.get("profiled_at"), lst.get("written_at")):
+            quotes += [ev["quote"] for ev in profile.get("evidence", [])]
+    for field in ("headline", "blurb"):
+        text = lst.get(field)
+        if not text:
+            continue
+        plain = without_names(text, [data])  # titles and names may be repeated, and never trip a rule
+        for q in quotes:
+            run_ = copied_run(plain, q)
+            if run_:
+                errs.append(f"listing.{field}: copies a source word for word (\"{run_}\"); write it in our own words")
+                break
+        errs += [f"listing.{field}: {p}" for p in newsletter.fact_problems(plain, [data], one_event=True)]
+        errs += [f"listing.{field}: {p}" for p in newsletter.style_problems(plain)]
+    return errs
+
+
 def check_issue(path: Path, data: dict, today: dt.date | None = None, days: int = 31) -> list[str]:
     errs = check_filename(path, data)
     frm, to = (dt.date.fromisoformat(data["covers"][k]) for k in ("from", "to"))
@@ -797,7 +848,7 @@ def check_issue(path: Path, data: dict, today: dt.date | None = None, days: int 
                     if run_:
                         errs.append(f"{at}.{field}: copies a source word for word (\"{run_}\"); write it in our own words")
                         break
-                errs += [f"{at}.{field}: {p}" for p in newsletter.fact_problems(text, [e], one_event=True)]
+                errs += [f"{at}.{field}: {p}" for p in newsletter.fact_problems(without_names(text, [e]), [e], one_event=True)]
 
     if not fresh:
         return errs
@@ -825,7 +876,7 @@ def check_issue(path: Path, data: dict, today: dt.date | None = None, days: int 
             if run_:
                 errs.append(f"{where}: copies a source word for word (\"{run_}\")")
                 break
-        errs += [f"{where}: {p}" for p in newsletter.fact_problems(text, used, one_event=False)]
+        errs += [f"{where}: {p}" for p in newsletter.fact_problems(without_names(text, used), used, one_event=False)]
     return errs
 
 

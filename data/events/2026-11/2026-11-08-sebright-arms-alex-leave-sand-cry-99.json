@@ -96,7 +96,12 @@
     "record": "data/verification/2026-10-12/2026-11-08-sebright-arms-alex-leave-sand-cry-99.json"
   },
   "editor_note": "Three bands for £5.67, billed by the venue as less than a pint.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A cheap three-act bill in the Sebright Arms' basement music room, billed as Alex, Leave! / SAND / Cry-99.",
+    "written_at": "2026-10-13T01:41:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

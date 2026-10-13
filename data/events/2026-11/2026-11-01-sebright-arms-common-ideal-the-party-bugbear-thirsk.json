@@ -103,7 +103,12 @@
     "record": "data/verification/2026-10-12/2026-11-01-sebright-arms-common-ideal-the-party-bugbear-thirsk.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A four-act shoegaze bill in the Sebright Arms' basement music room: Common Ideal, The Party, Bugbear and Thirsk. Cheap to get into, so a good one for shoegaze fans.",
+    "written_at": "2026-10-13T01:41:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

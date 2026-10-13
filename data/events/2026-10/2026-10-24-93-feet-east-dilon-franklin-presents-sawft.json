@@ -56,7 +56,12 @@
     "record": "data/verification/2026-10-12/2026-10-24-93-feet-east-dilon-franklin-presents-sawft.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A club night at 93 Feet East billed as Dilon franklin presents SAWFT. It starts in the afternoon and runs late, so a long session on Brick Lane.",
+    "written_at": "2026-10-13T01:41:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

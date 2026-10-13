@@ -1,10 +1,10 @@
-# Routine: morning run (four scouts + verifier)
+# Routine: morning run (four scouts + verifier + listing writer)
 
-Every morning one scheduled run finds new events (four scouts on Haiku: nights & music, arts, food & drink, community), checks them (the verifier, on Sonnet), runs every check and pushes a branch. GitHub then takes over (`.github/workflows/morning-run-pr.yml`): it re-runs the checks, opens the pull request and, while **auto-merge** is on, merges it and republishes the site.
+Every morning one scheduled run finds new events (four scouts on Haiku: nights & music, arts, food & drink, community), checks them (the verifier, on Sonnet), writes a short description for each published event (the listing writer, on Sonnet), runs every check and pushes a branch. GitHub then takes over (`.github/workflows/morning-run-pr.yml`): it re-runs the checks, opens the pull request and, while **auto-merge** is on, merges it and republishes the site.
 
 ```
-06:07  scheduled run ──► 4 scouts (side by side) ──► verifier ──► checks ──► push claude/morning-run-<date>
-                                                                │
+06:07  scheduled run ──► 4 scouts (side by side) ──► verifier ──► listing writer ──► checks ──► push claude/morning-run-<date>
+                                                                                   │
        GitHub workflow ◄────────────────────────────────────────┘
          re-run checks ──► open pull request ──► merge (if AUTO_MERGE=true) ──► site republishes
 ```
@@ -14,7 +14,7 @@ Every morning one scheduled run finds new events (four scouts on Haiku: nights &
 | Setting | Value |
 | --- | --- |
 | Schedule | Daily at 06:07 Europe/London, as a Claude scheduled task (claude.ai, scheduled tasks) |
-| Models | The main session coordinates; the four scouts run on Haiku and the verifier on Sonnet (set in each agent file) |
+| Models | The main session coordinates; the four scouts run on Haiku, the verifier and the listing writer on Sonnet (set in each agent file) |
 | Network | The run needs to reach venue and ticket websites; the environment this was set up in can |
 | Auto-merge | Repository variable `AUTO_MERGE` = `true`. Set it to `false` to review every pull request yourself |
 | GitHub setting | Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests" must be ticked |
@@ -45,6 +45,10 @@ Work
    run date, on the new candidates of every category and for its re-checks of upcoming events. Do not
    pass it the scouts' run reports or any of your own views on the candidates; it must work only from
    the files.
+4b. When the verifier has finished, use the listing-writer subagent (.claude/agents/listing-writer.md)
+   with the run date. It writes the short description of every event that still lacks one, using only
+   python3 scripts/listings.py todo --date <run-date>. Don't pass it the scouts' reports or your own views.
+   If it fails, carry on: events without a description still publish, and the next run picks them up.
 
 Checks
 5. Run: python3 scripts/validate.py all  and  python3 -m pytest -q. Both must pass. If they do not,
@@ -53,7 +57,9 @@ Checks
      failure as a reason, and delete the event file;
    - for an update to an existing event that fails: do the same, and restore the event file from
      main (git checkout origin/main -- <path>);
-   - delete a candidate file that fails its format check and note it in the verifier's run report.
+   - delete a candidate file that fails its format check and note it in the verifier's run report;
+   - for an event whose short description fails: set its "listing" back to null (the facts stay as they
+     are) and note it in the listing writer's run report.
    If they still fail, stop: do not push, and explain what failed in your final message.
 
 Publish
@@ -68,7 +74,7 @@ Publish
 Report
 8. Finish with a short report for Fred, in plain English: events found and published per category,
    held (one line each with the reason) and rejected; anything flagged on already-published events; venues that couldn't be
-   reached; and whether the pull request was merged. End your final message with the pull
+   reached; how many descriptions the listing writer wrote; and whether the pull request was merged. End your final message with the pull
    request's URL as a markdown hyperlink, for example
    [Pull request #12: Morning run — 2026-10-20](https://github.com/fredfesty/bethnal-green-live/pull/12).
    If no pull request appeared, say so and give the branch link instead.
@@ -77,7 +83,7 @@ Report
 ## Reviewing (when auto-merge is off, or after the fact)
 
 1. Read the verifier's report at the top of the pull request. Anything under **Held** needs a person: check the link it gives. To publish it anyway (say, after phoning the venue), edit its verification record: set `"decision": "publish"`, `"decided_by": "human"` and put what you checked in `reasons`; then create the event file (copy `docs/examples/event.json` as a template) with a `history` line `by: "human"`. Otherwise leave it out.
-2. Skim the new files in `data/events/`.
+2. Skim the new files in `data/events/`, including each one's short description (`listing.blurb`). To fix one, edit the words, or set `listing` to null to have it rewritten in the next run.
 3. Check the **flagged** events: anything with `needs_review` is hidden on the site until a person clears it (set it to null and add a `history` line).
 4. Merge if it isn't merged already. The website rebuilds from `main` within a minute or two.
 5. Apply any **Registry suggestions** from the scouts' reports in a separate small change.

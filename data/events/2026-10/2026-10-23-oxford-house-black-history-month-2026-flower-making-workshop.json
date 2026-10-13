@@ -88,7 +88,12 @@
     "record": "data/verification/2026-10-13/2026-10-23-oxford-house-black-history-month-2026-flower-making-workshop.json"
   },
   "editor_note": "A small, hands-on craft workshop that is part of Black History Month 2026 at Oxford House.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A flower-making workshop in the Black History Month 2026 programme at Oxford House, the Bethnal Green community arts centre. One for anyone who enjoys a hands-on session.",
+    "written_at": "2026-10-13T02:00:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

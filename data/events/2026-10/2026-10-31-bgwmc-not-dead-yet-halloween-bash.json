@@ -56,7 +56,12 @@
     "record": "data/verification/2026-10-12/2026-10-31-bgwmc-not-dead-yet-halloween-bash.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A Halloween club night at Bethnal Green Working Men's Club, right in E2, so an easy one for locals.",
+    "written_at": "2026-10-13T01:41:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

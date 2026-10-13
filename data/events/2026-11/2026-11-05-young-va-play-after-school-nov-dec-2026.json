@@ -105,7 +105,12 @@
     "record": "data/verification/2026-10-13/2026-11-05-young-va-play-after-school-nov-dec-2026.json"
   },
   "editor_note": "Free, regular drop-in play for families after school in the museum's galleries through early winter.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A term-time after-school play session at Young V&A, held on Thursdays and Fridays and running until 18 December.",
+    "written_at": "2026-10-13T01:50:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

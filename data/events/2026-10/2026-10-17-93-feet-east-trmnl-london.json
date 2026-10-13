@@ -67,7 +67,12 @@
     "record": "data/verification/2026-10-12/2026-10-17-93-feet-east-trmnl-london.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "House and tech house at 93 Feet East on Brick Lane, from the afternoon until late. A long session for anyone who likes to settle in and dance.",
+    "written_at": "2026-10-13T01:41:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

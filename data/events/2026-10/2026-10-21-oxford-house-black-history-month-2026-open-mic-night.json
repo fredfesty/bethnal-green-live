@@ -85,7 +85,12 @@
     "record": "data/verification/2026-10-13/2026-10-21-oxford-house-black-history-month-2026-open-mic-night.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A free open mic evening for Black History Month at Oxford House, the Bethnal Green community arts centre that also has a theatre, a café and a Victorian chapel.",
+    "written_at": "2026-10-13T01:50:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

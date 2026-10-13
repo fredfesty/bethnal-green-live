@@ -94,7 +94,12 @@
     "record": "data/verification/2026-10-12/2026-10-16-sebright-arms-sebright-karaoke.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "Friday-night karaoke at the Sebright Arms, free to get in. A late sing-along for anyone ready to take the mic.",
+    "written_at": "2026-10-13T01:41:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

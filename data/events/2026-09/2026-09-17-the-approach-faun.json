@@ -67,7 +67,12 @@
     "record": "data/verification/2026-10-13/2026-09-17-the-approach-faun.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "An exhibition at The Approach with work by Olivia Jia, on through October. It opens on Saturdays as well as midweek, so it suits a weekend wander.",
+    "written_at": "2026-10-13T01:50:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

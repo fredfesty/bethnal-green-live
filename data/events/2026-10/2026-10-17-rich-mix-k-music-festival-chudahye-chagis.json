@@ -83,7 +83,12 @@
     "record": "data/verification/2026-10-12/2026-10-17-rich-mix-k-music-festival-chudahye-chagis.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A gig at Rich Mix, the charity-run arts centre, billed as part of a K-Music Festival with CHUDAHYE CHAGIS on the bill. The genre is listed as psychedelic shamanic funk, so it is one for the curious.",
+    "written_at": "2026-10-13T01:41:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

@@ -83,7 +83,12 @@
     "record": "data/verification/2026-10-13/2026-11-07-colour-factory-fever-105.json"
   },
   "editor_note": "Named acts Breakbot and Alexander Robotnick, on a Saturday night at Colour Factory; the page calls it the first London show of the year.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "Fever 105 at Colour Factory, a club and live music space in Hackney Wick, with Breakbot, Alexander Robotnick, System Olympia, Theon Bower and Metroplane, plus more.",
+    "written_at": "2026-10-13T01:50:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

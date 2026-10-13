@@ -215,12 +215,40 @@ def event_url(e: dict, site_url: str = SITE_URL) -> str:
 _POUNDS = re.compile(r"£\s?(\d+(?:\.\d{1,2})?)")
 _TIME = re.compile(r"\b(\d{1,2})(?:[:.](\d{2}))?\s?(am|pm)\b", re.I)
 _WEEKDAY = re.compile(r"\b(" + "|".join(WEEKDAYS) + r")s?\b", re.I)
-_FREE = re.compile(r"\bfree\b", re.I)
+_FREE = re.compile(r"(?<![-\w])(?<!feel )free(?![-\w])", re.I)
 FIRST_HAND = re.compile(
     r"\b(I|we)\s+(went|was at|were at|saw|caught|heard|danced|spent|tried|ate|drank|popped|stumbled|found myself)\b"
     r"|\blast (week|weekend|night|time) I\b|\bI've been (to|going)\b",
     re.I,
 )
+
+
+_PROMO = re.compile(
+    r"\b(iconic|legendary|unmissable|epic|vibes?|must[- ]see|world[- ]class|not to be missed|don'?t miss|"
+    r"something for everyone)\b", re.I)
+_RELATIVE_DAY = re.compile(
+    r"\b(tonight|tomorrow|today|yesterday|later this (?:week|month)|(?:this|next)(?: coming)? (?:week|weekend|month|"
+    + "|".join(WEEKDAYS) + r"))\b", re.I)
+_STATUS_WORDS = re.compile(r"\b(sold[- ]out|selling fast|last (?:few|remaining) tickets|few tickets left|"
+                           r"limited tickets|almost gone)\b", re.I)
+
+
+def style_problems(text: str) -> list[str]:
+    """House style for words that sit on the website for weeks: no advert words, no 'tonight', no ticket
+    status (the site shows the checked status itself), at most one exclamation mark, no first-hand claims."""
+    if not text:
+        return []
+    errs = []
+    for rx, why in ((_PROMO, "is advert language; say what it is instead"),
+                    (_RELATIVE_DAY, "depends on the day it's read; name the day or leave it out"),
+                    (_STATUS_WORDS, "is ticket status, which changes; the site shows the checked status"),
+                    (FIRST_HAND, "claims a first-hand experience")):
+        m = rx.search(text)
+        if m:
+            errs.append(f"'{m.group(0)}' {why}")
+    if text.count("!") > 1:
+        errs.append("more than one exclamation mark")
+    return errs
 
 
 def price_numbers(e: dict) -> set[float]:
@@ -232,6 +260,7 @@ def price_numbers(e: dict) -> set[float]:
 
 def event_times(e: dict) -> set[tuple[int, int]]:
     out = {hm for _, hm in _mentioned_times(e.get("run_schedule") or "")}
+    out |= {hm for _, hm in _mentioned_times(e["price"].get("notes") or "")}  # "£12 after 10.30pm"
     for w in (e["starts_at"], e.get("ends_at")):
         if w and has_time(w):
             t = local(w)
@@ -260,6 +289,9 @@ def is_free_ish(e: dict) -> bool:
 def fact_problems(text: str, events: list[dict], one_event: bool) -> list[str]:
     """Numbers, times, days and 'free' in our words must match the checked facts.
 
+    Pass the text with event titles and names already taken out (validate.without_names), so a title like
+    "Free Party" or "Sunday Service" neither excuses nor trips a check.
+
     one_event: the text is about a single event (a blurb), so its weekday and 'free' are checked too.
     """
     if not text:
@@ -275,12 +307,13 @@ def fact_problems(text: str, events: list[dict], one_event: bool) -> list[str]:
             errs.append(f"says '{said}', which isn't a checked start or end time")
     if one_event and events:
         e = events[0]
-        if _FREE.search(text) and not is_free_ish(e) and not _FREE.search(e["title"]):
+        if _FREE.search(text) and not is_free_ish(e):
             errs.append("says 'free' but the checked price isn't free")
         if is_run(e):  # open on many days: a weekday is fine if its opening hours mention it, so don't guess
             return errs
         days = {WEEKDAYS[event_date(e).weekday()]}
-        if end_date(e):
+        end = e.get("ends_at")
+        if end and (not has_time(end) or local(end).hour >= 6):  # a night ending at 3am is still the night it began
             days.add(WEEKDAYS[end_date(e).weekday()])
         for m in _WEEKDAY.finditer(text):
             if m.group(1).lower() not in days and not (e.get("recurrence") and m.group(1).lower() in e["recurrence"].lower()):
@@ -289,6 +322,28 @@ def fact_problems(text: str, events: list[dict], one_event: bool) -> list[str]:
 
 
 # ---------------------------------------------------------------- what the editor picks from
+
+def event_view(e: dict, venues: dict[str, dict], featured_before: dict[str, list[str]] | None = None) -> dict:
+    """One event as plain data for a writer: only checked facts, plus the checked venue profile."""
+    v = venues.get(e["venue"].get("venue_id") or "")
+    return {
+        "id": e["id"], "title": e["title"], "date": event_date(e).isoformat(),
+        "weekday": event_date(e).strftime("%A"), "time": time_label(e),
+        "run": {"until": last_date(e).isoformat(), "opening_hours": e.get("run_schedule")} if is_run(e) else None,
+        "venue": e["venue"]["name"], "zone": e["zone"], "type": kind_label(e),
+        "category": e["category"], "price": price_label(e["price"]), "price_notes": e["price"].get("notes"),
+        "status": e["status"], "lineup": e.get("lineup") or [], "genres": e.get("genres") or [],
+        "recurrence": e.get("recurrence"), "age_restriction": e.get("age_restriction"),
+        "accessibility": e.get("accessibility"), "worth_the_trip": e.get("worth_the_trip", False),
+        "scout_opinion_internal": e.get("editor_note"),
+        "listing_blurb": (e.get("listing") or {}).get("blurb"),
+        "venue_profile": None if not v else {
+            "summary": v.get("summary"), "music": v.get("music"), "crowd": v.get("crowd"),
+            "step_free": (v.get("accessibility") or {}).get("step_free"),
+        },
+        "in_earlier_issues": (featured_before or {}).get(e["id"], []),
+    }
+
 
 def week(issue_date: dt.date, root: Path | None = None) -> dict:
     """Everything the editor needs for one issue, as plain data: only checked facts."""
@@ -303,26 +358,6 @@ def week(issue_date: dt.date, root: Path | None = None) -> dict:
             for it in s.get("items", []):
                 featured_before.setdefault(it["event_id"], []).append(f"{k}: {s['kind']}")
 
-    def view(e):
-        v = venues.get(e["venue"].get("venue_id") or "")
-        return {
-            "id": e["id"], "title": e["title"], "date": event_date(e).isoformat(),
-            "weekday": event_date(e).strftime("%A"), "time": time_label(e),
-            "run": {"until": last_date(e).isoformat(), "opening_hours": e.get("run_schedule")} if is_run(e) else None,
-            "venue": e["venue"]["name"], "zone": e["zone"], "type": kind_label(e),
-            "category": e["category"], "price": price_label(e["price"]), "price_notes": e["price"].get("notes"),
-            "status": e["status"], "lineup": e.get("lineup") or [], "genres": e.get("genres") or [],
-            "recurrence": e.get("recurrence"), "age_restriction": e.get("age_restriction"),
-            "accessibility": e.get("accessibility"), "worth_the_trip": e.get("worth_the_trip", False),
-            "scout_opinion_internal": e.get("editor_note"),
-            "listing_blurb": (e.get("listing") or {}).get("blurb"),
-            "venue_profile": None if not v else {
-                "summary": v.get("summary"), "music": v.get("music"), "crowd": v.get("crowd"),
-                "step_free": (v.get("accessibility") or {}).get("step_free"),
-            },
-            "in_earlier_issues": featured_before.get(e["id"], []),
-        }
-
     usable = [e for e in events.values() if not e.get("needs_review") and e["status"] not in ("cancelled", "postponed", "sold-out")]
     this_week = sorted((e for e in usable if on_during(e, frm, to)), key=lambda e: (e["starts_at"], e["title"]))
     later = sorted((e for e in usable if to < event_date(e) <= last), key=lambda e: (e["starts_at"], e["title"]))
@@ -330,9 +365,9 @@ def week(issue_date: dt.date, root: Path | None = None) -> dict:
         "issue_id": issue_date.isoformat(),
         "issue_number": len(previous) + 1,
         "covers": {"from": frm.isoformat(), "to": to.isoformat(), "label": week_label(frm, to)},
-        "this_week": [view(e) for e in this_week],
+        "this_week": [event_view(e, venues, featured_before) for e in this_week],
         "save_the_date_window": {"after": to.isoformat(), "until": last.isoformat()},
-        "later": [view(e) for e in later],
+        "later": [event_view(e, venues, featured_before) for e in later],
         "left_out": [{"id": e["id"], "why": "under review" if e.get("needs_review") else e["status"]}
                      for e in events.values() if e not in usable and on_during(e, frm, last)],
     }

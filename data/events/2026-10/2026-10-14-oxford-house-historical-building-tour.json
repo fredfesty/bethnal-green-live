@@ -93,7 +93,12 @@
     "record": "data/verification/2026-10-13/2026-10-14-oxford-house-historical-building-tour.json"
   },
   "editor_note": "Guided tour of a listed Victorian building with archive material, a secret chapel and rooftop views over East London.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A tour of Oxford House's Grade II listed building, home to a community arts centre that began in 1884 as the original settlement house. One for local history fans.",
+    "written_at": "2026-10-13T02:00:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

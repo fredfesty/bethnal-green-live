@@ -470,3 +470,113 @@ def test_findings_rules(validators):
     assert has(errs, "name should be troxy.reviews.json")
     assert has(errs, "no evidence item names 'crowd'")
     assert has(errs, "copies the source word for word")
+
+
+# ============================================================= the short description ('listing')
+
+def with_listing(blurb, headline=None, **event_changes):
+    d = copy.deepcopy(load(EX_EVENT))   # EXAMPLE NIGHT (illustrative only): Fri 30 Oct, 9pm-3am, £8-£12
+    d.update(event_changes)
+    d["listing"] = {"headline": headline, "blurb": blurb, "written_at": "2026-10-13T07:40:00+01:00", "run_id": "2026-10-13-lw"}
+    return d
+
+
+@pytest.fixture
+def no_profiles(tmp_path, monkeypatch):
+    """Listing rules on their own, independent of the real venue profiles in data/venues."""
+    monkeypatch.setattr(validate, "ROOT", tmp_path)
+
+
+def listing_errors(d):
+    return validate.check_listing(d)
+
+
+GOOD_BLURB = ("Disco and house into the small hours at the working men's club, with DJ Example on the decks and a "
+              "live set from Example Live Act. A proper Friday night out.")
+
+
+def test_good_listing_passes_every_event_check(validators):
+    assert errors("events", with_listing(GOOD_BLURB), validators, path=EX_EVENT) == []
+
+
+@pytest.mark.parametrize("blurb, expected", [
+    ("A club night.", "keep it to one or two sentences"),
+    ("x " * 200, "keep it to one or two sentences"),
+    ("Disco and house all night, and entry is £5 if you get there before the rush.", "which no checked price says"),
+    ("Disco and house all night, with the doors opening at 10pm for the early crowd.", "isn't a checked start or end time"),
+    ("Disco and house all night: a good way to see out a Sunday in Bethnal Green.", "it's on a Friday"),
+    ("Disco and house all night, a good Saturday night out even though it starts the day before.", "it's on a Friday"),
+    ("Disco and house all night, and it's free, so there's no excuse not to drop in.", "checked price isn't free"),
+    ("Disco and house at the club, and early bird £8, general admission £12, only a few left.", "copies a source word for word"),
+    ("Disco and house in an iconic East End room, with a live set to break up the night.", "advert language"),
+    ("Disco and house in the club's main hall tonight, with a live set to break up the night.", "depends on the day"),
+    ("Disco and house in the club's main hall this Friday, with a live set to break up the night.", "depends on the day"),
+    ("Disco and house in the club's main hall, and it's nearly sold out, so book a ticket soon.", "ticket status"),
+    ("We went last year and danced till close: disco and house with a live set halfway through.", "first-hand"),
+    ("Disco! House! A live set! All in the club's main hall, from start to finish, for one night.", "exclamation mark"),
+])
+def test_listing_rules(no_profiles, blurb, expected):
+    errs = listing_errors(with_listing(blurb))
+    assert has(errs, expected), errs
+
+
+def test_listing_headline_is_checked_too(no_profiles):
+    assert has(listing_errors(with_listing(GOOD_BLURB, headline="An unmissable disco")), "listing.headline: 'unmissable'")
+    assert has(listing_errors(with_listing(GOOD_BLURB, headline="x" * 95)), "keep it to 90")
+
+
+def test_listing_may_repeat_names_and_matching_facts(no_profiles):
+    blurb = ("EXAMPLE NIGHT (illustrative only) brings DJ Example and Example Live Act to Bethnal Green Working Men's Club "
+             "on a Friday, from 9pm, with early-bird tickets at £8.")
+    assert listing_errors(with_listing(blurb)) == []
+
+
+@pytest.mark.parametrize("changes, blurb", [
+    ({"title": "Epic Disco"}, "Epic Disco brings disco and house to the club's main hall, with a live set halfway through."),
+    ({"lineup": ["Sold Out", "We Saw Lights"]}, "Sold Out and We Saw Lights play the club's main hall, with disco and house between sets."),
+    ({"title": "SLAP! HALLOWEEN!"}, "SLAP! HALLOWEEN! is a Halloween disco in the club's main hall, with a live set halfway through."),
+    ({"title": "Sunday Service: This Week In House"}, "Sunday Service: This Week In House is disco and house in the club's main hall, with a live set."),
+    ({"title": "Doors at 7pm, £5 on the door"}, "Doors at 7pm, £5 on the door is a disco and house night in the club's main hall."),
+])
+def test_names_in_a_listing_never_trip_the_rules(no_profiles, changes, blurb):
+    assert listing_errors(with_listing(blurb, **changes)) == []
+
+
+def test_a_title_saying_free_does_not_excuse_a_free_claim(no_profiles):
+    d = with_listing("Free entry to a late disco and house night in the club's main hall, so just turn up.",
+                     title="Free Party", price={"known": False, "is_free": None, "min_gbp": None, "max_gbp": None, "notes": None})
+    assert has(listing_errors(d), "checked price isn't free")
+
+
+@pytest.mark.parametrize("blurb", [
+    "A gluten-free supper in the club's main hall, then disco and house until close.",
+    "Disco and house in the club's main hall; feel free to come in fancy dress if you like.",
+    "Disco and house in the club's main hall, a free-for-all of a dance floor until close.",
+])
+def test_free_as_an_ordinary_word_is_fine_on_a_paid_event(no_profiles, blurb):
+    assert listing_errors(with_listing(blurb)) == []
+
+
+def test_a_time_from_the_price_notes_may_be_mentioned(no_profiles):
+    d = with_listing("Disco and house in the club's main hall; the cheaper tickets stop at 10.30pm, so come early.")
+    d["price"]["notes"] = "£8 before 10.30pm, £12 after"
+    assert listing_errors(d) == []
+
+
+def test_venue_quotes_added_after_the_description_dont_fail_it(tmp_path, monkeypatch):
+    monkeypatch.setattr(validate, "ROOT", tmp_path)
+    blurb = "A long night of disco and house in the old hall with the sprung dance floor and the stage."
+    profile = {"id": "bgwmc", "profiled_at": "2026-10-14T09:00:00+01:00",
+               "evidence": [{"quote": "a long night of disco and house in the old hall with the sprung dance floor"}]}
+    (tmp_path / "data/venues").mkdir(parents=True)
+    (tmp_path / "data/venues/bgwmc.json").write_text(json.dumps(profile), encoding="utf-8")
+    assert listing_errors(with_listing(blurb)) == []           # written on the 13th, quote added on the 14th
+    profile["profiled_at"] = "2026-10-12T09:00:00+01:00"
+    (tmp_path / "data/venues/bgwmc.json").write_text(json.dumps(profile), encoding="utf-8")
+    assert has(listing_errors(with_listing(blurb)), "copies a source word for word")
+
+
+def test_empty_listing_is_fine(validators):
+    d = copy.deepcopy(load(EX_EVENT))
+    d["listing"] = None
+    assert errors("events", d, validators, path=EX_EVENT) == []

@@ -86,7 +86,12 @@
     "record": "data/verification/2026-10-13/2026-10-24-bethnal-green-nature-reserve-community-qi-gong.json"
   },
   "editor_note": "A calm outdoor movement class at the nature reserve, with a pay-what-you-can donation.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A community Qi Gong workshop at Bethnal Green Nature Reserve, for anyone who fancies starting the weekend on a slower note.",
+    "written_at": "2026-10-13T02:00:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

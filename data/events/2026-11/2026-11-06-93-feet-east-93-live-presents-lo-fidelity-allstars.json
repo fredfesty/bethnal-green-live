@@ -69,7 +69,12 @@
     "record": "data/verification/2026-10-12/2026-11-06-93-feet-east-93-live-presents-lo-fidelity-allstars.json"
   },
   "editor_note": "Band back on stage for the first live dates in ten years, per the venue page.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A live show from Lo Fidelity Allstars at 93 Feet East on Brick Lane, presented under the 93 Live banner.",
+    "written_at": "2026-10-13T01:41:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

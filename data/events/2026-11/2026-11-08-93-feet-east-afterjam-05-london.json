@@ -80,7 +80,12 @@
     "record": "data/verification/2026-10-12/2026-11-08-93-feet-east-afterjam-05-london.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "Deep house and tech house with Jamback, Stacie Fields and HALFPINT at 93 Feet East. An afternoon-into-evening session for anyone who likes their dancing done by bedtime.",
+    "written_at": "2026-10-13T01:41:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

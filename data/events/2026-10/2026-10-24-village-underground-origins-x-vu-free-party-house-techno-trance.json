@@ -75,7 +75,12 @@
     "record": "data/verification/2026-10-12/2026-10-24-village-underground-origins-x-vu-free-party-house-techno-trance.json"
   },
   "editor_note": "Worth the trip: a billed free rave ('From free') at Village Underground, with a special guest to be announced.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A late club night of house, techno and trance at Village Underground, the Shoreditch venue with tube carriages on its roof. Billed as Origins x VU, and one for night owls.",
+    "written_at": "2026-10-13T01:41:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

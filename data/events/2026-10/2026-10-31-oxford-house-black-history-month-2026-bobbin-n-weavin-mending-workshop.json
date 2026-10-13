@@ -89,7 +89,12 @@
     "record": "data/verification/2026-10-13/2026-10-31-oxford-house-black-history-month-2026-bobbin-n-weavin-mending-workshop.json"
   },
   "editor_note": "A hands-on mending workshop where participants can bring their own garments, part of Black History Month 2026 at Oxford House.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A mending workshop at Oxford House for Black History Month 2026, billed as Bobbin 'n' Weavin. A hands-on Saturday afternoon for anyone who likes making and repairing.",
+    "written_at": "2026-10-13T01:50:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],
