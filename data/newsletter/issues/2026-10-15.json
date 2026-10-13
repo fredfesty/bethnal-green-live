@@ -1,0 +1,115 @@
+{
+  "id": "2026-10-15",
+  "issue_number": 1,
+  "covers": {
+    "from": "2026-10-15",
+    "to": "2026-10-21"
+  },
+  "subject": "What's on in E2 · 15–21 October: a free Sebright bill and a big Saturday",
+  "preheader": "A free three-band bill at the Sebright, free karaoke, a Saturday at the Working Men's Club and house on Brick Lane.",
+  "intro": {
+    "greeting": "Hello, E2,",
+    "paragraphs": [
+      "This is the first Bethnal Green Live. I live round here, and I wanted something like my friend Cat's Peckham Live newsletter for E2, so I started one: a short note every Thursday on what's on nearby.",
+      "A word on how it's made. The listings are found by AI and checked word for word against each venue's or ticket seller's own page, and I read every issue before it goes out.",
+      "It's a slim first week, nearly all gigs and club nights. I'd start with Thursday's free three-band bill in the Sebright's basement, and keep Saturday in mind for the Working Men's Club, where the night runs till 2am."
+    ],
+    "sign_off": "Speak next Thursday,",
+    "signed": "Fred",
+    "postscript": null,
+    "written_by": {"agent": "newsletter-intro", "model": "opus"},
+    "used_notes": null,
+    "written_at": "2026-10-13T01:11:43+01:00"
+  },
+  "sections": [
+    {
+      "kind": "pick-of-the-week",
+      "heading": "This week's pick",
+      "emoji": null,
+      "layout": "hero",
+      "lede": null,
+      "items": [
+        {
+          "event_id": "2026-10-15-sebright-arms-m-x-as-rome-burns-bone-china",
+          "headline": null,
+          "blurb": "A free three-band bill of dream punk, post punk and grunge in the Sebright's basement gig room. For the price, an easy yes."
+        }
+      ]
+    },
+    {
+      "kind": "featured",
+      "heading": "Saturday, two ways",
+      "emoji": null,
+      "layout": "cards",
+      "lede": "Two very different Saturday nights: one local, one a short walk out.",
+      "items": [
+        {
+          "event_id": "2026-10-17-rich-mix-k-music-festival-chudahye-chagis",
+          "headline": "Chudahye Chagis live at Rich Mix",
+          "blurb": "A gig from Chudahye Chagis, whose sound is listed as psychedelic shamanic funk. Rich Mix is an arts centre, so it makes a change from the usual pub back room."
+        },
+        {
+          "event_id": "2026-10-17-bgwmc-brat-2-school",
+          "headline": "Margo Marshall at the Working Men's Club",
+          "blurb": "A late club night at Bethnal Green Working Men's Club, with Margo Marshall billed and the night running from 9pm to 2am. As local as it gets."
+        }
+      ]
+    },
+    {
+      "kind": "free-and-cheap",
+      "heading": "Free and under a tenner",
+      "emoji": null,
+      "layout": "list",
+      "lede": null,
+      "items": [
+        {
+          "event_id": "2026-10-16-sebright-arms-sebright-karaoke",
+          "headline": null,
+          "blurb": "A free late-night sing-song at the Sebright, on Friday nights from 10pm."
+        },
+        {
+          "event_id": "2026-10-19-sebright-arms-freddy-keach-the-mop-sugartax-the-sly-velocipede",
+          "headline": null,
+          "blurb": "A multi-act Monday bill at the Sebright for £6: a cheap, early-in-the-week reason to go out."
+        }
+      ]
+    },
+    {
+      "kind": "quick-hits",
+      "heading": "More on Brick Lane",
+      "emoji": null,
+      "layout": "compact",
+      "lede": null,
+      "items": [
+        {
+          "event_id": "2026-10-16-93-feet-east-hotvox-presents-ammari-one-stop-away",
+          "headline": null,
+          "blurb": null
+        },
+        {
+          "event_id": "2026-10-17-93-feet-east-melio-records-x-93-feet-east",
+          "headline": null,
+          "blurb": null
+        },
+        {
+          "event_id": "2026-10-17-93-feet-east-trmnl-london",
+          "headline": null,
+          "blurb": null
+        }
+      ]
+    }
+  ],
+  "laid_out": {
+    "agent": "newsletter-editor",
+    "model": "sonnet",
+    "run_id": "2026-10-13-nl",
+    "at": "2026-10-13T01:10:02+01:00"
+  },
+  "notes_for_fred": [
+    "Thin first issue: 8 of the week's 9 events used, all nights and music. No arts, food or community listings this week, so those sections are left out rather than padded.",
+    "The pick is a free Thursday gig on the day the email goes out. If you would rather lead with a Saturday, the Working Men's Club night (BRAT 2 SCHOOL, 9pm-2am, £8-£12) is the alternative, but its record has little detail beyond one billed name.",
+    "The three 93 Feet East events have no price in the record, so they are compact lines with no blurb and nothing about cost.",
+    "Melio Records and TRMNL (both Saturday house at 93 Feet East) are near-identical and sit next to each other in More on Brick Lane. I kept both to reach a three-item section; drop one if you prefer.",
+    "COWZ at the Sebright (Friday, price not listed) was left out to keep the Sebright to three events."
+  ]
+}
