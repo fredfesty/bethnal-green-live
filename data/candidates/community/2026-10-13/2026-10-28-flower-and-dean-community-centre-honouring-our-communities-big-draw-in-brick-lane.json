@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-28-flower-and-dean-community-centre-honouring-our-communities-big-draw-in-brick-lane",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-b"
+  },
+  "found_at": "2026-10-13T06:13:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Honouring Our Communities - Big Draw in Brick Lane",
+  "summary": "A free family creative workshop in half-term, making a large-scale artwork that celebrates people who inspire their communities, as part of Black History Month.",
+  "venue": {
+    "venue_id": null,
+    "name": "Flower and Dean Community Centre",
+    "address": "41 Flower & Dean Walk London E1 6QT",
+    "postcode": "E1 6QT"
+  },
+  "starts_at": "2026-10-28T13:00:00+00:00",
+  "ends_at": "2026-10-28T15:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Page says 'A free family friendly creative workshop'. Booking: 'Reserve your free spot'."
+  },
+  "ticket_url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+      "quote": "Honouring Our Communities - Big Draw in Brick Lane",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+      "quote": "Wednesday 28th October 2026 (13:00-15:00)",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+      "quote": "Flower and Dean Community Centre 41 Flower & Dean Walk London E1 6QT",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+      "quote": "A free family friendly creative workshop during half-term to celebrate communities",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+      "quote": "Reserve your free spot",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+      "quote": "Honouring Our Communities - Big Draw in Brick Lane",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A free half-term family workshop making a shared artwork, part of the Black History Month programme.",
+  "notes_for_verifier": "Council calendar event page. Zone: E1 6QT is 1577 m from Bethnal Green tube by scripts/zone.py, so fringe (just inside 1.6 km). Venue not in registry: venue id null. Category printed as 'Black History Month, Community events'."
+}

@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-13-th-local-history-library-communities-of-liberation",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-b"
+  },
+  "found_at": "2026-10-13T06:13:00+01:00",
+  "category": "community",
+  "subcategory": "festival",
+  "title": "Communities of Liberation: Discover Black East London",
+  "summary": "A free day at Tower Hamlets Local History Library and Archives: an exhibition on Black East London history, with a community marketplace of Afro-Caribbean traders and a chance to hear residents' experiences.",
+  "venue": {
+    "venue_id": null,
+    "name": "Tower Hamlets Local History Library & Archives",
+    "address": "277 Bancroft Road E1 4DQ",
+    "postcode": "E1 4DQ"
+  },
+  "starts_at": "2026-10-13T11:00:00+01:00",
+  "ends_at": "2026-10-13T16:00:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Council category tag: 'Free to attend'."
+  },
+  "ticket_url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Communities-of-Liberation-Discover-Black-East-London.aspx",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Communities-of-Liberation-Discover-Black-East-London.aspx",
+      "quote": "Communities of Liberation: Discover Black East London",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Communities-of-Liberation-Discover-Black-East-London.aspx",
+      "quote": "Tuesday 13th October 2026 (11:00-16:00)",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Communities-of-Liberation-Discover-Black-East-London.aspx",
+      "quote": "Tower Hamlets Local History Library & Archives 277 Bancroft Road E1 4DQ",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Communities-of-Liberation-Discover-Black-East-London.aspx",
+      "quote": "Black History Month, Business, Community events, Cultural events, Free to attend, Galleries and exhibitions, Heritage and museums, Markets, Workshops and activities",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Communities-of-Liberation-Discover-Black-East-London.aspx",
+      "quote": "Visitors can also browse a vibrant marketplace of Afro-Caribbean traders offering clothing, art, hair and skincare products",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Communities-of-Liberation-Discover-Black-East-London.aspx",
+      "quote": "Communities of Liberation: Discover Black East London",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A free, all-afternoon Black History Month day in the Local History Library, with a marketplace and a chance to hear local residents.",
+  "notes_for_verifier": "Council calendar event page. Registry lists th-local-history-library as watchlist (fringe); E1 4DQ is 938 m from Bethnal Green tube by scripts/zone.py, so core. Venue id null. Also an exhibition on display: the arts scout may hold it, so check for a duplicate. Closing event is 2026-10-17."
+}

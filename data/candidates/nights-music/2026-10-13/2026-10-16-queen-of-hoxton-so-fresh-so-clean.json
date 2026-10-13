@@ -1,0 +1,115 @@
+{
+  "id": "2026-10-16-queen-of-hoxton-so-fresh-so-clean",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-b"
+  },
+  "found_at": "2026-10-13T06:20:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "So Fresh So Clean",
+  "summary": "Friday night at Queen of Hoxton, Curtain Road, with hip-hop, R&B, Afrobeats, bashment and UK garage. Rooftop entry free until 9pm, per the event page.",
+  "venue": {
+    "venue_id": "queen-of-hoxton",
+    "name": "Queen Of Hoxton",
+    "address": "1 Curtain Rd, London EC2A 3JX",
+    "postcode": "EC2A 3JX"
+  },
+  "starts_at": "2026-10-16T19:00:00+01:00",
+  "ends_at": null,
+  "recurrence": "Every Friday",
+  "zone": "outer",
+  "worth_the_trip": true,
+  "why_its_good": "A weekly Friday hip-hop, R&B and UK garage night. The event page says entry is free on the rooftop from 7pm to 9pm.",
+  "lineup": [],
+  "genres": [
+    "Hip-Hop",
+    "R&B",
+    "Afrobeats",
+    "Bashment",
+    "UK Garage"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "DICE shows 'From free'. Event page: 'FREE ENTRY from 7PM–9PM' on the rooftop; later entry price not quoted."
+  },
+  "ticket_url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "quote": "So Fresh So Clean Queen Of Hoxton Fri 16 Oct, 7:00 pm",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "postcode"
+      ],
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "quote": "1 Curtain Rd, London EC2A 3JX",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "quote": "From freeThe price you'll pay. No surprises later.",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price",
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "quote": "Start the night on the rooftop with FREE ENTRY from 7PM–9PM, before we head downstairs",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "quote": "Timeless Hip-Hop & RnB, plus Afrobeats, Bashment and UK Garage.",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "quote": "Every Friday at Queen of Hoxton.",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/wwknar-so-fresh-so-clean-16th-oct-queen-of-hoxton-london-tickets",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-13T06:15:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "notes_for_verifier": "Found on DICE's 'DJ in London' page, confirmed on the event's DICE page. Performer 'So Fresh So Clean DJs' is a collective label, so lineup is empty. The JSON-LD endDate (02:00, 17 Oct) is not printed, so ends_at is empty. Rooftop quote is from the page's embedded description. Later dates (23 Oct, 30 Oct Halloween) not recorded."
+}

@@ -1,0 +1,89 @@
+{
+  "id": "2026-10-29-victoria-park-send-pumpkin-carving-arts-and-crafts",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-b"
+  },
+  "found_at": "2026-10-13T06:13:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "SEND pumpkin carving & arts and crafts",
+  "summary": "A half-term pumpkin carving and arts and crafts session, listed as SEND, for children aged 5 to 12 at the One O'clock Club in East Park, Victoria Park.",
+  "venue": {
+    "venue_id": "victoria-park",
+    "name": "Victoria Park One O'clock Club (East Park)",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-29T11:00:00+00:00",
+  "ends_at": "2026-10-29T14:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Council category tag only: 'Free to attend'. The page has no description."
+  },
+  "ticket_url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/SEND-pumpkin-carving-arts-and-crafts.aspx",
+  "age_restriction": "Ages 5-12",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/SEND-pumpkin-carving-arts-and-crafts.aspx",
+      "quote": "SEND pumpkin carving & arts and crafts",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/SEND-pumpkin-carving-arts-and-crafts.aspx",
+      "quote": "Thursday 29th October 2026 (11:00-14:00)",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/SEND-pumpkin-carving-arts-and-crafts.aspx",
+      "quote": "Victoria Park One O'clock Club (East Park)",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price",
+        "age_restriction"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/SEND-pumpkin-carving-arts-and-crafts.aspx",
+      "quote": "Ages 5-12, Family and children, Free to attend, Half-term, Parks, Victoria Park, Workshops and activities",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/SEND-pumpkin-carving-arts-and-crafts.aspx",
+      "quote": "SEND pumpkin carving & arts and crafts",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Council calendar entry with no description. Zone as for 2026-10-28-victoria-park-pumpkin-carving (registry fringe). Check whether the SEND label means the session is only for children with SEND; the page does not say."
+}

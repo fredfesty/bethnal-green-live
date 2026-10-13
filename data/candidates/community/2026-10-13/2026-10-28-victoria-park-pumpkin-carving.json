@@ -1,0 +1,89 @@
+{
+  "id": "2026-10-28-victoria-park-pumpkin-carving",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-b"
+  },
+  "found_at": "2026-10-13T06:13:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Pumpkin carving",
+  "summary": "A free half-term pumpkin carving session for children aged 5 to 12 at the One O'clock Club in East Park, Victoria Park.",
+  "venue": {
+    "venue_id": "victoria-park",
+    "name": "Victoria Park One O'clock Club (East Park)",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-28T11:00:00+00:00",
+  "ends_at": "2026-10-28T14:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Council category tag only: 'Free to attend'. The page has no description."
+  },
+  "ticket_url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Pumpkin-carving.aspx",
+  "age_restriction": "Ages 5-12",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Pumpkin-carving.aspx",
+      "quote": "Pumpkin carving",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Pumpkin-carving.aspx",
+      "quote": "Wednesday 28th October 2026 (11:00-14:00)",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Pumpkin-carving.aspx",
+      "quote": "Victoria Park One O'clock Club (East Park)",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price",
+        "age_restriction"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Pumpkin-carving.aspx",
+      "quote": "Ages 5-12, Family and children, Free to attend, Half-term, Parks, Workshops and activities",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Pumpkin-carving.aspx",
+      "quote": "Pumpkin carving",
+      "retrieved_at": "2026-10-13T06:12:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Council calendar entry with no description. Registry zone for Victoria Park is fringe; scripts/zone.py on the registry postcode E3 2LA gives about 2.3 km (outer), which is a postcode-centroid effect for a large park, so the registry zone is used. The verifier should check. Sister sessions: 'SEND pumpkin carving & arts and crafts' (29 Oct) and 'Scavenger hunt' (30 Oct) are separate candidates."
+}

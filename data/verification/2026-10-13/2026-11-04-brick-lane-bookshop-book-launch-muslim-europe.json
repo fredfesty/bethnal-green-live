@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-04-brick-lane-bookshop-book-launch-muslim-europe",
+  "candidate_file": "data/candidates/arts/2026-10-13/2026-11-04-brick-lane-bookshop-book-launch-muslim-europe.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T11:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Start date '4th Nov.' has no year or weekday on the page, so 2026 is not confirmed. Check the year on https://bricklanebookshop.org/ (4 Nov 2026 is a Wednesday).",
+    "No start time printed."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://bricklanebookshop.org/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://bricklanebookshop.org/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Bookshop's own home page."
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://bricklanebookshop.org/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Page prints '4th Nov.' with no year or weekday, so 2026 cannot be confirmed (same issue as the Blessings launch)."
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://bricklanebookshop.org/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Range £6.00 through £17.69."
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://bricklanebookshop.org/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Home page, not an event page; title is on it."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}
