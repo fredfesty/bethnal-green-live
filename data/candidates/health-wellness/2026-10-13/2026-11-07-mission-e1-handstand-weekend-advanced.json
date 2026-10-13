@@ -1,0 +1,87 @@
+{
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T09:30:00+01:00",
+  "category": "health-wellness",
+  "recurrence": null,
+  "run_schedule": "Saturday 7th – Sunday 8th November: 3.30-6.30pm",
+  "worth_the_trip": false,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": null,
+  "notes_for_verifier": "Two-day workshop, recorded as one run (7 to 8 Nov). Audience as printed: 'These workshops are suitable for students with a committed handstand practice, and who can hold a solid handstand for at least 30 seconds.'",
+  "summary": "A two-day advanced handstand workshop with Yuval Ayalon at Mission, 3.30pm to 6.30pm each day.",
+  "ends_at": "2026-11-08T18:30:00+00:00",
+  "id": "2026-11-07-mission-e1-handstand-weekend-advanced",
+  "subcategory": "fitness",
+  "title": "Handstand Weekend: Advanced",
+  "venue": {
+    "venue_id": "mission-e1",
+    "name": "Mission",
+    "address": "7-9 Fashion Street, London",
+    "postcode": "E1 6PX"
+  },
+  "zone": "fringe",
+  "starts_at": "2026-11-07T15:30:00+00:00",
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 85,
+    "max_gbp": 165,
+    "notes": "£165 for the weekend, £85 for one day"
+  },
+  "ticket_url": "https://www.mission-e1.com/workshops/",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "Handstand Weekend: Advanced",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at",
+        "run_schedule"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "Saturday 7th – Sunday 8th November: 3.30-6.30pm",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "£165 for the weekend, £85 for one day",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "7-9 Fashion Street London E1 6PX",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "A Mission workshop gives students a chance to unpack a particular skill, technique or posture",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high"
+}

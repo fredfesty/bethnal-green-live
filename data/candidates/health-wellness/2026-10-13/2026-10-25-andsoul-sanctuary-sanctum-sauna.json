@@ -1,0 +1,86 @@
+{
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T09:30:00+01:00",
+  "category": "health-wellness",
+  "recurrence": null,
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": "A single Sunday morning session that moves from movement and sound into the sauna and an ice bath.",
+  "notes_for_verifier": "Clocks go back at 02:00 on 25 Oct, so the 10:30am start is +00:00. Event page has JSON-LD startDate 2026-10-25T10:30:00+00:00.",
+  "summary": "A three-part session at AndSoul Sanctuary: a movement, breath and sound sequence, then sauna with guided meditation, then an ice bath.",
+  "ends_at": null,
+  "id": "2026-10-25-andsoul-sanctuary-sanctum-sauna",
+  "subcategory": "sauna",
+  "title": "Sanctum + Sauna",
+  "venue": {
+    "venue_id": "andsoul-sanctuary",
+    "name": "AndSoul Sanctuary",
+    "address": "114-116 Cheshire Street, London",
+    "postcode": "E2 6EJ"
+  },
+  "zone": "core",
+  "starts_at": "2026-10-25T10:30:00+00:00",
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 40,
+    "max_gbp": null,
+    "notes": "From £40 per person"
+  },
+  "ticket_url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "quote": "Sanctum + Sauna",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "price"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "quote": "Sunday 25 October, 10:30am. Sensorium. From £40 per person. Booking is now open.",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "quote": "114-116 Cheshire Street",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "quote": "Sanctum brings movement, breath and sound to the Sanctuary, followed by sauna, guided meditation and an ice bath.",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "quote": "Booking is now open.",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high"
+}

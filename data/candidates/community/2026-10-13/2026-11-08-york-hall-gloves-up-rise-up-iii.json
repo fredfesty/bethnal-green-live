@@ -1,0 +1,115 @@
+{
+  "id": "2026-11-08-york-hall-gloves-up-rise-up-iii",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-c"
+  },
+  "found_at": "2026-10-13T15:10:00+01:00",
+  "category": "community",
+  "subcategory": "sport",
+  "title": "Gloves Up. Rise Up. III",
+  "summary": "A charity white-collar boxing show at York Hall, with amateur fighters raising funds for HeadGuard CIC.",
+  "venue": {
+    "venue_id": "york-hall",
+    "name": "York Hall",
+    "address": "York Hall, Bethnal Green, London E2 9PJ",
+    "postcode": "E2 9PJ"
+  },
+  "starts_at": "2026-11-08T15:30:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 43,
+    "max_gbp": 65,
+    "notes": "Stalls £43, Balcony £54, Ringside £65, from HeadGuard's own event page."
+  },
+  "ticket_url": "https://www.headguard.info/store/p/headguard-boxing-event-gloves-up-rise-up",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.headguard.info/store/p/headguard-boxing-event-gloves-up-rise-up",
+      "quote": "GLOVES UP. RISE UP. III",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.headguard.info/store/p/headguard-boxing-event-gloves-up-rise-up",
+      "quote": "Sunday 8 November 2026",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.headguard.info/store/p/headguard-boxing-event-gloves-up-rise-up",
+      "quote": "First Bell: 3:30pm",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.headguard.info/store/p/headguard-boxing-event-gloves-up-rise-up",
+      "quote": "York Hall, Bethnal Green, London E2 9PJ",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.headguard.info/store/p/headguard-boxing-event-gloves-up-rise-up",
+      "quote": "Stalls — £43",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.headguard.info/store/p/headguard-boxing-event-gloves-up-rise-up",
+      "quote": "Balcony — £54",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.headguard.info/store/p/headguard-boxing-event-gloves-up-rise-up",
+      "quote": "Ringside — £65",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url",
+        "title"
+      ],
+      "url": "https://www.headguard.info/store/p/headguard-boxing-event-gloves-up-rise-up",
+      "quote": "HEADGUARD BOXING EVENT: GLOVES UP - RISE UP III",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A charity boxing night at York Hall, with the proceeds going to HeadGuard CIC.",
+  "notes_for_verifier": "Doors 2pm, first bell 3.30pm; no end time printed. No fighter names printed, lineup empty. Aggregator happeningnext.com shows 'Sun Mar 21 2027' in its title; organiser's page says 8 November 2026. Not used."
+}

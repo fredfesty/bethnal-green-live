@@ -1,0 +1,120 @@
+{
+  "id": "2026-11-06-george-tavern-sunday-school-end-of-year-do",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-c"
+  },
+  "found_at": "2026-10-13T15:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Sunday School: End of Year Do",
+  "summary": "End-of-year party at The George Tavern on Friday 6 November, 7.30pm, featuring Mannequin, Sweet Fantasy and Crystal Ball, with Beau Wanzer playing. £13.20 on DICE, 18+.",
+  "venue": {
+    "venue_id": "george-tavern",
+    "name": "The George Tavern",
+    "address": "373 Commercial Rd, London",
+    "postcode": "E1 0LA"
+  },
+  "starts_at": "2026-11-06T19:30:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Mannequin",
+    "Sweet Fantasy",
+    "Crystal Ball",
+    "Beau Wanzer"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 13.2,
+    "max_gbp": null,
+    "notes": "£13.20 on the DICE event page"
+  },
+  "ticket_url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue"
+      ],
+      "url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+      "quote": "Sunday School closes out 2026 at The George Tavern with a scum-fuelled Leeds + Shrewsbury takeover",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+      "quote": "Fri 6 Nov, 7:30 pm",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+      "quote": "featuring Mannequin, Sweet Fantasy and Crystal Ball",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+      "quote": "Beau Wanzer drops in from Chicago to play",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+      "quote": "£13.20The price you'll pay. No surprises later.",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "373 Commercial Rd, London E1 0LA, UK",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+      "quote": "Sunday School: End of Year Do Tickets | 6 Nov | The George Tavern, London | DICE",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A late-season party at a fringe pub with a Chicago DJ, Beau Wanzer, and three named acts.",
+  "notes_for_verifier": "George Tavern registry note says take only DJ parties; this one names a DJ. The page's own description runs on into a truncated line, so the lineup is taken from the quoted sentences only. No end time printed. Venue address is from the DICE venue page's embedded data."
+}

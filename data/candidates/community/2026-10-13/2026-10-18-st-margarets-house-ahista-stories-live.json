@@ -1,0 +1,133 @@
+{
+  "id": "2026-10-18-st-margarets-house-ahista-stories-live",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-c"
+  },
+  "found_at": "2026-10-13T15:10:00+01:00",
+  "category": "community",
+  "subcategory": "festival",
+  "title": "Ahista Stories Live",
+  "summary": "A one-day South Asian sustainable fashion festival at St Margaret's House, with talks, hands-on workshops and an exhibition on slow, fair fashion.",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "The Mulberry Hall at St Margaret's House",
+    "address": "21 Old Ford Road, London",
+    "postcode": "E2 9PL"
+  },
+  "starts_at": "2026-10-18T11:45:00+01:00",
+  "ends_at": "2026-10-18T17:30:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 4,
+    "max_gbp": 12,
+    "notes": "General Admission, sliding scale: Pay Less £4 to Pay it Forward £12 ('Tickets: £4-£12'). Workshops cost extra."
+  },
+  "ticket_url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live",
+  "age_restriction": null,
+  "accessibility": "We are happy to provide a free PA/Carer ticket for anyone with access needs.",
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live",
+      "quote": "London's only South Asian sustainable fashion festival is back for a fourth year with talks, workshops and an exhibition",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live",
+      "quote": "Sunday 18 October 2026",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live",
+      "quote": "Date: Sunday 18th October",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live",
+      "quote": "Time: 11.45am-5.30pm",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live",
+      "quote": "Venue: The Mulberry Hall at St Margaret's House, 21 Old Ford Road, London, E2 9PL",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live",
+      "quote": "Tickets: £4-£12",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live",
+      "quote": "Pay Less (covers some of our costs) – I am a student, unemployed, on benefits or financially stressed - £4",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live",
+      "quote": "Pay it Forward (covers all of our costs and supports our work) – I am employed or have enough savings to comfortably meet my basic needs - £12",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live",
+      "quote": "Click here to buy tickets",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live",
+      "quote": "We are happy to provide a free PA/Carer ticket for anyone with access needs.",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "A full Sunday of talks, workshops and an exhibition on South Asian textiles, in the new St Margaret's House venue.",
+  "notes_for_verifier": "Time conflict: the venue's Ticket Tailor listing prints 'Sun 18 Oct 2026 11:00 AM - 5:00 PM' for this festival; the event page prints 11.45am-5.30pm. Recorded the event page; medium until confirmed. Exhibition inside; check arts duplicate."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-25-andsoul-sanctuary-sanctum-sauna",
+  "candidate_file": "data/candidates/health-wellness/2026-10-13/2026-10-25-andsoul-sanctuary-sanctum-sauna.json",
+  "run_id": "2026-10-13-v2",
+  "verified_at": "2026-10-13T14:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Start time and price not confirmed: the only quote ('Sunday 25 October, 10:30am. Sensorium. From £40 per person.') has no event title nearby and mentions 'Sensorium', so may belong to another event. Check https://andsoulsanctuary.com/whats-on/sanctum-sauna-october"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Date confirmed; time quote has no title nearby or conflicts. See reasons."
+    },
+    {
+      "field": "price",
+      "result": "unverifiable",
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Quote found but the event's title is not near it on the page, so it may belong to another event."
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Ticket link loads (checked with check_quote --url) and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

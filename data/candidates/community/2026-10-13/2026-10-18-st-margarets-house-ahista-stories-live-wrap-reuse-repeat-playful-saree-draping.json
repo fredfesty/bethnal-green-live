@@ -1,0 +1,116 @@
+{
+  "id": "2026-10-18-st-margarets-house-ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-c"
+  },
+  "found_at": "2026-10-13T15:10:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Ahista Stories Live: Wrap, Reuse, Repeat - Playful Saree Draping",
+  "summary": "A hands-on beginner workshop on draping and styling a saree, part of the Ahista Stories Live festival at St Margaret's House.",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "The Mulberry Hall at St Margaret's House",
+    "address": "21 Old Ford Road, London",
+    "postcode": "E2 9PL"
+  },
+  "starts_at": "2026-10-18T12:45:00+01:00",
+  "ends_at": "2026-10-18T14:15:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 6,
+    "max_gbp": 26,
+    "notes": "Workshop £6 to £14 (Pay Less to Pay it Forward); Workshop + General Admission £10 to £26. Both sets are on the page."
+  },
+  "ticket_url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+      "quote": "Ahista Stories Live: Wrap, Reuse, Repeat - Playful Saree Draping",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+      "quote": "Sunday 18 October 2026",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+      "quote": "Time: 12.45-2.15pm",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+      "quote": "Venue: The Mulberry Hall at",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+      "quote": "21 Old Ford Road — E2 9PL",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+      "quote": "Pay Less (covers some of our costs) – I am a student, unemployed, on benefits or financially stressed - £6",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+      "quote": "Pay it Forward (covers all of our costs and supports our work) – I am employed or have enough savings to comfortably meet my basic needs - £26",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price",
+        "ticket_url"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+      "quote": "Participants must purchase a General Admission ticket for Ahista Stories Live",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A playful, hands-on taste of saree styling on the festival programme.",
+  "notes_for_verifier": "Age 18+ printed but too short to quote, not recorded. Two ticket sets: Workshop £6 to £14; Workshop + General Admission £10 to £26."
+}

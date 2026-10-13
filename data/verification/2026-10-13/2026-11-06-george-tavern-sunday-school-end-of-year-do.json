@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-06-george-tavern-sunday-school-end-of-year-do",
+  "candidate_file": "data/candidates/nights-music/2026-10-13/2026-11-06-george-tavern-sunday-school-end-of-year-do.json",
+  "run_id": "2026-10-13-v2",
+  "verified_at": "2026-10-13T14:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary page."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+      "method": "near",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "age_restriction",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/7d9dr7-sunday-school-end-of-year-do-6th-nov-the-george-tavern-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Ticket link loads (checked with check_quote --url) and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

@@ -1,0 +1,73 @@
+{
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T09:30:00+01:00",
+  "category": "health-wellness",
+  "recurrence": null,
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": null,
+  "notes_for_verifier": "A one-off afternoon, not the weekly Gentle Yoga timetable. No price on the list and no event page found.",
+  "summary": "An afternoon of gentle movement, yin yoga and deep rest at The Canvas, St Margaret's House.",
+  "ends_at": "2026-11-08T17:30:00+00:00",
+  "id": "2026-11-08-st-margarets-house-embracing-autumn-an-afternoon-of-gentle-movement-yin-yoga-deep-rest",
+  "subcategory": "yoga",
+  "title": "Embracing Autumn – an afternoon of Gentle Movement, Yin Yoga & Deep Rest",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "St Margaret's House",
+    "address": "27 Old Ford Road, London",
+    "postcode": "E2 9PJ"
+  },
+  "zone": "core",
+  "starts_at": "2026-11-08T15:30:00+00:00",
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.tickettailor.com/events/stmargaretshouse",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "Embracing Autumn – an afternoon of Gentle Movement, Yin Yoga & Deep Rest",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "Sun 8 Nov 2026 3:30 PM - 5:30 PM",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "The Canvas, 27 Old Ford Road, E2 9PJ",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "Thu 29 Oct 2026",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium"
+}

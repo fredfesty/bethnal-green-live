@@ -1,0 +1,86 @@
+{
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T09:30:00+01:00",
+  "category": "health-wellness",
+  "recurrence": null,
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": null,
+  "notes_for_verifier": "Title is a single workshop, not a class series. Teacher: Samuel Deschamps.",
+  "summary": "A two-hour acrobatics and movement workshop with Samuel Deschamps at Mission, covering rolls, cartwheels and transitions.",
+  "ends_at": "2026-10-24T18:00:00+01:00",
+  "id": "2026-10-24-mission-e1-soft-acrobatics",
+  "subcategory": "fitness",
+  "title": "Soft Acrobatics",
+  "venue": {
+    "venue_id": "mission-e1",
+    "name": "Mission",
+    "address": "7-9 Fashion Street, London",
+    "postcode": "E1 6PX"
+  },
+  "zone": "fringe",
+  "starts_at": "2026-10-24T16:00:00+01:00",
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 40,
+    "max_gbp": 40,
+    "notes": "£40"
+  },
+  "ticket_url": "https://www.mission-e1.com/workshops/",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "Soft Acrobatics",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "Saturday 24th October: 4.00-6.00pm",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "£40\nSoft Acrobatics explores acrobatic movement through softness, momentum and flow",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "7-9 Fashion Street London E1 6PX",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "A Mission workshop gives students a chance to unpack a particular skill, technique or posture",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high"
+}

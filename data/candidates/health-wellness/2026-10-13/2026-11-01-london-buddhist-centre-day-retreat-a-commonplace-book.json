@@ -1,0 +1,123 @@
+{
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T09:30:00+01:00",
+  "category": "health-wellness",
+  "recurrence": null,
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": null,
+  "notes_for_verifier": "Price: the page says 'Free, book online' beside a donation appeal, so is_free is false with min 0 (the page's own words); please check. The page also offers a YouTube livestream and Zoom; only the in-person day is listed. Postcode on the page is printed 'E20HU'.",
+  "summary": "A day of reading, music, meditation and ritual around Maitreyabandhu's book-length poem, A Commonplace Book, at the London Buddhist Centre.",
+  "ends_at": "2026-11-01T16:00:00+00:00",
+  "id": "2026-11-01-london-buddhist-centre-day-retreat-a-commonplace-book",
+  "subcategory": "retreat",
+  "title": "Day Retreat: A Commonplace Book",
+  "venue": {
+    "venue_id": "london-buddhist-centre",
+    "name": "London Buddhist Centre",
+    "address": "51 Roman Rd, Bethnal Green, London",
+    "postcode": "E2 0HU"
+  },
+  "zone": "core",
+  "starts_at": "2026-11-01T10:00:00+00:00",
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Free, book online. We appreciate every amount people feel able to give, no matter how big or small"
+  },
+  "ticket_url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+      "quote": "Day Retreat: A Commonplace Book",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+      "quote": "Sun 1 Nov | 10:00 am – 4:00 pm",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+      "quote": "10am | Doors open – tea and croissants",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ends_at"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+      "quote": "4pm | Finish",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+      "quote": "Free, book online",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+      "quote": "We appreciate every amount people feel able to give, no matter how big or small",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "postcode"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+      "quote": "Our address is: 51 Roman Rd, Bethnal Green, E20HU.",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+      "quote": "A multi-media day including music, sound, slides, recitation, meditation, and ritual.",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+      "quote": "Free, book online",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high"
+}

@@ -1,0 +1,134 @@
+{
+  "id": "2026-10-14-st-margarets-house-crafterschool",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-c"
+  },
+  "found_at": "2026-10-13T15:10:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Crafterschool",
+  "summary": "An arts and craft afterschool session for local children in Reception to Year 4, held weekly at The Create Place, St Margaret's House.",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "The Create Place at St Margaret's House",
+    "address": "29 Old Ford Road, London",
+    "postcode": "E2 9PJ"
+  },
+  "starts_at": "2026-10-14T15:45:00+01:00",
+  "ends_at": "2026-10-14T17:15:00+01:00",
+  "recurrence": "Wednesdays",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 3,
+    "max_gbp": 5,
+    "notes": "£3 per session (£5 for two siblings), paid on the day. Term fee £30 (£50 for two siblings)."
+  },
+  "ticket_url": "https://www.stmargaretshouse.org.uk/events/crafterschool",
+  "age_restriction": "School years Reception-4",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/crafterschool",
+      "quote": "Crafterschool | St. Margaret's House | A home for Creative Health in Bethnal Green, East London",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/crafterschool",
+      "quote": "Wednesday 14 October 2026",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/crafterschool",
+      "quote": "Time: 3.45-5.15pm (please note the new time)",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/crafterschool",
+      "quote": "Dates: Wednesdays",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence",
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/crafterschool",
+      "quote": "Autumn Term 2026 Dates: Wednesday 23rd September to Wednesday 2nd December (no session Wednesday 28th October)",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/crafterschool",
+      "quote": "Venue: The Create Place at St Margaret’s House, 29 Old Ford Road, London, E2 9PJ",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/crafterschool",
+      "quote": "Price per session: £3 (£5 for two siblings) - pay on the day via cash or card",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/crafterschool",
+      "quote": "Term fee: £30 (£50 for two siblings) - pay on the first day of term via cash or card (or in two installments for each half term)",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/crafterschool",
+      "quote": "Sessions are for local children in school years Reception-4.",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/crafterschool",
+      "quote": "Crafterschool | St. Margaret's House | A home for Creative Health in Bethnal Green, East London",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A weekly craft club for younger primary children, with a term-long schedule.",
+  "notes_for_verifier": "Recurring weekly on Wednesdays. This record is the next session (14 Oct). The page says 'Time: 3.45-5.15pm (please note the new time)'; JSON-LD start 15:45 matches. No session on 28 Oct. Price is per session, not a drop-in fee."
+}

@@ -1,0 +1,106 @@
+{
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T09:30:00+01:00",
+  "category": "health-wellness",
+  "recurrence": null,
+  "run_schedule": "Wed 7:15 pm - 9:45 pm",
+  "worth_the_trip": false,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": null,
+  "notes_for_verifier": "Course run: opening date first, closing date 25 Nov. The course page prints 'In person, book online.' but not the room; please confirm it is at 51 Roman Rd. Price tiers are in notes.",
+  "summary": "A six-week course on how to be who we really are while living with others, on Wednesday evenings at the London Buddhist Centre.",
+  "ends_at": "2026-11-25",
+  "id": "2026-10-21-london-buddhist-centre-the-individual-and-the-spiritual-community",
+  "subcategory": "workshop",
+  "title": "The Individual and the Spiritual Community",
+  "venue": {
+    "venue_id": "london-buddhist-centre",
+    "name": "London Buddhist Centre",
+    "address": "51 Roman Rd, Bethnal Green, London",
+    "postcode": "E2 0HU"
+  },
+  "zone": "core",
+  "starts_at": "2026-10-21",
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 65,
+    "max_gbp": 130,
+    "notes": "£130 full | £85 low income | £65 18-25s"
+  },
+  "ticket_url": "https://www.londonbuddhistcentre.com/courses",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/courses",
+      "quote": "The Individual and the Spiritual Community",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at",
+        "run_schedule"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/courses",
+      "quote": "Wed 21 Oct | 7:15 pm - 9:45 pm",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ends_at"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/courses",
+      "quote": "Wed 21 Oct - Wed 25 Nov",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/courses",
+      "quote": "A six-week course",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/courses",
+      "quote": "£130 full | £85 low income | £65 18-25s",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "postcode"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+      "quote": "Our address is: 51 Roman Rd, Bethnal Green, E20HU.",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/courses",
+      "quote": "In person, book online.",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium"
+}

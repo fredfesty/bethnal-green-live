@@ -1,0 +1,95 @@
+{
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T09:30:00+01:00",
+  "category": "health-wellness",
+  "recurrence": null,
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": null,
+  "notes_for_verifier": "The page says this is the first sound bath Mission has hosted. Its 'Book Now' link goes to Momence (not used as evidence).",
+  "summary": "A 75-minute sound bath at Mission with gongs, bowls and voice, led by Charlie Merton.",
+  "ends_at": "2026-11-06T19:45:00+00:00",
+  "id": "2026-11-06-mission-e1-sound-bath-with-charlie-merton",
+  "subcategory": "sound-bath",
+  "title": "Sound Bath with Charlie Merton",
+  "venue": {
+    "venue_id": "mission-e1",
+    "name": "Mission",
+    "address": "7-9 Fashion Street, London",
+    "postcode": "E1 6PX"
+  },
+  "zone": "fringe",
+  "starts_at": "2026-11-06T18:30:00+00:00",
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 25,
+    "max_gbp": 25,
+    "notes": "£25"
+  },
+  "ticket_url": "https://www.mission-e1.com/workshops/",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "Sound Bath\nwith Charlie Merton",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "Friday 6th November: 6.30-7.45pm",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "£25\nJoin Charlie at Mission for an immersive sound bath experience",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "several gongs, bowls and other instruments with voice",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "7-9 Fashion Street London E1 6PX",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "A Mission workshop gives students a chance to unpack a particular skill, technique or posture",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high"
+}
