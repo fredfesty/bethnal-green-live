@@ -69,7 +69,12 @@
     "record": "data/verification/2026-10-13/2026-11-05-chisenhale-gallery-panel-discussion.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A panel discussion at Chisenhale Gallery with Mati Diop, Dr Eva Namusoke and Dr Jennifer Nansubuga Makumbi, with Dr Nobunye Levin in the chair.",
+    "written_at": "2026-10-13T02:00:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

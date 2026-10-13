@@ -72,7 +72,12 @@
     "record": "data/verification/2026-10-13/2026-10-17-the-shacklewell-arms-scared-to-dance-guest-djs-caroline.json"
   },
   "editor_note": "A guest-DJ club night starting at 11pm at The Shacklewell Arms, a pub with a late club room.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "Scared To Dance at The Shacklewell Arms, a club night with Caroline billed as the guest DJs, and worth the trip out.",
+    "written_at": "2026-10-13T02:00:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

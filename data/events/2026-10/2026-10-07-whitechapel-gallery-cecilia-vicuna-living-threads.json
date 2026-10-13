@@ -64,7 +64,12 @@
     "record": "data/verification/2026-10-13/2026-10-07-whitechapel-gallery-cecilia-vicuna-living-threads.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "Living Threads, a Cecilia Vicuña exhibition at Whitechapel Gallery, runs until mid-February, a long run that leaves plenty of time for a visit.",
+    "written_at": "2026-10-13T02:00:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

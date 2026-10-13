@@ -82,7 +82,12 @@
     "record": "data/verification/2026-10-13/2026-10-15-26-curtain-road-strictly-vinyl-free-thursday-dj-sessions.json"
   },
   "editor_note": "Free Thursday vinyl DJ session with the Strictly Vinyl crew, per the Skiddle listing; a regular weekly night.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "Vinyl-only DJ sets with a downtempo slant at 26 Curtain Road, worth the trip if you like your music played from records.",
+    "written_at": "2026-10-13T02:00:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

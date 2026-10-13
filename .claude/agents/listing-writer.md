@@ -43,6 +43,7 @@ Rules, all enforced by the checks:
 - **No "we went", "I saw"** or any first-hand claim. Our voice is a well-informed neighbour, not a reviewer who was there.
 - **Runs** (exhibitions, theatre runs): describe the run, not one day.
 - **Cancelled or postponed** events: one plain sentence saying what it was meant to be; the site shows the status.
+- **Talk about the event, not about us or other listings:** no "our record says little", "look it up before you go", "outside our usual patch", and no pointers to other events ("pair it with…", "the other show is…"). Each description must stand on its own.
 - British English, contractions welcome, no emoji, no hashtags, no headings, no links.
 - **Respect the crowd rule:** describe a crowd only as the venue profile does, never by race, class or looks, and age only as a stated policy.
 - **Don't overclaim from what's missing:** a line-up of one name doesn't mean "the only act on the bill", and a Halloween-themed night on the 30th isn't "spending Halloween" there.

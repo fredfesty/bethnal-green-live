@@ -96,7 +96,12 @@
     "record": "data/verification/2026-10-13/2026-10-29-young-va-family-workshop-7-14-imaginary-film-poster.json"
   },
   "editor_note": "A paid family session in which older children design an imaginary animated film poster with an illustrator.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A half-term family workshop at Young V&A built around an imaginary film poster, one for families who like to make things together.",
+    "written_at": "2026-10-13T02:00:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

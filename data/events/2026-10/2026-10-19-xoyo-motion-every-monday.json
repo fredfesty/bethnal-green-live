@@ -80,7 +80,12 @@
     "record": "data/verification/2026-10-13/2026-10-19-xoyo-motion-every-monday.json"
   },
   "editor_note": "A weekly Monday club night at XOYO under the MOTION title, starting 11pm.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A weekly Monday club night at XOYO that starts late and keeps entry cheap: a budget way to have a late one at the start of the week.",
+    "written_at": "2026-10-13T01:50:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

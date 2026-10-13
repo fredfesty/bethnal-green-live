@@ -71,7 +71,12 @@
     "record": "data/verification/2026-10-13/2026-11-04-renegade-wine-bar-bethnal-green-e2-cheese-wine-rouge-and-ewe.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A cheese and wine tasting at Renegade Wine Bar, themed Rouge and Ewe, part of the E2 Cheese & Wine series held on the first Wednesday of each month.",
+    "written_at": "2026-10-13T01:50:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

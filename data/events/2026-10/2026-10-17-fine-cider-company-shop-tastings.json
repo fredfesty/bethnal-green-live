@@ -96,7 +96,12 @@
     "record": "data/verification/2026-10-13/2026-10-17-fine-cider-company-shop-tastings.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A public cider tasting at The Fine Cider Company Shop, one of its regular tasting sessions and a good one for anyone curious about cider.",
+    "written_at": "2026-10-13T02:00:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],

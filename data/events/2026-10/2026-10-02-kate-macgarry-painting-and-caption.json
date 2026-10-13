@@ -58,7 +58,12 @@
     "record": "data/verification/2026-10-13/2026-10-02-kate-macgarry-painting-and-caption.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "An exhibition of work by Bernard Piffaretti at Kate MacGarry, running until mid-November. Close to Bethnal Green tube, so a handy stop on a gallery crawl.",
+    "written_at": "2026-10-13T01:50:00+01:00",
+    "run_id": "2026-10-13-lw2"
+  },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],
