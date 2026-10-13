@@ -8,7 +8,7 @@ const user = config.buttondownUsername;
   <h2 id="subscribe-title">The week ahead, every Thursday</h2>
   <p>The best of what's on around E2 in one email: a pick of the week, the nights worth crossing the road for, and what's coming up. Free.</p>
   {user ? (
-    <form action={`https://buttondown.com/api/emails/embed-subscribe/${user}`} method="post" target="_blank" class="subscribe__form">
+    <form action={`https://buttondown.com/api/emails/embed-subscribe/${user}`} method="post" class="subscribe__form">
       <label for={compact ? "email-c" : "email"}>Email address</label>
       <div class="subscribe__row">
         <input id={compact ? "email-c" : "email"} type="email" name="email" autocomplete="email" required placeholder="you@example.com" />
