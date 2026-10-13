@@ -1,0 +1,105 @@
+{
+  "id": "2026-10-29-oxford-house-black-history-month-2026-wellbeing-walk-with-mindful-meditation",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T00:55:00+01:00",
+  "category": "community",
+  "subcategory": "outdoors",
+  "title": "Black History Month 2026 : Wellbeing Walk with Mindful Meditation",
+  "summary": "A guided walk from Oxford House to Victoria Park combining mindfulness, reflection and creative activity, part of Black History Month 2026.",
+  "venue": {
+    "venue_id": "oxford-house",
+    "name": "Oxford House",
+    "address": null,
+    "postcode": "E2 6HG"
+  },
+  "starts_at": "2026-10-29",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Printed as 'Price Free'."
+  },
+  "ticket_url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-wellbeing-walk-with-mindful-meditation/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-wellbeing-walk-with-mindful-meditation/",
+      "quote": "Black History Month 2026 : Wellbeing Walk with Mindful Meditation",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-wellbeing-walk-with-mindful-meditation/",
+      "quote": "Join a guided walk from Oxford House to Victoria Park combining mindfulness, reflection and creative activity",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-wellbeing-walk-with-mindful-meditation/",
+      "quote": "Dates October 29, 2026 - October 29, 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-wellbeing-walk-with-mindful-meditation/",
+      "quote": "Location Oxford House, Bethnal Green",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-wellbeing-walk-with-mindful-meditation/",
+      "quote": "London E2 6HG",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-wellbeing-walk-with-mindful-meditation/",
+      "quote": "Price Free",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-wellbeing-walk-with-mindful-meditation/",
+      "quote": "Black History Month 2026 : Wellbeing Walk with Mindful Meditation",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "A free evening walk that takes in Bethnal Green and ends in Victoria Park, with mindfulness along the way.",
+  "notes_for_verifier": "Start time conflicts: 'Times 6:00 pm - 8:00 pm' in the header, 'Time: 6:30–8:30pm' in the details. Date only is recorded. The page's Location line says 'Oxford House Roof, with a walking route through Bethnal Green/Victoria Park'."
+}

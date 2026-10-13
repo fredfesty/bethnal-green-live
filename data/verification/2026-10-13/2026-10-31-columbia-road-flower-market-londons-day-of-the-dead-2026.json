@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-31-columbia-road-flower-market-londons-day-of-the-dead-2026",
+  "candidate_file": "data/candidates/community/2026-10-13/2026-10-31-columbia-road-flower-market-londons-day-of-the-dead-2026.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T09:40:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary page."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://columbiaroad.info/news/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://columbiaroad.info/news/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Quote says 'Columbia Road will celebrate...' on the Flower Market's own news page; the words 'Flower Market' are not in the quote."
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://columbiaroad.info/news/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Saturday 31 October 2026 12:00; offset +00:00 is right for London on that date."
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://columbiaroad.info/news/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://columbiaroad.info/news/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Same page the title was found on, so it loads and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

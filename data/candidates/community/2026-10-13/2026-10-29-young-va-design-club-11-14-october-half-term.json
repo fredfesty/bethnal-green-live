@@ -1,0 +1,134 @@
+{
+  "id": "2026-10-29-young-va-design-club-11-14-october-half-term",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T00:55:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Design Club (11-14), October Half Term",
+  "summary": "A free workshop for 11-14 year olds in The Shed at Young V&A, working alongside the designer Christie Swallow to make bird housing models.",
+  "venue": {
+    "venue_id": "young-va",
+    "name": "Young V&A",
+    "address": "Cambridge Heath Road, Bethnal Green, London, E2 9PA",
+    "postcode": "E2 9PA"
+  },
+  "starts_at": "2026-10-29T12:00:00+00:00",
+  "ends_at": "2026-10-30T16:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": "Workshop times are: 12:00, 12:50, 13:40, 15:15 last entry is at 15.15",
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Printed as 'Free event'."
+  },
+  "ticket_url": "https://www.vam.ac.uk/event/oY9J0Xqm99/design-club-in-the-shed-oct-2026",
+  "age_restriction": "11-14 year olds only",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.vam.ac.uk/event/oY9J0Xqm99/design-club-in-the-shed-oct-2026",
+      "quote": "Design Club (11-14), October Half Term",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.vam.ac.uk/event/oY9J0Xqm99/design-club-in-the-shed-oct-2026",
+      "quote": "Work alongside designer in The Shed Christie Swallow to create bird housing models",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.vam.ac.uk/event/oY9J0Xqm99/design-club-in-the-shed-oct-2026",
+      "quote": "Thursday, 29 October 2026 – Friday, 30 October 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.vam.ac.uk/event/oY9J0Xqm99/design-club-in-the-shed-oct-2026",
+      "quote": "12.00 – 16.00",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "run_schedule"
+      ],
+      "url": "https://www.vam.ac.uk/event/oY9J0Xqm99/design-club-in-the-shed-oct-2026",
+      "quote": "Workshop times are: 12:00, 12:50, 13:40, 15:15 last entry is at 15.15",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.vam.ac.uk/event/oY9J0Xqm99/design-club-in-the-shed-oct-2026",
+      "quote": "11-14 year olds only",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.vam.ac.uk/event/oY9J0Xqm99/design-club-in-the-shed-oct-2026",
+      "quote": "The workshop is free and you can, please be prepared to wait if we are full",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.vam.ac.uk/event/oY9J0Xqm99/design-club-in-the-shed-oct-2026",
+      "quote": "Cambridge Heath Road",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.vam.ac.uk/event/oY9J0Xqm99/design-club-in-the-shed-oct-2026",
+      "quote": "Bethnal Green, London, E2 9PA",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.vam.ac.uk/event/oY9J0Xqm99/design-club-in-the-shed-oct-2026",
+      "quote": "Design Club (11-14), October Half Term",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A free making workshop for 11-14 year olds in the museum's residency studio, with a designer working alongside.",
+  "notes_for_verifier": "Run of two days with timed sessions; recorded as one candidate. Each participant must be accompanied to the museum by an adult, per the page."
+}

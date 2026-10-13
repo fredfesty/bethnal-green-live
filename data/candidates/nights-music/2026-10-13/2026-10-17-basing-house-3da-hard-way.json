@@ -1,0 +1,82 @@
+{
+  "id": "2026-10-17-basing-house-3da-hard-way",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "3DA HARD WAY",
+  "summary": "Sounds of the Underground night at Basing House, Shoreditch, with three DJs going back-to-back from 8pm to 6am on Saturday 17 October.",
+  "venue": {
+    "venue_id": "basing-house",
+    "name": "Basing House",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-17T20:00:00+01:00",
+  "ends_at": "2026-10-18T06:00:00+01:00",
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "TimbaWolf",
+    "Anthony Ranz",
+    "Scotti Dee",
+    "Zanelle Phoenix",
+    "Lady Nelson",
+    "DJ Housewife"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://ma.to/event/3da-hard-way-17-oct-2026",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://ma.to/event/3da-hard-way-17-oct-2026",
+      "quote": "3DA HARD WAY When Saturday, 17 October 20:00 - 06:00",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://ma.to/event/3da-hard-way-17-oct-2026",
+      "quote": "Where Basing House Shoreditch, London E2",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://ma.to/event/3da-hard-way-17-oct-2026",
+      "quote": "Line-up includes 3DA HARD WAY 141 (TimbaWolf, Anthony Ranz & Scotti Dee) and 3DA HARD WAY 141 (Zanelle Phoenix, Lady Nelson & DJ Housewife)",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://ma.to/event/3da-hard-way-17-oct-2026",
+      "quote": "An underground music experience featuring 3 DJs going back-to-back, 1 for 1.",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "low",
+  "notes_for_verifier": "Aggregator only (ma.to). Address not on the page beyond 'Shoreditch, London E2'. Live PAs are named on the page but not listed here."
+}

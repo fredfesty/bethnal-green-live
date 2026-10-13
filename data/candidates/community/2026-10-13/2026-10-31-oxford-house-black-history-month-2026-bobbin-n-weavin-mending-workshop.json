@@ -1,0 +1,102 @@
+{
+  "id": "2026-10-31-oxford-house-black-history-month-2026-bobbin-n-weavin-mending-workshop",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T00:55:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Black History Month 2026: Bobbin ‘n’ Weavin – Mending Workshop",
+  "summary": "A hands-on mending workshop led by the artist Martin King, where participants can bring their own garments to repair or decorate.",
+  "venue": {
+    "venue_id": "oxford-house",
+    "name": "Oxford House",
+    "address": null,
+    "postcode": "E2 6HG"
+  },
+  "starts_at": "2026-10-31T12:00:00+00:00",
+  "ends_at": "2026-10-31T16:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-bobbin-n-weavin-mending-workshop/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-bobbin-n-weavin-mending-workshop/",
+      "quote": "Black History Month 2026: Bobbin ‘n’ Weavin – Mending Workshop",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-bobbin-n-weavin-mending-workshop/",
+      "quote": "Join artist Martin King for a hands-on mending workshop",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-bobbin-n-weavin-mending-workshop/",
+      "quote": "Dates October 31, 2026 - October 31, 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-bobbin-n-weavin-mending-workshop/",
+      "quote": "Times 12:00 pm - 4:00 pm",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-bobbin-n-weavin-mending-workshop/",
+      "quote": "Location Oxford House, Café",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-bobbin-n-weavin-mending-workshop/",
+      "quote": "London E2 6HG",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-bobbin-n-weavin-mending-workshop/",
+      "quote": "Black History Month 2026: Bobbin ‘n’ Weavin – Mending Workshop",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "A hands-on mending workshop where participants can bring their own garments, part of Black History Month 2026 at Oxford House.",
+  "notes_for_verifier": "Price is printed as 'Price 10' and 'Cost: £10' but neither is long enough to quote, so price is left unknown. Please confirm £10 from the page. Times and date agree across the page."
+}

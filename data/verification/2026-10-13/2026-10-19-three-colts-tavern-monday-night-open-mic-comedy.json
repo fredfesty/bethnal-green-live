@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-19-three-colts-tavern-monday-night-open-mic-comedy",
+  "candidate_file": "data/candidates/arts/2026-10-13/2026-10-19-three-colts-tavern-monday-night-open-mic-comedy.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T09:40:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker ma.to/DesignMyNight accepted because the venue is marked no_primary_listing."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Monday 19 October 2026 20:00; offset +01:00 is right for London on that date."
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "recurrence",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Same page the title was found on, so it loads and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "2026-10-20-troxy-angine-de-poitrine",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Angine de Poitrine",
+  "summary": "Angine de Poitrine at the Troxy on Tuesday 20 October, doors 7pm. The Troxy page marks it sold out.",
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-20T19:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://troxy.co.uk/event/angine-de-poitrine-2/",
+  "age_restriction": "Over 14s",
+  "accessibility": null,
+  "status": "sold-out",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "status",
+        "ticket_url"
+      ],
+      "url": "https://troxy.co.uk/event/angine-de-poitrine-2/",
+      "quote": "20.10.26 Sold Out Angine de Poitrine Sold Out",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/event/angine-de-poitrine-2/",
+      "quote": "19:00 - Doors Open / Event Starts",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://troxy.co.uk/event/angine-de-poitrine-2/",
+      "quote": "Over 14s only A max of 8 tickets per person",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://troxy.co.uk/event/angine-de-poitrine-2/",
+      "quote": "Angine de Poitrine - Troxy",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "notes_for_verifier": "Separate Troxy page for 20 Oct (19 Oct is published as sold out). validate.py may flag a same-title duplicate one day apart; these are two event pages. Previously held on 12 Oct as a duplicate."
+}

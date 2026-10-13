@@ -1,0 +1,134 @@
+{
+  "id": "2026-08-01-young-va-send-play-august-dec-2026",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T00:55:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "SEND Play (August -Dec 2026)",
+  "summary": "A free sensory-friendly play session for children with sensory differences or SEND and their families, held on the first Saturday of each month.",
+  "venue": {
+    "venue_id": "young-va",
+    "name": "Young V&A",
+    "address": "Cambridge Heath Road, Bethnal Green, London, E2 9PA",
+    "postcode": "E2 9PA"
+  },
+  "starts_at": "2026-08-01",
+  "ends_at": "2026-12-05",
+  "recurrence": "Every first Saturday of the month",
+  "run_schedule": "Every first Saturday of the month, 10.30 – 12.00",
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Printed as 'Free event'."
+  },
+  "ticket_url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+  "age_restriction": null,
+  "accessibility": "Our building has step-free access to all public areas.",
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+      "quote": "SEND Play (August -Dec 2026)",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+      "quote": "A session just for children with sensory differences or SEND and their families",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+      "quote": "Saturday, 1 August 2026 – Saturday, 5 December 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "run_schedule",
+        "recurrence"
+      ],
+      "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+      "quote": "Every first Saturday of the month join Young V&A's Play Champions for a SEND Play session.",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "run_schedule"
+      ],
+      "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+      "quote": "10.30 – 12.00",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+      "quote": "Free event",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility"
+      ],
+      "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+      "quote": "Our building has step-free access to all public areas.",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+      "quote": "Cambridge Heath Road",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+      "quote": "Bethnal Green, London, E2 9PA",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+      "quote": "SEND Play (August -Dec 2026)",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A free, relaxed play session designed for children with sensory differences or SEND, with step-free access.",
+  "notes_for_verifier": "Recorded as one run from 1 August to 5 December 2026 (the page's own range). The page's event data gives the next session as 2026-11-07 10:30, the first Saturday in November, which falls in the window. The start date is the first printed date, so the id uses 2026-08-01."
+}

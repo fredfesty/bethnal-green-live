@@ -1,0 +1,67 @@
+{
+  "id": "2026-10-18-basing-house-mystery-mc-night",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Mystery MC Night",
+  "summary": "An MC night at Basing House with Bluey Bluetooth and a second MC whose identity is being kept secret, on Sunday 18 October.",
+  "venue": {
+    "venue_id": "basing-house",
+    "name": "Basing House",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-18",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Bluey Bluetooth"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://ma.to/event/mystery-mc-night-2026-10-18",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://ma.to/event/mystery-mc-night-2026-10-18",
+      "quote": "Mystery MC Night When Sunday, 18 October",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://ma.to/event/mystery-mc-night-2026-10-18",
+      "quote": "Basing House presents an MC night with two special guests",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://ma.to/event/mystery-mc-night-2026-10-18",
+      "quote": "The event also features Bluey Bluetooth.",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "low",
+  "notes_for_verifier": "Date only: the ma.to event page gives no start time (its embedded data has 19:00, not used). Aggregator only."
+}

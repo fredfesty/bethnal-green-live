@@ -1,0 +1,79 @@
+{
+  "id": "2026-11-04-renegade-wine-bar-bethnal-green-e2-cheese-wine-rouge-and-ewe",
+  "category": "food-drink",
+  "subcategory": "tasting",
+  "title": "E2 Cheese & Wine: Rouge and Ewe",
+  "venue": {
+    "venue_id": "renegade-wine-bar-bethnal-green",
+    "name": "Renegade Wine Bar",
+    "address": "Arch 12, Gales Gardens, London",
+    "postcode": "E2 0EJ"
+  },
+  "starts_at": "2026-11-04",
+  "ends_at": null,
+  "recurrence": "every first Wednesday of the month",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.renegadelondonwine.com/events",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://www.renegadelondonwine.com/events",
+      "quote": "E2 Cheese & Wine: Rouge and Ewe",
+      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.renegadelondonwine.com/events",
+      "quote": "4 November 2026\nE2 Cheese & Wine: Rouge and Ewe",
+      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.renegadelondonwine.com/events",
+      "quote": "Bethnal Green: Renegade Wine Bar, Arch 12, Gales Gardens, London E2 0EJ",
+      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://www.renegadelondonwine.com/events",
+      "quote": "every first Wednesday of the month you have the opportunity to learn how to perfectly pair wine and cheese",
+      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-13T09:40:00+01:00",
+    "run_id": "2026-10-13-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-13/2026-11-04-renegade-wine-bar-bethnal-green-e2-cheese-wine-rouge-and-ewe.json"
+  },
+  "editor_note": null,
+  "listing": null,
+  "first_seen": "2026-10-13T09:40:00+01:00",
+  "updated_at": "2026-10-13T09:40:00+01:00",
+  "history": [],
+  "needs_review": null
+}

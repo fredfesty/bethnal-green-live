@@ -1,0 +1,78 @@
+{
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:00:00+01:00",
+  "category": "arts",
+  "summary": "A free stand-up night at Backyard Comedy Club on Wednesday 4 November 2026.",
+  "recurrence": null,
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "age_restriction": null,
+  "accessibility": null,
+  "why_its_good": null,
+  "notes_for_verifier": "Backyard Comedy Club books through DesignMyNight, which is discovery-only in the registry, and its own site has no readable dates. Capped at medium per the agent rules; quotes are from DesignMyNight. The listing gives two dates; the 2 Dec date is outside the window. No show time listed.",
+  "id": "2026-11-04-backyard-comedy-club-the-comedy-hump",
+  "subcategory": "comedy",
+  "title": "The Comedy Hump",
+  "venue": {
+    "venue_id": "backyard-comedy-club",
+    "name": "Backyard Comedy Club",
+    "address": "231 Cambridge Heath Rd",
+    "postcode": null
+  },
+  "starts_at": "2026-11-04",
+  "zone": "core",
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Free event (listing)"
+  },
+  "ticket_url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+  "status": "scheduled",
+  "scout_confidence": "medium",
+  "evidence": [
+    {
+      "fields": [
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "Wednesday 4th November and Wednesday 2nd December 2026",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "The Comedy Hump\nGet over Hump Day with this FREE",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "Get over Hump Day with this FREE",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://ma.to/venue/backyardcomedyclub",
+      "quote": "231 Cambridge Heath Rd",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ]
+}

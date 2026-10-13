@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-27-museum-of-the-home-light-and-movement-diwali-family-day",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T00:55:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Light and Movement: Diwali Family Day",
+  "summary": "A drop-in family day with creative activities and interactive performances to learn about Diwali, the festival of lights.",
+  "venue": {
+    "venue_id": "museum-of-the-home",
+    "name": "Museum of the Home",
+    "address": "136 Kingsland Road, London",
+    "postcode": "E2 8EA"
+  },
+  "starts_at": "2026-10-27",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://museumofthehome.org.uk/whats-on/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://museumofthehome.org.uk/whats-on/",
+      "quote": "Light and Movement: Diwali Family Day",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://museumofthehome.org.uk/whats-on/",
+      "quote": "Take part in creative activities and interactive performances to learn about Diwali, the festival of lights.",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://museumofthehome.org.uk/whats-on/",
+      "quote": "Tuesday 27 October 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://museumofthehome.org.uk/whats-on/",
+      "quote": "136 Kingsland Road",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://museumofthehome.org.uk/whats-on/",
+      "quote": "London E2 8EA",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://museumofthehome.org.uk/whats-on/",
+      "quote": "Light and Movement: Diwali Family Day",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "A drop-in Diwali family day at the museum with creative activities and performances.",
+  "notes_for_verifier": "No start time is printed on the what's-on page, so time is empty. Price is listed as Free beside the date but the word is too short to quote, so price is unknown. The 10am-5pm museum hours are not the event time. The event page on the site is an older Diwali day, so it was not used."
+}

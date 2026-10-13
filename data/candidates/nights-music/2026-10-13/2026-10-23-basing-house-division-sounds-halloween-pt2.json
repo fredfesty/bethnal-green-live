@@ -1,0 +1,70 @@
+{
+  "id": "2026-10-23-basing-house-division-sounds-halloween-pt2",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Division Sounds Halloween Pt2",
+  "summary": "Halloween Drum & Bass night at Basing House with resident Morbz, on Friday 23 October. Start time not on the event page.",
+  "venue": {
+    "venue_id": "basing-house",
+    "name": "Basing House",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-23",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Morbz"
+  ],
+  "genres": [
+    "Drum & Bass"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://ma.to/event/division-sounds-halloween-pt2-2026-10-23",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://ma.to/event/division-sounds-halloween-pt2-2026-10-23",
+      "quote": "Division Sounds Halloween Pt2 When Friday, 23 October",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://ma.to/event/division-sounds-halloween-pt2-2026-10-23",
+      "quote": "Division Sounds Halloween Special Part 2 takes over Basing House on 23 October.",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "lineup",
+        "genres"
+      ],
+      "url": "https://ma.to/event/division-sounds-halloween-pt2-2026-10-23",
+      "quote": "Resident Morbz brings a deep, dark and technical Drum & Bass set",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "low",
+  "notes_for_verifier": "Date only: the ma.to event page gives no time (its embedded data has 22:00, not used). Aggregator only."
+}

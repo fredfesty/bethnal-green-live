@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-23-troxy-yll-limani-international-live-tour-2026",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Yll Limani – International Live Tour 2026",
+  "summary": "Yll Limani's International Live Tour 2026 at the Troxy on Friday 23 October, doors and start at 7pm.",
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-23T19:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+  "age_restriction": "14+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "quote": "23.10.26 Yll Limani – International Live Tour 2026",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "quote": "19:00 - Doors Open / Event Starts",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "quote": "14+ A max of 6 tickets per person and per household applies.",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "quote": "Yll Limani - International Live Tour 2026 - Troxy",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "notes_for_verifier": "Re-recorded: held on 12 Oct because the start time was unconfirmed. The schedule line sits about a paragraph below the title on the same page; the time and age quotes do not name the title (event's own page), so title_nearby may flag them."
+}

@@ -1,0 +1,79 @@
+{
+  "id": "2026-11-10-sebright-arms-add-some-more-blue-the-party-orlanda",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Add Some More Blue + The Party + Orlanda",
+  "summary": "A gig at The Sebright Arms on Tuesday 10 November, three acts on one bill, starting 7:30pm, £6 on DICE.",
+  "venue": {
+    "venue_id": "sebright-arms",
+    "name": "The Sebright Arms",
+    "address": "31-35 Coate St, London",
+    "postcode": "E2 9AG"
+  },
+  "starts_at": "2026-11-10T19:30:00+00:00",
+  "ends_at": "2026-11-10T23:00:00+00:00",
+  "recurrence": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 6,
+    "max_gbp": null,
+    "notes": "£6 on the DICE venue listing"
+  },
+  "ticket_url": "https://dice.fm/venue/sebright-arms-4mm9",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/sebright-arms-4mm9",
+      "quote": "Add Some More Blue + The Party + Orlanda Tue 10 Nov",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/sebright-arms-4mm9",
+      "quote": "Add Some More Blue + The Party + Orlanda 2026-11-10T19:30:00+00:00 2026-11-10T23:00:00+00:00",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/sebright-arms-4mm9",
+      "quote": "Sebright Arms 31-35 Coate St, London E2 9AG",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/venue/sebright-arms-4mm9",
+      "quote": "Add Some More Blue + The Party + Orlanda Tue 10 Nov Sebright Arms London £6",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "notes_for_verifier": "Time, date and price come from the DICE venue page (its listing and embedded event data). The event's own DICE page returned HTTP 503 when tried, so the ticket link is the venue's DICE page."
+}

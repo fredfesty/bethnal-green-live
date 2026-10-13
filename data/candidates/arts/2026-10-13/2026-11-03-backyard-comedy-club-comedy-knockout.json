@@ -1,0 +1,71 @@
+{
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:00:00+01:00",
+  "category": "arts",
+  "summary": "Backyard Comedy Club's Comedy Knockout, a show where the audience decides which comedians go through, on 3 November 2026.",
+  "recurrence": "Every 1st Tuesday of the month",
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "age_restriction": null,
+  "accessibility": null,
+  "why_its_good": null,
+  "notes_for_verifier": "Backyard Comedy Club books through DesignMyNight, which is discovery-only in the registry, and its own site has no readable dates. Capped at medium per the agent rules; quotes are from DesignMyNight. Date 3 Nov is after the clocks change, so the time offset is +00:00 if a time is added later. No show time listed.",
+  "id": "2026-11-03-backyard-comedy-club-comedy-knockout",
+  "subcategory": "comedy",
+  "title": "Comedy Knockout",
+  "venue": {
+    "venue_id": "backyard-comedy-club",
+    "name": "Backyard Comedy Club",
+    "address": "231 Cambridge Heath Rd",
+    "postcode": null
+  },
+  "starts_at": "2026-11-03",
+  "zone": "core",
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 3.3,
+    "max_gbp": null,
+    "notes": "£3.30"
+  },
+  "ticket_url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+  "status": "scheduled",
+  "scout_confidence": "medium",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "price",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "Comedy Knockout\nTuesday 3rd November, 2026\n£3.30",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "Every 1st Tuesday of the month",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://ma.to/venue/backyardcomedyclub",
+      "quote": "231 Cambridge Heath Rd",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ]
+}

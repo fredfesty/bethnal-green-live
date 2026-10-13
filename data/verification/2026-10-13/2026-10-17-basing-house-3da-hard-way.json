@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-17-basing-house-3da-hard-way",
+  "candidate_file": "data/candidates/nights-music/2026-10-13/2026-10-17-basing-house-3da-hard-way.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T09:40:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Title, venue and date confirmed only by ma.to (aggregator); Basing House isn't marked no_primary_listing.",
+    "Check: find the listing on Basing House's DICE page; the ma.to page gives the address only as 'Shoreditch, London E2'."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://ma.to/event/3da-hard-way-17-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://ma.to/event/3da-hard-way-17-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/3da-hard-way-17-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Saturday 17 October 2026 20:00; offset +01:00 is right for London on that date."
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/3da-hard-way-17-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://ma.to/event/3da-hard-way-17-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://ma.to/event/3da-hard-way-17-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Same page the title was found on, so it loads and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

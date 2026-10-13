@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-31-columbia-road-flower-market-londons-day-of-the-dead-2026",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T00:55:00+01:00",
+  "category": "community",
+  "subcategory": "festival",
+  "title": "London’s Day of the Dead 2026",
+  "summary": "A Day of the Dead celebration on Columbia Road from midday on Saturday 31 October 2026. The venue's news post says it is free.",
+  "venue": {
+    "venue_id": "columbia-road-flower-market",
+    "name": "Columbia Road Flower Market",
+    "address": "Columbia Road, London",
+    "postcode": null
+  },
+  "starts_at": "2026-10-31T12:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Printed as 'Free'."
+  },
+  "ticket_url": "https://columbiaroad.info/news/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "price"
+      ],
+      "url": "https://columbiaroad.info/news/",
+      "quote": "London’s Day of the Dead Columbia Road, East London Saturday 31 October 2026 | From 12pm | Free",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "summary"
+      ],
+      "url": "https://columbiaroad.info/news/",
+      "quote": "Columbia Road will celebrate London’s Day of the Dead on Saturday 31 October 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://columbiaroad.info/news/",
+      "quote": "London’s Day of the Dead Columbia Road, East London Saturday 31 October 2026 | From 12pm | Free",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A free public celebration on Columbia Road, from midday on Saturday 31 October.",
+  "notes_for_verifier": "Start time 'From 12pm' is printed; no end time. The news post listing is the source; the event's own post was not read, so the verifier may wish to check it. Columbia Road's own site gives its Sunday hours as 'Sundays from 8am ’til 3'ish'; this event is not on a Sunday."
+}

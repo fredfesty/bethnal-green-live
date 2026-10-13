@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-09-backyard-comedy-club-john-achkar",
+  "candidate_file": "data/candidates/arts/2026-10-13/2026-11-09-backyard-comedy-club-john-achkar.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T09:40:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Title, venue and date confirmed only by DesignMyNight and ma.to (aggregators). The registry says confidence stays capped until a person approves DesignMyNight for Backyard Comedy Club.",
+    "Check: the page title is a long blurb ('John Achkar: His country is collapsing.'); confirm the proper show title."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/backyardcomedyclub",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Address quote on the venue's own page; the venue name itself is not in the quote."
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Monday 9 November 2026 19:30; offset +00:00 is right for London on that date."
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Same page the title was found on, so it loads and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

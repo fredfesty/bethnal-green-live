@@ -1,0 +1,74 @@
+{
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:00:00+01:00",
+  "category": "arts",
+  "summary": "Group exhibition 'Lumps and Bumps' listed on Rose Easton's site with five artists, 3 October to 12 December 2026.",
+  "recurrence": null,
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "lineup": [
+    "Dogperson39",
+    "Sarah Benslimane",
+    "Sylvie Fleury",
+    "Charlotte Kingsnorth",
+    "Caitlin MacQueen"
+  ],
+  "genres": [],
+  "age_restriction": null,
+  "accessibility": null,
+  "why_its_good": null,
+  "notes_for_verifier": "Listed on the gallery home page under the same dates as the Parker Ito show. Confirm it is a show at the gallery and not a fair or off-site listing. Address left empty (see the Happiness record).",
+  "id": "2026-10-03-rose-easton-lumps-and-bumps",
+  "subcategory": "exhibition",
+  "title": "Lumps and Bumps",
+  "venue": {
+    "venue_id": "rose-easton",
+    "name": "Rose Easton",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-03",
+  "ends_at": "2026-12-12",
+  "zone": "core",
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.roseeaston.com/",
+  "status": "scheduled",
+  "scout_confidence": "high",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://www.roseeaston.com/",
+      "quote": "‘Lumps and Bumps’ 3 Oct – 12 Dec 2026",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://www.roseeaston.com/",
+      "quote": "Dogperson39 Sarah Benslimane Sylvie Fleury Charlotte Kingsnorth Caitlin MacQueen",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.roseeaston.com/",
+      "quote": "Rose Easton Dogperson39",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ]
+}

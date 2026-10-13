@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-06-troxy-bassvictim-friends",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Bassvictim & Friends",
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-11-06T21:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [
+    "basspunk"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://troxy.co.uk/event/bassvictim-friends/",
+  "age_restriction": "Over 18s",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "genres",
+        "ticket_url"
+      ],
+      "url": "https://troxy.co.uk/event/bassvictim-friends/",
+      "quote": "06.11.26 Bassvictim & Friends Buy Tickets basspunk. Doors: 9pm Last Entry: 11pm Curfew: 2pm",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/event/bassvictim-friends/",
+      "quote": "21:00 - Doors Open / Event Starts",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://troxy.co.uk/event/bassvictim-friends/",
+      "quote": "Over 18s only.",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://troxy.co.uk/event/bassvictim-friends/",
+      "quote": "Bassvictim & Friends - Troxy",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-13T09:40:00+01:00",
+    "run_id": "2026-10-13-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-13/2026-11-06-troxy-bassvictim-friends.json"
+  },
+  "editor_note": null,
+  "listing": null,
+  "first_seen": "2026-10-13T09:40:00+01:00",
+  "updated_at": "2026-10-13T09:40:00+01:00",
+  "history": [],
+  "needs_review": null
+}

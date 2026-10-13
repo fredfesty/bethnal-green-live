@@ -1,0 +1,116 @@
+{
+  "id": "2026-10-29-young-va-family-design-challenge-october-half-term",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T00:55:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Family Design Challenge, October Half Term",
+  "summary": "A drop-in family design challenge in Open Studio at Young V&A, responding to a designer's brief with materials and creative facilitators. Free.",
+  "venue": {
+    "venue_id": "young-va",
+    "name": "Young V&A",
+    "address": "Cambridge Heath Road, Bethnal Green, London, E2 9PA",
+    "postcode": "E2 9PA"
+  },
+  "starts_at": "2026-10-29",
+  "ends_at": "2026-10-31",
+  "recurrence": null,
+  "run_schedule": "Drop in anytime between 12.00 and 16.00, with last entry at 15.30.",
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Printed as 'Free event' and 'This free workshop'."
+  },
+  "ticket_url": "https://www.vam.ac.uk/event/Z0DWxA3kvOJ/fdc-autumn-half-term-october-2026",
+  "age_restriction": "Families with children aged up to 14; most suitable for children aged 5-14",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.vam.ac.uk/event/Z0DWxA3kvOJ/fdc-autumn-half-term-october-2026",
+      "quote": "Family Design Challenge, October Half Term",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.vam.ac.uk/event/Z0DWxA3kvOJ/fdc-autumn-half-term-october-2026",
+      "quote": "Take on a Family Design Challenge in Open Studio, where you and your children problem-solve, design and make together.",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.vam.ac.uk/event/Z0DWxA3kvOJ/fdc-autumn-half-term-october-2026",
+      "quote": "Thursday, 29 – Saturday, 31 October 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "run_schedule"
+      ],
+      "url": "https://www.vam.ac.uk/event/Z0DWxA3kvOJ/fdc-autumn-half-term-october-2026",
+      "quote": "Drop in anytime between 12.00 and 16.00, with last entry at 15.30.",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price",
+        "age_restriction"
+      ],
+      "url": "https://www.vam.ac.uk/event/Z0DWxA3kvOJ/fdc-autumn-half-term-october-2026",
+      "quote": "This free workshop is open to families with children aged up to 14 and is most suitable for children aged 5-14.",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.vam.ac.uk/event/Z0DWxA3kvOJ/fdc-autumn-half-term-october-2026",
+      "quote": "Cambridge Heath Road",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.vam.ac.uk/event/Z0DWxA3kvOJ/fdc-autumn-half-term-october-2026",
+      "quote": "Bethnal Green, London, E2 9PA",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.vam.ac.uk/event/Z0DWxA3kvOJ/fdc-autumn-half-term-october-2026",
+      "quote": "Family Design Challenge, October Half Term",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A free drop-in family session in Open Studio, with a designer-set brief and hands-on making.",
+  "notes_for_verifier": "Run of three days, recorded as one candidate. The page also notes a Halloween special on 31 October."
+}

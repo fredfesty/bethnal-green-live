@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-15-26-curtain-road-strictly-vinyl-free-thursday-dj-sessions",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Strictly Vinyl free Thursday DJ Sessions",
+  "summary": "Free Thursday vinyl DJ session at 26 Curtain Road, 7pm to 11pm on 15 October; weekly per the listing.",
+  "venue": {
+    "venue_id": "26-curtain-road",
+    "name": "26 Curtain Road",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-15T19:00:00+01:00",
+  "ends_at": "2026-10-15T23:00:00+01:00",
+  "recurrence": "Thursday session",
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [
+    "downtempo"
+  ],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": 0,
+    "notes": "'free tickets' (Skiddle description); 2 for 1 cocktails"
+  },
+  "ticket_url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/Strictly-Vinyl-free-Thursday-DJ-Sessions/41992730/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url",
+        "price"
+      ],
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "quote": "Strictly Vinyl free Thursday DJ Sessions https://www.skiddle.com/whats-on/London/26-Curtain-Road/Strictly-Vinyl-free-Thursday-DJ-Sessions/41992730/ 2026-10-15T19:00:00+01:00 2026-10-15T23:00:00+01:00",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "quote": "26 Curtain Road - London - Upcoming Events & Tickets",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "quote": "playing downtempo delights",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "quote": "A lovely Thursday session with the Strictly Vinyl crew",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "Free Thursday vinyl DJ session with the Strictly Vinyl crew, per the Skiddle listing; a regular weekly night.",
+  "notes_for_verifier": "Skiddle public page JSON-LD, not the venue's own site. The 22 and 29 Oct dates are on the same page and are not recorded as separate events. Free entry rests on the title word 'free'; the page's description also says 'free tickets' (not quoted, to keep the title nearby)."
+}

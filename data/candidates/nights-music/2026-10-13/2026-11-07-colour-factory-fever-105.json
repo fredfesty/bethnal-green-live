@@ -1,0 +1,95 @@
+{
+  "id": "2026-11-07-colour-factory-fever-105",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Fever 105: Breakbot, Alexander Robotnick, System Olympia, Theon Bower, Metroplane + more",
+  "summary": "Fever 105 club night at Colour Factory on Saturday 7 November, 10pm, £11.80 on DICE, 18+.",
+  "venue": {
+    "venue_id": "colour-factory",
+    "name": "Colour Factory",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-11-07T22:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Breakbot",
+    "Alexander Robotnick",
+    "System Olympia",
+    "Theon Bower",
+    "Metroplane"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 11.8,
+    "max_gbp": null,
+    "notes": "£11.80, 'the price you'll pay' on DICE"
+  },
+  "ticket_url": "https://dice.fm/event/eonw9o-fever-105-breakbot-alexander-robotnick-system-olympia-theon-bower-metroplane-more-7th-nov-colour-factory-london-tickets",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "ticket_url",
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/eonw9o-fever-105-breakbot-alexander-robotnick-system-olympia-theon-bower-metroplane-more-7th-nov-colour-factory-london-tickets",
+      "quote": "Fever 105: Breakbot, Alexander Robotnick, System Olympia, Theon Bower, Metroplane + more Tickets | 7 Nov | Colour Factory, London | DICE",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/eonw9o-fever-105-breakbot-alexander-robotnick-system-olympia-theon-bower-metroplane-more-7th-nov-colour-factory-london-tickets",
+      "quote": "Colour Factory Sat 7 Nov, 10:00 pm",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/eonw9o-fever-105-breakbot-alexander-robotnick-system-olympia-theon-bower-metroplane-more-7th-nov-colour-factory-london-tickets",
+      "quote": "£11.80 The price you'll pay.",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/eonw9o-fever-105-breakbot-alexander-robotnick-system-olympia-theon-bower-metroplane-more-7th-nov-colour-factory-london-tickets",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "notes"
+      ],
+      "url": "https://dice.fm/event/eonw9o-fever-105-breakbot-alexander-robotnick-system-olympia-theon-bower-metroplane-more-7th-nov-colour-factory-london-tickets",
+      "quote": "Fever fam, we are back for our first London show of the year with an incredible lineup to boot.",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Named acts Breakbot and Alexander Robotnick, on a Saturday night at Colour Factory; the page calls it the first London show of the year.",
+  "notes_for_verifier": "DICE event page read directly. Lineup is taken from the title's 'Breakbot, Alexander Robotnick, System Olympia, Theon Bower, Metroplane + more'; 'more' is not named. Embedded data gives an end on 8 Nov 04:00, not quoted here."
+}
