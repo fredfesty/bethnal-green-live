@@ -37,6 +37,7 @@ Sections, in this order when you use them. Use a section only when you have good
 | `cinema-and-arts` | Films, theatre, comedy, exhibitions, talks (category `arts` only) | 2–6 | `list` or `cards` |
 | `food-and-drink` | Supper clubs, pop-ups, markets, tastings (category `food-drink` only) | 2–5 | `list` or `compact` |
 | `community` | Markets, fairs, workshops, family things, walks (category `community` only) | 2–5 | `list` or `compact` |
+| `health-and-wellness` | Sound baths, sauna sessions, yoga and breathwork workshops, day retreats, runs (category `health-wellness` only) | 2–5 | `list` or `compact` |
 | `free-and-cheap` | Free, or a checked price under £10 | 2–6 | `list` or `compact` |
 | `worth-the-trip` | Outer-zone standouts only | 1–3 | `cards` or `list` |
 | `on-repeat` | Regular nights (only events with a `recurrence`) | 2–8 | `compact` |
@@ -44,7 +45,7 @@ Sections, in this order when you use them. Use a section only when you have good
 
 Rules of thumb:
 - **10 to 20 events in all.** A reader should get through it in three minutes.
-- **Not just nights out.** When there are arts, food and community listings, give them their sections; a week that is all club nights reads like a flyer.
+- **Not just nights out.** When there are arts, food, community and health & wellness listings, give them their sections; a week that is all club nights reads like a flyer.
 - **Runs** (an exhibition or theatre run open on many days; `run` is set) count for every week they're on. Mention one only in its opening or closing week, or once if it's a standout, not every week.
 - **Spread it out.** Mix days of the week, venues and kinds of night. No more than three events from one venue, and no two near-identical nights next to each other.
 - **Each event once.** Prefer events not featured in earlier issues, except in save-the-date.

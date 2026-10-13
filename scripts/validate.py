@@ -94,6 +94,8 @@ CATEGORY_SUBCATEGORIES = {
                    "food-festival", "opening", "quiz", "other"},
     "community": {"market", "fair", "workshop", "family", "outdoors", "sport", "talk", "volunteering",
                   "open-studios", "tour", "festival", "other"},
+    "health-wellness": {"yoga", "pilates", "fitness", "run", "sauna", "sound-bath", "meditation", "breathwork",
+                        "retreat", "workshop", "talk", "festival", "other"},
 }
 MAX_RUN_DAYS = 200  # an exhibition or run longer than this is almost certainly a mistake
 

@@ -176,3 +176,16 @@ def test_runs_count_for_every_week_they_are_on(repo, validators):
     assert "Until Fri 20 Nov (Tue–Sun 11am–6pm)" in newsletter.render_markdown(d, newsletter.load_events(repo))
     d["sections"][0].update(kind="food-and-drink")
     assert has(errors(d, validators, today=dt.date(2026, 11, 4)), "food-and-drink is for food-drink events")
+
+
+def test_health_and_wellness_section_takes_only_wellness_events(repo, validators):
+    d = load(EX_ISSUE)
+    d["sections"][0].update(kind="health-and-wellness", layout="list")
+    blurb(d, None)
+    assert has(errors(d, validators), "health-and-wellness is for health-wellness events")
+    ev = repo / "data/events/2026-10/2026-10-30-bgwmc-example-night.json"
+    e = load(ev)
+    e.update(category="health-wellness", subcategory="sound-bath", genres=[], lineup=[])
+    ev.write_text(json.dumps(e), encoding="utf-8")
+    assert not has(errors(d, validators), "is for health-wellness events")
+    assert newsletter.kind_label(e) == "Sound bath"

@@ -77,8 +77,8 @@
         "required": ["kind", "heading", "layout", "items"],
         "properties": {
           "kind": {
-            "description": "pick-of-the-week: one event, first section. featured: the nights worth crossing the road for. quick-hits: more good ones, shorter. cinema-and-arts, food-and-drink, community: events of that category only. free-and-cheap: free or under £10. on-repeat: regular nights. worth-the-trip: outer-zone standouts. save-the-date: opening after this week, worth booking now.",
-            "enum": ["pick-of-the-week", "featured", "quick-hits", "cinema-and-arts", "food-and-drink", "community", "free-and-cheap", "on-repeat", "worth-the-trip", "save-the-date"]
+            "description": "pick-of-the-week: one event, first section. featured: the nights worth crossing the road for. quick-hits: more good ones, shorter. cinema-and-arts, food-and-drink, community, health-and-wellness: events of that category only. free-and-cheap: free or under £10. on-repeat: regular nights. worth-the-trip: outer-zone standouts. save-the-date: opening after this week, worth booking now.",
+            "enum": ["pick-of-the-week", "featured", "quick-hits", "cinema-and-arts", "food-and-drink", "community", "health-and-wellness", "free-and-cheap", "on-repeat", "worth-the-trip", "save-the-date"]
           },
           "heading": { "type": "string", "minLength": 2, "maxLength": 60 },
           "emoji": { "type": ["string", "null"], "maxLength": 8 },

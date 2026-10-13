@@ -20,7 +20,7 @@ The scripts enforce most of the rules below; `scripts/validate.py` will refuse r
 
 ## Part 1: new candidates
 
-**Which:** every `.json` under `data/candidates/<category>/<date>/` for **every** category (`nights-music`, `arts`, `food-drink`, `community`; skip `_example`) that no verification record points to yet. Search `data/verification/*/*.json` for its path in `candidate_file`; records can be in any date folder. Work core zone first, then fringe, then outer.
+**Which:** every `.json` under `data/candidates/<category>/<date>/` for **every** category (`nights-music`, `arts`, `food-drink`, `community`, `health-wellness`; skip `_example`) that no verification record points to yet. Search `data/verification/*/*.json` for its path in `candidate_file`; records can be in any date folder. Work core zone first, then fringe, then outer.
 
 ### For each candidate
 

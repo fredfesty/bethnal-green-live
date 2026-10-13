@@ -55,6 +55,8 @@ export const VENUE_TYPE: Record<string, string> = {
   "food-market": "Food market", "flower-market": "Flower market", "covered-market": "Covered market", park: "Park",
   "city-farm": "City farm", "nature-reserve": "Nature reserve", library: "Library", "community-centre": "Community centre",
   "community-venue": "Community venue", "sports-venue": "Sports venue", "leisure-centre": "Leisure centre",
+  sauna: "Sauna", "wellness-studio": "Wellness studio", "yoga-studio": "Yoga studio", "pilates-studio": "Pilates studio",
+  "meditation-centre": "Meditation centre", gym: "Gym", "climbing-wall": "Climbing wall",
 };
 
 export const KIND_GROUPS: { id: string; label: string; types: string[] }[] = [
@@ -66,6 +68,7 @@ export const KIND_GROUPS: { id: string; label: string; types: string[] }[] = [
   { id: "galleries", label: "Galleries & museums", types: ["gallery", "museum", "bookshop"] },
   { id: "food", label: "Restaurants, cafés & bars", types: ["restaurant", "cafe", "cafe-bar", "bakery", "food-hall", "wine-bar", "taproom", "cocktail-bar"] },
   { id: "markets", label: "Markets", types: ["market", "street-market", "food-market", "flower-market", "covered-market"] },
+  { id: "wellness", label: "Health & wellness", types: ["sauna", "wellness-studio", "yoga-studio", "pilates-studio", "meditation-centre", "gym", "climbing-wall"] },
   { id: "community", label: "Parks, farms & community", types: ["park", "city-farm", "nature-reserve", "library", "community-centre", "community-venue", "church", "sports-venue", "leisure-centre"] },
 ];
 

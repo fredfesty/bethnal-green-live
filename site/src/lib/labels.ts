@@ -5,6 +5,7 @@ export const CATEGORY: Record<string, string> = {
   arts: "Cinema & arts",
   "food-drink": "Food & drink",
   community: "Community",
+  "health-wellness": "Health & wellness",
 };
 
 export const SUBCATEGORY: Record<string, string> = {
@@ -46,6 +47,16 @@ export const SUBCATEGORY: Record<string, string> = {
   volunteering: "Volunteering",
   "open-studios": "Open studios",
   tour: "Walk or tour",
+  // health & wellness
+  yoga: "Yoga",
+  pilates: "Pilates",
+  fitness: "Fitness",
+  run: "Run or race",
+  sauna: "Sauna",
+  "sound-bath": "Sound bath",
+  meditation: "Meditation",
+  breathwork: "Breathwork",
+  retreat: "Retreat",
   // shared
   talk: "Talk",
   festival: "Festival",
@@ -73,6 +84,7 @@ export const TYPE_GROUPS: { id: string; label: string; match: (e: Kind) => boole
   { id: "markets", label: "Markets & fairs", match: is("community", "market", "fair") },
   { id: "family", label: "Family", match: is("community", "family") },
   { id: "outdoors", label: "Outdoors & sport", match: is("community", "outdoors", "sport", "tour") },
+  { id: "wellness", label: "Health & wellness", match: is("health-wellness") },
   { id: "community", label: "Workshops & community", match: is("community") },
 ];
 

@@ -39,6 +39,7 @@ const BLURBS: Record<string, string> = {
   "Low Light": "Disco and house under the railway arches, with DJ Placeholder and Sample Selector sharing the decks until late.",
   "Small Hours: photographs of the night bus": "An exhibition of photographs taken on London's night buses, free to wander round on any afternoon it's open.",
   "Autumn supper club": "A sit-down autumn dinner cooked by Chef Example in the arches: one long table, one set menu.",
+  "Sunday sound bath": "An hour lying down in the studio while gongs and singing bowls do the work. Bring a blanket if you feel the cold.",
 };
 const listingFor = (title: string, today: string) =>
   BLURBS[title] ? { headline: null, blurb: BLURBS[title], written_at: `${today}T07:30:00+01:00`, run_id: "demo" } : null;
@@ -65,6 +66,8 @@ export function demoEvents(today: string): RawEvent[] {
     [10, "19:30", "22:30", "agnes", "Short films on the green", "arts", "film", gbp(7), [], []],
     [11, "21:00", "02:00", "arch", "Bass Theory", "nights-music", "club-night", gbp(10), ["Sub Example", "Line Out"], ["drum and bass"], "sold-out"],
     [12, "13:00", "16:00", "canal", "Repair café", "community", "workshop", free, [], []],
+    [5, "10:30", "11:30", "canal", "Sunday sound bath", "health-wellness", "sound-bath", gbp(18), [], []],
+    [9, "09:00", "10:00", "agnes", "Breathwork for beginners", "health-wellness", "breathwork", free, [], [], "scheduled"],
     [14, "11:00", "13:00", "canal", "Canal history walk", "community", "tour", gbp(10), [], []],
     [13, "20:00", "23:00", "finch", "Cabaret Sauvage-ish", "nights-music", "cabaret-drag", gbp(12), ["Madame Demo"], [], "cancelled"],
     [16, "19:00", "22:00", "lantern", "Record fair after dark", "nights-music", "in-store", free, [], ["soul", "funk"]],

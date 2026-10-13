@@ -1,0 +1,573 @@
+{
+  "category": "health-wellness",
+  "last_reviewed": "2026-10-13",
+  "notes": [
+    "Seeded from a research pass on 13 Oct 2026. Every listing URL was tested with scripts/page_text.py; 'readable' records the result (ok / js-only / refused / failed).",
+    "Health & wellness covers dated public events: one-off or special yoga and pilates sessions and workshops, sound baths, meditation, breathwork, sauna events (Aufguss rituals, sauna socials and raves), run clubs' special runs, fun runs and races you join, one-off fitness classes, wellbeing workshops and talks, day retreats, wellness festivals and open days.",
+    "A schedule is not a date. A studio's weekly timetable (including 'sound healing' or 'candlelit' classes that run every week) is not an event: it goes in regular_schedule only when a page states it, just as the arts scout ignores a cinema's daily programme.",
+    "Other scouts keep: sport to watch, markets, fairs and family events (community, e.g. boxing at York Hall); dance performances and exhibitions (arts); food and drink nights at wellness venues (food-drink, e.g. Palm Greens' Atmosfer Vinyl Fridays); parties and DJ nights that are not sauna sessions (nights-music, e.g. AndSoul's Halloween party). Oxford House, St Margaret's House, Bethnal Green Nature Reserve and Victoria Park are shared with community.json under the same ids and zones; at those venues take only the wellness events named in each entry.",
+    "The owner's 'mission' is taken to be Mission (mission-e1.com, 7-9 Fashion Street, E1 6PX). Bethnal Green Mission Church and Good Shepherd Mission were checked and are churches with no wellness programme.",
+    "Booking platforms: Momence (AndSoul Sanctuary, Mission, Waking Dreams; discovery-only because its pages are js-only) and Periode (Community Sauna Baths) return no dates to page_text.py; RockGymPro and Let's Do This refuse us. Take facts from the venue's own event pages.",
+    "Scouts may read this file but must not edit it. Suggested changes go in the run report for a human to apply.",
+    "Platform 'domains' are enforced by scripts/validate.py and scripts/check_quote.py: do-not-use and do-not-scrape domains are never fetched or accepted as evidence; discovery-only domains can never be labelled primary. Note these domain lists are merged across every registry in data/sources/."
+  ],
+  "zones": {
+    "core": "E2 postcode or within about 1km of Bethnal Green tube. Scanned every run.",
+    "fringe": "Up to about a 20-minute walk (1.6km) from Bethnal Green tube (Hackney Road, Cambridge Heath, Columbia Road, Brick Lane, Spitalfields edge, Whitechapel, Mile End, Victoria Park). Scanned every run.",
+    "outer": "Further out (Hackney Wick, London Fields, Haggerston, Stratford edge). Scanned weekly, standout events only, max 5 candidates per run, flagged worth_the_trip."
+  },
+  "platforms": [
+    {
+      "id": "ra",
+      "name": "Resident Advisor (ra.co)",
+      "policy": "do-not-use",
+      "why": "No public API. Terms 4.4 ban automated extraction without written permission; robots.txt blocks ClaudeBot. Do not fetch, do not use third-party RA scrapers.",
+      "source": "https://ra.co/terms",
+      "domains": [
+        "ra.co",
+        "residentadvisor.net"
+      ]
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "policy": "do-not-scrape",
+      "how": "Not fetched by agents. Most studios and saunas (AndSoul Sanctuary, Mission, Waking Dreams, Community Sauna Baths) announce events there; those arrive as reader tips or manual entries.",
+      "domains": [
+        "instagram.com"
+      ]
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "policy": "do-not-scrape",
+      "how": "Not fetched by agents (login wall, terms). Several parks and markets (e.g. Victoria Park, Columbia Road) announce events there; those arrive as reader tips or manual entries.",
+      "domains": [
+        "facebook.com",
+        "fb.com",
+        "fb.me"
+      ]
+    },
+    {
+      "id": "venue-site",
+      "name": "Venue or organiser's own website",
+      "policy": "primary-read",
+      "how": "Read the page given in the venue's listing with scripts/page_text.py. A page stating a regular schedule counts as a primary source for that schedule, never for a date.",
+      "domains": []
+    },
+    {
+      "id": "tower-hamlets-council",
+      "name": "Tower Hamlets Council (events calendar, parks, markets)",
+      "policy": "primary-read",
+      "how": "Events.aspx lists dated events with Date and Location. Use the 'Sports and exercise', 'SPA', 'Parks' and 'Victoria Park' categories. Each event has its own page under /News_events/Events/<year>/<Month>/. Community-submitted listings: confirm on the organiser's page where one exists.",
+      "domains": [
+        "towerhamlets.gov.uk"
+      ]
+    },
+    {
+      "id": "ticket-tailor",
+      "name": "Ticket Tailor",
+      "policy": "primary-read",
+      "how": "Read public box-office pages, e.g. tickettailor.com/events/stmargaretshouse. Event list shows title, date/time and room/address; items marked 'Multiple dates and times' are usually weekly classes (skip) - open the event page if unsure.",
+      "source": "https://developers.tickettailor.com/docs/intro",
+      "domains": [
+        "tickettailor.com"
+      ]
+    },
+    {
+      "id": "eventbrite",
+      "name": "Eventbrite",
+      "policy": "api-by-id",
+      "how": "Location search was shut off in 2020. Only list events by organiser or venue id stored on a venue below (Mindful Pause at Oxford House: organiser 107886347751). Key in env EVENTBRITE_TOKEN. Public organiser pages are readable with page_text.py.",
+      "source": "https://github.com/Automattic/eventbrite-api/issues/83",
+      "domains": [
+        "eventbrite.co.uk",
+        "eventbrite.com"
+      ]
+    },
+    {
+      "id": "momence",
+      "name": "Momence (class and event booking)",
+      "policy": "discovery-only",
+      "how": "Booking platform used by AndSoul Sanctuary, Mission and Waking Dreams. Pages are JavaScript-built (js-only): tested 13 Oct 2026, momence.com/l/<code> links redirect to an event page but page_text.py returns only the event title (no date, time or price), and host schedule pages (momence.com/u/<host>) return nothing. robots.txt allows all bots. Use a Momence link as the ticket link only; take every fact from the venue's own event page.",
+      "domains": [
+        "momence.com"
+      ]
+    },
+    {
+      "id": "runthrough",
+      "name": "RunThrough (race organiser)",
+      "policy": "primary-read",
+      "how": "Organiser of paid 5k/10k/half-marathon races in Victoria Park. runthrough.co.uk/venues/victoria-park-running-events is readable and lists each race date ('Sat, 7 Nov 2026 · Victoria Park') with price range. Individual event pages timed out once on 13 Oct 2026; retry once, then use the venue page.",
+      "domains": [
+        "runthrough.co.uk"
+      ]
+    },
+    {
+      "id": "letsdothis",
+      "name": "Let's Do This (race entry)",
+      "policy": "do-not-scrape",
+      "how": "Answered HTTP 403 on 13 Oct 2026; stop on 403. RunThrough races link here for entry; use runthrough.co.uk instead.",
+      "domains": [
+        "letsdothis.com"
+      ]
+    },
+    {
+      "id": "rockgympro",
+      "name": "RockGymPro (climbing wall booking)",
+      "policy": "do-not-scrape",
+      "how": "robots.txt disallows our fetcher (tested 13 Oct 2026 on Mile End Climbing Wall's booking widget). Take what the wall's own site says.",
+      "domains": [
+        "rockgympro.com"
+      ]
+    },
+    {
+      "id": "mato",
+      "name": "ma.to",
+      "policy": "discovery-only",
+      "how": "Has venue/event pages for a few wellness organisers (e.g. &Soul Community, run clubs). Leads only; confirm on a primary page.",
+      "domains": [
+        "ma.to"
+      ]
+    },
+    {
+      "id": "timeout",
+      "name": "Time Out London",
+      "policy": "discovery-only",
+      "how": "Health-and-beauty and sauna pages readable (e.g. best saunas in London, Rooftop Saunas Hackney). Leads only.",
+      "domains": [
+        "timeout.com"
+      ]
+    },
+    {
+      "id": "londonist",
+      "name": "Londonist",
+      "policy": "discovery-only",
+      "how": "Things-to-do pages readable. Leads only.",
+      "domains": [
+        "londonist.com"
+      ]
+    },
+    {
+      "id": "goodgym",
+      "name": "GoodGym",
+      "policy": "discovery-only",
+      "how": "Lists group runs and parkrun-linked sessions (e.g. Mile End parkrun + coffee). Leads only.",
+      "domains": [
+        "goodgym.org"
+      ]
+    },
+    {
+      "id": "parkrun",
+      "name": "parkrun",
+      "policy": "do-not-scrape",
+      "how": "parkrun.org.uk answered HTTP 403 to our fetcher on 12 Oct 2026; stop on 403. Parkrun events arrive as reader tips or manual entries.",
+      "domains": [
+        "parkrun.org.uk"
+      ]
+    },
+    {
+      "id": "tower-hamlets-slice",
+      "name": "Tower Hamlets Slice / Roman Road LDN",
+      "policy": "do-not-scrape",
+      "how": "towerhamletsslice.co.uk robots.txt disallows ClaudeBot. romanroadlondon.com redirects there. It runs useful guides (running clubs, yoga around Roman Road, East End saunas) that a person may read for leads; agents never fetch it.",
+      "domains": [
+        "towerhamletsslice.co.uk",
+        "romanroadlondon.com"
+      ]
+    },
+    {
+      "id": "thenudge",
+      "name": "The Nudge",
+      "policy": "do-not-scrape",
+      "how": "robots.txt disallows ClaudeBot (tested 13 Oct 2026). Good sauna and yoga round-ups, but people only.",
+      "domains": [
+        "thenudge.com"
+      ]
+    },
+    {
+      "id": "eventslist",
+      "name": "EventsList.co.uk",
+      "policy": "do-not-use",
+      "how": "Not fetched. Wellness searches (sound baths, breathwork) surface many eventslist.co.uk pages; it republishes Resident Advisor data, so never use it.",
+      "domains": [
+        "eventslist.co.uk"
+      ]
+    }
+  ],
+  "venues": [
+    {
+      "id": "andsoul-sanctuary",
+      "name": "AndSoul Sanctuary",
+      "aliases": [
+        "The Sanctuary & Soul",
+        "Shoreditch &Soul"
+      ],
+      "address": "114-116 Cheshire Street, London",
+      "postcode": "E2 6EJ",
+      "zone": "core",
+      "type": [
+        "sauna",
+        "wellness-studio",
+        "pilates-studio",
+        "yoga-studio"
+      ],
+      "website": "https://andsoulsanctuary.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://andsoulsanctuary.com/whats-on",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Dated event list ('October 25, 2026 @ 10:30 AM' + title + one line). Each event has its own page at /whats-on/<slug> with JSON-LD Event (startDate with the right London offset), a dated line and the price (e.g. 'Sunday 25 October, 10:30am. Sensorium. From £40 per person.'). Use the event page for evidence."
+        },
+        {
+          "platform": "momence",
+          "url": "https://momence.com/l/8Mh4mGvD",
+          "role": "discovery",
+          "readable": "js-only",
+          "notes": "'Book Now' links go to Momence (this one is Sanctum + Sauna); page_text.py returns only the event title. Ticket link only, not evidence."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "andsoulsanctuary.com/whats-on/sanctum-sauna-october: \"Sunday 25 October, 10:30am. Sensorium. From £40 per person. Booking is now open.\" with JSON-LD \"startDate\": \"2026-10-25T10:30:00+00:00\".",
+      "regular_schedule": "AndSoul Sanctuary runs Aufguss rituals in London's second-largest Aufguss amphitheatre most evenings.",
+      "notes": "The owner's 'AndSoul Sanctuary Sauna and Wellness Studio'. Sauna and wellness club in a converted warehouse off Brick Lane (40-person Aufguss sauna, cold plunge, Reformer and movement studios, Palm Greens café); the site calls it Shoreditch but the postcode is E2, about 880m from the tube. Take: sauna events (The Sauna Rave, Sanctum + Sauna, guided sauna rituals), The Wellness Social, breathwork, ecstatic/full-moon dance with sound healing, wellbeing talks and workshops. Skip: the Halloween party (nights-music), Atmosfer Vinyl Fridays at Palm Greens (food-drink), Founder Cowork Club, and the 70+ weekly classes. Opening hours differ between the footer ('Sat - Sun: 8:45am – 10pm') and the FAQ ('Saturday and Sunday 09:00 to 22:00'). andsoul.com is the co-living site (The Villas, Cheshire Street) and carries no events; ma.to/venue/andsoulcommunity is that co-living brand too, with no events."
+    },
+    {
+      "id": "moreyoga-bethnal-green",
+      "name": "MoreYoga Bethnal Green",
+      "address": "Unit 10, 33 Gales Gardens, London",
+      "postcode": "E2 0EJ",
+      "zone": "core",
+      "type": [
+        "yoga-studio",
+        "pilates-studio"
+      ],
+      "website": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Live 7-day class timetable (day headings like 'Tuesday13/10', class, time, teacher, spaces). Ordinary classes, including 'Sound Healing 45' and 'Candlelit Flow', are the weekly timetable: skip them. Watch for one-off community events or sharing circles, which the page says the studio runs."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://www.moreyoga.co.uk/workshop/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Chain-wide list of dated 2-hour workshops: date heading ('Sunday, November 1, 2026'), then title with the studio name run on ('...the art of letting goGreenwich Creekside'), time, teacher, spaces. Take only workshops at Bethnal Green; on 13 Oct 2026 none were listed there. /courses and /retreats exist but were not tested."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "moreyoga.co.uk/yoga-studio-london/bethnal-green: page data \"dateModified\":\"2026-08-17T14:26:55+00:00\" and a live timetable for the week of 13 Oct 2026 (heading \"Tuesday13/10\"). No dated one-off event at this studio found.",
+      "regular_schedule": null,
+      "notes": "Railway-arch studio a short walk from the tube. Mostly a weekly class timetable, so expect few listings. Aldgate (fringe) and Haggerston (outer, E8 4HU) are other MoreYoga studios nearby; see the watchlist."
+    },
+    {
+      "id": "london-buddhist-centre",
+      "name": "London Buddhist Centre",
+      "address": "51 Roman Rd, Bethnal Green, London",
+      "postcode": "E2 0HU",
+      "zone": "core",
+      "type": [
+        "meditation-centre",
+        "yoga",
+        "retreats",
+        "talks"
+      ],
+      "website": "https://www.londonbuddhistcentre.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.londonbuddhistcentre.com/whats-on",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Weekly drop-in classes (regular schedule) plus 'Highlights' and 'Coming up' lists with day, date and times but no year ('Sat 17 Oct | 3:00 pm - 5:00 pm'). Two featured blocks carry stale dates ('Urban Retreat Sat 16 Sep - Sat 23 Sep', 'An Evening with the Chair ... Fri 3 Apr - Sun 12 Apr'); ignore them."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Example event page (/whats-on/<slug>, slug usually ends in the date with year). Gives date, time, 'In person, book online' or online, and price ('Free, book online'). Use the event's own page for evidence."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "londonbuddhistcentre.com/whats-on: \"The Winter Retreat 2026\" (Tue 22 Dec – Fri 1 Jan); event page lists \"Day Retreat: A Commonplace Book\" on Sun 1 Nov, 10:00 am – 4:00 pm, \"Free, book online\".",
+      "regular_schedule": "LunchtimeMeditation | Monday to Saturday | 1–2pm",
+      "notes": "Triratna Buddhist centre about 220m from the tube. Take: day retreats, meditation and yoga workshops (e.g. Kum Nye Tibetan Yoga Workshop), courses (one record per course run, opening date first), Death Cafe and wellbeing talks if in person. Skip: the weekly drop-in classes (regular schedule only), online-only sessions, Deep Cuts vinyl night (nights-music) and film nights (arts). Some events are single-sex or for specific groups (Women's Intensive, People of Colour Weekend, Sub30): say so in the listing. Off-site retreats are not in our area."
+    },
+    {
+      "id": "st-margarets-house",
+      "name": "St Margaret's House",
+      "address": "21 Old Ford Road, London",
+      "postcode": "E2 9PL",
+      "zone": "core",
+      "type": [
+        "community-centre",
+        "workshops",
+        "classes",
+        "repair-cafe"
+      ],
+      "website": "https://www.stmargaretshouse.org.uk",
+      "listings": [
+        {
+          "platform": "ticket-tailor",
+          "url": "https://www.tickettailor.com/events/stmargaretshouse",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "One-off wellness events with date, time and room, e.g. 'Sound Bath with Sekrit Thu 29 Oct 2026 7:30 PM - 9:00 PM The Studio, St Margaret's House, E2 9PJ' and 'Embracing Autumn – an afternoon of Gentle Movement, Yin Yoga & Deep Rest Sun 8 Nov 2026'. Items marked 'Multiple dates and times' (Gentle Yoga and Sound, Restorative Pilates, Pregnancy Yoga, Integral Yoga, Women's Wellbeing, Saturday Morning Stretch) are weekly classes: skip."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Ticket Tailor: \"Sound Bath with Sekrit Thu 29 Oct 2026 7:30 PM - 9:00 PM The Studio, St Margaret's House, E2 9PJ\".",
+      "regular_schedule": null,
+      "notes": "Same venue and id as in community.json (name, address, zone copied from there; 21 Old Ford Road and E2 9PL confirmed on its homepage). Rooms at 27 Old Ford Road print E2 9PJ. Health-wellness takes the sound baths, yoga/movement workshops and wellbeing afternoons; workshops of other kinds, the repair café and markets stay with community; Gallery Café exhibitions with arts. Paid treatments (massage, acupuncture) are services, not events."
+    },
+    {
+      "id": "oxford-house",
+      "name": "Oxford House",
+      "address": "Derbyshire Street, London",
+      "postcode": "E2 6HG",
+      "zone": "core",
+      "type": [
+        "community-centre",
+        "workshops",
+        "talks"
+      ],
+      "website": "https://www.oxfordhouse.org.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.oxfordhouse.org.uk/whats-on/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Dated list shared with the other scouts; take wellbeing walks, meditation and sound baths only."
+        },
+        {
+          "platform": "eventbrite",
+          "url": "https://www.eventbrite.co.uk/o/mindful-pause-107886347751",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Mindful Pause (organiser 107886347751): guided meditation and sound baths in the Oxford House chapel. Organiser page says Sandy has been 'offering guided meditation and sound baths at Oxford House since 2022'; no upcoming events on 13 Oct 2026 (last seen: 29 September 2025). Use the Eventbrite API by organiser id."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "oxfordhouse.org.uk/whats-on: \"October 29, 2026\" / \"Black History Month 2026 : Wellbeing Walk with Mindful Meditation\".",
+      "regular_schedule": null,
+      "notes": "Same venue and id as in community.json (copied from there). Health-wellness takes only wellbeing events (meditation, sound baths, wellbeing walks); everything else stays with the other scouts. The Mindful Pause Eventbrite page gives the room: 'Oxford House, Chapel (take the lift to 3/F), Derbyshire Street, Bethnal Green, E2 6HG'."
+    },
+    {
+      "id": "bethnal-green-nature-reserve",
+      "name": "Bethnal Green Nature Reserve",
+      "address": "Middleton Street, London",
+      "postcode": "E2 9RR",
+      "zone": "core",
+      "type": [
+        "nature-reserve",
+        "park",
+        "workshops",
+        "family",
+        "talks"
+      ],
+      "website": "https://bethnalgreennaturereserve.org",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://bethnalgreennaturereserve.org/calendar",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Full dated calendar. Take Community Qi Gong (dated sessions, e.g. 'Community Qi Gong Sat 24 October 2026 9.30am – 10.30am') and any other movement or meditation sessions. Workshops, talks, the Mobile Apothecary street service and family sessions stay with community."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "bethnalgreennaturereserve.org/calendar: \"Community Qi Gong Sat 24 October 2026 9.30am – 10.30am\".",
+      "regular_schedule": null,
+      "notes": "Same venue and id as in community.json (name, address and postcode copied from there; not re-checked on the reserve's own pages). Qi Gong and other movement or meditation sessions are this scout's; the community scout skips them."
+    },
+    {
+      "id": "mission-e1",
+      "name": "Mission",
+      "aliases": [
+        "Mission E1"
+      ],
+      "address": "7-9 Fashion Street, London",
+      "postcode": "E1 6PX",
+      "zone": "fringe",
+      "type": [
+        "yoga-studio",
+        "gym",
+        "wellness-studio"
+      ],
+      "website": "https://www.mission-e1.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.mission-e1.com/workshops/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Dated workshops with teacher, time and price, e.g. 'Reboot and Reset - a Journey of Breath and Sound with Sally Connor & Pablo Saturday 31st October: 12.30-3.00pm £50' and 'Sound Bath with Charlie Merton Friday 6th November: 6.30-7.45pm £25'. Dates print without a year until 2027 ones; use the weekday rule. 'Book Now' links go to Momence (js-only)."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://www.mission-e1.com/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Homepage; address and class/café links. The class schedule is the weekly timetable (skip)."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "mission-e1.com/workshops: \"An Introduction to Kettlebells\" with \"Friday 23rd October: 6.00-8.00pm\" (23 Oct 2026 is a Friday); the page also lists \"Friday 29th – Sunday 31st January, 2027\". Homepage data \"dateModified\":\"2026-07-03T13:43:55+00:00\".",
+      "regular_schedule": null,
+      "notes": "Probably the owner's 'mission': a large yoga, strength, calisthenics and movement centre off Brick Lane in a converted warehouse (Time Out called it 'Europe's largest yoga space' when it opened). About 1.5km from the tube, so fringe. No other wellness venue called Mission was found near Bethnal Green (Bethnal Green Mission Church and Good Shepherd Mission are churches). Take: breathwork, sound baths, yoga and movement workshops, workshop weekends with visiting teachers. Skip: teacher trainings and immersions, treatments, the weekly class timetable, and 'Pratibhā' (for yoga teachers). Café Mission food nights belong to food-drink."
+    },
+    {
+      "id": "mile-end-climbing-wall",
+      "name": "Mile End Climbing Wall",
+      "address": "Haverfield Road, London",
+      "postcode": "E3 5BE",
+      "zone": "fringe",
+      "type": [
+        "climbing-wall",
+        "sauna"
+      ],
+      "website": "https://www.mileendwall.org.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.mileendwall.org.uk/socials-and-events",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Short list of socials and events with one-line blurbs: Queer Social Session ('Queer Climb is our monthly LGBTQIA+ climbing social.'), Women's Social session, and Beyond Limits ('Join us on 7th November for a full day...'). Most items have no date on this page; the 'Information and Booking' buttons go to RockGymPro, which robots.txt blocks. Record only dates this page prints."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://www.mileendwall.org.uk/sauna",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Finnish sauna sessions ('Forty five minutes of total relaxation at Mile End's very own Finnish sauna!'); bookable sessions, not events."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "mileendwall.org.uk/socials-and-events: \"Join us on 7th November for a full day designed to inspire and empower.\"; footer \"© 2026 Mile End Climbing Wall\".",
+      "regular_schedule": null,
+      "notes": "Charity-run climbing centre in Mile End Park by the canal (about 1.05km from the tube), with its own sauna. Take socials and one-off event days open to the public. Courses and junior half-term sessions are regular programmes (junior holiday sessions belong to community). Old /index.php/... links redirect to the same pages."
+    },
+    {
+      "id": "victoria-park",
+      "name": "Victoria Park",
+      "address": "Victoria Park, London",
+      "postcode": "E3 5TB",
+      "zone": "fringe",
+      "type": [
+        "park",
+        "festival-site",
+        "sport"
+      ],
+      "website": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+      "listings": [
+        {
+          "platform": "runthrough",
+          "url": "https://www.runthrough.co.uk/venues/victoria-park-running-events",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Dated RunThrough races in the park with price range, e.g. 'Victoria Park Half Marathon, 10k & 5k November 2026' / 'Sat, 7 Nov 2026 · Victoria Park' / '£28 – £36(+ 5% booking fee)'. Entry goes via letsdothis.com (do-not-scrape)."
+        },
+        {
+          "platform": "tower-hamlets-council",
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/Events.aspx",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Use the 'Sports and exercise' and 'Victoria Park' categories for public fitness events, fun runs and outdoor sessions."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://londonfrontrunners.org/run/saturday-victoria-park/",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "London Frontrunners (LGBT+ inclusive running club) weekly Saturday run: 'Meeting time: 9.50am', 'Run starts: 10.00am', from 'The Victoria Park Community Centre, 5 Gore Road, E9 7HR', 5 or 10 km. A regular schedule with no 2026-dated line: 'On repeat' material only, see watchlist."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "runthrough.co.uk/venues/victoria-park-running-events: \"Sat, 7 Nov 2026 · Victoria Park\".",
+      "regular_schedule": null,
+      "notes": "Same venue and id as in community.json (name, address, postcode and zone copied from there). Health-wellness takes runs and fitness events you join (races, fun runs, run-club specials, outdoor yoga or fitness one-offs); festivals, fairs, park events and sport to watch stay with community, and All Points East with nights-music. parkrun is do-not-scrape."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "waking-dreams-bethnal-green",
+      "name": "Waking Dreams (Big Dream, Bethnal Green)",
+      "postcode": "E2 6JY",
+      "address": "1 Birkbeck St, London",
+      "reason": "Yoga, movement and strength studio with two dry saunas and a plunge, about 150m from the tube (core). wakingdreams.co is readable and the sauna FAQ gives 'Address: 1 Birkbeck St, London E2 6JY', but the /workshops page is empty, /events shows only brand collaborations dated 7/15/25, the schedule is a Momence widget (js-only), and no page read carries a 2026-dated line (footer says 2024; the sitemap shows pages edited in August 2026). Add once a readable dated workshop or sauna event appears. The second site is at Broadway Market (outer)."
+    },
+    {
+      "id": "york-hall-spa",
+      "name": "Be Well The Spa (York Hall Turkish baths)",
+      "postcode": "E2 9PJ",
+      "address": "York Hall Leisure Centre, 5 Old Ford Road, London",
+      "reason": "Council-run spa with Turkish baths and thermal suite inside York Hall (community.json id york-hall; boxing stays there). Temporarily closed: be-well.org.uk/york-hall-update (2 October 2026) says 'York Hall, including the spa, is now expected to reopen in January 2027.' When it reopens, add it as a listing under venue id york-hall (core) rather than a new id. be-well.org.uk/spa/ is readable."
+    },
+    {
+      "id": "london-frontrunners-victoria-park",
+      "name": "London Frontrunners – Saturday Victoria Park run",
+      "postcode": "E9 7HR",
+      "address": "The Victoria Park Community Centre, 5 Gore Road, London",
+      "reason": "Free weekly LGBT+ inclusive club run (fringe, about 1.1km). Its page is readable but gives only the regular schedule ('Run starts: 10.00am', Saturdays) and no 2026-dated line. A regular run is not a dated event; a person could list it 'On repeat'. Listed under victoria-park as a discovery source."
+    },
+    {
+      "id": "vph-thac",
+      "name": "Victoria Park Harriers & Tower Hamlets Athletics Club",
+      "postcode": "E9 5EG",
+      "address": "VPH&THAC Club House, St Augustine's Hall, Cadogan Terrace, London",
+      "reason": "Local athletics club; vphthac.org.uk is readable and active (news post dated 27 May 2026). Thursday 7pm group runs from the clubhouse (outer, about 2.5km) and open races in Victoria Park (Middlesex 10k each September). Its calendar page answered HTTP 500 on 13 Oct 2026. Add if the calendar becomes readable and shows open races you can join."
+    },
+    {
+      "id": "community-sauna-hackney-wick",
+      "name": "Community Sauna Baths – Hackney Wick",
+      "postcode": "E9 5JH",
+      "address": "Eastway Baths, 80 Eastway, London",
+      "reason": "Not-for-profit sauna with a monthly programme of guided events (Aufguss, sound-bath saunas, Trans Sauna, Yoga and Sauna Sundays) on community-sauna.co.uk/events, which is readable. But it is outer (about 2.9km), events are recurring with no dated 2026 line, and booking is on minside.periode.no, where page_text.py returns only 'Periode'. Standout candidate for the outer zone if a dated special event appears."
+    },
+    {
+      "id": "moreyoga-aldgate",
+      "name": "MoreYoga Aldgate",
+      "postcode": "E1 1EG",
+      "address": "Unit 5, 1–13 Adler Street, London",
+      "reason": "Fringe (about 1.55km). Same chain-wide workshops page as MoreYoga Bethnal Green; no workshop listed there on 13 Oct 2026. Add as a venue if workshops start appearing there. (MoreYoga Haggerston, 199 Haggerston Road E8 4HU, is outer.)"
+    },
+    {
+      "id": "theweekending-bethnal-green",
+      "name": "TheWeekending — Bethnal Green",
+      "postcode": "E2 0EJ",
+      "address": "Unit 9, Gales Gardens, London",
+      "reason": "Pro-LGBTQ+ strength class studio next to MoreYoga (core). Homepage readable; only classes and memberships, no public events seen."
+    },
+    {
+      "id": "rooftop-saunas-hackney",
+      "name": "Rooftop Saunas Hackney",
+      "postcode": "E8 4RU",
+      "address": "Netil Corner, 2 Bocking Street, London",
+      "reason": "Private rooftop sauna cabins on Netil House (fringe, about 1.2km; address from Time Out). rooftopsaunas.com is readable but offers private bookings only, no public events. Netil360 (nights-music) is the bar on the same roof."
+    },
+    {
+      "id": "the-common-press",
+      "name": "The Common Press",
+      "postcode": "E2 6DG",
+      "address": "118 Bethnal Grn Rd, London",
+      "reason": "Not-for-profit bookshop and events space (core). Held 'Breathwork & Sound baths for Wellbeing' on 25 Jun 2025, but its /events page renders almost nothing with page_text.py. Mostly a community/arts venue; check again for wellbeing evenings."
+    },
+    {
+      "id": "bethnal-green-mission-church",
+      "name": "Bethnal Green Mission Church",
+      "postcode": "E2 9LH",
+      "address": "305 Cambridge Heath Road, London",
+      "reason": "Checked as a possible match for the owner's 'mission': a church with a community café (The Beehive) and craft groups, no yoga, sauna or wellness programme. Not the 'mission' meant here (see mission-e1); kept so nobody re-researches it. Also on the community watchlist."
+    }
+  ],
+  "do_not_list": []
+}
