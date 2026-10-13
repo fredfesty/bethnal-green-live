@@ -8,7 +8,7 @@ SUBSCRIBE = REPO / "site/src/components/Subscribe.astro"
 
 
 def setting(name):
-    m = re.search(rf'^\s*{name}:\s*"([^"]*)"', CONFIG.read_text(encoding="utf-8"), re.M)
+    m = re.search(rf'^\s*{name}:\s*["\']([^"\']*)["\']', CONFIG.read_text(encoding="utf-8"), re.M)
     assert m, f"{name} is missing from site.config.mjs"
     return m.group(1)
 
@@ -25,8 +25,10 @@ def test_newsletter_username_looks_like_a_buttondown_username():
 
 def test_form_posts_to_buttondown_with_the_username():
     src = SUBSCRIBE.read_text(encoding="utf-8")
-    assert "https://buttondown.com/api/emails/embed-subscribe/${user}" in src
+    assert re.search(r"https://buttondown\.com/api/emails/embed-subscribe/\$\{\s*\w+\s*\}", src)
+    assert 'method="post"' in src
     assert 'name="email"' in src and 'type="email"' in src
+    assert 'name="embed"' in src
 
 
 def test_no_api_key_in_the_site_settings():
