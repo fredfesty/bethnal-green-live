@@ -5,21 +5,24 @@
     "from": "2026-10-15",
     "to": "2026-10-21"
   },
-  "subject": "What's on in E2 · 15–21 October: a free Sebright bill and a big Saturday",
-  "preheader": "A free three-band bill at the Sebright, free karaoke, a Saturday at the Working Men's Club and house on Brick Lane.",
+  "subject": "What's on in E2 · 15–21 October: a free Sebright bill and Somali Week",
+  "preheader": "A free three-band bill at the Sebright, Somali Week at Oxford House, a late Saturday at the Working Men's Club and Halloween dates.",
   "intro": {
     "greeting": "Hello, E2,",
     "paragraphs": [
-      "This is the first Bethnal Green Live. I live round here, and I wanted something like my friend Cat's Peckham Live newsletter for E2, so I started one: a short note every Thursday on what's on nearby.",
-      "A word on how it's made. The listings are found by AI and checked word for word against each venue's or ticket seller's own page, and I read every issue before it goes out.",
-      "It's a slim first week, nearly all gigs and club nights. I'd start with Thursday's free three-band bill in the Sebright's basement, and keep Saturday in mind for the Working Men's Club, where the night runs till 2am."
+      "Welcome to the first Bethnal Green Live. I live round here, and I wanted something for E2 like my friend Cat's Peckham Live newsletter: a short weekly note of what's on nearby. So here it is.",
+      "A word on how it's made, since it's only fair to say. The listings are found by AI and checked word for word against each venue's or ticket seller's own page, and I read every issue before it goes out.",
+      "The week itself starts gently on Thursday, with a free three-band bill at the Sebright. Somali Week opens at Oxford House on Friday, and Saturday is the last day to catch LAG at Soft Opening. Halloween falls on a Saturday this year, so the dates at the bottom are worth a look now."
     ],
-    "sign_off": "Speak next Thursday,",
+    "sign_off": "Enjoy the week,",
     "signed": "Fred",
     "postscript": null,
-    "written_by": {"agent": "newsletter-intro", "model": "opus"},
+    "written_by": {
+      "agent": "newsletter-intro",
+      "model": "opus"
+    },
     "used_notes": null,
-    "written_at": "2026-10-13T01:11:43+01:00"
+    "written_at": "2026-10-13T11:23:00+01:00"
   },
   "sections": [
     {
@@ -32,26 +35,74 @@
         {
           "event_id": "2026-10-15-sebright-arms-m-x-as-rome-burns-bone-china",
           "headline": null,
-          "blurb": "A free three-band bill of dream punk, post punk and grunge in the Sebright's basement gig room. For the price, an easy yes."
+          "blurb": "A three-band bill of dream punk, post punk and grunge in the Sebright's basement gig room, below the ground-floor bar. Entry is free, so it's an easy yes."
         }
       ]
     },
     {
       "kind": "featured",
-      "heading": "Saturday, two ways",
+      "heading": "Nights worth crossing the road for",
       "emoji": null,
       "layout": "cards",
-      "lede": "Two very different Saturday nights: one local, one a short walk out.",
+      "lede": "Two very different Saturday nights: one in the heart of E2, one a short walk away.",
       "items": [
-        {
-          "event_id": "2026-10-17-rich-mix-k-music-festival-chudahye-chagis",
-          "headline": "Chudahye Chagis live at Rich Mix",
-          "blurb": "A gig from Chudahye Chagis, whose sound is listed as psychedelic shamanic funk. Rich Mix is an arts centre, so it makes a change from the usual pub back room."
-        },
         {
           "event_id": "2026-10-17-bgwmc-brat-2-school",
           "headline": "Margo Marshall at the Working Men's Club",
-          "blurb": "A late club night at Bethnal Green Working Men's Club, with Margo Marshall billed and the night running from 9pm to 2am. As local as it gets."
+          "blurb": "A late club night at Bethnal Green Working Men's Club with Margo Marshall billed. Advance tickets start at £8, and it runs until 2am, so pace yourself."
+        },
+        {
+          "event_id": "2026-10-17-rich-mix-k-music-festival-chudahye-chagis",
+          "headline": "Chudahye Chagis at Rich Mix",
+          "blurb": "A K-Music Festival gig whose genre is listed as psychedelic shamanic funk, so one for the curious. Rich Mix is a charity-run arts centre, which makes a change from a pub back room."
+        }
+      ]
+    },
+    {
+      "kind": "quick-hits",
+      "heading": "More worth a look",
+      "emoji": null,
+      "layout": "list",
+      "lede": null,
+      "items": [
+        {
+          "event_id": "2026-10-16-star-of-bethnal-green-jubel-dj-crooks-goons",
+          "headline": "DJ Crooks & Goons at the Star",
+          "blurb": "A Friday DJ night at the Star of Bethnal Green, a local pub with a disco-and-karaoke reputation. It runs until 2am."
+        },
+        {
+          "event_id": "2026-10-17-th-local-history-library-seeking-liberation-workshop-with-dr-peggy-brunache",
+          "headline": "A history workshop on Saturday afternoon",
+          "blurb": "A Saturday-afternoon workshop with Dr Peggy Brunache at the local history library, a change of pace from a night out. The price isn't listed, so check before you go."
+        },
+        {
+          "event_id": "2026-10-17-93-feet-east-trmnl-london",
+          "headline": "TRMNL London at 93 Feet East",
+          "blurb": "House and tech house at 93 Feet East on Brick Lane, from 3pm to midnight. An early start for people who like to dance and still get home at a sensible hour."
+        }
+      ]
+    },
+    {
+      "kind": "cinema-and-arts",
+      "heading": "Comedy, a festival and a closing show",
+      "emoji": null,
+      "layout": "list",
+      "lede": "A festival, a comedy bill and the last days of a gallery show, all close to the tube.",
+      "items": [
+        {
+          "event_id": "2026-10-16-oxford-house-kayd-somali-arts-culture-somali-week-festival-2026",
+          "headline": "Somali Week at Oxford House",
+          "blurb": "Somali Week at Oxford House, the Bethnal Green community arts centre, with events running to 25 October. The festival is listed as free, though individual events may carry their own ticket prices."
+        },
+        {
+          "event_id": "2026-10-17-oxford-house-comedy-night-kudaal-screening",
+          "headline": "Comedy, a film and music at Oxford House",
+          "blurb": "An evening of comedy from Naif Mohammed, Khalid Raheem, Prince Abdi and Selam Amare, followed by a film screening and music. It runs from 6pm to 10pm, and the price isn't listed."
+        },
+        {
+          "event_id": "2026-09-11-soft-opening-lag",
+          "headline": "Last days of LAG at Soft Opening",
+          "blurb": "Maren Karlson's show at Soft Opening, a gallery on Minerva Street, closes on 17 October. This is the last chance to see it."
         }
       ]
     },
@@ -63,36 +114,84 @@
       "lede": null,
       "items": [
         {
-          "event_id": "2026-10-16-sebright-arms-sebright-karaoke",
-          "headline": null,
-          "blurb": "A free late-night sing-song at the Sebright, on Friday nights from 10pm."
+          "event_id": "2026-10-19-sebright-arms-freddy-keach-the-mop-sugartax-the-sly-velocipede",
+          "headline": "A Monday bill at the Sebright",
+          "blurb": "A multi-act bill at the Sebright on a Monday for £6, a cheap early-in-the-week reason to go out."
         },
         {
-          "event_id": "2026-10-19-sebright-arms-freddy-keach-the-mop-sugartax-the-sly-velocipede",
-          "headline": null,
-          "blurb": "A multi-act Monday bill at the Sebright for £6: a cheap, early-in-the-week reason to go out."
+          "event_id": "2026-10-18-mare-street-market-stranger-than-paradise-records-djs",
+          "headline": "Sunday records at Mare Street Market",
+          "blurb": "A Sunday-lunchtime DJ session at Mare Street Market, a Hackney market of independent restaurants and shops. Entry is free."
+        },
+        {
+          "event_id": "2026-10-21-oxford-house-black-history-month-2026-open-mic-night",
+          "headline": "Open mic at Oxford House",
+          "blurb": "An open mic evening for Black History Month at Oxford House. Entry is listed as free, with donations welcome."
         }
       ]
     },
     {
-      "kind": "quick-hits",
-      "heading": "More on Brick Lane",
+      "kind": "worth-the-trip",
+      "heading": "Worth the trip",
       "emoji": null,
-      "layout": "compact",
+      "layout": "cards",
       "lede": null,
       "items": [
         {
-          "event_id": "2026-10-16-93-feet-east-hotvox-presents-ammari-one-stop-away",
+          "event_id": "2026-10-15-26-curtain-road-strictly-vinyl-free-thursday-dj-sessions",
+          "headline": "Free vinyl sessions on Curtain Road",
+          "blurb": "Vinyl-only DJ sets with a downtempo slant at 26 Curtain Road in Shoreditch, with entry listed as free. Worth the trip if you like your music played from records."
+        },
+        {
+          "event_id": "2026-10-17-colour-factory-bubbledee",
+          "headline": "Bubbledee at Colour Factory",
+          "blurb": "A house music night at Colour Factory, a club and live music space in Queen's Yard, Hackney Wick. Tickets are from £15, it starts at 10pm and it's over-18s only."
+        }
+      ]
+    },
+    {
+      "kind": "on-repeat",
+      "heading": "Regular nights",
+      "emoji": null,
+      "layout": "compact",
+      "lede": "Ones that come round again, if you miss them this week.",
+      "items": [
+        {
+          "event_id": "2026-10-16-sebright-arms-sebright-karaoke",
           "headline": null,
           "blurb": null
         },
         {
-          "event_id": "2026-10-17-93-feet-east-melio-records-x-93-feet-east",
+          "event_id": "2026-10-19-three-colts-tavern-monday-night-open-mic-comedy",
           "headline": null,
           "blurb": null
         },
         {
-          "event_id": "2026-10-17-93-feet-east-trmnl-london",
+          "event_id": "2026-10-17-fine-cider-company-shop-tastings",
+          "headline": null,
+          "blurb": null
+        }
+      ]
+    },
+    {
+      "kind": "save-the-date",
+      "heading": "Book now",
+      "emoji": null,
+      "layout": "compact",
+      "lede": "Halloween lands on a Saturday this year, and the parties start the night before.",
+      "items": [
+        {
+          "event_id": "2026-10-30-bgwmc-slap-halloween",
+          "headline": null,
+          "blurb": null
+        },
+        {
+          "event_id": "2026-10-31-columbia-road-flower-market-londons-day-of-the-dead-2026",
+          "headline": null,
+          "blurb": null
+        },
+        {
+          "event_id": "2026-11-04-renegade-wine-bar-bethnal-green-e2-cheese-wine-rouge-and-ewe",
           "headline": null,
           "blurb": null
         }
@@ -102,14 +201,16 @@
   "laid_out": {
     "agent": "newsletter-editor",
     "model": "sonnet",
-    "run_id": "2026-10-13-nl",
-    "at": "2026-10-13T01:10:02+01:00"
+    "run_id": "2026-10-13-nl-remake",
+    "at": "2026-10-13T11:20:08+01:00"
   },
   "notes_for_fred": [
-    "Thin first issue: 8 of the week's 9 events used, all nights and music. No arts, food or community listings this week, so those sections are left out rather than padded.",
-    "The pick is a free Thursday gig on the day the email goes out. If you would rather lead with a Saturday, the Working Men's Club night (BRAT 2 SCHOOL, 9pm-2am, £8-£12) is the alternative, but its record has little detail beyond one billed name.",
-    "The three 93 Feet East events have no price in the record, so they are compact lines with no blurb and nothing about cost.",
-    "Melio Records and TRMNL (both Saturday house at 93 Feet East) are near-identical and sit next to each other in More on Brick Lane. I kept both to reach a three-item section; drop one if you prefer.",
-    "COWZ at the Sebright (Friday, price not listed) was left out to keep the Sebright to three events."
+    "Pick is the free Sebright bill on Thursday 15 Oct, the day the email goes out. The alternative is BRAT 2 SCHOOL at the Working Men's Club (Sat, 9pm-2am), but its record names only one act, so I kept it as a featured card.",
+    "Prices are missing on several events used: LAG, the history workshop, the Oxford House comedy night, TRMNL, Jubel, Cheese & Wine. The blurbs say so only where it matters; compact lines show nothing about cost.",
+    "Somali Week is listed as free, but the festival page also says individual events carry their own ticket prices. The blurb says that. Worth a glance.",
+    "Food and community are thin for this exact week (one tasting, one workshop), so there are no sections for them: the tasting sits in Regular nights, the workshop in More worth a look, and Book now carries Day of the Dead and the Cheese & Wine night.",
+    "SEND Play at Young V&A is in the data as an ongoing run but is on the first Saturday of the month, so nothing falls in this week. Left out.",
+    "20 events, near the top of the range. 'Regular nights' carries a £30 cider tasting beside free events; swap it out if it feels odd there.",
+    "The Oxford House comedy night's ticket link is the Somali Week festival page, not a page for that night. Probably fine as the festival hub, but worth a click before it goes out."
   ]
 }
