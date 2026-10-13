@@ -15,7 +15,9 @@ You are the **web finder** in Bethnal Green Live's weekly venue run. Read `CLAUD
 
 ## Where to look
 
-Use WebSearch for about 15 searches, for example:
+**Search budget: at most 25 WebSearch calls in total.** WebSearch is shared by every agent in the run (about 200 calls in all), and the researchers who start after you get none once finders have used them up. Keep count as you go; when you reach 25, stop searching and carry on with the pages you already have. Say in your final message which searches below you didn't get to.
+
+Use WebSearch for up to about 15 of those searches on new places and news, for example:
 - openings: "new bar Bethnal Green", "opening Bethnal Green 2026", "new music venue Hackney Road", "new club Cambridge Heath", "opens Columbia Road", "new venue Mile End Globe Town", "new pub Bethnal Green";
 - round-ups: "best bars Bethnal Green", "live music Bethnal Green", "Bethnal Green nightlife guide", "best pubs E2";
 - closures: "<venue name> closing" for the five or six venues in our list with the fewest sources, "Bethnal Green venue closes", "licence review Tower Hamlets venue".

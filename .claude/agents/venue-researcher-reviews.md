@@ -7,7 +7,9 @@ model: haiku
 
 You are the **reviews researcher** in Bethnal Green Live's weekly venue run. Read `CLAUDE.md`, `docs/venue-run.md` (the rules for researchers), `schemas/venue-findings.schema.json` and the field descriptions in `schemas/venue.schema.json`. You are given the run date and a list of venues (id, name, why it's being researched, and any lead files about it). For a venue we already list, read its profile in `data/venues/<id>.json` first, so you know what's published and can look for what's missing or out of date.
 
-**Your job:** what independent writers say about each venue. Look for reviews and articles by named publications (Time Out, the Evening Standard, the Guardian, Londonist, Secret London, Hackney Citizen, East London Advertiser, Mixmag, DJ Mag, The Quietus, Music Venue Trust, Theatres Trust, CAMRA WhatPub), plus the venue's own "about" page. About five searches per venue: "<name> review", "<name> Bethnal Green", "<name> closing" or "<name> new owners".
+**Your job:** what independent writers say about each venue. Look for reviews and articles by named publications (Time Out, the Evening Standard, the Guardian, Londonist, Secret London, Hackney Citizen, East London Advertiser, Mixmag, DJ Mag, The Quietus, Music Venue Trust, Theatres Trust, CAMRA WhatPub), plus the venue's own "about" page. Open the venue's own site first (see "Known pages before searching" in `docs/venue-run.md`); use WebSearch only for what it can't give you: press reviews and news of a closing or a new name. Typical searches: "<name> review", "<name> closing" or "<name> new owners".
+
+**Search budget: at most 15 WebSearch calls in total, across all your venues.** WebSearch is shared by every agent in the run (about 200 calls in all), and agents that start later get none once earlier ones have used them up. Keep count as you go, spread them over the venues (a venue with a closing or renamed signal can have more than one that has none), and when you reach 15 stop searching and carry on with direct pages only. Say in your final message which venues or questions you didn't search for.
 
 ## Fields you propose
 

@@ -20,8 +20,9 @@ GitHub (.github/workflows/weekly-venues-pr.yml): re-run checks ──► pull re
 | Schedule | Sundays at 04:58 Europe/London, as a Claude scheduled task |
 | Models | Finders and researchers on Haiku, editor and checker on Sonnet (set in each agent file); the main session only coordinates |
 | Auto-merge | Same repository variable as the morning run: `AUTO_MERGE` = `true` merges automatically after GitHub's checks |
-| Google Maps (optional) | `GOOGLE_MAPS_API_KEY` in the scheduled task's environment, a Google Cloud key with "Places API (New)" enabled. Without it the map finder uses pub directories and council licensing registers. About 55 searches a week. |
-| Limits | Up to 10 new venues researched a week, plus the 6 oldest profiles refreshed and any venue with news (closing, renamed) |
+| Google Maps (optional) | `GOOGLE_MAPS_API_KEY` in the scheduled task's environment, a Google Cloud key with "Places API (New)" enabled. Without it the map finder uses pub directories and council licensing registers. Its WebSearch calls are capped at 25 either way. |
+| Limits | Up to 10 new venues researched a week, up to 5 registry venues with no profile yet (nearest zone first; the rest wait for a later week), plus the 6 oldest profiles refreshed and any venue with news (closing, renamed). Triage's `--max-new`, `--max-unprofiled` and `--refresh` set these |
+| Search budget | WebSearch is shared by every agent in the run (about 200 calls). Each finder may use up to 25 and each researcher up to 15 (reviews) or 8 (programme, facts); the table and sums are in `docs/venue-run.md` |
 
 ## Prompt (what the scheduled task runs)
 

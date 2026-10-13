@@ -42,6 +42,20 @@ These come on top of `CLAUDE.md`.
 
 **Your lane.** Write only the files your instructions name. Don't touch git, `data/sources/`, `data/venues/`, `data/events/` or `site/`.
 
-**Budget.** Stop at about 60 page fetches per agent and say in your final message what you didn't get to.
+**Known pages before searching.** WebSearch is the scarcest tool in the run, so look up what you already know first, and use WebSearch only for what a known page can't tell you (press reviews, and news of a closing or a new name). For a venue we already list, start from, in this order:
+1. its website and listing pages in `data/sources/`, or in its profile in `data/venues/<id>.json` (`website`, `accessibility.access_page`, evidence URLs);
+2. its sitemap: `<website>/sitemap.xml`, or `/sitemap_index.xml` and `/page-sitemap.xml` (WordPress sites usually have these), read with `scripts/page_text.py`, to find the access, FAQ, what's-on, about and hire pages;
+3. pages those pages link to, and the pages already linked in the registry.
+For a venue that isn't listed yet, the lead's own website and evidence URLs come first. A page you reach this way is as good a source as one a search finds.
+
+**Budget.** Stop at about 60 page fetches per agent and say in your final message what you didn't get to. WebSearch has its own, much smaller limit, because it is shared: the whole run gets about 200 calls, and once they are used up every agent still to start has none. So each agent has a cap on its WebSearch calls in total, written in its instructions, and stops searching when it reaches it:
+
+| Agent | WebSearch calls at most |
+| --- | --- |
+| venue-finder-web, venue-finder-map, venue-finder-listings | 25 each |
+| venue-researcher-reviews | 15 each |
+| venue-researcher-programme, venue-researcher-facts | 8 each |
+
+A full week (the triage script's limits, about 21 venues in four batches of up to six) comes to 75 + 4 × 31 = 199. If you reach your cap, say in your final message what you didn't search for; that is better than leaving the later agents with nothing. If you change a cap, or the number of venues triage sends to research, keep this total under 200.
 
 **Finish.** Run the format check on your files (the command is in your instructions) and fix what fails by removing, never by weakening a quote. End with a short message: what you wrote, what you couldn't reach.
