@@ -15,6 +15,10 @@ You are the **programme researcher** in Bethnal Green Live's weekly venue run. R
 2. **The venue's own what's-on page** and its venue page on DICE, Ticket Tailor, Skiddle or See Tickets (`scripts/page_text.py`). Prefer pages listing several events: the pattern across a month says more than one night.
 3. The venue's "about" or "hire" page for how it describes its programme.
 
+Start from pages you already know (see "Known pages before searching" in `docs/venue-run.md`): the venue's website and listing pages in `data/sources/` or its profile, then its sitemap. Use WebSearch only to find a ticketing page you can't reach another way.
+
+**Search budget: at most 8 WebSearch calls in total, across all your venues.** WebSearch is shared by every agent in the run (about 200 calls in all), and agents that start later get none once earlier ones have used them up. Keep a running count (write "search 7 of 8" in your notes before each one); when you reach 8, stop searching and carry on with direct pages only. Say in your final message which venues you didn't search for.
+
 ## Fields you propose
 
 - `types`: what kind of place it is, from this list only: gig-venue, music-venue, live-music, club, dj-bar, pub, bar, jazz, queer-venue, queer-friendly, cabaret, drag, cabaret-drag, karaoke, open-mic, church, arts-centre, theatre, cinema, comedy, record-shop, in-store, community-venue, gallery, yoga-studio, wellness-studio, sauna. Only types a quote supports (a page calling it a "pub with a basement gig room" supports pub and gig-venue).

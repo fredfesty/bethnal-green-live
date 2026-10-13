@@ -8,14 +8,18 @@ are (scripts/zone.py), and writes data/venue-leads/<run-date>/_triage.json:
   research     venues for the three researchers this week:
                  new       a lead for a venue we don't know, in the core or fringe zone (or zone not known yet)
                  signal    news about a known venue: closing, closed, renamed, reopened, opening soon
-                 unprofiled  a registry venue with no profile yet
+                 unprofiled  a registry venue with no profile yet (at most --max-unprofiled a week,
+                           core first, then fringe, then zone not known, then outer)
                  refresh   the known venues whose profiles are oldest
-  report_only  new venues further out (outer zone), and leads for venues on the closed list or watchlist:
+  report_only  new venues further out (outer zone), new or unprofiled venues over this week's limit
+               (they wait for a later week), and leads for venues on the closed list or watchlist:
                for a person to look at, not researched
   known        leads that are venues we already know, with nothing new to say
 
+The caps keep the run inside the WebSearch limit shared by all its agents (see docs/venue-run.md).
+
 Usage
-  python scripts/venue_triage.py 2026-10-18 [--max-new 10] [--refresh 6] [--no-lookup]
+  python scripts/venue_triage.py 2026-10-18 [--max-new 10] [--max-unprofiled 5] [--refresh 6] [--no-lookup]
 """
 from __future__ import annotations
 
@@ -30,6 +34,10 @@ import venuelib  # noqa: E402
 import zone as zonelib  # noqa: E402
 
 ROOT = venuelib.ROOT
+
+# Order in which registry venues with no profile are taken: nearest zone first. A zone that is not known (or not
+# one of these) ranks between fringe and outer, as for new venues.
+UNPROFILED_ORDER = {"core": 0, "fringe": 1, None: 2, "outer": 3}
 
 
 def load_leads(folder: Path) -> list[tuple[str, dict]]:
@@ -55,9 +63,12 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("run_date", type=dt.date.fromisoformat)
     ap.add_argument("--max-new", type=int, default=10)
+    ap.add_argument("--max-unprofiled", type=int, default=5,
+                    help="registry venues with no profile yet to research in one week (default 5)")
     ap.add_argument("--refresh", type=int, default=6)
     ap.add_argument("--no-lookup", action="store_true", help="don't look postcodes up (tests)")
     args = ap.parse_args(argv)
+    args.max_unprofiled = max(args.max_unprofiled, 0)
 
     folder = ROOT / "data" / "venue-leads" / args.run_date.isoformat()
     folder.mkdir(parents=True, exist_ok=True)
@@ -128,11 +139,18 @@ def main(argv=None) -> int:
             profiles[d["id"]] = d
         except (ValueError, KeyError):
             pass
-    for k in known:
-        if k["where"] == "registry" and k["id"] not in profiles and k["id"] not in chosen:
-            research.append({"venue_id": k["id"], "name": k["name"], "reason": "unprofiled", "zone": k["zone"],
-                             "postcode": k["postcode"], "leads": []})
+    unprofiled = [k for k in known
+                  if k["where"] == "registry" and k["id"] not in profiles and k["id"] not in chosen]
+    # Nearest zone first; the sort is stable, so within a zone the registry's own order decides.
+    unprofiled.sort(key=lambda k: UNPROFILED_ORDER.get(k["zone"], 2))
+    for n, k in enumerate(unprofiled):
+        row = {"venue_id": k["id"], "name": k["name"], "reason": "unprofiled", "zone": k["zone"],
+               "postcode": k["postcode"], "leads": []}
+        if n < args.max_unprofiled:
+            research.append(row)
             chosen.add(k["id"])
+        else:
+            report_only.append({**row, "reason": f"over this week's limit of {args.max_unprofiled} unprofiled venues; next week"})
     oldest = sorted((p for p in profiles.values() if p["id"] not in chosen and p.get("status") != "closed"),
                     key=lambda p: p.get("profiled_at", ""))
     for p in oldest[: args.refresh]:
@@ -144,7 +162,9 @@ def main(argv=None) -> int:
     counts = {}
     for r in research:
         counts[r["reason"]] = counts.get(r["reason"], 0) + 1
-    print(f"OK research {len(research)} {counts}; report only {len(report_only)}; already known {len(known_out)}")
+    held = sum(1 for r in report_only if "over this week's limit" in r["reason"])
+    print(f"OK research {len(research)} {counts}; report only {len(report_only)} ({held} held over by this week's limits); "
+          f"already known {len(known_out)}")
     print(f"wrote {(folder / '_triage.json').relative_to(ROOT).as_posix()}")
     return 0
 

@@ -20,8 +20,9 @@ GitHub (.github/workflows/weekly-venues-pr.yml): re-run checks ──► pull re
 | Schedule | Sundays at 04:58 Europe/London, as a Claude scheduled task |
 | Models | Finders and researchers on Haiku, editor and checker on Sonnet (set in each agent file); the main session only coordinates |
 | Auto-merge | Same repository variable as the morning run: `AUTO_MERGE` = `true` merges automatically after GitHub's checks |
-| Google Maps (optional) | `GOOGLE_MAPS_API_KEY` in the scheduled task's environment, a Google Cloud key with "Places API (New)" enabled. Without it the map finder uses pub directories and council licensing registers. About 55 searches a week. |
-| Limits | Up to 10 new venues researched a week, plus the 6 oldest profiles refreshed and any venue with news (closing, renamed) |
+| Google Maps (optional) | `GOOGLE_MAPS_API_KEY` in the scheduled task's environment, a Google Cloud key with "Places API (New)" enabled. Without it the map finder uses pub directories and council licensing registers. Its WebSearch calls are capped at 20 with or without the key. |
+| Limits | Up to 10 new venues researched a week, up to 5 registry venues with no profile yet (nearest zone first; the rest wait for a later week), plus the 6 oldest profiles refreshed and any venue with news (closing, renamed). Triage's `--max-new`, `--max-unprofiled` and `--refresh` set these |
+| Search budget | WebSearch is shared by every agent in the run (about 200 calls). Each finder may use up to 20 and each researcher up to 15 (reviews) or 8 (programme, facts); the table and sums are in `docs/venue-run.md` |
 
 ## Prompt (what the scheduled task runs)
 
@@ -46,7 +47,7 @@ Find
    Read data/venue-leads/<run-date>/_triage.json.
 
 Research
-5. Split the "research" list into batches of at most 6 venues, in the order given. For every batch,
+5. Split the "research" list into batches of at most 6 venues, in the order given, and use at most 4 batches (24 venues): venues beyond that wait for next week, and say so in your final report. For every batch,
    start the three researchers together: venue-researcher-reviews, venue-researcher-programme and
    venue-researcher-facts. Give each the run date and the batch's entries copied exactly from
    _triage.json (venue_id, name, reason, zone, postcode, website, leads). Start all batches at once.

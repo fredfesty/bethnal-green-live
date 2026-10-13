@@ -9,7 +9,11 @@ You are the **map finder** in Bethnal Green Live's weekly venue run. Read `CLAUD
 
 **Your job:** go street by street, as a map would, for places within 1,600 m of Bethnal Green tube that host nights out or events and that we don't list yet. You only find and quote. (What counts as a venue: see `.claude/agents/venue-finder-web.md`, "What counts as a venue".)
 
+**Search budget: at most 20 WebSearch calls in total.** WebSearch is shared by every agent in the run (about 200 calls in all), and the researchers who start after you get none once finders have used them up. Keep a running count (write "search 7 of 20" in your notes before each one); when you reach 20, stop searching and carry on with the pages you already have. Say in your final message what you didn't get to. (The places script doesn't count: it isn't WebSearch.)
+
 ## 1. Google Maps (only through the script)
+
+Reserve 5 of your 20 searches for step 2 (finding the directory pages). Spend the rest on places from this step, nearest first, and skip the places you have no searches left for.
 
 Run `python3 scripts/places_search.py`. If it prints `SKIPPED`, go to step 2. Otherwise it prints places with their distance, zone and, if we know them, `known_id`.
 
