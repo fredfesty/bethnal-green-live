@@ -6,7 +6,7 @@ export default {
 
   // Newsletter: the Buttondown username once the account exists (buttondown.com/<username>).
   // Leave empty and the site shows "the newsletter starts soon" instead of a form.
-  buttondownUsername: "",
+  buttondownUsername: "bethnalgreenlive",
 
   // Where readers report a wrong listing. An email address, or a form URL. Leave empty to hide the link.
   correctionsContact: "",
