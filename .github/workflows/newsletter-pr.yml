@@ -67,10 +67,18 @@ jobs:
           path: newsletter-email.html
 
       - name: Write the pull request description
+        env:
+          NEWSLETTER_TEST_TO: ${{ vars.NEWSLETTER_TEST_TO }}
         run: |
+          git fetch -q --depth=1 origin main
           DATE="${{ steps.issue.outputs.date }}"
           {
-            echo "This week's newsletter, for **${DATE}**: laid out by the newsletter editor, letter written by the intro writer, every check passed. Read it below; merge when you're happy. Nothing is emailed until you press send in Buttondown."
+            if git cat-file -e "origin/main:${{ steps.issue.outputs.file }}" 2>/dev/null; then
+              echo "**Remake** of the ${DATE} issue: merging replaces the version already on main (and its web page), and makes a new Buttondown draft. Delete the old draft in Buttondown."
+              echo
+            fi
+            echo "This week's newsletter, for **${DATE}**: laid out by the newsletter editor, letter written by the intro writer, every check passed. Read it below; merge when you're happy. Nothing goes to subscribers until you press send in Buttondown."
+            if [ -n "${NEWSLETTER_TEST_TO}" ]; then echo; echo "Test mode is on: once merged, a test copy of the draft is emailed to the NEWSLETTER_TEST_TO address(es) only."; fi
             echo
             python - "${{ steps.issue.outputs.file }}" <<'PY'
           import json, sys

@@ -1,8 +1,11 @@
 name: Newsletter draft in Buttondown
 
 # When a new issue reaches main, turn it into a DRAFT email in Buttondown, ready for Fred to read and send.
-# It never sends anything. Does nothing until the repository secret BUTTONDOWN_API_KEY is set
+# It never sends to subscribers. Does nothing until the repository secret BUTTONDOWN_API_KEY is set
 # (Buttondown > Settings > API; then GitHub > Settings > Secrets and variables > Actions > New repository secret).
+# A remade issue (the file changed on main) gets a fresh draft too; delete the old draft in Buttondown.
+# Test copies (development): set the repository variable NEWSLETTER_TEST_TO to one or more addresses
+# (comma-separated) and each draft is also emailed to those addresses only. Leave it unset for drafts only.
 # Run it by hand (Actions > Newsletter draft in Buttondown > Run workflow) to redo a draft.
 
 on:
@@ -14,6 +17,10 @@ on:
       issue:
         description: "Issue date (YYYY-MM-DD)"
         required: true
+      test_to:
+        description: "Email a test copy to (comma-separated; blank = the NEWSLETTER_TEST_TO variable)"
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -24,6 +31,7 @@ jobs:
     env:
       TZ: Europe/London
       BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+      NEWSLETTER_TEST_TO: ${{ github.event.inputs.test_to || vars.NEWSLETTER_TEST_TO }}
       BGL_SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) }}
     steps:
       - uses: actions/checkout@v4
@@ -41,10 +49,10 @@ jobs:
           elif [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
             FILES=""
           else
-            FILES=$(git diff --name-only --diff-filter=A "${{ github.event.before }}" "${{ github.sha }}" -- 'data/newsletter/issues/*.json' | tr '\n' ' ')
+            FILES=$(git diff --name-only --diff-filter=AM "${{ github.event.before }}" "${{ github.sha }}" -- 'data/newsletter/issues/*.json' | tr '\n' ' ')
           fi
           echo "files=${FILES}" >> "$GITHUB_OUTPUT"
-          echo "New issues: ${FILES:-none}" >> "$GITHUB_STEP_SUMMARY"
+          echo "New or remade issues: ${FILES:-none}" >> "$GITHUB_STEP_SUMMARY"
       - name: Create the draft
         if: steps.which.outputs.files != ''
         run: |

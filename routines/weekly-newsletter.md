@@ -24,6 +24,7 @@ Thu        Fred opens the draft in Buttondown and presses send. The issue's web 
 | Fred's voice | `data/newsletter/voice.md`: how he writes and what the letter may say about him |
 | Auto-merge | Repository variable `NEWSLETTER_AUTO_MERGE`. Leave it unset (or `false`) to read every issue before it's merged; `true` merges once the checks pass |
 | Buttondown | Repository secret `BUTTONDOWN_API_KEY` (Buttondown > Settings > API). When set, every merged issue becomes a **draft** in Buttondown. It never sends |
+| Test copies | Repository variable `NEWSLETTER_TEST_TO` (one or more addresses, comma-separated). When set, each new draft is also emailed to those addresses only, so you can see the real email in your inbox. Subscribers get nothing until you press send. Unset it when development is over |
 
 ## Prompt (what the scheduled task runs)
 
@@ -43,14 +44,18 @@ Setup
    git config user.name "Fred Festy"
    git config user.email "37367535+fredfesty@users.noreply.github.com"
    Read CLAUDE.md and routines/weekly-newsletter.md; their rules apply.
-2. If data/newsletter/issues/<issue-date>.json already exists on main, stop and say so. Otherwise create the
-   branch claude/newsletter-<issue-date> from main (if it exists on GitHub, add -2, -3, …).
+2. If data/newsletter/issues/<issue-date>.json already exists on main, stop and say so, unless this run
+   was asked to REMAKE the issue (the words "remake" or "REMAKE" in the message that started it): then carry
+   on and make it again from scratch. Create the branch claude/newsletter-<issue-date> from main (if it
+   exists on GitHub, add -2, -3, …).
 
 Work (two separate agents)
 3. The editor: start a subagent on model sonnet (the newsletter-editor agent type if available, otherwise a
    general-purpose agent with model "sonnet"). Tell it the repository path and the issue date, that it must
    read and follow .claude/agents/newsletter-editor.md in full, must not touch git or use any connector, and
    writes only data/newsletter/issues/<issue-date>.json and data/runs/newsletter/<issue-date>.md.
+   On a remake, tell it the issue file already exists and that it replaces it completely (a fresh layout
+   from today's events, intro null), and rewrites the run report.
 4. The letter: when the editor has finished, start a subagent on model opus (the newsletter-intro agent type
    if available, otherwise a general-purpose agent with model "opus"). Tell it the repository path and the
    issue date, that it must read and follow .claude/agents/newsletter-intro.md in full, must not touch git or
@@ -76,6 +81,12 @@ Report (sent to Fred's phone; plain English, short)
    request's URL as a markdown hyperlink, for example
    [Pull request #20: Newsletter — 2026-10-22](https://github.com/fredfesty/bethnal-green-live/pull/20).
 ```
+
+## Remaking an issue (development)
+
+To make an issue again, even after it's been merged, ask Claude in chat to "remake this week's newsletter". Claude runs the scheduled task now with the word **REMAKE** added, so it doesn't stop at "already on main". You get a new pull request (`claude/newsletter-<issue-date>-2`, `-3`, …) whose description starts with **Remake**. Merging it replaces the issue on main and its web page, and makes a new Buttondown draft. With `NEWSLETTER_TEST_TO` set, a test copy of that draft lands in your inbox and nobody else's. Delete the older draft in Buttondown so you don't send the wrong one. Don't merge a remake you don't want: closing the pull request leaves everything as it was.
+
+To resend a test copy of the issue that's already on main without remaking it: Actions > Newsletter draft in Buttondown > Run workflow, with the issue date and (optionally) the address.
 
 ## Reading and sending (Fred)
 
