@@ -67,7 +67,12 @@
     "record": "data/verification/2026-10-12/2026-10-17-93-feet-east-melio-records-x-93-feet-east.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A house and progressive house party at 93 Feet East, put on with Melio Records and running from 3pm to 11pm. An afternoon-into-evening start, so you can dance and still be home at a sensible hour.",
+    "written_at": "2026-10-13T01:30:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

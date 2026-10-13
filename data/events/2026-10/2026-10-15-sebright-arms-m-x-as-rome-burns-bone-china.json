@@ -92,7 +92,12 @@
     "record": "data/verification/2026-10-12/2026-10-15-sebright-arms-m-x-as-rome-burns-bone-china.json"
   },
   "editor_note": "Free three-band bill at the Sebright, per the DICE listing.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "M/X, As Rome Burns and Bone China share a bill described as dream punk, post punk and grunge, in the Sebright Arms' basement gig room. Free entry makes it an easy one to try out.",
+    "written_at": "2026-10-13T01:30:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

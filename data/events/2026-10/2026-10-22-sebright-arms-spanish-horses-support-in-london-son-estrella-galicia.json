@@ -87,7 +87,12 @@
     "record": "data/verification/2026-10-12/2026-10-22-sebright-arms-spanish-horses-support-in-london-son-estrella-galicia.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "Spanish Horses, plus support, in the Sebright Arms' basement music room, on a bill that carries the Son Estrella Galicia name. Over-18s only.",
+    "written_at": "2026-10-13T01:30:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

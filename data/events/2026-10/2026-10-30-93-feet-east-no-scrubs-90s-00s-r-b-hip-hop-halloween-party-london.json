@@ -67,7 +67,12 @@
     "record": "data/verification/2026-10-12/2026-10-30-93-feet-east-no-scrubs-90s-00s-r-b-hip-hop-halloween-party-london.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A Halloween party built around 90s and 00s R&B and hip-hop, at 93 Feet East on Brick Lane. Over-18s only, and a long evening for anyone who likes to sing along.",
+    "written_at": "2026-10-13T01:30:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

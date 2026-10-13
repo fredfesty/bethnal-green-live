@@ -104,7 +104,12 @@
     "record": "data/verification/2026-10-12/2026-10-24-sebright-arms-dr-telefunk-at-sebright.json"
   },
   "editor_note": "Free five-hour DJ set on a Saturday night, per the listing.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "Dr. Telefunk at the Sebright Arms, with a spread that runs from funk and soul to salsa and house. Free entry and a 10pm start make it an easy one to drop into.",
+    "written_at": "2026-10-13T01:30:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],

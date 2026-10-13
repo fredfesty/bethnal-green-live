@@ -30,7 +30,7 @@ For each event, write `listing.blurb`: **one or two sentences, 40 to 320 charact
 What goes in, in rough order of usefulness:
 1. **What it is**, in plain words: a gig, a club night, a karaoke night, a jazz evening, an exhibition, a supper club. Use the event's kind and genres.
 2. **Who's on**, when there's a line-up: the names, or "a three-band bill" from the count. Call someone the headliner only when the title names them; otherwise the order of a line-up is not a fact. Names only; never describe an act (no "the Ninja Tune producer", no "fresh from their sold-out tour"): what an artist is known for is not in our checked facts, even if you're sure of it.
-3. **The room**, from the venue's checked profile: "in the Sebright's basement gig room", "at the working men's club". Only what the profile says.
+3. **The room**, from the venue's checked profile: "in the Sebright's basement gig room", "at the working men's club". Only what the profile says. Don't use what a venue usually books to describe this event's act ("the venue leans electronic, so…" implies a genre for the act).
 4. **An honest steer**, clearly as opinion, when the facts support it: "a cheap way into the weekend" (if the price is low), "one for the early birds" (an early start), "worth booking if you like your Halloween with disco" (a Halloween disco). Never a claim of fact about the night.
 
 Rules, all enforced by the checks:
@@ -46,7 +46,7 @@ Rules, all enforced by the checks:
 - British English, contractions welcome, no emoji, no hashtags, no headings, no links.
 - **Respect the crowd rule:** describe a crowd only as the venue profile does, never by race, class, looks or age.
 
-Leave `headline` null unless the event's own title is shouty, cryptic or all capitals (for example `COWZ`): then a plain headline of up to 90 characters may say what it is ("A three-band bill in the Sebright's basement"). The real title is still shown.
+Leave `headline` null unless the event's own title is shouty, cryptic or all capitals (for example `COWZ`): then a plain headline of up to 90 characters may say what it is ("A three-band bill in the Sebright's basement"). The real title is still shown. A headline must be a complete phrase, never a sentence cut short.
 
 Write the block like this:
 

@@ -87,7 +87,12 @@
     "record": "data/verification/2026-10-12/2026-10-17-bgwmc-brat-2-school.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": "A club night at Bethnal Green Working Men's Club",
+    "blurb": "A club night at Bethnal Green Working Men's Club with Margo Marshall in the line-up. It runs from 9pm until 2am, so it is one for staying out late, and right in E2.",
+    "written_at": "2026-10-13T01:30:00+01:00",
+    "run_id": "2026-10-13-lw"
+  },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
   "history": [],
