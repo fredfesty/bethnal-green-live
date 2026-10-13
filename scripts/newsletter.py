@@ -82,14 +82,19 @@ def load_events(root: Path | None = None) -> dict[str, dict]:
 
 
 def load_venue_profiles(root: Path | None = None) -> dict[str, dict]:
-    """Checked venue profiles only (same rule as the website): reviewed and nothing in doubt."""
+    """Checked venue profiles only (same rule as the website): reviewed since its last change, nothing in doubt."""
     out = {}
     for p in sorted(((root or ROOT) / "data" / "venues").glob("*.json")):
         try:
             d = read(p)
         except (OSError, ValueError):
             continue
-        if d.get("review") and not d.get("needs_review"):
+        rev = d.get("review") or {}
+        try:
+            fresh = dt.datetime.fromisoformat(rev["checked_at"]) >= dt.datetime.fromisoformat(d["profiled_at"])
+        except (KeyError, TypeError, ValueError):
+            fresh = False
+        if fresh and not d.get("needs_review"):
             out[d["id"]] = d
     return out
 

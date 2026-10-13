@@ -41,7 +41,7 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 - `data/runs/<agent>/<date>.md` — each run's report for a person.
 - `data/inbox/tips/` — reader tips waiting to be checked.
 - `scripts/validate.py` — format and house-rule checks. `scripts/check_quote.py` — re-fetches a page and looks for a quote. `scripts/page_text.py` — prints a page's exact text for quoting (scouts read pages with this, never with a summarising reader).
-- `routines/` — the prompts and settings for the scheduled runs: `morning-run.md` (daily events), `weekly-venues.md` (Sundays, venues) and `weekly-newsletter.md` (the weekly issue).
+- `routines/` — the prompts and settings for the scheduled runs: `morning-run.md` (daily events), `weekly-venues.md` (Sundays, venues) and `weekly-newsletter.md` (Wednesdays, the newsletter).
 - `site/` — the website (Astro). It reads `data/events/`, `data/sources/`, `data/venues/` and `data/newsletter/issues/` at build time; it never calls Claude or any AI service. `site/src/site.config.mjs` holds the settings a person decides (newsletter, corrections contact).
 - `_example` folders and `docs/examples/` — illustrative records, not real events.
 - A **run** (an exhibition, a theatre run, a special menu over several days) is one record: `starts_at` is the opening day, `ends_at` the closing day, `run_schedule` the opening times as printed.
@@ -68,6 +68,8 @@ python scripts/validate.py venue-leads data/venue-leads/<date>
 python scripts/validate.py venue-findings data/venue-research/<date>
 python scripts/validate.py newsletter data/newsletter/issues/<issue-date>.json --window
 python scripts/validate.py all
+python scripts/venue_triage.py <date>
+python scripts/zone.py "<postcode>"
 python scripts/newsletter.py week <issue-date>
 python scripts/newsletter.py render data/newsletter/issues/<issue-date>.json --format md
 python scripts/check_quote.py --file <files…>

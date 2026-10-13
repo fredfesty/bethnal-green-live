@@ -40,7 +40,7 @@ The events agents run every morning as a Claude scheduled task; settings and pro
 | `data/inbox/tips/` | Reader tips waiting to be checked |
 | `scripts/` | `validate.py` (format and house rules), `check_quote.py` (quote checker), `newsletter.py` (the week's events, rendering, Buttondown drafts) |
 | `tests/` | Tests for both scripts |
-| `routines/` | Scheduled-run prompts and settings: `morning-run.md`, `weekly-newsletter.md` |
+| `routines/` | Scheduled-run prompts and settings: `morning-run.md`, `weekly-venues.md`, `weekly-newsletter.md` |
 | `docs/examples/` | Example event record and venue profile |
 | `site/` | The website: listings with search and filters, calendar, event pages, calendar feeds, newsletter sign-up |
 
