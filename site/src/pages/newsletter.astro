@@ -2,18 +2,15 @@
 import Base from "../layouts/Base.astro";
 import Subscribe from "../components/Subscribe.astro";
 import { loadIssues } from "../lib/newsletter";
-import { sentIssues, nextIssue } from "../lib/archive";
-import { dayMonth, todayInLondon, weekday } from "../lib/time";
+import { sentIssues } from "../lib/archive";
+import { dayMonth, todayInLondon, weekday, weekLabel } from "../lib/time";
 import { rel } from "../lib/rel";
 const here = Astro.url.pathname;
 const today = todayInLondon();
 const all = loadIssues();
 const sent = sentIssues(all, today);
-const upcoming = nextIssue(all, today);
 const [latest, ...older] = sent;
 const RECENT = 4; // older issues listed here; the archive page has every one
-const week = (from: string, to: string) =>
-  from.slice(0, 7) === to.slice(0, 7) ? `${Number(from.slice(8))}–${dayMonth(to)}` : `${dayMonth(from)} – ${dayMonth(to)}`;
 ---
 <Base title="Newsletter" current="newsletter" description="The best of what's on around Bethnal Green, every Thursday morning. Free.">
   <article class="prose">
@@ -29,19 +26,15 @@ const week = (from: string, to: string) =>
   <section class="archive" id="archive" aria-labelledby="archive-title">
     <h2 id="archive-title">Past issues</h2>
     {!latest ? (
-      <p class="archive__empty">
-        {upcoming
-          ? <>The first issue goes out on {`${weekday(upcoming.id)} ${dayMonth(upcoming.id)}`}. Every issue is kept here afterwards, so you can catch up on any you missed.</>
-          : <>Every issue is kept here once it has gone out, so you can catch up on any you missed.</>}
-      </p>
+      <p class="archive__empty">Every issue is kept here once it has gone out, so you can catch up on any you missed.</p>
     ) : (
       <>
-        <a class="latest" href={rel(here, `newsletter/${latest.id}.html`)}>
-          <span class="latest__kicker">{`Latest · Issue ${latest.issue_number} · ${weekday(latest.id)} ${dayMonth(latest.id)}`}</span>
-          <span class="latest__title">{latest.subject}</span>
-          <span class="latest__pre">{latest.preheader}</span>
-          <span class="latest__go">Read the week of {week(latest.covers.from, latest.covers.to)}</span>
-        </a>
+        <div class="latest">
+          <p class="latest__kicker">{`Latest · Issue ${latest.issue_number} · ${weekday(latest.id)} ${dayMonth(latest.id)}`}</p>
+          <h3 class="latest__title"><a href={rel(here, `newsletter/${latest.id}.html`)}>{latest.subject}</a></h3>
+          <p class="latest__pre">{latest.preheader}</p>
+          <p class="latest__go" aria-hidden="true">{`Read the week of ${weekLabel(latest.covers.from, latest.covers.to)}`}</p>
+        </div>
         {older.length > 0 && (
           <ul class="archive__list">
             {older.slice(0, RECENT).map((i) => (
@@ -52,9 +45,9 @@ const week = (from: string, to: string) =>
             ))}
           </ul>
         )}
-        <p class="archive__all">
-          <a href={rel(here, "newsletter/archive.html")}>{sent.length === 1 ? "The archive" : `All ${sent.length} past issues`}</a>
-        </p>
+        {sent.length > 1 && (
+          <p class="archive__all"><a href={rel(here, "newsletter/archive.html")}>{`All ${sent.length} past issues`}</a></p>
+        )}
       </>
     )}
   </section>
@@ -65,13 +58,17 @@ const week = (from: string, to: string) =>
   .archive h2 { font-size: 1.35rem; font-weight: 700; }
   .archive__empty { color: var(--muted); max-width: 62ch; }
 
-  .latest { display: block; margin-top: 0.9rem; background: var(--plate); border: 1.5px solid #000; border-radius: 8px; padding: 1.1rem 1.25rem; color: var(--ink); text-decoration: none; }
-  .latest span { display: block; }
+  /* The whole card is clickable through the title link, which stays the only link a screen reader hears. */
+  .latest { position: relative; margin-top: 0.9rem; background: var(--plate); border: 1.5px solid #000; border-radius: 8px; padding: 1.1rem 1.25rem; }
+  .latest p { margin: 0; }
   .latest__kicker { color: var(--muted); font-weight: 650; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.8rem; }
-  .latest__title { margin-top: 0.35rem; font-size: 1.3rem; font-weight: 750; font-variation-settings: "wdth" 85; line-height: 1.25; }
-  .latest__pre { margin-top: 0.4rem; color: var(--muted); line-height: 1.5; }
-  .latest__go { margin-top: 0.6rem; font-weight: 650; color: var(--green); text-decoration: underline; text-decoration-color: var(--green-tint); }
-  .latest:hover .latest__go { text-decoration-color: var(--green); }
+  .latest__title { margin: 0.35rem 0 0; font-size: 1.3rem; font-weight: 750; font-variation-settings: "wdth" 85; line-height: 1.25; }
+  .latest__title a { color: var(--ink); text-decoration: none; }
+  .latest__title a::after { content: ""; position: absolute; inset: 0; border-radius: 8px; }
+  .latest:hover .latest__title a { text-decoration: underline; text-decoration-color: var(--green); }
+  .latest:hover { border-color: var(--green); }
+  .latest p.latest__pre { margin-top: 0.4rem; color: var(--muted); line-height: 1.5; }
+  .latest p.latest__go { margin-top: 0.6rem; font-weight: 650; color: var(--green); text-decoration: underline; text-decoration-color: var(--green-tint); }
 
   .archive__list { list-style: none; margin: 0.75rem 0 0; padding: 0; }
   .archive__list li { padding: 0.75rem 0; border-top: 1px solid var(--rule); }

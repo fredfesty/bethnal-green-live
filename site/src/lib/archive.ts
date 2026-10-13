@@ -10,14 +10,12 @@ export function sentIssues<T extends ArchiveIssue>(issues: T[], today: string): 
   return issues.filter((i) => i.id <= today).sort((a, b) => b.id.localeCompare(a.id));
 }
 
-/** The earliest issue still to go out after `today`, if one is laid out. */
-export function nextIssue<T extends ArchiveIssue>(issues: T[], today: string): T | null {
-  return issues.filter((i) => i.id > today).sort((a, b) => a.id.localeCompare(b.id))[0] ?? null;
-}
-
 export interface MonthGroup<T> { month: string; issues: T[] } // month as YYYY-MM
 
-/** Groups issues by the month they went out, keeping the order they come in (newest first for the archive). */
+/**
+ * Groups issues by the month they went out, keeping the order they come in.
+ * Pass them sorted (as sentIssues returns them): a month only forms one group when its issues sit together.
+ */
 export function groupByMonth<T extends ArchiveIssue>(issues: T[]): MonthGroup<T>[] {
   const groups: MonthGroup<T>[] = [];
   for (const i of issues) {

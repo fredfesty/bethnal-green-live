@@ -3,29 +3,22 @@
 import Base from "../../layouts/Base.astro";
 import Subscribe from "../../components/Subscribe.astro";
 import { loadIssues } from "../../lib/newsletter";
-import { sentIssues, nextIssue, groupByMonth } from "../../lib/archive";
-import { dayMonth, monthYear, todayInLondon, weekday, weekdayShort } from "../../lib/time";
+import { sentIssues, groupByMonth } from "../../lib/archive";
+import { monthYear, todayInLondon, weekdayShort, weekLabel } from "../../lib/time";
 import { rel } from "../../lib/rel";
 
 const here = Astro.url.pathname;
 const today = todayInLondon();
 const all = loadIssues();
 const sent = sentIssues(all, today);
-const upcoming = nextIssue(all, today);
 const months = groupByMonth(sent);
-const week = (from: string, to: string) =>
-  from.slice(0, 7) === to.slice(0, 7) ? `${Number(from.slice(8))}–${dayMonth(to)}` : `${dayMonth(from)} – ${dayMonth(to)}`;
 ---
-<Base title="Newsletter archive" current="newsletter" description="Every past issue of the Bethnal Green Live newsletter, newest first.">
+<Base title="Newsletter archive" current="newsletter" description="Every past issue of the Bethnal Green Live newsletter, newest first." noindex={sent.length === 0}>
   <article class="archive-page">
     <p class="kicker"><a href={rel(here, "newsletter.html")}>The newsletter</a> · Archive</p>
     <h1>Past issues</h1>
     {sent.length === 0 ? (
-      <p class="lede">
-        {upcoming
-          ? <>Nothing here yet: the first issue goes out on {`${weekday(upcoming.id)} ${dayMonth(upcoming.id)}`}.</>
-          : <>Nothing here yet. Issues appear here once they have gone out.</>}
-      </p>
+      <p class="lede">Nothing here yet. Issues appear here once they have gone out.</p>
     ) : (
       <p class="lede">
         {sent.length === 1 ? "One issue so far" : `${sent.length} issues so far`}, newest first. Each is shown as it was
@@ -40,13 +33,13 @@ const week = (from: string, to: string) =>
           {m.issues.map((i) => (
             <li class="issue-row">
               <p class="issue-row__when">
-                <span class="issue-row__num">No. {i.issue_number}</span>
+                <span class="issue-row__num">{`Issue ${i.issue_number}`}</span>
                 <span>{`${weekdayShort(i.id)} ${Number(i.id.slice(8))}`}</span>
               </p>
               <div>
                 <a class="issue-row__title" href={rel(here, `newsletter/${i.id}.html`)}>{i.subject}</a>
                 <p class="issue-row__pre">{i.preheader}</p>
-                <p class="issue-row__week">The week of {week(i.covers.from, i.covers.to)}</p>
+                <p class="issue-row__week">{`The week of ${weekLabel(i.covers.from, i.covers.to)}`}</p>
               </div>
             </li>
           ))}
@@ -66,8 +59,8 @@ const week = (from: string, to: string) =>
 
   .month { margin-top: 2.25rem; }
   .month h2 {
-    font-size: 1.35rem; font-variation-settings: "wdth" 75; font-weight: 800; text-transform: uppercase;
-    letter-spacing: 0.01em; padding-bottom: 0.4rem; border-bottom: 3px solid var(--ink);
+    font-size: 1.55rem; font-variation-settings: "wdth" 75; font-weight: 800; text-transform: uppercase;
+    letter-spacing: 0.01em; padding-bottom: 0.45rem; border-bottom: 3px solid var(--ink);
   }
   .issues { list-style: none; margin: 0.25rem 0 0; padding: 0; }
   .issue-row { display: grid; grid-template-columns: 4.6rem 1fr; gap: 0 1rem; padding: 0.9rem 0; border-top: 1px solid var(--rule); }

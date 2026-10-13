@@ -1,7 +1,7 @@
 // Run with `npm test` (Node's built-in test runner; no extra packages).
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { sentIssues, nextIssue, groupByMonth, neighbours } from "../src/lib/archive.ts";
+import { sentIssues, groupByMonth, neighbours } from "../src/lib/archive.ts";
 
 const issue = (id: string, issue_number: number) => ({ id, issue_number });
 // Deliberately out of order, as files can be read in any order.
@@ -22,13 +22,6 @@ test("sentIssues leaves the list it was given alone", () => {
   const copy = [...issues];
   sentIssues(issues, "2026-12-31");
   assert.deepEqual(issues, copy);
-});
-
-test("the next issue is the earliest one still to go out", () => {
-  assert.equal(nextIssue(issues, "2026-10-13")?.id, "2026-10-15");
-  assert.equal(nextIssue(issues, "2026-10-15")?.id, "2026-10-22");
-  assert.equal(nextIssue(issues, "2026-11-05"), null);
-  assert.equal(nextIssue([], "2026-10-13"), null);
 });
 
 test("issues are grouped by the month they went out, keeping their order", () => {
@@ -59,4 +52,14 @@ test("a sent issue never links on to one that hasn't gone out", () => {
 test("an unsent preview gets no neighbours", () => {
   assert.deepEqual(neighbours(issues, "2026-10-29", "2026-10-28"), { older: null, newer: null });
   assert.deepEqual(neighbours(issues, "2099-01-01", "2026-12-31"), { older: null, newer: null });
+});
+
+test("a lone sent issue, or none at all, has no neighbours", () => {
+  assert.deepEqual(neighbours(issues, "2026-10-15", "2026-10-20"), { older: null, newer: null });
+  assert.deepEqual(neighbours([], "2026-10-15", "2026-10-20"), { older: null, newer: null });
+});
+
+test("groupByMonth expects sorted input: unsorted issues split a month", () => {
+  const groups = groupByMonth([issue("2026-10-22", 2), issue("2026-09-24", 0), issue("2026-10-15", 1)]);
+  assert.deepEqual(groups.map((g) => g.month), ["2026-10", "2026-09", "2026-10"]);
 });
