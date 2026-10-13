@@ -1,0 +1,76 @@
+{
+  "venue_id": "mission-e1",
+  "venue_name": "Mission",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T14:12:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "yoga-studio",
+        "wellness-studio"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.mission-e1.com/",
+          "quote": "Strength, yoga, calisthenics, capoeira and boxing taught with precision",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.mission-e1.com/workshops/",
+          "quote": "Sound healing has been used for centuries to promote relaxation, reduce stress, and enhance overall wellbeing",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Workshops and courses, usually held on Friday evenings or weekends: kettlebell and movement workshops, acrobatics, and breathwork with sound healing (gong, singing bowls and drum).",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.mission-e1.com/workshops/",
+          "quote": "They are generally taught on a Friday night or at the weekend",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.mission-e1.com/workshops/",
+          "quote": "Reboot and Reset - a Journey of Breath and Sound",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.mission-e1.com/workshops/",
+          "quote": "The soothing sounds and vibrations of the Gong, singing bowls, chimes and drum",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no music genre named; the sound is sound healing, not a style",
+    "cost.notes: prices are per workshop (£40, £50), so no general pricing",
+    "age_policy: not stated"
+  ],
+  "notes": "Dated workshops on /workshops/: An Introduction to Kettlebells (Fri 23 Oct, 6-8pm); Soft Acrobatics (Sat 24 Oct, 4-6pm); Reboot and Reset - a Journey of Breath and Sound (Sat 31 Oct, 12.30-3pm). Weekly classes and teacher trainings are not listed here."
+}

@@ -1,0 +1,118 @@
+{
+  "venue_id": "andsoul-sanctuary",
+  "venue_name": "AndSoul Sanctuary",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T14:12:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "sauna",
+        "wellness-studio"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://andsoulsanctuary.com/",
+          "quote": "a 40-person Aufguss sauna amphitheatre, a 4°C cold plunge, a Reformer Pilates studio",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://andsoulsanctuary.com/",
+          "quote": "AndSoul Sanctuary is a club in Shoreditch, east London, built to support the whole you: move, recover and connect.",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Sauna raves: a DJ plays in the sauna on Friday nights (two listed for October, 16 and 30 Oct). Also a monthly women's ecstatic dance that closes with sound healing, sound and breath sessions such as Sanctum + Sauna, and Friday vinyl evenings at the on-site café.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://andsoulsanctuary.com/whats-on",
+          "quote": "Friday night in the sauna with DJ Enrico Argentin. Heat, sound, ice baths and cold plunges.",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://andsoulsanctuary.com/whats-on",
+          "quote": "Friday night in the sauna with DJ Azyre Blue. Heat, sound, ice baths and cold plunges.",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://andsoulsanctuary.com/whats-on",
+          "quote": "Ecstatic Dance Culture return with their monthly women’s dance, closing with a sound healing.",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://andsoulsanctuary.com/whats-on",
+          "quote": "Sanctum brings movement, breath and sound to the Sanctuary, followed by sauna, guided meditation and an ice bath.",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://andsoulsanctuary.com/whats-on",
+          "quote": "Palm Greens opens Bi-weekly on Fridays with Atmosfer: plant-forward small plates, special cocktails, natural wines and hi-fi vinyl sounds by Sonoro",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Unlimited membership is £149 a month. A single class costs £28, and newcomers can try three classes for £49.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://andsoulsanctuary.com/",
+          "quote": "Unlimited Sanctuary membership is £149 a month and includes over 70 classes a week, Reformer Pilates, and a sauna and cold plunge session every visit.",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://andsoulsanctuary.com/",
+          "quote": "A single class is £28, and first-time visitors can book three classes for £49, valid for 14 days.",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no genre is named for the sauna DJs or the Friday vinyl evenings",
+    "age_policy: not stated"
+  ],
+  "notes": "Nights seen on /whats-on (October 2026): The Sauna Rave with Azyre Blue (Fri 16 Oct, 9pm); Atmosfer Vinyl Fridays (Fri 23 Oct, 6:30pm, at the café); Sanctum + Sauna (Sun 25 Oct, 10:30am); The Sauna Rave with Enrico Argentin (Fri 30 Oct, 9pm); Ecstatic Dance Culture women's full moon dance (Tue 27 Oct, 7pm). The venue's own FAQ calls it a 'club' (membership), so no nightclub type is proposed. Halloween party (31 Oct) is for the nights aspect."
+}

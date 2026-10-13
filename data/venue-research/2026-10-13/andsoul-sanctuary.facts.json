@@ -1,0 +1,107 @@
+{
+  "venue_id": "andsoul-sanctuary",
+  "venue_name": "AndSoul Sanctuary",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T14:13:53Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "114-116 Cheshire Street, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://andsoulsanctuary.com/",
+          "quote": "114-116 Cheshire Street, Shoreditch, London E2 6EJ",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 6EJ",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://andsoulsanctuary.com/",
+          "quote": "114-116 Cheshire Street, Shoreditch, London E2 6EJ",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://andsoulsanctuary.com",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://andsoulsanctuary.com/",
+          "quote": "Shoreditch's club for the whole you",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The site says the Sanctuary is wheelchair accessible and asks visitors with specific access needs to message on WhatsApp before a visit. Step-free access to each room is not stated.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://andsoulsanctuary.com/get-in-touch",
+          "quote": "The Sanctuary is wheelchair accessible. If you have specific access requirements, message us on WhatsApp before your visit",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Single class £28; Unlimited Sanctuary membership £149 a month; first three classes £49 for new visitors, valid for 14 days.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://andsoulsanctuary.com/",
+          "quote": "A single class is £28, and first-time visitors can book three classes for £49, valid for 14 days.",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://andsoulsanctuary.com/",
+          "quote": "Unlimited Sanctuary membership is £149 a month",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Access answer is the FAQ on /get-in-touch (no separate access page), so access_page is left empty. The FAQ says 'wheelchair accessible' for 'The Sanctuary' without saying the sauna or studios are step-free, so step_free is left null for the editor. Whole-venue capacity is not stated; the 40-person Aufguss sauna in The Sensorium is one room only. Opening hours differ between sources (home page 'Mo-Fr 07:00-22:00', 'Sa-Su 08:45-22:00'; FAQ 'Saturday and Sunday 09:00 to 22:00'), so none are proposed. No age policy found on the pages read."
+}

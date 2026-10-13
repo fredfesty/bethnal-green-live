@@ -2,12 +2,12 @@
   "venue_id": "bethnal-green-market",
   "venue_name": "Bethnal Green Market",
   "aspect": "programme",
-  "researched_at": "2026-10-13T00:11:44Z",
+  "researched_at": "2026-10-13T14:12:00Z",
   "findings": [],
   "not_found": [
     "types: a street market is not on the types list, and no quote calls it a gig, club, arts or community venue",
     "music.styles and music.notes: no music or live nights on the council's market page",
-    "event listings: no events, nights or special dates found for this market"
+    "event listings: no events, nights or special dates found"
   ],
-  "notes": "An everyday street market. The council's markets page lists it as 'Bethnal Green Market (Monday to Saturday)' and describes stalls selling clothes, fruit and vegetables. No events or nights are listed. Five nights: none found."
+  "notes": "Everyday council street market; the council markets page lists its trading days and hours with no events. Nothing to list as nights."
 }

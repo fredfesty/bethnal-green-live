@@ -1,0 +1,83 @@
+{
+  "venue_id": "london-buddhist-centre",
+  "venue_name": "London Buddhist Centre",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T14:13:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A Buddhist centre on Roman Road, E2, that teaches meditation and Buddhism, runs daily yoga classes and hosts regular retreats.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.londonbuddhistcentre.com/about-us/about-the-lbc",
+          "quote": "We teach Buddhism and meditation in a way which is relevant to contemporary life.",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.londonbuddhistcentre.com/about-us/about-the-lbc",
+          "quote": "In addition we run daily yoga classes",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.londonbuddhistcentre.com/about-us/about-the-lbc",
+          "quote": "We host regular retreats at our rural retreat centre in Suffolk.",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.londonbuddhistcentre.com/",
+          "quote": "51 Roman rd, London, E2 0HU",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The centre says people do not have to be Buddhists to take part, and that most events suit newcomers.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.londonbuddhistcentre.com/about-us/about-the-lbc",
+          "quote": "You don’t need to be a Buddhist to get involved at the LBC.",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.londonbuddhistcentre.com/about-us/about-the-lbc",
+          "quote": "most of our events are suitable for those with no previous experience of meditation or Buddhism",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "types",
+    "status"
+  ],
+  "notes": "Own site only (about page and homepage, undated; the site footer says '© 2024'). Search found no press review; a Tower Hamlets Slice piece and a Roman Road blog are on the never-use list and were not opened. The Open House listing says the centre withdrew from that festival (old, not used). Prices for courses are for the cost researcher. Music does not apply."
+}

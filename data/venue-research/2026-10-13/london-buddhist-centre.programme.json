@@ -1,0 +1,57 @@
+{
+  "venue_id": "london-buddhist-centre",
+  "venue_name": "London Buddhist Centre",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T14:12:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "wellness-studio"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.londonbuddhistcentre.com/whats-on",
+          "quote": "What's On | Meditation, Buddhism & Yoga in East London",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "One vinyl DJ night listed on the what's-on page (Deep Cuts, Sat 24 Oct, 6-10pm). The rest of the programme is meditation, dharma and yoga, not music nights.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.londonbuddhistcentre.com/whats-on",
+          "quote": "Deep Cuts: Vinyl DJ Night",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.londonbuddhistcentre.com/whats-on",
+          "quote": "Monday Night Dharma | 7.15–9.30pm",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no genre named for Deep Cuts or any other night",
+    "age_policy: not stated for the open classes",
+    "cost.notes: no general pricing on the what's-on page"
+  ],
+  "notes": "Nights seen on /whats-on: Deep Cuts: Vinyl DJ Night (Sat 24 Oct, 6-10pm; appears once); Day Retreat: A Commonplace Book (Sun 1 Nov, 10am-4pm); Sub30 Friday Class (Fri 16 Oct, 7:15pm); Death Cafe (Sun 18 Oct, 3-5pm); Women's Intensive Long Weekend (Thu 15 to Sun 18 Oct). Weekly drop-in meditation and dharma sessions run Monday to Saturday."
+}

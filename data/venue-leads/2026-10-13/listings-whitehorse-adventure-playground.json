@@ -1,0 +1,30 @@
+{
+  "id": "whitehorse-adventure-playground",
+  "name": "Whitehorse Adventure Playground",
+  "about_venue_id": null,
+  "address": "Whitehorse Rd, London",
+  "postcode": null,
+  "website": null,
+  "found_by": "listings",
+  "signal": "new",
+  "kind_hint": "adventure playground for children, with half-term play sessions",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": ["name", "address"],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Adventure-play.aspx",
+      "quote": "Whitehorse Adventure Playground Whitehorse Rd E1 ONZ",
+      "retrieved_at": "2026-10-13T14:05:27Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": ["kind_hint"],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Adventure-play.aspx",
+      "quote": "Half term adventure play at Whitehorse Adventure Playground",
+      "retrieved_at": "2026-10-13T14:05:27Z",
+      "source_kind": "directory"
+    }
+  ],
+  "found_at": "2026-10-13T14:05:27Z",
+  "notes": "Event: 'Adventure play', Tuesday 27 Oct 2026, 10:00-15:00 (council events page, half-term). Only one dated session found, so the editor should check whether it repeats. The council page prints the postcode as 'E1 ONZ', which is not a valid format, so no postcode is recorded; the zone is not confirmed. Source is the council's events page."
+}

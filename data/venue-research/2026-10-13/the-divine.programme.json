@@ -1,0 +1,106 @@
+{
+  "venue_id": "the-divine",
+  "venue_name": "The Divine",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T14:14:03Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "queer-venue",
+        "bar",
+        "drag",
+        "club",
+        "cabaret",
+        "theatre"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "East London’s newest queer bar, drag hothouse, LGBTQ+ performance venue and nightclub",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://thedivine.co.uk/",
+          "quote": "CABARET: Scream Kweenz Halloween",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://thedivine.co.uk/",
+          "quote": "THEATRE: BARBS & GINGER PRESENT: MISERY",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A weekly work-in-progress night and a Wednesday lipsync series, cabaret and drag most evenings, club nights on Friday and Saturday, plus film screenings, workshops and theatre.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://thedivine.co.uk/",
+          "quote": "WIP: WERK IN PROGRESS",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://thedivine.co.uk/",
+          "quote": "LIPSYNC1000: SEASON 10",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "Weekend discos are every Friday and Saturday on the lower level of The Divine",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://thedivine.co.uk/",
+          "quote": "CLUB: POP LOAD",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://thedivine.co.uk/",
+          "quote": "SCREENING: CAMP CLASSICS presents FRANKENHOOKER",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles (no genre named on two or more nights)",
+    "cost.notes (the about page describes door policy, not a general price)"
+  ],
+  "notes": "Nights seen: WIP: WERK IN PROGRESS (Tue 13 and 20 Oct 2026); LIPSYNC1000: SEASON 10 (Wed 14, 21, 28 Oct and 4 Nov 2026); CLUB: POP LOAD (Fri 16 Oct 2026, and Fri 13 Nov 2026); CLUB: WHERE’S THE LID (Sat 17 Oct 2026); CABARET: Scream Kweenz Halloween (Fri 16 Oct 2026)."
+}

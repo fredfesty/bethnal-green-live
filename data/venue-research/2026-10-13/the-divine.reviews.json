@@ -1,0 +1,134 @@
+{
+  "venue_id": "the-divine",
+  "venue_name": "The Divine",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T14:14:32Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A queer bar, drag venue and nightclub in Dalston, run by the team behind The Glory and owned by drag performers Jonny Woo and John Sizzle, with Colin Rothbart.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://timeout.com/london/things-to-do/the-divine",
+          "quote": "owned by iconic drag queens Jonny Woo and John Sizzle",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "brought to you by the team behind The Glory",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "The Divine is proudly owned by iconic London drag queens Jonny Woo and John Sizzle",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "plus legendary party-starter Colin Rothbart",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "The Divine is located in Dalston",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": "2025-07-09"
+    },
+    {
+      "field": "crowd",
+      "value": "Describes itself as a queer bar and LGBTQ+ performance venue.",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "queer bar, drag hothouse, LGBTQ+ performance venue and nightclub",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": null
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "cabaret",
+        "drag"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://timeout.com/london/things-to-do/the-divine",
+          "quote": "cabaret shows, drag competitions and fringe theatre",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "There are drag shows and LGBTQ+ arts events here most nights",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": "2025-07-09"
+    },
+    {
+      "field": "music.notes",
+      "value": "Drag and LGBTQ+ arts events most nights, with ticketed shows downstairs and a two-floor disco at weekends.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "with an early ticketed show downstairs",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://thedivine.co.uk/about/",
+          "quote": "At the weekends we turn into a 2-floor disco from 9pm",
+          "retrieved_at": "2026-10-13T14:14:32Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": null
+    }
+  ],
+  "not_found": [
+    "status",
+    "aliases"
+  ],
+  "notes": "No closing or renaming news found. Time Out (9 July 2025, reviewer Rosie Hewitson) describes the main bar as upstairs; the venue's own about page says the ground-floor bar is at street level and the show space is in the basement, so the review's floor wording was not used. The Infatuation review was refused by robots.txt and was not fetched."
+}

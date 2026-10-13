@@ -2,15 +2,17 @@
   "venue_id": "dalston-superstore",
   "venue_name": "Dalston Superstore",
   "aspect": "programme",
-  "researched_at": "2026-10-13T00:40:00Z",
+  "researched_at": "2026-10-13T14:14:03Z",
   "findings": [
     {
       "field": "types",
       "value": [
         "queer-venue",
         "club",
-        "cabaret-drag",
-        "karaoke"
+        "cabaret",
+        "drag",
+        "karaoke",
+        "gallery"
       ],
       "source_date": null,
       "evidence": [
@@ -18,27 +20,36 @@
           "fields": [
             "types"
           ],
+          "url": "https://dalstonsuperstore.com/",
+          "quote": "Dalston Superstore is a multipurpose queer venue",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
           "url": "https://dalstonsuperstore.com/about-us/",
           "quote": "Functioning in equal parts as a thriving queer club, cabaret spot, cafe, gallery and community space",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         },
         {
           "fields": [
             "types"
           ],
-          "url": "https://dalstonsuperstore.com/whats-on/",
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "front-running drag and performance space",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://dalstonsuperstore.com/",
           "quote": "KHOLE SUNDAYS! KARAOKE PARTY",
-          "retrieved_at": "2026-10-13T00:40:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "types"
-          ],
-          "url": "https://dalstonsuperstore.com/drag-brunch/",
-          "quote": "East London’s maddest and messiest drag queens, kings and things hit the mothership",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         }
       ]
@@ -55,8 +66,8 @@
             "music.styles"
           ],
           "url": "https://dalstonsuperstore.com/about-us/",
-          "quote": "dance music heavy-hitters",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "quote": "dance music heavy-hitters such as Honey Dijon",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         },
         {
@@ -65,75 +76,76 @@
           ],
           "url": "https://dalstonsuperstore.com/about-us/",
           "quote": "as much a thriving music-centred club",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         }
       ]
     },
     {
       "field": "music.notes",
-      "value": "Weekly recurring nights: a karaoke party every Sunday, a drag brunch on Saturday and Sunday afternoons, a Wednesday night series and Monday open decks, plus film screenings and monthly mix nights.",
+      "value": "Weekly queer club nights with DJs, including a Wednesday night that changes guest DJ each week, a Monday open-decks night, a Sunday karaoke party, weekend drag brunches, and film screenings on some Wednesdays.",
       "source_date": null,
       "evidence": [
         {
           "fields": [
             "music.notes"
           ],
-          "url": "https://dalstonsuperstore.com/whats-on/",
-          "quote": "KHOLE SUNDAYS! KARAOKE PARTY",
-          "retrieved_at": "2026-10-13T00:40:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "music.notes"
-          ],
-          "url": "https://dalstonsuperstore.com/drag-brunch/",
-          "quote": "every Saturday and Sunday from 12-4pm",
-          "retrieved_at": "2026-10-13T00:40:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "music.notes"
-          ],
-          "url": "https://dalstonsuperstore.com/whats-on/",
+          "url": "https://dalstonsuperstore.com/",
           "quote": "M.A.D WEDNESDAYS!!! Ft. CHEZA LUCINA!",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         },
         {
           "fields": [
             "music.notes"
           ],
-          "url": "https://dalstonsuperstore.com/whats-on/",
+          "url": "https://dalstonsuperstore.com/",
+          "quote": "M.A.D WEDNESDAYS!!! Ft. BESTLEY!",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dalstonsuperstore.com/",
           "quote": "Queer Open Decks",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         },
         {
           "fields": [
             "music.notes"
           ],
-          "url": "https://dalstonsuperstore.com/whats-on/",
+          "url": "https://dalstonsuperstore.com/",
+          "quote": "KHOLE SUNDAYS! KARAOKE PARTY",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dalstonsuperstore.com/",
+          "quote": "Drag Brunch with Lori Mae",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dalstonsuperstore.com/",
           "quote": "TRANSMISSIONS PRESENTS: ALIEN 3 (1992)",
-          "retrieved_at": "2026-10-13T00:40:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "music.notes"
-          ],
-          "url": "https://dalstonsuperstore.com/whats-on/",
-          "quote": "Monthly Mix + Mingle",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         }
       ]
     }
   ],
   "not_found": [
+    "music.styles beyond dance music",
     "cost.notes"
   ],
-  "notes": "Upcoming on the what's-on page (read 2026-10-13): TRANSMISSIONS PRESENTS: ALIEN 3 (1992), Wed 14 Oct 2026; M.A.D WEDNESDAYS!!! Ft. CHEZA LUCINA!, Wed 14 Oct 2026 (also 21 and 28 Oct); Drag Brunch with Lori Mae, Sun 18 Oct 2026; KHOLE SUNDAYS! KARAOKE PARTY, Sun 18 Oct 2026 (also 25 Oct, 1 Nov, 8 Nov, 15 Nov); Queer Open Decks, Mon 19 Oct 2026; Spankys Halloween Goth Disco, Sat 31 Oct 2026. No past listings in data/events or candidates."
+  "notes": "Nights seen: M.A.D WEDNESDAYS!!! Ft. CHEZA LUCINA! (Wed 14 Oct 2026); BLEDI FANTASY (Fri 16 Oct 2026); KHOLE SUNDAYS! KARAOKE PARTY (Sun 18 Oct 2026); Queer Open Decks (Mon 19 Oct 2026); M.A.D WEDNESDAYS!!! Ft. BESTLEY! (Wed 21 Oct 2026). Drag Brunch with Lori Mae (Sun 18 Oct 2026) is also listed."
 }

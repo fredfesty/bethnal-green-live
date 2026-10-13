@@ -1,0 +1,74 @@
+{
+  "id": "numbers-wine",
+  "name": "Numbers Wine",
+  "about_venue_id": null,
+  "address": "63 Vyner Street, London, E2 9DQ",
+  "postcode": "E2 9DQ",
+  "website": "https://www.numberswine.com/",
+  "found_by": "map",
+  "signal": "new",
+  "kind_hint": "winery with a cellar door bar that runs regular public events, workshops and film nights",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": [
+        "name",
+        "kind_hint"
+      ],
+      "url": "https://www.numberswine.com/",
+      "quote": "Londons local winery and makers of First Red since 1750",
+      "retrieved_at": "2026-10-13T14:08:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode",
+        "website"
+      ],
+      "url": "https://www.numberswine.com/pages/visit",
+      "quote": "63 VYNER STREET",
+      "retrieved_at": "2026-10-13T14:08:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.numberswine.com/pages/visit",
+      "quote": "E2 9DQ LONDON",
+      "retrieved_at": "2026-10-13T14:08:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://www.numberswine.com/pages/visit",
+      "quote": "JOIN US FOR REGULAR EVENTS, BOOK",
+      "retrieved_at": "2026-10-13T14:08:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://www.numberswine.com/blogs/events",
+      "quote": "PET NAT MAKING WORKSHOP – 31 OCTOBER",
+      "retrieved_at": "2026-10-13T14:08:05Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/business/licences/alcohol_and_entertainment/Licence_applications_received_this_week.aspx",
+      "quote": "63 Vyner Street, London, E2 9DQ",
+      "retrieved_at": "2026-10-13T14:08:05Z",
+      "source_kind": "directory"
+    }
+  ],
+  "found_at": "2026-10-13T14:08:05Z",
+  "notes": "Found by the map finder from the venue's own site and the Tower Hamlets register for the week to 12 October 2026 (a Temporary Event Notice for 10 to 11 October 2026, which alone is not a venue). The events page lists dated events; check opening hours on the visit page before listing."
+}

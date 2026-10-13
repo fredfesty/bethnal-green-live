@@ -1,0 +1,147 @@
+{
+  "id": "andsoul-sanctuary",
+  "name": "AndSoul Sanctuary",
+  "zone": "core",
+  "address": "114-116 Cheshire Street, London",
+  "postcode": "E2 6EJ",
+  "website": "https://andsoulsanctuary.com",
+  "summary": "A membership wellness club on Cheshire Street, E2, with a sauna, a chilly plunge, a Pilates studio using reformer machines, a movement studio and a café. It runs a coached class programme.",
+  "music": {
+    "styles": [],
+    "notes": "A monthly women's ecstatic dance that ends with sound healing, and regular Friday vinyl evenings at its café."
+  },
+  "crowd": "The club's own wording invites visitors to come as they are.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": "The club says the Sanctuary is wheelchair accessible, and asks anyone with specific access needs to message it on WhatsApp before visiting.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "A single class is £28 and unlimited membership £149 a month. Newcomers have a three-class trial at £49."
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://andsoulsanctuary.com/",
+      "quote": "114-116 Cheshire Street, Shoreditch, London E2 6EJ",
+      "retrieved_at": "2026-10-13T14:13:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://andsoulsanctuary.com/",
+      "quote": "Shoreditch's club for the whole you",
+      "retrieved_at": "2026-10-13T14:13:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://andsoulsanctuary.com/",
+      "quote": "AndSoul Sanctuary is a club in Shoreditch, east London, built to support the whole you: move, recover and connect.",
+      "retrieved_at": "2026-10-13T14:13:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://andsoulsanctuary.com/",
+      "quote": "It combines a coached class programme, a 40-person Aufguss sauna amphitheatre, a 4°C cold plunge, a Reformer Pilates studio, a movement studio and the Palm Greens café",
+      "retrieved_at": "2026-10-13T14:13:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "Friday night in the sauna with DJ Enrico Argentin. Heat, sound, ice baths and cold plunges.",
+      "retrieved_at": "2026-10-13T14:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "Ecstatic Dance Culture return with their monthly women’s dance, closing with a sound healing.",
+      "retrieved_at": "2026-10-13T14:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "Palm Greens opens Bi-weekly on Fridays with Atmosfer: plant-forward small plates, special cocktails, natural wines and hi-fi vinyl sounds by Sonoro",
+      "retrieved_at": "2026-10-13T14:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://andsoulsanctuary.com/",
+      "quote": "Come as you are and leave feeling better than when you arrived.",
+      "retrieved_at": "2026-10-13T14:13:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://andsoulsanctuary.com/get-in-touch",
+      "quote": "The Sanctuary is wheelchair accessible. If you have specific access requirements, message us on WhatsApp before your visit",
+      "retrieved_at": "2026-10-13T14:13:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://andsoulsanctuary.com/",
+      "quote": "A single class is £28, and first-time visitors can book three classes for £49, valid for 14 days.",
+      "retrieved_at": "2026-10-13T14:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://andsoulsanctuary.com/",
+      "quote": "Unlimited Sanctuary membership is £149 a month",
+      "retrieved_at": "2026-10-13T14:13:53Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T14:17:34Z",
+  "review": {
+    "checked_at": "2026-10-13T14:20:42Z",
+    "removed_fields": []
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-13T14:17:34Z",
+      "by": "venue-editor",
+      "change": "first profile, from the club's own site and FAQ; step-free left empty because the site says only that the Sanctuary is wheelchair accessible"
+    },
+    {
+      "at": "2026-10-13T14:20:42Z",
+      "by": "venue-checker",
+      "change": "cut 'large' from summary (not stated) and the Friday-night guest-DJ sauna clause from music.notes (one event, not a regular programme)"
+    }
+  ]
+}

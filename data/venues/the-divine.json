@@ -18,7 +18,7 @@
     "accessible_toilet": true,
     "hearing_loop": null,
     "notes": "Level entry to the ground-floor bar, which suits wheelchair users; the lower floor where shows happen is down 17 steps with handrails, and the stage has two steps. Accessible toilet on the ground floor (ask the bar for the key). A hearing loop is planned. Email ahead about seating.",
-    "access_page": null
+    "access_page": "https://thedivine.co.uk/about/"
   },
   "cost": {
     "free_entry": "some-nights",
@@ -210,14 +210,33 @@
       "quote": "Our main bar is free entry during the week, and free before 10pm on weekends – with a door charge kicking in after.",
       "retrieved_at": "2026-10-12T22:30:00Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.access_page"
+      ],
+      "url": "https://thedivine.co.uk/about/",
+      "quote": "Sadly, The Divine is currently not fully accessible.",
+      "retrieved_at": "2026-10-13T14:10:40Z",
+      "source_kind": "primary"
     }
   ],
-  "profiled_at": "2026-10-12T23:05:00Z",
+  "profiled_at": "2026-10-13T14:17:34Z",
   "review": {
-    "checked_at": "2026-10-12T23:14:04Z",
-    "removed_fields": [
-      "accessibility.step_free"
-    ]
+    "checked_at": "2026-10-13T14:20:42Z",
+    "removed_fields": []
   },
-  "needs_review": null
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-13T14:17:34Z",
+      "by": "venue-editor",
+      "change": "filled access_page: the about page carries the venue's access section (updated August 2025)"
+    },
+    {
+      "at": "2026-10-13T14:20:42Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ]
 }

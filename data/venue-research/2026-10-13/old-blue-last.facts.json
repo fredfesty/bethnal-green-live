@@ -2,131 +2,54 @@
   "venue_id": "old-blue-last",
   "venue_name": "The Old Blue Last",
   "aspect": "facts",
-  "researched_at": "2026-10-13T00:36:00Z",
+  "researched_at": "2026-10-13T14:10:40Z",
   "findings": [
     {
-      "field": "address",
-      "value": "38 Great Eastern St, London",
+      "field": "accessibility.access_page",
+      "value": "https://www.theoldbluelast.com/contact",
       "source_date": null,
       "evidence": [
         {
-          "fields": ["address", "postcode"],
+          "fields": ["accessibility.access_page", "accessibility.notes"],
           "url": "https://www.theoldbluelast.com/contact",
-          "quote": "38 Great Eastern St, London EC2A 3ES",
-          "retrieved_at": "2026-10-13T00:36:00Z",
-          "source_kind": "primary"
-        }
-      ]
-    },
-    {
-      "field": "postcode",
-      "value": "EC2A 3ES",
-      "source_date": null,
-      "evidence": [
-        {
-          "fields": ["address", "postcode"],
-          "url": "https://www.theoldbluelast.com/contact",
-          "quote": "38 Great Eastern St, London EC2A 3ES",
-          "retrieved_at": "2026-10-13T00:36:00Z",
-          "source_kind": "primary"
-        }
-      ]
-    },
-    {
-      "field": "website",
-      "value": "https://www.theoldbluelast.com/",
-      "source_date": null,
-      "evidence": [
-        {
-          "fields": ["website"],
-          "url": "https://www.theoldbluelast.com/contact",
-          "quote": "38 Great Eastern St, London EC2A 3ES",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "quote": "Stairs & wheelchair access: Some areas of the venue are accessed by stairs and, unfortunately, there is no wheelchair access to these areas.",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         }
       ]
     },
     {
       "field": "accessibility.notes",
-      "value": "The live room is on the second floor, and some other areas are reached by stairs with no wheelchair access. There is seating in the venue but no dedicated quiet or safe area. Companion tickets are arranged through the event promoter. Contact the venue before a visit if you have access questions.",
+      "value": "Some areas are reached by stairs with no wheelchair access, and the live room is on the second floor. There is seating, no dedicated quiet or safe area, and companion tickets are arranged with the promoter. Contact the venue before visiting if you have access questions.",
       "source_date": null,
       "evidence": [
-        {
-          "fields": ["accessibility.notes", "accessibility.step_free"],
-          "url": "https://www.theoldbluelast.com/privatehire",
-          "quote": "Located on the second floor, our 150-capacity live room",
-          "retrieved_at": "2026-10-13T00:36:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": ["accessibility.notes", "accessibility.step_free"],
-          "url": "https://www.theoldbluelast.com/contact",
-          "quote": "Some areas of the venue are accessed by stairs and, unfortunately, there is no wheelchair access to these areas.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
-          "source_kind": "primary"
-        },
         {
           "fields": ["accessibility.notes"],
           "url": "https://www.theoldbluelast.com/contact",
           "quote": "Seating: We have seating available within the venue.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         },
         {
           "fields": ["accessibility.notes"],
           "url": "https://www.theoldbluelast.com/contact",
           "quote": "Quiet areas: Please note that we do not have a dedicated quiet or safe area.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         },
         {
           "fields": ["accessibility.notes"],
           "url": "https://www.theoldbluelast.com/contact",
           "quote": "If you require a companion ticket, please contact the event promoter directly before the event.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         },
         {
-          "fields": ["accessibility.notes"],
-          "url": "https://www.theoldbluelast.com/contact",
-          "quote": "If you have any concerns about accessibility, please contact us before your visit",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "fields": ["accessibility.notes", "capacity"],
+          "url": "https://www.theoldbluelast.com/privatehire",
+          "quote": "Located on the second floor, our 150-capacity live room has seen a whole host of events",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
-        }
-      ]
-    },
-    {
-      "field": "cost.free_entry",
-      "value": "some-nights",
-      "source_date": null,
-      "evidence": [
-        {
-          "fields": ["cost.free_entry", "cost.notes"],
-          "url": "https://www.timeout.com/london/music/the-old-blue-last",
-          "quote": "It also hosts free weekly jazz nights on Sundays.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
-          "source_kind": "press"
-        }
-      ]
-    },
-    {
-      "field": "cost.notes",
-      "value": "Time Out says gigs range from free to £15, and the Sunday jazz nights are free.",
-      "source_date": null,
-      "evidence": [
-        {
-          "fields": ["cost.notes"],
-          "url": "https://www.timeout.com/london/music/the-old-blue-last",
-          "quote": "gigs range from free to £15",
-          "retrieved_at": "2026-10-13T00:36:00Z",
-          "source_kind": "press"
-        },
-        {
-          "fields": ["cost.notes"],
-          "url": "https://www.timeout.com/london/music/the-old-blue-last",
-          "quote": "It also hosts free weekly jazz nights on Sundays.",
-          "retrieved_at": "2026-10-13T00:36:00Z",
-          "source_kind": "press"
         }
       ]
     },
@@ -138,19 +61,18 @@
         {
           "fields": ["capacity"],
           "url": "https://www.theoldbluelast.com/privatehire",
-          "quote": "Located on the second floor, our 150-capacity live room",
-          "retrieved_at": "2026-10-13T00:36:00Z",
+          "quote": "Located on the second floor, our 150-capacity live room has seen a whole host of events",
+          "retrieved_at": "2026-10-13T14:10:40Z",
           "source_kind": "primary"
         }
       ]
     }
   ],
   "not_found": [
-    "accessibility.step_free",
-    "accessibility.accessible_toilet",
-    "accessibility.hearing_loop",
-    "accessibility.access_page",
-    "age_policy"
+    "accessibility.step_free: the contact page says only that some areas have no wheelchair access; it does not say whether the live room or the bar is step-free, so it stays empty",
+    "accessibility.accessible_toilet: not stated on the contact or hire pages read",
+    "accessibility.hearing_loop: not stated",
+    "age_policy: not stated"
   ],
-  "notes": "Capacity 150 is the second-floor live room, not a whole-venue figure; the site gives no whole-venue number, so the editor should say which room it is. The site's access information is an FAQ on its contact page, not a separate access page. Step-free status is not stated for the pub as a whole, so it is left empty. The Time Out article is undated in what the reader saw; its free-entry line is press, not the venue's own word."
+  "notes": "Capacity 150 is the second-floor live room, according to the hire page, not the whole pub. Please check before publishing it as the venue's capacity. The contact page is proposed as the access page because it holds the venue's only access section. The CAMRA WhatPub page has no access line. Step-free stays empty, as the profile already has it."
 }

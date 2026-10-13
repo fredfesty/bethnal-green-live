@@ -1,0 +1,56 @@
+{
+  "venue_id": "moreyoga-bethnal-green",
+  "venue_name": "MoreYoga Bethnal Green",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T14:13:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A yoga and Pilates studio under a railway arch on Gales Gardens, E2, with Dynamic, Stress-Free and Sound Healing classes.",
+      "source_date": "2026-08-17",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+          "quote": "Tucked under a railway arch at 10 Gales Gardens (London E2 0EJ)",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+          "quote": "from high-energy Dynamic flows like Rocket, Power, and Pilates to Stress-Free classes including Yin, Restorative, and Sound Healing",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The studio says both new and experienced practitioners feel at home there.",
+      "source_date": "2026-08-17",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+          "quote": "Complete beginners and advanced practitioners are equally at home here",
+          "retrieved_at": "2026-10-13T14:13:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "types",
+    "status"
+  ],
+  "notes": "Own studio page only; no press or directory review found in one search (only aggregators such as ClassPass and Wellhub). The page gives the address as 'Unit 10, 33 Gales Gardens, London, E2 0EJ' in the footer but '10 Gales Gardens' in the text; the facts researcher should check. The £1 first-month offer is a price for the facts/cost researcher, not used here. dateModified 2026-08-17 is from the page's own data."
+}

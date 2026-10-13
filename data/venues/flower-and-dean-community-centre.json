@@ -1,0 +1,82 @@
+{
+  "id": "flower-and-dean-community-centre",
+  "name": "Flower and Dean Community Centre",
+  "zone": "fringe",
+  "types": [
+    "community-venue"
+  ],
+  "location": {
+    "lat": 51.517759,
+    "lon": -0.072185,
+    "distance_m": 1577,
+    "source": "postcodes.io"
+  },
+  "discovered": {
+    "first_seen": "2026-10-13",
+    "found_by": [
+      "listings"
+    ]
+  },
+  "address": "41 Flower & Dean Walk, London",
+  "postcode": "E1 6QT",
+  "website": null,
+  "summary": "A community centre on Flower and Dean Walk, E1.",
+  "music": {
+    "styles": [],
+    "notes": null
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "address",
+        "postcode",
+        "types"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+      "quote": "Flower and Dean Community Centre 41 Flower & Dean Walk London E1 6QT",
+      "retrieved_at": "2026-10-13T14:11:43Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+      "quote": "A free family friendly creative workshop during half-term to celebrate communities",
+      "retrieved_at": "2026-10-13T14:12:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-13T14:17:34Z",
+  "review": {
+    "checked_at": "2026-10-13T14:20:42Z",
+    "removed_fields": []
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-13T14:17:34Z",
+      "by": "venue-editor",
+      "change": "new venue, found by the listings finder; thin profile resting on one council events page, no website or access details found"
+    },
+    {
+      "at": "2026-10-13T14:20:42Z",
+      "by": "venue-checker",
+      "change": "cut the half-term workshop sentence from summary (single event, not backed as the venue's own); kept name and address"
+    }
+  ]
+}

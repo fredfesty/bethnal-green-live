@@ -1,0 +1,36 @@
+{
+  "id": "flower-and-dean-community-centre",
+  "name": "Flower and Dean Community Centre",
+  "about_venue_id": null,
+  "address": "41 Flower & Dean Walk, London",
+  "postcode": "E1 6QT",
+  "website": null,
+  "found_by": "listings",
+  "signal": "new",
+  "kind_hint": "community centre hosting council-run events, including a Big Draw session",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": [
+        "name",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+      "quote": "Flower and Dean Community Centre 41 Flower & Dean Walk London E1 6QT",
+      "retrieved_at": "2026-10-13T14:05:27Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+      "quote": "Honouring Our Communities - Big Draw in Brick Lane",
+      "retrieved_at": "2026-10-13T14:05:27Z",
+      "source_kind": "directory"
+    }
+  ],
+  "found_at": "2026-10-13T14:05:27Z",
+  "notes": "Event: 'Honouring Our Communities - Big Draw in Brick Lane', Wednesday 28 Oct 2026, 13:00-15:00 (Tower Hamlets council events page). One event found. Postcode E1 6QT gives fringe by scripts/zone.py (about 1.6 km). Source is the council's events page, not the centre's own site."
+}

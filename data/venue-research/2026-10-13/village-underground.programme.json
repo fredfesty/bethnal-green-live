@@ -2,13 +2,13 @@
   "venue_id": "village-underground",
   "venue_name": "Village Underground",
   "aspect": "programme",
-  "researched_at": "2026-10-13T00:40:00Z",
+  "researched_at": "2026-10-13T14:14:03Z",
   "findings": [
     {
       "field": "types",
       "value": [
-        "live-music",
-        "club"
+        "club",
+        "live-music"
       ],
       "source_date": null,
       "evidence": [
@@ -18,91 +18,14 @@
           ],
           "url": "https://villageunderground.co.uk/about/",
           "quote": "Home to cutting-edge culture, clubbing and live music",
-          "retrieved_at": "2026-10-13T00:40:00Z",
-          "source_kind": "primary"
-        }
-      ]
-    },
-    {
-      "field": "music.styles",
-      "value": [
-        "electronic",
-        "house",
-        "trance",
-        "hiphop",
-        "rock",
-        "alternative"
-      ],
-      "source_date": null,
-      "evidence": [
-        {
-          "fields": [
-            "music.styles"
-          ],
-          "url": "https://villageunderground.co.uk/events/",
-          "quote": "dance, disco, electronic, house",
-          "retrieved_at": "2026-10-13T00:40:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "music.styles"
-          ],
-          "url": "https://villageunderground.co.uk/events/",
-          "quote": "house, techno, trance",
-          "retrieved_at": "2026-10-13T00:40:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "music.styles"
-          ],
-          "url": "https://villageunderground.co.uk/events/",
-          "quote": "garage, house, trance",
-          "retrieved_at": "2026-10-13T00:40:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "music.styles"
-          ],
-          "url": "https://villageunderground.co.uk/events/",
-          "quote": "afrobeats, amapiano, dancehall, electronic, hiphop, rap, rnb",
-          "retrieved_at": "2026-10-13T00:40:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "music.styles"
-          ],
-          "url": "https://villageunderground.co.uk/events/",
-          "quote": "hiphop, rap",
-          "retrieved_at": "2026-10-13T00:40:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "music.styles"
-          ],
-          "url": "https://villageunderground.co.uk/events/",
-          "quote": "grunge, rock",
-          "retrieved_at": "2026-10-13T00:40:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "music.styles"
-          ],
-          "url": "https://villageunderground.co.uk/events/",
-          "quote": "alternative, countryrock, indierock",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         }
       ]
     },
     {
       "field": "music.notes",
-      "value": "Club nights and live shows across the week, often booked with outside promoters and collectives, including free parties and a Halloween night.",
+      "value": "Gigs and club nights most nights, with the programme booked in part by outside promoters; recent listings include a house, techno and trance free party, a daytime DJ session, a Halloween special and a sound system tour date.",
       "source_date": null,
       "evidence": [
         {
@@ -111,7 +34,7 @@
           ],
           "url": "https://villageunderground.co.uk/about/",
           "quote": "Most nights of the week you can catch an artist or DJ on the cusp of huge things",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         },
         {
@@ -120,32 +43,51 @@
           ],
           "url": "https://villageunderground.co.uk/about/",
           "quote": "We’re proud to work with some of the best promoters and collectives in the capital",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         },
         {
           "fields": [
             "music.notes"
           ],
-          "url": "https://villageunderground.co.uk/events/",
+          "url": "https://dice.fm/venue/village-underground-wwop",
           "quote": "Origins x VU Free Party: House Techno Trance",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         },
         {
           "fields": [
             "music.notes"
           ],
-          "url": "https://villageunderground.co.uk/events/",
+          "url": "https://dice.fm/venue/village-underground-wwop",
+          "quote": "Mungo's HiFi (Daytime Session)",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/village-underground-wwop",
           "quote": "PLAYPIEM presents PMVU: A Halloween Special",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/village-underground-wwop",
+          "quote": "Channel One Sound System UK Tour: London",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         }
       ]
     }
   ],
   "not_found": [
+    "music.styles (no genre named on two or more nights on its own pages; the Time Out line in the profile was not re-read)",
     "cost.notes"
   ],
-  "notes": "Upcoming on the events page (read 2026-10-13): Toy Tonics with Cody Currie, Kapote + Aroop Roy, Sat 17 Oct 2026; Romare (Live), Thu 22 Oct 2026; PLAYPIEM presents PMVU: A Halloween Special, Fri 23 Oct 2026; Swervedriver, Fri 23 Oct 2026; Origins x VU Free Party: House Techno Trance, Sat 24 Oct 2026. No past listings in data/events or candidates."
+  "notes": "Nights seen: Romare (Live) (Thu 22 Oct 2026, DICE). Origins x VU Free Party: House Techno Trance (Sat 24 Oct 2026, DICE). PLAYPIEM presents PMVU: A Halloween Special (Fri 23 Oct 2026, DICE). Mungo's HiFi (Daytime Session) (Sat 31 Oct 2026, DICE). Ella Knight's House Party (Sat 28 Nov 2026, venue home page)."
 }

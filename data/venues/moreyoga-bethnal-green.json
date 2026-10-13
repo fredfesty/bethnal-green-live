@@ -1,0 +1,102 @@
+{
+  "id": "moreyoga-bethnal-green",
+  "name": "MoreYoga Bethnal Green",
+  "zone": "core",
+  "address": "Unit 10, 33 Gales Gardens, London",
+  "postcode": "E2 0EJ",
+  "website": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+  "summary": "A yoga and Pilates studio in a railway arch on Gales Gardens, E2. Its classes range from energetic flows to gentler yin, restorative and sound healing sessions.",
+  "music": {
+    "styles": [],
+    "notes": null
+  },
+  "crowd": "The studio says beginners and experienced practitioners alike are at home there.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Offers memberships that can be used at every MoreYoga studio."
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+      "quote": "Unit 10, 33 Gales Gardens, London, E2 0EJ, UK",
+      "retrieved_at": "2026-10-13T14:13:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+      "quote": "Discover MoreYoga Bethnal Green at Unit 10 Gales Gardens!",
+      "retrieved_at": "2026-10-13T14:13:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+      "quote": "Tucked under a railway arch at 10 Gales Gardens (London E2 0EJ)",
+      "retrieved_at": "2026-10-13T14:13:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+      "quote": "from high-energy Dynamic flows like Rocket, Power, and Pilates to Stress-Free classes including Yin, Restorative, and Sound Healing",
+      "retrieved_at": "2026-10-13T14:13:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+      "quote": "Complete beginners and advanced practitioners are equally at home here",
+      "retrieved_at": "2026-10-13T14:13:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+      "quote": "Our most affordable memberships with unlimited usage across all locations.",
+      "retrieved_at": "2026-10-13T14:13:53Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T14:17:34Z",
+  "review": {
+    "checked_at": "2026-10-13T14:20:42Z",
+    "removed_fields": []
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-13T14:17:34Z",
+      "by": "venue-editor",
+      "change": "first profile, from the studio's own page; no access information found"
+    },
+    {
+      "at": "2026-10-13T14:20:42Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ]
+}

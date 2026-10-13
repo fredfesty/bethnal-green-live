@@ -1,0 +1,59 @@
+{
+  "venue_id": "fine-cider-company-shop",
+  "venue_name": "The Fine Cider Company Shop",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T14:12:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A shop in London Fields that sells fine ciders and perries, mostly from UK makers, and runs tastings on Friday and Saturday evenings.",
+      "source_date": "2026-06-03",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
+          "quote": "We specialise in fine ciders & perries, mostly from makers in the UK",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://londontheinside.com/find-the-finest-ciders-in-the-country-at-this-london-fields-spot-neighbourhood-watch/",
+          "quote": "there are tastings held every Friday and Saturday where you can try over half a dozen styles",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The organiser says its public tastings bring a mix of cider lovers.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["crowd"],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
+          "quote": "there will be a mix of cider lovers there on the day!",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "age_policy",
+      "value": "Over 18s only for the tastings, as the organiser's ticket page states.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["age_policy"],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
+          "quote": "This event involves alcohol, so is strictly for over 18's only.",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": ["music.styles", "status"],
+  "notes": "The ticket page is the organiser's own; it has no visible date, so source_date for crowd and age_policy is null. The London On The Inside piece (3 June 2026) describes the shop under the arches and the Friday and Saturday tastings. The age limit applies to the tastings, not necessarily to the shop. No closure or review news was found; event dates (17, 23 and 30 October 2026) are for the programme researcher."
+}

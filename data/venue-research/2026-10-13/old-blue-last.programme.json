@@ -2,7 +2,7 @@
   "venue_id": "old-blue-last",
   "venue_name": "The Old Blue Last",
   "aspect": "programme",
-  "researched_at": "2026-10-13T00:40:00Z",
+  "researched_at": "2026-10-13T14:14:03Z",
   "findings": [
     {
       "field": "types",
@@ -18,7 +18,7 @@
           ],
           "url": "https://www.theoldbluelast.com/",
           "quote": "Live music venue, east-end boozer",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         }
       ]
@@ -35,33 +35,24 @@
             "music.styles"
           ],
           "url": "https://www.theoldbluelast.com/",
-          "quote": "SUNDAY JAZZ EVERY SUNDAY",
-          "retrieved_at": "2026-10-13T00:40:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "music.styles"
-          ],
-          "url": "https://www.theoldbluelast.com/whats-on",
           "quote": "SUNDAY JAZZ",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         },
         {
           "fields": [
             "music.styles"
           ],
-          "url": "https://www.timeout.com/london/music/the-old-blue-last",
-          "quote": "It also hosts free weekly jazz nights on Sundays.",
-          "retrieved_at": "2026-10-13T00:40:00Z",
-          "source_kind": "press"
+          "url": "https://dice.fm/venue/the-old-blue-last-4ryw?canonicalLng=x-default&lng=en",
+          "quote": "Sunday Jazz",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
         }
       ]
     },
     {
       "field": "music.notes",
-      "value": "A jazz night every Sunday, late-night DJ nights and an upstairs 150-capacity live room that hosts live bands, karaoke and club nights.",
+      "value": "Live bands and DJ sets through the week, a weekly Sunday jazz session, and all-night DJ parties on the late-night programme.",
       "source_date": null,
       "evidence": [
         {
@@ -69,8 +60,26 @@
             "music.notes"
           ],
           "url": "https://www.theoldbluelast.com/",
-          "quote": "SUNDAY JAZZ EVERY SUNDAY",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "quote": "DON’T MISS OUR LIVE MUSIC SESSIONS",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/the-old-blue-last-4ryw?canonicalLng=x-default&lng=en",
+          "quote": "Platonic Violence",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/the-old-blue-last-4ryw?canonicalLng=x-default&lng=en",
+          "quote": "HotWax (dj set)",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         },
         {
@@ -79,33 +88,24 @@
           ],
           "url": "https://www.theoldbluelast.com/late-night",
           "quote": "DR. TELEFUNK ALL NIGHT",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         },
         {
           "fields": [
             "music.notes"
           ],
-          "url": "https://www.theoldbluelast.com/privatehire",
-          "quote": "our 150-capacity live room has seen a whole host of events",
-          "retrieved_at": "2026-10-13T00:40:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "music.notes"
-          ],
-          "url": "https://www.theoldbluelast.com/privatehire",
-          "quote": "from live bands, karaoke, private parties, club nights, and more",
-          "retrieved_at": "2026-10-13T00:40:00Z",
+          "url": "https://www.theoldbluelast.com/",
+          "quote": "7-day weekly program",
+          "retrieved_at": "2026-10-13T14:14:03Z",
           "source_kind": "primary"
         }
       ]
     }
   ],
   "not_found": [
-    "cost.notes",
-    "age_policy"
+    "music.styles beyond jazz (no other genre named on two or more nights)",
+    "cost.notes (no general pricing found on the programme pages)"
   ],
-  "notes": "Listed on the venue's late-night and what's-on pages (read 2026-10-13): Warrior Dance, Wed 14 Oct 2026; Dr. Telefunk All Night, Fri 23 Oct 2026; Scary Things (NTS) Halloween 2026, Sat 31 Oct 2026; Sunday jazz, every Sunday. Its Sunday jazz runs as a standing night. No past listings in data/events or candidates."
+  "notes": "Nights seen: Sunday Jazz, weekly (DICE: Sun 18, 25 Oct and 1 Nov 2026). Late Night listing: DR. TELEFUNK ALL NIGHT (Fri 23 Oct 2026). Late Night listing: WARRIOR DANCE (Wed 14 Oct 2026). Live show: Pedestrian Band + The Scuttlers (Live) (Tue 13 Oct 2026, DICE). Halloween: SCARY THINGS (NTS) HALLOWEEN 2026 (Sat 31 Oct 2026)."
 }

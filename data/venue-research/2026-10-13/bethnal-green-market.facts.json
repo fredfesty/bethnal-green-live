@@ -2,7 +2,7 @@
   "venue_id": "bethnal-green-market",
   "venue_name": "Bethnal Green Market",
   "aspect": "facts",
-  "researched_at": "2026-10-13T00:40:00Z",
+  "researched_at": "2026-10-13T14:13:53Z",
   "findings": [
     {
       "field": "address",
@@ -10,18 +10,20 @@
       "source_date": null,
       "evidence": [
         {
-          "fields": ["address"],
+          "fields": [
+            "address"
+          ],
           "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
           "quote": "Bethnal Green Road, E2",
-          "retrieved_at": "2026-10-13T00:35:00Z",
+          "retrieved_at": "2026-10-13T14:13:53Z",
           "source_kind": "directory"
         }
       ]
     }
   ],
   "not_found": [
-    "postcode (the council page gives only E2; Roman Road Square Market's E2 0RN is a different market)",
-    "website (no operator site found; the council markets page is the only source)",
+    "postcode",
+    "website",
     "accessibility.step_free",
     "accessibility.accessible_toilet",
     "accessibility.hearing_loop",
@@ -32,5 +34,5 @@
     "age_policy",
     "capacity"
   ],
-  "notes": "Council markets page: Bethnal Green Market is listed as Monday to Saturday, 8am to 6pm, with closest stations Bethnal Green (Central) and Shoreditch and Whitechapel. It is a street market, so it has no building to hire and no capacity. Its schedule is a regular one, not a dated event. The council page also lists one-hour free parking bays for shoppers on market days."
+  "notes": "Only source is the council's markets page, which lists it as 'Bethnal Green Market (Monday to Saturday)' with location 'Bethnal Green Road, E2' and no postcode, website of its own, or access details. The registry's website is this council page, which is a directory source, not the venue's own site, so no website is proposed for the editor to set as primary. Market opening hours (Monday to Saturday, 8am to 6pm) are not a profile field. The council page's closest-station lines belong to other markets in its list and are not used. No WebSearch was needed."
 }

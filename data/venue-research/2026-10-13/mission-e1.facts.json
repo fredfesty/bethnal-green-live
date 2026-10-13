@@ -1,0 +1,83 @@
+{
+  "venue_id": "mission-e1",
+  "venue_name": "Mission",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T14:13:53Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "7-9 Fashion Street, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.mission-e1.com/contact-us/",
+          "quote": "7-9 Fashion Street London E1 6PX",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 6PX",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.mission-e1.com/contact-us/",
+          "quote": "7-9 Fashion Street London E1 6PX",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.mission-e1.com",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.mission-e1.com/about-us/",
+          "quote": "Mission was born in the middle of lockdown out of the desire to reunite communities",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "New visitors can take 10 days of unlimited classes for £39.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.mission-e1.com/10day-intro-offer/",
+          "quote": "New Visitor Offer: 10 Days Unlimited for £39",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "No access information found on the pages read. The FAQ page's visible text printed only menu items (its answers did not show in page_text output), and the contact page lists address and phone only. No step-free, lift or toilet statement was found. Whole-venue capacity not stated."
+}

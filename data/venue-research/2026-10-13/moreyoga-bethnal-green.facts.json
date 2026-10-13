@@ -1,0 +1,92 @@
+{
+  "venue_id": "moreyoga-bethnal-green",
+  "venue_name": "MoreYoga Bethnal Green",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T14:13:53Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Unit 10, 33 Gales Gardens, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+          "quote": "Unit 10, 33 Gales Gardens, London, E2 0EJ, UK",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 0EJ",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+          "quote": "Unit 10, 33 Gales Gardens, London, E2 0EJ, UK",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+          "quote": "Discover MoreYoga Bethnal Green at Unit 10 Gales Gardens!",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Unlimited-usage memberships across the chain's locations; new members can start with a first month for £1.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+          "quote": "Our most affordable memberships with unlimited usage across all locations.",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+          "quote": "First month for only £1 - New Members only!",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "The studio page gives address and prices only. /faq and /access returned 404, and /contact returned 403, so the site was not fetched further this run. No access statement found. The intro offer is time-limited promotion; check it before using it in any listing. Whole-venue capacity not stated."
+}

@@ -1,0 +1,101 @@
+{
+  "venue_id": "whitehorse-adventure-playground",
+  "venue_name": "Whitehorse Adventure Playground",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T14:13:53Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Whitehorse Road, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/Parks-directory/White-Horse-Road-Park-and-Adventure-Playground.aspx",
+          "quote": "Whitehorse Road",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/Parks-directory/White-Horse-Road-Park-and-Adventure-Playground.aspx",
+          "quote": "Accessible toilets",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The council calls it fully inclusive, with equipment for young people aged 8 to 25 who have additional needs (SEND). The council says you can turn up without booking, though places are limited. Step-free access is not stated.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/Parks-directory/White-Horse-Road-Park-and-Adventure-Playground.aspx",
+          "quote": "Fully inclusive adventure playground. All equipment in this playground is accessible to children and young people with additional needs aged 8 – 25 (SEND)",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/Parks-directory/White-Horse-Road-Park-and-Adventure-Playground.aspx",
+          "quote": "There is no need to book, but spaces are limited.",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "age_policy",
+      "value": "Adventure play for ages 5 to 15 in term time; children under 8 must be accompanied by an adult",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/Parks-directory/White-Horse-Road-Park-and-Adventure-Playground.aspx",
+          "quote": "Adventure play sessions for ages 5 to 15, Tuesday to Thursday, 3:30 – 6pm (term time only).",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/Parks-directory/White-Horse-Road-Park-and-Adventure-Playground.aspx",
+          "quote": "Children below the age of 8 must be accompanied by an adult at all times.",
+          "retrieved_at": "2026-10-13T14:13:53Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "postcode",
+    "website",
+    "accessibility.step_free",
+    "accessibility.hearing_loop",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "capacity"
+  ],
+  "notes": "Council parks directory is the only source found. It is run by the council on behalf of the King George's Field, Mile End Charity. The directory also lists a play area for ages 4 and below and a multi-use games area. The session times on the directory page are general; the one-off half-term session on the council events page (27 October 2026) is not a profile fact. Its postcode is not on this page, and the events page prints 'E1 ONZ', which is not a valid postcode, so none is proposed. No own website found: one WebSearch returned only council pages, so website is not proposed."
+}

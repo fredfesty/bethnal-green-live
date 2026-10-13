@@ -1,0 +1,42 @@
+{
+  "venue_id": "dundee-arms",
+  "venue_name": "The Dundee Arms",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T14:15:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["pub"],
+      "source_date": "2026-05-27",
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.thedundeearms.co.uk/",
+          "quote": "The Dundee Arms - A Pub in Bethnal Green",
+          "retrieved_at": "2026-10-13T14:09:08Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A pub that says it has music, guest DJs and games on screen. Its site lists no events and no dated nights, so the kinds of night it runs are not known beyond that description.",
+      "source_date": "2026-05-27",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.thedundeearms.co.uk/",
+          "quote": "Great music, guest DJs, craft beer & top games on screen.",
+          "retrieved_at": "2026-10-13T14:09:08Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no genre named on the site",
+    "dated events or past nights: the site has no events page (its page sitemap lists home, gallery, contact, privacy and terms only)",
+    "cost.notes: no general pricing on the site"
+  ],
+  "notes": "Site read: home page (last modified 27 May 2026, which gives opening hours: Thursday to Saturday until 1am) and its page sitemap. No DJ nights or dated events found on its own pages; one web search returned nothing for this pub. The Tower Hamlets licence register entry named in the map lead was not read by this researcher."
+}

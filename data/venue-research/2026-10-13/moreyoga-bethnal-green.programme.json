@@ -1,0 +1,32 @@
+{
+  "venue_id": "moreyoga-bethnal-green",
+  "venue_name": "MoreYoga Bethnal Green",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T14:12:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "yoga-studio"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+          "quote": "Unlimited Yoga & Pilates, Access All Studios",
+          "retrieved_at": "2026-10-13T14:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles and music.notes: no music nights; sound healing appears only as a weekly class name",
+    "one-off events at Bethnal Green: none on /workshop/ read this run (the workshops page does not mention Bethnal Green)",
+    "cost.notes: the page's first-month offer is a promotion, not general pricing, so not used"
+  ],
+  "notes": "Mostly a weekly class timetable (yoga, pilates, sound healing, yin). Nothing dated besides the timetable week of 13 Oct 2026, so no past or upcoming nights to list."
+}

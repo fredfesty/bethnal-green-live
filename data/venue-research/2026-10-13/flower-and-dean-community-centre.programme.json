@@ -1,0 +1,49 @@
+{
+  "venue_id": "flower-and-dean-community-centre",
+  "venue_name": "Flower and Dean Community Centre",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T14:15:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["community-venue"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+          "quote": "Flower and Dean Community Centre 41 Flower & Dean Walk London E1 6QT",
+          "retrieved_at": "2026-10-13T14:10:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Council-listed community events. One found: a free family creative workshop in the half-term Big Draw, on a weekday afternoon. No music nights seen.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+          "quote": "A free family friendly creative workshop during half-term",
+          "retrieved_at": "2026-10-13T14:10:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Honouring-Our-Communities-Big-Draw-in-Brick-Lane.aspx",
+          "quote": "Wednesday 28th October 2026 (13:00-15:00)",
+          "retrieved_at": "2026-10-13T14:10:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no music nights seen",
+    "its own website or events page: none in the lead; not searched for",
+    "cost.notes: the event is free, but that is one event, so no general pricing"
+  ],
+  "notes": "One event on the Tower Hamlets events page: 'Honouring Our Communities - Big Draw in Brick Lane', Wed 28 Oct 2026, 1pm to 3pm. The council page is the only source; the centre's own programme was not seen."
+}

@@ -1,0 +1,132 @@
+{
+  "venue_id": "number-90",
+  "venue_name": "Number 90",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T14:14:03Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "bar",
+        "club"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.number90bar.co.uk/",
+          "quote": "Number 90 Bar & Kitchen",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://number90corporate.co.uk/number-90-lock/",
+          "quote": "Club nights, conferences, launches, brand activations, screenings",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "jazz",
+        "electronic"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://ma.to/venue/number90bar",
+          "quote": "Free-entry weekly live jazz session hosted by Chiminyo",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://ma.to/venue/number90bar",
+          "quote": "Sloppy Joe spins rare Japanese jazz",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://ma.to/venue/number90bar",
+          "quote": "Live jazz and electronic music residency in Hackney Wick.",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A free weekly Thursday jazz residency (listed for 15, 22 and 29 Oct 2026), a past jazz-and-roast afternoon with a DJ, a past house party night, and club nights in the club rooms.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/number90bar",
+          "quote": "Chiminyo: NRG Trio Live",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/number90bar",
+          "quote": "Jazz, Roasts & 2for1 Pints",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/number90bar",
+          "quote": "Selective Hearing Night",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/number90bar",
+          "quote": "Free entry to a house and deeper house party in Hackney Wick",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://number90corporate.co.uk/number-90-lock/",
+          "quote": "Club nights, conferences, launches, brand activations, screenings",
+          "retrieved_at": "2026-10-13T14:14:03Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website (no own events page found; the events page and the Number 90 Bar site's pages returned 404)",
+    "DICE or Skiddle event pages for the venue",
+    "cost.notes",
+    "music.styles beyond jazz and electronic"
+  ],
+  "notes": "Nights seen: Chiminyo: NRG Trio Live (Thu 15 Oct 2026, 19:30; also 22 and 29 Oct 2026; ma.to). Jazz, Roasts & 2for1 Pints (past, date not shown; Sloppy Joe). Selective Hearing Night (past, date not shown; free house party). Sunday Roast by James Cochran (listed as past, date not shown). Venue listings are mostly on ma.to, an aggregator."
+}
