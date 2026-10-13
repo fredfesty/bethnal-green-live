@@ -1,0 +1,95 @@
+name: Weekly venues pull request
+
+# The same as morning-run-pr.yml, for the weekly venue run (routines/weekly-venues.md).
+# When the weekly venue run pushes its branch (claude/weekly-venues-<date>), this workflow:
+#   1. re-runs every check on GitHub's machines (tests + data validation + site build),
+#   2. opens the pull request, with the verifier's and scout's run reports as its description,
+#   3. merges it if the repository variable AUTO_MERGE is "true" and every check passed,
+#   4. starts the Website workflow so the site republishes straight away.
+#
+# Turn auto-merge off any time: Settings > Secrets and variables > Actions > Variables > AUTO_MERGE = false.
+# Pull requests then stay open for a person to review and merge.
+# Needs: Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
+
+on:
+  push:
+    branches: ["claude/weekly-venues-*"]
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: weekly-venues-pr-${{ github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  check-and-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Tests
+        run: python -m pytest -q
+      - name: Check every data file
+        run: python scripts/validate.py all
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Site builds
+        working-directory: site
+        env:
+          TZ: Europe/London
+        run: npm ci && npm run build
+
+      - name: Write the pull request description
+        id: body
+        run: |
+          RUN="${GITHUB_REF_NAME#claude/weekly-venues-}"
+          DATE="${RUN:0:10}"
+          {
+            echo "Automatic weekly venue run for **${DATE}**: the finders looked for new venues, the researchers re-checked some we list, the editor updated the profiles and the checker re-checked every quote. Every check passed on GitHub."
+            echo
+            if [ -f "data/runs/venue-editor/${DATE}.md" ]; then echo "## Editor's report"; echo; cat "data/runs/venue-editor/${DATE}.md"; echo; fi
+            if [ -f "data/runs/venue-checker/${DATE}.md" ]; then echo "## Checker's report"; echo; cat "data/runs/venue-checker/${DATE}.md"; echo; fi
+            echo
+            echo "🤖 Generated with [Claude Code](https://claude.com/claude-code)"
+          } > pr-body.md
+          head -c 60000 pr-body.md > pr-body-trimmed.md
+          echo "date=${DATE}" >> "$GITHUB_OUTPUT"
+
+      - name: Open the pull request
+        id: pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          EXISTING=$(gh pr list --head "$GITHUB_REF_NAME" --state open --json number --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            gh pr edit "$EXISTING" --body-file pr-body-trimmed.md
+            NUMBER="$EXISTING"
+          else
+            URL=$(gh pr create --base main --head "$GITHUB_REF_NAME" \
+              --title "Weekly venues — ${{ steps.body.outputs.date }}" --body-file pr-body-trimmed.md)
+            NUMBER="${URL##*/}"
+          fi
+          echo "number=${NUMBER}" >> "$GITHUB_OUTPUT"
+          echo "Pull request: https://github.com/${GITHUB_REPOSITORY}/pull/${NUMBER}" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Merge (auto-merge is on)
+        if: vars.AUTO_MERGE == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr merge "${{ steps.pr.outputs.number }}" --merge --delete-branch \
+            --subject "Weekly venues ${{ steps.body.outputs.date }} (auto-merged after all checks passed)"
+          # A merge made by this workflow doesn't start other workflows by itself, so start the site deploy.
+          gh workflow run site.yml --ref main
+          echo "Merged and site rebuild started." >> "$GITHUB_STEP_SUMMARY"

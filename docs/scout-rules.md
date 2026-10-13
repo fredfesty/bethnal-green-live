@@ -9,6 +9,7 @@ In the paths below, `<category>` is your category (`nights-music`, `arts`, `food
 ## Where and when
 
 - Read `data/sources/<category>.json` first. It defines the zones, the venues, the platforms and what you may do with each. Each listing has a `role` (`primary`, `discovery` or `unusable`) and often a `readable` result and `notes`: follow the notes, and never read an `unusable` listing.
+- Also read `data/venues/*.json` for venues **not** in any registry (the weekly venue run adds them there, with `discovered` set). Treat each one whose `status` is open like a registry venue in its `zone`: check its `website` and any ticketing page you find for it, and use its id as `venue_id`. Skip any with `status: closed`. Only record events there that are in your category.
 - **core** and **fringe** venues: check every run. **outer** venues: as your agent file says, standout events only, each with `worth_the_trip: true` and a one-line reason in `why_its_good`.
 - Venues on `do_not_list` are closed (or renamed: use the new venue). Never record an event at a closed venue. If a source claims one is open again, put it in the run report with the link and do nothing else. Domains under `blocked_domains` are never fetched, whatever else links to them.
 - **Time window:** today up to **28 days ahead**. A **run** (an exhibition, a theatre run, a special menu over several days) counts if any part of it falls in the window, even if it opened weeks ago.
@@ -61,7 +62,7 @@ In the paths below, `<category>` is your category (`nights-music`, `arts`, `food
 
 ## Ids and duplicates
 
-- Id format: `YYYY-MM-DD-<venue-id>-<title-slug>`, e.g. `2026-10-16-bgwmc-sexquisite`. Use the venue id from **your** registry. For a venue not in your registry, use a slug of the venue name, set `venue.venue_id: null`, and suggest the venue in the run report.
+- Id format: `YYYY-MM-DD-<venue-id>-<title-slug>`, e.g. `2026-10-16-bgwmc-sexquisite`. Use the venue id from **your** registry, or the id of a venue the weekly run added in `data/venues/`. For any other venue, use a slug of the venue name, set `venue.venue_id: null`, and suggest the venue in the run report.
 - The same event found on two sources is **one** candidate with evidence from both. Match on date + venue + similar title.
 - If the event already exists in `data/events/` and nothing has changed, skip it. If something changed (time, price, status, line-up, closing date), write a fresh candidate with the same id and say what changed in `notes_for_verifier`.
 - If the **date** changed, the id changes too: write a candidate with the new id and put "date moved from <old date>, was <old id>" in `notes_for_verifier`.
