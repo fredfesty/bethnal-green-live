@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-20-bgwmc-deeper-into-movies-david-lynch-music-video-showcase",
+  "category": "arts",
+  "subcategory": "film",
+  "title": "DEEPER INTO MOVIES - DAVID LYNCH MUSIC VIDEO SHOWCASE",
+  "venue": {
+    "venue_id": "bgwmc",
+    "name": "Bethnal Green Working Men's Club",
+    "address": null,
+    "postcode": "E2 6NB"
+  },
+  "starts_at": "2026-10-20T19:30:00+01:00",
+  "ends_at": "2026-10-20T23:00:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.tickettailor.com/events/workingmens-club",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "DEEPER INTO MOVIES - DAVID LYNCH MUSIC VIDEO SHOWCASE",
+      "retrieved_at": "2026-10-13T12:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "Tue 20 Oct 2026 7:30 PM - 11:00 PM BST",
+      "retrieved_at": "2026-10-13T12:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "BETHNAL GREEN WORKING MENS CLUB, E2 6NB",
+      "retrieved_at": "2026-10-13T12:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-13T14:00:00+01:00",
+    "run_id": "2026-10-13-v2",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-13/2026-10-20-bgwmc-deeper-into-movies-david-lynch-music-video-showcase.json"
+  },
+  "editor_note": null,
+  "listing": null,
+  "first_seen": "2026-10-13T14:00:00+01:00",
+  "updated_at": "2026-10-13T14:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

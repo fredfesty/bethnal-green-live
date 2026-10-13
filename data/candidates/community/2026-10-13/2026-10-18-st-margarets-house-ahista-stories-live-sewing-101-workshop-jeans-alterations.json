@@ -1,0 +1,125 @@
+{
+  "id": "2026-10-18-st-margarets-house-ahista-stories-live-sewing-101-workshop-jeans-alterations",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-c"
+  },
+  "found_at": "2026-10-13T15:10:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Ahista Stories Live: Sewing 101 Workshop - Jeans Alterations",
+  "summary": "A beginner-friendly sewing workshop on measuring and re-hemming jeans, part of the Ahista Stories Live festival at St Margaret's House.",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "The Cabin at St Margaret's House",
+    "address": "21 Old Ford Road, London",
+    "postcode": "E2 9PL"
+  },
+  "starts_at": "2026-10-18T11:45:00+01:00",
+  "ends_at": "2026-10-18T12:45:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 4,
+    "max_gbp": 24,
+    "notes": "Workshop: £4/£8/£12 if you have a General Admission ticket; second set £8/£16/£24 unlabelled. Verifier to confirm."
+  },
+  "ticket_url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-sewing-101-workshop-jeans-alterations",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-sewing-101-workshop-jeans-alterations",
+      "quote": "Ahista Stories Live: Sewing 101 Workshop - Jeans Alterations",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-sewing-101-workshop-jeans-alterations",
+      "quote": "Sunday 18 October 2026",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-sewing-101-workshop-jeans-alterations",
+      "quote": "Time: 11.45am-12.45pm",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-sewing-101-workshop-jeans-alterations",
+      "quote": "Venue: The Cabin at",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-sewing-101-workshop-jeans-alterations",
+      "quote": "21 Old Ford Road — E2 9PL",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-sewing-101-workshop-jeans-alterations",
+      "quote": "Workshop (if you have already bought a General Admission ticket):",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-sewing-101-workshop-jeans-alterations",
+      "quote": "Pay Less (covers some of our costs) – I am a student, unemployed, on benefits or financially stressed - £4",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-sewing-101-workshop-jeans-alterations",
+      "quote": "Pay it Forward (covers all of our costs and supports our work) – I am employed or have enough savings to comfortably meet my basic needs - £24",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price",
+        "ticket_url"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-sewing-101-workshop-jeans-alterations",
+      "quote": "Participants must purchase a General Admission ticket for Ahista Stories Live",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "A short, practical beginner workshop on the Ahista Stories Live programme.",
+  "notes_for_verifier": "Age 16+ is printed on the page but too short to quote, so not recorded; verifier to add. Price: second tier set is unlabelled, so medium. Curly apostrophe and em dash copied as printed."
+}

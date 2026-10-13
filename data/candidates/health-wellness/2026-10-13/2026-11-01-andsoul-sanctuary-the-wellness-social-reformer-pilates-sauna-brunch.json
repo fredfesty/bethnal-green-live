@@ -1,0 +1,82 @@
+{
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T09:30:00+01:00",
+  "category": "health-wellness",
+  "recurrence": "monthly",
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": null,
+  "notes_for_verifier": "Brunch is by Palm Greens (food-drink's side); the editor may judge whether the listing leans to food. No price on the list. Recurrence is the page's word, 'monthly'; this is the 1 Nov occurrence only.",
+  "summary": "A monthly social at AndSoul Sanctuary: a Reformer Pilates session, then time in the sauna and a brunch.",
+  "ends_at": null,
+  "id": "2026-11-01-andsoul-sanctuary-the-wellness-social-reformer-pilates-sauna-brunch",
+  "subcategory": "pilates",
+  "title": "The Wellness Social: Reformer Pilates, Sauna & Brunch",
+  "venue": {
+    "venue_id": "andsoul-sanctuary",
+    "name": "AndSoul Sanctuary",
+    "address": "114-116 Cheshire Street, London",
+    "postcode": "E2 6EJ"
+  },
+  "zone": "core",
+  "starts_at": "2026-11-01T11:00:00+00:00",
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://andsoulsanctuary.com/whats-on",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "The Wellness Social: Reformer Pilates, Sauna & Brunch",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "November 01, 2026 @ 11:00 AM",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "114-116 Cheshire Street, London E2 6EJ",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "recurrence"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "Our monthly Wellness Social: an energising Reformer Pilates session with X-Club, followed by time to unwind in the sauna and a beautifully curated brunch by Palm Greens.",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "Friday night in the sauna",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium"
+}

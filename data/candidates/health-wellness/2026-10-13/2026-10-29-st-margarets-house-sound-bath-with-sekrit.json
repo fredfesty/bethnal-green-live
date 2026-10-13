@@ -1,0 +1,73 @@
+{
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T09:30:00+01:00",
+  "category": "health-wellness",
+  "recurrence": null,
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": null,
+  "notes_for_verifier": "No price on the Ticket Tailor list and no event page found. Ticket Tailor lists it as a one-off date, not a weekly class.",
+  "summary": "A 90-minute sound bath with Sekrit in The Studio at St Margaret's House.",
+  "ends_at": "2026-10-29T21:00:00+00:00",
+  "id": "2026-10-29-st-margarets-house-sound-bath-with-sekrit",
+  "subcategory": "sound-bath",
+  "title": "Sound Bath with Sekrit",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "St Margaret's House",
+    "address": "27 Old Ford Road, London",
+    "postcode": "E2 9PJ"
+  },
+  "zone": "core",
+  "starts_at": "2026-10-29T19:30:00+00:00",
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.tickettailor.com/events/stmargaretshouse",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "Sound Bath with Sekrit",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "Thu 29 Oct 2026 7:30 PM - 9:00 PM",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "The Studio, St Margaret's House, E2 9PJ",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "Thu 29 Oct 2026",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium"
+}

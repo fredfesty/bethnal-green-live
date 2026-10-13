@@ -1,0 +1,83 @@
+{
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T09:30:00+01:00",
+  "category": "health-wellness",
+  "recurrence": null,
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": null,
+  "notes_for_verifier": "No start time printed on the What's On list, so date only. No price and no event page found. Listed on the venue's own dated list (shared with community; taken here as a wellbeing walk).",
+  "summary": "A guided walk from Oxford House to Victoria Park, combining mindfulness, reflection and creative activity.",
+  "ends_at": null,
+  "id": "2026-10-29-oxford-house-black-history-month-2026-wellbeing-walk-with-mindful-meditation",
+  "subcategory": "other",
+  "title": "Black History Month 2026 : Wellbeing Walk with Mindful Meditation",
+  "venue": {
+    "venue_id": "oxford-house",
+    "name": "Oxford House",
+    "address": "Derbyshire Street, London",
+    "postcode": "E2 6HG"
+  },
+  "zone": "core",
+  "starts_at": "2026-10-29",
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.oxfordhouse.org.uk/whats-on/",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/whats-on/",
+      "quote": "October 29, 2026",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/whats-on/",
+      "quote": "Black History Month 2026 : Wellbeing Walk with Mindful Meditation",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/whats-on/",
+      "quote": "Join a guided walk from Oxford House to Victoria Park combining mindfulness, reflection and creative activity",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "postcode"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/whats-on/",
+      "quote": "London E2 6HG",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/whats-on/",
+      "quote": "Wellbeing Walk with Mindful Meditation",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium"
+}

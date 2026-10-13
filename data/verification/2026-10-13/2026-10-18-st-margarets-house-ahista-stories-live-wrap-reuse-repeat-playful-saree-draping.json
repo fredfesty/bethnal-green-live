@@ -1,0 +1,64 @@
+{
+  "id": "2026-10-18-st-margarets-house-ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+  "candidate_file": "data/candidates/community/2026-10-13/2026-10-18-st-margarets-house-ahista-stories-live-wrap-reuse-repeat-playful-saree-draping.json",
+  "run_id": "2026-10-13-v2",
+  "verified_at": "2026-10-13T14:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Start time not confirmed: 'Time: 12.45-2.15pm' has no event title nearby. Date confirmed. Check https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Date confirmed; time quote has no title nearby or conflicts. See reasons."
+    },
+    {
+      "field": "ends_at",
+      "result": "unverifiable",
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Quote found but the event's title is not near it on the page, so it may belong to another event."
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events/ahista-stories-live-wrap-reuse-repeat-playful-saree-draping",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Ticket link loads (checked with check_quote --url) and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

@@ -1,0 +1,95 @@
+{
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T09:30:00+01:00",
+  "category": "health-wellness",
+  "recurrence": null,
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": "A chip-timed road race in Victoria Park, with 5k, 10k and half marathon distances on the same morning.",
+  "notes_for_verifier": "Staggered starts on the race page: half marathon 09:30 am, 10k 10:00 am, 5k 11:15 am. Event end time is not printed in text (only in structured data), so ends_at is empty. Entry is through letsdothis.com, which is never fetched; ticket link is RunThrough's own race page. Address not printed; venue is Victoria Park (registry postcode E3 5TB).",
+  "summary": "Chip-timed road races around Victoria Park: a half marathon, a 10k and a 5k, organised by RunThrough.",
+  "ends_at": null,
+  "id": "2026-11-07-victoria-park-half-marathon-10k-5k-november-2026",
+  "subcategory": "run",
+  "title": "Victoria Park Half Marathon, 10k & 5k November 2026",
+  "venue": {
+    "venue_id": "victoria-park",
+    "name": "Victoria Park",
+    "address": null,
+    "postcode": null
+  },
+  "zone": "fringe",
+  "starts_at": "2026-11-07T09:30:00+00:00",
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 28,
+    "max_gbp": 36,
+    "notes": "£28 – £36 (+ 5% booking fee)"
+  },
+  "ticket_url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.runthrough.co.uk/venues/victoria-park-running-events",
+      "quote": "Victoria Park Half Marathon, 10k & 5k November 2026",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "venue"
+      ],
+      "url": "https://www.runthrough.co.uk/venues/victoria-park-running-events",
+      "quote": "Sat, 7 Nov 2026 · Victoria Park",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "quote": "\"startDate\":\"2026-11-07T09:30:00+00:00\"",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "quote": "£28 – £36 (+ 5% booking fee)",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.runthrough.co.uk/venues/victoria-park-running-events",
+      "quote": "one of our chip timed 5k, 10k or Half Marathon races",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "quote": "Victoria Park Half Marathon, 10k & 5k November 2026",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high"
+}

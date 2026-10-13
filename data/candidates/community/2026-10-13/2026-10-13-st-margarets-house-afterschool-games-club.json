@@ -1,0 +1,125 @@
+{
+  "id": "2026-10-13-st-margarets-house-afterschool-games-club",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-c"
+  },
+  "found_at": "2026-10-13T15:10:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Afterschool Games Club",
+  "summary": "A weekly games session for local children in school years 1 to 5, at The Canvas, St Margaret's House, run through the autumn term.",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "The Canvas at St Margaret's House",
+    "address": "27 Old Ford Road, London",
+    "postcode": "E2 9PJ"
+  },
+  "starts_at": "2026-10-13T15:30:00+01:00",
+  "ends_at": "2026-10-13T16:30:00+01:00",
+  "recurrence": "Tuesdays",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": 0,
+    "notes": "Free ('This programme is free thanks to funding from Arts Council England'). Donations welcome, not required. Sign-up form needed."
+  },
+  "ticket_url": "https://www.stmargaretshouse.org.uk/events/afterschool-games-club",
+  "age_restriction": "School years 1-5 (younger children with an adult)",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/afterschool-games-club",
+      "quote": "Afterschool Games Club | St. Margaret's House | A home for Creative Health in Bethnal Green, East London",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "recurrence"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/afterschool-games-club",
+      "quote": "Autumn Term 2026 Dates: Tuesday 22nd September to Tuesday 1st December (no session Tuesday 27th October)",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/afterschool-games-club",
+      "quote": "Dates: Tuesdays",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/afterschool-games-club",
+      "quote": "Times: 3.30-4.30pm",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/afterschool-games-club",
+      "quote": "Venue: The Canvas at St Margaret’s House, 27 Old Ford Road, London, E2 9PJ",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/afterschool-games-club",
+      "quote": "This programme is free thanks to funding from Arts Council England",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/afterschool-games-club",
+      "quote": "Though this activity is free to attend, we would appreciate any support you are able to offer to help cover the costs.",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/afterschool-games-club",
+      "quote": "Please use the sign-up form via the button below to submit your child’s details.",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/afterschool-games-club",
+      "quote": "Sessions are for children in school years 1-5 (younger children can attend if accompanied by an adult).",
+      "retrieved_at": "2026-10-13T15:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A free weekly afterschool games club for primary-age children, held at St Margaret's House.",
+  "notes_for_verifier": "Recurring weekly on Tuesdays; this record is the next session, today (13 Oct), and the term runs to 1 Dec with no session on 27 Oct. Times printed as 3.30-4.30pm in the body; JSON-LD agrees (15:30). Booking via sign-up form only, so spaces may be limited; the page does not say so. Next Tuesday's record will be written by a later run."
+}

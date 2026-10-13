@@ -1,0 +1,73 @@
+{
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T09:30:00+01:00",
+  "category": "health-wellness",
+  "recurrence": null,
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": null,
+  "notes_for_verifier": "No price on the Ticket Tailor list and no event page found. The listing does not say who the workshop is for.",
+  "summary": "An evening workshop, 'Moving through Grief: Navigating Guilt and Regret', at The Canvas, St Margaret's House.",
+  "ends_at": "2026-10-22T20:00:00+01:00",
+  "id": "2026-10-22-st-margarets-house-october-moving-through-grief-workshop-navigating-guilt-and-regret",
+  "subcategory": "workshop",
+  "title": "October Moving through Grief workshop: Navigating Guilt and Regret",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "St Margaret's House",
+    "address": "27 Old Ford Road, London",
+    "postcode": "E2 9PJ"
+  },
+  "zone": "core",
+  "starts_at": "2026-10-22T18:00:00+01:00",
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.tickettailor.com/events/stmargaretshouse",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "October Moving through Grief workshop: Navigating Guilt and Regret",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "Thu 22 Oct 2026 6:00 PM - 8:00 PM",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "The Canvas, 27 Old Ford Road, E2 9PJ",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "Thu 29 Oct 2026",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium"
+}

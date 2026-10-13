@@ -1,0 +1,82 @@
+{
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T09:30:00+01:00",
+  "category": "health-wellness",
+  "recurrence": "monthly",
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "why_its_good": null,
+  "notes_for_verifier": "Women's session per the title and the page ('monthly women’s dance'). No price on the list and no event page found. The list does not say more about who it is for. Recurrence is the page's own word, 'monthly'; this is the next occurrence only.",
+  "summary": "A women's ecstatic dance at AndSoul Sanctuary, closing with a sound healing.",
+  "ends_at": null,
+  "id": "2026-10-27-andsoul-sanctuary-ecstatic-dance-culture-womens-full-moon-dance",
+  "subcategory": "other",
+  "title": "Ecstatic Dance Culture: Women's Full Moon Dance",
+  "venue": {
+    "venue_id": "andsoul-sanctuary",
+    "name": "AndSoul Sanctuary",
+    "address": "114-116 Cheshire Street, London",
+    "postcode": "E2 6EJ"
+  },
+  "zone": "core",
+  "starts_at": "2026-10-27T19:00:00+00:00",
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://andsoulsanctuary.com/whats-on",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "Ecstatic Dance Culture: Women's Full Moon Dance",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "October 27, 2026 @ 7:00 PM",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "114-116 Cheshire Street, London E2 6EJ",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "recurrence"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "Ecstatic Dance Culture return with their monthly women’s dance, closing with a sound healing.",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "Friday night in the sauna",
+      "retrieved_at": "2026-10-13T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium"
+}

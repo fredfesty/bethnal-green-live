@@ -1,0 +1,64 @@
+{
+  "id": "2026-10-31-mission-e1-reboot-and-reset-a-journey-of-breath-and-sound",
+  "candidate_file": "data/candidates/health-wellness/2026-10-13/2026-10-31-mission-e1-reboot-and-reset-a-journey-of-breath-and-sound.json",
+  "run_id": "2026-10-13-v2",
+  "verified_at": "2026-10-13T14:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary page."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.mission-e1.com/workshops/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.mission-e1.com/workshops/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.mission-e1.com/workshops/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.mission-e1.com/workshops/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.mission-e1.com/workshops/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.mission-e1.com/workshops/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Ticket link loads (checked with check_quote --url) and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

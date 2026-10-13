@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-07-victoria-park-half-marathon-10k-5k-november-2026",
+  "candidate_file": "data/candidates/health-wellness/2026-10-13/2026-11-07-victoria-park-half-marathon-10k-5k-november-2026.json",
+  "run_id": "2026-10-13-v2",
+  "verified_at": "2026-10-13T14:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Start time not confirmed: the only time evidence is a JSON-LD startDate with no event title nearby, and the page lists staggered starts (half 09:30, 10k 10:00, 5k 11:15). Check https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.runthrough.co.uk/venues/victoria-park-running-events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.runthrough.co.uk/venues/victoria-park-running-events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://www.runthrough.co.uk/venues/victoria-park-running-events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Date confirmed; time quote has no title nearby or conflicts. See reasons."
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Ticket link loads (checked with check_quote --url) and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2026-10-20-bgwmc-deeper-into-movies-david-lynch-music-video-showcase",
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-13-c"
+  },
+  "found_at": "2026-10-13T12:00:00+01:00",
+  "category": "arts",
+  "subcategory": "film",
+  "title": "DEEPER INTO MOVIES - DAVID LYNCH MUSIC VIDEO SHOWCASE",
+  "summary": "A showcase of David Lynch music videos at Bethnal Green Working Men's Club on Tuesday 20 October 2026, sold through the club's Ticket Tailor box office.",
+  "recurrence": null,
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "age_restriction": null,
+  "accessibility": null,
+  "why_its_good": null,
+  "notes_for_verifier": "Box-office list only: no event page or description was found or read, so there is no price. Subcategory film is a judgement from the title (a music-video showcase), so check it is not a nights-music listing. Confidence medium because price is missing.",
+  "venue": {
+    "venue_id": "bgwmc",
+    "name": "Bethnal Green Working Men's Club",
+    "address": null,
+    "postcode": "E2 6NB"
+  },
+  "starts_at": "2026-10-20T19:30:00+01:00",
+  "ends_at": "2026-10-20T23:00:00+01:00",
+  "zone": "core",
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.tickettailor.com/events/workingmens-club",
+  "status": "scheduled",
+  "scout_confidence": "medium",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "DEEPER INTO MOVIES - DAVID LYNCH MUSIC VIDEO SHOWCASE",
+      "retrieved_at": "2026-10-13T12:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "Tue 20 Oct 2026 7:30 PM - 11:00 PM BST",
+      "retrieved_at": "2026-10-13T12:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "BETHNAL GREEN WORKING MENS CLUB, E2 6NB",
+      "retrieved_at": "2026-10-13T12:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ]
+}
