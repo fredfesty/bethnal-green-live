@@ -201,7 +201,7 @@
       "name": "AndSoul Sanctuary",
       "aliases": [
         "The Sanctuary & Soul",
-        "Shoreditch &Soul"
+        "Shoreditch & Soul"
       ],
       "address": "114-116 Cheshire Street, London",
       "postcode": "E2 6EJ",
@@ -231,7 +231,7 @@
       ],
       "status": "open",
       "status_evidence": "andsoulsanctuary.com/whats-on/sanctum-sauna-october: \"Sunday 25 October, 10:30am. Sensorium. From £40 per person. Booking is now open.\" with JSON-LD \"startDate\": \"2026-10-25T10:30:00+00:00\".",
-      "regular_schedule": "AndSoul Sanctuary runs Aufguss rituals in London's second-largest Aufguss amphitheatre most evenings.",
+      "regular_schedule": null,
       "notes": "The owner's 'AndSoul Sanctuary Sauna and Wellness Studio'. Sauna and wellness club in a converted warehouse off Brick Lane (40-person Aufguss sauna, cold plunge, Reformer and movement studios, Palm Greens café); the site calls it Shoreditch but the postcode is E2, about 880m from the tube. Take: sauna events (The Sauna Rave, Sanctum + Sauna, guided sauna rituals), The Wellness Social, breathwork, ecstatic/full-moon dance with sound healing, wellbeing talks and workshops. Skip: the Halloween party (nights-music), Atmosfer Vinyl Fridays at Palm Greens (food-drink), Founder Cowork Club, and the 70+ weekly classes. Opening hours differ between the footer ('Sat - Sun: 8:45am – 10pm') and the FAQ ('Saturday and Sunday 09:00 to 22:00'). andsoul.com is the co-living site (The Villas, Cheshire Street) and carries no events; ma.to/venue/andsoulcommunity is that co-living brand too, with no events."
     },
     {
@@ -319,7 +319,7 @@
           "url": "https://www.tickettailor.com/events/stmargaretshouse",
           "role": "primary",
           "readable": "ok",
-          "notes": "One-off wellness events with date, time and room, e.g. 'Sound Bath with Sekrit Thu 29 Oct 2026 7:30 PM - 9:00 PM The Studio, St Margaret's House, E2 9PJ' and 'Embracing Autumn – an afternoon of Gentle Movement, Yin Yoga & Deep Rest Sun 8 Nov 2026'. Items marked 'Multiple dates and times' (Gentle Yoga and Sound, Restorative Pilates, Pregnancy Yoga, Integral Yoga, Women's Wellbeing, Saturday Morning Stretch) are weekly classes: skip."
+          "notes": "One-off wellness events with date, time and room, e.g. 'Sound Bath with Sekrit Thu 29 Oct 2026 7:30 PM - 9:00 PM The Studio, St Margaret's House, E2 9PJ' and 'Embracing Autumn – an afternoon of Gentle Movement, Yin Yoga & Deep Rest Sun 8 Nov 2026'. Items marked 'Multiple dates and times' (Gentle Yoga and Sound, Restorative Pilates, Pregnancy Yoga, Integral Yoga, Women's Wellbeing, Saturday Morning Stretch, Dynamic Vinyasa) are weekly classes: skip."
         }
       ],
       "status": "open",
@@ -352,13 +352,13 @@
           "url": "https://www.eventbrite.co.uk/o/mindful-pause-107886347751",
           "role": "primary",
           "readable": "ok",
-          "notes": "Mindful Pause (organiser 107886347751): guided meditation and sound baths in the Oxford House chapel. Organiser page says Sandy has been 'offering guided meditation and sound baths at Oxford House since 2022'; no upcoming events on 13 Oct 2026 (last seen: 29 September 2025). Use the Eventbrite API by organiser id."
+          "notes": "Mindful Pause (organiser 107886347751): guided meditation and sound baths in the Oxford House chapel. Organiser page says Sandy has been 'offering guided meditation and sound baths at Oxford House since 2022'; no upcoming events on 13 Oct 2026 (last dated page found: 29 September 2025; its FAQ also lists 27 October and 24 November 2025). Use the Eventbrite API by organiser id."
         }
       ],
       "status": "open",
       "status_evidence": "oxfordhouse.org.uk/whats-on: \"October 29, 2026\" / \"Black History Month 2026 : Wellbeing Walk with Mindful Meditation\".",
       "regular_schedule": null,
-      "notes": "Same venue and id as in community.json (copied from there). Health-wellness takes only wellbeing events (meditation, sound baths, wellbeing walks); everything else stays with the other scouts. The Mindful Pause Eventbrite page gives the room: 'Oxford House, Chapel (take the lift to 3/F), Derbyshire Street, Bethnal Green, E2 6HG'."
+      "notes": "Same venue and id as in community.json (copied from there). Health-wellness takes only wellbeing events (meditation, sound baths, wellbeing walks); everything else stays with the other scouts. The room comes from the FAQ of a 2025 Mindful Pause event page (https://www.eventbrite.co.uk/e/mindful-pause-tickets-1568443559909): 'Oxford House, Chapel (take the lift to 3/F), Derbyshire Street, Bethnal Green, E2 6HG'."
     },
     {
       "id": "bethnal-green-nature-reserve",
@@ -386,7 +386,7 @@
       "status": "open",
       "status_evidence": "bethnalgreennaturereserve.org/calendar: \"Community Qi Gong Sat 24 October 2026 9.30am – 10.30am\".",
       "regular_schedule": null,
-      "notes": "Same venue and id as in community.json (name, address and postcode copied from there; not re-checked on the reserve's own pages). Qi Gong and other movement or meditation sessions are this scout's; the community scout skips them."
+      "notes": "Same venue and id as in community.json (name, address and postcode copied from there; the address 'Middleton Street, London E2 9RR' also confirmed on the reserve's own /visit page on 13 Oct 2026). Qi Gong and other movement or meditation sessions are this scout's; the community scout skips them."
     },
     {
       "id": "mission-e1",
@@ -420,7 +420,7 @@
         }
       ],
       "status": "open",
-      "status_evidence": "mission-e1.com/workshops: \"An Introduction to Kettlebells\" with \"Friday 23rd October: 6.00-8.00pm\" (23 Oct 2026 is a Friday); the page also lists \"Friday 29th – Sunday 31st January, 2027\". Homepage data \"dateModified\":\"2026-07-03T13:43:55+00:00\".",
+      "status_evidence": "mission-e1.com/workshops: \"An Introduction to Kettlebells\" with \"Friday 23rd October: 6.00-8.00pm\" (23 Oct 2026 is a Friday); the page also lists \"Friday 29th – Sunday 31st January, 2027\". The page data reads \"dateModified\":\"2026-10-12T14:33:06+00:00\".",
       "regular_schedule": null,
       "notes": "Probably the owner's 'mission': a large yoga, strength, calisthenics and movement centre off Brick Lane in a converted warehouse (Time Out called it 'Europe's largest yoga space' when it opened). About 1.5km from the tube, so fringe. No other wellness venue called Mission was found near Bethnal Green (Bethnal Green Mission Church and Good Shepherd Mission are churches). Take: breathwork, sound baths, yoga and movement workshops, workshop weekends with visiting teachers. Skip: teacher trainings and immersions, treatments, the weekly class timetable, and 'Pratibhā' (for yoga teachers). Café Mission food nights belong to food-drink."
     },
