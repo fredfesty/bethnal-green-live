@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-17-the-approach-faun",
+  "candidate_file": "data/candidates/arts/2026-10-13/2026-09-17-the-approach-faun.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T09:40:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary page."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.theapproach.co.uk/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.theapproach.co.uk/contact/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Address quote on the venue's own page; the venue name itself is not in the quote."
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.theapproach.co.uk/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Thursday 17 September 2026; date only, no time recorded."
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.theapproach.co.uk/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "run_schedule",
+      "result": "confirmed",
+      "url": "https://www.theapproach.co.uk/contact/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://www.theapproach.co.uk/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.theapproach.co.uk/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Same page the title was found on, so it loads and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

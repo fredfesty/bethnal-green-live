@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-07-troxy-trance-sanctuary-presents-kearnage",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Trance Sanctuary Presents Kearnage",
+  "summary": "Trance Sanctuary's Kearnage at the Troxy on Saturday 7 November, doors and start 3pm, over-18s only.",
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-11-07T15:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/",
+  "age_restriction": "Over 18s",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/",
+      "quote": "07.11.26 Trance Sanctuary Presents Kearnage Buy Tickets",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/",
+      "quote": "15:00 - Doors Open / Event Starts",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/",
+      "quote": "Over 18s only.",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/",
+      "quote": "General Admission tickets for this event use fixed tier pricing.",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/",
+      "quote": "Trance Sanctuary Presents Kearnage - Troxy",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "notes_for_verifier": "Genre is not stated on the page beyond the 'Trance Sanctuary' name in the title."
+}

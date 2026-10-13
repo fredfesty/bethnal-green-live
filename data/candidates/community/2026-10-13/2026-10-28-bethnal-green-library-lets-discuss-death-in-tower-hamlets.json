@@ -1,0 +1,88 @@
+{
+  "id": "2026-10-28-bethnal-green-library-lets-discuss-death-in-tower-hamlets",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T00:55:00+01:00",
+  "category": "community",
+  "subcategory": "talk",
+  "title": "Let's Discuss Death in Tower Hamlets",
+  "summary": "A free two-day community event at Bethnal Green Library, a collaboration with Let's Discuss Death, opening conversations about death, dying and grief.",
+  "venue": {
+    "venue_id": "bethnal-green-library",
+    "name": "Bethnal Green Library",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-28",
+  "ends_at": "2026-10-29",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Printed as 'free community event'."
+  },
+  "ticket_url": "https://www.ideastore.co.uk/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.ideastore.co.uk/",
+      "quote": "Let's Discuss Death in Tower Hamlets",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.ideastore.co.uk/",
+      "quote": "Wednesday 28th and Thursday 29th October 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.ideastore.co.uk/",
+      "quote": "Experience a collaboration between Bethnal Green Library and Let’s Discuss Death. This is a free community event",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.ideastore.co.uk/",
+      "quote": "This is a free community event designed to open up conversations about death, dying, and grief.",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.ideastore.co.uk/",
+      "quote": "Let's Discuss Death in Tower Hamlets",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "A free, open community programme at the local library on a topic that is rarely discussed in public.",
+  "notes_for_verifier": "No times are printed on the homepage: 'We have a number of events across the two days', with a 'Find out more' link not read. Times left empty. The ticket_url is the homepage because the event's own page was not found. Address and postcode of Bethnal Green Library are not on the pages read; the venue profiler should confirm."
+}

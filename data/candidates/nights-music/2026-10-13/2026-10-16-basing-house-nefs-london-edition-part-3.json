@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-16-basing-house-nefs-london-edition-part-3",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "NEFS London Edition Part 3",
+  "summary": "A club night at Basing House, 25 Kingsland Road, with Afro house, Afro tech and Latin house, 10pm to 4am on Friday 16 October.",
+  "venue": {
+    "venue_id": "basing-house",
+    "name": "Basing House",
+    "address": "25 Kingsland Road, London",
+    "postcode": "E2 8AA"
+  },
+  "starts_at": "2026-10-16T22:00:00+01:00",
+  "ends_at": "2026-10-17T04:00:00+01:00",
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [
+    "Afro house",
+    "Afro tech",
+    "Latin house"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://ma.to/event/nefs-london-edition-part-3-2026-10-16",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://ma.to/event/nefs-london-edition-part-3-2026-10-16",
+      "quote": "NEFS London Edition Part 3 When Friday, 16 October Start 10PM, end 4AM",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://ma.to/event/nefs-london-edition-part-3-2026-10-16",
+      "quote": "Where Basing House 25 Kingsland Road, London E2 8AA",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://ma.to/event/nefs-london-edition-part-3-2026-10-16",
+      "quote": "with Afro house, Afro tech and Latin house played through the night",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "low",
+  "notes_for_verifier": "Aggregator only (ma.to). Basing House has a DICE listing but its DICE venue URL was not found, so no primary page was read. Time 'Start 10PM, end 4AM' is the ma.to event page's own wording."
+}

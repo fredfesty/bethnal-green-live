@@ -1,0 +1,80 @@
+{
+  "id": "2026-10-30-star-of-bethnal-green-halloween-party-horror-disco",
+  "candidate_file": "data/candidates/nights-music/2026-10-13/2026-10-30-star-of-bethnal-green-halloween-party-horror-disco.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T09:40:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker ma.to/DesignMyNight accepted because the venue is marked no_primary_listing."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Friday 30 October 2026 21:00; offset +00:00 is right for London on that date."
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "genres",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/starbethgreen",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://ma.to/event/halloween-party-horror-disco-30-oct-2026",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Same page the title was found on, so it loads and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

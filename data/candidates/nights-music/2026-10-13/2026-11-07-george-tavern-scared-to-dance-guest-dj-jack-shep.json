@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-07-george-tavern-scared-to-dance-guest-dj-jack-shep",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Scared To Dance: Guest DJ Jack Shep",
+  "summary": "Guest-DJ club night 'Scared To Dance' at The George Tavern, Saturday 7 November, 11pm to 2:30am, £13.26 on DICE.",
+  "venue": {
+    "venue_id": "george-tavern",
+    "name": "The George Tavern",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-11-07T23:00:00+00:00",
+  "ends_at": "2026-11-08T02:30:00+00:00",
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Jack Shep"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 13.26,
+    "max_gbp": null,
+    "notes": "£13.26 on the DICE venue listing"
+  },
+  "ticket_url": "https://dice.fm/venue/the-george-tavern-kx88",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "lineup",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "Scared To Dance: Guest DJ Jack Shep Sat 7 Nov",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "price"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "Scared To Dance: Guest DJ Jack Shep Sat 7 Nov The George Tavern London £13.26",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "Scared To Dance: Guest DJ Jack Shep 2026-11-07T23:00:00+00:00 2026-11-08T02:30:00+00:00",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "notes_for_verifier": "Time from the DICE venue page's embedded event data; the event's own DICE page returned HTTP 503. Price is the figure printed after this event's venue line."
+}

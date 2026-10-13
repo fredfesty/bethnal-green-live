@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-31-george-tavern-pzyk-gurls-halloween-clubnight",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Pzyk Gürls Halloween Clubnight",
+  "summary": "Halloween club night at The George Tavern, Saturday 31 October, 11:30pm to 3:30am, £8 on DICE.",
+  "venue": {
+    "venue_id": "george-tavern",
+    "name": "The George Tavern",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-31T23:30:00+00:00",
+  "ends_at": "2026-11-01T03:30:00+00:00",
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 8,
+    "max_gbp": null,
+    "notes": "£8 on the DICE venue listing"
+  },
+  "ticket_url": "https://dice.fm/venue/the-george-tavern-kx88",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "Pzyk Gürls Halloween Clubnight Sat 31 Oct",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "price"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "Pzyk Gürls Halloween Clubnight Sat 31 Oct The George Tavern London £8",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "Pzyk Gürls Halloween Clubnight 2026-10-31T23:30:00+00:00 2026-11-01T03:30:00+00:00",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "notes_for_verifier": "Time from the DICE venue page's embedded event data; the event's own DICE page returned HTTP 503. Ticket link is the venue's DICE page."
+}

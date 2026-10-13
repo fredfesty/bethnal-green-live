@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-22-brick-lane-bookshop-book-launch-blessings",
+  "candidate_file": "data/candidates/arts/2026-10-13/2026-10-22-brick-lane-bookshop-book-launch-blessings.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T09:40:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "The page prints 'October 22nd | 7pm' with no year and no weekday, so the date cannot be matched to 2026.",
+    "Check the year (22 Oct 2026 is a Thursday) at https://bricklanebookshop.org/ ; the shop's page has no other dated context."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://bricklanebookshop.org/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://bricklanebookshop.org/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://bricklanebookshop.org/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Day and month confirmed; no year and no weekday printed, so 2026 is unconfirmed."
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://bricklanebookshop.org/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://bricklanebookshop.org/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://bricklanebookshop.org/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Same page the title was found on, so it loads and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "2026-10-16-the-jago-move-your-boots",
+  "candidate_file": "data/candidates/nights-music/2026-10-13/2026-10-16-the-jago-move-your-boots.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T09:40:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Title, venue and date confirmed only by ma.to (aggregator); The Jago isn't marked no_primary_listing and the registry lists a DICE primary page.",
+    "Check: find the listing on The Jago's DICE page and re-record from it."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://ma.to/event/move-your-boots-the-jago-2026-10-16",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://ma.to/event/move-your-boots-the-jago-2026-10-16",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/move-your-boots-the-jago-2026-10-16",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Friday 16 October 2026 22:00; offset +01:00 is right for London on that date."
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/move-your-boots-the-jago-2026-10-16",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://ma.to/event/move-your-boots-the-jago-2026-10-16",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "genres",
+      "result": "confirmed",
+      "url": "https://ma.to/event/move-your-boots-the-jago-2026-10-16",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://ma.to/event/move-your-boots-the-jago-2026-10-16",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Same page the title was found on, so it loads and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

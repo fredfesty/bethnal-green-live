@@ -1,0 +1,91 @@
+{
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:00:00+01:00",
+  "category": "arts",
+  "summary": "Free open-mic stand-up comedy at Three Colts Tavern's Glue Factory room on Monday 19 October 2026, listed on DesignMyNight.",
+  "recurrence": "1st and 3rd Monday of the month",
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "age_restriction": null,
+  "accessibility": null,
+  "why_its_good": null,
+  "notes_for_verifier": "No venue or ticket page found, so this is medium at most (registry: no_primary_listing). Address and postcode come from DesignMyNight only. Monday 19 Oct is the 3rd Monday, not a charity night. Age 18+ is printed but too short to quote, so left out.",
+  "id": "2026-10-19-three-colts-tavern-monday-night-open-mic-comedy",
+  "subcategory": "comedy",
+  "title": "Monday Night Open Mic Comedy",
+  "venue": {
+    "venue_id": "three-colts-tavern",
+    "name": "Three Colts Tavern",
+    "address": "199 Cambridge Heath Road",
+    "postcode": "E2 0EL"
+  },
+  "starts_at": "2026-10-19T20:00:00+01:00",
+  "ends_at": "2026-10-19T21:30:00+01:00",
+  "zone": "core",
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "FREE COMEDY NIGHT (listing)"
+  },
+  "ticket_url": "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy",
+  "status": "scheduled",
+  "scout_confidence": "medium",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy",
+      "quote": "Monday Night Open Mic Comedy",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy",
+      "quote": "Monday 19th October 2026 and 2 other Mondays\n20:00 - 21:30",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy",
+      "quote": "FREE COMEDY NIGHT",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy",
+      "quote": "Three Colts Tavern, 199 CAMBRIDGE HEATH ROAD,, E2 0EL",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy",
+      "quote": "We're hosting an open Mic stand-up comedy night 1st and 3rd Monday of the month",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ]
+}

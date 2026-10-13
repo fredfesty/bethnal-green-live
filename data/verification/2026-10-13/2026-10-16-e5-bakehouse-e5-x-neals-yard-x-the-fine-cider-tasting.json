@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-16-e5-bakehouse-e5-x-neals-yard-x-the-fine-cider-tasting",
+  "candidate_file": "data/candidates/food-drink/2026-10-13/2026-10-16-e5-bakehouse-e5-x-neals-yard-x-the-fine-cider-tasting.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T09:40:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Venue not confirmed: the only venue quote is e5's general arch address, which does not name e5 Bakehouse; the event page redirects away, so this session's location is unknown (scout notes e5 also runs sessions at Poplar and V&A East).",
+    "Check where the 16 Oct tasting is held and the start time at https://e5bakehouse.com/events"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://e5bakehouse.com/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "unverifiable",
+      "url": "https://e5bakehouse.com/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Quote is only 'Arch 395, Mentmore Terrace'; venue name not quoted and this session's location is not shown."
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://e5bakehouse.com/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Friday 16 October 2026; date only, no time recorded."
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://e5bakehouse.com/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://e5bakehouse.com/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Same page the title was found on, so it loads and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

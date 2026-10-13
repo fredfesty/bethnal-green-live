@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-31-mare-street-market-halloween-djs",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Halloween DJs",
+  "summary": "A free Halloween afternoon DJ session at Mare Street Market in Hackney, from 12pm on Saturday 31 October.",
+  "venue": {
+    "venue_id": "mare-street-market",
+    "name": "Mare Street Market",
+    "address": "117 Mare Street, Hackney, London",
+    "postcode": "E8 4RU"
+  },
+  "starts_at": "2026-10-31T12:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": 0,
+    "notes": "Free entry"
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "price"
+      ],
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "quote": "31.10.26 12.00 Halloween DJs Free entry",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "quote": "Events Hackney - Mare Street Market",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "quote": "117 Mare Street, Hackney, London, E8 4RU",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "notes_for_verifier": "Day session. Title says 'Halloween DJs' with no names listed."
+}

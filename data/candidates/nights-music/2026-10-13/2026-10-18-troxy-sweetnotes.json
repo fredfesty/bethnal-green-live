@@ -1,0 +1,86 @@
+{
+  "id": "2026-10-18-troxy-sweetnotes",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Sweetnotes",
+  "summary": "Sweetnotes Music, which the page says relives timeless hits, at the Troxy on Sunday 18 October, doors from 5pm.",
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-18T17:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Sweetnotes Music"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://troxy.co.uk/event/sweetnotes/",
+  "age_restriction": "14+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue",
+        "ticket_url"
+      ],
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "quote": "18.10.26 Sweetnotes Buy Tickets VIP doors 3pm-5pm GA doors 5pm",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "quote": "17:00 - Doors Open / Event Starts",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "quote": "Relive the timeless hits and unforgettable performances of Sweetnotes Music",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "quote": "14+ A max of 8 tickets per person",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "quote": "Sweetnotes - Troxy",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "notes_for_verifier": "Re-recorded: held on 12 Oct because the start-time quote had no title nearby. The start time is the page's own 'Doors Open / Event Starts' line, which sits below the title; the same page also says 'VIP doors 3pm-5pm GA doors 5pm', which conflicts. Verifier to decide the start time. Price not on the page."
+}

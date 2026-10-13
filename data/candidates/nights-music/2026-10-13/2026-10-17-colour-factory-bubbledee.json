@@ -1,0 +1,90 @@
+{
+  "id": "2026-10-17-colour-factory-bubbledee",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Bubbledee: House Music Haven in Hackney Wick",
+  "summary": "Bubbledee house night at Colour Factory, Saturday 17 October, 10pm, £15 on DICE, 18+.",
+  "venue": {
+    "venue_id": "colour-factory",
+    "name": "Colour Factory",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-17T22:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [
+    "house"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 15,
+    "max_gbp": null,
+    "notes": "£15, 'the price you'll pay' on DICE"
+  },
+  "ticket_url": "https://dice.fm/event/eo9pgd-bubbledee-house-music-haven-in-hackney-wick-17th-oct-colour-factory-london-tickets",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/eo9pgd-bubbledee-house-music-haven-in-hackney-wick-17th-oct-colour-factory-london-tickets",
+      "quote": "Bubbledee: House Music Haven in Hackney Wick Tickets | 17 Oct | Colour Factory, London | DICE",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/eo9pgd-bubbledee-house-music-haven-in-hackney-wick-17th-oct-colour-factory-london-tickets",
+      "quote": "Sat 17 Oct, 10:00 pm",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/eo9pgd-bubbledee-house-music-haven-in-hackney-wick-17th-oct-colour-factory-london-tickets",
+      "quote": "£15 The price you'll pay.",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/eo9pgd-bubbledee-house-music-haven-in-hackney-wick-17th-oct-colour-factory-london-tickets",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/eo9pgd-bubbledee-house-music-haven-in-hackney-wick-17th-oct-colour-factory-london-tickets",
+      "quote": "Monthly event built on sound, atmosphere and shared energy.",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A monthly night, in its own words 'built on sound, atmosphere and shared energy', at Colour Factory.",
+  "notes_for_verifier": "DICE event page read directly. The embedded end time (18 Oct 04:00) is not on the visible page and is not recorded."
+}

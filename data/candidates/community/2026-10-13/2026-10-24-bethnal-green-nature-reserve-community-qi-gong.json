@@ -1,0 +1,115 @@
+{
+  "id": "2026-10-24-bethnal-green-nature-reserve-community-qi-gong",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T00:55:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Community Qi Gong",
+  "summary": "A gentle Qi Gong session combining movement, breath and body awareness, held outdoors at the Bethnal Green Nature Reserve.",
+  "venue": {
+    "venue_id": "bethnal-green-nature-reserve",
+    "name": "Bethnal Green Nature Reserve",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-24T09:30:00+01:00",
+  "ends_at": "2026-10-24T10:30:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Pay what you can: 'We ask you to make a donation of £5–£12, depending on your financial circumstances.'"
+  },
+  "ticket_url": "https://bethnalgreennaturereserve.org/calendar/community-qi-gong",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar/community-qi-gong",
+      "quote": "Community Qi Gong",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar/community-qi-gong",
+      "quote": "Qi Gong is an ancient movement practice that brings together gentle movement, breath and somatic awareness.",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar/community-qi-gong",
+      "quote": "Sat 24 October 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar/community-qi-gong",
+      "quote": "9.30am – 10.30am",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar/community-qi-gong",
+      "quote": "Bethnal Green Nature Reserve",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar/community-qi-gong",
+      "quote": "Pay what you can",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar/community-qi-gong",
+      "quote": "We ask you to make a donation of £5–£12, depending on your financial circumstances.",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar/community-qi-gong",
+      "quote": "Community Qi Gong",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A calm outdoor movement class at the nature reserve, with a pay-what-you-can donation.",
+  "notes_for_verifier": "Pay-what-you-can, so min_gbp is 0 as the page asks for a donation rather than a fixed price. Page lists upcoming dates 10 and 24 October and 7 and 21 November; no recurrence wording is printed, so recurrence is left empty. The page's event data carries the 10 October date, which is not used."
+}

@@ -1,0 +1,101 @@
+{
+  "id": "2026-10-14-oxford-house-historical-building-tour",
+  "category": "community",
+  "subcategory": "tour",
+  "title": "Historical Building Tour",
+  "venue": {
+    "venue_id": "oxford-house",
+    "name": "Oxford House",
+    "address": "Derbyshire Street, London E2 6HG",
+    "postcode": "E2 6HG"
+  },
+  "starts_at": "2026-10-14T11:00:00+01:00",
+  "ends_at": "2026-10-14T12:00:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 7.5,
+    "max_gbp": null,
+    "notes": "Printed as 'Price 7.50' with no currency symbol on the event page."
+  },
+  "ticket_url": "https://www.oxfordhouse.org.uk/event/historical-building-tour-2/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/historical-building-tour-2/",
+      "quote": "Historical Building Tour - Oxford House",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/historical-building-tour-2/",
+      "quote": "Dates October 14, 2026 - October 14, 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/historical-building-tour-2/",
+      "quote": "Times 11:00 am - 12:00 pm",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/historical-building-tour-2/",
+      "quote": "Location Oxford House, Derbyshire Street, London E2 6HG",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/historical-building-tour-2/",
+      "quote": "Price 7.50",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/historical-building-tour-2/",
+      "quote": "Historical Building Tour - Oxford House",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-13T09:40:00+01:00",
+    "run_id": "2026-10-13-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-13/2026-10-14-oxford-house-historical-building-tour.json"
+  },
+  "editor_note": "Guided tour of a listed Victorian building with archive material, a secret chapel and rooftop views over East London.",
+  "listing": null,
+  "first_seen": "2026-10-13T09:40:00+01:00",
+  "updated_at": "2026-10-13T09:40:00+01:00",
+  "history": [],
+  "needs_review": null
+}

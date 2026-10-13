@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-07-troxy-trance-sanctuary-presents-kearnage",
+  "candidate_file": "data/candidates/nights-music/2026-10-13/2026-11-07-troxy-trance-sanctuary-presents-kearnage.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T09:40:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Start time 15:00 is not confirmed: the quote '15:00 - Doors Open / Event Starts' has no title nearby on the page.",
+    "Check the start time at https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/ ."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Date 07.11.26 confirmed; the 15:00 quote has no title nearby on the page."
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Same page the title was found on, so it loads and mentions this event."
+    },
+    {
+      "field": "age_restriction",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/trance-sanctuary-presents-kearnage/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

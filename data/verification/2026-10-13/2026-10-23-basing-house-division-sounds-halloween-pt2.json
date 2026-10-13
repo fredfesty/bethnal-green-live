@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-23-basing-house-division-sounds-halloween-pt2",
+  "candidate_file": "data/candidates/nights-music/2026-10-13/2026-10-23-basing-house-division-sounds-halloween-pt2.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T09:40:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Title, venue and date confirmed only by ma.to (aggregator); Basing House isn't marked no_primary_listing.",
+    "Check: find the listing on Basing House's DICE page; the date-only entry has no start time."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://ma.to/event/division-sounds-halloween-pt2-2026-10-23",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://ma.to/event/division-sounds-halloween-pt2-2026-10-23",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/division-sounds-halloween-pt2-2026-10-23",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Friday 23 October 2026; date only, no time recorded."
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://ma.to/event/division-sounds-halloween-pt2-2026-10-23",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "genres",
+      "result": "confirmed",
+      "url": "https://ma.to/event/division-sounds-halloween-pt2-2026-10-23",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://ma.to/event/division-sounds-halloween-pt2-2026-10-23",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "Same page the title was found on, so it loads and mentions this event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

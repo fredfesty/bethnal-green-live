@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-06-troxy-bassvictim-friends",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Bassvictim & Friends",
+  "summary": "Bassvictim & Friends at the Troxy on Friday 6 November, 'basspunk', doors 9pm, last entry 11pm.",
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-11-06T21:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [
+    "basspunk"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://troxy.co.uk/event/bassvictim-friends/",
+  "age_restriction": "Over 18s",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "genres",
+        "ticket_url"
+      ],
+      "url": "https://troxy.co.uk/event/bassvictim-friends/",
+      "quote": "06.11.26 Bassvictim & Friends Buy Tickets basspunk. Doors: 9pm Last Entry: 11pm Curfew: 2pm",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/event/bassvictim-friends/",
+      "quote": "21:00 - Doors Open / Event Starts",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://troxy.co.uk/event/bassvictim-friends/",
+      "quote": "Over 18s only.",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://troxy.co.uk/event/bassvictim-friends/",
+      "quote": "Bassvictim & Friends - Troxy",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "notes_for_verifier": "Price not on the page. Page also prints 'Curfew: 2pm'; not recorded."
+}

@@ -1,0 +1,76 @@
+{
+  "id": "2026-10-31-columbia-road-flower-market-londons-day-of-the-dead-2026",
+  "category": "community",
+  "subcategory": "festival",
+  "title": "London’s Day of the Dead 2026",
+  "venue": {
+    "venue_id": "columbia-road-flower-market",
+    "name": "Columbia Road Flower Market",
+    "address": "Columbia Road, London",
+    "postcode": null
+  },
+  "starts_at": "2026-10-31T12:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Printed as 'Free'."
+  },
+  "ticket_url": "https://columbiaroad.info/news/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "price"
+      ],
+      "url": "https://columbiaroad.info/news/",
+      "quote": "London’s Day of the Dead Columbia Road, East London Saturday 31 October 2026 | From 12pm | Free",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "summary"
+      ],
+      "url": "https://columbiaroad.info/news/",
+      "quote": "Columbia Road will celebrate London’s Day of the Dead on Saturday 31 October 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://columbiaroad.info/news/",
+      "quote": "London’s Day of the Dead Columbia Road, East London Saturday 31 October 2026 | From 12pm | Free",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-13T09:40:00+01:00",
+    "run_id": "2026-10-13-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-13/2026-10-31-columbia-road-flower-market-londons-day-of-the-dead-2026.json"
+  },
+  "editor_note": "A free public celebration on Columbia Road, from midday on Saturday 31 October.",
+  "listing": null,
+  "first_seen": "2026-10-13T09:40:00+01:00",
+  "updated_at": "2026-10-13T09:40:00+01:00",
+  "history": [],
+  "needs_review": null
+}

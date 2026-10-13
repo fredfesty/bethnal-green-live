@@ -1,0 +1,75 @@
+{
+  "id": "2026-11-04-renegade-wine-bar-bethnal-green-e2-cheese-wine-rouge-and-ewe",
+  "scout": {
+    "name": "food-drink",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T00:55:00+01:00",
+  "category": "food-drink",
+  "subcategory": "tasting",
+  "title": "E2 Cheese & Wine: Rouge and Ewe",
+  "summary": "Monthly wine and cheese pairing evening at Renegade's Bethnal Green wine bar, held at a communal table to learn how to pair wine with cheese.",
+  "venue": {
+    "venue_id": "renegade-wine-bar-bethnal-green",
+    "name": "Renegade Wine Bar",
+    "address": "Arch 12, Gales Gardens, London",
+    "postcode": "E2 0EJ"
+  },
+  "starts_at": "2026-11-04",
+  "ends_at": null,
+  "recurrence": "every first Wednesday of the month",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.renegadelondonwine.com/events",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://www.renegadelondonwine.com/events",
+      "quote": "E2 Cheese & Wine: Rouge and Ewe",
+      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.renegadelondonwine.com/events",
+      "quote": "4 November 2026\nE2 Cheese & Wine: Rouge and Ewe",
+      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.renegadelondonwine.com/events",
+      "quote": "Bethnal Green: Renegade Wine Bar, Arch 12, Gales Gardens, London E2 0EJ",
+      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://www.renegadelondonwine.com/events",
+      "quote": "every first Wednesday of the month you have the opportunity to learn how to perfectly pair wine and cheese",
+      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Medium: the venue's events page gives date, title and description, but no time or price. DesignMyNight (discovery only, not evidence) lists a 'Cheese and Wine Pairing Evening' on 4 Nov 'from £33.00'; titles differ, so check it is the same event. Skipped: WSB Lates Halloween tasting (29 Oct, no E2 in title)."
+}

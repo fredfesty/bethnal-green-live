@@ -1,0 +1,61 @@
+{
+  "id": "2026-10-23-the-divine-bimbopocalypse",
+  "category": "nights-music",
+  "subcategory": "queer-party",
+  "title": "BIMBOPOCALYPSE",
+  "venue": {
+    "venue_id": "the-divine",
+    "name": "The Divine",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-23",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://thedivine.co.uk",
+      "quote": "Friday 23rd October\nCLUB: BIMBOPOCALYPSE",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://thedivine.co.uk",
+      "quote": "The Divine – A new LGBTQIA+ bar & performance venue in Dalston!",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-13T09:40:00+01:00",
+    "run_id": "2026-10-13-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-13/2026-10-23-the-divine-bimbopocalypse.json"
+  },
+  "editor_note": "Club night at The Divine, which its own site calls London's Newest Queer Venue.",
+  "listing": null,
+  "first_seen": "2026-10-13T09:40:00+01:00",
+  "updated_at": "2026-10-13T09:40:00+01:00",
+  "history": [],
+  "needs_review": null
+}

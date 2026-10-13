@@ -1,0 +1,81 @@
+{
+  "id": "2026-10-15-26-curtain-road-strictly-vinyl-free-thursday-dj-sessions",
+  "candidate_file": "data/candidates/nights-music/2026-10-13/2026-10-15-26-curtain-road-strictly-vinyl-free-thursday-dj-sessions.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T09:40:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary page.",
+    "Removed ticket_url: Event page returned an empty page (HTTP 202, probably JavaScript); could not confirm it loads. The URL is printed in the venue page's event data."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Thursday 15 October 2026 19:00; offset +01:00 is right for London on that date."
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "recurrence",
+      "result": "confirmed",
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "genres",
+      "result": "confirmed",
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Quote sits in this event's own description in the page data (read)."
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Title says 'free Thursday DJ Sessions'; the page's event data also says 'free tickets' and an Offer of 0.00 GBP (read)."
+    },
+    {
+      "field": "ticket_url",
+      "result": "unverifiable",
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "method": "none",
+      "source_kind": null,
+      "note": "Event page returned an empty page (HTTP 202, probably JavaScript); could not confirm it loads. The URL is printed in the venue page's event data."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

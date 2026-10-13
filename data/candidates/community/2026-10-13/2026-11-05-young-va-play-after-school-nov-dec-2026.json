@@ -1,0 +1,125 @@
+{
+  "id": "2026-11-05-young-va-play-after-school-nov-dec-2026",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T00:55:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Play After School (Nov-Dec 2026)",
+  "summary": "Free drop-in family play sessions after school on Thursdays and Fridays in term time, with play activities across the museum's galleries.",
+  "venue": {
+    "venue_id": "young-va",
+    "name": "Young V&A",
+    "address": "Cambridge Heath Road, Bethnal Green, London, E2 9PA",
+    "postcode": "E2 9PA"
+  },
+  "starts_at": "2026-11-05",
+  "ends_at": "2026-12-18",
+  "recurrence": "Thursdays and Fridays (term time)",
+  "run_schedule": "Thursdays and Fridays (term time), 15.30 – 17.00",
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Printed as 'Free event' and 'Join us for FREE'."
+  },
+  "ticket_url": "https://www.vam.ac.uk/event/7zmoMnpEgWj/play-after-school-nov-dec-2026",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.vam.ac.uk/event/7zmoMnpEgWj/play-after-school-nov-dec-2026",
+      "quote": "Play After School (Nov-Dec 2026)",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "recurrence"
+      ],
+      "url": "https://www.vam.ac.uk/event/7zmoMnpEgWj/play-after-school-nov-dec-2026",
+      "quote": "Stop by after school and discover different play activities on Thursdays and Fridays (term time).",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.vam.ac.uk/event/7zmoMnpEgWj/play-after-school-nov-dec-2026",
+      "quote": "Thursday, 5 November 2026 – Friday, 18 December 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "run_schedule"
+      ],
+      "url": "https://www.vam.ac.uk/event/7zmoMnpEgWj/play-after-school-nov-dec-2026",
+      "quote": "15.30 – 17.00",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.vam.ac.uk/event/7zmoMnpEgWj/play-after-school-nov-dec-2026",
+      "quote": "Free event",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.vam.ac.uk/event/7zmoMnpEgWj/play-after-school-nov-dec-2026",
+      "quote": "Join us for FREE, regular drop-in sessions for families at the Young V&A!",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.vam.ac.uk/event/7zmoMnpEgWj/play-after-school-nov-dec-2026",
+      "quote": "Cambridge Heath Road",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.vam.ac.uk/event/7zmoMnpEgWj/play-after-school-nov-dec-2026",
+      "quote": "Bethnal Green, London, E2 9PA",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.vam.ac.uk/event/7zmoMnpEgWj/play-after-school-nov-dec-2026",
+      "quote": "Play After School (Nov-Dec 2026)",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Free, regular drop-in play for families after school in the museum's galleries through early winter.",
+  "notes_for_verifier": "Run of six weeks of Thursday and Friday sessions, recorded as one candidate. Page shows 5-6, 12-13, 19-20, 26-27 Nov and 3-4, 10-11, 17-18 Dec."
+}

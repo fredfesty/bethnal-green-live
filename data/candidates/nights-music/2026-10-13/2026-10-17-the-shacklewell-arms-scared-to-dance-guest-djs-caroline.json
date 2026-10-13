@@ -1,0 +1,75 @@
+{
+  "id": "2026-10-17-the-shacklewell-arms-scared-to-dance-guest-djs-caroline",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Scared To Dance: Guest DJs Caroline",
+  "summary": "Scared To Dance night with guest DJ Caroline at The Shacklewell Arms, Saturday 17 October, 11pm to 3am, £11.33 on DICE.",
+  "venue": {
+    "venue_id": "shacklewell-arms",
+    "name": "The Shacklewell Arms",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-17T23:00:00+01:00",
+  "ends_at": "2026-10-18T03:00:00+01:00",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Caroline"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 11.33,
+    "max_gbp": null,
+    "notes": "£11.33 on the DICE venue listing"
+  },
+  "ticket_url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "price",
+        "ticket_url",
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+      "quote": "Scared To Dance: Guest DJs Caroline Sat 17 Oct The Shacklewell Arms London £11.33",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+      "quote": "Scared To Dance: Guest DJs Caroline 2026-10-17T23:00:00+01:00 2026-10-18T03:00:00+01:00",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+      "quote": "Scared To Dance: Guest DJs Caroline",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A guest-DJ club night starting at 11pm at The Shacklewell Arms, a pub with a late club room.",
+  "notes_for_verifier": "Time from the DICE venue page's embedded event data; the event's own DICE page returned HTTP 503. Next occurrence in a series with other guest DJs (24 and 30 Oct); only the 17 Oct date is recorded."
+}

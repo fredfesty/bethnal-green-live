@@ -1,0 +1,133 @@
+{
+  "id": "2026-10-29-young-va-family-workshop-5-11-clay-character",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T00:55:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Family Workshop (5-11): Clay Character",
+  "summary": "A hands-on clay workshop for children aged 5-11 and their adults, led by the clay artist Nanami Takeuchi, designing a character with air-dry clay.",
+  "venue": {
+    "venue_id": "young-va",
+    "name": "Young V&A",
+    "address": "Cambridge Heath Road, Bethnal Green, London, E2 9PA",
+    "postcode": "E2 9PA"
+  },
+  "starts_at": "2026-10-29",
+  "ends_at": "2026-10-31",
+  "recurrence": null,
+  "run_schedule": "will take place at 11.00-13.00 and 14.00-16.00",
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 15,
+    "max_gbp": 15,
+    "notes": "Tickets cost £15.00. Booking is essential."
+  },
+  "ticket_url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026",
+  "age_restriction": "This workshop is for children aged 5-11",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026",
+      "quote": "Family Workshop (5-11): Clay Character",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026",
+      "quote": "Join clay artist and illustrator Nanami Takeuchi for a fun, hands-on workshop",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026",
+      "quote": "Thursday, 29 October 2026 – Saturday, 31 October 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "run_schedule"
+      ],
+      "url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026",
+      "quote": "will take place at 11.00-13.00 and 14.00-16.00",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026",
+      "quote": "Tickets cost £15.00",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026",
+      "quote": "Booking is essential.",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026",
+      "quote": "This workshop is for children aged 5-11",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026",
+      "quote": "Cambridge Heath Road",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026",
+      "quote": "Bethnal Green, London, E2 9PA",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.vam.ac.uk/event/Lb488v4KWO/family-workshop-5-11-clay-character-oct-2026",
+      "quote": "Family Workshop (5-11): Clay Character",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A paid family making session in which children design a clay character with help from a clay artist.",
+  "notes_for_verifier": "Run of three days. The page gives a per-child ticket price; adults join free alongside their children."
+}

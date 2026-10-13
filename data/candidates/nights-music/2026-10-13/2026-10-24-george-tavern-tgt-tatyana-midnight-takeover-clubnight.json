@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-24-george-tavern-tgt-tatyana-midnight-takeover-clubnight",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "TGT: TATYANA Midnight Takeover Clubnight",
+  "summary": "Midnight takeover club night at The George Tavern, Saturday 24 October, 11pm to 3am, £6 on DICE.",
+  "venue": {
+    "venue_id": "george-tavern",
+    "name": "The George Tavern",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-24T23:00:00+01:00",
+  "ends_at": "2026-10-25T03:00:00+00:00",
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 6,
+    "max_gbp": null,
+    "notes": "£6 on the DICE venue listing"
+  },
+  "ticket_url": "https://dice.fm/venue/the-george-tavern-kx88",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "TGT: TATYANA Midnight Takeover Clubnight Sat 24 Oct",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "price"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "TGT: TATYANA Midnight Takeover Clubnight Sat 24 Oct The George Tavern London £6",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "TGT: TATYANA Midnight Takeover Clubnight 2026-10-24T23:00:00+01:00 2026-10-25T03:00:00+00:00",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "notes_for_verifier": "Time from the DICE venue page's embedded event data; the event's own DICE page returned HTTP 503. Ticket link is the venue's DICE page. The page does not say 'DJ'."
+}

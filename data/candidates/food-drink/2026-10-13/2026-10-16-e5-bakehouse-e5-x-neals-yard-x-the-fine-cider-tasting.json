@@ -1,0 +1,80 @@
+{
+  "id": "2026-10-16-e5-bakehouse-e5-x-neals-yard-x-the-fine-cider-tasting",
+  "scout": {
+    "name": "food-drink",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T00:55:00+01:00",
+  "category": "food-drink",
+  "subcategory": "tasting",
+  "title": "e5 X Neals Yard X The Fine Cider Tasting",
+  "summary": "A Friday evening tasting of bread, cheese and cider at e5 Bakehouse, with Neal's Yard Dairy and The Fine Cider Company.",
+  "venue": {
+    "venue_id": "e5-bakehouse",
+    "name": "e5 Bakehouse",
+    "address": "Arch 395, Mentmore Terrace, London",
+    "postcode": "E8 3PH"
+  },
+  "starts_at": "2026-10-16",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 35,
+    "max_gbp": 35,
+    "notes": "£35.00 as listed on the events page."
+  },
+  "ticket_url": "https://e5bakehouse.com/events",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://e5bakehouse.com/events",
+      "quote": "16/10/26\ne5 X Neals Yard X The Fine Cider Tasting",
+      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://e5bakehouse.com/events",
+      "quote": "e5 X Neals Yard X The Fine Cider Tasting\n£35.00",
+      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://e5bakehouse.com/events",
+      "quote": "Arch 395, Mentmore Terrace",
+      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://e5bakehouse.com/events",
+      "quote": "A Friday night dedicated to three things we really love: bread, cheese and cider.",
+      "retrieved_at": "2026-10-13T00:55:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Date, title and £35 are from e5's events list. Its event page redirected to 'Fine Cider Tasting September' (no date printed), so no time is written and this session's location is unconfirmed. Some e5 events run at Poplar (E14) or V&A East (E20), which would make this outer. Address is e5's general address."
+}

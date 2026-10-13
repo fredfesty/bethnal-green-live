@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-19-xoyo-motion-every-monday",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "MOTION: Every Monday",
+  "summary": "MOTION club night at XOYO on Monday 19 October, 11pm to 3am, from £4.50 on DICE; a weekly night per its title.",
+  "venue": {
+    "venue_id": "xoyo",
+    "name": "XOYO",
+    "address": "32-37 Cowper St, London",
+    "postcode": "EC2A 4AP"
+  },
+  "starts_at": "2026-10-19T23:00:00+01:00",
+  "ends_at": "2026-10-20T03:00:00+01:00",
+  "recurrence": "Every Monday",
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 4.5,
+    "max_gbp": null,
+    "notes": "From £4.50"
+  },
+  "ticket_url": "https://dice.fm/venue/xoyo-london-4n38",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "price",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/xoyo-london-4n38",
+      "quote": "MOTION: Every Monday Mon 19 Oct XOYO London London From £4.50",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/xoyo-london-4n38",
+      "quote": "MOTION: Every Monday 2026-10-19T23:00:00+01:00 2026-10-20T03:00:00+01:00",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://dice.fm/venue/xoyo-london-4n38",
+      "quote": "MOTION: Every Monday",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/xoyo-london-4n38",
+      "quote": "Address 32-37 Cowper St, London EC2A 4AP",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A weekly Monday club night at XOYO under the MOTION title, starting 11pm.",
+  "notes_for_verifier": "Next occurrence after the 12 Oct night. Time from the DICE venue page's embedded event data; the event's own DICE page was not read."
+}

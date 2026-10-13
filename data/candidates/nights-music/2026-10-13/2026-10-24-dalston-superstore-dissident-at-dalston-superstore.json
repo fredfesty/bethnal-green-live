@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-24-dalston-superstore-dissident-at-dalston-superstore",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Dissident at Dalston Superstore",
+  "summary": "Two-floor club night at Dalston Superstore on Saturday 24 October, 10pm to 4am, with seven DJs (not named on the page).",
+  "venue": {
+    "venue_id": "dalston-superstore",
+    "name": "Dalston Superstore",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-24T22:00:00+01:00",
+  "ends_at": "2026-10-25T04:00:00+00:00",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [
+    "house",
+    "club",
+    "trance"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://ma.to/event/dissident-dalston-superstore-2026-10-24",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://ma.to/event/dissident-dalston-superstore-2026-10-24",
+      "quote": "Dissident at Dalston Superstore When Saturday, 24 October 10PM–4AM",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://ma.to/event/dissident-dalston-superstore-2026-10-24",
+      "quote": "Where Dalston Superstore",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "Two floors of house, club and trance with seven DJs until 4AM",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "low",
+  "why_its_good": "Two floors of house, club and trance with seven DJs until 4AM, per the listing.",
+  "notes_for_verifier": "Aggregator only. The event page has no body text; genres and 'seven DJs' come from the venue page's embedded data for this event. No DJ names quoted."
+}

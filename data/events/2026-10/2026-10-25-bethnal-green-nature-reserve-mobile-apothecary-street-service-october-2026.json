@@ -1,0 +1,79 @@
+{
+  "id": "2026-10-25-bethnal-green-nature-reserve-mobile-apothecary-street-service-october-2026",
+  "category": "community",
+  "subcategory": "other",
+  "title": "Mobile Apothecary Street Service - October 2026",
+  "venue": {
+    "venue_id": "bethnal-green-nature-reserve",
+    "name": "Mobile Apothecary (Bethnal Green Nature Reserve)",
+    "address": "Corner of Cambridge Heath Rd + Roman Rd, opposite Bethnal Green Tube Station",
+    "postcode": null
+  },
+  "starts_at": "2026-10-25T19:00:00+00:00",
+  "ends_at": "2026-10-25T20:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://bethnalgreennaturereserve.org/calendar",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "quote": "Mobile Apothecary Street Service - October 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "quote": "Sun 25 October 2026 7.00pm – 8.00pm",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "quote": "The Mobile Apothecary will be serving on the Corner of Cambridge Heath Rd + Roman Rd, opposite Bethnal Green Tube Station",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "quote": "Mobile Apothecary Street Service - October 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-13T09:40:00+01:00",
+    "run_id": "2026-10-13-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-13/2026-10-25-bethnal-green-nature-reserve-mobile-apothecary-street-service-october-2026.json"
+  },
+  "editor_note": "A monthly evening service on the street by Bethnal Green tube, run by the nature reserve's Mobile Apothecary project.",
+  "listing": null,
+  "first_seen": "2026-10-13T09:40:00+01:00",
+  "updated_at": "2026-10-13T09:40:00+01:00",
+  "history": [],
+  "needs_review": null
+}

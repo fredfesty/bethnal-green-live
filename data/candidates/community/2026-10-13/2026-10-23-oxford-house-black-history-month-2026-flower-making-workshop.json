@@ -1,0 +1,101 @@
+{
+  "id": "2026-10-23-oxford-house-black-history-month-2026-flower-making-workshop",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T00:55:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Black History Month 2026: Flower Making Workshop",
+  "summary": "A hands-on paper flower and bouquet making workshop led by the artist Salima of Leafy Kin Folk, held in the Oxford House Chapel.",
+  "venue": {
+    "venue_id": "oxford-house",
+    "name": "Oxford House",
+    "address": null,
+    "postcode": "E2 6HG"
+  },
+  "starts_at": "2026-10-23T17:30:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-flower-making-workshop/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-flower-making-workshop/",
+      "quote": "Black History Month 2026: Flower Making Workshop - Oxford House",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-flower-making-workshop/",
+      "quote": "Join artist Salima of Leafy Kin Folk for a hands-on flower-making workshop",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-flower-making-workshop/",
+      "quote": "Dates October 23, 2026 - October 23, 2026",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-flower-making-workshop/",
+      "quote": "Times 5:30 pm - 8:00 pm",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-flower-making-workshop/",
+      "quote": "Location Oxford House, Chapel",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-flower-making-workshop/",
+      "quote": "London E2 6HG",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/black-history-month-2026-flower-making-workshop/",
+      "quote": "Black History Month 2026: Flower Making Workshop - Oxford House",
+      "retrieved_at": "2026-10-13T00:53:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "A small, hands-on craft workshop that is part of Black History Month 2026 at Oxford House.",
+  "notes_for_verifier": "End time conflicts on the page: 'Times 5:30 pm - 8:00 pm' in the header, 'Time: 5:30–8:30pm' in the details. Start time agrees, so ends_at is left empty. Price is printed as 'Price 30' and 'Cost: £30' but neither is long enough to quote, so price is left unknown; please confirm £30 from the page."
+}

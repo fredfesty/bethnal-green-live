@@ -1,0 +1,98 @@
+{
+  "id": "2026-10-16-dalston-superstore-bledi-fantasy",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:10:00+01:00",
+  "category": "nights-music",
+  "subcategory": "queer-party",
+  "title": "Bledi Fantasy",
+  "summary": "Queer Halloween party at Dalston Superstore with DJs in the bar and the club, 10pm to 4am on Friday 16 October, £8.",
+  "venue": {
+    "venue_id": "dalston-superstore",
+    "name": "Dalston Superstore",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-16T22:00:00+01:00",
+  "ends_at": "2026-10-17T04:00:00+01:00",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Miri",
+    "Ibby",
+    "Samandollar",
+    "Yu Yu",
+    "Seksu",
+    "Halal Kitty",
+    "Kybris",
+    "Goddess"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 8,
+    "max_gbp": null,
+    "notes": "£8 on the ma.to event page"
+  },
+  "ticket_url": "https://ma.to/event/bledi-fantasy-dalston-superstore-16-oct-2026",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://ma.to/event/bledi-fantasy-dalston-superstore-16-oct-2026",
+      "quote": "Bledi Fantasy When Friday, 16 October 22:00-04:00",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://ma.to/event/bledi-fantasy-dalston-superstore-16-oct-2026",
+      "quote": "Where Dalston Superstore",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://ma.to/event/bledi-fantasy-dalston-superstore-16-oct-2026",
+      "quote": "Price £8 About Bledi returns to Dalston Superstore for an early Halloween celebration",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://ma.to/event/bledi-fantasy-dalston-superstore-16-oct-2026",
+      "quote": "The lineup features Miri, Ibby, Samandollar, and Yu Yu in the bar, with Seksu, Halal Kitty, Kybris, and Goddess in the club.",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "Queer Halloween celebration featuring DJs from the Arab and SWANA region and gogo dancers.",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "low",
+  "why_its_good": "A queer Halloween night with DJs from across the Arab and SWANA region and gogo dancers, per the listing.",
+  "notes_for_verifier": "Aggregator only (ma.to). The venue's own site has no dated listings. Venue address not on the ma.to event page."
+}

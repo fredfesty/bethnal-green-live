@@ -1,0 +1,70 @@
+{
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-13-a"
+  },
+  "found_at": "2026-10-13T01:00:00+01:00",
+  "category": "arts",
+  "summary": "Solo show by Elise Nguyen Quoc at Herald St, 2 Herald Street, running until 7 November 2026.",
+  "recurrence": null,
+  "run_schedule": null,
+  "worth_the_trip": false,
+  "lineup": [
+    "Elise Nguyen Quoc"
+  ],
+  "genres": [],
+  "age_restriction": null,
+  "accessibility": null,
+  "why_its_good": null,
+  "notes_for_verifier": "Run started 24 Sep (past) and is still on. Shows at Museum St and Bologna on the same page are excluded. No opening hours on the page, so run_schedule is empty.",
+  "id": "2026-09-24-herald-st-sous-ultra-vide",
+  "subcategory": "exhibition",
+  "title": "sous ultra-vide",
+  "venue": {
+    "venue_id": "herald-st",
+    "name": "Herald St",
+    "address": "2 Herald St, London",
+    "postcode": "E2 6JT"
+  },
+  "starts_at": "2026-09-24",
+  "ends_at": "2026-11-07",
+  "zone": "core",
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.heraldst.com/2026",
+  "status": "scheduled",
+  "scout_confidence": "high",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://www.heraldst.com/2026",
+      "quote": "sous ultra-vide 24 September – 7 November 2026",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://www.heraldst.com/2026",
+      "quote": "Elise Nguyen Quoc sous ultra-vide",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.heraldst.com/2026",
+      "quote": "Herald St | 2 Herald St, London, E2 6JT",
+      "retrieved_at": "2026-10-13T01:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ]
+}

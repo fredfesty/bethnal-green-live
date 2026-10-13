@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-18-troxy-sweetnotes",
+  "candidate_file": "data/candidates/nights-music/2026-10-13/2026-10-18-troxy-sweetnotes.json",
+  "run_id": "2026-10-13-v",
+  "verified_at": "2026-10-13T09:40:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Start time 17:00 is not confirmed: its quote has no title nearby on the page, and the page's own line says 'VIP doors 3pm-5pm GA doors 5pm'.",
+    "Check the real start time at https://troxy.co.uk/event/sweetnotes/ ; the 14+ age limit is also unconfirmed for the same reason."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Date 18.10.26 confirmed; the 17:00 quote has no title nearby and the page also says VIP doors 3pm-5pm."
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Same page the title was found on, so it loads and mentions this event."
+    },
+    {
+      "field": "age_restriction",
+      "result": "unverifiable",
+      "url": "https://troxy.co.uk/event/sweetnotes/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Quote found but the event's title is not near it on the page, so it may belong to another event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}
