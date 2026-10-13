@@ -1,0 +1,134 @@
+{
+  "venue_id": "colours-hoxton",
+  "venue_name": "Colours Hoxton",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:27:31Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "bar",
+        "club",
+        "gig-venue",
+        "live-music",
+        "karaoke"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://colourshoxton.com/",
+          "quote": "Bar. Club. Venue Hire. Karaoke.",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://colourshoxton.com/",
+          "quote": "Nightclub, gig space and events venue located on Hoxton square",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://colourshoxton.com/",
+          "quote": "Firmly established as one of Shoreditch’s leading grassroots live music venues",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://colourshoxton.com/",
+          "quote": "Home to one of Shoreditch’s favourite private karaoke rooms",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "house",
+        "disco",
+        "hip hop"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://colourshoxton.com/",
+          "quote": "covering everything from house and disco to hip hop",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://colourshoxton.com/",
+          "quote": "intimate live shows from rising stars working in genres ranging from nu jazz and soul to hip hop and electro-pop",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Club nights and DJ sets, plus live gigs in its Live Room for up-and-coming bands, and private karaoke rooms for hire. The site names no fixed weekly night, and it is closed on Sundays and Mondays.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://colourshoxton.com/",
+          "quote": "From DJ sets and club takeovers to up-and-coming bands and live shows",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://colourshoxton.com/",
+          "quote": "Our Live Room is what really sets us apart.",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://colourshoxton.com/",
+          "quote": "our karaoke hire is everything you need for an unforgettable singalong",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://colourshoxton.com/",
+          "quote": "Sundays & Mondays: Closed",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "A dated list of upcoming gigs and club nights (the what's-on and gig pages load their listings with a script; the text read had none)",
+    "age_policy, cost (not programme fields)"
+  ],
+  "notes": "Named acts on the home page (not dated): Florence + The Machine, Foals and Daniel Caesar, given as past examples of the gig stage. Opening hours printed on the site: Tuesday to Thursday 5pm to 12am, Friday 5pm to 3.30am, Saturday 12pm to 3.30am (12pm to 5pm is pre-booked brunch only). The 'Live events & gigs' and club calendar could not be read, so no dated nights are listed. Pages that could not be read: none refused; colourshoxton.com/live-club/ showed no listings text."
+}

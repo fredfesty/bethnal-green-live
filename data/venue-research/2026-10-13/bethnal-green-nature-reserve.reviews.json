@@ -1,0 +1,38 @@
+{
+  "venue_id": "bethnal-green-nature-reserve",
+  "venue_name": "Bethnal Green Nature Reserve",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:54Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A nature reserve in Bethnal Green on a former WW2 bomb site, looked after by local volunteers since 1977. It describes itself as a cultural institute for ecological research and community learning.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://bethnalgreennaturereserve.org/about",
+          "quote": "The Bethnal Green Nature Reserve is a cultural institute focused on ecological research and community learning in the heart of East London.",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://bethnalgreennaturereserve.org/about",
+          "quote": "This space is a WW2 bomb-site that has been cared for since 1977 by local residents, volunteers, staff, trustees",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://londongardenstrust.org/log2026/gardens/BethnalGNR.html",
+          "quote": "The Bethnal Green Nature Reserve is a cultural institute dedicated to ecological research and community learning in the heart of East London.",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": ["crowd", "music.styles", "music.notes", "status", "aliases"],
+  "notes": "Found through the venue's own about page and a 2026 London Open Gardens entry (London Parks & Gardens Trust). The entry lists a medicine garden, a mushroom farm and wetlands. No independent press review was found. Web search budget ran out, so the press search was incomplete."
+}

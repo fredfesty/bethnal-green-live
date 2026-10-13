@@ -1,0 +1,73 @@
+{
+  "id": "all-my-gods",
+  "name": "All My Gods",
+  "about_venue_id": null,
+  "address": "253 Paradise Row, Bethnal Green, E2 9LE",
+  "postcode": "E2 9LE",
+  "website": "https://www.allmygodsbar.co.uk/",
+  "found_by": "web",
+  "signal": "new",
+  "kind_hint": "alternative cocktail bar and community space with rock and alt music",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": [
+        "name",
+        "kind_hint",
+        "website"
+      ],
+      "url": "https://www.allmygodsbar.co.uk/",
+      "quote": "All My Gods Bar | Alternative cocktail bar and community space in Bethnal Green",
+      "retrieved_at": "2026-10-13T00:05:41Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.allmygodsbar.co.uk/",
+      "quote": "\"streetAddress\": \"253 Paradise Row\"",
+      "retrieved_at": "2026-10-13T00:05:41Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.allmygodsbar.co.uk/",
+      "quote": "\"postalCode\": \"E2 9LE\"",
+      "retrieved_at": "2026-10-13T00:05:41Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://www.allmygodsbar.co.uk/",
+      "quote": "Rock and alt music, cocktails, proper pints, and a calendar full of fun.",
+      "retrieved_at": "2026-10-13T00:05:41Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://camra.org.uk/pubs/all-my-gods-bethnal-green-199163",
+      "quote": "Live music, garden & front tables.",
+      "retrieved_at": "2026-10-13T00:05:41Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://ma.to/venue/allmygodsbar",
+      "quote": "All My Gods is a lively community bar in London, serving cocktails and beers while hosting frequent quiz nights and social events",
+      "retrieved_at": "2026-10-13T00:05:41Z",
+      "source_kind": "aggregator"
+    }
+  ],
+  "found_at": "2026-10-13T00:05:41Z",
+  "notes": "Same place as map-all-my-gods.json (map finder); the editor should merge the two. Not news: the map finder's Time Out source dates the opening to August 2025, so signal is new only because we don't list it. Events seen: a bi-monthly quiz on ma.to (aggregator); no live-music listing with a date found yet. Primary site gives opening hours Wed to Sun."
+}

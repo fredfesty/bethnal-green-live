@@ -1,0 +1,115 @@
+{
+  "venue_id": "three-compasses-dalston",
+  "venue_name": "The Three Compasses",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:29:34Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "dj-bar",
+        "bar"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://dice.fm/event/ryqq25-break-it-down-16th-oct-the-three-compasses-london-tickets",
+          "quote": "DJs ‘til 12.30",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://dice.fm/event/v3y9xd-dance-1st-jan-the-three-compasses-london-tickets",
+          "quote": "Bar Closes",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "funk",
+        "soul",
+        "hip hop",
+        "disco"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://dice.fm/event/ryqq25-break-it-down-16th-oct-the-three-compasses-london-tickets",
+          "quote": "Symon plays a flavoursome mix, from rare-groove funk & soul classics mixed with old school hip hop, disco re-edits & dance classics up to the present day.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "DJ nights under recurring names: Break It Down (funk, soul and old school hip hop), D.A.N.C.E, and Certified Bangers, plus an open mic and a Halloween weekend.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/event/ryqq25-break-it-down-16th-oct-the-three-compasses-london-tickets",
+          "quote": "Symon plays a flavoursome mix, from rare-groove funk & soul classics",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/event/v3y9xd-dance-1st-jan-the-three-compasses-london-tickets",
+          "quote": "Spinning songs that Boogie, Bounce, Jump, Dance and Shake from Arctic Monkeys",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/the-three-compasses-qony",
+          "quote": "Certified Bangers",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/the-three-compasses-qony",
+          "quote": "Open Mic At The Three Compasses",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/the-three-compasses-qony",
+          "quote": "The Coven - Halloween Weekend",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website: the venue's own site is not confirmed for this Dalston pub (thethreecompasses.co.uk is a different pub; not used)",
+    "cost.notes: no general pricing (DICE shows Free for each listed night, which is per event)",
+    "crowd: not looked for in the programme aspect"
+  ],
+  "notes": "Nights seen: Break It Down, Fri 16 Oct 2026, 9pm (DJ Symon, DJs till 12.30); D.A.N.C.E, Sat 7 Nov 2026; Certified Bangers, Sat 24 Oct 2026; Open Mic At The Three Compasses, Mon 9 Nov 2026; The Coven - Halloween Weekend, Fri 30 Oct to Sun 1 Nov 2026. Break It Down and D.A.N.C.E are listed on several dates each."
+}

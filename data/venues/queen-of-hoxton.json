@@ -1,0 +1,149 @@
+{
+  "id": "queen-of-hoxton",
+  "name": "Queen of Hoxton",
+  "zone": "outer",
+  "address": "1 Curtain Road, Shoreditch, London",
+  "postcode": "EC2A 3JX",
+  "website": "https://queenofhoxton.com/",
+  "summary": "A bar and nightclub on Curtain Road in Shoreditch that first opened in 2009. Time Out calls it a pub, club and everything in-between.",
+  "music": {
+    "styles": [
+      "pop",
+      "hip hop",
+      "disco",
+      "house"
+    ],
+    "notes": "Pop evenings, hip hop sessions and drag cabaret, including KIKI Drag Cabaret on Saturdays, a Saturday drag brunch and resident DJs on Sundays."
+  },
+  "crowd": "The venue says it is a safe and inclusive space for everyone, with drag shows.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "notes": "Questions about access, disability assistance and carers' tickets for gigs go to the venue."
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "capacity": 500,
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://queenofhoxton.com/",
+      "quote": "Welcome to Queen of Hoxton, a vibrant nightclub and bar in Shoreditch that first opened its doors in 2009.",
+      "retrieved_at": "2026-10-13T00:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/clubs/queen-of-hoxton",
+      "quote": "The Queen of Hoxton – pub, club and everything in-between",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://queenofhoxton.com/",
+      "quote": "our venue honours her legacy with vibrant drag shows and a safe, inclusive space for all",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://queenofhoxton.com/",
+      "quote": "we host everything from pop nights, hip hop jams and drag cabaret shows",
+      "retrieved_at": "2026-10-13T00:27:31Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://www.timeout.com/london/clubs/queen-of-hoxton",
+      "quote": "with DJs playing on a cutting-edge disco/house tip on the weekends",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://queenofhoxton.com/whats-on/",
+      "quote": "KIKI Drag Cabaret – Every Saturday",
+      "retrieved_at": "2026-10-13T00:27:31Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://queenofhoxton.com/",
+      "quote": "Every Saturday daytime we serve up the most outrageous brunch in East London: Drag & Waffle Bottomless Brunch.",
+      "retrieved_at": "2026-10-13T00:27:31Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://queenofhoxton.com/queen-of-sundays/",
+      "quote": "From 2pm every Sunday, settle in with music from our resident DJs",
+      "retrieved_at": "2026-10-13T00:27:31Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "capacity"
+      ],
+      "url": "https://queenofhoxton.com/",
+      "quote": "The capacity of our full venue is 500.",
+      "retrieved_at": "2026-10-13T00:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://queenofhoxton.com/contact-us/",
+      "quote": "contact for gig accessibility/disability assistance queries and carers’ tickets",
+      "retrieved_at": "2026-10-13T00:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://queenofhoxton.com/",
+      "quote": "1 Curtain Road, Shoreditch, London, EC2A 3JX",
+      "retrieved_at": "2026-10-13T00:30:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:50:00Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:50:00Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary and music.notes: cut unquoted 'rooftop'; accessibility.notes: cut unquoted 'managers', 'email or phone'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

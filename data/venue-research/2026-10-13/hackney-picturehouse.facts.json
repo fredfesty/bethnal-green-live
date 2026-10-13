@@ -1,0 +1,129 @@
+{
+  "venue_id": "hackney-picturehouse",
+  "venue_name": "Hackney Picturehouse",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:14:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "270 Mare Street",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.picturehouses.com/cinema/hackney-picturehouse/information",
+          "quote": "270 Mare Street",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E8 1HE",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.picturehouses.com/cinema/hackney-picturehouse/information",
+          "quote": "270 Mare Street London E8 1HE",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.picturehouses.com/cinema/hackney-picturehouse",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.picturehouses.com/cinema/hackney-picturehouse/information",
+          "quote": "Picturehouse Cinemas and architects Panter Hudspith transformed the building into a six-screen venue",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.accessible_toilet"],
+          "url": "https://www.picturehouses.com/cinema/10/accessibility",
+          "quote": "All of our accessible toilets are unlocked at all times and all include baby changing facilities.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://www.picturehouses.com/cinema/10/accessibility",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.access_page"],
+          "url": "https://www.picturehouses.com/cinema/10/accessibility",
+          "quote": "This page explains the current facilities for people with disabilities",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The ground floor has the cafe-bar, kiosk, toilets and screen 4, all accessible. Screens 1, 2 and 6 are on the second floor, reached by lift. Screen 3 is on the third floor. Screen 5 is up three flights of stairs or by a lift, which the page says was out of order. Carers get free tickets with a CEA card. Accessibility line: 03330 527 300.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.picturehouses.com/cinema/10/accessibility",
+          "quote": "Screen 4 is located on the ground floor and is fully accessible.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.picturehouses.com/cinema/10/accessibility",
+          "quote": "Screens 1,2 and 6 are located on the second floor and are accessible to customers with limited mobility via a lift",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.picturehouses.com/cinema/10/accessibility",
+          "quote": "Our screen 5 is accessible via 3 flights of stairs, or a lift (currently out of order but we hope will be fixed soon).",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.picturehouses.com/cinema/10/accessibility",
+          "quote": "accompanying carers are eligible for a free ticket",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.picturehouses.com/cinema/10/accessibility",
+          "quote": "reach out to us on our dedicated accessibility line at 03330 527 300",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.hearing_loop",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Hearing loops are at the counters only (quote on the access page: 'We have hearing loops at all counters'), not in the screens, so hearing_loop is left empty. Per-screen seat counts are on the access page (295, 112, 115, 55, 57, 38) but no total is stated, so capacity is left empty. The screen 5 lift line may be out of date; check before publishing. Age policy and pricing were not found on the pages read."
+}

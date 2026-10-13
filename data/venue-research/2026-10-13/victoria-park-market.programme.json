@@ -1,0 +1,13 @@
+{
+  "venue_id": "victoria-park-market",
+  "venue_name": "Victoria Park Market",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:44Z",
+  "findings": [],
+  "not_found": [
+    "types: a food market is not on the types list, and no quote calls it a gig, club, arts or community venue",
+    "music.styles and music.notes: no music nights on the operator's site or its listings",
+    "cost.notes: no general pricing stated (the one listing read was free)"
+  ],
+  "notes": "Operator's own site (victoriaparkmarket.com, read 13 Oct 2026) says 'Food market open Sundays 10-4pm' and calls it a weekly food market. One listing (ma.to aggregator, Victoria Park Market Sunday, 19 Jul 2026, 10:00-17:00) describes local traders and guest food stalls. Nothing about music or entertainment. Five nights: Sundays, food and produce only; 19 Jul 2026 is the only dated event found."
+}

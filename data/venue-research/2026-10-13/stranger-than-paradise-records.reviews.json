@@ -1,0 +1,57 @@
+{
+  "venue_id": "stranger-than-paradise-records",
+  "venue_name": "Stranger Than Paradise Records",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A record shop selling vinyl in Mare Street Market, Hackney. Its events have included listening parties, release parties and signings.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.strangerthanparadiserecords.com/",
+          "quote": "Hackney Record Store selling Vinyl",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.strangerthanparadiserecords.com/",
+          "quote": "Jon Hassell 'Music Is Invisible' Listening Party",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "The shop's events listing has included record release parties with DJs, listening parties and artist signings.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.strangerthanparadiserecords.com/",
+          "quote": "Release Party + Mr Bongo DJs",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.strangerthanparadiserecords.com/",
+          "quote": "Gary Bartz - Meet & Greet / Signing",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "status",
+    "aliases"
+  ],
+  "notes": "Source: the shop's own home page only (its events and genre menus; the about page returned 404). Its genre menu (rock, jazz, electronic and others) describes stock rather than a night, so no music.styles finding is proposed. No press review found: WebSearch budget was used up before this run's searches. The events shown are single listings, so the music note describes kinds of event, not a regular night."
+}

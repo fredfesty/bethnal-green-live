@@ -1,0 +1,91 @@
+{
+  "id": "renegade-wine-bar-bethnal-green",
+  "name": "Renegade Wine Bar (Bethnal Green)",
+  "zone": "core",
+  "aliases": [
+    "Renegade Urban Winery"
+  ],
+  "address": "Arch 12, Gales Gardens, London",
+  "postcode": "E2 0EJ",
+  "website": "https://www.renegadelondonwine.com/bethnalgreen",
+  "summary": "A wine bar and takeaway shop in Gales Gardens, run by Renegade Urban Winery.",
+  "music": {
+    "styles": [],
+    "notes": "Wine and cheese pairing evenings on the first Wednesday of the month, and live music sessions from late afternoon."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.renegadelondonwine.com/bethnalgreen",
+      "quote": "Wine Bar + Takeaway Shop",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.renegadelondonwine.com/bethnalgreen",
+      "quote": "Arch 12, Gales Gardens, E2 0EJ",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "aliases"
+      ],
+      "url": "https://www.renegadelondonwine.com/bethnalgreen",
+      "quote": "Book A Table | Bethnal Green (E2) — Renegade Urban Winery",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.renegadelondonwine.com/events",
+      "quote": "every first Wednesday of the month you have the opportunity to learn how to perfectly pair wine and cheese",
+      "retrieved_at": "2026-10-13T00:24:04Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.renegadelondonwine.com/events",
+      "quote": "Live music from late afternoon, a glass of something good in hand",
+      "retrieved_at": "2026-10-13T00:24:04Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:46:55Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:46:55Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes: cut unquoted 'Sunday'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "id": "bethnal-green-nature-reserve",
+  "name": "Bethnal Green Nature Reserve",
+  "zone": "core",
+  "address": "Middleton Street, London",
+  "postcode": "E2 9RR",
+  "website": "https://bethnalgreennaturereserve.org/",
+  "summary": "A nature reserve on a former WW2 bomb site in Bethnal Green, looked after since 1977 by local people, which calls itself a cultural institute for ecological research and community learning.",
+  "music": {
+    "styles": [],
+    "notes": "Community classes such as Qi Gong, and a free weekly Forest Friday forest school for local children and families."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "notes": "Paths are wood-chip, and some are narrow or uneven, which may be hard going for self-propelled wheelchairs. Bethnal Green tube has no step-free access; the reserve recommends Whitechapel instead. Email ahead with any access questions.",
+    "access_page": "https://bethnalgreennaturereserve.org/visit/"
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/about",
+      "quote": "The Bethnal Green Nature Reserve is a cultural institute focused on ecological research and community learning in the heart of East London.",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/about",
+      "quote": "This space is a WW2 bomb-site that has been cared for since 1977 by local residents, volunteers, staff, trustees",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar/",
+      "quote": "Community Qi Gong",
+      "retrieved_at": "2026-10-13T00:14:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar/",
+      "quote": "Forest Friday is a free, weekly forest school inviting local children and families to explore the wonders of nature right on your doorstep.",
+      "retrieved_at": "2026-10-13T00:14:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.access_page"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/visit/",
+      "quote": "Our site is step-free and wheelchair accessible.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/visit/",
+      "quote": "We have a very comfortable wheelchair accessible compost toilet",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/visit/",
+      "quote": "we do use wood-chip on our pathways, which may be difficult for a self-aided wheelchair",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/visit/",
+      "quote": "Some areas of the Nature Reserve have small pathways and uneven ground/surfaces",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/visit/",
+      "quote": "This station does not have step-free access.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/visit/",
+      "quote": "We recommend Whitechapel Station (Elizabeth Line, District, and Overground), which is fully step-free",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/visit/",
+      "quote": "if you have any access questions or requests in advance of your visit",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/",
+      "quote": "A cultural institute focused on ecological and community health in the heart of East London.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/visit/",
+      "quote": "Middleton Street, London E2 9RR",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:44:31Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:44:31Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes: cut unquoted workshops/talks"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "venue_id": "26-curtain-road",
+  "venue_name": "26 Curtain Road",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A two-floor bar on Curtain Road in Shoreditch with a basement room. Its music is vinyl-only, with a Wednesday vinyl session and free Thursday DJ sessions listed.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+          "quote": "covering two floors in the heart of Shoreditch",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+          "quote": "our delightful basement space",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+          "quote": "Vinyl only with the emphasis on hearing great music from various genres, never too loud.",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The venue describes itself as a place for dates, catching up with friends and meeting new people.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+          "quote": "A place perfect for meeting for a date, catching up with your friends",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Vinyl-only DJ sessions: a Wednesday vinyl LP playback and cocktails night, and free Thursday DJ sessions.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.designmynight.com/london/restaurants/shoreditch/26-curtain-road",
+          "quote": "Weds Vinyl LP playback & cocktails sessions",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.designmynight.com/london/restaurants/shoreditch/26-curtain-road",
+          "quote": "Strictly Vinyl free Thursdays DJ sessions",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "status (no closure or opening news; the listing's relaunch note is undated)",
+    "aliases (none found)",
+    "music.styles (the listing gives a long list of genres once, not as repeated nights, so none proposed)",
+    "website (the venue's own domain could not be read: its robots.txt was unreachable)"
+  ],
+  "notes": "WebSearch budget was used up for this turn. Skiddle and DesignMyNight are aggregators; no press review was found. Both listing pages carry no date, so source_date is empty."
+}

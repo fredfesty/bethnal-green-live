@@ -1,0 +1,155 @@
+{
+  "venue_id": "castle-cinema",
+  "venue_name": "The Castle Cinema",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:14:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "First floor, 64-66 Brooksby's Walk",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://thecastlecinema.com/about-us/",
+          "quote": "First floor, 64-66 Brooksby's Walk",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E9 6DA",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://thecastlecinema.com/access/",
+          "quote": "64-66 Brooksby's Walk, London E9 6DA",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://thecastlecinema.com",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://thecastlecinema.com/about-us/",
+          "quote": "Between us all we keep the doors open all day everyday from 10am til late.",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": false,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.step_free"],
+          "url": "https://thecastlecinema.com/access/",
+          "quote": "Lack of step-free access",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.accessible_toilet"],
+          "url": "https://thecastlecinema.com/access/",
+          "quote": "There is an accessible toilet, which opens inwards, on the right-hand side before entering the bar.",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://thecastlecinema.com/access/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.access_page"],
+          "url": "https://thecastlecinema.com/access/",
+          "quote": "Feel free to read the latest version of our Access Statement.",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The cinema is reached by stairs: 15 steps, a landing, then 6 more to the first floor, where the bar, box office and accessible toilet are. Screen 1 is level from the bar. Screen 2 is up 7 steps. Audio description and amplified audio headsets are available. Access enquiries go to the cinema's access email.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://thecastlecinema.com/access/",
+          "quote": "The cinema is located on the first floor via a staircase 1.28m wide, with 15 steps",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://thecastlecinema.com/access/",
+          "quote": "Screen 1: There is level access from the bar to the cinema.",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://thecastlecinema.com/access/",
+          "quote": "Screen 2: is accessible via a staircase of 7 steps onto a landing",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://thecastlecinema.com/access/",
+          "quote": "Drop us an email to access@thecastlecinema.com.",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Membership gives affordable member tickets and a low-cost concession membership that is self-certifying.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["cost.notes"],
+          "url": "https://thecastlecinema.com/about-us/",
+          "quote": "low-cost self-certifying concession membership",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["cost.notes"],
+          "url": "https://thecastlecinema.com/about-us/",
+          "quote": "affordable member tickets",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.hearing_loop",
+    "cost.free_entry",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Step-free access is missing: the access page says so under 'Lack of step-free access' and describes an external lift that was refused planning permission in March 2024 and is under appeal. The 619-seat figure on the about page describes the 1913 cinema, not today, so capacity is left empty. Pages read: /about-us/ and /access/."
+}

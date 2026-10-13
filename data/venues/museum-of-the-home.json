@@ -1,0 +1,213 @@
+{
+  "id": "museum-of-the-home",
+  "name": "Museum of the Home",
+  "zone": "core",
+  "aliases": [
+    "Geffrye Museum"
+  ],
+  "address": "136 Kingsland Road, London",
+  "postcode": "E2 8EA",
+  "website": "https://museumofthehome.org.uk",
+  "summary": "A free museum about domestic life, in former eighteenth-century almshouses on Kingsland Road. Its displays include living rooms drawn from real London homes spanning 1600 to now.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "hearing_loop": true,
+    "notes": "The Geffrye Street entrance has 15 steps; the central and north gates have ramps and the south gate has none. Manual wheelchairs can be borrowed but not booked. Staff help is needed to reach the first-floor Collections Display. Child-sized ear-defenders and sensory backpacks are free to borrow.",
+    "access_page": "https://museumofthehome.org.uk/plan-your-visit/accessibility/"
+  },
+  "cost": {
+    "free_entry": "always",
+    "notes": "Entry to the museum is free with no booking needed. Ticketed events must be booked online in advance."
+  },
+  "age_policy": "Unaccompanied children under 12 may be refused entry.",
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://museumofthehome.org.uk/about-us/",
+      "quote": "We are the only museum of the home in the world, a place to learn how we have lived in the past, explore how we live today, and talk about how we can live better together.",
+      "retrieved_at": "2026-10-13T00:12:32Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/museums/museum-of-the-home",
+      "quote": "Housed in a set of Grade I-listed eighteenth-century almshouses",
+      "retrieved_at": "2026-10-13T00:12:32Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/museums/museum-of-the-home",
+      "quote": "a sequence of typical middle-class living rooms based on real London homes dating from 1600 to the present",
+      "retrieved_at": "2026-10-13T00:12:32Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "cost.free_entry",
+        "cost.notes"
+      ],
+      "url": "https://museumofthehome.org.uk/plan-your-visit/accessibility/",
+      "quote": "Entrance is free and you do not need to book in advance.",
+      "retrieved_at": "2026-10-13T00:09:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "aliases"
+      ],
+      "url": "https://www.timeout.com/london/museums/museum-of-the-home",
+      "quote": "formerly known as the Geffrye Museum after their patron",
+      "retrieved_at": "2026-10-13T00:12:32Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.access_page"
+      ],
+      "url": "https://museumofthehome.org.uk/plan-your-visit/accessibility/",
+      "quote": "There is step-free access to all our galleries.",
+      "retrieved_at": "2026-10-13T00:09:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://museumofthehome.org.uk/plan-your-visit/accessibility/",
+      "quote": "There is an accessible toilet suitable for wheelchair users in the reception area and two further accessible toilets across the museum.",
+      "retrieved_at": "2026-10-13T00:09:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.hearing_loop"
+      ],
+      "url": "https://museumofthehome.org.uk/plan-your-visit/accessibility/",
+      "quote": "There is an induction loop at Reception in the Welcome Area.",
+      "retrieved_at": "2026-10-13T00:09:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://museumofthehome.org.uk/plan-your-visit/accessibility/",
+      "quote": "There are 15 steps from Geffrye Street to the main entrance.",
+      "retrieved_at": "2026-10-13T00:09:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://museumofthehome.org.uk/plan-your-visit/accessibility/",
+      "quote": "At the central and north gates, ramps lead from the pavement down to a smooth and level path. The south gate does not have ramped access",
+      "retrieved_at": "2026-10-13T00:09:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://museumofthehome.org.uk/plan-your-visit/accessibility/",
+      "quote": "You can borrow a manual wheelchair for use in our galleries and gardens.",
+      "retrieved_at": "2026-10-13T00:09:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://museumofthehome.org.uk/plan-your-visit/accessibility/",
+      "quote": "You can’t book a wheelchair in advance.",
+      "retrieved_at": "2026-10-13T00:09:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://museumofthehome.org.uk/plan-your-visit/accessibility/",
+      "quote": "To access the Collections Display on the first floor, please ask a member of our team for assistance.",
+      "retrieved_at": "2026-10-13T00:09:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://museumofthehome.org.uk/plan-your-visit/accessibility/",
+      "quote": "Child-sized ear-defenders and backpacks filled with sensory toys are available to borrow from Reception during your visit, at no cost.",
+      "retrieved_at": "2026-10-13T00:09:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://museumofthehome.org.uk/plan-your-visit/accessibility/",
+      "quote": "If you are attending a ticketed event, you must book a ticket in advance online from the event page.",
+      "retrieved_at": "2026-10-13T00:09:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://museumofthehome.org.uk/plan-your-visit/",
+      "quote": "We reserve the right to refuse admittance to any unaccompanied child under the age of 12.",
+      "retrieved_at": "2026-10-13T00:09:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://museumofthehome.org.uk/plan-your-visit/",
+      "quote": "the place to explore and debate what home means",
+      "retrieved_at": "2026-10-13T00:09:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://museumofthehome.org.uk/plan-your-visit/",
+      "quote": "136 Kingsland Road London E2 8EA",
+      "retrieved_at": "2026-10-13T00:09:15Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:40:36Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:40:36Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

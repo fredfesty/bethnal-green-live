@@ -1,0 +1,88 @@
+{
+  "venue_id": "shacklewell-arms",
+  "venue_name": "The Shacklewell Arms",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:31:53Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A venue with a gig room that its own site says is programmed and produced by LNZRT, and which also lists guest-DJ club nights on DICE.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.shacklewellarms.com/",
+          "quote": "The Shacklewell Arms is programmed and produced by LNZRT",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.shacklewellarms.com/info",
+          "quote": "as you head towards the gig room",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+          "quote": "Scared To Dance: Guest DJs",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "aliases",
+      "value": [
+        "The Shack"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "aliases"
+          ],
+          "url": "https://www.shacklewellarms.com/",
+          "quote": "Sign up to The Shack newsletter for weekly news and first release tickets.",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Live gigs and guest-DJ club nights such as Scared To Dance, according to its own site and DICE listings.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.shacklewellarms.com/info",
+          "quote": "as you head towards the gig room",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+          "quote": "Scared To Dance: Guest DJs",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "status",
+    "music.styles"
+  ],
+  "notes": "Its own site (home and info pages), its DICE page and a Time Out page were read. The Time Out page is an empty 2017 listing with no review text, so it is not used. No press review or closure news found; WebSearch budget was used up. The DICE listings are current into late October 2026, so no status change."
+}

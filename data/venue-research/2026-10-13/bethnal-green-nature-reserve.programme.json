@@ -1,0 +1,66 @@
+{
+  "venue_id": "bethnal-green-nature-reserve",
+  "venue_name": "Bethnal Green Nature Reserve",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:14:56Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "community-venue"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/calendar/",
+          "quote": "A community-managed wildlife haven in Tower Hamlets, East London.",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "No music on the calendar. Its listings are workshops, talks and community classes, a weekly family forest school and a Sunday street service.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/calendar/",
+          "quote": "Community Qi Gong",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/calendar/",
+          "quote": "Forest Friday is a free, weekly forest school inviting local children and families to explore the wonders of nature right on your doorstep.",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/calendar/",
+          "quote": "Mobile Apothecary Street Service - October 2026",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles (none)",
+    "cost.notes (no general pricing found)",
+    "club or gig nights (none)"
+  ],
+  "notes": "Nothing musical on the calendar. Past and upcoming seen: Mobile Apothecary Street Service, Sun 25 Oct 2026 7pm to 8pm and Sun 29 Nov 2026 7pm to 8pm; Community Qi Gong, Sat 24 Oct 2026 9.30am; Artist talk with Jessica Ashman, Sat 14 Nov 2026; Community Ecologies workshops (24 Oct, 14 Nov, 28 Nov 2026); Forest Fridays, weekly, 4 Sep to 6 Nov 2026."
+}

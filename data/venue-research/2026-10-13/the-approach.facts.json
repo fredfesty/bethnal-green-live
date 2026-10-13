@@ -1,0 +1,112 @@
+{
+  "venue_id": "the-approach",
+  "venue_name": "The Approach",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "1st Floor, 47 Approach Road, Bethnal Green, London E2 9LY",
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.theapproach.co.uk/contact/",
+          "quote": "1st Floor, 47 Approach Road",
+          "retrieved_at": "2026-10-13T00:09:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.theapproach.co.uk/contact/",
+          "quote": "Bethnal Green, London E2 9LY",
+          "retrieved_at": "2026-10-13T00:09:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 9LY",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.theapproach.co.uk/contact/",
+          "quote": "Bethnal Green, London E2 9LY",
+          "retrieved_at": "2026-10-13T00:09:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.theapproach.co.uk",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.theapproach.co.uk/contact/",
+          "quote": "Contact → The Approach",
+          "retrieved_at": "2026-10-13T00:09:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": false,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.step_free",
+            "accessibility.notes"
+          ],
+          "url": "https://www.theapproach.co.uk/contact/",
+          "quote": "The gallery is on the 1st floor accessible via a staircase, which may present difficulties for those with physical disabilities or baby buggies.",
+          "retrieved_at": "2026-10-13T00:09:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The gallery is on the first floor, reached by a staircase through The Approach Tavern. The gallery says the stairs may be hard for some disabled visitors and for buggies.",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.theapproach.co.uk/contact/",
+          "quote": "Access to the gallery via The Approach Tavern.",
+          "retrieved_at": "2026-10-13T00:09:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.theapproach.co.uk/contact/",
+          "quote": "The gallery is on the 1st floor accessible via a staircase, which may present difficulties for those with physical disabilities or baby buggies.",
+          "retrieved_at": "2026-10-13T00:09:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Stair access is the main access fact: the gallery is first floor, reached through The Approach Tavern. The contact page is the only page with access wording, so no dedicated access page is proposed. No toilet, hearing loop, cost, age or capacity information was found on the gallery's own pages."
+}

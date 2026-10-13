@@ -1,0 +1,22 @@
+{
+  "venue_id": "mother-kellys-bethnal-green",
+  "venue_name": "Mother Kelly's Bethnal Green",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [],
+  "not_found": [
+    "address",
+    "postcode",
+    "website",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Nothing proposed. The venue's own site (motherkellys.co.uk) is flagged in data/sources/food-drink.json as showing injected spam text, so it was not quoted. Yelp is refused by robots.txt for this agent. Euan's Guide has no listing in its venue sitemap, and direct AccessAble and CAMRA pages gave nothing. The one blog review found (climbing-moss.com, 27 Aug 2026) has no access or entry-cost detail. Registry postcode E2 9LE and address 251 Paradise Row are unverified. Access needs a person to contact the venue."
+}

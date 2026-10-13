@@ -1,0 +1,180 @@
+{
+  "id": "whitechapel-gallery",
+  "name": "Whitechapel Gallery",
+  "zone": "fringe",
+  "address": "77-82 Whitechapel High St, London",
+  "postcode": "E1 7QX",
+  "website": "https://www.whitechapelgallery.org",
+  "summary": "A public art gallery on Whitechapel High Street, founded in 1901, in a historic building that includes the former Whitechapel Public Library and has nine exhibition spaces.",
+  "music": {
+    "styles": [],
+    "notes": "Exhibitions and displays alongside screenings, talks, workshops and livestreamed events."
+  },
+  "crowd": "Its own website says its participation programmes put local communities first.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "notes": "Common Rooms, a free space to sit and read, are reached by lift or stairs. Sensory tools are kept at the ground-floor information desk, and Visitor Services can help plan a visit."
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "The main entrance and displays are free, with one ticketed exhibition each season (standard £16.50 when checked). Pay what you can during Thursday evening Whitechapel Lates. Members get free entry."
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.whitechapelgallery.org/about/",
+      "quote": "the Gallery was founded in 1901 to enrich the cultural offer for the people of East London",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.whitechapelgallery.org/about/",
+      "quote": "Our historic building, which incorporates the former Whitechapel Public Library, houses nine exhibition spaces",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.whitechapelgallery.org/about/",
+      "quote": "Our Participation programmes prioritise our local communities",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes",
+        "cost.notes"
+      ],
+      "url": "https://www.whitechapelgallery.org/about/",
+      "quote": "Main Entrance is free and gives access to an inspiring and dynamic programme of exhibitions, displays, screenings, talks and events.",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.whitechapelgallery.org/events-2-2/",
+      "quote": "Relaxed Hours: Cecilia Vicuña",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.whitechapelgallery.org/events-2-2/",
+      "quote": "Visitors of all ages are invited into this participatory workshop",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.whitechapelgallery.org/events-2-2/",
+      "quote": "Livestream – Art Futures: Platforms for Dissent with Tania Bruguera and Pankaj Mishra",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.whitechapelgallery.org/visit/",
+      "quote": "There are chairs, sofas and books available in Common Rooms, accessible via lift or stairs.",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.whitechapelgallery.org/visit/",
+      "quote": "Fidget spinners and other sensory tools can be found at the Information Desk on the ground floor.",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.whitechapelgallery.org/visit/",
+      "quote": "For assistance with planning your visit around the Gallery, please contact the Visitor Services team",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.whitechapelgallery.org/visit/",
+      "quote": "We offer free displays and one ticketed exhibition each season.",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.whitechapelgallery.org/visit/",
+      "quote": "Standard £16.50 / £18.15 (with 10% donation*)",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.whitechapelgallery.org/visit/",
+      "quote": "Pay What You Can entry to all exhibitions during Whitechapel Lates: every Thursday 6–9pm",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.whitechapelgallery.org/visit/",
+      "quote": "Becoming a member supports us year round and offers a range of benefits from free entry",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.whitechapelgallery.org/visit/",
+      "quote": "77-82 Whitechapel High St London E1 7QX",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:42:18Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:42:18Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: cost.notes: cut unquoted 'most' displays"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

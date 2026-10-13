@@ -1,0 +1,77 @@
+{
+  "venue_id": "stranger-than-paradise-records",
+  "venue_name": "Stranger Than Paradise Records",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:24:44Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["record-shop", "in-store"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://ma.to/venue/strangerthanparadiserecords",
+          "quote": "is an independent music hub and record store",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://ma.to/venue/strangerthanparadiserecords",
+          "quote": "in-store performances, album listening parties, and record launch events",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://www.strangerthanparadiserecords.com",
+          "quote": "Hackney Record Store selling Vinyl",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "In-store listening parties and album launches, some with DJs (a release party with Mr Bongo DJs), and a weekend record fair with a label takeover of the shop. The listings show no regular weekly night.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/strangerthanparadiserecords",
+          "quote": "Free listening party for Jeremiah Chiu's new album with giveaways.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/strangerthanparadiserecords",
+          "quote": "Skyrager and Mr Bongo DJs celebrate the launch of Coconut Dreams Volume 1 in Hackney.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/strangerthanparadiserecords",
+          "quote": "INIS Records takes over the shop for a weekend crate-digging session.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.strangerthanparadiserecords.com",
+          "quote": "Celebrate Inis Records w/ Pop Up Record Market + DJs",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles (the shop's genre menu lists stock categories, not nights; no event genres named)",
+    "cost.notes",
+    "crowd"
+  ],
+  "notes": "Past nights on ma.to: Edge Conditions Listening Party (free); Haruomi Hosono Listening Session (free); INIS Records Record Fair (weekend); Skyrager Album Launch (free, Mr Bongo DJs). Own site: Jon Hassell listening party (undated). ma.to showed no upcoming events. Events are sold on DICE per the shop's Linktree; the DICE page was not found. The shop's genre menu describes stock, so it is not used as styles."
+}

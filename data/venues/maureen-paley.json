@@ -1,0 +1,97 @@
+{
+  "id": "maureen-paley",
+  "name": "Maureen Paley",
+  "zone": "core",
+  "aliases": [
+    "Interim Art"
+  ],
+  "address": "60 Three Colts Lane, London (second space: 4 Herald Street, London E2 6JT, first floor, stairs only)",
+  "postcode": "E2 6GQ",
+  "website": "https://www.maureenpaley.com",
+  "summary": "A gallery showing contemporary art. The programme began in 1984 in a terraced house in the East End, and since 1999 the gallery has been based in industrial spaces in Bethnal Green.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.maureenpaley.com/about",
+      "quote": "The gallery programme began in 1984 in a Victorian terraced house in London’s East End.",
+      "retrieved_at": "2026-10-13T00:11:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.maureenpaley.com/about",
+      "quote": "Since September 1999, the gallery has been situated in industrial spaces in Bethnal Green.",
+      "retrieved_at": "2026-10-13T00:12:32Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.maureenpaley.com/about",
+      "quote": "Maureen Paley was one of the first to present contemporary art in London’s East End",
+      "retrieved_at": "2026-10-13T00:12:32Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "aliases"
+      ],
+      "url": "https://www.maureenpaley.com/about",
+      "quote": "Initially named Interim Art, the gallery changed its name to Maureen Paley in 2004",
+      "retrieved_at": "2026-10-13T00:12:32Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.maureenpaley.com/",
+      "quote": "Maureen Paley, 60 Three Colts Lane",
+      "retrieved_at": "2026-10-13T00:10:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.maureenpaley.com/contact",
+      "quote": "60 Three Colts Lane London E2 6GQ",
+      "retrieved_at": "2026-10-13T00:10:44Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:40:36Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:40:36Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

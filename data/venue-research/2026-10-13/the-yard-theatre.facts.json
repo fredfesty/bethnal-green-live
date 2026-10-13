@@ -1,0 +1,156 @@
+{
+  "venue_id": "the-yard-theatre",
+  "venue_name": "The Yard Theatre",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:14:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Queen's Yard, Hackney Wick",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.theyardtheatre.co.uk/your-visit",
+          "quote": "Our address is Queen's Yard, Hackney Wick, E9 5EN.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E9 5EN",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.theyardtheatre.co.uk/your-visit",
+          "quote": "Our address is Queen's Yard, Hackney Wick, E9 5EN.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.theyardtheatre.co.uk",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.theyardtheatre.co.uk/your-visit",
+          "quote": "Box Office: 020 3606 0164",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.hearing_loop",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.hearing_loop"],
+          "url": "https://www.theyardtheatre.co.uk/access",
+          "quote": "An induction loop is installed in the auditorium and the bar for hearing aid users with a T-setting.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://www.theyardtheatre.co.uk/access",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.access_page"],
+          "url": "https://www.theyardtheatre.co.uk/access",
+          "quote": "Everything you need to know about access at the Yard.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Four wheelchair spaces, two in row A and two in row J, booked with the box office along with companion seats, which are free. Row A is step free from the downstairs entrance. The upstairs entrance needs the lift to be step free, and the balconies and slips are not. Assistance dogs can enter the auditorium and bar but may not sit on seats.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.theyardtheatre.co.uk/access",
+          "quote": "Wheelchair spaces and companion seats must be booked through the box office.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.theyardtheatre.co.uk/access",
+          "quote": "Companion tickets are free.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.theyardtheatre.co.uk/access",
+          "quote": "Row A is step free via the downstairs entrance.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.theyardtheatre.co.uk/access",
+          "quote": "Access to the balconies is not step free.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.theyardtheatre.co.uk/access",
+          "quote": "Assistant dogs are welcome in the auditorium and bar, but not on a seat.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Online booking adds a £2.50 fee and phone booking adds £3. Aged 27 and under pay £5 at the door for performances that are not sold out.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["cost.notes"],
+          "url": "https://www.theyardtheatre.co.uk/your-visit",
+          "quote": "A £2.50 booking fee will apply.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["cost.notes"],
+          "url": "https://www.theyardtheatre.co.uk/your-visit",
+          "quote": "A £3 booking fee will apply.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["cost.notes"],
+          "url": "https://www.theyardtheatre.co.uk/your-visit",
+          "quote": "you can get £5 tickets at the door to all performances that are not sold out",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "cost.free_entry",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Step-free: the access page gives row A (stalls) as step free from the downstairs entrance, but the upstairs entrance, balconies and slips are not, so step_free is left empty for the editor to decide. The access page does not mention an accessible toilet. Pages read: /your-visit and /access."
+}

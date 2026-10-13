@@ -1,0 +1,75 @@
+{
+  "venue_id": "wiltons-music-hall",
+  "venue_name": "Wilton's Music Hall",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:54Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A Grade II-listed music hall in east London that presents theatre and music. Time Out describes it as one of the oldest surviving grand music halls.",
+      "source_date": "2025-07-14",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://wiltons.org.uk/",
+          "quote": "We present extraordinary theatre and music in the oldest Grand Music Hall in the world.",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/theatre/wiltons-music-hall",
+          "quote": "This Grade II-listed east London gem is the oldest surviving Grand Music Hall in the world.",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "opera",
+        "musicals"
+      ],
+      "source_date": "2025-07-14",
+      "evidence": [
+        {
+          "fields": [
+            "music.styles",
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/theatre/wiltons-music-hall",
+          "quote": "from opera, musicals and concerts to touring dates for big-name theatre shows",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Mostly staged theatre, opera and concerts, plus touring theatre shows, with a large run of productions each year.",
+      "source_date": "2025-07-14",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/theatre/wiltons-music-hall",
+          "quote": "These days it stages more 300 performances a year, encompassing an eclectic range of more than 80 different productions",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "aliases",
+    "status"
+  ],
+  "notes": "Time Out's review page is dated 2025-07-14 in its structured data. Its other dates look like a site-wide stamp, so only the 2025 date is recorded. No status news found; the venue's own site lists shows on sale for October 2026. Web search budget ran out during this run, so further press reviews were not checked."
+}

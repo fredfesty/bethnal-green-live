@@ -1,0 +1,113 @@
+{
+  "id": "e5-bakehouse",
+  "name": "e5 Bakehouse",
+  "zone": "fringe",
+  "postcode": "E8 3PH",
+  "website": "https://e5bakehouse.com",
+  "summary": "A bakery in a railway arch, begun in the spring of 2010 around a clay oven, with an in-person baking school. Time Out calls it the epicentre of east London's sourdough revolution.",
+  "music": {
+    "styles": []
+  },
+  "crowd": "Time Out describes it as quietly buzzy through the day, with informal tables for drinkers and diners.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "notes": "Its contact page says the bakery is wheelchair accessible, with no further detail."
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Card payments only; American Express is not accepted."
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://e5bakehouse.com/",
+      "quote": "commissioning and building a clay oven in the corner of a railway arch",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://e5bakehouse.com/",
+      "quote": "e5 Bakehouse began in the spring of 2010",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://e5bakehouse.com/",
+      "quote": "Find out more about our in person baking school.",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/e5-bakehouse",
+      "quote": "It was and is the epicentre of the east London sourdough revolution.",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/e5-bakehouse",
+      "quote": "Indoors it’s quietly buzzy from dawn to dusk with informal tables of drinkers and diners",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://e5bakehouse.com/contact/",
+      "quote": "e5 Bakehouse is wheelchair accessible.",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://e5bakehouse.com/contact/",
+      "quote": "We accept CARD payments only, but we do not accept American Express.",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://e5bakehouse.com/contact/",
+      "quote": "London E8 3PH",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:47:43Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:47:43Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "soft-opening",
+  "name": "Soft Opening",
+  "zone": "core",
+  "address": "6 Minerva Street, London",
+  "website": "https://softopening.london",
+  "summary": "A gallery at 6 Minerva Street. Plaster magazine's 2024 guide says its second space on Minerva Street was set up in 2020.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "address"
+      ],
+      "url": "https://softopening.london/",
+      "quote": "6 Minerva Street",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://plastermagazine.com/features/all-hail-the-bethnal-green-art-boom/",
+      "quote": "Antonia Marsh set up Soft Opening’s second space on Minerva St in 2020 to much acclaim",
+      "retrieved_at": "2026-10-13T00:12:38Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://softopening.london/",
+      "quote": "Soft Opening, London",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:41:11Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:41:11Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

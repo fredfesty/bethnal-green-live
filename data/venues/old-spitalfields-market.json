@@ -1,0 +1,102 @@
+{
+  "id": "old-spitalfields-market",
+  "name": "Old Spitalfields Market",
+  "zone": "fringe",
+  "address": "16 Horner Square, London",
+  "postcode": "E1 6EW",
+  "website": "https://oldspitalfieldsmarket.com",
+  "summary": "A covered market in Spitalfields with permanent boutiques and eateries around a large roofed hall, plus an antiques market on Thursdays and a vinyl market. Time Out ranks it among east London's busiest shopping hubs.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/things-to-do/old-spitalfields-market",
+      "quote": "Open seven days a week, Old Spitalfields Market is one of east London’s busiest shopping hubs.",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/things-to-do/old-spitalfields-market",
+      "quote": "On Thursdays you’ll also encounter the weekly antiques market",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/things-to-do/old-spitalfields-market",
+      "quote": "Circling the giant roofed market are numerous permanent boutiques, eateries and salons",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://oldspitalfieldsmarket.com/",
+      "quote": "Browse Vintage and Rare Records at the Vinyl Market",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://oldspitalfieldsmarket.com/about-us/",
+      "quote": "Old Spitalfields Market is the original East London Market Place.",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://oldspitalfieldsmarket.com/visitor-information/",
+      "quote": "16 Horner Square",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://oldspitalfieldsmarket.com/visitor-information/",
+      "quote": "London, E1 6EW",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:47:43Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:47:43Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

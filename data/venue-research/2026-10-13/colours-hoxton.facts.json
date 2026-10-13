@@ -1,0 +1,75 @@
+{
+  "venue_id": "colours-hoxton",
+  "venue_name": "Colours Hoxton",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:40:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "2-4 Hoxton Square, London N1 6NU",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://colourshoxton.com/",
+          "quote": "2-4 Hoxton Square, London N1 6NU, United Kingdom",
+          "retrieved_at": "2026-10-13T00:30:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "N1 6NU",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://colourshoxton.com/",
+          "quote": "2-4 Hoxton Square, London N1 6NU, United Kingdom",
+          "retrieved_at": "2026-10-13T00:30:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://colourshoxton.com/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://colourshoxton.com/",
+          "quote": "Nightclub, gig space and events venue located on Hoxton square",
+          "retrieved_at": "2026-10-13T00:30:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Gig accessibility questions, disability assistance and carers' tickets go to the venue managers, by email or phone.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://colourshoxton.com/contact-us/",
+          "quote": "Contact for gig accessibility/disability assistance queries and carers’ tickets.",
+          "retrieved_at": "2026-10-13T00:30:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page",
+    "capacity",
+    "age_policy",
+    "cost.free_entry",
+    "cost.notes"
+  ],
+  "notes": "The site footer links an Accessibility page, but its address could not be found (the sitemap lists no such page, and the likely paths return 404). Contact page and the live-music page say nothing about steps, lifts or toilets. Capacity is not stated for any room; the karaoke room is said to hold up to 30 guests, which is not a venue capacity. The venue's own accessibility details are unconfirmed."
+}

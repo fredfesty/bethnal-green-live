@@ -1,0 +1,33 @@
+{
+  "venue_id": "tempo-bethnal-green",
+  "venue_name": "Tempo",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:24:04Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "bar"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.tempo.restaurant/",
+          "quote": "a wine bar and restaurant serving modern South East Asian cooking",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "events or regular nights (the site has no events or news page)",
+    "music.styles",
+    "music.notes",
+    "the About page (404 at the time of reading)"
+  ],
+  "notes": "The homepage describes a wine bar and restaurant serving modern South East Asian cooking; it names no events, music or nights. Bookings are through OpenTable, which is do-not-scrape, so it was not read."
+}

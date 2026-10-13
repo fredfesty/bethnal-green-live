@@ -1,0 +1,9 @@
+{
+  "venue_id": "york-hall",
+  "venue_name": "York Hall",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:54Z",
+  "findings": [],
+  "not_found": ["summary", "crowd", "music.styles", "music.notes", "status", "aliases"],
+  "notes": "No quotable review, article or news found. The venue's own site (yorkhall.co.uk) returned a robots.txt URLError, so it was not read. An UnHerd article (2025) was refused by robots.txt (anthropic-ai). A Time Out page for York Hall was not found (404). A Wikipedia page is readable, but it is not one of the permitted source kinds and was not used. The web search budget ran out before York Hall could be searched, so this venue needs another search pass by a person or the next run."
+}

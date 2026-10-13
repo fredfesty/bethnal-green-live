@@ -1,0 +1,49 @@
+{
+  "venue_id": "tiella-trattoria",
+  "venue_name": "Tiella Trattoria & Bar",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:25:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "109 Columbia Road, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.tiella.co.uk/home",
+          "quote": "A Trattoria & Bar at 109 Columbia Road, London.",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.tiella.co.uk",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.tiella.co.uk/home",
+          "quote": "A Trattoria & Bar at 109 Columbia Road, London.",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "postcode (the triage postcode E2 7RL is not on any page read; the address line has no postcode)",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Caution for the editor: the site at tiella.co.uk is partly unfinished. Its home, contact and our-story pages carry template placeholders ('Your Site Title', lorem ipsum, '123 Demo Street' in New York and Brooklyn), and only the one line of venue text above is real. Confirm the address with a person before publishing, and check the postcode E2 7RL against 109 Columbia Road. The menu and make-a-reservation pages were not used for facts. No access information was found on the site."
+}

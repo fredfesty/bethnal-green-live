@@ -1,0 +1,56 @@
+{
+  "venue_id": "bethnal-green-library",
+  "venue_name": "Bethnal Green Library (Idea Store)",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:44Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["community-venue"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.ideastore.co.uk/",
+          "quote": "This is a free community event designed to open up conversations about death, dying, and grief.",
+          "retrieved_at": "2026-10-13T00:11:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A library rather than a music venue: free talks and discussion events, family storytelling and arts sessions, and adult learning classes.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.ideastore.co.uk/",
+          "quote": "This is a free community event designed to open up conversations about death, dying, and grief.",
+          "retrieved_at": "2026-10-13T00:11:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.ideastore.co.uk/",
+          "quote": "From storytelling and arts and crafts to homework help and more, we've got something for everyone!",
+          "retrieved_at": "2026-10-13T00:11:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.ideastore.co.uk/",
+          "quote": "Idea Store Learning: Adult Education Classes",
+          "retrieved_at": "2026-10-13T00:11:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no music nights on the library's own pages",
+    "types beyond community-venue: no quote calling it a gig, club or arts venue",
+    "full events calendar: ideastore.towerhamlets.gov.uk/events answered 403 and was not fetched again"
+  ],
+  "notes": "Upcoming: Let's Discuss Death in Tower Hamlets, Bethnal Green Library, Wednesday 28th and Thursday 29th October 2026 (free). Recurring: children and families storytelling and arts sessions (no dates on the pages read). Adult learning classes are listed on the Idea Store site. The council's 'Libraries and literature' category was not checked in detail."
+}

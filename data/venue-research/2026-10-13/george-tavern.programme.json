@@ -1,0 +1,111 @@
+{
+  "venue_id": "george-tavern",
+  "venue_name": "The George Tavern",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:24:44Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["pub", "gig-venue", "karaoke"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://ma.to/venue/thegeorgetavern",
+          "quote": "The George Tavern is a historic, independent live music venue and vibrant community cultural hub located in East London",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://ma.to/venue/thegeorgetavern",
+          "quote": "On quieter evenings, it operates as a candlelit pub space",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://dice.fm/venue/the-george-tavern-kx88",
+          "quote": "The George Tavern Karaoke (Free Entry)",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["indie", "punk", "post-punk", "art rock", "synth-pop", "uk rap"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://ma.to/venue/thegeorgetavern",
+          "quote": "The space hosts a wide range of genres, including indie, art rock, synth-pop, punk, and UK rap.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://ma.to/venue/thegeorgetavern",
+          "quote": "Gothic post punk from Berlin, with three support acts",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://ma.to/venue/thegeorgetavern",
+          "quote": "Indie pop gig with support, plus karaoke until late",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Mostly live bands: album launches, bills of two to four acts, and multi-night tribute runs (the Halloweekender, with local bands covering one act a night). Free karaoke on Thursdays, plus DJ parties and club nights on Fridays and Saturdays, sometimes with live music as well.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/thegeorgetavern",
+          "quote": "Beyond concerts and album launch parties, the venue facilitates creative programming like karaoke nights, performance art, and singles mixers.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/thegeorgetavern",
+          "quote": "Local bands cover Bruce Springsteen, Kate Bush, and a BJM vs Dandy Warhols clash.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://dice.fm/venue/the-george-tavern-kx88",
+          "quote": "The George Tavern Karaoke (Free Entry)",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://dice.fm/venue/the-george-tavern-kx88",
+          "quote": "TGT: TATYANA Midnight Takeover Clubnight",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/thegeorgetavern",
+          "quote": "A marathon session of live music and DJ sets from the Bathtime crew.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "cost.notes (only per-event prices seen on DICE)",
+    "crowd (no description of who goes beyond the venue's own copy)"
+  ],
+  "notes": "Nights seen on dice.fm/venue/the-george-tavern-kx88: The George Tavern Karaoke (8pm start), Thu 15 Oct 2026, from free; You Wanted a Party?, Fri 16 Oct, 7.50; Bathtime Fall Party: Kissing Gate, Ike Goldman + more, Sat 17 Oct, 9; HALLOWEEKENDER run, Mon 26 Oct to Sun 1 Nov 2026, 10 to 12; TGT: TATYANA Midnight Takeover Clubnight, Sat 24 Oct, 6. The Thursday karaoke listing repeats most weeks (15, 22 and 29 Oct, 5 Nov). The venue's own website was not readable (JavaScript page), so its copy is taken from the ma.to profile. Prices are per event and not used."
+}

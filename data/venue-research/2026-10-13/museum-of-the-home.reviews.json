@@ -1,0 +1,76 @@
+{
+  "venue_id": "museum-of-the-home",
+  "venue_name": "Museum of the Home",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:32Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A museum in former 18th-century almshouses in Hoxton, about how people have lived in English homes, with period rooms from 1600 to the present. Time Out says it was formerly known as the Geffrye Museum.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://museumofthehome.org.uk/about-us/",
+          "quote": "We are the only museum of the home in the world, a place to learn how we have lived in the past, explore how we live today, and talk about how we can live better together.",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://museumofthehome.org.uk/about-us/",
+          "quote": "For over a hundred years we have been exploring the history of domestic life in our home in former almshouses.",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/museums/museum-of-the-home",
+          "quote": "Housed in a set of Grade I-listed eighteenth-century almshouses",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/museums/museum-of-the-home",
+          "quote": "a sequence of typical middle-class living rooms based on real London homes dating from 1600 to the present",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2024-09-16"
+    },
+    {
+      "field": "aliases",
+      "value": [
+        "Geffrye Museum"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "aliases"
+          ],
+          "url": "https://www.timeout.com/london/museums/museum-of-the-home",
+          "quote": "formerly known as the Geffrye Museum after their patron",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2024-09-16"
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status (no closure or reopening news found; the own about page says \"Open today, Tuesday 13 October\". Searches for closing news were limited by the search budget)"
+  ],
+  "notes": "Time Out's guide (dated 2024-09-16) has the keyword 'More: Temporarily closed' in its page metadata. That tag is old and the museum's own about page shows it open, so it is not proposed as status. Time Out's page also says 'Free entry, some exhibitions are ticketed' (facts researcher's field)."
+}

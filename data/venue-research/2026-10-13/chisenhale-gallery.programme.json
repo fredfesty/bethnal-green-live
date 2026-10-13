@@ -1,0 +1,56 @@
+{
+  "venue_id": "chisenhale-gallery",
+  "venue_name": "Chisenhale Gallery",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:36Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "gallery"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://chisenhale.org.uk/what-we-do/",
+          "quote": "Chisenhale Gallery was founded by artists.",
+          "retrieved_at": "2026-10-13T00:11:36Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Entry is free. Open Wednesday to Sunday, 12 to 6pm.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://chisenhale.org.uk/whats-on/",
+          "quote": "Free Entry",
+          "retrieved_at": "2026-10-13T00:11:36Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://chisenhale.org.uk/whats-on/",
+          "quote": "Wednesday–Sunday, 12–6pm",
+          "retrieved_at": "2026-10-13T00:11:36Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes"
+  ],
+  "notes": "Contemporary art gallery that also runs panel discussions and curatorial tours alongside its exhibitions. Nights seen: Panel discussion, 29 October, 7-8:30pm, for the Wakaliga Uganda show (upcoming); Panel discussion, 5 November, 7-8:30pm (upcoming); Curatorial tour, 3 December, 7-8:30pm (upcoming); Exhibition 'Kibuuka Omumbaale', until 6 December (current). No music nights found."
+}

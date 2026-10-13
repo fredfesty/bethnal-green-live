@@ -1,0 +1,151 @@
+{
+  "id": "cell-project-space",
+  "name": "Cell Project Space",
+  "zone": "core",
+  "address": "258 Cambridge Heath Rd, London",
+  "postcode": "E2 9DA",
+  "website": "https://www.cellprojects.org",
+  "summary": "An artist-founded gallery on Cambridge Heath Road, started in 1999 and at its current Bethnal Green site since 2003. A ground-floor event space was added in the summer of 2019.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": false,
+    "notes": "Level access to the entrance through a courtyard gate; ring to be let in. The gallery is on the first floor, with a wheelchair lift and staff to help. Shallow ramps lead into the ground-floor event space. The nearest accessible toilet is about 100 metres away at the Museum of Childhood.",
+    "access_page": "https://www.cellprojects.org/node/1900"
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "Founded in 1999, Cell Project Space was built by artists Milika Muritu & Richard Priestley",
+      "retrieved_at": "2026-10-13T00:12:32Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "In 2003, the gallery and HQ relocated to our current Bethnal Green site, on Cambridge Heath Rd",
+      "retrieved_at": "2026-10-13T00:12:32Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "a recent new addition of a ground-floor multi-purpose event space, opened in the summer 2019",
+      "retrieved_at": "2026-10-13T00:12:32Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free"
+      ],
+      "url": "https://www.cellprojects.org/node/1900",
+      "quote": "Cell Project Space Gallery is situated on the first floor and has a wheelchair lift for use by visitors.",
+      "retrieved_at": "2026-10-13T00:11:19Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://www.cellprojects.org/node/1900",
+      "quote": "there are no wheelchair accessible toilets in the building",
+      "retrieved_at": "2026-10-13T00:11:19Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes",
+        "accessibility.access_page"
+      ],
+      "url": "https://www.cellprojects.org/node/1900",
+      "quote": "There is level access to the main entrance of Cell Project Space",
+      "retrieved_at": "2026-10-13T00:11:19Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.cellprojects.org/visit",
+      "quote": "To access the courtyard, please ring at the gate and we will open the gate for wheelchair access.",
+      "retrieved_at": "2026-10-13T00:11:19Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.cellprojects.org/node/1900",
+      "quote": "Staff will assist if needed.",
+      "retrieved_at": "2026-10-13T00:11:19Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.cellprojects.org/node/1900",
+      "quote": "There are shallow ramps inside the yard, into the reading room, gallery office and the ground floor event space (all are wheelchair accessible).",
+      "retrieved_at": "2026-10-13T00:11:19Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.cellprojects.org/node/1900",
+      "quote": "there is a fully accessible toilet available in The Museum of Childhood 100 metres from the gallery on Cambridge Heath Road",
+      "retrieved_at": "2026-10-13T00:11:19Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.cellprojects.org/visit",
+      "quote": "Cell Project Space is committed to being open and accessible to all.",
+      "retrieved_at": "2026-10-13T00:11:19Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.cellprojects.org/visit",
+      "quote": "258 Cambridge Heath Road London E2 9DA",
+      "retrieved_at": "2026-10-13T00:11:19Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:40:36Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:40:36Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

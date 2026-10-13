@@ -1,0 +1,91 @@
+{
+  "venue_id": "herald-st",
+  "venue_name": "Herald St",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:56Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "gallery"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.heraldst.com/2026",
+          "quote": "Contemporary art gallery with three premises across London and Bologna.",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Solo-artist exhibitions at 2 Herald St, E2. The current show there is Elise Nguyen Quoc's 'sous ultra-vide' (24 Sept to 7 Nov 2026); an earlier show was Amalia Pica's 'Daisy Chain' (19 March to 16 May 2026). Not music.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.heraldst.com/2026",
+          "quote": "Elise Nguyen Quoc",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.heraldst.com/2026",
+          "quote": "sous ultra-vide",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.heraldst.com/2026",
+          "quote": "24 September – 7 November 2026",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.heraldst.com/2026",
+          "quote": "Herald St | 2 Herald St, London, E2 6JT",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.heraldst.com/2026",
+          "quote": "Amalia Pica",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.heraldst.com/2026",
+          "quote": "19 March – 16 May 2026",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no music on the venue's pages",
+    "cost.notes: no pricing found",
+    "age_policy, capacity: not looked for in this aspect"
+  ],
+  "notes": "Contemporary art gallery; the year page lists shows at three sites (2 Herald St, Museum St and Bologna). Only the 2 Herald St entries are used here. The registry's status evidence cites Esteban Jefferson, 9 Oct to 28 Nov 2026, but that show is at the British Museum ('Museum St | 43 Museum St, London, WC1A 1LY' on the year page), so it is not a Herald St show. Past and upcoming 2 Herald St shows seen: Elise Nguyen Quoc, 'sous ultra-vide', 24 Sept to 7 Nov 2026; Amalia Pica, 'Daisy Chain', 19 March to 16 May 2026. Opening hours are not on the pages read."
+}

@@ -1,0 +1,73 @@
+{
+  "venue_id": "cell-project-space",
+  "venue_name": "Cell Project Space",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:56Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "gallery"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.cellprojects.org/exhibitions",
+          "quote": "The gallery is closed for installation.",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Exhibitions in the gallery, with a public programme of screenings, book launches, artist and curator tours and workshops.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.cellprojects.org/events",
+          "quote": "Public Programme",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.cellprojects.org/events",
+          "quote": "Screening | Jeff Preiss, 'Beckoning Cats'",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.cellprojects.org/events",
+          "quote": "A Finely Tuned Battery of Senses | Workshop",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.cellprojects.org/events",
+          "quote": "Artist & Curator Tour | Fortunate",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no music genres found (exhibitions and public programme only)",
+    "cost.notes: no general pricing found on the venue's pages",
+    "age_policy, capacity: not looked for in this aspect"
+  ],
+  "notes": "Registered-charity contemporary art space; no music nights. Events seen: 'Orchard Documents' by Jeff Preiss, 08.10.2026 to 13.12.2026 (opening Wed 7 Oct 2026); 'Screening | Jeff Preiss, Beckoning Cats' on 12 Oct 2026, also a special screening at CLOSE UP Cinema the same day; 'Book Launch | A Finely Tuned Battery of Senses', 14 Jul 2026; 'Film Programme curated by Anne-Sophie Dinant', 28 Jun 2026. Gallery read as 'closed for installation' on 13 Oct 2026."
+}

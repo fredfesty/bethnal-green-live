@@ -1,0 +1,21 @@
+{
+  "venue_id": "rose-easton",
+  "venue_name": "Rose Easton",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [],
+  "not_found": [
+    "address",
+    "postcode",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "The gallery's own home page lists shows (Parker Ito, 3 October to 12 December 2026) but gives no address or postcode. The contact, info, visit and about pages return 404, so the registry's Time Out address stays unconfirmed. The venue's own site has no access, entry or age information. Its art-fair booths are not venue information."
+}

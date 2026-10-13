@@ -1,0 +1,59 @@
+{
+  "venue_id": "e-pellicci",
+  "venue_name": "E. Pellicci",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:25:15Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A family-run Italian and British café on Bethnal Green Road, serving since 1900, with a Grade II listed interior.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/restaurants/e-pellicci",
+          "quote": "Here since 1900, still serving fierce fry-ups",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/restaurants/e-pellicci",
+          "quote": "We are an authentic Italian family cafe established in 1900",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/restaurants/e-pellicci",
+          "quote": "Our beautiful interior, created in the early 1940’s by family friend and local genius carpenter Achille Capocci was awarded Grade 2 listing status in 2007.",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://epellicci.co.uk/pages/our-story",
+          "quote": "A Family-Run Café",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "aliases",
+    "status"
+  ],
+  "notes": "Time Out review (undated on the page) and the venue's own story page read. Time Out's review says the venue has a Grade II listing and a Kray-era history; not used for crowd. No music or closing news found. The café's evening cocktail nights are for the programme researcher. WebSearch was unavailable this run."
+}

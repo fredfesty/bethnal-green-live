@@ -1,0 +1,68 @@
+{
+  "venue_id": "e-pellicci",
+  "venue_name": "E. Pellicci",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:25:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "332 Bethnal Green Road, London, E2 0AG",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://epellicci.co.uk/pages/contact",
+          "quote": "332 Bethnal Green Road, London, UK, E2 0AG",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 0AG",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://epellicci.co.uk/pages/contact",
+          "quote": "332 Bethnal Green Road, London, UK, E2 0AG",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://epellicci.co.uk",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://epellicci.co.uk/",
+          "quote": "Serving the local community for over a century",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free (the venue's site has no access or accessibility page; its contact, FAQ and events pages say nothing about access)",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "A family-run cafe, not a music venue: its own site gives opening hours of Monday to Saturday, 8am to 3pm, closed Sunday, and lists a monthly cocktail night on the first Thursday. The contact page says it is walk-in only, with no bookings needed. Pages read: home, contact, shipping-faqs, events, our-story, menu, store-locator. The website field is taken from the home page's own text. Access is unknown, so leave the step-free and toilet fields empty unless a later check finds a page."
+}

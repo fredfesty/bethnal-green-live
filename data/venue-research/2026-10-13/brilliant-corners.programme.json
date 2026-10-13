@@ -1,0 +1,58 @@
+{
+  "venue_id": "brilliant-corners",
+  "venue_name": "Brilliant Corners",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:29:34Z",
+  "findings": [
+    {
+      "field": "music.notes",
+      "value": "Open seven nights a week as a restaurant, with a name listed against each date on its dates page, and Played Twice, a ticketed jazz night run as often as they can.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://brilliantcornerslondon.co.uk/food/",
+          "quote": "We are open seven nights a week.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://brilliantcornerslondon.co.uk/dates/",
+          "quote": "Mon 12 Oct 26",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://brilliantcornerslondon.co.uk/dates/",
+          "quote": "DJ Mysteiro",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://brilliantcornerslondon.co.uk/played-twice/",
+          "quote": "Played Twice is a ticketed jazz night we run as often as we can.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types: the venue's own pages describe a restaurant (izakaya menu) and do not say bar, DJ bar or any other listed type",
+    "music.styles: jazz is named for one night only (Played Twice); no repeated genre on the pages",
+    "cost.notes: no general pricing (drinks prices are on a page marked 'old (unused)')",
+    "address and postcode: not confirmed by a fetched page (contact page 404)"
+  ],
+  "notes": "The DJ names on /dates/ are listed per date, with 'tbc' for many dates; no start times or prices on that page. Nights seen: Udi Ehrlich, Mon 12 Oct 2026; Fabien, Sat 24 Oct 2026; Richie B, Thu 29 Oct 2026; Distant Rhythms, Fri 30 Oct 2026 (as 'Distant Rhythm' on the page); Played Twice (ticketed jazz, date not shown on the fetched page). Names are not club-night titles on that page."
+}

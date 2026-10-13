@@ -1,0 +1,142 @@
+{
+  "id": "spitalfields-city-farm",
+  "name": "Spitalfields City Farm",
+  "zone": "fringe",
+  "address": "Buxton Street, London",
+  "postcode": "E1 5AR",
+  "website": "https://www.spitalfieldscityfarm.org",
+  "summary": "A city farm on Buxton Street, started in 1978 on a former railway goods depot. It describes itself as the closest city farm to the Square Mile.",
+  "music": {
+    "styles": []
+  },
+  "crowd": "Says its purpose is a welcoming city farm linking people of every age and culture with food, animals and nature.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": true,
+    "notes": "Euan's Guide, with details supplied by the farm, says the gardens and farmyard are accessible though some pathways may be difficult, with ramps to the picnic areas, shop, office and several other buildings. Disabled parking is available by prior arrangement. Assistance dogs are welcome."
+  },
+  "cost": {
+    "free_entry": "always",
+    "notes": "Visits are free; the farm also holds ticketed activities and after-hours events."
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.spitalfieldscityfarm.org/our-history",
+      "quote": "Sited on a former railway goods depot, the Farm was started in 1978 in response to local people’s wishes",
+      "retrieved_at": "2026-10-13T00:27:03Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.spitalfieldscityfarm.org/about-us",
+      "quote": "Spitalfields City Farm is the nearest city farm to the City of London’s square mile.",
+      "retrieved_at": "2026-10-13T00:27:03Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.spitalfieldscityfarm.org/about-us",
+      "quote": "Our Purpose is to sustain and develop a welcoming city farm that connects people of all ages and culture to food, animals and nature.",
+      "retrieved_at": "2026-10-13T00:27:03Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://www.euansguide.com/venues/spitalfields-city-farm-london-2532",
+      "quote": "1 disabled toilet with large doorway and hand rails",
+      "retrieved_at": "2026-10-13T00:27:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.euansguide.com/venues/spitalfields-city-farm-london-2532",
+      "quote": "Gardens and Farmyard accessible but may have difficulties on some pathways",
+      "retrieved_at": "2026-10-13T00:27:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.euansguide.com/venues/spitalfields-city-farm-london-2532",
+      "quote": "Ramps to picnic areas, shop, office, yurt, tent, and eco-station.",
+      "retrieved_at": "2026-10-13T00:27:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.euansguide.com/venues/spitalfields-city-farm-london-2532",
+      "quote": "Disabled parking available with prior arrangement. Please call the office to confirm : 0207 247 8762",
+      "retrieved_at": "2026-10-13T00:27:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.spitalfieldscityfarm.org/visit-us",
+      "quote": "We are happy to welcome Guide Dogs for the Blind, Disability Assistance Dogs",
+      "retrieved_at": "2026-10-13T00:21:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.free_entry",
+        "website"
+      ],
+      "url": "https://www.spitalfieldscityfarm.org/",
+      "quote": "Plan your FREE visit to Spitalfields City Farm",
+      "retrieved_at": "2026-10-13T00:21:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.spitalfieldscityfarm.org/visit-us",
+      "quote": "We host special activities and after hour ticketed events.",
+      "retrieved_at": "2026-10-13T00:21:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.spitalfieldscityfarm.org/visit-us",
+      "quote": "Spitalfields City Farm, Buxton Street, London E1 5AR",
+      "retrieved_at": "2026-10-13T00:21:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:47:33Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:47:33Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

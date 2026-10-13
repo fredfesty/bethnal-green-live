@@ -1,0 +1,44 @@
+{
+  "venue_id": "arcola-theatre",
+  "venue_name": "Arcola Theatre",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:13:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A registered charity running a theatre in Dalston, E8, which says it makes daring, high-quality work for East London and beyond. Time Out names its summer Grimeborn festival of new opera as its biggest constant.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.arcolatheatre.com/about-us/",
+          "quote": "Arcola produces daring, high-quality theatre in the heart of East London and beyond.",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.arcolatheatre.com/about-us/",
+          "quote": "Arcola Theatre Production Company is a registered charity no.1108613",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/theatre/arcola-theatre",
+          "quote": "Its biggest constant is Grimeborn, an irreverent and influential festival of new opera writing that takes place in the summer",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Time Out's venue page is undated, so it backs the summary only, not music. Recent Hackney Citizen tag page (2026 headlines on Arcola productions) shows the theatre running, but I could not open the article links through page_text in this run, so nothing from it is used. No closure or ownership news found."
+}

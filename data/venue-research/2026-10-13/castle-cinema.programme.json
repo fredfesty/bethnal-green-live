@@ -1,0 +1,84 @@
+{
+  "venue_id": "castle-cinema",
+  "venue_name": "The Castle Cinema",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:12:52Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "cinema"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://thecastlecinema.com/",
+          "quote": "Independent Crowdfunded Community Cinema Based in East London",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A cinema that runs recurring Pitchblack Playback album listening nights on its sound system, plus a Live strand and music documentary festival screenings.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://thecastlecinema.com/calendar/",
+          "quote": "Immerse yourself in one of the best albums of the 21st century at Pitchblack Playback's 10th anniversary listening session in the dark.",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://thecastlecinema.com/calendar/",
+          "quote": "No phones; no talking; no singing; no distractions; just you and the music.",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://thecastlecinema.com/listings/",
+          "quote": "Endless Night (1972) + The Swinging Christies LIVE!",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://thecastlecinema.com/listings/",
+          "quote": "Doc 'n' Roll: HEAVEN 17: THE LAST TEMPTATION + Director Q&A",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://thecastlecinema.com/calendar/",
+          "quote": "through our powerful cinema sound system",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "Music styles: no genre named on more than one night (the playback nights name albums, not genres)",
+    "Cost notes: no general pricing stated on the pages read (membership and ticket prices not quoted)",
+    "Age policy and capacity: not in this aspect"
+  ],
+  "notes": "Nights seen: 'Pitchblack Playback: Solange 'A Seat At The Table' (10th Anniversary)' 13 Oct 2026, 21:00; 'Pitchblack Playback: Amy Winehouse 'Back To Black' (20th Anniversary)' (double bill, date not confirmed); 'Pitchblack Playback: Joni Mitchell 'Hejira' (50th Anniversary)' (date not confirmed); 'Pitchblack Mixtapes: A Jazz Odyssey' (date not confirmed); 'Endless Night (1972) + The Swinging Christies LIVE!' (date not confirmed)."
+}

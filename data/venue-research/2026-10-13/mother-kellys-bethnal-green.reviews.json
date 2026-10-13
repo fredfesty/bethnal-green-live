@@ -1,0 +1,59 @@
+{
+  "venue_id": "mother-kellys-bethnal-green",
+  "venue_name": "Mother Kelly's Bethnal Green",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:27:03Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A bottle shop and taproom under the railway arches in Bethnal Green, with beer taps along the bar and a few tables and stools, according to DesignMyNight.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.designmynight.com/london/bars/bethnal-green/mother-kellys",
+          "quote": "Mother Kelly's is a bottle shop and taproom nestled underneath the railway arches in Bethnal Green",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.designmynight.com/london/bars/bethnal-green/mother-kellys",
+          "quote": "Kitted out with a bar that showcases a long line of beer taps and a smattering of tables and bar stools",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "types",
+      "value": [
+        "bar"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.designmynight.com/london/bars/bethnal-green/mother-kellys",
+          "quote": "Lounge Bar",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "The venue's own website is on our blocked list (its pages carry injected spam), so it was not fetched. The Time Out review found under this name (2017) is of the Vauxhall bottle shop and taproom, a different venue, so it is not used. A personal blog review (climbing-moss.com, 27 August 2026) describes a visit but is not a named publication, so it is not used as evidence. DesignMyNight's 'creative and quirky crowd' line is aggregator promotional copy, so crowd is left out."
+}

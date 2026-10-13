@@ -1,0 +1,182 @@
+{
+  "id": "the-yard-theatre",
+  "name": "The Yard Theatre",
+  "zone": "outer",
+  "address": "Queen's Yard, White Post Lane, London",
+  "postcode": "E9 5EN",
+  "website": "https://www.theyardtheatre.co.uk",
+  "summary": "A charity theatre at Queen's Yard in Hackney Wick that has moved into a new building after closing its original one. It describes its programme as plays, cabaret, dance and drag.",
+  "music": {
+    "styles": [],
+    "notes": "Plays, cabaret, dance and drag on a concrete stage."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": true,
+    "notes": "Row A can be reached without steps via the downstairs entrance; the balconies are not step free. Wheelchair spaces and free companion seats need booking with the box office. Assistance dogs can go into the auditorium and bar, but not onto seats.",
+    "access_page": "https://www.theyardtheatre.co.uk/access"
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Online bookings add a £2.50 fee and phone bookings add £3."
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.theyardtheatre.co.uk",
+      "quote": "We're a charity.",
+      "retrieved_at": "2026-10-13T00:13:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.theyardtheatre.co.uk",
+      "quote": "A NEW YARD IS HERE",
+      "retrieved_at": "2026-10-13T00:13:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/theatre/the-glass-menagerie-6-review",
+      "quote": "as it closes the doors of its original building not with a fringe curio but a revival of Tennessee Williams’s greatest play The Glass Menagerie",
+      "retrieved_at": "2026-10-13T00:13:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.theyardtheatre.co.uk/about",
+      "quote": "Plays, cabaret, dance and drag.",
+      "retrieved_at": "2026-10-13T00:12:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.theyardtheatre.co.uk/about",
+      "quote": "All of these artists have made theatre on our concrete stage.",
+      "retrieved_at": "2026-10-13T00:12:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.hearing_loop"
+      ],
+      "url": "https://www.theyardtheatre.co.uk/access",
+      "quote": "An induction loop is installed in the auditorium and the bar for hearing aid users with a T-setting.",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.theyardtheatre.co.uk/access",
+      "quote": "Row A is step free via the downstairs entrance.",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.theyardtheatre.co.uk/access",
+      "quote": "Access to the balconies is not step free.",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.theyardtheatre.co.uk/access",
+      "quote": "Wheelchair spaces and companion seats must be booked through the box office.",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.theyardtheatre.co.uk/access",
+      "quote": "Companion tickets are free.",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.theyardtheatre.co.uk/access",
+      "quote": "Assistant dogs are welcome in the auditorium and bar, but not on a seat.",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.access_page"
+      ],
+      "url": "https://www.theyardtheatre.co.uk/access",
+      "quote": "Everything you need to know about access at the Yard.",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.theyardtheatre.co.uk/your-visit",
+      "quote": "A £2.50 booking fee will apply.",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.theyardtheatre.co.uk/your-visit",
+      "quote": "A £3 booking fee will apply.",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.theyardtheatre.co.uk/your-visit",
+      "quote": "Our address is Queen's Yard, Hackney Wick, E9 5EN.",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:43:27Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:43:27Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

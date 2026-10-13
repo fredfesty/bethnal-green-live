@@ -1,0 +1,65 @@
+{
+  "id": "roman-road-market",
+  "name": "Roman Road Market",
+  "zone": "fringe",
+  "address": "Roman Road, E3",
+  "summary": "A street market on Roman Road in E3 with stalls selling clothing, household items, toys, makeup and jewellery, according to the council, plus a food court area on St Stephen's Road.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "address"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+      "quote": "Roman Road, E3",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+      "quote": "You can browse clothing stalls, household items, toys, makeup and jewellery.",
+      "retrieved_at": "2026-10-13T00:27:03Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+      "quote": "There is also a court area on St Stephen’s Road serving fresh bread, pastries and hot food options.",
+      "retrieved_at": "2026-10-13T00:27:03Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:47:33Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:47:33Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

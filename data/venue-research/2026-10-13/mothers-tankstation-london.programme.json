@@ -1,0 +1,31 @@
+{
+  "venue_id": "mothers-tankstation-london",
+  "venue_name": "mother's tankstation London",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:36Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "gallery"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.motherstankstation.com/manifesto/",
+          "quote": "The gallery (object/form/location) is much what it always was",
+          "retrieved_at": "2026-10-13T00:11:36Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes"
+  ],
+  "notes": "London space of a Dublin gallery; its London page lists solo and collaborative exhibitions, no music or events. Nights seen: '12 Red' by Yuko Mohri, 11 October - 5 December 2026 (upcoming); 'Dawn' by Matt Bollinger, 17 January - 7 March 2026; 'Condo London 2025' with Erin M. Riley, 18 January - 8 March 2025 (collaborative presentation with P.P.O.W, New York). The manifesto page is written about the Dublin gallery and was used only for the gallery type."
+}

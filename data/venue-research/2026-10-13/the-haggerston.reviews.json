@@ -1,0 +1,92 @@
+{
+  "venue_id": "the-haggerston",
+  "venue_name": "The Haggerston",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "An independent pub on Kingsland Road in Hackney, formerly Uncle Sam's, which hosts free Sunday jazz nights.",
+      "source_date": "2024-12-11",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://camra.org.uk/pubs/haggerston-hackney-156101",
+          "quote": "Independent pub on Kingsland Rd, Hackney",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.soas.ac.uk/about/blogs/explore-londons-hidden-music-scene-top-weekly-jazz-and-jam-spots",
+          "quote": "The Haggerston offers free Sunday jazz nights in Dalston.",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "aliases",
+      "value": [
+        "Uncle Sam's",
+        "Richmonds"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "aliases"
+          ],
+          "url": "https://camra.org.uk/pubs/haggerston-hackney-156101",
+          "quote": "Was the Swan, then Richmonds, from late 1980s Uncle Sam's for over a decade",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "jazz"
+      ],
+      "source_date": "2024-12-11",
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.soas.ac.uk/about/blogs/explore-londons-hidden-music-scene-top-weekly-jazz-and-jam-spots",
+          "quote": "The Haggerston offers free Sunday jazz nights in Dalston.",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Free Sunday jazz nights, according to a 2024 SOAS music-scene guide; CAMRA lists the pub as having live music.",
+      "source_date": "2024-12-11",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.soas.ac.uk/about/blogs/explore-londons-hidden-music-scene-top-weekly-jazz-and-jam-spots",
+          "quote": "The Haggerston offers free Sunday jazz nights in Dalston.",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd (the only crowd text found describes clientele age and background, so left out)",
+    "status (CAMRA notes cask beer reinstated in Oct 2025 and no closure news; site says open)",
+    "website (none found; the venue's domain could not be read because its robots.txt was unreachable)"
+  ],
+  "notes": "WebSearch budget was used up for this turn. The Time Out page for the Haggerston has no description (dated 7 Jan 2008). CAMRA says 'Cask beer reinstated 29 October 2025 after 10 years'. The SOAS article is dated 11 Dec 2024. The venue's website could not be read."
+}

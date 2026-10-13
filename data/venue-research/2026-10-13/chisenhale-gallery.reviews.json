@@ -1,0 +1,60 @@
+{
+  "venue_id": "chisenhale-gallery",
+  "venue_name": "Chisenhale Gallery",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:38Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A contemporary art gallery founded by artists, which commissions and produces contemporary art, publishes books and online material, and runs social projects, according to its own website.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary",
+            "types"
+          ],
+          "url": "https://chisenhale.org.uk/what-we-do/",
+          "quote": "Chisenhale Gallery was founded by artists.",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://chisenhale.org.uk/what-we-do/",
+          "quote": "We commission and produce contemporary art, publish books and online material, and actively engage in social projects.",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "types",
+      "value": [
+        "gallery"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://chisenhale.org.uk/what-we-do/",
+          "quote": "Chisenhale Gallery was founded by artists.",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "The venue's own site shows a current free exhibition 'Until 6 December' and a 2027 programme, which suggests it is open; no closure news was found. Press found: Time Out's review of an exhibition is dated 2019 and Hackney Citizen's tag page lists Chisenhale reviews from 2018, both too old for crowd or music, so not used. WebSearch budget ran out before a review or news search was done. The site's 'Free Entry' line is for the facts researcher."
+}

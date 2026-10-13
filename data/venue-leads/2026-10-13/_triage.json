@@ -1,0 +1,737 @@
+{
+  "run_date": "2026-10-13",
+  "research": [
+    {
+      "venue_id": "rich-mix",
+      "name": "Rich Mix",
+      "where": "registry",
+      "found_by": [
+        "web"
+      ],
+      "signals": [
+        "temporarily-closed"
+      ],
+      "leads": [
+        "data/venue-leads/2026-10-13/web-rich-mix.json"
+      ],
+      "reason": "signal",
+      "zone": "fringe",
+      "postcode": "E1 6LA"
+    },
+    {
+      "venue_id": "all-my-gods",
+      "name": "All My Gods",
+      "found_by": [
+        "map",
+        "web"
+      ],
+      "signals": [],
+      "postcode": "E2 9LE",
+      "zone": "core",
+      "distance_m": 132,
+      "website": "https://www.allmygodsbar.co.uk/",
+      "leads": [
+        "data/venue-leads/2026-10-13/map-all-my-gods.json",
+        "data/venue-leads/2026-10-13/web-all-my-gods.json"
+      ],
+      "reason": "new"
+    },
+    {
+      "venue_id": "135-bar-and-lounge",
+      "name": "135 Bar & Lounge",
+      "found_by": [
+        "listings"
+      ],
+      "signals": [],
+      "postcode": "E1 5RN",
+      "zone": "core",
+      "distance_m": 443,
+      "website": "https://www.135-barandlounge.co.uk/",
+      "leads": [
+        "data/venue-leads/2026-10-13/listings-135-bar-and-lounge.json"
+      ],
+      "reason": "new"
+    },
+    {
+      "venue_id": "royal-oak",
+      "name": "Royal Oak",
+      "found_by": [
+        "listings"
+      ],
+      "signals": [],
+      "postcode": "E2 7RG",
+      "zone": "core",
+      "distance_m": 1025,
+      "website": null,
+      "leads": [
+        "data/venue-leads/2026-10-13/listings-royal-oak.json"
+      ],
+      "reason": "new"
+    },
+    {
+      "venue_id": "birdcage",
+      "name": "The Birdcage",
+      "found_by": [
+        "web"
+      ],
+      "signals": [],
+      "postcode": "E2 7QB",
+      "zone": "core",
+      "distance_m": 1101,
+      "website": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+      "leads": [
+        "data/venue-leads/2026-10-13/web-birdcage.json"
+      ],
+      "reason": "new"
+    },
+    {
+      "venue_id": "young-va",
+      "name": "Young V&A",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 9PA",
+      "leads": []
+    },
+    {
+      "venue_id": "museum-of-the-home",
+      "name": "Museum of the Home",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 8EA",
+      "leads": []
+    },
+    {
+      "venue_id": "backyard-comedy-club",
+      "name": "Backyard Comedy Club",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 0EL",
+      "leads": []
+    },
+    {
+      "venue_id": "three-colts-tavern",
+      "name": "Three Colts Tavern (Glue Factory)",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 0EL",
+      "leads": []
+    },
+    {
+      "venue_id": "cell-project-space",
+      "name": "Cell Project Space",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 9DA",
+      "leads": []
+    },
+    {
+      "venue_id": "maureen-paley",
+      "name": "Maureen Paley",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 6GQ",
+      "leads": []
+    },
+    {
+      "venue_id": "herald-st",
+      "name": "Herald St",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 6JT",
+      "leads": []
+    },
+    {
+      "venue_id": "the-approach",
+      "name": "The Approach",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 9LY",
+      "leads": []
+    },
+    {
+      "venue_id": "mothers-tankstation-london",
+      "name": "mother's tankstation London",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 6GQ",
+      "leads": []
+    },
+    {
+      "venue_id": "rose-easton",
+      "name": "Rose Easton",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": null,
+      "leads": []
+    },
+    {
+      "venue_id": "soft-opening",
+      "name": "Soft Opening",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": null,
+      "leads": []
+    },
+    {
+      "venue_id": "kate-macgarry",
+      "name": "Kate MacGarry",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 7HR",
+      "leads": []
+    },
+    {
+      "venue_id": "chisenhale-gallery",
+      "name": "Chisenhale Gallery",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E3 5QZ",
+      "leads": []
+    },
+    {
+      "venue_id": "carlos-ishikawa",
+      "name": "Carlos/Ishikawa",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E1 4UN",
+      "leads": []
+    },
+    {
+      "venue_id": "genesis-cinema",
+      "name": "Genesis Cinema",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E1 4UJ",
+      "leads": []
+    },
+    {
+      "venue_id": "whitechapel-gallery",
+      "name": "Whitechapel Gallery",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E1 7QX",
+      "leads": []
+    },
+    {
+      "venue_id": "brick-lane-bookshop",
+      "name": "Brick Lane Bookshop",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": null,
+      "leads": []
+    },
+    {
+      "venue_id": "v-and-a-east",
+      "name": "V&A East (Museum and Storehouse)",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E20 3AX",
+      "leads": []
+    },
+    {
+      "venue_id": "nunnery-gallery",
+      "name": "Nunnery Gallery (Bow Arts)",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E3 2SJ",
+      "leads": []
+    },
+    {
+      "venue_id": "arcola-theatre",
+      "name": "Arcola Theatre",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E8 3DL",
+      "leads": []
+    },
+    {
+      "venue_id": "theatre-royal-stratford-east",
+      "name": "Theatre Royal Stratford East",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E15 1BN",
+      "leads": []
+    },
+    {
+      "venue_id": "the-yard-theatre",
+      "name": "The Yard Theatre",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E9 5EN",
+      "leads": []
+    },
+    {
+      "venue_id": "hackney-picturehouse",
+      "name": "Hackney Picturehouse",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": null,
+      "leads": []
+    },
+    {
+      "venue_id": "rio-cinema",
+      "name": "Rio Cinema",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": null,
+      "leads": []
+    },
+    {
+      "venue_id": "castle-cinema",
+      "name": "The Castle Cinema",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E9 6DA",
+      "leads": []
+    },
+    {
+      "venue_id": "wiltons-music-hall",
+      "name": "Wilton's Music Hall",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E1 8JB",
+      "leads": []
+    },
+    {
+      "venue_id": "shoreditch-town-hall",
+      "name": "Shoreditch Town Hall",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "EC1V 9LT",
+      "leads": []
+    },
+    {
+      "venue_id": "columbia-road-flower-market",
+      "name": "Columbia Road Flower Market",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": null,
+      "leads": []
+    },
+    {
+      "venue_id": "bethnal-green-nature-reserve",
+      "name": "Bethnal Green Nature Reserve",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 9RR",
+      "leads": []
+    },
+    {
+      "venue_id": "hackney-city-farm",
+      "name": "Hackney City Farm",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 8QA",
+      "leads": []
+    },
+    {
+      "venue_id": "york-hall",
+      "name": "York Hall",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 9PJ",
+      "leads": []
+    },
+    {
+      "venue_id": "bethnal-green-library",
+      "name": "Bethnal Green Library (Idea Store)",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": null,
+      "leads": []
+    },
+    {
+      "venue_id": "bethnal-green-market",
+      "name": "Bethnal Green Market",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": null,
+      "leads": []
+    },
+    {
+      "venue_id": "victoria-park",
+      "name": "Victoria Park",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E3 5TB",
+      "leads": []
+    },
+    {
+      "venue_id": "victoria-park-market",
+      "name": "Victoria Park Market",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 9HN",
+      "leads": []
+    },
+    {
+      "venue_id": "mile-end-park",
+      "name": "Mile End Park (incl. Ecology Pavilion)",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E3 5RP",
+      "leads": []
+    },
+    {
+      "venue_id": "ragged-school-museum",
+      "name": "Ragged School Museum",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E3 4RR",
+      "leads": []
+    },
+    {
+      "venue_id": "spitalfields-city-farm",
+      "name": "Spitalfields City Farm",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E1 5AR",
+      "leads": []
+    },
+    {
+      "venue_id": "stepney-city-farm",
+      "name": "Stepney City Farm",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E1 3DG",
+      "leads": []
+    },
+    {
+      "venue_id": "brick-lane-market",
+      "name": "Brick Lane Market (Sundays)",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": null,
+      "leads": []
+    },
+    {
+      "venue_id": "roman-road-market",
+      "name": "Roman Road Market",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": null,
+      "leads": []
+    },
+    {
+      "venue_id": "spitalfields-market",
+      "name": "Spitalfields Market",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E1 6AA",
+      "leads": []
+    },
+    {
+      "venue_id": "mother-kellys-bethnal-green",
+      "name": "Mother Kelly's Bethnal Green",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 9LE",
+      "leads": []
+    },
+    {
+      "venue_id": "renegade-wine-bar-bethnal-green",
+      "name": "Renegade Wine Bar (Bethnal Green)",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 0EJ",
+      "leads": []
+    },
+    {
+      "venue_id": "e-pellicci",
+      "name": "E. Pellicci",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 0AG",
+      "leads": []
+    },
+    {
+      "venue_id": "satans-whiskers",
+      "name": "Satan's Whiskers",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 9RA",
+      "leads": []
+    },
+    {
+      "venue_id": "tempo-bethnal-green",
+      "name": "Tempo",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 9LE",
+      "leads": []
+    },
+    {
+      "venue_id": "tiella-trattoria",
+      "name": "Tiella Trattoria & Bar",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 7RL",
+      "leads": []
+    },
+    {
+      "venue_id": "town-hall-hotel",
+      "name": "Town Hall Hotel (Da Terra, Restaurant Elis)",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 9NF",
+      "leads": []
+    },
+    {
+      "venue_id": "columbia-road",
+      "name": "Columbia Road (Flower Market & shops)",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 7RG",
+      "leads": []
+    },
+    {
+      "venue_id": "rochelle-canteen",
+      "name": "Rochelle Canteen",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E2 7FA",
+      "leads": []
+    },
+    {
+      "venue_id": "old-spitalfields-market",
+      "name": "Old Spitalfields Market",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E1 6EW",
+      "leads": []
+    },
+    {
+      "venue_id": "e5-bakehouse",
+      "name": "e5 Bakehouse",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E8 3PH",
+      "leads": []
+    },
+    {
+      "venue_id": "queen-adelaide",
+      "name": "The Queen Adelaide",
+      "reason": "unprofiled",
+      "zone": "core",
+      "postcode": "E2 9ED",
+      "leads": []
+    },
+    {
+      "venue_id": "cafe-1001",
+      "name": "Café 1001",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E1 6QL",
+      "leads": []
+    },
+    {
+      "venue_id": "basing-house",
+      "name": "Basing House",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E2 8AA",
+      "leads": []
+    },
+    {
+      "venue_id": "mare-street-market",
+      "name": "Mare Street Market",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E8 4RU",
+      "leads": []
+    },
+    {
+      "venue_id": "stranger-than-paradise-records",
+      "name": "Stranger Than Paradise Records",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E8 4RU",
+      "leads": []
+    },
+    {
+      "venue_id": "netil360",
+      "name": "Netil360",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E8 3RL",
+      "leads": []
+    },
+    {
+      "venue_id": "george-tavern",
+      "name": "The George Tavern",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E1 0LA",
+      "leads": []
+    },
+    {
+      "venue_id": "glove-that-fits",
+      "name": "The Glove That Fits (and Gloves Off garden)",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E9 6LH",
+      "leads": []
+    },
+    {
+      "venue_id": "ridley-road-market-bar",
+      "name": "Ridley Road Market Bar",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E8 2NP",
+      "leads": []
+    },
+    {
+      "venue_id": "farrs-dalston",
+      "name": "Farr's Dalston",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E8 3DF",
+      "leads": []
+    },
+    {
+      "venue_id": "the-jago",
+      "name": "The Jago",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E8 4AA",
+      "leads": []
+    },
+    {
+      "venue_id": "brilliant-corners",
+      "name": "Brilliant Corners",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": null,
+      "leads": []
+    },
+    {
+      "venue_id": "shacklewell-arms",
+      "name": "The Shacklewell Arms",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E8 2EB",
+      "leads": []
+    },
+    {
+      "venue_id": "three-compasses-dalston",
+      "name": "The Three Compasses",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E8 1NH",
+      "leads": []
+    },
+    {
+      "venue_id": "queen-of-hoxton",
+      "name": "Queen of Hoxton",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "EC2A 3JX",
+      "leads": []
+    },
+    {
+      "venue_id": "26-curtain-road",
+      "name": "26 Curtain Road",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "EC2A 3NY",
+      "leads": []
+    },
+    {
+      "venue_id": "xoyo",
+      "name": "XOYO",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "EC2A 4AP",
+      "leads": []
+    },
+    {
+      "venue_id": "colours-hoxton",
+      "name": "Colours Hoxton",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "N1 6NU",
+      "leads": []
+    },
+    {
+      "venue_id": "hackney-bridge",
+      "name": "Hackney Bridge (incl. Nico's bar)",
+      "reason": "unprofiled",
+      "zone": "outer",
+      "postcode": "E15 2SJ",
+      "leads": []
+    },
+    {
+      "venue_id": "the-haggerston",
+      "name": "The Haggerston",
+      "reason": "refresh",
+      "zone": "fringe",
+      "postcode": "E8 4AA",
+      "profiled_at": "2026-10-12T23:04:43Z",
+      "leads": []
+    },
+    {
+      "venue_id": "moth-club",
+      "name": "MOTH Club",
+      "reason": "refresh",
+      "zone": "outer",
+      "postcode": "E9 6NU",
+      "profiled_at": "2026-10-12T23:04:43Z",
+      "leads": []
+    },
+    {
+      "venue_id": "old-blue-last",
+      "name": "The Old Blue Last",
+      "reason": "refresh",
+      "zone": "outer",
+      "postcode": "EC2A 3ES",
+      "profiled_at": "2026-10-12T23:04:43Z",
+      "leads": []
+    },
+    {
+      "venue_id": "village-underground",
+      "name": "Village Underground",
+      "reason": "refresh",
+      "zone": "outer",
+      "postcode": "EC2A 3PQ",
+      "profiled_at": "2026-10-12T23:04:43Z",
+      "leads": []
+    },
+    {
+      "venue_id": "troxy",
+      "name": "Troxy",
+      "reason": "refresh",
+      "zone": "fringe",
+      "postcode": "E1 0HX",
+      "profiled_at": "2026-10-12T23:04:43Z",
+      "leads": []
+    },
+    {
+      "venue_id": "dalston-superstore",
+      "name": "Dalston Superstore",
+      "reason": "refresh",
+      "zone": "outer",
+      "postcode": "E8 2PB",
+      "profiled_at": "2026-10-12T23:05:00Z",
+      "leads": []
+    }
+  ],
+  "report_only": [
+    {
+      "venue_id": "cafe-oto",
+      "name": "Cafe OTO",
+      "found_by": [
+        "listings"
+      ],
+      "signals": [],
+      "postcode": "E8 3DL",
+      "zone": "outer",
+      "distance_m": 2613,
+      "website": "https://www.cafeoto.co.uk/",
+      "leads": [
+        "data/venue-leads/2026-10-13/listings-cafe-oto.json"
+      ],
+      "reason": "new venue in the outer zone (we only add core and fringe venues)"
+    }
+  ],
+  "known": []
+}

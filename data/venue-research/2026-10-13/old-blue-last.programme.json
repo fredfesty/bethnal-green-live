@@ -1,0 +1,111 @@
+{
+  "venue_id": "old-blue-last",
+  "venue_name": "The Old Blue Last",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:40:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "pub",
+        "live-music"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.theoldbluelast.com/",
+          "quote": "Live music venue, east-end boozer",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "jazz"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.theoldbluelast.com/",
+          "quote": "SUNDAY JAZZ EVERY SUNDAY",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.theoldbluelast.com/whats-on",
+          "quote": "SUNDAY JAZZ",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.timeout.com/london/music/the-old-blue-last",
+          "quote": "It also hosts free weekly jazz nights on Sundays.",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A jazz night every Sunday, late-night DJ nights and an upstairs 150-capacity live room that hosts live bands, karaoke and club nights.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.theoldbluelast.com/",
+          "quote": "SUNDAY JAZZ EVERY SUNDAY",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.theoldbluelast.com/late-night",
+          "quote": "DR. TELEFUNK ALL NIGHT",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.theoldbluelast.com/privatehire",
+          "quote": "our 150-capacity live room has seen a whole host of events",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.theoldbluelast.com/privatehire",
+          "quote": "from live bands, karaoke, private parties, club nights, and more",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "cost.notes",
+    "age_policy"
+  ],
+  "notes": "Listed on the venue's late-night and what's-on pages (read 2026-10-13): Warrior Dance, Wed 14 Oct 2026; Dr. Telefunk All Night, Fri 23 Oct 2026; Scary Things (NTS) Halloween 2026, Sat 31 Oct 2026; Sunday jazz, every Sunday. Its Sunday jazz runs as a standing night. No past listings in data/events or candidates."
+}

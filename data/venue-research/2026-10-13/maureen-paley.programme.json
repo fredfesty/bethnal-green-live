@@ -1,0 +1,73 @@
+{
+  "venue_id": "maureen-paley",
+  "venue_name": "Maureen Paley",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:56Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "gallery"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.maureenpaley.com/about",
+          "quote": "The gallery programme began in 1984 in a Victorian terraced house in London’s East End.",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Contemporary art exhibitions across two Bethnal Green spaces, 4 Herald Street and 60 Three Colts Lane, with one show running in both: Rebecca Warren's 'There Will Be Another You'. No music nights listed.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.maureenpaley.com/exhibitions",
+          "quote": "Rebecca Warren",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.maureenpaley.com/exhibitions",
+          "quote": "There Will Be Another You",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.maureenpaley.com/exhibitions",
+          "quote": "Maureen Paley, 60 Three Colts Lane",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.maureenpaley.com/news",
+          "quote": "Opening: Thursday 8 October, 6 – 8 pm",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no music on the venue's pages",
+    "cost.notes: no pricing found on the venue's pages",
+    "age_policy, capacity: not looked for in this aspect"
+  ],
+  "notes": "Art gallery, two Bethnal Green spaces (4 Herald Street, first floor, stairs only per the registry, and 60 Three Colts Lane). Shows seen: Rebecca Warren, 'There Will Be Another You', 9 Oct to 12 Dec 2026 (opening Thu 8 Oct 2026, 6 to 8pm); Frieze London stand B17, 14 to 18 Oct 2026 (a fair stand, not the gallery's own show). The about page says 'Studio M was opened in the Rochelle School in Shoreditch and operated from 2020 to 2026', which is not in Bethnal Green and is undated news; a person should check whether it matters."
+}

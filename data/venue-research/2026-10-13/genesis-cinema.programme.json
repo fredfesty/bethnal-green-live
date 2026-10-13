@@ -1,0 +1,81 @@
+{
+  "venue_id": "genesis-cinema",
+  "venue_name": "Genesis Cinema",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:10:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "cinema"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.genesiscinema.co.uk/about",
+          "quote": "Genesis is a family run, independent cinema and arts venue",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Mostly film screenings, many with a Q&A or intro. Also a recurring Bar Trash season of genre double bills, and occasional live wrestling nights (not music). Music is not a main part of the listings we read.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.genesiscinema.co.uk/whats-on",
+          "quote": "BAR TRASH continues our 14th sensational season",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.genesiscinema.co.uk/whats-on",
+          "quote": "Steel of Film (in 35 mm) + Q&A",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.genesiscinema.co.uk/whats-on",
+          "quote": "EMPORIUM PRO WRESTLING PRESENTS: SLASHERAMA",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Standard prices depend on the day of the week; event tickets can be priced differently.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.genesiscinema.co.uk/pricing",
+          "quote": "Event ticket prices may vary",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no music genres named on the listings or the about page",
+    "live music nights: none seen in the listings read; the hire page mentions live music only as a possible private hire"
+  ],
+  "notes": "Nights seen: Bar Trash: Queer Horror / Double Feature, SHIVERS (1975) + CREEPOZOIDS (1987), on a special day and time (date not shown in the text read); EMPORIUM PRO WRESTLING PRESENTS: SLASHERAMA, Friday 13 November 2026; Steel of Film (in 35 mm) + Q&A; Colette & Justin + Q&A; National Theatre Live: Golden Boy. Pattern: film screenings with Q&As, 35mm, and a seasonal Bar Trash strand."
+}

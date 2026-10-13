@@ -1,0 +1,72 @@
+{
+  "venue_id": "three-compasses-dalston",
+  "venue_name": "The Three Compasses",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:31:53Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A venue on Dalston Lane that lists recurring nights and an open mic night on its DICE page.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://dice.fm/venue/the-three-compasses-qony",
+          "quote": "Open Mic At The Three Compasses",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://dice.fm/venue/the-three-compasses-qony",
+          "quote": "Break It Down",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Recurring nights such as Break It Down and Certified Bangers, plus an open mic night, listed on DICE.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/the-three-compasses-qony",
+          "quote": "Break It Down",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/the-three-compasses-qony",
+          "quote": "Certified Bangers",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/the-three-compasses-qony",
+          "quote": "Open Mic At The Three Compasses",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "aliases",
+    "status",
+    "music.styles"
+  ],
+  "notes": "Only the DICE venue page was read; it has no About text. A different pub called The Three Compasses in Upper Dean, Northamptonshire has its own website. It is not this venue, so nothing from it is used. No press review or closure news found; WebSearch budget was used up."
+}

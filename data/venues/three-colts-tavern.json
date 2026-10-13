@@ -1,0 +1,139 @@
+{
+  "id": "three-colts-tavern",
+  "name": "Three Colts Tavern (Glue Factory)",
+  "zone": "core",
+  "aliases": [
+    "Fugitive Motel"
+  ],
+  "address": "199 Cambridge Heath Road, London",
+  "postcode": "E2 0EL",
+  "website": "https://www.threecoltstavern.co.uk/",
+  "summary": "A pub on Cambridge Heath Road, run by Exale Brewing, that calls itself a modern East End pub. Its events include quizzes, DJ sets, drag bingo, stand-up and live music.",
+  "music": {
+    "styles": [
+      "choro"
+    ],
+    "notes": "A fortnightly Brazilian choro jam, stand-up and open-spot comedy, a fortnightly quiz, and DJ nights including an alt 80s night played on vinyl."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/",
+      "quote": "Three Colts Tavern is a modern East End pub under the stewardship of Walthamstow’s Exale brewing.",
+      "retrieved_at": "2026-10-13T00:11:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/",
+      "quote": "We host Quiz nights, DJs, Drag bingo, Comedy nights, Live music and more",
+      "retrieved_at": "2026-10-13T00:11:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "aliases"
+      ],
+      "url": "https://camra.org.uk/pubs/three-colts-tavern-bethnal-green-154899",
+      "quote": "Originally Fugitive Motel. Now run by Exale Brewing. 14 Keg lines and cask available.",
+      "retrieved_at": "2026-10-13T00:12:32Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/events",
+      "quote": "This fortnightly roda jam brings together musicians to explore Choro: Brazil’s spirited, syncopated instrumental music",
+      "retrieved_at": "2026-10-13T00:11:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/events",
+      "quote": "Join Long face comedy for a night of stand-up comedy every other Monday at the Glue Factory- Three Colts Tavern!",
+      "retrieved_at": "2026-10-13T00:11:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/events",
+      "quote": "Think your funny enough for 5 minutes on stage?",
+      "retrieved_at": "2026-10-13T00:11:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/events",
+      "quote": "Join us for our fortnightly Colts Quiz",
+      "retrieved_at": "2026-10-13T00:11:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/events",
+      "quote": "Join us for an Alt 80s night spun on vinyl",
+      "retrieved_at": "2026-10-13T00:11:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://camra.org.uk/pubs/three-colts-tavern-bethnal-green-154899",
+      "quote": "Step free access. Accessible toilet.",
+      "retrieved_at": "2026-10-13T00:10:20Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://camra.org.uk/pubs/three-colts-tavern-bethnal-green-154899",
+      "quote": "199 Cambridge Heath Road, Bethnal Green, E2 0EL",
+      "retrieved_at": "2026-10-13T00:10:20Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:40:36Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:40:36Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

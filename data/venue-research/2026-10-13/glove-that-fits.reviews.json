@@ -1,0 +1,16 @@
+{
+  "venue_id": "glove-that-fits",
+  "venue_name": "The Glove That Fits (and Gloves Off garden)",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [],
+  "not_found": [
+    "summary",
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "No findings. The venue's site (glovethatfits.com, and glovethatfits.co.uk) was refused by page_text.py (robots.txt unreachable), so it was left alone. No press review found: the WebSearch budget was used up before this run's searches."
+}

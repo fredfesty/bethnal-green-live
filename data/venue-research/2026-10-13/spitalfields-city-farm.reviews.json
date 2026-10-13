@@ -1,0 +1,56 @@
+{
+  "venue_id": "spitalfields-city-farm",
+  "venue_name": "Spitalfields City Farm",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:27:03Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A city farm on Buxton Street, E1, begun in 1978 on the site of a former railway depot. The farm says it is the closest city farm to the square mile of the City of London.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.spitalfieldscityfarm.org/our-history",
+          "quote": "Sited on a former railway goods depot, the Farm was started in 1978 in response to local people’s wishes",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.spitalfieldscityfarm.org/about-us",
+          "quote": "Spitalfields City Farm is the nearest city farm to the City of London’s square mile.",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The farm says its aim is to be a welcoming farm for all, connecting people of all ages to food, animals and nature.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.spitalfieldscityfarm.org/about-us",
+          "quote": "Our Purpose is to sustain and develop a welcoming city farm that connects people of all ages and culture to food, animals and nature.",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Only the farm's own pages were readable; no press review was found, so the summary and crowd rest on primary sources. The about page carries an annual report for 2024-25 but no page date, so no source_date is given. Opening hours and address are for the facts researcher."
+}

@@ -1,0 +1,129 @@
+{
+  "id": "george-tavern",
+  "name": "The George Tavern",
+  "zone": "fringe",
+  "address": "373 Commercial Road, London",
+  "postcode": "E1 0LA",
+  "summary": "A pub and live music venue on Commercial Road. The listings site ma.to describes it as a historic, independent venue that also runs karaoke, performance art and other creative programming.",
+  "music": {
+    "styles": [
+      "indie",
+      "art rock",
+      "synth-pop",
+      "punk",
+      "uk rap"
+    ],
+    "notes": "Live bands and album launches, karaoke nights, and DJ and club nights, according to ma.to and its DICE page."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "capacity": 150,
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://ma.to/venue/thegeorgetavern",
+      "quote": "The George Tavern is a historic, independent live music venue and vibrant community cultural hub located in East London",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://ma.to/venue/thegeorgetavern",
+      "quote": "On quieter evenings, it operates as a candlelit pub space",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://ma.to/venue/thegeorgetavern",
+      "quote": "Beyond concerts and album launch parties, the venue facilitates creative programming like karaoke nights, performance art, and singles mixers.",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://ma.to/venue/thegeorgetavern",
+      "quote": "The space hosts a wide range of genres, including indie, art rock, synth-pop, punk, and UK rap.",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "The George Tavern Karaoke (Free Entry)",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "TGT: TATYANA Midnight Takeover Clubnight",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://ma.to/venue/thegeorgetavern",
+      "quote": "A marathon session of live music and DJ sets from the Bathtime crew.",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "capacity"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "Capacity 150",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "373 Commercial Rd, London E1 0LA, UK",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:49:03Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:49:03Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "venue_id": "columbia-road",
+  "venue_name": "Columbia Road (Flower Market & shops)",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:23:52Z",
+  "findings": [
+    {
+      "field": "music.notes",
+      "value": "A free street festival with music and dance on London's Day of the Dead, a Saturday at the end of October; the shops also stay open late on Christmas Wednesdays.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://columbiaroad.info/",
+          "quote": "bringing music, dance, flowers, costume and procession to one of East London’s best-known streets. This is a free festival.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://columbiaroad.info/news/",
+          "quote": "Saturday 31 October 2026 | From 12pm | Free",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://columbiaroad.info/news/",
+          "quote": "For many years, the Columbia Road shops have stayed open for late night Christmas shopping 5-9pm every Wednesday in the lead up to 25th December.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types (a street market; no type from the list is quotable)",
+    "music.styles (no genre named)",
+    "cost.notes (no general pricing; the festival is free on its own page)"
+  ],
+  "notes": "A Sunday street market, so its programme is seasonal street events rather than nights. Upcoming: London's Day of the Dead, Sat 31 Oct 2026 from 12pm, free. Past: the 2025 edition was Sat 1 Nov 2025, midday to 5pm. Christmas Wednesdays (shops open 5 to 9pm) ran each year before Christmas; carol singing is mentioned only in the 2022 and 2023 posts, so do not present singing as current. Market hours on the venue's own site: Sundays from 8am 'til 3'ish."
+}

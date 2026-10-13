@@ -1,0 +1,91 @@
+{
+  "venue_id": "satans-whiskers",
+  "venue_name": "Satan's Whiskers",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:25:15Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A cocktail bar on Cambridge Heath Road, open since late 2013, with a menu that changes often. Time Out gave it five out of five stars.",
+      "source_date": "2025-07-21",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.satanswhiskers.com/",
+          "quote": "Satan’s Whiskers is Bethnal Green’s original neighbourhood cocktail bar, first opening the doors LATE 2013.",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/bars-and-pubs/satans-whiskers",
+          "quote": "5 out of 5 stars",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/bars-and-pubs/satans-whiskers",
+          "quote": "Their menu changes often",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "Time Out calls it a laid-back neighbourhood hangout rather than a high-end cocktail bar.",
+      "source_date": "2025-07-21",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.timeout.com/london/bars-and-pubs/satans-whiskers",
+          "quote": "it’s more of a laid-back neighbourhood hangout than an out-of-place, high-end cocktail bar",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "hip hop"
+      ],
+      "source_date": "2025-07-21",
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.timeout.com/london/bars-and-pubs/satans-whiskers",
+          "quote": "Inside, there’s hip hop on the stereo",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.satanswhiskers.com/",
+          "quote": "all to our now infamous hip-hop soundtrack.",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "aliases",
+    "music.notes",
+    "status"
+  ],
+  "notes": "Venue's own site and Time Out review (21 July 2025) read. The registry cites a Time Out Spirited Awards item (24 July 2026) that I could not reach by direct URL, so it is not quoted. No closing news found. WebSearch was unavailable this run."
+}

@@ -1,0 +1,48 @@
+{
+  "venue_id": "cell-project-space",
+  "venue_name": "Cell Project Space",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:32Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A contemporary art gallery and studio organisation on Cambridge Heath Road in Bethnal Green, founded in 1999 and based here since 2003. Its own history says a ground-floor event space was added in 2019.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.cellprojects.org/node/2033",
+          "quote": "Founded in 1999, Cell Project Space was built by artists Milika Muritu & Richard Priestley",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.cellprojects.org/node/2033",
+          "quote": "In 2003, the gallery and HQ relocated to our current Bethnal Green site, on Cambridge Heath Rd",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.cellprojects.org/node/2033",
+          "quote": "a recent new addition of a ground-floor multi-purpose event space, opened in the summer 2019",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status (no closure or new-owner news found; the closing and new-owner searches were not run because the search budget ran out)"
+  ],
+  "notes": "The Cell history page has no date, so no source_date is set. Its own site lists a forthcoming exhibition opening 7 October and a screening on 12 October (programme researcher's field). I found no independent review or press article about Cell in the searches I could run."
+}

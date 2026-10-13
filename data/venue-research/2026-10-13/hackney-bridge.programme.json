@@ -1,0 +1,13 @@
+{
+  "venue_id": "hackney-bridge",
+  "venue_name": "Hackney Bridge (incl. Nico's bar)",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:27:31Z",
+  "findings": [],
+  "not_found": [
+    "types, music.styles, music.notes: the venue's own pages (www.hackneybridge.co.uk: home, /whats-on, /events, /about, /nicos) returned no readable text, as they are built by script",
+    "Past listings: none in data/events or data/candidates for this venue",
+    "DICE or other ticketing page: not found (dice.fm guesses returned 404)"
+  ],
+  "notes": "The site's robots.txt allows crawling and the sitemap holds only a '/lander' page, so there is nothing here to quote. WebSearch was used up for this turn, so no press or directory listings were found. The editor should leave the programme fields as they are until a researcher can read the what's-on."
+}

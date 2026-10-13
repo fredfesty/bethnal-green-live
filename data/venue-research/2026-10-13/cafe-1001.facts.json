@@ -1,0 +1,130 @@
+{
+  "venue_id": "cafe-1001",
+  "venue_name": "Café 1001",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:25:50Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "91 Brick Lane, London E1 6QL",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.cafe1001.co.uk/contact/",
+          "quote": "91 Brick Lane",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 6QL",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.cafe1001.co.uk/contact/",
+          "quote": "91 Brick Lane, London, E1 6QL",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.cafe1001.co.uk",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.cafe1001.co.uk/",
+          "quote": "Welcome to Café 1001, Brick Lane’s long established cultural hang out.",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "age_policy",
+      "value": "18+ after 19:00",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://www.cafe1001.co.uk/faqs/",
+          "quote": "We are 18+ after 19:00",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.free_entry",
+      "value": "some-nights",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.free_entry",
+            "cost.notes"
+          ],
+          "url": "https://www.cafe1001.co.uk/faqs/",
+          "quote": "95% of the time we offer free entry, and sometimes we host ticketed events",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Entry is usually free, but some events are ticketed. Larger bookings need a £10 per person deposit.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.cafe1001.co.uk/faqs/",
+          "quote": "For larger bookings, there is a £10 per person deposit",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The venue describes itself as a split-level venue, but its site does not say whether there are steps, a lift or an accessible toilet.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.cafe1001.co.uk/",
+          "quote": "in our split-level venue",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free (split-level is stated, but not whether a step-free route exists)",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page (the site has no access page; FAQs and contact have no access detail)",
+    "capacity",
+    "status (the site shows normal opening hours and a current events listing, with no closure notice)"
+  ],
+  "notes": "Pages read: home, contact, faqs. The FAQ has more practical detail (dogs, cloakroom, booking times) that is not in these findings, so the editor may want to check it before using it."
+}

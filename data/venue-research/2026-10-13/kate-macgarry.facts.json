@@ -1,0 +1,65 @@
+{
+  "venue_id": "kate-macgarry",
+  "venue_name": "Kate MacGarry",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "27 Old Nichol Street, London E2 7HR",
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.katemacgarry.com/contact/",
+          "quote": "27 Old Nichol Street",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 7HR",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.katemacgarry.com/contact/",
+          "quote": "London E2 7HR",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.katemacgarry.com",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.katemacgarry.com/contact/",
+          "quote": "Kate MacGarry has expanded to represent over 25 emerging and established artists",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "The contact page gives the address and opening hours (Tuesday to Saturday, 11am to 5pm) but no access information; the site has no visit or access page. The hours are not a profile field, so they are not proposed. Nothing on the gallery's pages about cost, age or capacity."
+}

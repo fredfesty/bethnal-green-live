@@ -1,0 +1,115 @@
+{
+  "venue_id": "rio-cinema",
+  "venue_name": "Rio Cinema",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:14:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "107 Kingsland High Street",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://riocinema.org.uk/Rio.dll/Home",
+          "quote": "107 Kingsland High Street",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E8 2PB",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.euansguide.com/venues/rio-cinema-london-8784/information",
+          "quote": "107 Kingsland High Street, London, Greater London, England, United Kingdom, E8 2PB",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://riocinema.org.uk",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://riocinema.org.uk/Rio.dll/Home",
+          "quote": "marking the 50 th anniversary of the cinema",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.step_free"],
+          "url": "https://www.euansguide.com/venues/rio-cinema-london-8784/information",
+          "quote": "Step free access to both screens + disabled toilets for both screens",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.accessible_toilet"],
+          "url": "https://www.euansguide.com/venues/rio-cinema-london-8784/information",
+          "quote": "A designated accessible toilet designed for wheelchair users and others with visible and non-visible accessibility requirements is available within the main public areas.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Automatic entrance doors. Each screen has step-free access and disabled toilets. These details come from Euan's Guide, which lists the cinema's own disabled access information, and are undated. For more detail, contact the manager by email.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.euansguide.com/venues/rio-cinema-london-8784/information",
+          "quote": "Disabled Access Information Provided by Rio Cinema",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.euansguide.com/venues/rio-cinema-london-8784/information",
+          "quote": "Automatic entrance doors, step free.",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.euansguide.com/venues/rio-cinema-london-8784/information",
+          "quote": "For additional detailed accessibility information, please contact: manager@riocinema.org.uk",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.hearing_loop",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "The cinema's own access page could not be read (connection reset on two tries), so all access facts come from Euan's Guide, a directory page that shows the cinema's own access information with no date. The editor should check against the cinema's own site before publishing, and consider source_kind directory for step_free and accessible_toilet. Capacity: Euan's Guide gives a 400-seat main auditorium and a 28-seat second screen; no whole-venue figure is stated, so capacity is left empty."
+}

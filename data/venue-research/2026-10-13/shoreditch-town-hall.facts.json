@@ -1,0 +1,197 @@
+{
+  "venue_id": "shoreditch-town-hall",
+  "venue_name": "Shoreditch Town Hall",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:21:07Z",
+  "findings": [
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://shoreditchtownhall.com/your-visit/access.html",
+          "quote": "We have self-contained accessible toilets with baby changing facilities.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The main entrance has a ramp to the ground floor (council chamber, mayor's parlour, front room bar, toilets). A passenger lift serves the basement (The Ditch) and first floor, including the Assembly Hall stalls and committee rooms. The second-floor balcony is reached only by 66 steps, with one rest area. A signposted quiet space is off the foyer during performances. Companion tickets are complimentary for the venue's own cultural programme.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://shoreditchtownhall.com/your-visit/access.html",
+          "quote": "allowing step-free access to our ground floor",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://shoreditchtownhall.com/your-visit/access.html",
+          "quote": "We can offer visitors a passenger lift providing step-free access to the basement",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://shoreditchtownhall.com/your-visit/access.html",
+          "quote": "our balcony on the second floor is only accessible via 66 steps with one rest area",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://shoreditchtownhall.com/your-visit/access.html",
+          "quote": "Our Quiet Space is available during performances for anyone who needs it.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://shoreditchtownhall.com/your-visit/access.html",
+          "quote": "We offer complimentary tickets for those who require an accompanying companion",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://shoreditchtownhall.com/your-visit/access.html",
+      "source_date": "2026-10-05",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.access_page"
+          ],
+          "url": "https://shoreditchtownhall.com/your-visit/access.html",
+          "quote": "Shoreditch Town Hall is committed to providing a welcoming environment",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "age_policy",
+      "value": "Under-16s must be accompanied by a paying adult; age limits can vary by production",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://shoreditchtownhall.com/your-visit/faqs.html",
+          "quote": "All people under the age of 16 must be accompanied by a paying adult.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://shoreditchtownhall.com/your-visit/faqs.html",
+          "quote": "Age restrictions can vary by production, so please check the performance page before booking.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Bookings carry a £2 fee per transaction. Concessions (students, under-25s, over-65s, unwaged, disabled people, and some local residents) apply to its own cultural programme; visiting companies set their own ticket types.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://shoreditchtownhall.com/your-visit/faqs.html",
+          "quote": "All bookings are subject to a £2 fee per transaction.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://shoreditchtownhall.com/your-visit/faqs.html",
+          "quote": "We offer concessions to full-time students, those under 25, over 65, unwaged patrons, people with registered disabilities",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "380 Old Street",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://shoreditchtownhall.com/your-visit/access.html",
+          "quote": "380 Old Street",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "EC1V 9LT",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://shoreditchtownhall.com/your-visit/contact-map.html",
+          "quote": "London EC1V 9LT",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://shoreditchtownhall.com/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://shoreditchtownhall.com/",
+          "quote": "Did you know Shoreditch Town Hall is a charity?",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free (not set: ground-floor ramp and lift are stated, but the second-floor balcony is 66 steps; see notes)",
+    "accessibility.hearing_loop (looked on the access and FAQ pages; none stated)",
+    "capacity (not stated on the access, contact or FAQ pages read; room hire pages returned 404 or no figure)",
+    "cost.free_entry (not stated as free or charged in general)"
+  ],
+  "notes": "Ground floor, basement and first floor are reachable without steps per the access page, but the balcony is not, so step_free is left for the editor. Address and postcode are from the venue's own contact page. The access page's own metadata gives 2026-10-05 as its last update."
+}

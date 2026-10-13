@@ -1,0 +1,48 @@
+{
+  "venue_id": "columbia-road-flower-market",
+  "venue_name": "Columbia Road Flower Market",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:14:56Z",
+  "findings": [
+    {
+      "field": "music.notes",
+      "value": "Two street events with music: London’s Day of the Dead, a free Saturday festival at the end of October or start of November, and Christmas Wednesdays, late shopping with carol singing before Christmas.",
+      "source_date": "2022-11-26",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://columbiaroad.info/",
+          "quote": "bringing music, dance, flowers, costume and procession to one of East London’s best-known streets",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://columbiaroad.info/news/",
+          "quote": "Saturday 31 October 2026 | From 12pm | Free",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://columbiaroad.info/news/",
+          "quote": "Shopping and singing on Columbia Road.",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types (a street market, no type from the list is quotable)",
+    "music.styles (no repeated genre named)",
+    "cost.notes (no general pricing found)"
+  ],
+  "notes": "A Sunday street market, so the programme is seasonal street events rather than nights. Past and upcoming seen: London’s Day of the Dead, Sat 31 Oct 2026 from 12pm, free; the 2025 edition was Sat 1 Nov 2025; Christmas Wednesdays, late shopping 5pm to 9pm before Christmas (carol singing in 2022 and 2023). No styles of music named across the posts read."
+}

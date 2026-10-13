@@ -1,0 +1,88 @@
+{
+  "venue_id": "the-approach",
+  "venue_name": "The Approach",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:38Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A high-ceilinged Victorian pub on Approach Road, near Victoria Park, serving real ales and kitchen food, with a contemporary art gallery on its first floor. Its own website describes the pub, and a 2014 Time Out listing describes the gallery upstairs.",
+      "source_date": "2024-11-24",
+      "evidence": [
+        {
+          "fields": [
+            "summary",
+            "types"
+          ],
+          "url": "https://theapproachtavern.co.uk/about-us/",
+          "quote": "a beautiful and welcoming high ceilinged stripped back Victorian pub",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://theapproachtavern.co.uk/about-us/",
+          "quote": "The Approach Tavern also has an internationally renowned contemporary art gallery located on the first floor.",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://theapproachtavern.co.uk/about-us/",
+          "quote": "a fine selection of real ales",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/bars-pubs/the-approach-tavern-1",
+          "quote": "Traditional boozer with a small art gallery upstairs",
+          "retrieved_at": "2026-10-13T00:09:03Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "types",
+      "value": [
+        "pub",
+        "gallery"
+      ],
+      "source_date": "2024-11-24",
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://theapproachtavern.co.uk/about-us/",
+          "quote": "a beautiful and welcoming high ceilinged stripped back Victorian pub",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.timeout.com/london/bars-pubs/the-approach-tavern-1",
+          "quote": "Traditional boozer with a small art gallery upstairs",
+          "retrieved_at": "2026-10-13T00:09:03Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "No review or news from the last six months found. Londonist (2014, updated 2025) and Time Out (2014) describe quiet-night atmosphere and jazzy music, but both are over five years old, so not used for crowd or music. Pubology lists the pub as open with no date. WebSearch budget ran out before the closing or new-owner search was completed, so status news is unverified."
+}

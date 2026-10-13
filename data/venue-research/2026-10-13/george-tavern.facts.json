@@ -1,0 +1,63 @@
+{
+  "venue_id": "george-tavern",
+  "venue_name": "The George Tavern",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:28:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "373 Commercial Road, London E1 0LA",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address", "postcode"],
+          "url": "https://dice.fm/venue/the-george-tavern-kx88",
+          "quote": "373 Commercial Rd, London E1 0LA, UK",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 0LA",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://dice.fm/venue/the-george-tavern-kx88",
+          "quote": "373 Commercial Rd, London E1 0LA, UK",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "capacity",
+      "value": 150,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["capacity"],
+          "url": "https://dice.fm/venue/the-george-tavern-kx88",
+          "quote": "Capacity 150",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website (no readable own site: thegeorgetavern.com returned an empty page to the reader; linktr.ee/thegeorgetavern is refused because its robots.txt disallows our bot)",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry (DICE shows per-event prices and some 'From free' karaoke nights, which are per event and not recorded)",
+    "cost.notes",
+    "age_policy",
+    "AccessAble entry (venue URL guess returned its home page; web search budget used up in this run)"
+  ],
+  "notes": "Do not use thegeorgetavern.co.uk (a finger-food catering firm, not this venue) or georgetavern.com (a restaurant in Denison, Texas). Capacity 150 and the address come from the venue's own DICE page, which is its page on a ticketing site, and that page has no access, age or pricing statement. The venue's own site needs finding before the access questions can be answered."
+}

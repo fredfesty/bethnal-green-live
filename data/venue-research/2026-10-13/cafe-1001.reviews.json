@@ -1,0 +1,120 @@
+{
+  "venue_id": "cafe-1001",
+  "venue_name": "Café 1001",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:26:56Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A café by day and a hi-fi listening bar and disco by night on Brick Lane, broadcasting as Radio 1001.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.cafe1001.co.uk/",
+          "quote": "A combined Café, cocktail bar, lounge and disco.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.cafe1001.co.uk/",
+          "quote": "Hi-Fi By Night.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.cafe1001.co.uk/",
+          "quote": "Our love for music allowed Radio 1001 to be born, an incubator for talent new and established and a platform for DJs to showcase their talents.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://ma.to/venue/cafe_1001",
+          "quote": "Cafe 1001 has served as a cultural anchor in London for 25 years.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "Time Out says people come to check emails by day and to drink and hear a DJ after dark.",
+      "source_date": "2022-02-01",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.timeout.com/london/bars-and-pubs/cafe-1001",
+          "quote": "who gather to check emails by day, then glug lager and catch a DJ after dark",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "house",
+        "disco",
+        "funk",
+        "balearic",
+        "broken beat",
+        "uk garage"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://ma.to/venue/cafe_1001",
+          "quote": "The space features a wide-ranging programme including house, disco, funk, balearic, broken beat, and UK Garage.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "DJ sets and listening parties, with sets recorded for its Radio 1001 channel.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.cafe1001.co.uk/",
+          "quote": "All our sets are recorded and can be listened back to via archive below or on our YouTube channel.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/cafe_1001",
+          "quote": "Expect regular listening parties, DJ sets, and events like the midweek BYOV sessions.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "status",
+    "aliases"
+  ],
+  "notes": "Time Out's page (1 Feb 2022) is a review; its address and hours are facts for the facts aspect. The venue's site lists opening hours and says it works with DJs; no closure news. Songkick is refused and not used."
+}

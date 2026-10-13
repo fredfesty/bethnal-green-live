@@ -1,0 +1,67 @@
+{
+  "venue_id": "museum-of-the-home",
+  "venue_name": "Museum of the Home",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:56Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["gallery"],
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://museumofthehome.org.uk/",
+          "quote": "Step-free access is available to the Museum and to our galleries.",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Not a music venue. The programme is talks, family days, guided tours and workshops, plus a yearly ceramics fair and exhibit.",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://museumofthehome.org.uk/whats-on/",
+          "quote": "Join Marianna Kennedy, Ruth Guilding and Plain English Design for a conversation on Spitalfields’ enduring design influence.",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://museumofthehome.org.uk/",
+          "quote": "Discover what it was like to live in Hackney 200 years ago on tours of our restored 18th-century almshouse dwellings.",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://museumofthehome.org.uk/",
+          "quote": "The annual ceramics fair and exhibit returns to Museum of the Home, celebrating world-class artistry.",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Entry is free and no booking is needed to visit.",
+      "evidence": [
+        {
+          "fields": ["cost.notes", "cost.free_entry"],
+          "url": "https://museumofthehome.org.uk/",
+          "quote": "Entry is free. No booking is required to visit.",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no music nights or genres found on the venue's pages",
+    "music.notes as music: no gigs or club nights found",
+    "age_policy and capacity: not looked for in this aspect"
+  ],
+  "notes": "Museum with a programme of events, not a music venue. Past or upcoming events seen on whats-on (13 Oct 2026): 'Spitalfields Fogeys and New Georgians' talk, Wed 21 Oct 2026, GBP 10 to 12; 'Light and Movement: Diwali Family Day', Tue 27 Oct 2026, free; 'Ceramics in the City 2026', Sat 3 to Sun 4 Oct 2026, free; 'Almshouse 14 Tours', every Wednesday, Saturday and Sunday. Open Tue to Sun, 10am to 5pm. Listings at the arts scout (exhibitions) and community scout (family days) are separate."
+}

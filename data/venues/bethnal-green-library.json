@@ -1,0 +1,114 @@
+{
+  "id": "bethnal-green-library",
+  "name": "Bethnal Green Library (Idea Store)",
+  "zone": "core",
+  "address": "Cambridge Heath Road, London",
+  "postcode": "E2 0HL",
+  "website": "https://www.ideastore.co.uk",
+  "summary": "A public library that opened in 1922, in Bethnal Green Gardens close to Cambridge Road, with two first-floor halls for hire.",
+  "music": {
+    "styles": [],
+    "notes": "A free community discussion event about death and grief, family storytelling and arts and crafts sessions, and adult education classes."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "notes": "Per the council's hire listing, the first floor, which houses the two hire halls, has no disabled access."
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Bethnal_Green_Library.aspx",
+      "quote": "The Library opened its doors in 1922 and is situated In Bethnal Green Gardens – off Cambridge Road",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Bethnal_Green_Library.aspx",
+      "quote": "There are two halls available for hire at this site.",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.ideastore.co.uk/",
+      "quote": "This is a free community event designed to open up conversations about death, dying, and grief.",
+      "retrieved_at": "2026-10-13T00:11:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.ideastore.co.uk/",
+      "quote": "From storytelling and arts and crafts to homework help and more, we've got something for everyone!",
+      "retrieved_at": "2026-10-13T00:11:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.ideastore.co.uk/",
+      "quote": "Idea Store Learning: Adult Education Classes",
+      "retrieved_at": "2026-10-13T00:11:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Bethnal_Green_Library.aspx",
+      "quote": "Please note that there is no disabled access to the 1st floor where the two halls are based.",
+      "retrieved_at": "2026-10-13T00:35:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.ideastore.co.uk/",
+      "quote": "Welcome to Idea Store",
+      "retrieved_at": "2026-10-13T00:35:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Bethnal_Green_Library.aspx",
+      "quote": "Cambridge Heath Road London E2 0HL",
+      "retrieved_at": "2026-10-13T00:35:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:46:24Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:46:24Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes: dropped unquoted 'talks'; accessibility.notes: dropped process comment"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "venue_id": "v-and-a-east",
+  "venue_name": "V&A East (Museum and Storehouse)",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:10:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["gallery"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.vam.ac.uk/east",
+          "quote": "With galleries, exhibitions and events spotlighting the people, ideas and creativity",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["garage"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026",
+          "quote": "spanning soca, amapiano, jungle, dubstep, garage and UK funky",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026",
+          "quote": "moving across Grime, Garage, Dance, UK Drill, R&B and Hip Hop",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A free DJ residency, upperground, on Thursday evenings in the museum's upper ground floor, with one guest DJ per edition. The sets are genre-fluid, spanning several styles. On until 17 December 2026, during the museum's public opening hours.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026",
+          "quote": "upperground is a new DJ residency at V&A East Museum",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026",
+          "quote": "activate the museum’s upper ground floor on Thursday evenings",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026",
+          "quote": "Each edition places the spotlight on one guest DJ",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026",
+          "quote": "Moving across genres, generations and geographies",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026",
+          "quote": "On now until Thursday, 17 December 2026",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026",
+          "quote": "Taking place during the museum’s public opening hours",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Museum entry is free; some exhibitions and events are charged separately.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["cost.notes"],
+          "url": "https://www.vam.ac.uk/east",
+          "quote": "Admission is free",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["cost.notes"],
+          "url": "https://www.vam.ac.uk/east",
+          "quote": "Some exhibitions and events carry a separate charge",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles beyond garage: grime, jungle, dubstep, soca and others appear on one night each, so not listed",
+    "a regular music night other than upperground: none seen"
+  ],
+  "notes": "Nights seen: upperground: DJ sets, Thursday 8 October 2026 (Cheza Lucina); Thursday 24 September 2026 (A.G); Thursday 17 September 2026 (Demae); Thursday 15 October 2026 (DRYBABE, next). Also the exhibition The Music is Black: A British Story, closing 10 January 2027. The event page gives 18.30 to 21.30 as the time; its structured data reads 19:30 as the start."
+}

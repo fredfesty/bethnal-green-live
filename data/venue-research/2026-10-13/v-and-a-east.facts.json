@@ -1,0 +1,106 @@
+{
+  "venue_id": "v-and-a-east",
+  "venue_name": "V&A East (Museum and Storehouse)",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:19:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "V&A East Storehouse, 2 Parkes Street, London. The V&A East Museum is at East Bank, 107 Carpenters Rd, London E20 2AR.",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode",
+            "website"
+          ],
+          "url": "https://www.vam.ac.uk/east",
+          "quote": "2 Parkes Street, London E20 3AX",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.vam.ac.uk/east",
+          "quote": "East Bank, 107 Carpenters Rd, Queen Elizabeth Olympic Park, Stratford, London E20 2AR",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E20 3AX",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.vam.ac.uk/east",
+          "quote": "2 Parkes Street, London E20 3AX",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.vam.ac.uk/east",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.vam.ac.uk/east",
+          "quote": "2 Parkes Street, London E20 3AX",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.free_entry",
+      "value": "always",
+      "evidence": [
+        {
+          "fields": [
+            "cost.free_entry",
+            "cost"
+          ],
+          "url": "https://www.vam.ac.uk/east",
+          "quote": "Admission is free",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Entry is free, though certain exhibitions and events cost extra. Members can come in without charge.",
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes",
+            "cost"
+          ],
+          "url": "https://www.vam.ac.uk/east",
+          "quote": "Some exhibitions and events carry a separate charge",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Two sites. Storehouse (2 Parkes Street, E20 3AX) is the postcode on the registry; the Museum is at East Bank, 107 Carpenters Rd, E20 2AR, and the editor may want both. The home page's 'Access information' links and 'Accessibility statement' link are not reachable from guessed URLs (all 404), so no access facts are confirmed. Opening times on the page: Daily 10.00-18.00, Thursday and Saturday to 22.00 (not a profile field)."
+}

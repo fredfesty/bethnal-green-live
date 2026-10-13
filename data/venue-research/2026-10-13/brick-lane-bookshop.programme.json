@@ -1,0 +1,42 @@
+{
+  "venue_id": "brick-lane-bookshop",
+  "venue_name": "Brick Lane Bookshop",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:10:00Z",
+  "findings": [
+    {
+      "field": "music.notes",
+      "value": "A bookshop that also hosts author talks and book launches, and a book club (not music).",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://bricklanebookshop.org/",
+          "quote": "Join Jessie Greengrass as she talks to Caroline Albertine Minor",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://bricklanebookshop.org/",
+          "quote": "Book Launch: Blessings by Caroline Albertine Minor (October 22nd)",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://bricklanebookshop.org/",
+          "quote": "French Book Club",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types: the registry's type list has no bookshop type, and no quote supports any listed type, so none proposed",
+    "music.styles: not applicable, no music nights seen",
+    "a recurring night with a fixed weekday: not found; the book club's schedule was not shown in the text read"
+  ],
+  "notes": "Upcoming seen: book launch for Blessings by Caroline Albertine Minor, 22 October 2026, 7pm (the homepage gives October 22nd | 7pm, with a talk with Jessie Greengrass); French Book Club (ticketed, date not read). Only the homepage was read in full; the /events/ address redirects to the homepage."
+}

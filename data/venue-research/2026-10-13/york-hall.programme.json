@@ -1,0 +1,40 @@
+{
+  "venue_id": "york-hall",
+  "venue_name": "York Hall",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:14:56Z",
+  "findings": [
+    {
+      "field": "music.notes",
+      "value": "Main hall is an indoor arena for sports, concerts, fairs, conferences and parties; the building is known for boxing history. No dated gig or club night found.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://be-well.org.uk/centres/york-hall-leisure-centre/",
+          "quote": "its main hall serves as a versatile indoor arena, hosting a spectrum of events, from sports and concerts to fairs, conferences, and parties.",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://be-well.org.uk/centres/york-hall-leisure-centre/",
+          "quote": "celebrated as the spiritual home of British Boxing",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types (no type from the list stated on the page)",
+    "music.styles (no genre named)",
+    "cost.notes (no general pricing found)",
+    "dated gig, club or boxing nights (none found)"
+  ],
+  "notes": "The operator's page (Be Well, Tower Hamlets) describes the main hall as an arena for sports, concerts, fairs, conferences and parties. No dated gig, club or boxing night was found. The operator's page also carries a temporary-closure notice, undated (see final message). The venue's own site could not be read (robots.txt unreachable); the Be Well page is the only operator page used."
+}

@@ -1,0 +1,136 @@
+{
+  "venue_id": "three-colts-tavern",
+  "venue_name": "Three Colts Tavern (Glue Factory)",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:56Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "pub",
+        "comedy",
+        "live-music",
+        "open-mic"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.threecoltstavern.co.uk/",
+          "quote": "Three Colts Tavern is a modern East End pub under the stewardship of Walthamstow’s Exale brewing.",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.threecoltstavern.co.uk/",
+          "quote": "We host Quiz nights, DJs, Drag bingo, Comedy nights, Live music and more",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.threecoltstavern.co.uk/events",
+          "quote": "Think your funny enough for 5 minutes on stage?",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "choro",
+        "80s"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.threecoltstavern.co.uk/events",
+          "quote": "This fortnightly roda jam brings together musicians to explore Choro: Brazil’s spirited, syncopated instrumental music",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.threecoltstavern.co.uk/events",
+          "quote": "Join us for an Alt 80s night spun on vinyl",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Mostly nights rather than gigs: a fortnightly Brazilian choro jam on Mondays, a fortnightly Monday stand-up open spot, a fortnightly Wednesday pub quiz and a Thursday comedy night. Weekend DJ nights (a monthly party-classics night and an 80s vinyl night), plus monthly life-drawing classes.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.threecoltstavern.co.uk/events",
+          "quote": "Join Long face comedy for a night of stand-up comedy every other Monday at the Glue Factory- Three Colts Tavern!",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.threecoltstavern.co.uk/events",
+          "quote": "Join us for our fortnightly Colts Quiz",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.threecoltstavern.co.uk/events",
+          "quote": "Deejay Merv Mayfield: The Melting Pot: Party Classics From Across The Genres",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.threecoltstavern.co.uk/events",
+          "quote": "Classes are held monthly (various dates) from 6:30 PM to 8 PM",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Quiz entry is GBP 2 a person, paid into the cash jackpot.",
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.threecoltstavern.co.uk/events",
+          "quote": "£2 entry per person! (this goes straight into the jackpot)",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "cost.notes beyond quiz entry: no general pricing found",
+    "age_policy: not looked for in this aspect",
+    "capacity: not looked for in this aspect"
+  ],
+  "notes": "Pub with a regular programme of nights, and a private room called the Glue Factory. Nights seen on the venue's own events page: 'Hello, how are you? Comedy night', Thu 15 Oct 2026; 'Brazillian Choro Jam', Mon 19 Oct 2026; 'stand on the word' (Alt 80s night), Sat 17 Oct 2026; 'the colts pub quiz', Wed 21 Oct 2026; 'merv mayfield (DJ) the melting pot', Sat 24 Oct 2026. CAUTION: the comedy night's text says 'every Thursday in Covent Garden', which looks copied from another listing, so do not repeat it. Drag bingo is named on the homepage, but no dated drag night was seen."
+}

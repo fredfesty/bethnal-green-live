@@ -1,0 +1,50 @@
+{
+  "venue_id": "whitechapel-gallery",
+  "venue_name": "Whitechapel Gallery",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:35Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A public art gallery in a former library building on Whitechapel High Street, founded in 1901, with nine exhibition spaces.",
+      "source_date": "2026-08-19",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.whitechapelgallery.org/about/",
+          "quote": "the Gallery was founded in 1901 to enrich the cultural offer for the people of East London",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.whitechapelgallery.org/about/",
+          "quote": "Our historic building, which incorporates the former Whitechapel Public Library, houses nine exhibition spaces",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "Its own website says its participation programmes put local communities first.",
+      "source_date": "2026-08-19",
+      "evidence": [
+        {
+          "fields": ["crowd"],
+          "url": "https://www.whitechapelgallery.org/about/",
+          "quote": "Our Participation programmes prioritise our local communities",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "No named-publication review was found in the searches available (the search budget ran out before a second press search). The summary rests on the gallery's own About page. Status: no closure or opening news found."
+}

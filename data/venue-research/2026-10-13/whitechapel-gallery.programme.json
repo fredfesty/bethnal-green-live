@@ -1,0 +1,83 @@
+{
+  "venue_id": "whitechapel-gallery",
+  "venue_name": "Whitechapel Gallery",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:10:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["gallery"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.whitechapelgallery.org/about/",
+          "quote": "houses nine exhibition spaces, a fully equipped auditorium",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Exhibitions, plus a programme of talks, screenings, relaxed-hours viewings, workshops and livestreams. Some events are ticketed. No music night seen on the pages read.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.whitechapelgallery.org/about/",
+          "quote": "Main Entrance is free and gives access to an inspiring and dynamic programme of exhibitions, displays, screenings, talks and events.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.whitechapelgallery.org/events-2-2/",
+          "quote": "Relaxed Hours: Cecilia Vicuña",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.whitechapelgallery.org/events-2-2/",
+          "quote": "Visitors of all ages are invited into this participatory workshop",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.whitechapelgallery.org/events-2-2/",
+          "quote": "Livestream – Art Futures: Platforms for Dissent with Tania Bruguera and Pankaj Mishra",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "The main entrance is free; some exhibitions and events are ticketed.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["cost.notes"],
+          "url": "https://www.whitechapelgallery.org/about/",
+          "quote": "Some exhibitions and events are ticketed.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["cost.notes"],
+          "url": "https://www.whitechapelgallery.org/about/",
+          "quote": "Main Entrance is free",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no music genres or music nights found on the pages read",
+    "a recurring night (weekly or monthly): none found; the events list is one-off events, tours and exhibitions"
+  ],
+  "notes": "Events seen: Relaxed Hours: Cecilia Vicuña, 27 Oct 2026; The Mini Ropery (rope-making workshop), 28 Oct to 1 Nov 2026; Livestream, Art Futures: Platforms for Dissent, 19 Nov 2026 (£5 livestream, £15 in person); BSL Tour: Cecilia Vicuña, 25 Nov 2026; exhibition Cecilia Vicuña: Foraging Quipu, 7 Oct to 14 Feb."
+}

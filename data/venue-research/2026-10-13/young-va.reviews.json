@@ -1,0 +1,70 @@
+{
+  "venue_id": "young-va",
+  "venue_name": "Young V&A",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:26:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A free museum for children, young people and families on Cambridge Heath Road, in the building that was the V&A Museum of Childhood. Its interactive galleries are built around Play, Imagine and Design.",
+      "source_date": "2023-03-01",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.vam.ac.uk/young",
+          "quote": "the museum where children, young people and families can imagine, play and design",
+          "retrieved_at": "2026-10-13T00:26:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://londonist.com/london/museums-and-galleries/young-v-a-opens-july-2023-museum-of-childhood",
+          "quote": "now flaunts a wealth of interactive elements, centred around three galleries: Play, Imagine and Design",
+          "retrieved_at": "2026-10-13T00:26:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.vam.ac.uk/young",
+          "quote": "Admission is free",
+          "retrieved_at": "2026-10-13T00:26:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The venue says it is for children, young people and families.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["crowd"],
+          "url": "https://www.vam.ac.uk/young",
+          "quote": "the museum where children, young people and families can imagine, play and design",
+          "retrieved_at": "2026-10-13T00:26:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "aliases",
+      "value": ["V&A Museum of Childhood"],
+      "source_date": "2021-10-01",
+      "evidence": [
+        {
+          "fields": ["aliases"],
+          "url": "https://www.museumsassociation.org/museums-journal/news/2021/10/va-renames-childhood-museum-as-part-of-revamp/",
+          "quote": "London’s V&A Museum of Childhood has been renamed Young V&A",
+          "retrieved_at": "2026-10-13T00:26:00Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "status"
+  ],
+  "notes": "Sources: the venue's own page (current, lists events to Nov 2026), Londonist (March 2023, before reopening) and Museums Association (rename, Oct 2021). No press review of the museum found in this aspect. The rename and reopening are history, not news, so they are in the summary and not in status. Venue has no music programme on its own page. The venue's listed exhibition closes 15 Nov 2026 and is for the programme researcher."
+}

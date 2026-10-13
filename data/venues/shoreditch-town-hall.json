@@ -1,0 +1,218 @@
+{
+  "id": "shoreditch-town-hall",
+  "name": "Shoreditch Town Hall",
+  "zone": "outer",
+  "address": "380 Old Street, London",
+  "postcode": "EC1V 9LT",
+  "website": "https://shoreditchtownhall.com/",
+  "summary": "A charity-run arts and events venue in an 1865 building on Old Street, with performances, community and family events, and space for hire.",
+  "music": {
+    "styles": [],
+    "notes": "Theatre and performance art; current listings include a tea dance, dance classes and a musical."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "notes": "Step-free to the ground floor, with a passenger lift to the basement. The second-floor balcony is reached only by 66 steps. A quiet space is open during performances, and companion tickets are free.",
+    "access_page": "https://shoreditchtownhall.com/your-visit/access.html"
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Bookings carry a £2 fee per transaction. Concessions are offered for full-time students, people under 25 or over 65, the unwaged and people with registered disabilities."
+  },
+  "age_policy": "Under-16s must be accompanied by a paying adult; age limits can vary by production.",
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://shoreditchtownhall.com/",
+      "quote": "Did you know Shoreditch Town Hall is a charity?",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://shoreditchtownhall.com/",
+      "quote": "Host your next event at Shoreditch Town Hall",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/theatre/shoreditch-town-hall",
+      "quote": "Shoreditch Town Hall is a grand old 1865 building that fills its capacious rooms with a determinedly experimental collection of performance art and theatre shows.",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://shoreditchtownhall.com/whats-on",
+      "quote": "Community & Family",
+      "retrieved_at": "2026-10-13T00:14:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://shoreditchtownhall.com/",
+      "quote": "Town Hall Tea Dance & Beginners' Dance Class Autumn 2026",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://shoreditchtownhall.com/whats-on",
+      "quote": "Ceilidh The Musical",
+      "retrieved_at": "2026-10-13T00:14:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes"
+      ],
+      "url": "https://shoreditchtownhall.com/your-visit/access.html",
+      "quote": "allowing step-free access to our ground floor",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes"
+      ],
+      "url": "https://shoreditchtownhall.com/your-visit/access.html",
+      "quote": "We can offer visitors a passenger lift providing step-free access to the basement",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://shoreditchtownhall.com/your-visit/access.html",
+      "quote": "We have self-contained accessible toilets with baby changing facilities.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://shoreditchtownhall.com/your-visit/access.html",
+      "quote": "our balcony on the second floor is only accessible via 66 steps with one rest area",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://shoreditchtownhall.com/your-visit/access.html",
+      "quote": "Our Quiet Space is available during performances for anyone who needs it.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://shoreditchtownhall.com/your-visit/access.html",
+      "quote": "We offer complimentary tickets for those who require an accompanying companion",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.access_page"
+      ],
+      "url": "https://shoreditchtownhall.com/your-visit/access.html",
+      "quote": "Shoreditch Town Hall is committed to providing a welcoming environment",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://shoreditchtownhall.com/your-visit/faqs.html",
+      "quote": "All people under the age of 16 must be accompanied by a paying adult.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://shoreditchtownhall.com/your-visit/faqs.html",
+      "quote": "Age restrictions can vary by production, so please check the performance page before booking.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://shoreditchtownhall.com/your-visit/faqs.html",
+      "quote": "All bookings are subject to a £2 fee per transaction.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://shoreditchtownhall.com/your-visit/faqs.html",
+      "quote": "We offer concessions to full-time students, those under 25, over 65, unwaged patrons, people with registered disabilities",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://shoreditchtownhall.com/your-visit/access.html",
+      "quote": "380 Old Street",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://shoreditchtownhall.com/your-visit/contact-map.html",
+      "quote": "London EC1V 9LT",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:44:31Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:44:31Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes: cut unquoted 'mainly', 'workshops'; accessibility.notes: cut unquoted lift to first floor"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

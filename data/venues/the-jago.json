@@ -1,0 +1,206 @@
+{
+  "id": "the-jago",
+  "name": "The Jago",
+  "zone": "outer",
+  "address": "440 Kingsland Road, Dalston, London",
+  "postcode": "E8 4AA",
+  "website": "https://www.thejagodalston.com/",
+  "summary": "A grassroots live music venue and events space on Kingsland Road in Dalston that also hosts dance, performance and film screenings.",
+  "music": {
+    "styles": [
+      "jazz",
+      "soul",
+      "afrobeats",
+      "reggae",
+      "disco"
+    ],
+    "notes": "Regular jam sessions, vinyl-only dance nights, and evenings with live music, DJs, street dance and art."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "notes": "Until planned refurbishment is complete, the venue cannot guarantee step-free entry to its first-floor music room. Guide dogs are welcome, and guests with access needs can contact the venue in advance.",
+    "access_page": "https://www.thejagodalston.com/access/"
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "The cloakroom charges £2 per item for a coat, jacket or small bag."
+  },
+  "age_policy": "18 and over; daytime events and certain ticketed events admit over-16s.",
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.thejagodalston.com/",
+      "quote": "Grassroots Live Music Venue and Multi-functional Events Space",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.thejagodalston.com/about/",
+      "quote": "we host a range of live music events, dance, performance, film screenings, workshops",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.thejagodalston.com/contact/",
+      "quote": "440 Kingsland Road Dalston London E8 4AA",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://ma.to/venue/thejagodalston",
+      "quote": "Experience energetic jam sessions and curated all-vinyl parties highlighting genres such as afrobeats, reggae, disco, salsa, and nu-jazz.",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://ma.to/venue/thejagodalston",
+      "quote": "Live jazz, soul, hip-hop and Afrobeats from London jam collectives",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.thejagodalston.com/",
+      "quote": "TOTAL IMPRO JAM SESSION",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.thejagodalston.com/",
+      "quote": "Move Your Boots x Bliss Out",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.thejagodalston.com/",
+      "quote": "CARAVAN: The October edition",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://ma.to/venue/thejagodalston",
+      "quote": "Live music, street dance, DJs and art at The Jago until 1am.",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://ma.to/venue/thejagodalston",
+      "quote": "Vinyl-only dance night with georgemapplebeck b2b blissoutlive",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.thejagodalston.com/access/",
+      "quote": "Until this work is completed we will not be able to promise level access to the first floor venue.",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.thejagodalston.com/access/",
+      "quote": "Guide Dogs welcome.",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.thejagodalston.com/faq/",
+      "quote": "Please send your request in advance of the event to hello@thejagodalston.com",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.access_page"
+      ],
+      "url": "https://www.thejagodalston.com/access/",
+      "quote": "Everyone at The JAGO welcomes customers who may require accessibility assistance.",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.thejagodalston.com/faq/",
+      "quote": "charges £2 per item (coat, jacket or small bag)",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://www.thejagodalston.com/faq/",
+      "quote": "Our policy at The Jago is to allow only those 18 years of age or over on the premises.",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://www.thejagodalston.com/faq/",
+      "quote": "The only exceptions are daytime events and certain ticketed events at which we will allow those over the age of 16 to attend.",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:49:48Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:49:48Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes: cut event-name links the quotes don't make (Move Your Boots, CARAVAN) and 'live gigs'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

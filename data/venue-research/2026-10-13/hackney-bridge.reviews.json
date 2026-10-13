@@ -1,0 +1,83 @@
+{
+  "venue_id": "hackney-bridge",
+  "venue_name": "Hackney Bridge (incl. Nico's bar)",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A food, drink, community and events site beside the canal at Hackney Wick, with street food traders, a garden, a weekend flea market, a club-night event space and a late-night cocktail bar called Nico's.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://hackneybridge.org/",
+          "quote": "Food, Drink, Community, Events and Sports Screenings",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://hackneybridge.org/",
+          "quote": "Hackney Wick Canal Side",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://hackneybridge.org/",
+          "quote": "our newest late-night cocktail spot situated at the corner of Hackney Bridge",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://hackneybridge.org/",
+          "quote": "Our weekend flea market is home to vintage finds, clothing, art and more",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Its event space hosts club nights and corporate events, including a listening-session format with live performance and a club night.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://hackneybridge.org/",
+          "quote": "Our event space plays host to club nights and corporate events",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://hackneybridge.org/",
+          "quote": "SENSORIAL: SCENE THREE (Listening Session + Live Performance + Club Night)",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd (no source describes who goes)",
+    "status (site says it is open Tuesday to Sunday; no closure news)",
+    "aliases (none found)",
+    "music.styles (no genre named by the venue)"
+  ],
+  "notes": "WebSearch budget was used up for this turn. The venue's own site is hackneybridge.org; the registry lists website null. Its about page says 'we acquired Hackney Bridge in 2023'. Its what's-on sub-page returns 404; the home page lists the events quoted."
+}

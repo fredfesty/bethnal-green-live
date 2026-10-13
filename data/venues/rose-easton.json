@@ -1,0 +1,54 @@
+{
+  "id": "rose-easton",
+  "name": "Rose Easton",
+  "zone": "core",
+  "summary": "A gallery under Rose Easton's name. Plaster magazine's 2024 guide to the area says it combines art and fashion in its shows.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://plastermagazine.com/features/all-hail-the-bethnal-green-art-boom/",
+      "quote": "Rose Easton’s eponymous gallery",
+      "retrieved_at": "2026-10-13T00:12:38Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://plastermagazine.com/features/all-hail-the-bethnal-green-art-boom/",
+      "quote": "has been expertly combining art and fashion with playful shows",
+      "retrieved_at": "2026-10-13T00:12:38Z",
+      "source_kind": "press"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:41:11Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:41:11Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

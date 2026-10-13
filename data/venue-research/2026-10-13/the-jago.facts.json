@@ -1,0 +1,149 @@
+{
+  "venue_id": "the-jago",
+  "venue_name": "The Jago",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:27:25Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://www.thejagodalston.com/",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.thejagodalston.com/",
+          "quote": "Grassroots Live Music Venue and Multi-functional Events Space",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "440 Kingsland Road, Dalston, London E8 4AA",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://www.thejagodalston.com/contact/",
+          "quote": "440 Kingsland Road Dalston London E8 4AA",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E8 4AA",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.thejagodalston.com/contact/",
+          "quote": "440 Kingsland Road Dalston London E8 4AA",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "age_policy",
+      "value": "18 and over. Some daytime and certain ticketed events admit 16 and over, with under-18s kept to the music venue only.",
+      "evidence": [
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://www.thejagodalston.com/faq/",
+          "quote": "Our policy at The Jago is to allow only those 18 years of age or over on the premises.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://www.thejagodalston.com/faq/",
+          "quote": "The only exceptions are daytime events and certain ticketed events at which we will allow those over the age of 16 to attend.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://www.thejagodalston.com/access/",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.access_page"
+          ],
+          "url": "https://www.thejagodalston.com/access/",
+          "quote": "Everyone at The JAGO welcomes customers who may require accessibility assistance.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Level access to the first-floor music venue cannot be promised yet. The venue plans refurbishment to add access to both floors and washrooms, but it is still at the planning stage. Guests with mobility needs can ask in advance by email or phone. Guide dogs are welcome.",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.thejagodalston.com/access/",
+          "quote": "Until this work is completed we will not be able to promise level access to the first floor venue.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.thejagodalston.com/access/",
+          "quote": "Guide Dogs welcome.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.thejagodalston.com/faq/",
+          "quote": "Please send your request in advance of the event to hello@thejagodalston.com",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "The cloakroom charges £2 per item for a coat, jacket or small bag. Large bags are not allowed into the music venue.",
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.thejagodalston.com/faq/",
+          "quote": "charges £2 per item (coat, jacket or small bag)",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "capacity",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "cost.free_entry"
+  ],
+  "notes": "For the editor: step_free is left unset. The access page says the venue cannot promise level access to the first-floor venue, where the gigs and club nights are, and that refurbishment is only planned. The ground floor bar's access is not described separately. No capacity is stated. Age: the FAQ also says under-18s are kept to the music venue at some daytime and ticketed events, which is in the age_policy value."
+}

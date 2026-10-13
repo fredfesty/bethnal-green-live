@@ -1,0 +1,142 @@
+{
+  "venue_id": "theatre-royal-stratford-east",
+  "venue_name": "Theatre Royal Stratford East",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:14:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Gerry Raffles Square, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://stratfordeast.com/your-visit/access/",
+          "quote": "Theatre Royal Stratford East, Gerry Raffles Square, London E15 1BN",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E15 1BN",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://stratfordeast.com/your-visit/access/",
+          "quote": "Theatre Royal Stratford East, Gerry Raffles Square, London E15 1BN",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://stratfordeast.com",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://stratfordeast.com/your-visit/access/",
+          "quote": "Box Office: 020 8534 0310",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.step_free"],
+          "url": "https://stratfordeast.com/your-visit/access/",
+          "quote": "The main entrance to the theatre has step-free access.",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.accessible_toilet"],
+          "url": "https://stratfordeast.com/your-visit/access/",
+          "quote": "wheelchair-accessible Box Office and toilets",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://stratfordeast.com/your-visit/access/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.access_page"],
+          "url": "https://stratfordeast.com/your-visit/access/",
+          "quote": "For further information on all of our access facilities, contact the Audience Experience Manager",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Six wheelchair spaces are in the stalls, reached through doors at the back of the stalls; book through the box office. Assistance dogs can go into the auditorium. A Sennheiser tour guide listening system is available. Companion tickets are booked online after linking a Nimbus card. Relaxed performances have a chill-out room.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://stratfordeast.com/your-visit/access/",
+          "quote": "Within the auditorium, there are six wheelchair spaces in the stalls",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://stratfordeast.com/your-visit/access/",
+          "quote": "Assistance dogs are welcome in the auditorium.",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://stratfordeast.com/your-visit/access/",
+          "quote": "The theatre has a Sennheiser tourguide system for people who are Deaf or hard of hearing.",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://stratfordeast.com/your-visit/access/",
+          "quote": "Nimbus Disability so it is now possible to book your tickets online",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://stratfordeast.com/your-visit/access/",
+          "quote": "there will be a separate chill-out room for any audience members that require it",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.hearing_loop",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Access page is the only Stratford East page read for facts. The hire brochure PDF was refused by the site's robots.txt, so it was not used for capacity. The Sennheiser system is a listening system, not a hearing loop, so hearing_loop is left empty. Page dates are not shown, so source_date is empty."
+}

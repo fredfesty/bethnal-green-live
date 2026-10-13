@@ -1,0 +1,71 @@
+{
+  "venue_id": "kate-macgarry",
+  "venue_name": "Kate MacGarry",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:38Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A contemporary art gallery founded in 2002 that represents 25 emerging and established artists, according to London Gallery Weekend. Its own news page lists exhibitions into late 2026.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary",
+            "types"
+          ],
+          "url": "https://londongalleryweekend.art/galleries/174-kate-macgarry/",
+          "quote": "Kate MacGarry, founded in 2002, has expanded to represent 25 emerging and established artists",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "summary",
+            "types"
+          ],
+          "url": "https://www.whitechapelgallery.org/first-thursdays/galleries/first-thursdays-galleries-kate-macgarry/",
+          "quote": "Kate MacGarry is a contemporary art gallery located in London.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.katemacgarry.com/news",
+          "quote": "3 October – 13 December 2026",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "types",
+      "value": [
+        "gallery"
+      ],
+      "source_date": "2017-08-10",
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.whitechapelgallery.org/first-thursdays/galleries/first-thursdays-galleries-kate-macgarry/",
+          "quote": "Kate MacGarry is a contemporary art gallery located in London.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases",
+    "website"
+  ],
+  "notes": "Reviews and press were not found: WebSearch budget ran out before any review search, and frieze.com returned 403 so was not used. The London Gallery Weekend listing (not my aspect, for the facts researcher) says 'This is a fully accessible gallery space'. The own-site news dates are for exhibitions in 2026, which suggests it is open, but no closure or opening news was found."
+}

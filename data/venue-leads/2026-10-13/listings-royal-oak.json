@@ -1,0 +1,70 @@
+{
+  "id": "royal-oak",
+  "name": "Royal Oak",
+  "about_venue_id": null,
+  "address": "73 Columbia Road, London",
+  "postcode": "E2 7RG",
+  "website": null,
+  "found_by": "listings",
+  "signal": "new",
+  "kind_hint": "pub with a monthly quiz and comedy nights upstairs",
+  "evidence": [
+    {
+      "fields": [
+        "name"
+      ],
+      "url": "https://www.designmynight.com/london/pubs/bethnal-green/upstairs-at-the-royal-oak/pub-quiz",
+      "quote": "Upstairs At The Royal Oak",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.designmynight.com/london/pubs/bethnal-green/upstairs-at-the-royal-oak/pub-quiz",
+      "quote": "73 Columbia Rd, E2 7RG",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://www.designmynight.com/london/pubs/bethnal-green/upstairs-at-the-royal-oak/pub-quiz",
+      "quote": "Monthly Pub Quiz at The Oak!",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://www.designmynight.com/london/pubs/bethnal-green/royal-oak/jokes-at-the-oak",
+      "quote": "stand up comedy upstairs at the Royal Oak Pub Shoreditch",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.designmynight.com/london/pubs/bethnal-green/upstairs-at-the-royal-oak/pub-quiz",
+      "quote": "Wednesday 28th October 2026",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.designmynight.com/london/pubs/bethnal-green/upstairs-at-the-royal-oak/pub-quiz",
+      "quote": "Last Wednesday of every month from 7.30pm.",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "aggregator"
+    }
+  ],
+  "found_at": "2026-10-13T00:07:00Z",
+  "notes": "Monthly pub quiz, last Wednesday of the month from 7.30pm (DesignMyNight); next listed date Wed 28 Oct 2026. The Jokes At the Oak comedy page on DesignMyNight is dated 16 Feb 2022, so it is not counted as current. Quiz nights are not music: the editor decides if they belong in the guide. No own website or ticket page found. Core zone (Columbia Road, E2)."
+}

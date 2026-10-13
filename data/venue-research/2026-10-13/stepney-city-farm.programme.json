@@ -1,0 +1,30 @@
+{
+  "venue_id": "stepney-city-farm",
+  "venue_name": "Stepney City Farm",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:23:00Z",
+  "findings": [
+    {
+      "field": "music.notes",
+      "value": "No live music or club nights are listed. The only music item on its events page is a Friday baby music class.",
+      "source_date": "2026-06",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://stepneycityfarm.org/at-the-farm/events/",
+          "quote": "Frog Price Baby Music: Two sessions, 10-11am, and 11-12noon.",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "types",
+    "cost.notes"
+  ],
+  "notes": "Regular weekly schedule on the events page: Saturday Farmers Market 10am-3pm; Sunday Young Volunteers 1-4pm; Tuesday ESOL coffee mornings; Thursday yoga and Greencare volunteering; Friday baby music. One-off events (May Day Festival, The Big Lunch, Harvest Festival, Christmas Market) are on its News page, not the events page. Events page dateModified 2026-06-01."
+}

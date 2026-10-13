@@ -1,0 +1,148 @@
+{
+  "venue_id": "basing-house",
+  "venue_name": "Basing House",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:28:00Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://basinghouse.co.uk",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://basinghouse.co.uk/",
+          "quote": "Intimate, late-licensed, Funktion One equipped, East London venue.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "25 Kingsland Road, Shoreditch, London E2 8AA",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://basinghouse.co.uk/contact/",
+          "quote": "25 Kingsland Road Shoreditch London E2 8AA",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 8AA",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://basinghouse.co.uk/contact/",
+          "quote": "25 Kingsland Road Shoreditch London E2 8AA",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "capacity",
+      "value": 300,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "capacity"
+          ],
+          "url": "https://basinghouse.co.uk/about/",
+          "quote": "packs serious energy into its intimate 300-capacity space",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "age_policy",
+      "value": "Challenge 25: ID required and scanned on entry",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://basinghouse.co.uk/door-policy/",
+          "quote": "We operate a “Challenge 25” policy.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://basinghouse.co.uk/door-policy/",
+          "quote": "All customers are required to present original ID on entry.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Card only at the bar. Cash is still taken at the door for entry. Cloakroom items are paid for by card.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://basinghouse.co.uk/faq/",
+          "quote": "Basing House is card payment only at the bar. You will however still be able to pay cash on the door to gain entry.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://basinghouse.co.uk/faq/",
+          "quote": "Stowed items are payable by card.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The venue's own FAQ gives the nearest stations and bus routes and says there is no private parking. It says nothing about step-free access, toilets or a hearing loop.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://basinghouse.co.uk/faq/",
+          "quote": "There is no private parking.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free (no access statement on the home, about, FAQ, contact or door policy pages; /access/ and /accessibility/ return 404)",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "AccessAble or Euan's Guide entry (AccessAble venue URL guess returned its home page; web search budget used up in this run)"
+  ],
+  "notes": "Two age statements conflict in the venue's own pages: the door policy says Challenge 25, and a newer FAQ page (/new-faq/, not linked from the menu) says events are strictly 18+. Editor to check which is current before setting age_policy. Website is the venue's own site as cited. Basing House's door policy also says it does not admit large male or predominately male parties; that is an entry rule for the editor to weigh, not a profile fact here."
+}

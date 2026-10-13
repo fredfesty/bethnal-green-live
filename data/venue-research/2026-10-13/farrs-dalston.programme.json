@@ -1,0 +1,76 @@
+{
+  "venue_id": "farrs-dalston",
+  "venue_name": "Farr's Dalston",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:29:34Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "bar",
+        "dj-bar"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://ma.to/venue/farrsdalston",
+          "quote": "Farr’s Dalston is a rustic community bar in London serving artisan pizza and hosting eclectic weekly cultural events",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://ma.to/venue/farrsdalston",
+          "quote": "featuring a regular pub quiz, vinyl DJ sessions",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Weekly vinyl DJ sessions with 2-4-1 cocktails, a weekly pub quiz, and the basement bar available for private hire.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/farrsdalston",
+          "quote": "Weekly vinyl sessions and 2-4-1 cocktails in Dalston with OG Osbrain.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/farrsdalston",
+          "quote": "Weekly pub quiz with bar tabs, spot prizes and pizza discounts.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/farrsdalston",
+          "quote": "the venue offers a private basement bar for hire",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: the only named genres (funk, boogie, jazz, soul) come from one weekly session, so not proposed",
+    "website: no own website fetched (linktr.ee is robots-blocked; farrsdalston domains unreachable)",
+    "cost.notes: no general pricing found; only per-event prices on ma.to"
+  ],
+  "notes": "Past and upcoming nights on ma.to (aggregator, undated on the page): Vinyl Night (weekly, OG Osbrain, free); Adventures of Rich Sounds (weekly all-vinyl, free); Rory's Quiz (weekly, £2); ¡OYE! Fundraiser for Colombia (upcoming). The ma.to page gives no dates for past events, so no source_date."
+}

@@ -1,0 +1,50 @@
+{
+  "venue_id": "roman-road-market",
+  "venue_name": "Roman Road Market",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:27:03Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "An old-style street market on Roman Road, E3, with clothing, household, toy, makeup and jewellery stalls, plus a food area nearby, according to the council.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+          "quote": "Roman Road, E3",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+          "quote": "You can browse clothing stalls, household items, toys, makeup and jewellery.",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+          "quote": "There is also a court area on St Stephen’s Road serving fresh bread, pastries and hot food options.",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Important for the editor: the council's 'Roman Road Market' is on Roman Road, E3 (Bow), not E2, and is about 1.3 km from the tube per the registry note, so the triage zone of fringe needs checking against a postcode. The E2 market on the same council page is 'Roman Road Square Market' (Roman Road Square, E2 0RN, Monday to Saturday), a separate venue not researched here. The only source is the council's page; no press review was found."
+}

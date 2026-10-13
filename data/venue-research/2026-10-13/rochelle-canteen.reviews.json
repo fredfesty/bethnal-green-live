@@ -1,0 +1,68 @@
+{
+  "venue_id": "rochelle-canteen",
+  "venue_name": "Rochelle Canteen",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:26:56Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A seasonal restaurant in a walled garden off Arnold Circus, open since 2004 and serving classic and modern European food. Time Out calls it a garden restaurant and London landmark.",
+      "source_date": "2023-03-03",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://rochellecanteen.com/",
+          "quote": "Rochelle Canteen’s seasonal, daily changing menu is a celebration of all the things we love most.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://rochellecanteen.com/",
+          "quote": "Our cooking is both classic and modern European, meaning we take influences from Britain and further afield to Europe.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://rochellecanteen.com/",
+          "quote": "The garden surroundings, walled off from the bustle of surrounding streets",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/restaurants/rochelle-canteen",
+          "quote": "find the door in the brick wall on the south-east side of Arnold Circus",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/restaurants/rochelle-canteen",
+          "quote": "A gorgeous garden restaurant and London landmark, hidden away in the backstreets of Shoreditch",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Time Out's review (Leonie Cooper, 3 Mar 2023) gives its postcode as E2 7ES; the registry has E2 7FA (facts aspect to check). Time Out's crowd remarks describe the early days, so they are not used as current crowd."
+}

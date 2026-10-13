@@ -1,0 +1,97 @@
+{
+  "id": "farrs-dalston",
+  "name": "Farr's Dalston",
+  "zone": "outer",
+  "address": "17-19 Dalston Lane, London",
+  "postcode": "E8 3DF",
+  "website": "https://www.farrs.pub/",
+  "summary": "A bar and pub in Dalston that is also hired out for private events. The listings site ma.to adds that it serves artisan pizza and holds weekly events.",
+  "music": {
+    "styles": [],
+    "notes": "Vinyl DJ sessions and a pub quiz, according to the listings site ma.to."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Private hire of the basement venue starts at £200 for an evening, for up to 100 guests."
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.farrs.pub/",
+      "quote": "Farr’s Dalston is a buzzy bar, pub, and private hire event venue that’s become a local favourite.",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://ma.to/venue/farrsdalston",
+      "quote": "Farr’s Dalston is a rustic community bar in London serving artisan pizza and hosting eclectic weekly cultural events",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://ma.to/venue/farrsdalston",
+      "quote": "featuring a regular pub quiz, vinyl DJ sessions",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://ma.to/venue/farrsdalston",
+      "quote": "Weekly vinyl sessions and 2-4-1 cocktails in Dalston with OG Osbrain.",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.farrs.pub/venue-hire",
+      "quote": "Host your event for up to 100 guest in our private basement venue from £200 for the whole evening.",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.farrs.pub/",
+      "quote": "17–19 Dalston Lane, E8 3DF, just a few steps from Dalston Junction",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:49:48Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:49:48Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

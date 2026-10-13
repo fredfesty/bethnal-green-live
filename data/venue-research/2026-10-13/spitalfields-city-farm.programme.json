@@ -1,0 +1,48 @@
+{
+  "venue_id": "spitalfields-city-farm",
+  "venue_name": "Spitalfields City Farm",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:23:00Z",
+  "findings": [
+    {
+      "field": "music.notes",
+      "value": "Only a few music nights are listed: a music-themed quiz run with a record label in June 2026, and a May open day with live music. No regular music night is listed.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.spitalfieldscityfarm.org/whats-on",
+          "quote": "Like a pub quiz, except all the rounds are a music themed",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.spitalfieldscityfarm.org/whats-on",
+          "quote": "A collaboration between Dance Practice Records and Spitalfields City Farm",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.spitalfieldscityfarm.org/whats-on",
+          "quote": "Join us from 10am - 5pm on Sunday the 31st of May for sheep shearing, family fun, a market and some live music!",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "types",
+    "cost.notes"
+  ],
+  "notes": "Listings seen on the what's-on page: Not That Niche Music Quiz, Sat 27 June 2026 (4.30pm to 8.30pm, ticketed); open day with live music, Sun 31 May 2026; Farm to Fork cooking club, Thu 27 Aug 2026; Animal Drawing Safari, Thu 20 Aug 2026; Den Building, Tue 25 Aug 2026. Mostly family and holiday activities. Its JSON-LD gives opening hours Tuesday to Sunday 10:00-16:00."
+}

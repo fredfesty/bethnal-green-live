@@ -1,0 +1,65 @@
+{
+  "venue_id": "glove-that-fits",
+  "venue_name": "The Glove That Fits (and Gloves Off garden)",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:24:44Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["bar", "dj-bar"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+          "quote": "Intimate creative space and cafe bar.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+          "quote": "Curated DJ residencies",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Its own description names curated DJ residencies, alongside music workshops, interactive installations, and talks and panels. The DJ residencies are the only music nights named on a readable page; the venue's own site refused the read, so its event pages were not checked.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+          "quote": "Curated DJ residencies",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+          "quote": "Music workshops",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+          "quote": "Talks & Panels",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles (no genre named on any readable page)",
+    "Gloves Off garden day sessions (not described on any readable page)",
+    "dated upcoming events (no dated event was seen in the Skiddle read; the venue's own site refused, and eventslist.co.uk is on the never-use list)",
+    "crowd",
+    "cost.notes"
+  ],
+  "notes": "Only the Skiddle venue page could be read. The venue's own site (theglovethatfits.com) returned REFUSED (robots.txt unreachable), so it was left alone. The registry records this venue's events as sold on Resident Advisor, which we do not use. No nights were quoted, so the music notes describe the venue, not a list of nights. Gloves Off is named in the registry, not on any page read here."
+}

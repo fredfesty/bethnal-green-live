@@ -1,0 +1,183 @@
+{
+  "id": "wiltons-music-hall",
+  "name": "Wilton's Music Hall",
+  "zone": "outer",
+  "address": "1 Graces Alley, London",
+  "postcode": "E1 8JB",
+  "website": "https://wiltons.org.uk/",
+  "summary": "A Grade II-listed music hall in east London that presents theatre and music. Time Out calls it the world's oldest surviving grand music hall.",
+  "music": {
+    "styles": [
+      "music hall",
+      "opera"
+    ],
+    "notes": "Theatre, opera, concerts and music-hall shows; Time Out counts more than 300 performances a year across more than 80 productions."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": true,
+    "notes": "The whole ground floor and the auditorium are wheelchair accessible. The first floor, including the balcony, is reached by 19 stairs. A companion ticket is free where needed.",
+    "access_page": "https://wiltons.org.uk/visit-us/accessibility/"
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "age_policy": "Under-16s must be accompanied by an adult watching a show in the auditorium; alcohol is for over-18s only.",
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://wiltons.org.uk/",
+      "quote": "We present extraordinary theatre and music in the oldest Grand Music Hall in the world.",
+      "retrieved_at": "2026-10-13T00:14:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/theatre/wiltons-music-hall",
+      "quote": "This Grade II-listed east London gem is the oldest surviving Grand Music Hall in the world.",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://wiltons.org.uk/whats-on/",
+      "quote": "The Players’ 90th Birthday Music Hall Gala",
+      "retrieved_at": "2026-10-13T00:14:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/theatre/wiltons-music-hall",
+      "quote": "from opera, musicals and concerts to touring dates for big-name theatre shows",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/theatre/wiltons-music-hall",
+      "quote": "These days it stages more 300 performances a year, encompassing an eclectic range of more than 80 different productions",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://wiltons.org.uk/visit-us/accessibility/",
+      "quote": "there is an accessible, gender-neutral toilet on the ground floor next to the women’s toilets",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://wiltons.org.uk/visit-us/accessibility/",
+      "quote": "The whole ground floor and auditorium is wheelchair accessible",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://wiltons.org.uk/visit-us/accessibility/",
+      "quote": "There are 19 stairs to access the first floor",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://wiltons.org.uk/visit-us/accessibility/",
+      "quote": "We can offer a companion ticket, where required, free of charge",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.access_page"
+      ],
+      "url": "https://wiltons.org.uk/visit-us/accessibility/",
+      "quote": "For any questions about access at Wilton’s, or to discuss your access requirements",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://wiltons.org.uk/visit-us/accessibility/",
+      "quote": "All under 16s must be accompanied by an adult whilst watching a show in the auditorium.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://wiltons.org.uk/visit-us/accessibility/",
+      "quote": "Alcohol is only for consumption by persons 18 years and over.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://wiltons.org.uk/",
+      "quote": "Home - Wilton's Music Hall",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://wiltons.org.uk/visit-us/find-contact/",
+      "quote": "1 Graces Alley (pedestrian access only)",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://wiltons.org.uk/visit-us/accessibility/",
+      "quote": "London E1 8JB",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:44:31Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:44:31Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

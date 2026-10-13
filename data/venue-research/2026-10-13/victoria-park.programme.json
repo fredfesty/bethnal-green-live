@@ -1,0 +1,64 @@
+{
+  "venue_id": "victoria-park",
+  "venue_name": "Victoria Park",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:44Z",
+  "findings": [
+    {
+      "field": "music.notes",
+      "value": "A free summer programme in the park, In the Neighbourhood, with live music, sport, family theatre and food, alongside the All Points East festival (August 2026).",
+      "source_date": "2026-07",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/News_events/2026/July/IN-THE-NEIGHBOURHOOD-makes-its-annual-return-to-Victoria-Park.aspx",
+          "quote": "IN THE NEIGHBOURHOOD makes its annual return to Victoria Park",
+          "retrieved_at": "2026-10-13T00:11:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/News_events/2026/July/IN-THE-NEIGHBOURHOOD-makes-its-annual-return-to-Victoria-Park.aspx",
+          "quote": "From Live Music, to Sport & Fitness Sessions, Family Theatre Shows",
+          "retrieved_at": "2026-10-13T00:11:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.allpointseastfestival.com/",
+          "quote": "All Points East is a festival in Victoria Park, Tower Hamlets, London.",
+          "retrieved_at": "2026-10-13T00:11:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "The council describes the park as hosting live music among its community activities and events.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+          "quote": "who enjoy a range of community activities, events, live music, and sports",
+          "retrieved_at": "2026-10-13T00:11:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types: a park is not on the types list; no quote calls it a music or gig venue",
+    "music.styles: no genre named repeatedly on the council or festival pages (the 2026 lineup names a sound system and DJs but no genre)",
+    "cost.notes: the council page gives no pricing for the park (In the Neighbourhood is free entry)"
+  ],
+  "notes": "Recurring: In the Neighbourhood, a four-day free programme run with All Points East (2026: Monday 24 to Thursday 27 August, council news page, July 2026). The festival is ticketed and is the music scout's, so only its place in the park is recorded here. Five nights/events: In the Neighbourhood 24-27 Aug 2026 (past); All Points East, August 2026 (past); no 2027 dates found. Park opening (7am to dusk) is the facts researcher's."
+}

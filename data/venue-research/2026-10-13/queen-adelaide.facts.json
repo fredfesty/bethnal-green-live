@@ -1,0 +1,69 @@
+{
+  "venue_id": "queen-adelaide",
+  "venue_name": "The Queen Adelaide",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:25:50Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "483 Hackney Road, London E2 9ED",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.thequeenadelaide.com/locations",
+          "quote": "483 Hackney Road",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 9ED",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.thequeenadelaide.com/locations",
+          "quote": "483 Hackney Road London E2 9ED",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.thequeenadelaide.com",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.thequeenadelaide.com/welcome",
+          "quote": "Draught beer and cider. Selection of wines and spirits.",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.notes (the site gives no access detail; it only advertises a basement for hire)",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page (the site has no access page; /contact and /basement-hire return 404)",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity",
+    "status (the site shows its opening hours and no closure notice)"
+  ],
+  "notes": "Check before publishing: a different pub called The Queen Adelaide, in Wandsworth at 35 Putney Bridge Road, has a website at thequeenadelaide.co.uk. None of its pages were used; every fact here comes from thequeenadelaide.com. The Bethnal Green site says it is from the people behind the George & Dragon. Pages read: /welcome, /locations. The sitemap lists no access page. WebSearch budget was used up, so no access guide (AccessAble, Euan's Guide) was searched for."
+}

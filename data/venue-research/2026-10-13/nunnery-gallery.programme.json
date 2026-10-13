@@ -1,0 +1,72 @@
+{
+  "venue_id": "nunnery-gallery",
+  "venue_name": "Nunnery Gallery (Bow Arts)",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:10:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "gallery"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "Nunnery Gallery is Bow Arts’ free public exhibition space",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Contemporary art exhibitions with a multi-media programme. The events list read has only the current show, not regular nights (not music).",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "We run a multi-media programme that provides a platform for innovation and collaboration.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "Friday 9th October 2026 – Sunday 20th December 2026, 10:00am to 4:00pm",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Exhibitions are free to enter; open to the public Wednesday to Sunday, 10am to 4pm.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "Open to the public Wednesday-Sunday, 10am-4pm, all exhibitions are free to enter.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: not applicable, no music nights seen",
+    "a recurring night or event series at the gallery: none found; the events list on the Bow Arts site had two items, both exhibitions or events for the current show"
+  ],
+  "notes": "Current show seen: Bhajan Hunjan: speaking through materials, 9 Oct to 20 Dec 2026, 10am to 4pm (Bow Road and Nunnery Gallery, 181-183 Bow Road). Open to the public Wednesday to Sunday, 10am to 4pm. The Bow Arts events page mixes events at other Bow Arts sites; only the Nunnery entries count."
+}

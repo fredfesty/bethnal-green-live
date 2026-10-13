@@ -1,0 +1,92 @@
+{
+  "venue_id": "arcola-theatre",
+  "venue_name": "Arcola Theatre",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:12:52Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "theatre"
+      ],
+      "source_date": "2026-06",
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.arcolatheatre.com/about-us/",
+          "quote": "Arcola produces daring, high-quality theatre in the heart of East London and beyond.",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "opera"
+      ],
+      "source_date": "2026-09-03",
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.arcolatheatre.com/festival/grimeborn-2026/",
+          "quote": "Returning for its nineteenth year, Grimeborn Opera Festival continues to rip up the rulebook and create something radically new.",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.arcolatheatre.com/festival/grimeborn-2026/",
+          "quote": "Mozart’s Così fan tutte and Handel’s Giulio Cesare in Egitto",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A summer opera festival, Grimeborn, runs each July to September alongside the theatre programme, with reimagined classics among its productions.",
+      "source_date": "2026-09-03",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.arcolatheatre.com/festival/grimeborn-2026/",
+          "quote": "alongside reimagined classics including Mozart’s Così fan tutte",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.arcolatheatre.com/festival/grimeborn-2026/",
+          "quote": "15 Jul - 5 Sep 2026",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.arcolatheatre.com/about-us/",
+          "quote": "Arcola produces daring, high-quality theatre in the heart of East London and beyond.",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "A recurring non-opera night or club programme (none on the what's-on pages read)",
+    "Cost notes beyond the festival's booking discounts (no general pricing quoted)"
+  ],
+  "notes": "Nights seen: Grimeborn 2026 double bill 'After My Breath / Eden 2.0' 15-18 Jul 2026; 'Dido and Aeneas' 11-15 Aug 2026 (Studio 2); 'The Magic Flute' 25-29 Aug 2026; 'Giulio Cesare in Egitto' 2-5 Sep 2026. The main what's-on page is JavaScript-built; only the Grimeborn festival page was readable, so the theatre season was not checked."
+}

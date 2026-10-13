@@ -1,0 +1,112 @@
+{
+  "venue_id": "all-my-gods",
+  "venue_name": "All My Gods",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["bar", "community-venue", "queer-friendly"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "Part alternative cocktail bar, part community hub, with a dive bar vibe.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "All My Gods is a queer-friendly space and proud host to regular community nights",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["rock", "alt"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "Cocktails, beers and rock 'n' roll",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "Rock and alt music, cocktails, proper pints, and a calendar full of fun.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Mostly not gigs. Recurring community nights: drag bingo, motorcycle meet-ups, live bike builds, queer community nights, and a bi-monthly quiz. Food pop-ups and an occasional comedy night. The venue says it plays rock and alt music, but no dated live-music listing was found.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "Drag Bingo, hosted by drag rockstar Envy The Queen.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "Motorcycle Meet-Ups with Bolt Motorcycles.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "Custom Bike Build events with Outriders Moto.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/allmygodsbar",
+          "quote": "Bi-monthly quiz night with rollover cash jackpots and bar tab prizes.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/allmygodsbar",
+          "quote": "Alternative and stand-up comedy meets the prom night you never had.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Most events are free; some need a ticket bought in advance.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["cost.notes"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "Most events are free, some require tickets which you can get in advance.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles as live-music nights: no dated gig listing found on the venue's site, CAMRA or ma.to",
+    "Eventbrite organiser page (linked from the venue site) not read",
+    "instagram.com: not fetched (never-use list)"
+  ],
+  "notes": "Past or listed nights seen (dates not shown on the pages read, except where noted): Drag Bingo hosted by Envy The Queen (ongoing, venue site); PROM Comedy Night (past, ma.to); All My Gods Quiz, bi-monthly (ma.to, upcoming and past); London Leatherdykes 1st Birthday, a monthly social with a big night (past, ma.to); Dykes on Bikes London Meetup, a new monthly biker social (ma.to). Open Wed to Sun per the venue's own opening hours, Sunday food pop-ups. Same venue as map-all-my-gods.json; merge with web-all-my-gods.json."
+}

@@ -1,0 +1,88 @@
+{
+  "venue_id": "mare-street-market",
+  "venue_name": "Mare Street Market",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:28:00Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://marestreetmarket.com",
+      "source_date": "2026-10-07",
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://marestreetmarket.com/",
+          "quote": "Discover Mare Street Market: Enjoy independent restaurants and unique retail in Hackney and King’s Cross.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "117 Mare Street, Hackney, London E8 4RU",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address", "postcode"],
+          "url": "https://marestreetmarket.com/contact-hackney/",
+          "quote": "117 Mare Street Hackney, London, E8 4RU",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E8 4RU",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://marestreetmarket.com/contact-hackney/",
+          "quote": "117 Mare Street Hackney, London, E8 4RU",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "source_date": "2026-10-07",
+      "evidence": [
+        {
+          "fields": ["accessibility.step_free", "accessibility.notes"],
+          "url": "https://marestreetmarket.com/",
+          "quote": "Mare Street Market Hackney offers step-free access via a ramp on Watergate Street, leading directly into the Deli entrance.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The step-free route at the Hackney site is a ramp on Watergate Street into the Deli entrance, according to the venue's FAQ. The FAQ says nothing about toilets or a hearing loop. The King's Cross site is a separate venue under the same name.",
+      "source_date": "2026-10-07",
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://marestreetmarket.com/",
+          "quote": "Mare Street Market Hackney offers step-free access via a ramp on Watergate Street, leading directly into the Deli entrance.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page (/access/ and /accessibility/ return 404; the access answer sits in the home page FAQ)",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity (the site gives floor area, 10,000 sq. ft, not a capacity)"
+  ],
+  "notes": "The step-free statement is from the home page FAQ, which the site dates 2026-10-07 in its page data. It covers the Hackney site at 117 Mare Street, which is the one this profile is for. The venue's events page lists free entry for some events, but that is per event and not recorded here. Stranger Than Paradise Records is inside this building; its own site gives no access details."
+}

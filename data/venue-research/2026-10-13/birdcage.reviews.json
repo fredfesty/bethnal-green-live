@@ -1,0 +1,90 @@
+{
+  "venue_id": "birdcage",
+  "venue_name": "The Birdcage",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:24:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A pub on Columbia Road, E2, with a ground-floor bar and a new upstairs room for private parties. Its launch listing says the doors opened for the first time in May 2026.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.designmynight.com/london/whats-on/vip-party/launch-party-the-birdcage-1",
+          "quote": "Set across a buzzing ground floor bar and a brand new upstairs",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.designmynight.com/london/whats-on/vip-party/launch-party-the-birdcage-1",
+          "quote": "Join us on Friday 15th May from 6pm as we open",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+          "quote": "Located on the vibrant Columbia Road, The Birdcage is a pub",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The venue says it is for locals and visitors alike.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["crowd"],
+          "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+          "quote": "offering a warm and welcoming atmosphere for locals and visitors alike",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["trad"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles", "music.notes"],
+          "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+          "quote": "Join us in the main bar, every second Sunday of the month for live music from a trad band.",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Live music from a trad band on the second Sunday of the month, and a free comedy night on Wednesdays.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+          "quote": "Join us in the main bar, every second Sunday of the month for live music from a trad band.",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+          "quote": "2nd Row Comedy will bring the laughs every Wednesday for FREE.",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "aliases",
+    "status"
+  ],
+  "notes": "The operator's listings are the only current source. Londonist's pub review is dated 2015 and describes an earlier owner (Draft House), so it is not used for crowd or music. The operator's cocktail-bar copy on the same page is about a different site (Fitzrovia) and was not used. The launch listing (15 May 2026) is the only source for the relaunch; no press review found. Status left open: the operator lists events in October 2026."
+}

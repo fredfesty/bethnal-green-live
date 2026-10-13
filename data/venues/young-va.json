@@ -1,0 +1,92 @@
+{
+  "id": "young-va",
+  "name": "Young V&A",
+  "zone": "core",
+  "aliases": [
+    "V&A Museum of Childhood"
+  ],
+  "address": "Cambridge Heath Rd, Bethnal Green, London",
+  "postcode": "E2 9PA",
+  "website": "https://www.vam.ac.uk/young",
+  "summary": "A free museum for children, young people and families on Cambridge Heath Road, the renamed V&A Museum of Childhood. Its interactive galleries are called Play, Imagine and Design.",
+  "music": {
+    "styles": []
+  },
+  "crowd": "Describes itself as a museum for children, young people and families.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": "always"
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "crowd",
+        "website"
+      ],
+      "url": "https://www.vam.ac.uk/young",
+      "quote": "the museum where children, young people and families can imagine, play and design",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "cost.free_entry"
+      ],
+      "url": "https://www.vam.ac.uk/young",
+      "quote": "Admission is free",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://londonist.com/london/museums-and-galleries/young-v-a-opens-july-2023-museum-of-childhood",
+      "quote": "now flaunts a wealth of interactive elements, centred around three galleries: Play, Imagine and Design",
+      "retrieved_at": "2026-10-13T00:26:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "aliases"
+      ],
+      "url": "https://www.museumsassociation.org/museums-journal/news/2021/10/va-renames-childhood-museum-as-part-of-revamp/",
+      "quote": "London’s V&A Museum of Childhood has been renamed Young V&A",
+      "retrieved_at": "2026-10-13T00:26:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.vam.ac.uk/young",
+      "quote": "Cambridge Heath Rd, Bethnal Green, London E2 9PA",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:40:36Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:40:36Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "v-and-a-east",
+  "name": "V&A East (Museum and Storehouse)",
+  "zone": "outer",
+  "address": "2 Parkes Street, London",
+  "postcode": "E20 3AX",
+  "website": "https://www.vam.ac.uk/east",
+  "summary": "V&A East Storehouse, on Parkes Street, offers what the V&A calls an access-all-areas experience of its collection. The V&A also runs the V&A East Museum at East Bank in Stratford.",
+  "music": {
+    "styles": [],
+    "notes": "A Thursday-evening DJ residency called upperground at the V&A East Museum, with one guest DJ per edition, running until 17 December 2026."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": "always",
+    "notes": "Some exhibitions and events are charged separately."
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.vam.ac.uk/east",
+      "quote": "V&A East Storehouse is your access all areas experience of the V&A collection.",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.vam.ac.uk/east",
+      "quote": "East Bank, 107 Carpenters Rd, Queen Elizabeth Olympic Park, Stratford, London E20 2AR",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026",
+      "quote": "upperground is a new DJ residency at V&A East Museum",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026",
+      "quote": "activate the museum’s upper ground floor on Thursday evenings",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026",
+      "quote": "Each edition places the spotlight on one guest DJ",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.vam.ac.uk/event/p9PR3vALR5D/upperground-dj-sets-october-december-2026",
+      "quote": "On now until Thursday, 17 December 2026",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.free_entry"
+      ],
+      "url": "https://www.vam.ac.uk/east",
+      "quote": "Admission is free",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.vam.ac.uk/east",
+      "quote": "Some exhibitions and events carry a separate charge",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.vam.ac.uk/east",
+      "quote": "2 Parkes Street, London E20 3AX",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:42:18Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:42:18Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

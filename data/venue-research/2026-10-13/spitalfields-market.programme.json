@@ -1,0 +1,65 @@
+{
+  "venue_id": "spitalfields-market",
+  "venue_name": "Spitalfields Market",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:23:00Z",
+  "findings": [
+    {
+      "field": "music.styles",
+      "value": [
+        "swing"
+      ],
+      "source_date": "2026",
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.spitalfields.co.uk/events/",
+          "quote": "Taking place across selected dates in July and August, Swing Patrol at Spitalfields is a chance to enjoy two hours of music, movement and feel-good dancing",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Free outdoor dancing in the square in summer: swing dancing (Swing Patrol) and tango lessons then dancing (Tango Fever) on selected dates. A monthly Tea Dance is listed with 1930s to 1950s music. Otherwise an outdoor sport screen and occasional market events.",
+      "source_date": "2026",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.spitalfields.co.uk/events/",
+          "quote": "Taking place across selected dates this summer, Tango @ Spitalfields offers free beginner-friendly tango lessons followed by outdoor dancing",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.spitalfields.co.uk/events/",
+          "quote": "Step into a bygone era each month, where the enchanting melodies will transport you",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.spitalfields.co.uk/events/",
+          "quote": "The Spitalfields Summer Screen returns to Bishops Square on Thursday 22 May, bringing a season of live sport to the heart of the city",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types",
+    "cost.notes"
+  ],
+  "notes": "Listings seen on the events page: Swing Patrol at Spitalfields (selected dates in July and August 2026, free); Tango @ Spitalfields (selected summer dates, free); Tea Dance (monthly, date not shown on the page); Fashion District Showcase, Tue 2 June 2026 from 8pm; Spitalfields Summer Screen (live sport, from Thu 22 May 2026). A covered market with outdoor events rather than a music venue."
+}

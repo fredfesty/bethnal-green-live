@@ -1,0 +1,57 @@
+{
+  "venue_id": "genesis-cinema",
+  "venue_name": "Genesis Cinema",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:35Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "An independent five-screen cinema on Mile End Road, known for arthouse films at low prices, with a bar upstairs.",
+      "source_date": "2025-07-22",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/cinemas/genesis-cinema",
+          "quote": "the promise of an arthouse experience without sky high prices",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/news/one-of-londons-most-popular-cinemas-has-big-plans-to-safeguard-its-future-032825",
+          "quote": "bargain-priced five-screen picturehouse",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/cinemas/genesis-cinema",
+          "quote": "There’s a bar upstairs",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "Time Out says it is loved by local residents and people looking for a bargain.",
+      "source_date": "2025-07-22",
+      "evidence": [
+        {
+          "fields": ["crowd"],
+          "url": "https://www.timeout.com/london/cinemas/genesis-cinema",
+          "quote": "beloved of local residents and bargain hunters",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Closure plans are older than six months, so not proposed as status. Time Out (28 March 2025) reports owner plans to rebuild with student housing and says 'I'm hoping it'll be five years until we reopen'; Time Out's review (22 July 2025) says 'it'll be closed for five years'. The venue's own site (genesiscinema.co.uk) shows a current programme, but no dated page confirms trading. Editor should check the venue's own news or ticket pages before any status change. A Tower Hamlets Slice item was not used (never-use domain)."
+}

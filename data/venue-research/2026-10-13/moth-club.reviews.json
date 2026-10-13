@@ -1,0 +1,119 @@
+{
+  "venue_id": "moth-club",
+  "venue_name": "MOTH Club",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:28:42Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A Hackney Central venue that began as an ex-servicemen's members' club in 1972 and has hosted gigs, comedy and club nights since a 2015 refit.",
+      "source_date": "2026-04-07",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/music/moth-club",
+          "quote": "First opened in 1972, this Hackney Central trade hall takes its name from the Memorable Order of Tin Hats",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/music/moth-club",
+          "quote": "in 2015 it was taken over by local events agency LNZRT",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "Time Out says long-standing regulars, including members of the ex-servicemen's groups that still meet there, mix with other visitors.",
+      "source_date": "2026-04-07",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.timeout.com/london/music/moth-club",
+          "quote": "time-weathered regulars mixing with a hip young east London crowd",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.timeout.com/london/music/moth-club",
+          "quote": "who still regularly meet and drink at the venue",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "indie",
+        "northern soul",
+        "disco",
+        "soul",
+        "italo"
+      ],
+      "source_date": "2026-04-07",
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.timeout.com/london/music/moth-club",
+          "quote": "platforming some of the city’s buzziest indie bands",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.timeout.com/london/music/moth-club",
+          "quote": "Deptford Northern Soul Club, ’80s night Dancing in the Dark and disco, soul and italo club Pull Up To The Bumper",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Time Out describes a mix of gigs, stand-up, film screenings and club nights, with indie bands on a small gold-curtained stage and northern soul and disco nights in the main room.",
+      "source_date": "2026-04-07",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/music/moth-club",
+          "quote": "the club playing host to an eclectic programme of live music, stand-up comedy, film screenings and club nights",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://londonist.com/london/news/moth-club-hackney-saved",
+          "quote": "known for its live music, and Knock2Bag comedy nights",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "status",
+    "aliases"
+  ],
+  "notes": "Time Out (7 April 2026) says a planning application next door was refused, but MOTH said 'the fight is not over' because a second application is in progress, which 'means the future of the venue remains at risk'. That is news about risk, not closure, so no status proposed. The Time Out page metadata has a 'More: Temporarily closed' tag that is not in its text; MOTH's events sitemap was updated in October 2026, so the editor may want to check the tag before trusting it."
+}

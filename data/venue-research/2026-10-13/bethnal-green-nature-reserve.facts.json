@@ -1,0 +1,162 @@
+{
+  "venue_id": "bethnal-green-nature-reserve",
+  "venue_name": "Bethnal Green Nature Reserve",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:21:07Z",
+  "findings": [
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.step_free"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/visit/",
+          "quote": "Our site is step-free and wheelchair accessible.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/visit/",
+          "quote": "We have a very comfortable wheelchair accessible compost toilet",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Paths are wood-chip, and some are narrow or uneven, so not every part of the site is easy to reach. Freshly laid wood-chip can be hard going for self-propelled wheelchairs, though aided or electric chairs seem fine. Bethnal Green tube has no step-free access; Whitechapel is the step-free alternative. Email ahead with any access questions.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/visit/",
+          "quote": "we do use wood-chip on our pathways, which may be difficult for a self-aided wheelchair",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/visit/",
+          "quote": "Some areas of the Nature Reserve have small pathways and uneven ground/surfaces",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/visit/",
+          "quote": "This station does not have step-free access.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/visit/",
+          "quote": "We recommend Whitechapel Station (Elizabeth Line, District, and Overground), which is fully step-free",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/visit/",
+          "quote": "if you have any access questions or requests in advance of your visit",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://bethnalgreennaturereserve.org/visit/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.access_page"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/visit/",
+          "quote": "Our site is step-free and wheelchair accessible.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "Middleton Street",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/visit/",
+          "quote": "Middleton Street, London E2 9RR",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 9RR",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/visit/",
+          "quote": "Middleton Street, London E2 9RR",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://bethnalgreennaturereserve.org/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://bethnalgreennaturereserve.org/",
+          "quote": "A cultural institute focused on ecological and community health in the heart of East London.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.hearing_loop (not stated on the visit or contact pages)",
+    "cost.free_entry and cost.notes (no admission pricing stated; the site describes public opening rather than charges)",
+    "capacity and age_policy (not stated)"
+  ],
+  "notes": "Public opening per the visit page is 2pm to 5pm on Saturdays from 2 May to 28 November 2026, with weekday schedules for resident groups; that is for the editor and is not a profile field. The address line is Middleton Street, E2 9RR. The access page is the visit page."
+}

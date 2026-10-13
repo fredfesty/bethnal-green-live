@@ -1,0 +1,56 @@
+{
+  "venue_id": "columbia-road-flower-market",
+  "venue_name": "Columbia Road Flower Market",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:21:07Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://columbiaroad.info/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://columbiaroad.info/",
+          "quote": "Columbia Road Flower Market is a street market in Bethnal Green in London, England.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "It is an open street market with no stated step-free, toilet or hearing-loop information on its pages. The find-us page names Hoxton (Overground) as the nearest station, about seven minutes' walk, and lists buses 26, 55 and 8.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://columbiaroad.info/find-us/",
+          "quote": "the nearest station is Hoxton (Overground), which is roughly a 7 minute walk away",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://columbiaroad.info/find-us/",
+          "quote": "Buses are the 26, 55 or the number 8.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "address and postcode (the site gives no street address for the market; its parking note is for a school car park, not the market)",
+    "accessibility.step_free, accessibility.accessible_toilet, accessibility.hearing_loop, accessibility.access_page (none stated)",
+    "cost.free_entry and cost.notes (no admission statement for the market; the 'free festival' wording on the home page is about the Day of the Dead event only)",
+    "age_policy and capacity (not stated)"
+  ],
+  "notes": "The market is outdoors on a street, so step-free access and toilets are not a fixed venue fact. The home page gives market hours as Sundays from 8am to about 3pm, with some shops also open on weekdays; hours are not a profile field, so they are for the editor. The Day of the Dead event on 31 October 2026 is separate and belongs to the programme researcher."
+}

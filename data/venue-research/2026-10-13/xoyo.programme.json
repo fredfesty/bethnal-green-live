@@ -1,0 +1,84 @@
+{
+  "venue_id": "xoyo",
+  "venue_name": "XOYO",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:27:31Z",
+  "findings": [
+    {
+      "field": "music.notes",
+      "value": "One-off ticketed club nights, live shows and themed parties, plus a new weekly Thursday night. Listings include a drum and bass all-dayer, a Punjabi party and tribute nights.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.xoyo.co.uk/",
+          "quote": "THE NEW WEEKLY THURSDAY AT XOYO",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.xoyo.co.uk/whats-on",
+          "quote": "Drum and Bass Classics - All-Dayer",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.xoyo.co.uk/whats-on",
+          "quote": "Sorry Paaji [All Girls Punjabi Party]",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.xoyo.co.uk/whats-on",
+          "quote": "Queer Dance Party",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.xoyo.co.uk/whats-on",
+          "quote": "My House - Get Your Freak On",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.xoyo.co.uk/whats-on",
+          "quote": "RENDITIONS: A Night with Sade",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.xoyo.co.uk/whats-on",
+          "quote": "Tali Tigers: Afrowood",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types: no quote on the pages read says club, bar or another listed type (the home page only says 'A rebuilt space for forward-thinking sound.')",
+    "music.styles: no genre is named on two or more different nights (drum and bass is one night; house appears only in an event title)",
+    "age_policy and cost (not a programme field; left to the facts researcher)"
+  ],
+  "notes": "Listed on the what's-on page (dates as printed, no year): Tue 13 Oct Tali Tigers: Afrowood; Fri 16 Oct Kwesi Arthur: Live in London; Sat 17 Oct Groovin' x Cure || Joshwa, SCOTT STEER, LOTTIE J + more; Sat 17 Oct Sorry Paaji [All Girls Punjabi Party] (a day event); Sat 24 Oct Disrupta. The home page also shows 'Cherry | THURS 8TH OCTOBER' under the new weekly Thursday. Mixed programme with no repeated genre; the Thursday night's name is not clear from the text. Some listings repeat on the page's filter views (duplicates, not extra nights)."
+}

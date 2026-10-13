@@ -1,0 +1,14 @@
+{
+  "venue_id": "mile-end-park",
+  "venue_name": "Mile End Park (incl. Ecology Pavilion)",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:44Z",
+  "findings": [],
+  "not_found": [
+    "types: a park is not on the types list; the only gallery wording is for the Art Pavilion, not the park",
+    "music.styles and music.notes: no music nights found on the Friends of Mile End Park site or the council pages read",
+    "Ecology Pavilion events: its council page was not read in this run",
+    "cost.notes: no general pricing stated"
+  ],
+  "notes": "Friends of Mile End Park site (fomep.org.uk, read 13 Oct 2026) posted on 7 Oct 2026 about the East London Printmakers' 'Festival of Print' at the Art Pavilion, which runs to 11 Oct with a live event the following Thursday (past). The council's Art Pavilion page describes a gallery space available to hire for exhibitions, weddings and private events. Five nights: Festival of Print live event (Oct 2026, past); Festival of Print exhibition (to 11 Oct 2026, past); litter picks with the Friends (not programme). No upcoming music or cultural nights found."
+}

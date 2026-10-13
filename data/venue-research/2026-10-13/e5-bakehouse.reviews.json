@@ -1,0 +1,74 @@
+{
+  "venue_id": "e5-bakehouse",
+  "venue_name": "e5 Bakehouse",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:26:56Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A bakery and café in a railway arch in Hackney, started in 2010 and known for its sourdough bread, with baking classes. Time Out describes it as a hub of the east London sourdough scene.",
+      "source_date": "2023-03-21",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://e5bakehouse.com/",
+          "quote": "commissioning and building a clay oven in the corner of a railway arch",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://e5bakehouse.com/",
+          "quote": "e5 Bakehouse began in the spring of 2010, after Ben had taken a short course",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://e5bakehouse.com/",
+          "quote": "Find out more about our in person baking school.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/restaurants/e5-bakehouse",
+          "quote": "It was and is the epicentre of the east London sourdough revolution.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "Time Out describes it as busy from morning to evening, with casual tables for drinkers and diners.",
+      "source_date": "2023-03-21",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.timeout.com/london/restaurants/e5-bakehouse",
+          "quote": "Indoors it’s quietly buzzy from dawn to dusk with informal tables of drinkers and diners",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Time Out's page gives the Hackney site as Arch 396, E8 3PH; the venue's site gives Arch 395 (facts aspect to check). The Time Out review is dated 21 Mar 2023 (last updated 27 Oct 2025 on the page)."
+}

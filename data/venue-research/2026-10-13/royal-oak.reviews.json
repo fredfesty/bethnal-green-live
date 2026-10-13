@@ -1,0 +1,82 @@
+{
+  "venue_id": "royal-oak",
+  "venue_name": "Royal Oak",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:22:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A pub on Columbia Road with a bar downstairs and a dining room upstairs. Time Out reviewed the upstairs cooking in 2023 as Modern European, and says the pub was used as a set in the sitcom Goodnight Sweetheart.",
+      "source_date": "2023-08-02",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/bars-and-pubs/royal-oak-1",
+          "quote": "Upstairs is a cultured, calm and almost sedate dining room, within which nouveau EastEnders tuck into expensive but impressive Modern European cooking.",
+          "retrieved_at": "2026-10-13T00:16:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/bars-and-pubs/royal-oak-1",
+          "quote": "Keen-eyed sitcom enthusiasts may recognise the Royal Oak from its starring role in Goodnight Sweetheart",
+          "retrieved_at": "2026-10-13T00:16:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "Time Out says the downstairs bar is the livelier side, and that weekends get crowded, with Sundays busy because of the flower market on the doorstep.",
+      "source_date": "2023-08-02",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.timeout.com/london/bars-and-pubs/royal-oak-1",
+          "quote": "Downstairs in the good-looking pub, built around a handsome central bar, the scene is more boisterous",
+          "retrieved_at": "2026-10-13T00:16:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.timeout.com/london/bars-and-pubs/royal-oak-1",
+          "quote": "Fridays and Saturdays can be uncomfortably frantic, and the flower market on the doorstep means Sundays can be a crush.",
+          "retrieved_at": "2026-10-13T00:16:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "aliases",
+      "value": [
+        "Upstairs At The Royal Oak"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "aliases"
+          ],
+          "url": "https://www.designmynight.com/london/pubs/bethnal-green/upstairs-at-the-royal-oak/pub-quiz",
+          "quote": "Upstairs At The Royal Oak",
+          "retrieved_at": "2026-10-13T00:16:00Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "status"
+  ],
+  "notes": "Time Out's review (2 Aug 2023) is the only press review found, so the crowd note rests on it and is less than three years old. Music: none found; the DesignMyNight quiz (last Wednesday of the month, next 28 Oct 2026) is a quiz, not music, and the editor decides whether it belongs in the guide. A DesignMyNight comedy page dated 16 Feb 2022 was not used as current. No own website found. The alias is the name the upstairs room's quiz listing uses; it matches listings only."
+}

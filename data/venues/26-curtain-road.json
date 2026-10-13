@@ -1,0 +1,82 @@
+{
+  "id": "26-curtain-road",
+  "name": "26 Curtain Road",
+  "zone": "outer",
+  "summary": "A two-floor venue on Curtain Road in Shoreditch with a basement space, which lists vinyl-only music, according to the listings sites Skiddle and DesignMyNight.",
+  "music": {
+    "styles": [],
+    "notes": "Vinyl-only sessions, including a Wednesday vinyl LP playback with cocktails and free Thursday DJ sessions, per DesignMyNight."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "quote": "covering two floors in the heart of Shoreditch",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "quote": "our delightful basement space",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+      "quote": "Vinyl only with the emphasis on hearing great music from various genres, never too loud.",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.designmynight.com/london/restaurants/shoreditch/26-curtain-road",
+      "quote": "Weds Vinyl LP playback & cocktails sessions",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.designmynight.com/london/restaurants/shoreditch/26-curtain-road",
+      "quote": "Strictly Vinyl free Thursdays DJ sessions",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "aggregator"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:50:00Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:50:00Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: dropped unquoted word 'bar'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

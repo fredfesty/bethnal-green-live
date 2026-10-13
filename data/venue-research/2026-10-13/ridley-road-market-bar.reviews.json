@@ -1,0 +1,79 @@
+{
+  "venue_id": "ridley-road-market-bar",
+  "venue_name": "Ridley Road Market Bar",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:31:53Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A bar on Ridley Road market in Dalston, which calls itself part tropical bar, part cultural hub and part 70s disco.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://dice.fm/venue/ridley-road-market-bar-a28q",
+          "quote": "Part tropical bar, part cultural hub, part 70’s disco",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com/",
+          "quote": "We're a friendly bar in the middle of Ridley Road market Dalston.",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "disco"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://dice.fm/venue/ridley-road-market-bar-a28q",
+          "quote": "part 70’s disco",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Karaoke and a film screening are among the nights listed on its DICE page.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/ridley-road-market-bar-a28q",
+          "quote": "Lungs Karaoke Wed 14 Oct",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/ridley-road-market-bar-a28q",
+          "quote": "A Screening of Drop Dead Gorgeous (1999)",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "aliases",
+    "status"
+  ],
+  "notes": "No press review or closure news found. WebSearch budget was used up before this venue, so only the venue's own site and its DICE page were read. Its DICE About text and its own site say the same thing, so the summary is backed by both. No status news; DICE lists events to late November 2026."
+}

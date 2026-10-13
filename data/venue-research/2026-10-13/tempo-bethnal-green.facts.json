@@ -1,0 +1,22 @@
+{
+  "venue_id": "tempo-bethnal-green",
+  "venue_name": "Tempo",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:25:00Z",
+  "findings": [],
+  "not_found": [
+    "address",
+    "postcode",
+    "website (no own site found: tempobethnalgreen.com, tempobethnalgreen.co.uk, tempo-bethnalgreen.com, tempo-bethnal-green.com, tempo-bar.co.uk, tempobar.london and tempobethnalgreen.london could not be read; tempo.london is an unrelated company)",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Nothing could be quoted for this venue. Its domain guesses failed (robots.txt unreachable, meaning the host did not resolve, or no such site), and the search tool was out of budget, so no directory or DICE page was found. tempo.bar answered 429 to the robots.txt check and was not pursued further. A person should confirm the venue's name, website and address (postcode E2 9LE from triage) before the facts researcher tries again."
+}

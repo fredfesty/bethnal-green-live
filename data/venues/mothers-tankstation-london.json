@@ -1,0 +1,77 @@
+{
+  "id": "mothers-tankstation-london",
+  "name": "mother's tankstation London",
+  "zone": "core",
+  "address": "Dressage Court, 48 Three Colts Lane, Bethnal Green, London",
+  "postcode": "E2 6GQ",
+  "website": "https://www.motherstankstation.com",
+  "summary": "The London space of mother's tankstation, a contemporary art gallery, on Three Colts Lane in Bethnal Green.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.motherstankstation.com/",
+      "quote": "Mother's Tankstation Limited – Contemporary Art Gallery",
+      "retrieved_at": "2026-10-13T00:09:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "address"
+      ],
+      "url": "https://www.motherstankstation.com/contact/",
+      "quote": "48 Three Colts Lane",
+      "retrieved_at": "2026-10-13T00:09:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.motherstankstation.com/contact/",
+      "quote": "Dressage Court",
+      "retrieved_at": "2026-10-13T00:09:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.motherstankstation.com/contact/",
+      "quote": "London E2 6GQ",
+      "retrieved_at": "2026-10-13T00:09:30Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:41:11Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:41:11Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

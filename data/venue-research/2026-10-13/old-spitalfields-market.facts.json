@@ -1,0 +1,63 @@
+{
+  "venue_id": "old-spitalfields-market",
+  "venue_name": "Old Spitalfields Market",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:25:50Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "16 Horner Square, London E1 6EW",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://oldspitalfieldsmarket.com/visitor-information/",
+          "quote": "16 Horner Square",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 6EW",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://oldspitalfieldsmarket.com/visitor-information/",
+          "quote": "London, E1 6EW",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://oldspitalfieldsmarket.com",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://oldspitalfieldsmarket.com/about-us/",
+          "quote": "Old Spitalfields Market is the original East London Market Place.",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes (the visitor information page gives train and bus routes only, no step-free or toilet detail)",
+    "accessibility.access_page (the /access/ page returned 'Sorry, something went wrong')",
+    "cost.free_entry (not stated)",
+    "cost.notes",
+    "age_policy",
+    "capacity",
+    "status (the site shows normal opening hours and no closure notice)"
+  ],
+  "notes": "Indoor market under one Victorian roof, with traders on daily and weekly markets. Its own site lists market opening hours, which differ from The Kitchens hours; individual shops set their own hours. The /access/ page and sitemap pages returned errors, so the visitor information page is the only access source read. Pages read: home, visitor-information, about-us, access (error page)."
+}

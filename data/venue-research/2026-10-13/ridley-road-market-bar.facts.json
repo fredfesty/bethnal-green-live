@@ -1,0 +1,109 @@
+{
+  "venue_id": "ridley-road-market-bar",
+  "venue_name": "Ridley Road Market Bar",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:27:25Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://www.ridleyroadmarketbar.com/",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com/",
+          "quote": "We're a friendly bar in the middle of Ridley Road market Dalston.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "49 Ridley Road, Dalston, London, E8 2NP, United Kingdom",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://dice.fm/venue/ridley-road-market-bar-a28q",
+          "quote": "49 Ridley Road, Dalston, London, E8 2NP, United Kingdom",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E8 2NP",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://dice.fm/venue/ridley-road-market-bar-a28q",
+          "quote": "49 Ridley Road, Dalston, London, E8 2NP, United Kingdom",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "capacity",
+      "value": 150,
+      "evidence": [
+        {
+          "fields": [
+            "capacity"
+          ],
+          "url": "https://dice.fm/venue/ridley-road-market-bar-a28q",
+          "quote": "Capacity 150 Email",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.free_entry",
+      "value": "some-nights",
+      "evidence": [
+        {
+          "fields": [
+            "cost.free_entry",
+            "cost.notes"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com/",
+          "quote": "Free entry Tues-Thurs, and before 10pm Fri/Sat (£6 after 10pm Fri/Sat). No guestlist.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Entry is free on Tuesday to Thursday, and before 10pm on Friday and Saturday. After 10pm on those two nights it is £6. There is no guestlist.",
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com/",
+          "quote": "Free entry Tues-Thurs, and before 10pm Fri/Sat (£6 after 10pm Fri/Sat). No guestlist.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "age_policy"
+  ],
+  "notes": "Access: the home page links an 'Accessibility Statement', but the page could not be opened (404 at the addresses tried, and no link URL shown in the text), so no access fact is confirmed. Capacity 150 is from the DICE venue page. The 'accessible' in the venue's about text describes its feel, not access, so it is not used. Its own pages give no age policy."
+}

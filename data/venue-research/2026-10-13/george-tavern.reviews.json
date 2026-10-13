@@ -1,0 +1,16 @@
+{
+  "venue_id": "george-tavern",
+  "venue_name": "The George Tavern",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [],
+  "not_found": [
+    "summary",
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "No findings. No press review found: the WebSearch budget was used up before this run's searches. The venue's site domains were not usable: thegeorgetavern.com /about and /about-us returned no text (probably built by JavaScript), and its /lander page returned 403, so I stopped on that site. An earlier probe of thegeorgetavern.co.uk showed a finger-food catering firm, not the pub, so that domain was not used. The venue's own site address needs checking by the editor or a person before the next run."
+}

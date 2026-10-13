@@ -1,0 +1,33 @@
+{
+  "venue_id": "tiella-trattoria",
+  "venue_name": "Tiella Trattoria & Bar",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:24:04Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "bar"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.tiella.co.uk/",
+          "quote": "A Trattoria & Bar at 109 Columbia Road, London.",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "events, nights or music (the site is a placeholder with one line of text)",
+    "music.styles",
+    "music.notes",
+    "dated listings"
+  ],
+  "notes": "Found a website at tiella.co.uk, which carries only one line of text and a reservations link; the page title still reads 'Your Site Title'. The registry says events are announced on Instagram only, which was not fetched, so the programme could not be checked."
+}

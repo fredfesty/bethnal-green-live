@@ -1,0 +1,97 @@
+{
+  "venue_id": "basing-house",
+  "venue_name": "Basing House",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:24:44Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["club", "live-music"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://basinghouse.co.uk/about/",
+          "quote": "a go-to destination for music lovers seeking an up-close, high-quality clubbing experience with real character",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://basinghouse.co.uk/about/",
+          "quote": "an expanding programme of midweek live music events",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["house", "garage", "drum and bass", "disco", "hip-hop"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://basinghouse.co.uk/about/",
+          "quote": "From house and disco to garage and drum and bass",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://basinghouse.co.uk/events/",
+          "quote": "Expect Hip-Hop, R&B, Bashment, Afrobeats, Grime, future sounds and party bangers.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://ma.to/venue/basing_house",
+          "quote": "Weekly club night in Shoreditch featuring disco, house, garage, DnB and live music.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Club nights on Thursdays (YOUR MUM'S HOUSE, hip-hop, R&B, bashment, grime), Fridays and Saturdays on a late licence, and some Saturdays with a daytime party as well as a late one. A Sunday afternoon of freestyle rap battles and live performances.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://basinghouse.co.uk/events/",
+          "quote": "Expect Hip-Hop, R&B, Bashment, Afrobeats, Grime, future sounds and party bangers.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://basinghouse.co.uk/about/",
+          "quote": "Operating under a late license, Basing House comes alive every Friday and Saturday",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/basing_house",
+          "quote": "Freestyle rap battles, cyphers, and live performances at Basing House.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://basinghouse.co.uk/events/",
+          "quote": "The weekly motive for a new generation.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "cost.notes (no general pricing on the venue's own pages read)",
+    "cost.free_entry"
+  ],
+  "notes": "Nights seen on basinghouse.co.uk/events: YOUR MUM'S HOUSE, Thu 8 Oct and Thu 15 Oct 2026, 22:00-02:00; RAVERS x JAMMER, Fri 9 Oct, 23:00-05:00 (past); KRUSH, Sat 10 Oct, 22:00-04:00 (past); UNDERTONE, Sat 17 Oct, 14:00-21:00 (daytime); SOUNDS OF THE UNDERGROUND, Sat 17 Oct, 22:00-04:00. ma.to also lists a 'Basing House Weekly Club Night' (undated, past). Dates are as printed on the page, without a year."
+}

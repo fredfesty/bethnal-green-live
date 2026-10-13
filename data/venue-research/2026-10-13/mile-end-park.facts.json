@@ -1,0 +1,163 @@
+{
+  "venue_id": "mile-end-park",
+  "venue_name": "Mile End Park (incl. Ecology Pavilion)",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:40:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Mile End Park, 125 Grove Road, London (Ecology Pavilion)",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_ecology_pavilion/the_ecology_pavilion_mile_end_park.aspx",
+          "quote": "125 Grove Road London E3 5RP",
+          "retrieved_at": "2026-10-13T00:38:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E3 5RP",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_ecology_pavilion/the_ecology_pavilion_mile_end_park.aspx",
+          "quote": "125 Grove Road London E3 5RP",
+          "retrieved_at": "2026-10-13T00:38:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_park.aspx",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_park.aspx",
+          "quote": "Mile End Park is a 32 hectare linear park.",
+          "retrieved_at": "2026-10-13T00:38:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.step_free"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_ecology_pavilion/the_ecology_pavilion_mile_end_park.aspx",
+          "quote": "The building is step free and accessible",
+          "retrieved_at": "2026-10-13T00:38:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "A mapped, step-free walking route leads from Mile End station to the play park and Art Pavilion. The playground has portable toilets (portaloos) and no baby changing facilities.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_park.aspx",
+          "quote": "The maps show a step-free route from Mile End Underground Station to the Children's Park and The Art Pavilion.",
+          "retrieved_at": "2026-10-13T00:38:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_park.aspx",
+          "quote": "There are portalloo toilets in the playground.",
+          "retrieved_at": "2026-10-13T00:38:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_park.aspx",
+          "quote": "There are no baby change facilities available.",
+          "retrieved_at": "2026-10-13T00:38:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_park.aspx",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.access_page"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_park.aspx",
+          "quote": "A set of maps have been produced to provide a step-free journey to assist our visitors.",
+          "retrieved_at": "2026-10-13T00:38:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Exhibitions at the Art Pavilion are free to visit.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_park.aspx",
+          "quote": "All exhibitions are free and open to all.",
+          "retrieved_at": "2026-10-13T00:38:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "capacity",
+      "value": 220,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "capacity"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_ecology_pavilion/the_ecology_pavilion_mile_end_park.aspx",
+          "quote": "Ecology Pavilion Capacity: 220",
+          "retrieved_at": "2026-10-13T00:38:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free for the whole park (only the Ecology Pavilion building is stated as step-free)",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "cost.free_entry (the park is not stated as free in words; only the Art Pavilion exhibitions)",
+    "age_policy"
+  ],
+  "notes": "Capacity 220 is the Ecology Pavilion's seated figure (its hire listing), not the whole park: the editor should say so if it is used. The Ecology Pavilion hire listing gives its postal address as Mile End Park, 125 Grove Road, E3 5RP; the park's own contact address is Locksley Street, E14 7EJ, which we did not use as the postcode. The Friends of Mile End Park site (fomep.org.uk) is not the park operator's page and is not used as the website here. The council park page was the only park access source."
+}

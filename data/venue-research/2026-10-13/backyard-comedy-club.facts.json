@@ -1,0 +1,206 @@
+{
+  "venue_id": "backyard-comedy-club",
+  "venue_name": "Backyard Comedy Club",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:09:41Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "231 Cambridge Heath Rd, Bethnal Green, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/",
+          "quote": "Backyard Comedy Club, 231 Cambridge Heath Rd, Bethnal Green, E2 0EL",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 0EL",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/",
+          "quote": "Backyard Comedy Club, 231 Cambridge Heath Rd, Bethnal Green, E2 0EL",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://backyardcomedyclub.co.uk",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/",
+          "quote": "We are the largest professional, purpose built comedy club in London",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.step_free"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/faq/",
+          "quote": "there are no steps, our venue is all on one level, and we have wide doorways for easy access.",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Guide dogs are allowed in the auditorium; other dogs are only allowed in the bar area. If unsure about access, email before buying, as the club does not take incoming calls.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/faq/",
+          "quote": "Dogs are welcome in our bar area but we do not allow any dogs in the auditorium for shows.",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/faq/",
+          "quote": "The only exception is Guide dogs for assisting any Blind Customers.",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/faq/",
+          "quote": "Unfortunately we do not take incoming calls.",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/faq/",
+          "quote": "If in any doubt please contact the venue before purchase to discuss.",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://backyardcomedyclub.co.uk/faq/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.access_page"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/faq/",
+          "quote": "We are fully accessible for wheelchair users and people with mobility issues",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Show tickets are priced by night. Advance prices for Thursday to Saturday shows start at £7.50 and run to £16, plus a booking fee, with higher prices on the door. No concession tickets.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/faq/",
+          "quote": "Thursdays – £7.50 plus booking fee",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/faq/",
+          "quote": "Saturdays – £16 plus booking fee",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/faq/",
+          "quote": "Tickets on the door: £20/£24 (if available)",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/faq/",
+          "quote": "We do not do a concession price ticket",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "age_policy",
+      "value": "Evening shows 18+; ID may be asked (challenge 25)",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/faq/",
+          "quote": "All our evening shows are over 18s.",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/faq/",
+          "quote": "We also operate a challenge 25 policy",
+          "retrieved_at": "2026-10-13T00:09:41Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "cost.free_entry",
+    "capacity"
+  ],
+  "notes": "The home page lists Wheelchair Accessible among its features. No accessible toilet or hearing loop statement found on the venue's own site. The venue's own site has no readable event list (the upcoming events block is built by script), so no events are used here."
+}

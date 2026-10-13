@@ -1,0 +1,115 @@
+{
+  "venue_id": "queen-adelaide",
+  "venue_name": "The Queen Adelaide",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:23:52Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "queer-venue",
+        "club",
+        "bar"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://ma.to/venue/thequeenadelaide",
+          "quote": "Located in East London, The Queen Adelaide is a vital basement venue dedicated to queer culture, community connection, and underground dance music",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://ma.to/venue/thequeenadelaide",
+          "quote": "Its basement space hosts frequent club nights soundtracked by Hi-NRG, Italo disco, electroclash, and house.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.thequeenadelaide.com",
+          "quote": "Draught beer and cider. Selection of wines and spirits.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "house",
+        "electroclash",
+        "disco",
+        "hi-nrg"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://ma.to/venue/thequeenadelaide",
+          "quote": "Its basement space hosts frequent club nights soundtracked by Hi-NRG, Italo disco, electroclash, and house.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://ma.to/venue/thequeenadelaide",
+          "quote": "The Queen Adelaide hosts a variety of queer-focused club nights featuring genres like house, disco, and electroclash in its basement space.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://ma.to/venue/thequeenadelaide",
+          "quote": "Queer party starters spinning bouncy house, garage, and edits.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Queer club nights in the basement, mostly house and electronic dance music, often under recurring party names such as trans~late (two listed nights). Its own site lists no events; the nights are seen only on ma.to.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/thequeenadelaide",
+          "quote": "trans~late hits the basement with Mars Montana, Eli La Nuit, and DJ Cee K.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/thequeenadelaide",
+          "quote": "Queer club night tribute to Shilpa Shetty with desi beats.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "cost.notes (no general pricing on its own pages)",
+    "events listed on the venue's own site (the site has bookings and basement hire only)"
+  ],
+  "notes": "No primary listings: the venue's own site lists no events, so all nights come from ma.to (aggregator). Upcoming: Club Shilpa, Fri 13 Nov 2026 from 22:00 (ma.to startDate 2026-11-13T22:00). Past on ma.to: The Blocks x Warme Brüder (£5); CLUB BOOTS (free); trans~late (free, two listings); Gay Rage & miniMel (free). Basement hire is also offered."
+}

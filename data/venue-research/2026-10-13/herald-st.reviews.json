@@ -1,0 +1,50 @@
+{
+  "venue_id": "herald-st",
+  "venue_name": "Herald St",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:32Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A contemporary art gallery on Three Colts Lane, Bethnal Green, which Plaster magazine says has been running since 2005. It has shown alongside Maureen Paley.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://plastermagazine.com/features/all-hail-the-bethnal-green-art-boom/",
+          "quote": "Herald St has been flying the East London flag since 2005",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://plastermagazine.com/features/all-hail-the-bethnal-green-art-boom/",
+          "quote": "Three Colts Lane is brimming with exciting new galleries and OG spaces including Herald St",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.theartnewspaper.com/2024/09/16/40-years-of-maureen-paley-gallery",
+          "quote": "shared across the spaces of both Maureen Paley and Herald St gallery",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2024-01-16"
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status (no closure or new-owner news found; herald-st.com could not be read (robots.txt unreachable), and the closing and new-owner searches were not run)",
+    "aliases"
+  ],
+  "notes": "herald-st.com refused (robots.txt unreachable), so the venue's own site and about page were not read; this file rests on two press pieces. The Plaster article is dated 2024-01-16 and the Art Newspaper piece 2024-09-16. The Art Newspaper describes a joint show of Maureen Paley and Herald St works."
+}

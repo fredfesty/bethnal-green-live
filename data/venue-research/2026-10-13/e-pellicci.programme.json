@@ -1,0 +1,57 @@
+{
+  "venue_id": "e-pellicci",
+  "venue_name": "E. Pellicci",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:24:04Z",
+  "findings": [
+    {
+      "field": "music.notes",
+      "value": "A monthly evening Cocktail Night on the first Thursday, 6:30pm to 10pm, alongside a daytime café open Monday to Saturday until 3pm. No music is named for the night.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://epellicci.co.uk/pages/events",
+          "quote": "Join us for a night of cocktails on Thursday 1st October from 6:30pm - 10pm",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://epellicci.co.uk/pages/events",
+          "quote": "Every 1st Thursday of the month",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://epellicci.co.uk/pages/events",
+          "quote": "Monday - Saturday: 8am -3pm",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://epellicci.co.uk/pages/our-story",
+          "quote": "We are a classic East London café that has been serving the local community for over a century!",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types (the site calls it a café, which is not on our list)",
+    "music.styles",
+    "other event nights"
+  ],
+  "notes": "Nights seen on the events page: Cocktail Night, Thursday 1 October 2026, 6:30pm to 10pm; the page says it recurs on the first Thursday of each month. The page is dated only by its footer (2026), and its dates print without a year. No other events, live music or DJ nights found."
+}

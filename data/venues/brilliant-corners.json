@@ -1,0 +1,108 @@
+{
+  "id": "brilliant-corners",
+  "name": "Brilliant Corners",
+  "zone": "outer",
+  "address": "470-472 Kingsland Road, London",
+  "postcode": "E8 4AE",
+  "website": "https://brilliantcornerslondon.co.uk/",
+  "summary": "A venue on Kingsland Road with an izakaya-inspired menu, open seven nights a week, which also runs a ticketed jazz night called Played Twice.",
+  "music": {
+    "styles": [
+      "jazz"
+    ],
+    "notes": "Ticketed listening nights: a jazz record is played through while seated, then a band performs a live interpretation of it."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://brilliantcornerslondon.co.uk/food/",
+      "quote": "Our menu takes inspiration from the izakaya of Japan",
+      "retrieved_at": "2026-10-13T00:31:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://brilliantcornerslondon.co.uk/food/",
+      "quote": "We are open seven nights a week.",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.styles"
+      ],
+      "url": "https://brilliantcornerslondon.co.uk/played-twice/",
+      "quote": "Played Twice is a ticketed jazz night we run as often as we can.",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "address",
+        "postcode"
+      ],
+      "url": "https://brilliantcornerslondon.co.uk/contact/",
+      "quote": "470 – 472 Kingsland Rd, London E8 4AE",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://brilliantcornerslondon.co.uk/played-twice/",
+      "quote": "It’s a seated playback of a timeless jazz record on the best pressing we can find",
+      "retrieved_at": "2026-10-13T00:31:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://brilliantcornerslondon.co.uk/played-twice/",
+      "quote": "followed by a live interpretation of that music by a band of musicians",
+      "retrieved_at": "2026-10-13T00:31:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://brilliantcornerslondon.co.uk/contact/",
+      "quote": "we provide table reservations for guests taking dinner",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:49:48Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:49:48Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: 'restaurant' not quoted, now 'venue'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

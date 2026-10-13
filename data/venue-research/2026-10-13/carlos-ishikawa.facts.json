@@ -1,0 +1,67 @@
+{
+  "venue_id": "carlos-ishikawa",
+  "venue_name": "Carlos/Ishikawa",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:19:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Unit 4, 88 Mile End Road, London",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode",
+            "website"
+          ],
+          "url": "https://www.carlosishikawa.com/",
+          "quote": "Unit 4, 88 Mile End Road London E1 4UN",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 4UN",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.carlosishikawa.com/",
+          "quote": "Unit 4, 88 Mile End Road London E1 4UN",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.carlosishikawa.com",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.carlosishikawa.com/",
+          "quote": "Unit 4, 88 Mile End Road London E1 4UN",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Its own site has no access, visit or FAQ page we could reach: /contact, /visit, /info and /about all return 404. The contact form is on the home page. Access details need asking the gallery directly."
+}

@@ -1,0 +1,136 @@
+{
+  "id": "nunnery-gallery",
+  "name": "Nunnery Gallery (Bow Arts)",
+  "zone": "outer",
+  "address": "181 Bow Road, London",
+  "postcode": "E3 2SJ",
+  "website": "https://bowarts.org/nunnery-gallery/",
+  "summary": "A free, not-for-profit contemporary art space run by Bow Arts on Bow Road.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "hearing_loop": false,
+    "notes": "There is no accessible parking on site. Access needs can be raised with the gallery by email or phone before a visit, and service animals are welcome.",
+    "access_page": "https://bowarts.org/nunnery-gallery/"
+  },
+  "cost": {
+    "free_entry": "always"
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://bowarts.org/nunnery-gallery/",
+      "quote": "The Nunnery Gallery is a not-for-profit, free, contemporary art space.",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://bowarts.org/nunnery-gallery/",
+      "quote": "Nunnery Gallery is Bow Arts’ free public exhibition space",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://bowarts.org/nunnery-gallery/",
+      "quote": "The Nunnery Gallery hosts the shortlist and winner’s exhibitions on alternate years.",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.accessible_toilet",
+        "accessibility.access_page"
+      ],
+      "url": "https://bowarts.org/nunnery-gallery/",
+      "quote": "The Nunnery Gallery and Cafe have step-free access throughout from street level, including to the accessible toilet",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.hearing_loop"
+      ],
+      "url": "https://bowarts.org/nunnery-gallery/",
+      "quote": "This venue does not have a hearing loop system.",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://bowarts.org/nunnery-gallery/",
+      "quote": "Accessible parking is not available on-site.",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://bowarts.org/nunnery-gallery/",
+      "quote": "please email nunnery@bowarts.com or call 020 8980 7774 (Ext. 3)",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://bowarts.org/nunnery-gallery/",
+      "quote": "is service animal friendly",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.free_entry"
+      ],
+      "url": "https://bowarts.org/nunnery-gallery/",
+      "quote": "Open to the public Wednesday-Sunday, 10am-4pm, all exhibitions are free to enter.",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://bowarts.org/nunnery-gallery/",
+      "quote": "Address: Nunnery Gallery, 181 Bow Road, London, E3 2SJ",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:43:27Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:43:27Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: cut East London Art Prize sentence (prize not named in the quotes)"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

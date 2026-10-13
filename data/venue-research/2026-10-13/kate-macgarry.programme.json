@@ -1,0 +1,31 @@
+{
+  "venue_id": "kate-macgarry",
+  "venue_name": "Kate MacGarry",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:36Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "gallery"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.katemacgarry.com/contact",
+          "quote": "The gallery is in East London at 27 Old Nichol Street, a space designed by British architect Tony Fretton.",
+          "retrieved_at": "2026-10-13T00:11:36Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes"
+  ],
+  "notes": "Gallery running exhibitions and presentations at art fairs. Nights seen: 'Painting & Caption' by Bernard Piffaretti, 2 October - 14 November 2026 (current); Frieze London, 14 - 18 October 2026 (upcoming); Post-Fair Paris, 19 - 24 October 2026 (upcoming, Aimee Parrott); Art Basel Unlimited, Booth U3, 18 - 21 June 2026 (past, Goshka Macuga). No music or events programme found."
+}

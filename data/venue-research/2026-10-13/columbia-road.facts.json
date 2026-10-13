@@ -1,0 +1,63 @@
+{
+  "venue_id": "columbia-road",
+  "venue_name": "Columbia Road (Flower Market & shops)",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:25:50Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://columbiaroad.info",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://columbiaroad.info/",
+          "quote": "Columbia Road is in the East End, sitting at the edge of the City",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The market's Find Us page gives bus routes (the 26, 55 and 8), walking routes from nearby tube stations, and parking at Mulberry School. It says nothing about step-free access, toilets or hearing loops.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://columbiaroad.info/find-us/",
+          "quote": "Buses are the 26, 55 or the number 8.",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://columbiaroad.info/find-us/",
+          "quote": "Parking is available at Mulberry School (Gosset Street E2 6NW)",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "address (the site gives no street address for the market; it says only 'Columbia Road' and the borough of Tower Hamlets)",
+    "postcode (E2 7RG from the triage list is not quoted on the venue's site)",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page (the site has no access page)",
+    "cost.free_entry (the site does not say the market is free to enter)",
+    "cost.notes",
+    "age_policy",
+    "capacity",
+    "status (the site shows Sunday trading hours and no closure notice)"
+  ],
+  "notes": "Pages read: home, find-us, flower-market, history. Not tried: AccessAble and Euan's Guide, because the WebSearch budget was used up and no direct guide URL was known. The council's venue or market page was not tried either."
+}

@@ -1,0 +1,92 @@
+{
+  "id": "columbia-road",
+  "name": "Columbia Road (Flower Market & shops)",
+  "zone": "core",
+  "website": "https://columbiaroad.info",
+  "summary": "A street of Victorian shops off Hackney Road in Tower Hamlets, where traders sell flowers, houseplants, herbs, bulbs and shrubs on Sundays.",
+  "music": {
+    "styles": [],
+    "notes": "A free festival with music, dance and a procession, and shops that open late on Wednesdays before Christmas."
+  },
+  "crowd": "Time Out says it pulls in big crowds of visitors and locals alike.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://columbiaroad.info/",
+      "quote": "Columbia Road is a road of Victorian shops situated off Hackney Road in the London Borough of Tower Hamlets.",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+      "quote": "It takes place each Sunday, when market traders line the narrow Victorian street selling flowers, houseplants, herbs, bulbs and shrubs.",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+      "quote": "it draws large crowds of tourists and locals alike",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://columbiaroad.info/",
+      "quote": "bringing music, dance, flowers, costume and procession to one of East London’s best-known streets. This is a free festival.",
+      "retrieved_at": "2026-10-13T00:23:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://columbiaroad.info/news/",
+      "quote": "For many years, the Columbia Road shops have stayed open for late night Christmas shopping 5-9pm every Wednesday in the lead up to 25th December.",
+      "retrieved_at": "2026-10-13T00:23:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://columbiaroad.info/",
+      "quote": "Columbia Road is in the East End, sitting at the edge of the City",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:47:43Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:47:43Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes: 'street festival' -> 'festival'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

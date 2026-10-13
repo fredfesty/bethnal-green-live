@@ -1,0 +1,159 @@
+{
+  "id": "135-bar-and-lounge",
+  "name": "135 Bar & Lounge",
+  "zone": "core",
+  "types": [
+    "bar",
+    "live-music"
+  ],
+  "location": {
+    "lat": 51.523019,
+    "lon": -0.055269,
+    "distance_m": 443,
+    "source": "postcodes.io"
+  },
+  "discovered": {
+    "first_seen": "2026-10-13",
+    "found_by": [
+      "listings"
+    ]
+  },
+  "address": "135 Cambridge Heath Road, Bethnal Green, London",
+  "postcode": "E1 5RN",
+  "website": "https://www.135-barandlounge.co.uk/",
+  "summary": "A bar and lounge on Cambridge Heath Road in Bethnal Green with live music, dancing, cocktails and Nordic-European small plates.",
+  "music": {
+    "styles": [
+      "blues",
+      "jazz",
+      "soul",
+      "funk",
+      "disco",
+      "house",
+      "latin"
+    ],
+    "notes": "Live blues, jazz and Latin sessions, an early-evening piano bar, and resident DJs playing vinyl on Friday nights."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "types",
+        "summary"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/about",
+      "quote": "Our elegant music bar offers a sophisticated evening of dancing and drinks",
+      "retrieved_at": "2026-10-13T00:15:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "types",
+        "music.styles"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/",
+      "quote": "Amazing live blues, dancing and cocktails!",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/about",
+      "quote": "Tucked away on Cambridge Heath Road, 135 Bar & Lounge is one of Bethnal Green’s hidden gems",
+      "retrieved_at": "2026-10-13T00:15:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/about",
+      "quote": "thoughtful Nordic-European small plates and sharing boards designed for social dining",
+      "retrieved_at": "2026-10-13T00:15:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/whats-on",
+      "quote": "Live jazz every Thursday",
+      "retrieved_at": "2026-10-13T00:15:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/whats-on",
+      "quote": "Friday nights, 10 pm-2 am feature our resident DJs spinning vinyl, bringing you the best in soul, funk, disco, house, and world music.",
+      "retrieved_at": "2026-10-13T00:15:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/whats-on",
+      "quote": "Sundays bring live jazz, funk and Latin sessions",
+      "retrieved_at": "2026-10-13T00:15:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/whats-on",
+      "quote": "Early evenings come alive with our piano bar sessions",
+      "retrieved_at": "2026-10-13T00:15:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/",
+      "quote": "Our welcoming spot for great drinks, soulful music, and good vibes.",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/contact",
+      "quote": "135 Cambridge Heath Road Bethnal Green London United Kingdom E1 5RN",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:50:59Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:50:59Z",
+      "by": "venue-editor",
+      "change": "new venue, found by the listings finder; profile written from the venue's own site"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

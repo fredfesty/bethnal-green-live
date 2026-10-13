@@ -1,0 +1,68 @@
+{
+  "venue_id": "castle-cinema",
+  "venue_name": "The Castle Cinema",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:13:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "An independent cinema in Homerton, Hackney, crowdfunded and reopened in 2016 in a building first used as a cinema in 1913. Time Out describes its interior as Art Deco.",
+      "source_date": "2025-11-21",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.onlondon.co.uk/hackney-the-glories-of-the-castle-cinema/",
+          "quote": "The crowdfunded independent picture house makes movie-going an intimate, luxurious local affair",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.onlondon.co.uk/hackney-the-glories-of-the-castle-cinema/",
+          "quote": "A cinema was first opened at the site in 1913",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/things-to-do/christmas-screenings-at-the-castle-cinema",
+          "quote": "the glorious Castle Cinema is an Art Deco dream with its stylish bar, retro sets and ornate gilded plaster work",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.onlondon.co.uk/hackney-the-glories-of-the-castle-cinema/",
+          "quote": "A 2016 Kickstarter campaign raised £57,000, the space was renovated and re-opened",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.onlondon.co.uk/hackney-the-glories-of-the-castle-cinema/",
+          "quote": "Screen 2 at the Castle Cinema on Brooksby’s Walk in Homerton is very small indeed",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Time Out (21 Nov 2025) is the only recent press found. Its free Friday-morning entry for Hackney residents aged 55 and over applies to December screenings only, so it is an event offer and is not proposed for cost or crowd. OnLondon (29 Dec 2019) is over five years old, so it backs only the history in the summary. The venue's own site (castlecinema.com) was refused by robots.txt, so no primary source was read. No closure or ownership news found."
+}

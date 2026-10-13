@@ -1,0 +1,37 @@
+{
+  "venue_id": "carlos-ishikawa",
+  "venue_name": "Carlos/Ishikawa",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:35Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A contemporary art gallery on Mile End Road, founded in 2011, which describes its exhibitions as considered and ambitious.",
+      "source_date": "2026-10-09",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.carlosishikawa.com/",
+          "quote": "Founded in 2011, Carlos/Ishikawa’s program is dedicated to considered and ambitious exhibitions",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.carlosishikawa.com/",
+          "quote": "Unit 4, 88 Mile End Road",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "The venue's own home page is the only source read. Searches for press reviews found no named-publication review (Ocula pages are exhibition press releases, not reviews, so not used). A UCL Slade news item (2014) is too old to back anything beyond the address."
+}

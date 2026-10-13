@@ -1,0 +1,142 @@
+{
+  "venue_id": "ragged-school-museum",
+  "venue_name": "Ragged School Museum",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:40:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "46-50 Copperfield Road, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address", "postcode"],
+          "url": "https://raggedschoolmuseum.org.uk/",
+          "quote": "46-50 Copperfield Road London E3 4RR",
+          "retrieved_at": "2026-10-13T00:39:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E3 4RR",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://raggedschoolmuseum.org.uk/",
+          "quote": "46-50 Copperfield Road London E3 4RR",
+          "retrieved_at": "2026-10-13T00:39:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://raggedschoolmuseum.org.uk",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://raggedschoolmuseum.org.uk/",
+          "quote": "All content © Ragged School Museum Trust",
+          "retrieved_at": "2026-10-13T00:39:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "source_date": "2026-04-02",
+      "evidence": [
+        {
+          "fields": ["accessibility.step_free", "accessibility.access_page"],
+          "url": "https://raggedschoolmuseum.org.uk/plan-your-visit/",
+          "quote": "Step-free access throughout the building.",
+          "retrieved_at": "2026-10-13T00:39:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://raggedschoolmuseum.org.uk/plan-your-visit/",
+      "source_date": "2026-04-02",
+      "evidence": [
+        {
+          "fields": ["accessibility.access_page"],
+          "url": "https://raggedschoolmuseum.org.uk/plan-your-visit/",
+          "quote": "Step-free access throughout the building.",
+          "retrieved_at": "2026-10-13T00:39:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "A lift serves every floor, and a platform lift runs from the lower ground floor to the second floor. The schools' lunch room has one step, so school groups should be told about it.",
+      "source_date": "2024-09-09",
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://raggedschoolmuseum.org.uk/",
+          "quote": "All floors are accessible by lift",
+          "retrieved_at": "2026-10-13T00:39:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://raggedschoolmuseum.org.uk/schools/faqs/",
+          "quote": "There is a platform lift which travels from lower ground to second floor.",
+          "retrieved_at": "2026-10-13T00:39:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://raggedschoolmuseum.org.uk/schools/faqs/",
+          "quote": "There is a step to the Schools’ Lunch Room.",
+          "retrieved_at": "2026-10-13T00:39:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Admission is charged: adults £5, children £2.50, family £10, concessions £2.50, as listed on the visit page.",
+      "source_date": "2026-04-02",
+      "evidence": [
+        {
+          "fields": ["cost.notes"],
+          "url": "https://raggedschoolmuseum.org.uk/plan-your-visit/",
+          "quote": "Full price adults £ 5:00",
+          "retrieved_at": "2026-10-13T00:39:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["cost.notes"],
+          "url": "https://raggedschoolmuseum.org.uk/plan-your-visit/",
+          "quote": "Family £10:00",
+          "retrieved_at": "2026-10-13T00:39:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["cost.notes"],
+          "url": "https://raggedschoolmuseum.org.uk/plan-your-visit/",
+          "quote": "Concession £ 2:50",
+          "retrieved_at": "2026-10-13T00:39:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "cost.free_entry (the visit page says 'Admission charge' but gives no 'always charged' statement and the site mentions free family activities; left empty)",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Visit page: open Wednesday to Sunday, 10am to 5pm, with Easter opening listed separately; the page also says the museum is situated next to Mile End Park on the Regent's Canal towpath, and that the entrance is on Copperfield Road. The schools FAQ (last modified 2024-09-09) is about school visits, so its step and lift details are used only as accessibility notes. Prices are from the visit page and may change."
+}

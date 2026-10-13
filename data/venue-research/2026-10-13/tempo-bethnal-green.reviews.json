@@ -1,0 +1,32 @@
+{
+  "venue_id": "tempo-bethnal-green",
+  "venue_name": "Tempo",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:25:15Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A wine bar and restaurant on Paradise Row whose kitchen cooks modern South East Asian food.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.tempo.restaurant/",
+          "quote": "a wine bar and restaurant serving modern South East Asian cooking",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "aliases",
+    "status"
+  ],
+  "notes": "Only the venue's own homepage was readable (its About page returned 404). The registry's Hot Dinners review (January 2026) could not be reached by direct URL, and no Time Out or other press page was found. Bookings are via OpenTable, which is not used. WebSearch was unavailable this run."
+}

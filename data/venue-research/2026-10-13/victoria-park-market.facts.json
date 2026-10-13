@@ -1,0 +1,62 @@
+{
+  "venue_id": "victoria-park-market",
+  "venue_name": "Victoria Park Market",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:40:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Bonner Gate, inside Victoria Park, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address", "postcode"],
+          "url": "https://victoriaparkmarket.com/find-us",
+          "quote": "Bonner gate, London, England, E2 9HN",
+          "retrieved_at": "2026-10-13T00:37:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 9HN",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://victoriaparkmarket.com/find-us",
+          "quote": "Bonner gate, London, England, E2 9HN",
+          "retrieved_at": "2026-10-13T00:37:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://victoriaparkmarket.com",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://victoriaparkmarket.com/",
+          "quote": "Food market open Sundays 10-4pm",
+          "retrieved_at": "2026-10-13T00:37:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes (nothing on the market's own site about access)",
+    "accessibility.access_page",
+    "cost.free_entry (the site does not say entry is free; the ma.to event page's price of 0 is one event's listing and is not used)",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Market's own site, found by direct URL (the site is marked as a Squarespace site with a Find us page). Its Find us page says the market is on the pedestrianised Nightwalk inside the park between Bonner Gate and Gore Gate, and gives the nearest postcode as E2 9JW. Hours on the site: Sun 10:00 to 15:00. Its Find us page says 'Hours Sun 10:00 to 15:00'. Address and postcode for the market are E2 9HN per the market's own site. The council page (Victoria Park) lists the park's gates separately; no access info for the market was on either."
+}

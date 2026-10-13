@@ -1,0 +1,77 @@
+{
+  "venue_id": "netil360",
+  "venue_name": "Netil360",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A rooftop bar and Neapolitan pizza restaurant in London Fields, Hackney, with views over London. It has DJs at weekends.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.netil360.com/",
+          "quote": "Netil360, rooftop bar with panoramic views over London, serving up natural wine, craft beer, cocktails, and stone-baked Neapolitan pizza.",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.netil360.com/",
+          "quote": "Netil360 Rooftop Bar & Pizza Restaurant in London Fields, Hackney, East London",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["soul", "hip-hop", "house", "disco", "jazz"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.netil360.com/",
+          "quote": "Each weekend, a curated lineup of DJs brings soul, hip-hop, house, disco and global sounds",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.netil360.com/whats-on",
+          "quote": "Jazz Thursdays",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "DJs at weekends, and a regular Thursday jazz night listed on the venue's site.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.netil360.com/",
+          "quote": "DJs every Friday & Saturday.",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.netil360.com/whats-on",
+          "quote": "Jazz Thursdays",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "status",
+    "aliases"
+  ],
+  "notes": "Sources: the venue's own home page and What's On page (both current; the site shows hours and a Christmas menu, no closure or reopening news, so no status finding). 'Jazz Thursdays' is a menu item only; no page describes it, so treat jazz as thin. No press review found: WebSearch budget was used up before this run's searches. The venue's own about page returned 404."
+}

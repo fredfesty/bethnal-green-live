@@ -1,0 +1,147 @@
+{
+  "id": "arcola-theatre",
+  "name": "Arcola Theatre",
+  "zone": "outer",
+  "address": "24 Ashwin Street, Dalston, London",
+  "postcode": "E8 3DL",
+  "website": "https://www.arcolatheatre.com",
+  "summary": "A theatre in Dalston run by a registered charity. Time Out names its summer Grimeborn festival of new opera as its biggest constant.",
+  "music": {
+    "styles": [
+      "opera"
+    ],
+    "notes": "Grimeborn, a summer opera festival, runs alongside the theatre programme and includes reimagined classics."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "notes": "Its access page lists a street-level main theatre entrance; details are on that page.",
+    "access_page": "https://www.arcolatheatre.com/access/"
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Some tickets are pay-what-you-can: sold face to face from 6pm on the evening of the show, with an average spend of £5."
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.arcolatheatre.com/visit-us/pwyc/",
+      "quote": "Arcola Theatre Production Company is a registered charity no.1108613.",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/theatre/arcola-theatre",
+      "quote": "Its biggest constant is Grimeborn, an irreverent and influential festival of new opera writing that takes place in the summer",
+      "retrieved_at": "2026-10-13T00:13:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.arcolatheatre.com/festival/grimeborn-2026/",
+      "quote": "Returning for its nineteenth year, Grimeborn Opera Festival continues to rip up the rulebook and create something radically new.",
+      "retrieved_at": "2026-10-13T00:12:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.arcolatheatre.com/festival/grimeborn-2026/",
+      "quote": "alongside reimagined classics including Mozart’s Così fan tutte",
+      "retrieved_at": "2026-10-13T00:12:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.arcolatheatre.com/festival/grimeborn-2026/",
+      "quote": "15 Jul - 5 Sep 2026",
+      "retrieved_at": "2026-10-13T00:12:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.arcolatheatre.com/access/",
+      "quote": "Main Theatre Entrance (Street Level)",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.arcolatheatre.com/access/",
+      "quote": "Wheelchair access",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.access_page"
+      ],
+      "url": "https://www.arcolatheatre.com/access/",
+      "quote": "Feel at home at Arcola Theatre.",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.arcolatheatre.com/visit-us/pwyc/",
+      "quote": "Pay What You Can tickets can only be purchased in person, from 6pm on the night of the performance.",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.arcolatheatre.com/visit-us/pwyc/",
+      "quote": "The average ticket spend is £5",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.arcolatheatre.com/visit-us/pwyc/",
+      "quote": "24 Ashwin Street London E8 3DL",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:43:27Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:43:27Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: accessibility.notes: dropped wheelchair-access clause (only a heading was quoted)"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

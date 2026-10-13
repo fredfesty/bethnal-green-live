@@ -1,0 +1,65 @@
+{
+  "venue_id": "columbia-road-flower-market",
+  "venue_name": "Columbia Road Flower Market",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:54Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A Sunday street market on Columbia Road, E2, selling flowers, houseplants, herbs and shrubs from stalls along a narrow Victorian street lined with independent shops.",
+      "source_date": "2025-01-21",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+          "quote": "It takes place each Sunday, when market traders line the narrow Victorian street selling flowers, houseplants, herbs, bulbs and shrubs.",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+          "quote": "the quaint little street is home to over 60 independent businesses",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "Time Out says big numbers of tourists and locals come, with the busiest spell around midday.",
+      "source_date": "2025-01-21",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+          "quote": "it draws large crowds of tourists and locals alike",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+          "quote": "During the midday rush you may well find yourself being jostled",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Only one named-publication article found (Time Out, 2025). No primary site for the market itself was found. The thatsup.co.uk and Nudge pages were not used (Nudge refuses ClaudeBot). Web search budget ran out, so other press reviews were not checked. Music is not applicable to a market."
+}

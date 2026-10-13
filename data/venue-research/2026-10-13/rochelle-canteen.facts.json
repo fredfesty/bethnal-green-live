@@ -1,0 +1,83 @@
+{
+  "venue_id": "rochelle-canteen",
+  "venue_name": "Rochelle Canteen",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:25:50Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "16 Playground Gardens, London E2 7FA",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://rochellecanteen.com/contact/",
+          "quote": "16 Playground Gardens",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 7FA",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://rochellecanteen.com/contact/",
+          "quote": "London E2 7FA",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://rochellecanteen.com",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://rochellecanteen.com/",
+          "quote": "Rochelle Canteen’s seasonal, daily changing menu",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The venue's own home and contact pages label it wheelchair accessible, with no further detail. The contact page gives the nearest Underground stations as Old Street and Liverpool Street, with Shoreditch High Street for Overground trains.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://rochellecanteen.com/contact/",
+          "quote": "Wheelchair accessible",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://rochellecanteen.com/contact/",
+          "quote": "Nearest London Underground stations are Old Street and Liverpool Street",
+          "retrieved_at": "2026-10-13T00:25:50Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free (the site says 'Wheelchair accessible' but does not say step-free, so it is left for the editor)",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page (/access/ and /accessibility/ return 404)",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity",
+    "status (the site shows normal opening times and no closure notice)"
+  ],
+  "notes": "Restaurant with lunch Monday to Sunday and supper Wednesday to Saturday, per its home page. Guests must leave by 10pm, which is not an age policy. The site says 'Wheelchair accessible' without detail, so the editor should decide whether that is enough for step_free. Pages read: home, contact."
+}

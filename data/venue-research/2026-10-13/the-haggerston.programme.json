@@ -1,0 +1,94 @@
+{
+  "venue_id": "the-haggerston",
+  "venue_name": "The Haggerston",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:27:31Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "pub",
+        "live-music",
+        "jazz"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://camra.org.uk/pubs/haggerston-hackney-156101",
+          "quote": "Independent pub on Kingsland Rd, Hackney.",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://camra.org.uk/pubs/haggerston-hackney-156101",
+          "quote": "garden, evening meals & live music",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.soas.ac.uk/about/blogs/explore-londons-hidden-music-scene-top-weekly-jazz-and-jam-spots",
+          "quote": "The Haggerston’s Sunday jazz nights are legendary.",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "jazz"
+      ],
+      "source_date": "2024-12-11",
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.soas.ac.uk/about/blogs/explore-londons-hidden-music-scene-top-weekly-jazz-and-jam-spots",
+          "quote": "The Haggerston offers free Sunday jazz nights in Dalston.",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Free Sunday jazz nights, which one blog describes as a regular event. CAMRA lists live music among its facilities, but no other genre or night was named on the pages read.",
+      "source_date": "2024-12-11",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.soas.ac.uk/about/blogs/explore-londons-hidden-music-scene-top-weekly-jazz-and-jam-spots",
+          "quote": "The Haggerston offers free Sunday jazz nights in Dalston.",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://camra.org.uk/pubs/haggerston-hackney-156101",
+          "quote": "garden, evening meals & live music",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles beyond jazz (only one dated press source names a night; the venue's own pages could not be read)",
+    "Recent listings or the venue's own what's-on page (thehaggerston.co.uk and thehaggerston.com were refused by the tool's robots.txt check, so were not read)"
+  ],
+  "notes": "Only one night is named, from a press piece dated 11 Dec 2024: 'The Haggerston's Sunday jazz nights'. No dated listings on sale were found. The editor should compare with the existing jazz-only profile before publishing: one press source supports the Sunday jazz nights and CAMRA's 'live music' is a facility, not a genre. CAMRA's page (updated after cask beer returned on 29 Oct 2025) is the only recent source for the pub's current programme."
+}

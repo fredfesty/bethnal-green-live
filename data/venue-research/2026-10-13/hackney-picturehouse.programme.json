@@ -1,0 +1,76 @@
+{
+  "venue_id": "hackney-picturehouse",
+  "venue_name": "Hackney Picturehouse",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:12:52Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "cinema",
+        "comedy"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.picturehouses.com/cinema/hackney-picturehouse",
+          "quote": "Hackney Picturehouse | Cinema | Showtimes | Tickets",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.picturehouses.com/cinema/hackney-picturehouse",
+          "quote": "Big screens. Bigger laughs. Katie Norris, Amy Annette, Jon Long and Steve Bugeja join us at our next night of comedy.",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A cinema with film Q&As and special seasons, a comedy night run as The Attic Comedy Club, and family screenings such as Kids' Club.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.picturehouses.com/cinema/hackney-picturehouse",
+          "quote": "Q&As, world class arts events, and special film seasons",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.picturehouses.com/cinema/hackney-picturehouse",
+          "quote": "The Attic Comedy Club",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.picturehouses.com/cinema/hackney-picturehouse",
+          "quote": "Bringing families together through the love of cinema",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "Music styles: no music nights named on the venue page",
+    "Live music or club nights: none seen",
+    "Cost notes: no general ticket pricing on the venue page (membership price only)"
+  ],
+  "notes": "Titles seen on the venue page: 'Dune: Part Three' preview, Tue 15 Dec 2026, 19.00; 'The Attic Comedy Club' (next night, date not printed on the page); 'Kids' Club' (family, date not printed); 'Original Flava' food pop-up (not an event). The page shows films by day from 14 Oct to 13 Dec 2026, so the comedy night's date could not be confirmed."
+}

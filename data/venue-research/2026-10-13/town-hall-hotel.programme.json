@@ -1,0 +1,49 @@
+{
+  "venue_id": "town-hall-hotel",
+  "venue_name": "Town Hall Hotel (Da Terra, Restaurant Elis)",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:24:04Z",
+  "findings": [
+    {
+      "field": "music.notes",
+      "value": "Seasonal events and celebrations, including Christmas parties and private or corporate events. Its What's On page had no listed events when read.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.townhallhotel.com/christmas-at-town-hall-hotel",
+          "quote": "Whether you’re planning a Christmas party, private celebration or corporate event",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.townhallhotel.com/christmas-at-town-hall-hotel",
+          "quote": "join us for one of our seasonal events and celebrations",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.townhallhotel.com/whatson",
+          "quote": "Find out about our hotel happenings here!",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types (a hotel and restaurants; none of our list types apply)",
+    "music.styles",
+    "dated events or regular nights (What's On page empty)",
+    "live music or DJ nights"
+  ],
+  "notes": "The What's On page had no listed items on the day it was read. The Christmas page names seasonal events, but no dates or line-up. Da Terra's own site lists menus and prices only, with no events section."
+}

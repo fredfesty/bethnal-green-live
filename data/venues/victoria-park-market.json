@@ -1,0 +1,85 @@
+{
+  "id": "victoria-park-market",
+  "name": "Victoria Park Market",
+  "zone": "core",
+  "address": "Bonner Gate, Victoria Park, London",
+  "postcode": "E2 9HN",
+  "website": "https://victoriaparkmarket.com",
+  "summary": "A weekly Sunday produce market inside Victoria Park, run by the Good Market Company and started in June 2017 as a six-month summer project.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "http://victoriaparkmarket.com/",
+      "quote": "A weekly Sunday produce market inside East London's most beautiful park",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://secretldn.com/victoria-park-market/",
+      "quote": "The market is run by the Good Market Company",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://secretldn.com/victoria-park-market/",
+      "quote": "Established back in June 2017 and initially launched as a six month summer project",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://victoriaparkmarket.com/",
+      "quote": "Food market open Sundays 10-4pm",
+      "retrieved_at": "2026-10-13T00:37:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://victoriaparkmarket.com/find-us",
+      "quote": "Bonner gate, London, England, E2 9HN",
+      "retrieved_at": "2026-10-13T00:37:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:46:24Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:46:24Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

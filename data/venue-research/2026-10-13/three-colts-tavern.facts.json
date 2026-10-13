@@ -1,0 +1,83 @@
+{
+  "venue_id": "three-colts-tavern",
+  "venue_name": "Three Colts Tavern (Glue Factory)",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:10:20Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "199 Cambridge Heath Road, Bethnal Green, London",
+      "source_date": "2026-08-05",
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://camra.org.uk/pubs/three-colts-tavern-bethnal-green-154899",
+          "quote": "199 Cambridge Heath Road, Bethnal Green, E2 0EL",
+          "retrieved_at": "2026-10-13T00:10:20Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 0EL",
+      "source_date": "2026-08-05",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://camra.org.uk/pubs/three-colts-tavern-bethnal-green-154899",
+          "quote": "199 Cambridge Heath Road, Bethnal Green, E2 0EL",
+          "retrieved_at": "2026-10-13T00:10:20Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "source_date": "2026-08-05",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.step_free"
+          ],
+          "url": "https://camra.org.uk/pubs/three-colts-tavern-bethnal-green-154899",
+          "quote": "Step free access. Accessible toilet.",
+          "retrieved_at": "2026-10-13T00:10:20Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": "2026-08-05",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://camra.org.uk/pubs/three-colts-tavern-bethnal-green-154899",
+          "quote": "Step free access. Accessible toilet.",
+          "retrieved_at": "2026-10-13T00:10:20Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "No website or own listing page found, so the address and access line come from CAMRA WhatPub (directory), not the venue. A person should confirm the address and the access line. CAMRA's last update is dated 5 August 2026 and names the previous name Fugitive Motel. The DesignMyNight listing is discovery-only and was not used for facts."
+}
