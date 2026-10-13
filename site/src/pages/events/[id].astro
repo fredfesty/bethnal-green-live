@@ -51,7 +51,7 @@ const fixHref = !mail ? null : mail.includes("@")
   ? `mailto:${mail}?subject=${encodeURIComponent(`Correction: ${e.title} (${e.date})`)}&body=${encodeURIComponent(`Listing: ${pageUrl}\n\nWhat's wrong:\n`)}`
   : mail;
 ---
-<Base title={e.title} description={e.listing?.blurb ? e.listing.blurb : e.isRun ? `${kind} at ${e.venue.name}, until ${dayMonth(e.until)}. ${e.priceLabel}.` : `${kind} at ${e.venue.name}, ${weekday(e.date)} ${dayMonth(e.date)}. ${e.priceLabel}.`} jsonld={jsonld}>
+<Base title={e.title} description={e.listing?.blurb ? `${e.listing.blurb} ${e.isRun ? `Until ${dayMonth(e.until)}` : `${weekday(e.date)} ${dayMonth(e.date)}`}. ${e.priceLabel}.` : e.isRun ? `${kind} at ${e.venue.name}, until ${dayMonth(e.until)}. ${e.priceLabel}.` : `${kind} at ${e.venue.name}, ${weekday(e.date)} ${dayMonth(e.date)}. ${e.priceLabel}.`} jsonld={jsonld}>
   <article class="ev">
     <p class="ev__back"><a href={rel(here, "index.html")}>Back to all listings</a></p>
 
@@ -64,7 +64,6 @@ const fixHref = !mail ? null : mail.includes("@")
 
     <h1>{e.title}</h1>
     <p class="ev__kind">{kind} at <a href={rel(here, vpath)}>{e.venue.name}</a></p>
-    {e.listing?.blurb && <p class="ev__blurb">{e.listing.blurb}</p>}
 
     {STATUS[e.status] && (
       <p class:list={["ev__status", `ev__status--${e.status}`]} role="status">
@@ -74,6 +73,8 @@ const fixHref = !mail ? null : mail.includes("@")
         {e.status === "few-left" && "The last few tickets are on sale."}
       </p>
     )}
+
+    {e.listing?.blurb && <p class="ev__blurb">{e.listing.blurb}</p>}
 
     <div class="ev__grid">
       <dl class="ev__facts">

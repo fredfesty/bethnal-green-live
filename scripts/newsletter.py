@@ -215,7 +215,7 @@ def event_url(e: dict, site_url: str = SITE_URL) -> str:
 _POUNDS = re.compile(r"£\s?(\d+(?:\.\d{1,2})?)")
 _TIME = re.compile(r"\b(\d{1,2})(?:[:.](\d{2}))?\s?(am|pm)\b", re.I)
 _WEEKDAY = re.compile(r"\b(" + "|".join(WEEKDAYS) + r")s?\b", re.I)
-_FREE = re.compile(r"\bfree\b", re.I)
+_FREE = re.compile(r"(?<![-\w])(?<!feel )free(?![-\w])", re.I)
 FIRST_HAND = re.compile(
     r"\b(I|we)\s+(went|was at|were at|saw|caught|heard|danced|spent|tried|ate|drank|popped|stumbled|found myself)\b"
     r"|\blast (week|weekend|night|time) I\b|\bI've been (to|going)\b",
@@ -226,7 +226,9 @@ FIRST_HAND = re.compile(
 _PROMO = re.compile(
     r"\b(iconic|legendary|unmissable|epic|vibes?|must[- ]see|world[- ]class|not to be missed|don'?t miss|"
     r"something for everyone)\b", re.I)
-_RELATIVE_DAY = re.compile(r"\b(tonight|tomorrow|today|yesterday|this (?:week|weekend)|next (?:week|weekend))\b", re.I)
+_RELATIVE_DAY = re.compile(
+    r"\b(tonight|tomorrow|today|yesterday|later this (?:week|month)|(?:this|next)(?: coming)? (?:week|weekend|month|"
+    + "|".join(WEEKDAYS) + r"))\b", re.I)
 _STATUS_WORDS = re.compile(r"\b(sold[- ]out|selling fast|last (?:few|remaining) tickets|few tickets left|"
                            r"limited tickets|almost gone)\b", re.I)
 
@@ -258,6 +260,7 @@ def price_numbers(e: dict) -> set[float]:
 
 def event_times(e: dict) -> set[tuple[int, int]]:
     out = {hm for _, hm in _mentioned_times(e.get("run_schedule") or "")}
+    out |= {hm for _, hm in _mentioned_times(e["price"].get("notes") or "")}  # "£12 after 10.30pm"
     for w in (e["starts_at"], e.get("ends_at")):
         if w and has_time(w):
             t = local(w)
@@ -286,6 +289,9 @@ def is_free_ish(e: dict) -> bool:
 def fact_problems(text: str, events: list[dict], one_event: bool) -> list[str]:
     """Numbers, times, days and 'free' in our words must match the checked facts.
 
+    Pass the text with event titles and names already taken out (validate.without_names), so a title like
+    "Free Party" or "Sunday Service" neither excuses nor trips a check.
+
     one_event: the text is about a single event (a blurb), so its weekday and 'free' are checked too.
     """
     if not text:
@@ -301,12 +307,13 @@ def fact_problems(text: str, events: list[dict], one_event: bool) -> list[str]:
             errs.append(f"says '{said}', which isn't a checked start or end time")
     if one_event and events:
         e = events[0]
-        if _FREE.search(text) and not is_free_ish(e) and not _FREE.search(e["title"]):
+        if _FREE.search(text) and not is_free_ish(e):
             errs.append("says 'free' but the checked price isn't free")
         if is_run(e):  # open on many days: a weekday is fine if its opening hours mention it, so don't guess
             return errs
         days = {WEEKDAYS[event_date(e).weekday()]}
-        if end_date(e):
+        end = e.get("ends_at")
+        if end and (not has_time(end) or local(end).hour >= 6):  # a night ending at 3am is still the night it began
             days.add(WEEKDAYS[end_date(e).weekday()])
         for m in _WEEKDAY.finditer(text):
             if m.group(1).lower() not in days and not (e.get("recurrence") and m.group(1).lower() in e["recurrence"].lower()):

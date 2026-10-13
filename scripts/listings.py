@@ -11,8 +11,9 @@ facts the verifier confirmed, plus the venue's profile when that profile has pas
 check. Never anything a scout said: the scout's opinion is internal and not a fact.
 
 An event needs a description when it is still on (it hasn't finished before the run date), it isn't under
-review, and its `listing` is empty. The verifier empties `listing` whenever a fact it mentions changes,
-so a changed event comes back here to be rewritten.
+review, and either its `listing` is empty or the event changed after the description was written
+(`updated_at` is later than `listing.written_at`: a new time, a cancellation, anything). So a changed event
+always comes back here to be checked and, if need be, rewritten.
 """
 from __future__ import annotations
 
@@ -28,6 +29,14 @@ import newsletter as nl
 NOT_FOR_LISTINGS = ("scout_opinion_internal", "in_earlier_issues", "listing_blurb")
 
 
+def stale(e: dict) -> bool:
+    """The event changed after its description was written."""
+    try:
+        return dt.datetime.fromisoformat(e["updated_at"]) > dt.datetime.fromisoformat(e["listing"]["written_at"])
+    except (KeyError, TypeError, ValueError):
+        return True
+
+
 def todo(run_date: dt.date, root: Path | None = None, include_written: bool = False) -> dict:
     events = nl.load_events(root)
     venues = nl.load_venue_profiles(root)
@@ -35,11 +44,12 @@ def todo(run_date: dt.date, root: Path | None = None, include_written: bool = Fa
     for e in sorted(events.values(), key=lambda e: (e["starts_at"], e["id"])):
         if nl.last_date(e) < run_date or e.get("needs_review"):
             continue
-        if e.get("listing") and not include_written:
+        if e.get("listing") and not include_written and not stale(e):
             continue
         view = {k: v for k, v in nl.event_view(e, venues).items() if k not in NOT_FOR_LISTINGS}
         view["file"] = f"data/events/{e['starts_at'][:7]}/{e['id']}.json"
         view["current_blurb"] = (e.get("listing") or {}).get("blurb")
+        view["changed_since_written"] = bool(e.get("listing")) and stale(e)
         out.append(view)
     return {"run_date": run_date.isoformat(), "count": len(out), "events": out}
 

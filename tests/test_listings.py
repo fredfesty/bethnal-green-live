@@ -34,7 +34,7 @@ def ids(result):
 def test_lists_only_upcoming_undescribed_events_not_in_doubt(tmp_path):
     root = make_repo(tmp_path, [
         event(id="needs-one"),
-        event(id="has-one", listing={"headline": None, "blurb": "Already written.", "written_at": "2026-10-13T07:00:00+01:00",
+        event(id="has-one", listing={"headline": None, "blurb": "Already written.", "written_at": "2026-10-13T08:00:00+01:00",
                                      "run_id": "x"}),
         event(id="in-doubt", needs_review={"since": "2026-10-13T07:00:00+01:00", "reason": "page gone"}),
         event(id="finished", starts_at="2026-10-01T21:00:00+01:00", ends_at="2026-10-02T03:00:00+01:00"),
@@ -56,3 +56,14 @@ def test_brief_holds_checked_facts_only(tmp_path):
     assert brief["weekday"] == "Friday" and brief["time"] == "9pm–3am" and brief["price"] == "£8–£12"
     assert brief["file"] == "data/events/2026-10/needs-one.json"
     assert brief["current_blurb"] is None
+
+
+def test_an_event_that_changed_after_its_description_comes_back(tmp_path):
+    written = {"headline": None, "blurb": "Old words.", "written_at": "2026-10-13T07:00:00+01:00", "run_id": "x"}
+    root = make_repo(tmp_path, [
+        event(id="unchanged", listing=written, updated_at="2026-10-13T06:00:00+01:00"),
+        event(id="cancelled-later", listing=written, status="cancelled", updated_at="2026-10-14T06:30:00+01:00"),
+    ])
+    result = listings.todo(dt.date(2026, 10, 14), root)
+    assert ids(result) == ["cancelled-later"]
+    assert result["events"][0]["changed_since_written"] is True and result["events"][0]["current_blurb"] == "Old words."

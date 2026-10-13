@@ -725,6 +725,14 @@ def without_names(text: str, events: list[dict]) -> str:
 
 
 LISTING_BLURB_CHARS = (40, 320)  # the short description under each event: one or two sentences
+LISTING_HEADLINE_CHARS = 90
+
+
+def _not_after(a: str | None, b: str | None) -> bool:
+    try:
+        return dt.datetime.fromisoformat(a) <= dt.datetime.fromisoformat(b)
+    except (TypeError, ValueError):
+        return True
 
 
 def check_listing(data: dict) -> list[str]:
@@ -737,23 +745,29 @@ def check_listing(data: dict) -> list[str]:
     n = len(lst["blurb"].strip())
     if not lo <= n <= hi:
         errs.append(f"listing.blurb: {n} characters; keep it to one or two sentences ({lo} to {hi} characters)")
+    head = lst.get("headline")
+    if head and len(head) > LISTING_HEADLINE_CHARS:
+        errs.append(f"listing.headline: {len(head)} characters; keep it to {LISTING_HEADLINE_CHARS}")
     quotes = [ev["quote"] for ev in data["evidence"]]
     vid = data["venue"].get("venue_id")
     if vid:
         profile = read_json(ROOT / "data" / "venues" / f"{vid}.json")[0]
-        if isinstance(profile, dict):
+        # Only the profile as it stood when the description was written: quotes a later venue run adds
+        # must not turn a description that was fine into a failure in someone else's run.
+        if isinstance(profile, dict) and _not_after(profile.get("profiled_at"), lst.get("written_at")):
             quotes += [ev["quote"] for ev in profile.get("evidence", [])]
     for field in ("headline", "blurb"):
         text = lst.get(field)
         if not text:
             continue
+        plain = without_names(text, [data])  # titles and names may be repeated, and never trip a rule
         for q in quotes:
-            run_ = copied_run(without_names(text, [data]), q)
+            run_ = copied_run(plain, q)
             if run_:
                 errs.append(f"listing.{field}: copies a source word for word (\"{run_}\"); write it in our own words")
                 break
-        errs += [f"listing.{field}: {p}" for p in newsletter.fact_problems(text, [data], one_event=True)]
-        errs += [f"listing.{field}: {p}" for p in newsletter.style_problems(text)]
+        errs += [f"listing.{field}: {p}" for p in newsletter.fact_problems(plain, [data], one_event=True)]
+        errs += [f"listing.{field}: {p}" for p in newsletter.style_problems(plain)]
     return errs
 
 
@@ -834,7 +848,7 @@ def check_issue(path: Path, data: dict, today: dt.date | None = None, days: int 
                     if run_:
                         errs.append(f"{at}.{field}: copies a source word for word (\"{run_}\"); write it in our own words")
                         break
-                errs += [f"{at}.{field}: {p}" for p in newsletter.fact_problems(text, [e], one_event=True)]
+                errs += [f"{at}.{field}: {p}" for p in newsletter.fact_problems(without_names(text, [e]), [e], one_event=True)]
 
     if not fresh:
         return errs
@@ -862,7 +876,7 @@ def check_issue(path: Path, data: dict, today: dt.date | None = None, days: int 
             if run_:
                 errs.append(f"{where}: copies a source word for word (\"{run_}\")")
                 break
-        errs += [f"{where}: {p}" for p in newsletter.fact_problems(text, used, one_event=False)]
+        errs += [f"{where}: {p}" for p in newsletter.fact_problems(without_names(text, used), used, one_event=False)]
     return errs
 
 
