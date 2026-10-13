@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "data" / "sources"
 
 # Never fetched, never accepted as evidence, whatever the registries say.
-ALWAYS_FORBIDDEN = {"ra.co", "residentadvisor.net", "instagram.com"}
+ALWAYS_FORBIDDEN = {"ra.co", "residentadvisor.net", "instagram.com", "facebook.com", "fb.com", "fb.me"}
 
 
 def domain_of(url: str) -> str:
@@ -40,6 +40,8 @@ def _domains() -> tuple[frozenset, frozenset]:
                 discovery |= doms
         for closed in reg.get("do_not_list", []):
             forbidden |= set(closed.get("domains", []))
+        for blocked in reg.get("blocked_domains", []):  # e.g. an open venue whose website was hacked
+            forbidden.add(blocked["domain"])
     return frozenset(forbidden), frozenset(discovery)
 
 

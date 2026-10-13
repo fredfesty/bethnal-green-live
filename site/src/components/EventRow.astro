@@ -1,14 +1,15 @@
 ---
 import type { SiteEvent } from "../lib/data";
-import { SUBCATEGORY, CATEGORY, STATUS, ZONE } from "../lib/labels";
-import { hasTime, clock } from "../lib/time";
+import { kindLabel, STATUS, ZONE } from "../lib/labels";
+import { hasTime, clock, dayMonthShort, weekdayShort, todayInLondon } from "../lib/time";
 import { rel } from "../lib/rel";
 import { venuePathFor } from "../lib/venues";
 
 interface Props { e: SiteEvent; hideVenue?: boolean }
 const { e, hideVenue = false } = Astro.props;
 const here = Astro.url.pathname;
-const kind = e.category === "nights-music" ? SUBCATEGORY[e.subcategory] : CATEGORY[e.category];
+const kind = kindLabel(e);
+const opened = e.isRun && e.date <= todayInLondon();
 const vpath = venuePathFor(e);
 const off = e.status === "cancelled" || e.status === "postponed";
 ---
@@ -16,13 +17,16 @@ const off = e.status === "cancelled" || e.status === "postponed";
   class:list={["event", { "event--off": off }]}
   data-group={e.group}
   data-date={e.date}
+  data-until={e.until}
   data-price={e.priceFilter}
   data-zone={e.zone}
   data-end={e.endsAtIso}
   data-text={e.searchText}
 >
   <p class="event__time">
-    {hasTime(e.starts_at) ? clock(e.starts_at) : <span class="event__tbc">Time tbc</span>}
+    {e.isRun
+      ? (opened ? <span class="event__run">Now on</span> : <span class="event__run">From<br />{dayMonthShort(e.date)}</span>)
+      : hasTime(e.starts_at) ? clock(e.starts_at) : <span class="event__tbc">Time tbc</span>}
   </p>
   <div class="event__body">
     <h3 class="event__title"><a href={rel(here, `events/${e.id}.html`)}>{e.title}</a></h3>
@@ -30,7 +34,9 @@ const off = e.status === "cancelled" || e.status === "postponed";
     <p class="event__meta">
       <span>{kind}</span>
       <span class:list={["event__price", { "event__price--free": e.price.is_free }]}>{e.priceLabel}</span>
-      {hasTime(e.starts_at) && e.ends_at && hasTime(e.ends_at) && <span class="event__until">Until {clock(e.ends_at)}</span>}
+      {e.isRun && <span class="event__until">Until {weekdayShort(e.until)} {dayMonthShort(e.until)}</span>}
+      {e.isRun && e.run_schedule && <span>{e.run_schedule}</span>}
+      {!e.isRun && hasTime(e.starts_at) && e.ends_at && hasTime(e.ends_at) && <span class="event__until">Until {clock(e.ends_at)}</span>}
       {e.recurrence && <span>Regular: {e.recurrence}</span>}
     </p>
   </div>
@@ -47,6 +53,7 @@ const off = e.status === "cancelled" || e.status === "postponed";
     margin: 0.1rem 0 0; font-variation-settings: "wdth" 75; font-weight: 700; font-size: 1.15rem;
     font-feature-settings: "tnum"; white-space: nowrap;
   }
+  .event__run { display: block; font-size: 0.95rem; line-height: 1.15; color: var(--green); }
   .event__tbc { font-size: 0.85rem; font-weight: 500; color: var(--muted); font-variation-settings: "wdth" 90; }
   .event__body { min-width: 0; }
   .event__title { font-size: 1.2rem; font-weight: 700; line-height: 1.2; }

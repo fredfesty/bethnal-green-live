@@ -192,3 +192,20 @@ def test_readable_text_keeps_wording_and_lines():
     for line in text.split("\n"):
         if 12 <= len(line) <= 300 and "{" not in line:
             assert check_quote.check(PAGE, line)["result"] == "exact", line
+
+
+def test_redirect_to_a_site_that_blocks_us_is_refused():
+    blocked_srv, blocked = serve((200, "User-agent: ClaudeBot\nDisallow: /\n"))
+    handler = type("R", (_Site,), {"robots": (404, ""), "pages": {**_Site.pages}})
+    def do_GET(self, _target=blocked):
+        if self.path == "/hop":
+            self.send_response(302); self.send_header("Location", _target + "/event"); self.end_headers(); return
+        _Site.do_GET(self)
+    handler.do_GET = do_GET
+    srv = http.server.ThreadingHTTPServer(("127.0.0.1", 0), handler)
+    threading.Thread(target=srv.serve_forever, daemon=True).start()
+    try:
+        res = check_quote.check(f"http://127.0.0.1:{srv.server_address[1]}/hop", QUOTE)
+        assert res["result"] == "blocked" and "redirect refused" in res["note"]
+    finally:
+        srv.shutdown(); blocked_srv.shutdown()

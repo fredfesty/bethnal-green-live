@@ -1,0 +1,707 @@
+{
+  "category": "food-drink",
+  "last_reviewed": "2026-10-12",
+  "notes": [
+    "Seeded from a research pass on 12 Oct 2026. Every listing URL was tested with scripts/page_text.py (which obeys robots.txt and the never-use list); 'readable' records the result: ok, js-only, refused or failed.",
+    "This scout covers dated special events only: supper clubs, pop-ups and residencies, guest-chef nights, dated special menus, tastings, food festivals, special market editions, cookery classes, openings and launch parties, taproom events, quizzes with food. Ordinary opening hours and weekly markets are 'On repeat' material, not events.",
+    "Most E2 restaurants and bars announce events only on Instagram, which agents never fetch. Venues with no_primary_listing: true need a direct relationship (an email list, a shared calendar or reader tips) before the scout can list them. Without a primary page the verifier may publish them on aggregator evidence only at medium confidence at most.",
+    "Many venue pages print dates without a year (e.g. 'Thursday 1st October'). Check the weekday matches the year before writing a date.",
+    "Status evidence for a few venues rests on page metadata or footers (Rochelle Canteen, Town Hall Hotel). The venue profiler should confirm them on its first run.",
+    "Netil Market, Hackney Brewery and Five Points could not be fetched because the research sandbox's proxy blocked them. That says nothing about the sites; retest from the routine environment.",
+    "Scouts may read this file but must not edit it. Suggested changes go in the run report for a person to apply.",
+    "Platform 'domains' are enforced by scripts/validate.py and scripts/check_quote.py: do-not-use and do-not-scrape domains are never fetched or accepted as evidence; discovery-only domains can never be labelled primary."
+  ],
+  "zones": {
+    "core": "E2 postcode or within about 1km of Bethnal Green tube (Paradise Row, Cambridge Heath Rd, Bethnal Green Rd, Columbia Rd, Hackney Rd east end, Victoria Park west edge). Scanned every run.",
+    "fringe": "Up to about a 20-minute walk (1.6km) from Bethnal Green tube: Arnold Circus/Calvert Ave, Broadway Market, Netil/London Fields, Brick Lane, Spitalfields edge, Haggerston, Mile End. Scanned every run.",
+    "outer": "Further out (Dalston, Hackney Wick, Clapton, Walthamstow, Shoreditch west). Scanned weekly, standout food and drink events only, max 5 candidates per run, flagged worth_the_trip."
+  },
+  "platforms": [
+    {
+      "id": "ra",
+      "name": "Resident Advisor (ra.co)",
+      "policy": "do-not-use",
+      "why": "No public API. Terms 4.4 ban automated extraction without written permission; robots.txt blocks ClaudeBot. Do not fetch, do not use third-party RA scrapers.",
+      "source": "https://ra.co/terms",
+      "domains": [
+        "ra.co",
+        "residentadvisor.net"
+      ]
+    },
+    {
+      "id": "ticket-tailor",
+      "name": "Ticket Tailor",
+      "policy": "primary-read",
+      "how": "Read public box-office pages (tickettailor.com/events/<box-office>) one at a time. Common for supper clubs and pop-ups. No E2 food box office confirmed yet; add box-office URLs to venues as they are found.",
+      "domains": [
+        "tickettailor.com"
+      ]
+    },
+    {
+      "id": "dice",
+      "name": "DICE",
+      "policy": "primary-read",
+      "how": "Read public dice.fm event pages one at a time; occasionally used for food parties and tasting events. Check robots.txt each run.",
+      "domains": [
+        "dice.fm"
+      ]
+    },
+    {
+      "id": "eventbrite",
+      "name": "Eventbrite",
+      "policy": "api-by-id",
+      "how": "Location search API was shut off in 2020; list events by organiser or venue id only (env EVENTBRITE_TOKEN). The public browse page https://www.eventbrite.com/b/united-kingdom--london--bethnal-green/food-and-drink/food/ was readable (ok) on 12 Oct 2026 but mixes in far-away events (Alexandra Palace, Barking) — use it for leads only and confirm the venue address.",
+      "domains": [
+        "eventbrite.co.uk",
+        "eventbrite.com"
+      ]
+    },
+    {
+      "id": "designmynight",
+      "name": "DesignMyNight",
+      "policy": "discovery-only",
+      "how": "Leads only. Venue pages show dated ticketed events (e.g. Renegade Wine Bar E2 tastings, readable ok on 12 Oct 2026). Confirm on the venue's own page where one exists.",
+      "domains": [
+        "designmynight.com"
+      ]
+    },
+    {
+      "id": "mato",
+      "name": "ma.to",
+      "policy": "discovery-only",
+      "how": "Leads only. Carries dated Victoria Park Market Sunday listings with guest traders (readable ok). Confirm on a primary page where one exists.",
+      "domains": [
+        "ma.to"
+      ]
+    },
+    {
+      "id": "hot-dinners",
+      "name": "Hot Dinners",
+      "policy": "discovery-only",
+      "how": "Best source for openings, residencies and pop-ups. Read the Bethnal Green tag page (https://www.hot-dinners.com/component/tags/tag/bethnal-green, readable ok) weekly. Leads only; confirm dates on the venue or ticket page.",
+      "domains": [
+        "hot-dinners.com"
+      ]
+    },
+    {
+      "id": "time-out",
+      "name": "Time Out London",
+      "policy": "discovery-only",
+      "how": "Monthly 'best new restaurants opening' news pages are readable (ok) with opening dates and addresses. Leads only.",
+      "domains": [
+        "timeout.com"
+      ]
+    },
+    {
+      "id": "broadsheet",
+      "name": "Broadsheet London",
+      "policy": "discovery-only",
+      "how": "Seasonal pop-ups and residencies round-ups, readable (ok), dated. Mostly outside E2; leads only.",
+      "domains": [
+        "broadsheet.com"
+      ]
+    },
+    {
+      "id": "london-cocktail-week",
+      "name": "London Cocktail Week",
+      "policy": "discovery-only",
+      "how": "Bar pages and an events schedule (guest shifts, tastings, dinners) each October. On 12 Oct 2026 the events page still showed the 2025 look-back, so check again before each October. Leads only.",
+      "domains": [
+        "londoncocktailweek.com"
+      ]
+    },
+    {
+      "id": "opentable",
+      "name": "OpenTable",
+      "policy": "do-not-scrape",
+      "why": "robots.txt disallows BethnalGreenLiveBot (page_text refused https://www.opentable.co.uk/r/brawn on 12 Oct 2026). OpenTable 'experiences' pages are therefore off-limits.",
+      "domains": [
+        "opentable.co.uk",
+        "opentable.com"
+      ]
+    },
+    {
+      "id": "resy",
+      "name": "Resy",
+      "policy": "do-not-scrape",
+      "why": "Pages render with JavaScript only (no readable text on 12 Oct 2026) and the terms have not been reviewed. Do not use as evidence.",
+      "domains": [
+        "resy.com"
+      ]
+    },
+    {
+      "id": "eater",
+      "name": "Eater London",
+      "policy": "do-not-use",
+      "why": "robots.txt disallows ClaudeBot (page_text refused london.eater.com on 12 Oct 2026). Do not fetch.",
+      "domains": [
+        "eater.com"
+      ]
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "policy": "do-not-scrape",
+      "how": "Not fetched by agents. Events seen there arrive as reader tips or manual entries.",
+      "domains": [
+        "instagram.com"
+      ]
+    }
+  ],
+  "venues": [
+    {
+      "id": "mother-kellys-bethnal-green",
+      "name": "Mother Kelly's Bethnal Green",
+      "address": "251 Paradise Row, London",
+      "postcode": "E2 9LE",
+      "zone": "core",
+      "type": [
+        "taproom",
+        "bottle-shop"
+      ],
+      "website": "https://motherkellys.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://motherkellys.co.uk/events/",
+          "role": "unusable",
+          "readable": "ok",
+          "notes": "Readable, but every listing is a past event (latest Jan 2025) and none is at Bethnal Green. The site shows injected spam text (pharmacy adverts) — it looks compromised; do not quote it or follow its links."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Blog review 'A Night Out: Mother Kelly's Bethnal Green Review' dated 27 August 2026 (climbing-moss.com) describes a recent visit.",
+      "no_primary_listing": true,
+      "notes": "Postcode from Yelp/aggregators, not the venue site (site gives none for E2). Events are announced on Instagram only. Priority relationship: ask for a tap-takeover / tasting calendar, and tell them their site appears hacked."
+    },
+    {
+      "id": "renegade-wine-bar-bethnal-green",
+      "name": "Renegade Wine Bar (Bethnal Green)",
+      "address": "Arch 12, Gales Gardens, London",
+      "postcode": "E2 0EJ",
+      "zone": "core",
+      "type": [
+        "wine-bar",
+        "urban-winery",
+        "tastings"
+      ],
+      "website": "https://www.renegadelondonwine.com/bethnalgreen",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.renegadelondonwine.com/events",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Dated listing for both sites. Only take events whose title starts 'E2' (e.g. 'E2 Cheese & Wine: Rouge and Ewe' on 4 November 2026); 'E17' events are at the Walthamstow winery and out of area."
+        },
+        {
+          "platform": "designmynight",
+          "url": "https://www.designmynight.com/london/bars/bethnal-green/renegade-wine-bar",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "Ticket pages with times and prices (e.g. Cheese and Wine Pairing Evening, Wednesday 4th November 2026)."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Own events page lists 'E2 Cheese & Wine: Rouge and Ewe' on 4 November 2026 and 'E2 Sunday Sessions' on 6 December 2026.",
+      "notes": "Best readable dated food-and-drink source in the core zone. Recurring: cheese & wine pairing every first Wednesday; 'Thirsty Thursday' tastings fortnightly (seen on DesignMyNight)."
+    },
+    {
+      "id": "e-pellicci",
+      "name": "E. Pellicci",
+      "address": "332 Bethnal Green Road, London",
+      "postcode": "E2 0AG",
+      "zone": "core",
+      "type": [
+        "cafe",
+        "restaurant"
+      ],
+      "website": "https://epellicci.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://epellicci.co.uk/pages/events",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Dated: 'Thursday 1st October' Cocktail Night 6:30pm-10pm, 'Every 1st Thursday of the month'. Dates are printed without a year — confirm the weekday matches. epellicci.com (old domain) answers 403; use epellicci.co.uk."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Events page lists 'Cocktail Night' on 'Thursday 1st October' (a Thursday in 2026); footer '© 2026 E Pellicci'.",
+      "notes": "Daytime cafe (Mon-Sat 8am-3pm); evening cocktail nights are the listable events."
+    },
+    {
+      "id": "satans-whiskers",
+      "name": "Satan's Whiskers",
+      "address": "343 Cambridge Heath Road, London",
+      "postcode": "E2 9RA",
+      "zone": "core",
+      "type": [
+        "cocktail-bar"
+      ],
+      "website": "https://www.satanswhiskers.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.satanswhiskers.com/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "No events section; telephone reservations only."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Time Out, 24 July 2026: named 'Best International Cocktail Bar' at the 2026 Spirited Awards.",
+      "no_primary_listing": true,
+      "notes": "Guest bartender shifts and takeovers appear only on Instagram. Worth a direct relationship given its profile."
+    },
+    {
+      "id": "tempo-bethnal-green",
+      "name": "Tempo",
+      "address": "252 Paradise Row, London",
+      "postcode": "E2 9LE",
+      "zone": "core",
+      "type": [
+        "restaurant",
+        "wine-bar"
+      ],
+      "website": "https://www.tempo.restaurant",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.tempo.restaurant/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "No events or news section; bookings via OpenTable (do-not-scrape)."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Hot Dinners 'Test Driving Tempo' review, January 2026 (wine-forward South East Asian restaurant, chef Eric Wan).",
+      "no_primary_listing": true,
+      "notes": "Chef ran the Lá Lốt supper club; a likely host for guest-chef or winemaker nights. Ask for a feed."
+    },
+    {
+      "id": "tiella-trattoria",
+      "name": "Tiella Trattoria & Bar",
+      "address": "109 Columbia Road, London",
+      "postcode": "E2 7RL",
+      "zone": "core",
+      "type": [
+        "restaurant"
+      ],
+      "website": null,
+      "listings": [],
+      "status": "open",
+      "status_evidence": "Hot Dinners article updated 12/1/26 with the opening date: soft launch 16-18 January 2026, full launch 21 January 2026.",
+      "no_primary_listing": true,
+      "notes": "Address from Hot Dinners (no own website found; Instagram only). Chef Dara Klein (ex Brawn, Trullo, Sager + Wilde)."
+    },
+    {
+      "id": "town-hall-hotel",
+      "name": "Town Hall Hotel (Da Terra, Restaurant Elis)",
+      "address": "Patriot Square, Bethnal Green, London",
+      "postcode": "E2 9NF",
+      "zone": "core",
+      "type": [
+        "hotel",
+        "restaurant",
+        "fine-dining"
+      ],
+      "website": "https://www.townhallhotel.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.townhallhotel.com/whatson",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Readable but empty on 12 Oct 2026 ('Find out about our hotel happenings here!' with no items)."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://www.townhallhotel.com/christmas-at-town-hall-hotel",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Readable; no dated Christmas menus yet. Re-check from November."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://www.daterra.co.uk/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Da Terra's own site: menus and prices, no events section."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Da Terra homepage metadata dateModified 2026-07-17 with current tasting-menu prices; hotel footer '© 2026 Town Hall Hotel'.",
+      "notes": "Two-Michelin-star Da Terra plus Restaurant Elis. Seasonal and Christmas menus are the likely listable items."
+    },
+    {
+      "id": "victoria-park-market",
+      "name": "Victoria Park Market",
+      "address": "The Nightwalk, Victoria Park (between Bonner Gate and Gore Gate), London",
+      "postcode": "E2 9HN",
+      "zone": "core",
+      "type": [
+        "market",
+        "food-market"
+      ],
+      "website": "https://victoriaparkmarket.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://victoriaparkmarket.com/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Only standing hours (Sundays 10-4); no dated special editions."
+        },
+        {
+          "platform": "mato",
+          "url": "https://ma.to/event/victoria-park-market-19-jul-2026",
+          "role": "discovery",
+          "readable": "ok",
+          "notes": "ma.to carries dated Sunday listings with named guest traders."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "ma.to lists 'Victoria Park Market Sunday' on Sunday 19 July 2026 with guest traders.",
+      "notes": "Weekly market is 'On repeat' material; only special editions (Christmas, guest-trader takeovers) are events. Ask the organisers (hi@victoriaparkmarket.com) for a feed."
+    },
+    {
+      "id": "columbia-road",
+      "name": "Columbia Road (Flower Market & shops)",
+      "address": "Columbia Road, London",
+      "postcode": "E2 7RG",
+      "zone": "core",
+      "type": [
+        "street-market",
+        "street-festival"
+      ],
+      "website": "https://columbiaroad.info",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://columbiaroad.info/news/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Dated news posts for street-wide events."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Columbia Road news (1 October 2026): London's Day of the Dead on Saturday 31 October 2026, from 12pm, free.",
+      "notes": "Shared with the community scout. Food scout takes only food-and-drink parts (e.g. Christmas late-night Wednesdays with food stalls). Postcode is Brawn's (49 Columbia Rd), used as the street's reference point."
+    },
+    {
+      "id": "oxford-house",
+      "name": "Oxford House",
+      "address": "Derbyshire Street, London",
+      "postcode": "E2 6HG",
+      "zone": "core",
+      "type": [
+        "community-centre",
+        "cafe"
+      ],
+      "website": "https://www.oxfordhouse.org.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.oxfordhouse.org.uk/whats-on/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Dated programme (e.g. October 30, 2026 Friday Jazz). No food events in the current listing; the homepage itself renders no text."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "What's On lists 'Friday Jazz (October 2026)' on October 30, 2026.",
+      "notes": "Shared with nights-music and community scouts. Watch for supper clubs or community food events only."
+    },
+    {
+      "id": "rochelle-canteen",
+      "name": "Rochelle Canteen",
+      "address": "16 Playground Gardens (Arnold Circus), London",
+      "postcode": "E2 7FA",
+      "zone": "fringe",
+      "type": [
+        "restaurant"
+      ],
+      "website": "https://rochellecanteen.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://rochellecanteen.com/events/",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Readable; on 12 Oct 2026 it held booking and private-hire terms only, no dated events."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Homepage metadata dateModified 2026-08-13; footer '© M Henderson Ltd. 2026'.",
+      "notes": "About 1.4km from the tube, so fringe despite the E2 postcode. arnoldandhenderson.com redirects here. Special lunches and book events are sometimes announced; ask for a feed."
+    },
+    {
+      "id": "netil-market",
+      "name": "Netil Market",
+      "address": "13-23 Westgate Street, London",
+      "postcode": "E8 3RL",
+      "zone": "fringe",
+      "type": [
+        "market",
+        "street-food"
+      ],
+      "website": "https://eatworkart.com/netil-market",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://netilmarket.com/",
+          "role": "primary",
+          "readable": "failed",
+          "notes": "robots.txt unreachable: the research sandbox's egress proxy blocked the domain on 12 Oct 2026. Retest from the routine environment."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://eatworkart.com/events",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Operator Eat Work Art's dated events page (e.g. Netil House talk, 10 August 2026). Mostly talks and arts; food events rare."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Eat Work Art events page lists an event at Netil House on 10 August 2026; Netil Market page shows current opening times.",
+      "notes": "Trader-level pop-ups are announced on traders' Instagram accounts."
+    },
+    {
+      "id": "old-spitalfields-market",
+      "name": "Old Spitalfields Market",
+      "address": "16 Horner Square, London",
+      "postcode": "E1 6EW",
+      "zone": "fringe",
+      "type": [
+        "market",
+        "food-hall"
+      ],
+      "website": "https://oldspitalfieldsmarket.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://oldspitalfieldsmarket.com/events",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Dated weekly events list (Tue 13 Oct onwards, paginated). Mostly markets, run clubs and workshops; filter for food and drink."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Events page lists 'Tue 13 Oct' Run Club and 'Sat 17 Oct' Halloween Junk Journal Workshop (current October 2026 programme).",
+      "notes": "About 1.6km — edge of fringe. Event dates are printed without a year."
+    },
+    {
+      "id": "e5-bakehouse",
+      "name": "e5 Bakehouse",
+      "address": "Arch 395, Mentmore Terrace, London",
+      "postcode": "E8 3PH",
+      "zone": "fringe",
+      "type": [
+        "bakery",
+        "cookery-school",
+        "tastings"
+      ],
+      "website": "https://e5bakehouse.com",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://e5bakehouse.com/events",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Dated events with prices, e.g. '16/10/26 e5 X Neals Yard X The Fine Cider Tasting £35.00'. Baking classes are listed separately under /classes."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Events page lists 'e5 X Neals Yard X The Fine Cider Tasting' on 16/10/26 at £35.00.",
+      "notes": "About 1.6km (London Fields) — edge of fringe. Some events and classes run at Poplar Bakehouse (E14 6TL) or the V&A East storehouse (E20) — check the location of each event; those count as outer."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "cav",
+      "name": "Câv",
+      "postcode": null,
+      "address": "255 Paradise Row, London E2",
+      "reason": "Cocktail bar with a rotating kitchen residency (London Cocktail Week page says 'a kitchen that changes with each residency'). Website is Instagram only and no dated 2026 line was found; Tasca's residency ended 7 Sep 2025. Postcode conflicts (LCW: E2 9LE, Hot Dinners: E2 9LQ). Top relationship target: ask for residency announcements by email."
+    },
+    {
+      "id": "the-marksman",
+      "name": "The Marksman",
+      "postcode": "E2 7SJ",
+      "address": "254 Hackney Road, London",
+      "reason": "Site live (hours, menus, Christmas and group-dining pages) but no dated 2026 line and no events listing; 'events' are private hire. Ask for special dinners / Christmas menu dates."
+    },
+    {
+      "id": "brawn",
+      "name": "Brawn",
+      "postcode": "E2 7RG",
+      "address": "49 Columbia Road, London",
+      "reason": "Site live (menus, journal, collaborations) but nothing dated; only aggregator pages say 'updated 2026'. Guest-chef and winemaker dinners appear on Instagram. Ask for a feed."
+    },
+    {
+      "id": "bistrotheque",
+      "name": "Bistrotheque",
+      "postcode": null,
+      "address": "23-27 Wadeson Street, London E2",
+      "reason": "Site readable but its events page covers weddings and private hire only; no dated 2026 line found."
+    },
+    {
+      "id": "sager-wilde-hackney-road",
+      "name": "Sager + Wilde (Hackney Road wine bar)",
+      "postcode": "E2 8JL",
+      "address": "193 Hackney Road, London",
+      "reason": "Site live with a 'Kitchen Residencies' page (https://www.sagerandwilde.com/reservations-1-1, readable ok) naming the current residency '5 - El Jardín | Michel', undated and pointing to Instagram. A Yelp listing marks 'Sager + Wilde - Hackney Road' as closed. Conflicting signals: a person should confirm before adding."
+    },
+    {
+      "id": "campania-and-jones",
+      "name": "Campania & Jones",
+      "postcode": "E2 7RH",
+      "address": "23 Ezra Street, London",
+      "reason": "Site live with opening hours (no events section) but no dated 2026 line found."
+    },
+    {
+      "id": "leilas-shop",
+      "name": "Leila's Shop",
+      "postcode": "E2 7JP",
+      "address": "15-17 Calvert Avenue, London",
+      "reason": "Homepage lists 'Upcoming Events' (cookery workshop 'Tuesday June 24th', cake decoration 'Sunday July 6th') without a year; the weekdays match 2025, so the list is stale. Good cookery-class source if they keep it current."
+    },
+    {
+      "id": "broadway-market",
+      "name": "Broadway Market",
+      "postcode": "E8 4PH",
+      "address": "Broadway Market, London",
+      "reason": "Site readable (Saturday and Sunday hours, stall directory) but no events page and no dated 2026 line (footer © 2019). Special editions (e.g. Christmas) would need a tip or a feed from the traders' association."
+    },
+    {
+      "id": "truman-brewery",
+      "name": "Old Truman Brewery (Sunday Upmarket, Backyard Market)",
+      "postcode": "E1 6QR",
+      "address": "91 Brick Lane, London",
+      "reason": "Homepage returned unreadable bytes and /events renders with JavaScript only. No dated 2026 food event confirmed."
+    },
+    {
+      "id": "pardeh",
+      "name": "Pardeh",
+      "postcode": "E2 9FR",
+      "address": "Unit 1, 45 Corbridge Crescent, London",
+      "reason": "New Persian restaurant 'opening autumn 2026' (Hot Dinners), in the old Water House Project space; winemaker dinners planned. Instagram only. Add once open; the launch is itself a listable event."
+    },
+    {
+      "id": "water-house-project",
+      "name": "The Water House Project",
+      "postcode": null,
+      "reason": "Chef Gabriel Waterhouse is reopening in another Bethnal Green space (Hot Dinners, 2026); address and date unknown."
+    },
+    {
+      "id": "ombra",
+      "name": "Ombra",
+      "postcode": null,
+      "address": "1 Vyner Street, London E2",
+      "reason": "robots.txt on ombrarestaurant.com disallows BethnalGreenLiveBot (page_text refused, 12 Oct 2026), so its site can never be read or quoted. Trading status unconfirmed. Events would have to come as tips or a direct feed."
+    },
+    {
+      "id": "hackney-city-farm",
+      "name": "Hackney City Farm",
+      "postcode": "E2 8QA",
+      "address": "1a Goldsmiths Row, London",
+      "reason": "Farm open (Tue-Sun) but homepage renders no text and the 'see & do' page lists no dated food events or café events."
+    },
+    {
+      "id": "hackney-brewery",
+      "name": "Hackney Brewery",
+      "postcode": null,
+      "reason": "Site blocked by the research sandbox's egress proxy (robots.txt unreachable); trading status and taproom events unconfirmed. Retest from the routine environment."
+    },
+    {
+      "id": "five-points-brewing",
+      "name": "Five Points Brewing Co.",
+      "postcode": null,
+      "reason": "Outer (Hackney Downs). Site blocked by the research sandbox's egress proxy; retest."
+    },
+    {
+      "id": "howling-hops",
+      "name": "Howling Hops Tank Bar",
+      "postcode": null,
+      "address": "Hackney Wick, London E9",
+      "reason": "Outer. Site readable (rebrand, shop) but the Tank Bar page path 404'd and no dated 2026 event was found."
+    },
+    {
+      "id": "shop-cuvee-bethnal-green",
+      "name": "Shop Cuvée / Cave Cuvée Bethnal Green",
+      "postcode": null,
+      "reason": "topcuvee.com now names only Highbury; the Bethnal Green shop may have closed. Its Beaujolais Nouveau event (beaujolais-nouveau.topcuvee.com) is worth a look each November if a Bethnal Green site exists."
+    },
+    {
+      "id": "pophams-hackney-road",
+      "name": "Pophams (Hackney Road)",
+      "postcode": null,
+      "reason": "pophams.com returned an 'Error 410' placeholder on 12 Oct 2026; status unknown."
+    },
+    {
+      "id": "boxpark-shoreditch",
+      "name": "BOXPARK Shoreditch",
+      "postcode": "E1 6GY",
+      "address": "2-10 Bethnal Green Road, London",
+      "reason": "Venue page readable but shows no events; edge of fringe. Low priority."
+    },
+    {
+      "id": "little-duck-picklery",
+      "name": "Little Duck The Picklery",
+      "postcode": null,
+      "address": "Dalston Lane, London E8",
+      "reason": "Outer (Dalston). Fermentation workshops historically, but no 2026 evidence found."
+    },
+    {
+      "id": "mangal-ocakbasi",
+      "name": "Mangal 1 Ocakbasi",
+      "postcode": null,
+      "address": "Arcola Street, London E8",
+      "reason": "Outer (Dalston) and no event programme; not a fit unless it announces a special event."
+    },
+    {
+      "id": "bethnal-green-road-market",
+      "name": "Bethnal Green Road street market",
+      "postcode": null,
+      "reason": "Council-run street market with no online events listing; 'On repeat' material at most."
+    }
+  ],
+  "do_not_list": [
+    {
+      "id": "sager-wilde-paradise-row",
+      "name": "Sager + Wilde (Paradise Row restaurant)",
+      "reason": "Closed 2024 after ten years; the arch became a Fatto a Mano pizzeria.",
+      "source": "https://www.hot-dinners.com/2024072513430/Gastroblog/Latest-news/sager-wilde-paradise-row-restaurant-closing"
+    },
+    {
+      "id": "tasca-at-cav",
+      "name": "Tasca at Câv",
+      "reason": "Residency ended 7 Sep 2025, six months early.",
+      "source": "https://www.hot-dinners.com/2025081514419/Gastroblog/Latest-news/tasca-cav-closing-early-hackney"
+    },
+    {
+      "id": "flat-earth-pizzas",
+      "name": "Flat Earth Pizzas",
+      "reason": "Closed — its own site says 'we have closed our doors to our magical little restaurant'.",
+      "source": "https://www.flatearthpizzas.com/"
+    },
+    {
+      "id": "morito-hackney-road",
+      "name": "Morito Hackney Road",
+      "reason": "morito.co.uk lists only the Exmouth Market site (checked 12 Oct 2026); treat as closed unless a 2026 listing appears.",
+      "source": "https://www.morito.co.uk/"
+    },
+    {
+      "id": "hackney-downs-studios",
+      "name": "Hackney Downs Studios",
+      "reason": "Not a food venue: the domain now redirects to Eat Work Art studio rentals, and its events are arts and talks."
+    }
+  ],
+  "blocked_domains": [
+    {
+      "domain": "motherkellys.co.uk",
+      "reason": "Site shows injected spam (pharmacy adverts) and looks compromised (12 Oct 2026). The venue is open; its website must not be fetched or quoted until it is fixed."
+    }
+  ]
+}

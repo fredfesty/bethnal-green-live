@@ -231,6 +231,21 @@ def robots_verdict(url: str) -> str | None:
     return None
 
 
+class _PoliteRedirects(urllib.request.HTTPRedirectHandler):
+    """Check every redirect hop against the never-use list and robots.txt BEFORE following it."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if policy.is_forbidden(newurl):
+            raise urllib.error.URLError(f"redirect to a never-use site refused: {newurl}")
+        reason = robots_verdict(newurl)
+        if reason:
+            raise urllib.error.URLError(f"redirect refused, {reason}: {newurl}")
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
+_opener = urllib.request.build_opener(_PoliteRedirects)
+
+
 def fetch(url: str) -> dict:
     """{'status', 'text', 'final_url', 'error', 'result'?}. Cached per process."""
     if url in _pages:
@@ -242,7 +257,7 @@ def fetch(url: str) -> dict:
     _per_domain[host] = _per_domain.get(host, 0) + 1
     try:
         req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "en-GB,en"})
-        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+        with _opener.open(req, timeout=TIMEOUT) as r:
             body = r.read(MAX_BYTES + 1)
             note = "page truncated at 5 MB" if len(body) > MAX_BYTES else None
             html_doc = decode(body[:MAX_BYTES], r.headers.get_content_charset())
@@ -252,6 +267,10 @@ def fetch(url: str) -> dict:
         if e.code in (403, 429):
             _slowed.add(host)
         out = {"status": e.code, "text": None, "final_url": None, "error": f"HTTP {e.code}"}
+    except urllib.error.URLError as e:
+        reason = str(getattr(e, "reason", e))
+        refused = "refused" in reason and "redirect" in reason
+        out = {"status": None, "text": None, "final_url": None, "error": reason, **({"result": "blocked"} if refused else {})}
     except Exception as e:  # timeouts, DNS, TLS, proxy refusals, missing local files
         out = {"status": None, "text": None, "final_url": None, "error": f"{type(e).__name__}: {e}"}
     _pages[url] = out

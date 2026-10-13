@@ -2,7 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import EventRow from "../../components/EventRow.astro";
 import { loadVenues, venueMapLink, accessLines, FREE_ENTRY, ZONE_HEADING, STATUS_NOTE, type SiteVenue } from "../../lib/venues";
-import { SUBCATEGORY, CATEGORY } from "../../lib/labels";
+import { kindLabel } from "../../lib/labels";
 import { byDate } from "../../lib/data";
 import { weekday, dayMonth, dayMonthShort, londonDate } from "../../lib/time";
 import { rel } from "../../lib/rel";
@@ -19,7 +19,7 @@ const access = p ? accessLines(p) : [];
 const days = byDate(v.events);
 // What we've listed here before: a count per kind of night, and the most recent few.
 const pastKinds = Object.entries(v.past.reduce((m: Record<string, number>, e) => {
-  const k = e.category === "nights-music" ? SUBCATEGORY[e.subcategory] : CATEGORY[e.category];
+  const k = kindLabel(e);
   m[k] = (m[k] ?? 0) + 1;
   return m;
 }, {})).sort((a, b) => b[1] - a[1]);

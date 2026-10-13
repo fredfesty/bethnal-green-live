@@ -5,7 +5,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { loadEvents, loadPastEvents, priceLabel, type Evidence, type SiteEvent } from "./data";
-import { SUBCATEGORY, CATEGORY } from "./labels";
+import { kindLabel } from "./labels";
 
 const REPO = path.resolve(process.cwd(), "..");
 
@@ -48,7 +48,13 @@ export const VENUE_TYPE: Record<string, string> = {
   "cabaret-drag": "Cabaret & drag", karaoke: "Karaoke", "open-mic": "Open mic", church: "Church",
   "arts-centre": "Arts centre", theatre: "Theatre", cinema: "Cinema", comedy: "Comedy",
   "record-shop": "Record shop", "in-store": "In-store gigs", "music-venue": "Music venue",
-  "community-venue": "Community venue", gallery: "Gallery",
+  "hi-fi-listening-bar": "Listening bar", "vinyl-bar": "Vinyl bar", "rooftop-bar": "Rooftop bar", "cocktail-bar": "Cocktail bar",
+  "wine-bar": "Wine bar", taproom: "Taproom", restaurant: "Restaurant", cafe: "Café", "cafe-bar": "Café bar", bakery: "Bakery",
+  "food-hall": "Food hall", "bottle-shop": "Bottle shop", "cookery-school": "Cookery school", gallery: "Gallery", museum: "Museum",
+  "music-hall": "Music hall", bookshop: "Bookshop", market: "Market", "street-market": "Street market",
+  "food-market": "Food market", "flower-market": "Flower market", "covered-market": "Covered market", park: "Park",
+  "city-farm": "City farm", "nature-reserve": "Nature reserve", library: "Library", "community-centre": "Community centre",
+  "community-venue": "Community venue", "sports-venue": "Sports venue", "leisure-centre": "Leisure centre",
 };
 
 export const KIND_GROUPS: { id: string; label: string; types: string[] }[] = [
@@ -56,7 +62,11 @@ export const KIND_GROUPS: { id: string; label: string; types: string[] }[] = [
   { id: "gigs", label: "Gig venues", types: ["gig-venue", "music-venue", "live-music", "in-store", "record-shop"] },
   { id: "pubs", label: "Pubs & bars", types: ["pub", "bar"] },
   { id: "queer", label: "Queer venues", types: ["queer-venue", "queer-friendly", "cabaret", "drag", "cabaret-drag"] },
-  { id: "arts", label: "Arts, theatres & churches", types: ["arts-centre", "theatre", "church", "cinema", "comedy", "gallery", "community-venue"] },
+  { id: "arts", label: "Theatres, cinemas & arts centres", types: ["arts-centre", "theatre", "cinema", "comedy", "music-hall"] },
+  { id: "galleries", label: "Galleries & museums", types: ["gallery", "museum", "bookshop"] },
+  { id: "food", label: "Restaurants, cafés & bars", types: ["restaurant", "cafe", "cafe-bar", "bakery", "food-hall", "wine-bar", "taproom", "cocktail-bar"] },
+  { id: "markets", label: "Markets", types: ["market", "street-market", "food-market", "flower-market", "covered-market"] },
+  { id: "community", label: "Parks, farms & community", types: ["park", "city-farm", "nature-reserve", "library", "community-centre", "community-venue", "church", "sports-venue", "leisure-centre"] },
 ];
 
 export const ZONE_ORDER = ["core", "fringe", "outer"];
@@ -176,7 +186,7 @@ export function loadVenues(): SiteVenue[] {
     const sources = (profile?.evidence ?? [])
       .filter((ev) => (seen.has(ev.url) ? false : (seen.add(ev.url), true)))
       .map((ev) => ({ url: ev.url, host: host(ev.url), kind: ev.source_kind, retrieved: ev.retrieved_at }));
-    const listingKinds = [...new Set([...here, ...before].map((e) => (e.category === "nights-music" ? SUBCATEGORY[e.subcategory] : CATEGORY[e.category])))];
+    const listingKinds = [...new Set([...here, ...before].map((e) => kindLabel(e)))];
     return {
       id: b.id,
       name: b.name,
@@ -213,7 +223,7 @@ export function venuePathFor(e: SiteEvent): string {
 }
 
 export const venueMapLink = (v: SiteVenue) =>
-  `https://www.openstreetmap.org/search?query=${encodeURIComponent([v.name, v.address, v.postcode].filter(Boolean).join(", "))}`;
+  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([v.name, v.address, v.postcode].filter(Boolean).join(", "))}`;
 
 /** Access facts as short reader-facing lines, only those a source states. */
 export function accessLines(p: VenueProfile): { text: string; good: boolean }[] {

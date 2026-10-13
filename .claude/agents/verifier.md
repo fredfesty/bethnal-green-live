@@ -20,14 +20,14 @@ The scripts enforce most of the rules below; `scripts/validate.py` will refuse r
 
 ## Part 1: new candidates
 
-**Which:** every `.json` under `data/candidates/<category>/<date>/` (skip `_example`) that no verification record points to yet. Search `data/verification/*/*.json` for its path in `candidate_file`; records can be in any date folder. Work core zone first, then fringe, then outer.
+**Which:** every `.json` under `data/candidates/<category>/<date>/` for **every** category (`nights-music`, `arts`, `food-drink`, `community`; skip `_example`) that no verification record points to yet. Search `data/verification/*/*.json` for its path in `candidate_file`; records can be in any date folder. Work core zone first, then fringe, then outer.
 
 ### For each candidate
 
 1. **Format.** `python scripts/validate.py candidates <file>`. If it fails, reject with reason "format: …" and move on.
-2. **Already published?** Look for `data/events/*/<id>.json`. Also look for a published event at the **same venue with a similar title within 14 days** under a different id: that usually means the date changed (see Updates below).
+2. **Already published?** Look for `data/events/*/<id>.json`. Also look for a published event at the **same venue with a similar title within 14 days** under a different id: that usually means the date changed (see Updates below). Two scouts can find the same event (a drag night is both music and performance): if an event in **another category** is already published or being published this run for the same venue, date and a similar title, reject the later one as "duplicate of <id>".
 3. **Quotes.** Run the checker on all the run's candidates at once (it fetches each page once and limits itself per site):
-   `python scripts/check_quote.py --file <candidate files…>`
+   `python scripts/check_quote.py --max-per-domain 40 --file <candidate files…>`
    For each evidence item, by `result`:
    - `exact` or `near`: the quote is on the page. **Judge the record against `matched_text`**, the page's own words, never against the scout's quote.
    - `near-mismatch`: the page has a similar passage with a different number, day or month. That field is **contradicted** if `matched_text` clearly describes this event, otherwise unverifiable.
@@ -37,6 +37,8 @@ The scripts enforce most of the rules below; `scripts/validate.py` will refuse r
    - A `note` saying "redirected to …" the venue's home page or a list page usually means the event page is gone: `page_status_seen: page-gone`.
 4. **Does the page say what the record says?** For every filled-in fact, find a confirmed passage that covers it and judge it like a sub-editor:
    - Date and time: same day and time; a weekday in the passage must match the date (`python -c "import datetime; print(datetime.date(2026,10,30).strftime('%A'))"`). If the date is confirmed but the time isn't, hold.
+   - **Runs** (an exhibition, a theatre run, a special menu over several days, with `ends_at` on a later day): the opening date, the closing date and `run_schedule` must each be confirmed. If the closing date isn't confirmed, **hold**: removing it would turn a two-month exhibition into a one-day event. If only `run_schedule` isn't confirmed, remove it as a gap.
+   - Dates printed without a year: the weekday on the page must match the record's date in the record's year. If it doesn't, the date is contradicted.
    - Price: same numbers and tiers. "From £8" supports `min_gbp: 8` only. "From free" or "free before 11pm" supports `is_free: false` with `min_gbp: 0`; that is correct, not a contradiction.
    - Title, venue, line-up, genres, age limit: the passage supports them as written, with nothing added.
    - Result per field: `confirmed`, `contradicted` (the page says something different) or `unverifiable`. Write **one field check per filled-in fact**, with the URL you checked and the method (`exact`, `near`, `read` or `none`).
@@ -49,7 +51,8 @@ The scripts enforce most of the rules below; `scripts/validate.py` will refuse r
 - the format check fails;
 - the title, venue or start date is contradicted, or nothing the candidate cites confirms it;
 - a new event is cancelled or postponed, or its page is gone;
-- the venue is on the do-not-list, the date has passed, or it's clearly outside the category.
+- the venue is on the do-not-list, the event is over (for a run: its closing date has passed), or it's clearly outside the category;
+- the same event is already published or being published under another id (see step 2).
 
 **Hold** for a person (with reasons and exactly what to check) when:
 - title, venue and date are confirmed only by an aggregator or a reader tip, and the venue isn't marked `no_primary_listing`;
@@ -92,9 +95,9 @@ How to empty a removed field:
 
 ## Part 2: re-check what's coming up
 
-Every run, check each published event starting in the **next 14 days** that has no `needs_review` and wasn't updated in the last 3 days:
+Every run, check each published event that has no `needs_review` and wasn't updated in the last 3 days, and either starts in the **next 14 days**, or is a **run that is on now** (started already, `ends_at` today or later) and wasn't updated in the last 7 days:
 
-`python scripts/check_quote.py --file <those event files>`
+`python scripts/check_quote.py --max-per-domain 40 --file <those event files>`
 
 - All quotes still `exact`/`near` and status unchanged: do nothing.
 - A key quote is now missing, the page is gone, or it redirects away: set `needs_review` with the reason and a history line. **Don't change any facts during a re-check.** A person, or tomorrow's scout and your Part 1, will sort it out.

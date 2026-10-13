@@ -1,9 +1,9 @@
-# Routine: morning run (scout + verifier)
+# Routine: morning run (four scouts + verifier)
 
-Every morning one scheduled run finds new nights (the scout, on Haiku), checks them (the verifier, on Sonnet), runs every check and pushes a branch. GitHub then takes over (`.github/workflows/morning-run-pr.yml`): it re-runs the checks, opens the pull request and, while **auto-merge** is on, merges it and republishes the site.
+Every morning one scheduled run finds new events (four scouts on Haiku: nights & music, arts, food & drink, community), checks them (the verifier, on Sonnet), runs every check and pushes a branch. GitHub then takes over (`.github/workflows/morning-run-pr.yml`): it re-runs the checks, opens the pull request and, while **auto-merge** is on, merges it and republishes the site.
 
 ```
-06:07  scheduled run ──► scout ──► verifier ──► checks ──► push claude/morning-run-<date>
+06:07  scheduled run ──► 4 scouts (side by side) ──► verifier ──► checks ──► push claude/morning-run-<date>
                                                                 │
        GitHub workflow ◄────────────────────────────────────────┘
          re-run checks ──► open pull request ──► merge (if AUTO_MERGE=true) ──► site republishes
@@ -14,7 +14,7 @@ Every morning one scheduled run finds new nights (the scout, on Haiku), checks t
 | Setting | Value |
 | --- | --- |
 | Schedule | Daily at 06:07 Europe/London, as a Claude scheduled task (claude.ai, scheduled tasks) |
-| Models | The main session coordinates; the scout runs on Haiku and the verifier on Sonnet (set in each agent file) |
+| Models | The main session coordinates; the four scouts run on Haiku and the verifier on Sonnet (set in each agent file) |
 | Network | The run needs to reach venue and ticket websites; the environment this was set up in can |
 | Auto-merge | Repository variable `AUTO_MERGE` = `true`. Set it to `false` to review every pull request yourself |
 | GitHub setting | Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests" must be ticked |
@@ -36,11 +36,15 @@ Setup
    GitHub, use claude/morning-run-<run-date>-2 (then -3, and so on).
 
 Work
-3. Use the scout-nights-music subagent (.claude/agents/scout-nights-music.md) and let it follow its
-   instructions in full, with the run date. Monday runs include the outer zone; other days do not.
-4. When the scout has finished, use the verifier subagent (.claude/agents/verifier.md), with the run
-   date, on the new candidates and for its re-checks of upcoming events. Do not pass it the scout's
-   run report or any of your own views on the candidates; it must work only from the files.
+3. Start these four scout subagents at the same time, each with the run date and the day of the week,
+   and let each follow its instructions in full (they also read docs/scout-rules.md):
+   scout-nights-music, scout-arts, scout-food-drink, scout-community (.claude/agents/).
+   Each writes only to its own data/candidates/<category>/ and data/runs/<category>/ folders.
+   If one fails, carry on with the others and say so in the report.
+4. When all the scouts have finished, use the verifier subagent (.claude/agents/verifier.md), with the
+   run date, on the new candidates of every category and for its re-checks of upcoming events. Do not
+   pass it the scouts' run reports or any of your own views on the candidates; it must work only from
+   the files.
 
 Checks
 5. Run: python3 scripts/validate.py all  and  python3 -m pytest -q. Both must pass. If they do not,
@@ -62,8 +66,8 @@ Publish
    and read the first result's number, html_url and merged_at.
 
 Report
-8. Finish with a short report for Fred: events found, published, held (one line each with the
-   reason) and rejected; anything flagged on already-published events; venues that couldn't be
+8. Finish with a short report for Fred, in plain English: events found and published per category,
+   held (one line each with the reason) and rejected; anything flagged on already-published events; venues that couldn't be
    reached; and whether the pull request was merged. End your final message with the pull
    request's URL as a markdown hyperlink, for example
    [Pull request #12: Morning run — 2026-10-20](https://github.com/fredfesty/bethnal-green-live/pull/12).
@@ -76,4 +80,4 @@ Report
 2. Skim the new files in `data/events/`.
 3. Check the **flagged** events: anything with `needs_review` is hidden on the site until a person clears it (set it to null and add a `history` line).
 4. Merge if it isn't merged already. The website rebuilds from `main` within a minute or two.
-5. Apply any **Registry suggestions** from the scout's report in a separate small change.
+5. Apply any **Registry suggestions** from the scouts' reports in a separate small change.
