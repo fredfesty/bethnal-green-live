@@ -5,73 +5,252 @@
   "description": "What the Venues page says about one venue: what it is, what it plays, who goes, how accessible it is and what it costs. Written by the venue profiler, one file per venue at data/venues/<id>.json. Every filled-in field must be named by an evidence item with a word-for-word quote. The written fields (summary, music.notes, crowd, cost.notes, accessibility.notes) are in our own words and may only say what their quotes say.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "zone", "summary", "music", "crowd", "accessibility", "cost", "evidence", "profiled_at"],
+  "required": [
+    "id",
+    "name",
+    "zone",
+    "summary",
+    "music",
+    "crowd",
+    "accessibility",
+    "cost",
+    "evidence",
+    "profiled_at"
+  ],
   "properties": {
     "id": {
       "description": "The venue's id in data/sources/<category>.json. The file name is <id>.json.",
       "type": "string",
       "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
     },
-    "name": { "type": "string", "minLength": 2, "description": "As in the registry." },
-    "zone": { "$ref": "common.schema.json#/$defs/zone" },
-    "address": { "type": ["string", "null"] },
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "description": "As in the registry."
+    },
+    "zone": {
+      "$ref": "common.schema.json#/$defs/zone"
+    },
+    "aliases": {
+      "description": "Other names the venue goes by (old names, how listings sites write it). Used to match listings to this venue.",
+      "type": "array",
+      "maxItems": 8,
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 80
+      }
+    },
+    "types": {
+      "description": "What kind of place it is. Required for a venue that is not in data/sources/ (the registry's type list is used otherwise). Must be backed by a quote naming 'types'.",
+      "type": "array",
+      "maxItems": 6,
+      "items": {
+        "enum": [
+          "gig-venue",
+          "live-music",
+          "club",
+          "dj-bar",
+          "pub",
+          "bar",
+          "jazz",
+          "queer-venue",
+          "queer-friendly",
+          "cabaret",
+          "drag",
+          "cabaret-drag",
+          "karaoke",
+          "open-mic",
+          "church",
+          "arts-centre",
+          "theatre",
+          "cinema",
+          "comedy",
+          "record-shop",
+          "in-store",
+          "community-venue",
+          "gallery",
+          "music-venue"
+        ]
+      }
+    },
+    "status": {
+      "description": "open (default) unless a source says otherwise. closed hides the venue from the Venues page; temporarily-closed and opening-soon are shown with a note.",
+      "enum": [
+        "open",
+        "closed",
+        "temporarily-closed",
+        "opening-soon"
+      ]
+    },
+    "location": {
+      "description": "Where the postcode is, from postcodes.io (scripts/zone.py). Required for a venue not in the registry; the zone must agree with distance_m.",
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "lat",
+        "lon",
+        "distance_m",
+        "source"
+      ],
+      "properties": {
+        "lat": {
+          "type": "number"
+        },
+        "lon": {
+          "type": "number"
+        },
+        "distance_m": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Straight-line metres from Bethnal Green tube."
+        },
+        "source": {
+          "const": "postcodes.io"
+        }
+      }
+    },
+    "discovered": {
+      "description": "Set when the weekly venue run found this venue. Keeps how and when.",
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "first_seen",
+        "found_by"
+      ],
+      "properties": {
+        "first_seen": {
+          "type": "string",
+          "format": "date"
+        },
+        "found_by": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "web",
+              "map",
+              "listings",
+              "reader-tip",
+              "person"
+            ]
+          }
+        }
+      }
+    },
+    "address": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
     "postcode": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "pattern": "^[A-Z]{1,2}[0-9][0-9A-Z]? ?[0-9][A-Z]{2}$"
     },
     "website": {
       "description": "The venue's own website, if it has one. Must be cited by an evidence item (fields: ['website']).",
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "format": "uri",
       "pattern": "^https?://"
     },
     "summary": {
       "description": "One to three sentences, our own words: what kind of place it is and what it's known for. No adjectives the sources don't support, no promo language.",
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "maxLength": 420
     },
     "music": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["styles"],
+      "required": [
+        "styles"
+      ],
       "properties": {
         "styles": {
           "description": "Short lowercase music styles the sources name, e.g. ['indie', 'punk'] or ['house', 'techno']. Empty if not stated.",
           "type": "array",
           "maxItems": 10,
-          "items": { "type": "string", "minLength": 2, "maxLength": 40, "pattern": "^[a-z0-9&'/ +-]+$" }
+          "items": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 40,
+            "pattern": "^[a-z0-9&'/ +-]+$"
+          }
         },
         "notes": {
           "description": "Optional, our own words: the kind of nights or gigs it puts on.",
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "maxLength": 240
         }
       }
     },
     "crowd": {
       "description": "Who goes, our own words, only as the sources describe it (e.g. how the venue describes itself, or a review). Null if nothing quotable. Never guess from the music or the area, and never describe people by age, race, class or looks unless a source says the venue is for that group (e.g. 'queer', '18+', 'families').",
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "maxLength": 300
     },
     "accessibility": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["step_free", "accessible_toilet"],
+      "required": [
+        "step_free",
+        "accessible_toilet"
+      ],
       "properties": {
         "step_free": {
           "description": "true only if a source says there is step-free access (or a lift/ramp to the main space); false only if a source says there isn't; otherwise null.",
-          "type": ["boolean", "null"]
+          "type": [
+            "boolean",
+            "null"
+          ]
         },
-        "accessible_toilet": { "type": ["boolean", "null"] },
-        "hearing_loop": { "type": ["boolean", "null"] },
+        "accessible_toilet": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "hearing_loop": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
         "notes": {
           "description": "Other access details the sources state (lifts, parts of the venue up or down stairs, access tickets, quiet spaces), our own words.",
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "maxLength": 300
         },
         "access_page": {
           "description": "The venue's own access-information page, if it has one.",
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "format": "uri",
           "pattern": "^https?://"
         }
@@ -80,57 +259,130 @@
     "cost": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["free_entry"],
+      "required": [
+        "free_entry"
+      ],
       "properties": {
         "free_entry": {
           "description": "'always' if a source says entry is free; 'some-nights' if a source says some nights or some hours are free; 'no' if a source says there is always a charge; null if not stated. Prices on individual events come from our own listings, not from here.",
-          "enum": ["always", "some-nights", "no", null]
+          "enum": [
+            "always",
+            "some-nights",
+            "no",
+            null
+          ]
         },
         "notes": {
           "description": "General pricing the sources state, our own words (e.g. a typical ticket range, membership, cash-only). Never a single event's price.",
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "maxLength": 240
         }
       }
     },
     "age_policy": {
       "description": "As stated by a source, e.g. '18+ after 9pm'. Null if not stated.",
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "maxLength": 120
     },
     "capacity": {
       "description": "Standing or total capacity a source states. Null if not stated.",
-      "type": ["integer", "null"],
+      "type": [
+        "integer",
+        "null"
+      ],
       "minimum": 1
     },
     "evidence": {
       "type": "array",
       "minItems": 1,
-      "items": { "$ref": "#/$defs/venue_evidence" }
+      "items": {
+        "$ref": "#/$defs/venue_evidence"
+      }
     },
-    "profiled_at": { "$ref": "common.schema.json#/$defs/timestamp" },
+    "profiled_at": {
+      "$ref": "common.schema.json#/$defs/timestamp"
+    },
     "review": {
-      "description": "The independent check of this profile: every quote re-fetched and every written field compared with its quotes.",
-      "type": ["object", "null"],
+      "description": "The independent check of this profile: every quote re-fetched and every written field compared with its quotes. A review older than profiled_at doesn't count: the site waits for a fresh check after every change.",
+      "type": [
+        "object",
+        "null"
+      ],
       "additionalProperties": false,
-      "required": ["checked_at", "removed_fields"],
+      "required": [
+        "checked_at",
+        "removed_fields"
+      ],
       "properties": {
-        "checked_at": { "$ref": "common.schema.json#/$defs/timestamp" },
+        "checked_at": {
+          "$ref": "common.schema.json#/$defs/timestamp"
+        },
         "removed_fields": {
           "description": "Fields emptied because they could not be confirmed.",
           "type": "array",
-          "items": { "type": "string" }
+          "items": {
+            "type": "string"
+          }
         }
       }
     },
     "needs_review": {
       "description": "Set when something in the profile is in doubt. The site then shows only the registry basics for this venue.",
-      "type": ["object", "null"],
+      "type": [
+        "object",
+        "null"
+      ],
       "additionalProperties": false,
-      "required": ["since", "reason"],
+      "required": [
+        "since",
+        "reason"
+      ],
       "properties": {
-        "since": { "$ref": "common.schema.json#/$defs/timestamp" },
-        "reason": { "type": "string", "minLength": 5, "maxLength": 400 }
+        "since": {
+          "$ref": "common.schema.json#/$defs/timestamp"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 400
+        }
+      }
+    },
+    "history": {
+      "description": "What changed and who changed it, newest last. The venue editor and checker add a line each time they change the profile.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "at",
+          "by",
+          "change"
+        ],
+        "properties": {
+          "at": {
+            "$ref": "common.schema.json#/$defs/timestamp"
+          },
+          "by": {
+            "enum": [
+              "venue-profiler",
+              "venue-editor",
+              "venue-checker",
+              "human"
+            ]
+          },
+          "change": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 300
+          }
+        }
       }
     }
   },
@@ -138,18 +390,28 @@
     "venue_evidence": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["fields", "url", "quote", "retrieved_at", "source_kind"],
+      "required": [
+        "fields",
+        "url",
+        "quote",
+        "retrieved_at",
+        "source_kind"
+      ],
       "properties": {
         "fields": {
-          "description": "Which profile fields this quote supports. Use the field name ('summary', 'crowd', 'website', 'age_policy', 'capacity', 'address', 'postcode') or a dotted name for parts ('music.styles', 'music.notes', 'accessibility.step_free', 'accessibility.accessible_toilet', 'accessibility.hearing_loop', 'accessibility.notes', 'accessibility.access_page', 'cost.free_entry', 'cost.notes'). 'music', 'accessibility' and 'cost' cover all their parts.",
+          "description": "Which profile fields this quote supports. Use the field name ('summary', 'crowd', 'website', 'age_policy', 'capacity', 'address', 'postcode') or a dotted name for parts ('music.styles', 'music.notes', 'accessibility.step_free', 'accessibility.accessible_toilet', 'accessibility.hearing_loop', 'accessibility.notes', 'accessibility.access_page', 'cost.free_entry', 'cost.notes'). 'music', 'accessibility' and 'cost' cover all their parts. Also 'types', 'status' (anything other than open) and 'aliases'.",
           "type": "array",
           "minItems": 1,
           "items": {
             "type": "string",
-            "pattern": "^(summary|crowd|website|age_policy|capacity|address|postcode|music|music\\.styles|music\\.notes|accessibility|accessibility\\.(step_free|accessible_toilet|hearing_loop|notes|access_page)|cost|cost\\.(free_entry|notes))$"
+            "pattern": "^(summary|crowd|types|status|aliases|website|age_policy|capacity|address|postcode|music|music\\.styles|music\\.notes|accessibility|accessibility\\.(step_free|accessible_toilet|hearing_loop|notes|access_page)|cost|cost\\.(free_entry|notes))$"
           }
         },
-        "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
         "quote": {
           "description": "One contiguous snippet copied word for word from the page, 10 to 300 characters.",
           "type": "string",
@@ -157,10 +419,17 @@
           "maxLength": 300,
           "pattern": "[A-Za-z0-9].*[A-Za-z0-9]"
         },
-        "retrieved_at": { "$ref": "common.schema.json#/$defs/timestamp" },
+        "retrieved_at": {
+          "$ref": "common.schema.json#/$defs/timestamp"
+        },
         "source_kind": {
           "description": "primary = the venue's own website or its own page on a ticketing site; press = a review or article by a named publication; directory = an access guide or listings directory (AccessAble, Euan's Guide, CAMRA WhatPub, a council page); aggregator = a listings site that copies others.",
-          "enum": ["primary", "press", "directory", "aggregator"]
+          "enum": [
+            "primary",
+            "press",
+            "directory",
+            "aggregator"
+          ]
         }
       }
     }

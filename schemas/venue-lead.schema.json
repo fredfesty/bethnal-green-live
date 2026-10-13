@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bethnalgreen.live/schemas/venue-lead.schema.json",
+  "title": "Venue lead",
+  "description": "A possible venue (or news about a known one) found by a venue finder in the weekly venue run. One file per lead at data/venue-leads/<run-date>/<finder>-<id>.json. A lead is not published: the triage script and the venue editor decide what happens to it. Every lead needs at least one word-for-word quote from a page anyone can open.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "found_by", "signal", "evidence", "found_at"],
+  "properties": {
+    "id": {
+      "description": "Lowercase slug of the venue's name, hyphens only (\"the-mayfly-bar\" → \"mayfly-bar\": drop a leading 'the'). For a known venue, its existing id.",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 60
+    },
+    "name": { "type": "string", "minLength": 2, "maxLength": 100 },
+    "about_venue_id": {
+      "description": "When the lead is news about a venue we already know (closing, renamed, reopened), that venue's id. Otherwise null.",
+      "type": ["string", "null"]
+    },
+    "address": { "type": ["string", "null"], "maxLength": 160 },
+    "postcode": { "type": ["string", "null"], "pattern": "^[A-Z]{1,2}[0-9][0-9A-Z]? ?[0-9][A-Z]{2}$" },
+    "website": { "type": ["string", "null"], "format": "uri", "pattern": "^https?://" },
+    "found_by": { "enum": ["web", "map", "listings"] },
+    "signal": {
+      "description": "new = a venue we don't list; opening-soon / reopened / closed / temporarily-closed / renamed = news a source states about it.",
+      "enum": ["new", "opening-soon", "reopened", "closed", "temporarily-closed", "renamed"]
+    },
+    "kind_hint": {
+      "description": "What the source says it is, in a few words of our own (\"pub with live music upstairs\", \"basement club\"). Not a judgement.",
+      "type": ["string", "null"],
+      "maxLength": 120
+    },
+    "google_place_id": {
+      "description": "Only from scripts/places_search.py. Google's terms let us keep the place id but nothing else from Google: names, addresses and descriptions must come from the evidence quotes.",
+      "type": ["string", "null"],
+      "maxLength": 300
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/lead_evidence" }
+    },
+    "found_at": { "$ref": "common.schema.json#/$defs/timestamp" },
+    "notes": { "type": ["string", "null"], "maxLength": 400 }
+  },
+  "$defs": {
+    "lead_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fields", "url", "quote", "retrieved_at", "source_kind"],
+      "properties": {
+        "fields": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "enum": ["name", "address", "postcode", "website", "signal", "kind_hint"] }
+        },
+        "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+        "quote": { "type": "string", "minLength": 10, "maxLength": 300, "pattern": "[A-Za-z0-9].*[A-Za-z0-9]" },
+        "retrieved_at": { "$ref": "common.schema.json#/$defs/timestamp" },
+        "source_kind": { "enum": ["primary", "press", "directory", "aggregator"] }
+      }
+    }
+  }
+}

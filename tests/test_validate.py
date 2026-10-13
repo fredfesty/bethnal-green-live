@@ -327,7 +327,7 @@ def _no_website_evidence(d):
 
 
 @pytest.mark.parametrize("mutate,expected", [
-    (lambda d: d.update(id="not-a-venue"), "not a venue in data/sources"),
+    (lambda d: d.update(id="not-a-venue"), "a venue that is not in data/sources/ needs its own types"),
     (lambda d: d.update(id="oval-space", name="Oval Space"), "do-not-list"),
     (lambda d: d.update(zone="core"), "registry says outer"),
     (lambda d: d.update(name="Some Other Bar"), "registry calls this venue"),
@@ -354,3 +354,119 @@ def test_unknown_access_needs_no_evidence_but_a_stated_no_does(validators):
     assert errors("venues", d, validators) == []
     d["accessibility"]["hearing_loop"] = False  # a 'no' is a fact too
     assert has(errors("venues", d, validators), "accessibility.hearing_loop")
+
+
+# ---------------------------------------------------------------- the weekly venue run
+
+import venuelib  # noqa: E402
+
+
+def new_venue():
+    """A venue the weekly run found: not in the registry, so it carries its own types and location."""
+    d = copy.deepcopy(load(EX_VENUE))
+    lat, lon = 51.5281, -0.0561
+    d.update(id="example-new-bar", name="Example New Bar", aliases=[], zone="core", postcode="E2 9ZZ",
+             address="1 Example Street, London", types=["bar", "dj-bar"],
+             location={"lat": lat, "lon": lon, "distance_m": venuelib.distance_m(lat, lon), "source": "postcodes.io"},
+             discovered={"first_seen": "2026-10-18", "found_by": ["web", "map"]})
+    d["evidence"][0]["fields"] += ["types"]
+    return d
+
+
+def test_new_venue_passes(validators):
+    d = new_venue()
+    assert errors("venues", d, validators) == []
+
+
+@pytest.mark.parametrize("mutate,expected", [
+    (lambda d: d.update(types=[]), "needs its own types"),
+    (lambda d: d.update(location=None), "needs its own location"),
+    (lambda d: d.update(zone="fringe"), "is 'core', not 'fringe'"),
+    (lambda d: (d.update(postcode="E1 6QL"), d["location"].update(lat=51.5400, distance_m=venuelib.distance_m(51.54, -0.0561))),
+     "is 'fringe', not 'core'"),
+    (lambda d: d["location"].update(distance_m=5), "distance_m says 5"),
+    (lambda d: d.update(name="Troxy"), "already in the registry as 'troxy'"),
+    (lambda d: d.update(aliases=["Dalston Superstore"]), "already has a profile"),
+    (lambda d: d.update(status="closed"), "'status' is filled in but no evidence item names it"),
+    (lambda d: d["evidence"][0].update(fields=["website", "address", "postcode", "summary"]), "'types' is filled in"),
+])
+def test_new_venue_rules(validators, mutate, expected):
+    d = new_venue()
+    mutate(d)
+    assert has(errors("venues", d, validators), expected)
+
+
+def test_outer_new_venue_is_refused(validators):
+    d = new_venue()
+    lat, lon = 51.5495, -0.0755
+    d.update(zone="outer", postcode="E8 2PB",
+             location={"lat": lat, "lon": lon, "distance_m": venuelib.distance_m(lat, lon), "source": "postcodes.io"})
+    assert has(errors("venues", d, validators), "only added in the core or fringe zone")
+
+
+def test_zone_rules():
+    assert venuelib.zone_for("E2 6NB", 5000) == "core"      # E2 is core whatever the distance
+    assert venuelib.zone_for("E1 6QL", 1376) == "fringe"
+    assert venuelib.zone_for("E8 2PB", 2878) == "outer"
+    assert venuelib.zone_for(None, None) is None
+
+
+def test_matching_known_venues():
+    known = venuelib.known_venues()
+    assert venuelib.match_known("The Sebright Arms", known=known)["id"] == "sebright-arms"
+    assert venuelib.match_known("Oval Space", known=known)["where"] == "closed"
+    assert venuelib.match_known("Somewhere New", "https://dice.fm/venue/x", known=known) is None  # shared site
+    assert venuelib.match_known("Completely Different", "https://www.troxy.co.uk/", known=known)["id"] == "troxy"
+
+
+def lead(**kw):
+    d = {"id": "example-new-bar", "name": "Example New Bar", "about_venue_id": None, "address": None,
+         "postcode": "E2 9ZZ", "website": None, "found_by": "web", "signal": "new", "kind_hint": None,
+         "google_place_id": None, "found_at": "2026-10-18T05:00:00Z", "notes": None,
+         "evidence": [{"fields": ["name", "postcode"], "url": "https://www.example-news.co.uk/new-bar",
+                       "quote": "Example New Bar opens on 1 Example Street, E2 9ZZ", "retrieved_at": "2026-10-18T05:00:00Z",
+                       "source_kind": "press"}]}
+    d.update(kw)
+    return d
+
+
+def test_lead_passes(validators):
+    assert errors("venue-leads", lead(), validators, path=Path("web-example-new-bar.json")) == []
+
+
+@pytest.mark.parametrize("data,expected", [
+    (lead(found_by="map"), "file: name should be map-example-new-bar.json"),
+    (lead(address="1 Example Street"), "'address' is filled in"),
+    (lead(signal="closed"), "needs a quote that says so"),
+    (lead(signal="closed"), "must name the known venue"),
+    (lead(about_venue_id="no-such-venue"), "not a venue we know"),
+    (lead(evidence=[{**lead()["evidence"][0], "url": "https://www.instagram.com/x"}]), "never-use source"),
+])
+def test_lead_rules(validators, data, expected):
+    errs = errors("venue-leads", data, validators, path=Path("web-example-new-bar.json"))
+    assert has(errs, expected), errs
+
+
+def findings(**kw):
+    d = {"venue_id": "troxy", "venue_name": "Troxy", "aspect": "reviews", "researched_at": "2026-10-18T05:00:00Z",
+         "not_found": ["crowd"], "notes": None,
+         "findings": [{"field": "music.styles", "value": ["jazz"], "source_date": "2026",
+                       "evidence": [{"fields": ["music.styles"], "url": "https://www.example-news.co.uk/troxy",
+                                     "quote": "Troxy has a regular jazz night on Thursdays", "retrieved_at": "2026-10-18T05:00:00Z",
+                                     "source_kind": "press"}]}]}
+    d.update(kw)
+    return d
+
+
+def test_findings_pass(validators):
+    assert errors("venue-findings", findings(), validators, path=Path("troxy.reviews.json")) == []
+
+
+def test_findings_rules(validators):
+    d = findings()
+    d["findings"][0]["field"] = "crowd"
+    d["findings"][0]["value"] = "Troxy has a regular jazz night on Thursdays"
+    errs = errors("venue-findings", d, validators, path=Path("troxy.programme.json"))
+    assert has(errs, "name should be troxy.reviews.json")
+    assert has(errs, "no evidence item names 'crowd'")
+    assert has(errs, "copies the source word for word")
