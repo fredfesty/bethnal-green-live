@@ -42,20 +42,23 @@ These come on top of `CLAUDE.md`.
 
 **Your lane.** Write only the files your instructions name. Don't touch git, `data/sources/`, `data/venues/`, `data/events/` or `site/`.
 
-**Known pages before searching.** WebSearch is the scarcest tool in the run, so look up what you already know first, and use WebSearch only for what a known page can't tell you (press reviews, and news of a closing or a new name). For a venue we already list, start from, in this order:
-1. its website and listing pages in `data/sources/`, or in its profile in `data/venues/<id>.json` (`website`, `accessibility.access_page`, evidence URLs);
-2. its sitemap: `<website>/sitemap.xml`, or `/sitemap_index.xml` and `/page-sitemap.xml` (WordPress sites usually have these), read with `scripts/page_text.py`, to find the access, FAQ, what's-on, about and hire pages;
-3. pages those pages link to, and the pages already linked in the registry.
-For a venue that isn't listed yet, the lead's own website and evidence URLs come first. A page you reach this way is as good a source as one a search finds.
+**Known pages before searching.** WebSearch is the scarcest tool in the run, so use what you already know first, and use WebSearch only for what a known page can't tell you (press reviews, and news of a closing or a new name). `page_text.py` prints a page's visible text, not its links, so you can't follow links from it; use the addresses below instead.
+1. Look the venue up by id in `data/sources/*.json` (`website`, `listings`) and in its profile `data/venues/<id>.json` (`website`, `accessibility.access_page`, `evidence[].url`). Rows in `_triage.json` carry a `website` only for new venues. If a venue has no website anywhere, one WebSearch for its own site is allowed, and counts towards your cap.
+2. Its sitemap, from the site root: `/sitemap.xml`, or for WordPress `/wp-sitemap.xml`, or `/sitemap_index.xml` and then `/page-sitemap.xml`. Read it with `page_text.py <url> --find "access"` (then `faq`, `hire`, `whats-on`, `about`) so you only see the matching lines; the addresses may run together, so split them at `https://`. For a sitemap index, open the child sitemap it names. A sitemap's dates don't make a page fresh.
+3. Where there is no sitemap, common paths on the venue's own site: `/access`, `/accessibility`, `/faq`, `/visit`, `/hire`, `/whats-on`.
+4. The ticketing pages listed in the registry entry's `listings`.
+For a venue that isn't listed yet, the lead's own website and evidence URLs come first. A page you reach this way is as good a source as one a search finds. A sitemap or guessed page counts as a page fetch. Never use WebFetch or `page_text.py` on a search engine's results page to get round the cap.
 
-**Budget.** Stop at about 60 page fetches per agent and say in your final message what you didn't get to. WebSearch has its own, much smaller limit, because it is shared: the whole run gets about 200 calls, and once they are used up every agent still to start has none. So each agent has a cap on its WebSearch calls in total, written in its instructions, and stops searching when it reaches it:
+**Budget.** Stop at about 60 page fetches per agent and say in your final message what you didn't get to. WebSearch has its own, much smaller cap, because it is shared: the whole run gets about 200 calls, and once they are used up every agent still to start has none. So each agent has a cap on its WebSearch calls in total, written in its instructions, and stops searching when it reaches it:
 
 | Agent | WebSearch calls at most |
 | --- | --- |
-| venue-finder-web, venue-finder-map, venue-finder-listings | 25 each |
+| venue-finder-web, venue-finder-map, venue-finder-listings | 20 each |
 | venue-researcher-reviews | 15 each |
 | venue-researcher-programme, venue-researcher-facts | 8 each |
 
-A full week (the triage script's limits, about 21 venues in four batches of up to six) comes to 75 + 4 × 31 = 199. If you reach your cap, say in your final message what you didn't search for; that is better than leaving the later agents with nothing. If you change a cap, or the number of venues triage sends to research, keep this total under 200.
+The run uses at most four batches of researchers (24 venues; see step 5 of `routines/weekly-venues.md`), so the most it can use is 3 × 20 + 4 × (15 + 8 + 8) = 184, which leaves room under 200. Each extra batch would add 31. If you reach your cap, say in your final message what you didn't search for; that is better than leaving the later agents with nothing. If you change a cap or the number of batches, keep the total under 200.
+
+**Starting order.** The research list is in this order: venues with news, new venues, unprofiled venues, then refreshes. Venues that triage holds back wait for a later week; an unprofiled venue that can't be profiled keeps its place at the top of its zone, so a person should look at one that is held over week after week.
 
 **Finish.** Run the format check on your files (the command is in your instructions) and fix what fails by removing, never by weakening a quote. End with a short message: what you wrote, what you couldn't reach.

@@ -35,7 +35,8 @@ import zone as zonelib  # noqa: E402
 
 ROOT = venuelib.ROOT
 
-# Order in which registry venues with no profile are taken: nearest zone first.
+# Order in which registry venues with no profile are taken: nearest zone first. A zone that is not known (or not
+# one of these) ranks between fringe and outer, as for new venues.
 UNPROFILED_ORDER = {"core": 0, "fringe": 1, None: 2, "outer": 3}
 
 
@@ -67,6 +68,7 @@ def main(argv=None) -> int:
     ap.add_argument("--refresh", type=int, default=6)
     ap.add_argument("--no-lookup", action="store_true", help="don't look postcodes up (tests)")
     args = ap.parse_args(argv)
+    args.max_unprofiled = max(args.max_unprofiled, 0)
 
     folder = ROOT / "data" / "venue-leads" / args.run_date.isoformat()
     folder.mkdir(parents=True, exist_ok=True)
@@ -144,7 +146,7 @@ def main(argv=None) -> int:
     for n, k in enumerate(unprofiled):
         row = {"venue_id": k["id"], "name": k["name"], "reason": "unprofiled", "zone": k["zone"],
                "postcode": k["postcode"], "leads": []}
-        if n < max(args.max_unprofiled, 0):
+        if n < args.max_unprofiled:
             research.append(row)
             chosen.add(k["id"])
         else:
@@ -160,7 +162,9 @@ def main(argv=None) -> int:
     counts = {}
     for r in research:
         counts[r["reason"]] = counts.get(r["reason"], 0) + 1
-    print(f"OK research {len(research)} {counts}; report only {len(report_only)}; already known {len(known_out)}")
+    held = sum(1 for r in report_only if "over this week's limit" in r["reason"])
+    print(f"OK research {len(research)} {counts}; report only {len(report_only)} ({held} held over by this week's limits); "
+          f"already known {len(known_out)}")
     print(f"wrote {(folder / '_triage.json').relative_to(ROOT).as_posix()}")
     return 0
 

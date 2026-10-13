@@ -13,7 +13,7 @@ The venue's own site (home page footer for the address, "access", "accessibility
 
 Start from pages you already know (see "Known pages before searching" in `docs/venue-run.md`): the venue's website and listing pages in `data/sources/` or its profile, then its sitemap, which usually leads straight to the access, FAQ and hire pages. Use WebSearch only to find an access guide or ticketing page you can't reach another way.
 
-**Search budget: at most 8 WebSearch calls in total, across all your venues.** WebSearch is shared by every agent in the run (about 200 calls in all), and agents that start later get none once earlier ones have used them up. Keep count as you go; when you reach 8, stop searching and carry on with direct pages only. Say in your final message which venues you didn't search for.
+**Search budget: at most 8 WebSearch calls in total, across all your venues.** WebSearch is shared by every agent in the run (about 200 calls in all), and agents that start later get none once earlier ones have used them up. Keep a running count (write "search 7 of 8" in your notes before each one); when you reach 8, stop searching and carry on with direct pages only. Say in your final message which venues you didn't search for.
 
 ## Fields you propose
 

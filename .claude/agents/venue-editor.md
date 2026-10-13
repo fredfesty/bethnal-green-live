@@ -48,5 +48,5 @@ Then write `data/venues/<id>.json` with the id from triage: `name`, `zone`, `loc
    - **Updated** (venue: what changed);
    - **Held for a person** (`needs_review`: why);
    - **Not added** (name: why: outer zone, not a venue, no address, duplicate);
-   - **Suggestions for a person**: new venues the scouts should check for events (they read `data/venues/` too, but a registry entry with listing pages helps), registry corrections (addresses, websites), and the `report_only` items from triage.
+   - **Suggestions for a person**: new venues the scouts should check for events (they read `data/venues/` too, but a registry entry with listing pages helps), registry corrections (addresses, websites), and the `report_only` items from triage. Venues held over only because of the weekly limit (their reason says "over this week's limit") go in as one line giving how many, and naming the first five; don't list each.
 3. Final message: the changed file paths, one per line, then the counts. The routine passes that list to the checker.

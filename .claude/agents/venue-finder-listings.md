@@ -11,7 +11,7 @@ You are the **listings finder** in Bethnal Green Live's weekly venue run. Read `
 
 **Who we know:** `python3 -c "import sys; sys.path.insert(0,'scripts'); import venuelib; [print(k['id'], '|', k['name'], '|', k['where']) for k in venuelib.known_venues()]"`.
 
-**Search budget: at most 25 WebSearch calls in total.** WebSearch is shared by every agent in the run (about 200 calls in all), and the researchers who start after you get none once finders have used them up. Keep count as you go; when you reach 25, stop searching and carry on with the pages you already have. Say in your final message what you didn't get to.
+**Search budget: at most 20 WebSearch calls in total.** WebSearch is shared by every agent in the run (about 200 calls in all), and the researchers who start after you get none once finders have used them up. Keep a running count (write "search 7 of 20" in your notes before each one); when you reach 20, stop searching and carry on with the pages you already have. Say in your final message what you didn't get to.
 
 ## 1. Our own data first (no web needed)
 

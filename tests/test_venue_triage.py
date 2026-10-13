@@ -3,7 +3,6 @@
 The weekly run shares one WebSearch limit across all its agents, so triage caps how many venues go to
 research. These tests build a small repository in a temporary folder and run triage against it.
 """
-import datetime as dt
 import json
 import sys
 from pathlib import Path
@@ -129,11 +128,57 @@ def test_a_venue_with_news_is_researched_even_when_it_has_no_profile(repo):
     assert ids(out["research"], "unprofiled") == ["venue-0", "venue-1"]
 
 
-def test_the_default_keeps_a_typical_week_near_the_planned_size(repo):
-    """routines/weekly-venues.md plans for about 16 venues: up to 10 new, 6 refreshed, plus a handful."""
+def test_a_negative_limit_counts_as_zero(repo):
+    write_registry(repo, [("a-venue", "core")])
+    out = triage(repo, "--max-unprofiled", "-3")
+    assert ids(out["research"]) == []
+    assert out["report_only"][0]["reason"] == "over this week's limit of 0 unprofiled venues; next week"
+
+
+def test_an_unexpected_zone_ranks_with_zone_not_known(repo):
+    write_registry(repo, [("outer-1", "outer"), ("odd-zone", "Core "), ("fringe-1", "fringe")])
+    out = triage(repo, "--max-unprofiled", "3")
+    assert ids(out["research"], "unprofiled") == ["fringe-1", "odd-zone", "outer-1"]
+
+
+def test_closed_and_watchlist_venues_are_never_chosen_or_held(repo):
+    reg = {"category": "test",
+           "venues": [{"id": "open-venue", "name": "Open Venue", "zone": "core", "postcode": "E2 6NB"}],
+           "watchlist": [{"id": "watched", "name": "Watched", "zone": "core"}],
+           "do_not_list": [{"id": "shut", "name": "Shut", "zone": "core"}]}
+    (repo / "data/sources/test.json").write_text(json.dumps(reg), encoding="utf-8")
+    out = triage(repo)
+    assert ids(out["research"]) == ["open-venue"]
+    assert out["report_only"] == []
+
+
+def test_a_held_venue_row_says_where_it_is(repo):
+    write_registry(repo, [("a-venue", "core"), ("b-venue", "fringe")])
+    out = triage(repo, "--max-unprofiled", "1")
+    assert out["report_only"] == [{"venue_id": "b-venue", "name": "B Venue", "reason": "over this week's limit of 1 "
+                                   "unprofiled venues; next week", "zone": "fringe", "postcode": "E2 6NB", "leads": []}]
+
+
+def test_a_venue_with_news_is_researched_even_when_the_cap_is_full(repo):
+    write_registry(repo, [(f"venue-{n}", "core") for n in range(6)])
+    write_lead(repo, "Venue 5", about_venue_id="venue-5", signal="closed")
+    out = triage(repo, "--max-unprofiled", "0")
+    assert ids(out["research"]) == ["venue-5"]
+    assert len(out["report_only"]) == 5
+
+
+def test_a_full_week_is_ten_new_five_unprofiled_and_six_refreshed(repo):
+    """routines/weekly-venues.md plans for this: 21 venues, which fit in four batches of six."""
     write_registry(repo, [(f"venue-{n:02d}", "core") for n in range(72)])
     for n in range(6):
         write_profile(repo, f"profiled-{n}", profiled_at=f"2026-0{n + 1}-01")
+    for n in range(12):
+        write_lead(repo, f"Brand New Bar {n}", postcode="E2 7AA", website=f"https://bar{n}.example")
     out = triage(repo)
-    assert len(out["research"]) == 5 + 6
-    assert dt.date.fromisoformat(out["run_date"]) == dt.date(2026, 10, 18)
+    counts = {}
+    for r in out["research"]:
+        counts[r["reason"]] = counts.get(r["reason"], 0) + 1
+    assert counts == {"new": 10, "unprofiled": 5, "refresh": 6}
+    assert len(out["research"]) == 21
+    assert len([r for r in out["report_only"] if "unprofiled" in r["reason"]]) == 67
+    assert len([r for r in out["report_only"] if "new venues" in r["reason"]]) == 2
