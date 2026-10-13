@@ -1,0 +1,133 @@
+{
+  "id": "mile-end-park",
+  "name": "Mile End Park (incl. Ecology Pavilion)",
+  "zone": "fringe",
+  "address": "Mile End Park, 125 Grove Road, London",
+  "postcode": "E3 5RP",
+  "website": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_park.aspx",
+  "summary": "A 32-hectare linear park beside the Regent's Canal, stretching between Victoria Park and Limehouse Basin and run by the council for a charity. Its Ecology Pavilion can be hired for exhibitions and events.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "notes": "The Ecology Pavilion building is step free and accessible. Maps lay out a stepless way from Mile End Underground to the children's play area and the Art Pavilion. The playground has portable toilets and no baby changing."
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Exhibitions at the Art Pavilion are free to visit."
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_park.aspx",
+      "quote": "Mile End Park is a 32 hectare linear park.",
+      "retrieved_at": "2026-10-13T00:38:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park.aspx",
+      "quote": "Mile End Park is managed by the council on behalf of the King George’s Field, Mile End Charity",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park.aspx",
+      "quote": "The park follows the Regent's Canal from Victoria Park to Limehouse Basin.",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_ecology_pavilion.aspx",
+      "quote": "The Ecology Pavilion is available to hire for exhibitions, corporate events, wedding ceremonies and receptions and other celebrations.",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_ecology_pavilion/the_ecology_pavilion_mile_end_park.aspx",
+      "quote": "The building is step free and accessible",
+      "retrieved_at": "2026-10-13T00:38:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_park.aspx",
+      "quote": "The maps show a step-free route from Mile End Underground Station to the Children's Park and The Art Pavilion.",
+      "retrieved_at": "2026-10-13T00:38:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_park.aspx",
+      "quote": "There are portalloo toilets in the playground.",
+      "retrieved_at": "2026-10-13T00:38:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_park.aspx",
+      "quote": "There are no baby change facilities available.",
+      "retrieved_at": "2026-10-13T00:38:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_park.aspx",
+      "quote": "All exhibitions are free and open to all.",
+      "retrieved_at": "2026-10-13T00:38:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_ecology_pavilion/the_ecology_pavilion_mile_end_park.aspx",
+      "quote": "125 Grove Road London E3 5RP",
+      "retrieved_at": "2026-10-13T00:38:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:46:24Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:46:24Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

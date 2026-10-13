@@ -1,0 +1,35 @@
+{
+  "venue_id": "young-va",
+  "venue_name": "Young V&A",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "cost.notes",
+      "value": "Admission to the museum is free; members visit free too.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["cost.notes"],
+          "url": "https://www.vam.ac.uk/young",
+          "quote": "Admission is free",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["cost.notes"],
+          "url": "https://www.vam.ac.uk/young",
+          "quote": "Members visit free",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types: a children's museum with drop-ins and workshops; no value in the types list fits it cleanly, so left for the editor",
+    "music.styles and music.notes: no music nights, gigs or DJs found on the venue's pages",
+    "Event pages under vam.ac.uk/event/ not read; the home page's featured events were used"
+  ],
+  "notes": "Programme is family and children's: drop-ins, play sessions, holiday workshops and an exhibition. Nights and sessions seen: Play After School (Sept-Oct 2026, on until Fri 23 Oct 2026, drop-in); SEND Play (Sat 7 Nov to Sat 5 Dec 2026, drop-in); Family Workshop (5-11): Clay Character (Thu 29 to Sat 31 Oct 2026); Family Workshop (7-14): Imaginary Film Poster (Thu 29 to Sat 31 Oct 2026); exhibition Inside Aardman: Wallace & Gromit and Friends (closes Sun 15 Nov 2026). Exhibitions belong to the arts scout; these are the family programme only."
+}

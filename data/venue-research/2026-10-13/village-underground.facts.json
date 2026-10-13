@@ -1,0 +1,195 @@
+{
+  "venue_id": "village-underground",
+  "venue_name": "Village Underground",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:36:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "54 Holywell Lane, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address", "postcode"],
+          "url": "https://villageunderground.co.uk/contact/",
+          "quote": "Address: 54 Holywell Ln, London, EC2A 3PQ",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "EC2A 3PQ",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address", "postcode"],
+          "url": "https://villageunderground.co.uk/contact/",
+          "quote": "Address: 54 Holywell Ln, London, EC2A 3PQ",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://villageunderground.co.uk/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://villageunderground.co.uk/",
+          "quote": "Village Underground – A space for creativity & culture in the heart of East London",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.step_free"],
+          "url": "https://villageunderground.co.uk/access/",
+          "quote": "the other is located on Great Eastern Street and is fully accessible",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.step_free"],
+          "url": "https://villageunderground.co.uk/access/",
+          "quote": "For all music events there is a raised platform at the back of the venue for wheelchair users and those who need to be seated.",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.accessible_toilet"],
+          "url": "https://villageunderground.co.uk/access/",
+          "quote": "We have one dedicated accessible toilet.",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://villageunderground.co.uk/access/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.access_page"],
+          "url": "https://villageunderground.co.uk/access/",
+          "quote": "We recognise that for many people there are barriers that can sometimes make it difficult to enjoy live music and culture.",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Two entrances: the Great Eastern Street one is fully accessible, while the Holywell Lane one has a couple of steps. The raised accessible viewing platform at the back is reached by a permanent ramp and has seats or wheelchair space. Seated, wheelchair and carer tickets are sold only through DICE. There is no accessible bar, but staff will serve someone who has no carer with them. Strobe and flashing lights are used on some shows, so ask the venue about them.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://villageunderground.co.uk/access/",
+          "quote": "We have 2 entrances/exits – one is located on Holywell Lane and has a couple of steps",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://villageunderground.co.uk/access/",
+          "quote": "Seated/Wheelchair + Carer Tickets are only available to purchase on Dice.",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://villageunderground.co.uk/access/",
+          "quote": "We do not have an accessible bar however we can provide a bartender if a customer is without a carer.",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://villageunderground.co.uk/access/",
+          "quote": "We do use strobe and flashing lighting in the venue on some shows",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Fully cashless: card or contactless only. The venue's own tickets are sold through DICE.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["cost.notes"],
+          "url": "https://villageunderground.co.uk/faqs/",
+          "quote": "Our venue is now 100% cashless. All payments must be made by card or contactless methods.",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["cost.notes"],
+          "url": "https://villageunderground.co.uk/faqs/",
+          "quote": "VU’s ticket allocation is sold through Dice.",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "age_policy",
+      "value": "Live music 16+ (16 and 17 year olds must be with one responsible adult); club nights 18+.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["age_policy"],
+          "url": "https://villageunderground.co.uk/faqs/",
+          "quote": "Live music events are strictly over 16 and each 16-17 year old under 18 must be accompanied by one responsible adult",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["age_policy"],
+          "url": "https://villageunderground.co.uk/faqs/",
+          "quote": "Any Club night is strictly over 18 and right of admission will be reserved.",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "capacity",
+      "value": 700,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["capacity"],
+          "url": "https://villageunderground.co.uk/hire/",
+          "quote": "700 Standing",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.hearing_loop",
+    "cost.free_entry"
+  ],
+  "notes": "Step-free status is set from the venue's own access page: the Great Eastern Street entrance is fully accessible and there is ramped access to the accessible viewing area. The Holywell Lane entrance has steps. The 700 capacity is the venue's standing figure from its hire page; the same page gives 200 theatre and 130 seated layouts. The age policy is the venue's own FAQ and says to check each event's listing, since some ticket listings have shown the wrong age. No hearing loop is mentioned on the access page."
+}

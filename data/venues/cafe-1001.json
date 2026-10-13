@@ -1,0 +1,168 @@
+{
+  "id": "cafe-1001",
+  "name": "Café 1001",
+  "zone": "fringe",
+  "address": "91 Brick Lane, London",
+  "postcode": "E1 6QL",
+  "website": "https://www.cafe1001.co.uk",
+  "summary": "A café, cocktail bar, lounge and disco on Brick Lane, billed as \"Hi-Fi By Night\", which broadcasts as Radio 1001.",
+  "music": {
+    "styles": [
+      "house",
+      "disco",
+      "funk",
+      "balearic",
+      "broken beat",
+      "uk garage"
+    ],
+    "notes": "DJ sets and listening parties, with the venue's sets recorded and archived online."
+  },
+  "crowd": "Time Out's 2022 review describes people checking emails by day, then drinking and catching a DJ after dark.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": "some-nights",
+    "notes": "Entry is free most of the time, with occasional ticketed events. Larger bookings need a £10 per person deposit."
+  },
+  "age_policy": "18+ after 19:00",
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.cafe1001.co.uk/",
+      "quote": "A combined Café, cocktail bar, lounge and disco.",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.cafe1001.co.uk/",
+      "quote": "Hi-Fi By Night.",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.cafe1001.co.uk/",
+      "quote": "Our love for music allowed Radio 1001 to be born, an incubator for talent new and established and a platform for DJs to showcase their talents.",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.cafe1001.co.uk/",
+      "quote": "Welcome to Café 1001, Brick Lane’s long established cultural hang out.",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/cafe-1001",
+      "quote": "who gather to check emails by day, then glug lager and catch a DJ after dark",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://ma.to/venue/cafe_1001",
+      "quote": "The space features a wide-ranging programme including house, disco, funk, balearic, broken beat, and UK Garage.",
+      "retrieved_at": "2026-10-13T00:23:52Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.cafe1001.co.uk/",
+      "quote": "All our sets are recorded and can be listened back to via archive below or on our YouTube channel.",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://ma.to/venue/cafe_1001",
+      "quote": "Expect regular listening parties, DJ sets, and events like the midweek BYOV sessions.",
+      "retrieved_at": "2026-10-13T00:23:52Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "cost.free_entry",
+        "cost.notes"
+      ],
+      "url": "https://www.cafe1001.co.uk/faqs/",
+      "quote": "95% of the time we offer free entry, and sometimes we host ticketed events",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.cafe1001.co.uk/faqs/",
+      "quote": "For larger bookings, there is a £10 per person deposit",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://www.cafe1001.co.uk/faqs/",
+      "quote": "We are 18+ after 19:00",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.cafe1001.co.uk/contact/",
+      "quote": "91 Brick Lane",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.cafe1001.co.uk/contact/",
+      "quote": "91 Brick Lane, London, E1 6QL",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:49:03Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:49:03Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: dropped 'listening bar' (only 'Hi-Fi By Night' quoted); music.notes: dropped unquoted 'Radio 1001 channel' link"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

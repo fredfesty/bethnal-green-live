@@ -1,0 +1,41 @@
+{
+  "venue_id": "brick-lane-market",
+  "venue_name": "Brick Lane Market (Sundays)",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:27:03Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A street market on and around Brick Lane, E1, with flea-market stalls, food and vintage fashion, operating at its fullest on Sundays. Time Out says it has grown to include seven markets known as The Truman Markets.",
+      "source_date": "2025-05-29",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/shopping/brick-lane-market",
+          "quote": "Operating at its fullest on Sundays, Brick Lane and its surrounding streets come alive, teeming with sellers shifting their wares.",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/shopping/brick-lane-market",
+          "quote": "Brick Lane Market, in the heart of Shoreditch, has grown and mutated over the years to incorporate seven different markets known as The Truman Markets.",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Time Out's guide (29 May 2025) is the only press source found. The council's markets page lists the Sunday market and its hours; the private Truman Brewery markets (Sunday Upmarket, Backyard, Vintage) are separate and their sites could not be read. The Time Out page gives the postcode E1 6SB, for the facts researcher."
+}

@@ -1,0 +1,68 @@
+{
+  "id": "herald-st",
+  "name": "Herald St",
+  "zone": "core",
+  "address": "2 Herald St, London",
+  "postcode": "E2 6JT",
+  "website": "https://www.heraldst.com",
+  "summary": "A contemporary art gallery with three spaces in London and Bologna, including 2 Herald St. Plaster magazine says the gallery has been running in East London since 2005.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.heraldst.com/contact",
+      "quote": "Contemporary art gallery with three premises across London and Bologna.",
+      "retrieved_at": "2026-10-13T00:11:02Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://plastermagazine.com/features/all-hail-the-bethnal-green-art-boom/",
+      "quote": "Herald St has been flying the East London flag since 2005",
+      "retrieved_at": "2026-10-13T00:12:32Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.heraldst.com/contact",
+      "quote": "2 Herald St London E2 6JT",
+      "retrieved_at": "2026-10-13T00:11:02Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:41:11Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:41:11Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

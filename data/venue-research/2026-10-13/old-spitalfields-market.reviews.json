@@ -1,0 +1,59 @@
+{
+  "venue_id": "old-spitalfields-market",
+  "venue_name": "Old Spitalfields Market",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:26:56Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A covered market in Spitalfields with permanent shops, food stalls and restaurants, plus weekly antiques and vinyl markets. Time Out calls it a busy shopping hub in east London.",
+      "source_date": "2025-05-29",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/things-to-do/old-spitalfields-market",
+          "quote": "Open seven days a week, Old Spitalfields Market is one of east London’s busiest shopping hubs.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/things-to-do/old-spitalfields-market",
+          "quote": "On Thursdays you’ll also encounter the weekly antiques market",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/things-to-do/old-spitalfields-market",
+          "quote": "Circling the giant roofed market are numerous permanent boutiques, eateries and salons",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://oldspitalfieldsmarket.com/",
+          "quote": "Browse Vintage and Rare Records at the Vinyl Market",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Time Out's page (29 May 2025) says the market is open Mon-Fri 8am–11pm and Sat-Sun 9am–11pm; the venue's site gives different hours (facts aspect). Its own site prints event dates without a year."
+}

@@ -1,0 +1,153 @@
+{
+  "id": "stepney-city-farm",
+  "name": "Stepney City Farm",
+  "zone": "fringe",
+  "address": "Stepney Way, London",
+  "postcode": "E1 3DG",
+  "website": "https://stepneycityfarm.org",
+  "summary": "A 4.5-acre working farm where visitors can meet farm animals, learn to grow food and try arts and crafts. A farmers' market runs on Saturdays.",
+  "music": {
+    "styles": []
+  },
+  "crowd": "Says general visitors are welcome without booking, while schools and groups must book.",
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "notes": "Blue Badge parking is limited, so call ahead. Only guide dogs are allowed.",
+    "access_page": "https://stepneycityfarm.org/about-the-farm/visit/"
+  },
+  "cost": {
+    "free_entry": "always",
+    "notes": "Entry is free. Booking is essential only for schools and groups."
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://stepneycityfarm.org/",
+      "quote": "Stepney City Farm is a 4.5 acre working farm",
+      "retrieved_at": "2026-10-13T00:23:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://stepneycityfarm.org/",
+      "quote": "We give children and adults a chance to meet farm animals, learn how to grow food and try out arts and crafts.",
+      "retrieved_at": "2026-10-13T00:27:03Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://stepneycityfarm.org/",
+      "quote": "The Farmer’s Market is on Saturdays, 10am-3pm.",
+      "retrieved_at": "2026-10-13T00:27:03Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+      "quote": "No booking required for general visitors, all welcome. Booking essential for schools and groups",
+      "retrieved_at": "2026-10-13T00:27:03Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+      "quote": "There are ramps to the Café, and accessible toilet facilities.",
+      "retrieved_at": "2026-10-13T00:23:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+      "quote": "Limited Blue Badge parking is available; please call ahead on 020 7790 8204",
+      "retrieved_at": "2026-10-13T00:23:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+      "quote": "We are a working farm: No dogs allowed, except for guide dogs.",
+      "retrieved_at": "2026-10-13T00:23:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.access_page"
+      ],
+      "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+      "quote": "The Farm is wheelchair-accessible, and very family friendly.",
+      "retrieved_at": "2026-10-13T00:23:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.free_entry",
+        "cost.notes"
+      ],
+      "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+      "quote": "Entry: Free",
+      "retrieved_at": "2026-10-13T00:23:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+      "quote": "Booking essential for schools and groups",
+      "retrieved_at": "2026-10-13T00:23:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+      "quote": "The main entrance to the Farm is on Stepney Way, near a zebra crossing",
+      "retrieved_at": "2026-10-13T00:23:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+      "quote": "Stepney Way London E1 3DG",
+      "retrieved_at": "2026-10-13T00:23:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:47:33Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:47:33Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: removed 3 Euan's Guide evidence items (blocked by robots.txt) and the access claims they alone backed (surfaces, toilet doors, wood-chip paths); summary: cut unquoted 'in Tower Hamlets'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

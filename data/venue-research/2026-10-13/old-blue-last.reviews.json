@@ -1,0 +1,99 @@
+{
+  "venue_id": "old-blue-last",
+  "venue_name": "The Old Blue Last",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:28:42Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A Shoreditch pub that its own site calls a live music venue. The venue names Arctic Monkeys, Amy Winehouse and IDLES among the bands that played there early on, and Time Out describes it as a place where new bands can play.",
+      "source_date": "2026-04-20",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/music/the-old-blue-last",
+          "quote": "still lives on as a spot for up-and-coming bands to cut their teeth",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.theoldbluelast.com/",
+          "quote": "Live music venue, east-end boozer",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.theoldbluelast.com/",
+          "quote": "having hosted early shows by Arctic Monkeys, Amy Winehouse, IDLES, George Ezra and more.",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "jazz"
+      ],
+      "source_date": "2026-04-20",
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.timeout.com/london/music/the-old-blue-last",
+          "quote": "It also hosts free weekly jazz nights on Sundays.",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.theoldbluelast.com/",
+          "quote": "SUNDAY JAZZ EVERY SUNDAY",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Time Out describes a room for new bands to play, with free weekly jazz on Sundays. The venue's own site lists live music sessions and a 'Sunday jazz' every week.",
+      "source_date": "2026-04-20",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/music/the-old-blue-last",
+          "quote": "still lives on as a spot for up-and-coming bands to cut their teeth, and is a great place to see some live music on the cheap",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.theoldbluelast.com/",
+          "quote": "DON’T MISS OUR LIVE MUSIC SESSIONS",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "status"
+  ],
+  "notes": "No closure or renaming news found. Time Out (20 April 2026) and the venue's own site (Halloween event on sale for 31 October 2026, opening hours listed) show it trading, so no status proposed. Time Out's cost range (free to £15 for gigs) is already published and was not re-proposed here."
+}

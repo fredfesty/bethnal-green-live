@@ -1,0 +1,168 @@
+{
+  "venue_id": "stepney-city-farm",
+  "venue_name": "Stepney City Farm",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Stepney Way, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+          "quote": "The main entrance to the Farm is on Stepney Way, near a zebra crossing",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 3DG",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+          "quote": "Stepney Way London E1 3DG",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://stepneycityfarm.org",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://stepneycityfarm.org/",
+          "quote": "Stepney City Farm is a 4.5 acre working farm",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.step_free"],
+          "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+          "quote": "The Farm is wheelchair-accessible, and very family friendly.",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.accessible_toilet"],
+          "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+          "quote": "There are ramps to the Café, and accessible toilet facilities.",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://stepneycityfarm.org/about-the-farm/visit/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.access_page"],
+          "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+          "quote": "The Farm is wheelchair-accessible, and very family friendly.",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Euan's Guide, supplied by the farm, says the farmyard, toilets, studios, classroom and barn have concrete or decked surfaces, some a bit uneven, and that the toilets are reached through double doors without steps. Paths around the fields were wood chip, with funding sought to improve them (undated page). Limited Blue Badge parking on site, by calling ahead. Dogs are not allowed except guide dogs.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.euansguide.com/venues/stepney-city-farm-london-816",
+          "quote": "The farmyard, toilets, studios, classroom, rabbit hutches and barn are accessible with concrete/decked surfaces (albeit some are a bit uneven).",
+          "retrieved_at": "2026-10-13T00:27:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.euansguide.com/venues/stepney-city-farm-london-816",
+          "quote": "The toilets are located in our Rural Arts Centre building, accessed from our farmyard through double doors without steps.",
+          "retrieved_at": "2026-10-13T00:27:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.euansguide.com/venues/stepney-city-farm-london-816",
+          "quote": "The paths around the fields are currently wood chip, we are awaiting funding to improve this.",
+          "retrieved_at": "2026-10-13T00:27:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+          "quote": "Limited Blue Badge parking is available; please call ahead on 020 7790 8204",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+          "quote": "We are a working farm: No dogs allowed, except for guide dogs.",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.free_entry",
+      "value": "always",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["cost.free_entry"],
+          "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+          "quote": "Entry: Free",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Entry is free with donations welcome. No booking is needed for general visitors; schools and groups must book.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["cost.notes"],
+          "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+          "quote": "Booking essential for schools and groups",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.hearing_loop",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Opening hours on the visit page: 10am to 4pm Tuesday to Sunday and bank holiday Mondays. Capacity: no whole-farm figure. Hire rooms on the venue-hire page: the Classroom 48 standing, the Garden Deck 30 standing. Children's parties are held in the Classroom or Garden Deck. Euan's Guide's own access text is provided by the farm and undated."
+}

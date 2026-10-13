@@ -1,0 +1,88 @@
+{
+  "venue_id": "moth-club",
+  "venue_name": "MOTH Club",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:36:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Old Trades Hall, Valette Street, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address", "postcode"],
+          "url": "https://dice.fm/venue/moth-club-43ox",
+          "quote": "Old Trades Hall, Valette Street, London E9 6NU",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E9 6NU",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address", "postcode"],
+          "url": "https://dice.fm/venue/moth-club-43ox",
+          "quote": "Old Trades Hall, Valette Street, London E9 6NU",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://mothclub.co.uk/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://mothclub.co.uk/",
+          "quote": "MOTH Club | Live Music Venue in Hackney, London",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "capacity",
+      "value": 300,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["capacity"],
+          "url": "https://www.tagvenue.com/rooms/london/27816/moth-club/main-hall",
+          "quote": "With space for 150 seated and 300 standing the venue is the ideal multi-purpose space.",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://mothclub.co.uk/Access",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.access_page"],
+          "url": "https://mothclub.co.uk/Access",
+          "quote": "Access — MOTH Club | Live Music Venue in Hackney, London",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy"
+  ],
+  "notes": "The club's access page (mothclub.co.uk/Access) and contact page load with JavaScript; the reader got only their titles, so no access details could be read. Someone should open the access page by hand. Capacity 300 is the Main Hall as listed on TagVenue, a hire directory; the club's own site gave no figure, and 150 seated is for the same room. DICE ticket prices are single events and were not used. Web search budget was used up before this venue, so sources were found by direct URL."
+}

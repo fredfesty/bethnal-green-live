@@ -1,0 +1,147 @@
+{
+  "venue_id": "whitechapel-gallery",
+  "venue_name": "Whitechapel Gallery",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:19:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "77-82 Whitechapel High St, London",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode",
+            "website"
+          ],
+          "url": "https://www.whitechapelgallery.org/visit/",
+          "quote": "77-82 Whitechapel High St London E1 7QX",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 7QX",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.whitechapelgallery.org/visit/",
+          "quote": "77-82 Whitechapel High St London E1 7QX",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.whitechapelgallery.org",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.whitechapelgallery.org/visit/",
+          "quote": "77-82 Whitechapel High St London E1 7QX",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Common Rooms, a free space to sit and read, are reached by a lift or stairs. Sensory aids such as fidget spinners are found at the ground-floor desk. Visitor Services can help plan a visit.",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes",
+            "accessibility"
+          ],
+          "url": "https://www.whitechapelgallery.org/visit/",
+          "quote": "There are chairs, sofas and books available in Common Rooms, accessible via lift or stairs.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes",
+            "accessibility"
+          ],
+          "url": "https://www.whitechapelgallery.org/visit/",
+          "quote": "Fidget spinners and other sensory tools can be found at the Information Desk on the ground floor.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes",
+            "accessibility"
+          ],
+          "url": "https://www.whitechapelgallery.org/visit/",
+          "quote": "For assistance with planning your visit around the Gallery, please contact the Visitor Services team",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Most displays are free, with one ticketed exhibition each season (standard £16.50 at the desk or online). Pay what you can on Thursday evenings during Whitechapel Lates. Members get free entry.",
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes",
+            "cost"
+          ],
+          "url": "https://www.whitechapelgallery.org/visit/",
+          "quote": "We offer free displays and one ticketed exhibition each season.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes",
+            "cost"
+          ],
+          "url": "https://www.whitechapelgallery.org/visit/",
+          "quote": "Standard £16.50 / £18.15 (with 10% donation*)",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes",
+            "cost"
+          ],
+          "url": "https://www.whitechapelgallery.org/visit/",
+          "quote": "Pay What You Can entry to all exhibitions during Whitechapel Lates: every Thursday 6–9pm",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes",
+            "cost"
+          ],
+          "url": "https://www.whitechapelgallery.org/visit/",
+          "quote": "Becoming a member supports us year round and offers a range of benefits from free entry",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Its visit page links to an Access page, but I could not find its address: guessed URLs (/access/, /accessibility/, /access-information/, /visit/access/) all return 404 and the link list was not readable. Step-free, toilet and loop status are therefore not confirmed. Tell the editor to fetch the Access link from the visit page."
+}

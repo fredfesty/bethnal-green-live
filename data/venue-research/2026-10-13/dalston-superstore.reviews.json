@@ -1,0 +1,107 @@
+{
+  "venue_id": "dalston-superstore",
+  "venue_name": "Dalston Superstore",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:28:42Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A queer club in Dalston, open since 2009, that also works as a cabaret space, cafe, gallery and community space. The venue says its weekend drag brunch has a cult following.",
+      "source_date": "2026-07-15",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "Functioning in equal parts as a thriving queer club, cabaret spot, cafe, gallery and community space",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "The venue first slid open its rainbow shutters in 2009",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "Our weekend Drag Brunch has gained cult-status",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The venue says it is a queer space that caters to London's LGBTQ+ community.",
+      "source_date": "2026-07-15",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "the venue proudly caters to London’s diverse LGBTQ+ community",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "dance music",
+        "drag"
+      ],
+      "source_date": "2026-07-15",
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "as much a thriving music-centred club as it is a front-running drag and performance space",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "We’ve played host to dance music heavy-hitters such as Honey Dijon",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Music-led club nights alongside drag and performance shows, and a weekend drag brunch.",
+      "source_date": "2026-07-15",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "Our weekend Drag Brunch has gained cult-status, with many a bleary-eyed queer rolling through the doors",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "status",
+    "aliases"
+  ],
+  "notes": "No press review or news found within the search budget (WebSearch was unavailable this run and the Time Out URLs guessed returned 404). Status: the venue's own event sitemap was updated 12 October 2026, so it appears to be trading; no status proposed. Crowd and music are from the venue's own About page (dated 15 July 2026) and should be checked against a press source when one is available."
+}

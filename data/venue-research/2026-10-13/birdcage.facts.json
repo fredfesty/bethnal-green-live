@@ -1,0 +1,62 @@
+{
+  "venue_id": "birdcage",
+  "venue_name": "The Birdcage",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "80 Columbia Road, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+          "quote": "80 Columbia Rd, London E2 7QB",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 7QB",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+          "quote": "80 Columbia Rd, London E2 7QB",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+          "quote": "Located on the vibrant Columbia Road, The Birdcage is a pub steeped in character and charm",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy (the group FAQ's 'Challenge 21 and 25 depending on the site' is group-wide, not this venue's policy)",
+    "capacity"
+  ],
+  "notes": "The venue's page on the operator's site (urbanpubsandbars.com) and the group FAQ give no access detail; the page has no access section. The only music evidence is a DesignMyNight launch party on Friday 15 May 2026, already past, so the lead's 'new' signal is not confirmed by a current page. Its own page lists a Day of the Dead event on 31 October; the programme researcher will have the detail. The phone number and the Birdcage's own domain were not searched for further."
+}

@@ -1,0 +1,77 @@
+{
+  "venue_id": "mare-street-market",
+  "venue_name": "Mare Street Market",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:24:44Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["bar", "live-music"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://ma.to/venue/marestreetmarket",
+          "quote": "functioning as a restaurant, bar, and deli under one roof",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://ma.to/venue/marestreetmarket",
+          "quote": "The spaces host live music, supper clubs, and art exhibitions",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A free-entry DJ set most Fridays at 18.00 (Enjoy Fridays, alternating Maurice Alexander and Jeremy Nash, seen from June 2026 to October 2026), free daytime DJ sets at weekends, and Sunday sessions with Stranger Than Paradise Records DJs at 12.00.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://marestreetmarket.com/events-hackney/",
+          "quote": "Enjoy Fridays With Maurice Alexander",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://marestreetmarket.com/events-hackney/",
+          "quote": "Enjoy Fridays With Jeremy Nash",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/marestreetmarket",
+          "quote": "Free-entry daytime set in Mare Street Music's October programme.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/marestreetmarket",
+          "quote": "Sunday roasts served alongside DJ sets from Stranger Than Paradise Records.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://marestreetmarket.com/",
+          "quote": "Stranger Than Paradise Records DJs",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles (no genre named on the venue's own pages or its listings)",
+    "crowd",
+    "cost.notes (events are listed as free entry; no general pricing found)"
+  ],
+  "notes": "Nights seen on marestreetmarket.com/events-hackney/: Enjoy Fridays With Maurice Alexander, Fri 16 Oct 2026, 18.00, free entry; Enjoy Fridays With Jeremy Nash, Fri 23 Oct 2026, 18.00, free entry; Paul Day, Sat 17 Oct 2026, 12.00, free entry; Stranger Than Paradise Records DJs, Sun 18 Oct 2026, 12.00 (homepage). The Hackney events page also lists a Friday series back to June 2026. Dates are as printed (DD.MM.YY). The King's Cross site is not part of this profile."
+}

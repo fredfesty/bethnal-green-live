@@ -1,0 +1,89 @@
+{
+  "venue_id": "rich-mix",
+  "venue_name": "Rich Mix",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "35-47 Bethnal Green Road, London E1 6LA",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://dice.fm/venue/rich-mix-4w2r",
+          "quote": "35-47 Bethnal Green Rd, London E1 6LA",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 6LA",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://dice.fm/venue/rich-mix-4w2r",
+          "quote": "35-47 Bethnal Green Rd, London E1 6LA",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "capacity",
+      "value": 370,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["capacity"],
+          "url": "https://dice.fm/venue/rich-mix-4w2r",
+          "quote": "Capacity 370",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Its hire listing with Tower Hamlets council says every space, including the three cinema screens, is fully accessible for hire. That is a hire statement, not a public access guide, and the venue's own access page could not be read.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Rich_Mix.aspx",
+          "quote": "All our spaces (including our 3 cinema screens) are available for hire and are fully accessible.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "A Time Out news report of 17 September 2026 says the planned renovation, funded by an Arts Council grant, includes improvements to access, air conditioning and lifts.",
+      "source_date": "2026-09-17",
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
+          "quote": "improvements to the building’s accessibility, air conditioning and lifts",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website (richmix.org.uk returned HTTP 403, so it was not read; no other page of the venue's own site was tried)",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy"
+  ],
+  "notes": "Address and capacity come from the venue's DICE page (capacity 370 is DICE's whole-venue figure; the council hire page lists the main space as up to 350 standing). Time Out (17 Sep 2026) says cinema screenings are paused for 12 months while the building stays open for gigs and festivals; that is news for the status field, not a closure, and the editor should decide with the venue's own site, which could not be read. Its listed venue-hire page dates are unknown, so the access statements are undated."
+}

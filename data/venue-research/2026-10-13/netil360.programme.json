@@ -1,0 +1,91 @@
+{
+  "venue_id": "netil360",
+  "venue_name": "Netil360",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:24:44Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["bar", "dj-bar", "jazz"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.netil360.com",
+          "quote": "Netil360, rooftop bar with panoramic views over London",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://www.netil360.com",
+          "quote": "DJs every Friday & Saturday.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://www.netil360.com/jazz",
+          "quote": "Every Thursday some of London’s finest musicians bring live acoustic jazz to Netil 360",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["soul", "hip-hop", "house", "disco", "jazz"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.netil360.com",
+          "quote": "Each weekend, a curated lineup of DJs brings soul, hip-hop, house, disco and global sounds to the sky-high dancefloor.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.netil360.com/jazz",
+          "quote": "Every Thursday some of London’s finest musicians bring live acoustic jazz to Netil 360",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A standing weekly pattern: live acoustic jazz on Thursdays from 7.30pm on the rooftop (Jazz Thursdays, free to walk up or with a free ticket), and DJs on Friday and Saturday nights (soul, hip-hop, house, disco). No dated listings were found on the venue's pages.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.netil360.com/jazz",
+          "quote": "Every Thursday some of London’s finest musicians bring live acoustic jazz to Netil 360",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.netil360.com/jazz",
+          "quote": "Live jazz from 7:30pm.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.netil360.com",
+          "quote": "DJs every Friday & Saturday.",
+          "retrieved_at": "2026-10-13T00:24:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "cost.notes",
+    "dated events (no dated listing on the venue's own pages; ma.to not read for this run)"
+  ],
+  "notes": "Standing nights, not dated events: Jazz Thursdays (every Thursday, live acoustic jazz from 7.30pm, per netil360.com/jazz); DJs every Friday and Saturday (per netil360.com). The homepage's 'What's On' page carried no event text in the read. The Netil Radio studio is in the same building and is not part of this profile. Confirm dated events before a first listing."
+}

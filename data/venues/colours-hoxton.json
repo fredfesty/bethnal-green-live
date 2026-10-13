@@ -1,0 +1,128 @@
+{
+  "id": "colours-hoxton",
+  "name": "Colours Hoxton",
+  "zone": "outer",
+  "address": "2-4 Hoxton Square, London",
+  "postcode": "N1 6NU",
+  "website": "https://colourshoxton.com/",
+  "summary": "A bar, club and gig venue on Hoxton Square with a private karaoke room. Its own site says it has club and gig events almost every evening.",
+  "music": {
+    "styles": [
+      "house",
+      "disco",
+      "hip hop"
+    ],
+    "notes": "DJ sets and club takeovers, plus live shows by up-and-coming bands in its Live Room, and private karaoke."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "notes": "Questions about gig accessibility, disability assistance and carers' tickets go to the venue."
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://colourshoxton.com/",
+      "quote": "Bar. Club. Venue Hire. Karaoke.",
+      "retrieved_at": "2026-10-13T00:27:31Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://colourshoxton.com/karaoke-shoreditch-london/",
+      "quote": "stacked club and gig events in our venue almost every evening",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://colourshoxton.com/",
+      "quote": "Nightclub, gig space and events venue located on Hoxton square",
+      "retrieved_at": "2026-10-13T00:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://colourshoxton.com/",
+      "quote": "covering everything from house and disco to hip hop",
+      "retrieved_at": "2026-10-13T00:27:31Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://colourshoxton.com/",
+      "quote": "From DJ sets and club takeovers to up-and-coming bands and live shows",
+      "retrieved_at": "2026-10-13T00:27:31Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://colourshoxton.com/",
+      "quote": "Our Live Room is what really sets us apart.",
+      "retrieved_at": "2026-10-13T00:27:31Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://colourshoxton.com/",
+      "quote": "Home to one of Shoreditch’s favourite private karaoke rooms",
+      "retrieved_at": "2026-10-13T00:27:31Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://colourshoxton.com/contact-us/",
+      "quote": "Contact for gig accessibility/disability assistance queries and carers’ tickets.",
+      "retrieved_at": "2026-10-13T00:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://colourshoxton.com/",
+      "quote": "2-4 Hoxton Square, London N1 6NU, United Kingdom",
+      "retrieved_at": "2026-10-13T00:30:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:50:00Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:50:00Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: karaoke 'rooms' -> 'room'; accessibility.notes: cut unquoted 'email or phone'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

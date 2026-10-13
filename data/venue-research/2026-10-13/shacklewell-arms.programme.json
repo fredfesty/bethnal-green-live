@@ -1,0 +1,103 @@
+{
+  "venue_id": "shacklewell-arms",
+  "venue_name": "The Shacklewell Arms",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:29:34Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "pub",
+        "gig-venue"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.shacklewellarms.com/info",
+          "quote": "if you're in the pub, do ask to speak to a manager",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.shacklewellarms.com/info",
+          "quote": "a small step inside the venue as you head towards the gig room",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Live gigs (for example Goblyns + Oral Habit), with DJ nights on other evenings: Scared To Dance guest-DJ nights (songs by artists such as Talking Heads), a vinyl Sweet Dreams Soul & Disco night and the new Caliente club night (reggaeton, baile funk).",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+          "quote": "Goblyns + Oral Habit",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/event/6ab107b758337e000193c377",
+          "quote": "Scared To Dance is back at The Shacklewell Arms!",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/event/6ab107b758337e000193c377",
+          "quote": "Expect to hear Talking Heads, Fontaines D.C, Blondie, Wet Leg, David Bowie",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/event/6a33d9fa99048e00011dd0ce",
+          "quote": "All music played on Vinyl",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/event/6aabeacd9399d300015cb21a",
+          "quote": "Caliente is a brand new club night at the Shacklewell Arms brought to you by underground queen Kuntessa.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/event/6aabeacd9399d300015cb21a",
+          "quote": "Expect Latin ass shaking bangers, reggaeton and baile funk all night till late.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no genre named on two or more nights (the DJ nights name songs or one genre each), so not proposed",
+    "cost.notes: no general pricing (DICE prices are per event)",
+    "crowd: not looked for in the programme aspect"
+  ],
+  "notes": "Nights seen: Caliente (club night, Kuntessa), Fri 16 Oct 2026, free; Scared To Dance: Guest DJs Caroline, Sat 17 Oct 2026; Sweet Dreams Soul & Disco, Fri 23 Oct 2026, vinyl; Scared To Dance: Guest DJ John Grant, Sat 24 Oct 2026; Goblyns + Oral Habit (live), Fri 16 Oct 2026, £17. Venue info page (shacklewellarms.com/info) gives the gig room and pub wording; its listings page 404s, so DICE is the only listing source."
+}

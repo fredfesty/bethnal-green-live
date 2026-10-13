@@ -1,0 +1,152 @@
+{
+  "venue_id": "queen-of-hoxton",
+  "venue_name": "Queen of Hoxton",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:27:31Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "bar",
+        "club",
+        "dj-bar",
+        "cabaret-drag"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "Bar, Nightclub & Rooftop in Shoreditch",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://queenofhoxton.com/queen-of-sundays/",
+          "quote": "From 2pm, our resident DJs take over our rooftop bar",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "we host everything from pop nights, hip hop jams and drag cabaret shows",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "pop",
+        "hip hop",
+        "house",
+        "disco"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "we host everything from pop nights, hip hop jams and drag cabaret shows",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "DJs playing on a cutting-edge disco/house tip on the weekends.",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "drag bingo games, pop tunes, prizes and surprises",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Weekly drag and club nights: KIKI Drag Cabaret and Strictly Bangers on Saturdays, So Fresh So Clean on Fridays. Drag brunch on Saturday daytimes, DJs on the rooftop from 2pm on Sundays.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://queenofhoxton.com/whats-on/",
+          "quote": "KIKI Drag Cabaret – Every Saturday",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://queenofhoxton.com/whats-on/",
+          "quote": "FRIDAYS LIVE HERE. So Fresh So Clean launches its weekly residency at Queen of Hoxton",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://queenofhoxton.com/whats-on/",
+          "quote": "Strictly Bangers does exactly what it says on the tin – nothing but floor-fillers, sing-alongs, and club classics all night long.",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "Every Saturday daytime we serve up the most outrageous brunch in East London: Drag & Waffle Bottomless Brunch.",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://queenofhoxton.com/queen-of-sundays/",
+          "quote": "From 2pm every Sunday, settle in with music from our resident DJs",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "Located on our iconic rooftop, we’ve got a DJ on from the jump",
+          "retrieved_at": "2026-10-13T00:27:31Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "queer-venue (the home page says 'a safe, inclusive space for all', not queer)",
+    "music.styles beyond pop, hip hop, house and disco (no other genre named on the pages read)"
+  ],
+  "notes": "Nights seen (dates as printed): Fri 16 Oct So Fresh So Clean - Classics 9pm; Sat 17 Oct KIKI Drag Cabaret 7pm; Sat 17 Oct Strictly Bangers 7pm; Fri 16 Oct The Next Drag Superstar! WK2 - Talent Show 7pm; Wed 14 Oct Girl Group 7:30pm. The 'So Fresh So Clean' line says its residency starts 'from March 6th' (no year): editor to check. A 'Queer Dance Party' is listed with no clear date. Gigs and comedy also appear under 'Club Events & Gigs in London'."
+}

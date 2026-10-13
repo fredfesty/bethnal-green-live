@@ -16,13 +16,13 @@
     ],
     "notes": "Indie gigs on a small stage in front of gold curtains, plus regular club nights such as Deptford Northern Soul Club and Dancing in the Dark, Knock2Bag stand-up comedy and film screenings."
   },
-  "crowd": "Time Out says MOTH and British Legion members still hold their meetings at the club.",
+  "crowd": "Time Out says ex-military servicemen and women still meet and drink at the club.",
   "accessibility": {
     "step_free": null,
     "accessible_toilet": null,
     "hearing_loop": null,
     "notes": null,
-    "access_page": null
+    "access_page": "https://mothclub.co.uk/Access"
   },
   "cost": {
     "free_entry": null,
@@ -136,12 +136,33 @@
       "quote": "With space for 150 seated and 300 standing the venue is the ideal multi-purpose space.",
       "retrieved_at": "2026-10-12T23:00:37Z",
       "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.access_page"
+      ],
+      "url": "https://mothclub.co.uk/Access",
+      "quote": "Access — MOTH Club | Live Music Venue in Hackney, London",
+      "retrieved_at": "2026-10-13T00:36:00Z",
+      "source_kind": "primary"
     }
   ],
-  "profiled_at": "2026-10-12T23:04:43Z",
+  "profiled_at": "2026-10-13T00:51:21Z",
   "review": {
-    "checked_at": "2026-10-12T23:13:30Z",
+    "checked_at": "2026-10-13T01:01:23Z",
     "removed_fields": []
   },
-  "needs_review": null
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-13T00:51:21Z",
+      "by": "venue-editor",
+      "change": "added the link to the club's own access page (page title read; its content is built by script and could not be quoted, so no access facts added)"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: crowd: narrowed to the quoted regulars; dropped 'hip young' crowd description and the unclear meetings claim"
+    }
+  ]
 }

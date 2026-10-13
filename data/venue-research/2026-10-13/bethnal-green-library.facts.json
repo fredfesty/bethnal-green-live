@@ -1,0 +1,75 @@
+{
+  "venue_id": "bethnal-green-library",
+  "venue_name": "Bethnal Green Library (Idea Store)",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:40:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Cambridge Heath Road, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address", "postcode"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Bethnal_Green_Library.aspx",
+          "quote": "Cambridge Heath Road London E2 0HL",
+          "retrieved_at": "2026-10-13T00:35:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 0HL",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Bethnal_Green_Library.aspx",
+          "quote": "Cambridge Heath Road London E2 0HL",
+          "retrieved_at": "2026-10-13T00:35:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.ideastore.co.uk",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.ideastore.co.uk/",
+          "quote": "Welcome to Idea Store",
+          "retrieved_at": "2026-10-13T00:35:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The council's hire listing says the first floor, home to the two hire halls, has no disabled access. Nothing on the pages read says whether the ground floor library is step-free.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Bethnal_Green_Library.aspx",
+          "quote": "Please note that there is no disabled access to the 1st floor where the two halls are based.",
+          "retrieved_at": "2026-10-13T00:35:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free (ground floor of the library)",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity (only per-hall figures on the council listing: each of two halls up to 100 conference style or 40 cabaret, both on the first floor; not a whole-venue figure)"
+  ],
+  "notes": "Idea Store's own site has no access page we could reach; its full events calendar answers 403 and was not fetched. The council hire listing is the only access source. Postcode and address come from the council listing, which gives the library as Bethnal Green Library, Cambridge Heath Road. Open: the Idea Store home page features 'Let's Discuss Death in Tower Hamlets' at this library on 28 and 29 October 2026."
+}

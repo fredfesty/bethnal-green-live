@@ -1,0 +1,193 @@
+{
+  "id": "shacklewell-arms",
+  "name": "The Shacklewell Arms",
+  "zone": "outer",
+  "aliases": [
+    "The Shack"
+  ],
+  "address": "71 Shacklewell Lane, London",
+  "postcode": "E8 2EB",
+  "website": "https://www.shacklewellarms.com/",
+  "summary": "A pub with a gig room, programmed and produced by LNZRT, which also hosts guest-DJ club nights.",
+  "music": {
+    "styles": [],
+    "notes": "Live gigs and guest-DJ nights such as Scared To Dance, plus a vinyl-only night and a Latin club night."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": false,
+    "notes": "Step-free into the bar area, but there is a small step inside on the way to the gig room, where a temporary ramp can be provided. The garden has one step. Assistance dogs may be allowed.",
+    "access_page": "https://www.shacklewellarms.com/info"
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "capacity": 200,
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.shacklewellarms.com/",
+      "quote": "The Shacklewell Arms is programmed and produced by LNZRT",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "accessibility.notes"
+      ],
+      "url": "https://www.shacklewellarms.com/info",
+      "quote": "There is step free access into the bar area upon entry with a small step inside the venue as you head towards the gig room.",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.shacklewellarms.com/info",
+      "quote": "if you're in the pub, do ask to speak to a manager",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+      "quote": "Scared To Dance: Guest DJs",
+      "retrieved_at": "2026-10-13T00:31:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "aliases"
+      ],
+      "url": "https://www.shacklewellarms.com/",
+      "quote": "Sign up to The Shack newsletter for weekly news and first release tickets.",
+      "retrieved_at": "2026-10-13T00:31:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+      "quote": "Goblyns + Oral Habit",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://dice.fm/event/6ab107b758337e000193c377",
+      "quote": "Scared To Dance is back at The Shacklewell Arms!",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://dice.fm/event/6a33d9fa99048e00011dd0ce",
+      "quote": "All music played on Vinyl",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://dice.fm/event/6aabeacd9399d300015cb21a",
+      "quote": "Expect Latin ass shaking bangers, reggaeton and baile funk all night till late.",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://www.shacklewellarms.com/info",
+      "quote": "Unfortunately The Shacklewell Arms does not have a wheelchair accessible toilet.",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.shacklewellarms.com/info",
+      "quote": "A temporary ramp can be provided where necessary.",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.shacklewellarms.com/info",
+      "quote": "There is one step to our garden area when entering or exiting by the fire exit door.",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.shacklewellarms.com/info",
+      "quote": "Assistance dogs may be allowed into the venue.",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.access_page"
+      ],
+      "url": "https://www.shacklewellarms.com/info",
+      "quote": "All of us at The Shacklewell Arms, welcome those who may require accessibility assistance",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "capacity"
+      ],
+      "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+      "quote": "Capacity 200 Address 71 Shacklewell Lane, London E8 2EB",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.shacklewellarms.com/",
+      "quote": "71 Shacklewell Lane E8 2EB",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:49:48Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:49:48Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes: cut unquoted 'soul and disco'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "venue_id": "theatre-royal-stratford-east",
+  "venue_name": "Theatre Royal Stratford East",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:13:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A producing theatre in Stratford, E15, run as a charity and in the Newham community since 1884. Time Out calls it an iconic east London theatre.",
+      "source_date": "2025-10-01",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://stratfordeast.com/about-us/",
+          "quote": "Charity Reg. No 233801",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://theatreweekly.com/stratford-east-announces-140th-anniversary-season/",
+          "quote": "We have been part of the Newham community since 1884",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/news/stratford-east-has-announced-its-first-season-under-its-new-artistic-director-100125",
+          "quote": "The iconic east London theatre’s new boss Lisa Spirling has unveiled a very exciting three-play 2026 season",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Time Out (Andrzej Lukowski, 1 Oct 2025) says 'Stratford East – formerly known as Theatre Royal Stratford East'. That is a rename, and the page is older than six months, so it is not proposed as an alias or status here; it is in the final message for the editor. Theatre Weekly's 3 Sept 2024 piece is the only source for the 1884 history. The venue's site shows the 2026 season (Here There are Blueberries, Choir Boy) but no closure or reopening news. Crowd is not stated in any source found."
+}

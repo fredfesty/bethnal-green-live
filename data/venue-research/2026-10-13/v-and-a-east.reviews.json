@@ -1,0 +1,44 @@
+{
+  "venue_id": "v-and-a-east",
+  "venue_name": "V&A East (Museum and Storehouse)",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:35Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "V&A East Storehouse, in Hackney Wick, opened to the public in 2025 and puts the V&A's reserve collection on display.",
+      "source_date": "2025-05-31",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.onlondon.co.uk/va-east-storehouse-is-latest-london-2012-legacy-success/",
+          "quote": "the ten o’clock opening to the public of V&A East Storehouse",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.onlondon.co.uk/va-east-storehouse-is-latest-london-2012-legacy-success/",
+          "quote": "either by putting it on display",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.vam.ac.uk/east",
+          "quote": "V&A East Storehouse is your access all areas experience of the V&A collection.",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "The Storehouse is the outer-zone part of the venue; the V&A East Museum in Stratford is not covered here. The OnLondon piece (31 May 2025) is the press source. The V&A's own page is the primary source for what the Storehouse is. No closure or renaming news found. Hackney Wick is in the outer zone, so the editor should keep worth_the_trip."
+}

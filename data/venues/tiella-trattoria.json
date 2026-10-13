@@ -1,0 +1,82 @@
+{
+  "id": "tiella-trattoria",
+  "name": "Tiella Trattoria & Bar",
+  "zone": "core",
+  "address": "109 Columbia Road, London",
+  "summary": "A trattoria and bar in a converted Victorian pub on Columbia Road, where chef-founder Dara Klein cooks regional Italian dishes.",
+  "music": {
+    "styles": []
+  },
+  "crowd": "Time Out describes it as a welcoming local hub for food and drink.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/tiella",
+      "quote": "inside a gorgeously gabled Victorian boozer on the eastern fringes of Colombia Road",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/tiella",
+      "quote": "chef-founder Dara Klein",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/tiella",
+      "quote": "Dipping into rarer regional cracks of Italian cuisine",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/tiella",
+      "quote": "a welcoming hub where the community comes together over food and booze",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.tiella.co.uk/home",
+      "quote": "A Trattoria & Bar at 109 Columbia Road, London.",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:46:55Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:46:55Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

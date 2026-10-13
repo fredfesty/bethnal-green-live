@@ -1,0 +1,56 @@
+{
+  "venue_id": "columbia-road",
+  "venue_name": "Columbia Road (Flower Market & shops)",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:26:56Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A Victorian street off Hackney Road where a Sunday flower market runs alongside about sixty independent shops, cafés and galleries.",
+      "source_date": "2025-01-21",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://columbiaroad.info/",
+          "quote": "Columbia Road is a road of Victorian shops situated off Hackney Road in the London Borough of Tower Hamlets.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+          "quote": "It takes place each Sunday, when market traders line the narrow Victorian street selling flowers, houseplants, herbs, bulbs and shrubs.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "Time Out says it attracts big crowds of both visitors and locals.",
+      "source_date": "2025-01-21",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+          "quote": "it draws large crowds of tourists and locals alike",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "status",
+    "music.styles",
+    "music.notes",
+    "aliases"
+  ],
+  "notes": "Time Out (21 Jan 2025) gives the market's history back to 1869 and says it is free and unticketed (facts, not this aspect). No closure or reopening news found. Columbia Road's own news page lists the Day of the Dead day on 31 Oct 2026."
+}

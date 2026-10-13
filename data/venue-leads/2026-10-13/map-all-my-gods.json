@@ -1,0 +1,44 @@
+{
+  "id": "all-my-gods",
+  "name": "All My Gods",
+  "about_venue_id": null,
+  "address": "253 Paradise Row, Bethnal Green, E2 9LE",
+  "postcode": "E2 9LE",
+  "website": null,
+  "found_by": "map",
+  "signal": "new",
+  "kind_hint": "dive bar in a railway arch with live music",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": ["name", "address", "postcode"],
+      "url": "https://camra.org.uk/pubs/all-my-gods-bethnal-green-199163",
+      "quote": "All My Gods, Bethnal Green - Dive Bar in Rail",
+      "retrieved_at": "2026-10-13T00:04:43Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": ["kind_hint"],
+      "url": "https://camra.org.uk/pubs/all-my-gods-bethnal-green-199163",
+      "quote": "Live music, garden & front tables.",
+      "retrieved_at": "2026-10-13T00:04:43Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": ["address", "postcode"],
+      "url": "https://www.timeout.com/london/news/a-new-dive-bar-with-a-buzzballz-vending-machine-has-just-opened-in-east-london-080425",
+      "quote": "All My Gods is open Wed-Sun, and can be found at 253 Paradise Row, E2 9LE",
+      "retrieved_at": "2026-10-13T00:04:43Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": ["signal"],
+      "url": "https://www.timeout.com/london/news/a-new-dive-bar-with-a-buzzballz-vending-machine-has-just-opened-in-east-london-080425",
+      "quote": "A new bar has opened in Bethnal Green with a vending machine that dishes out BuzzBallz.",
+      "retrieved_at": "2026-10-13T00:04:43Z",
+      "source_kind": "press"
+    }
+  ],
+  "found_at": "2026-10-13T00:04:43Z",
+  "notes": "Found in the CAMRA WhatPub E2 listings (live music stated). Time Out article dated Monday 4 August 2025 says it opened the week before, so it is over a year old: the opening is not news, it is only the source for the address. The venue's own site (allmygodsbar.com) refused: robots.txt unreachable, so not fetched. Events not yet checked: no listing or ticket page found."
+}

@@ -1,0 +1,96 @@
+{
+  "id": "glove-that-fits",
+  "name": "The Glove That Fits (and Gloves Off garden)",
+  "zone": "outer",
+  "address": "179 Morning Lane, London",
+  "postcode": "E9 6LH",
+  "summary": "A café bar and intimate creative space on Morning Lane. Its Skiddle listing mentions DJ residencies, music workshops, and talks and panels.",
+  "music": {
+    "styles": [],
+    "notes": "DJ residencies, music workshops, and talks and panels, according to its Skiddle listing."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+      "quote": "Intimate creative space and cafe bar.",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+      "quote": "Curated DJ residencies",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+      "quote": "Music workshops",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+      "quote": "Talks & Panels",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+      "quote": "\"streetAddress\":\"179 Morning Lane\"",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+      "quote": "\"postalCode\":\"E9 6LH\"",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "aggregator"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:49:48Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:49:48Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: 'small' -> 'intimate', cut unquoted 'in Hackney'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

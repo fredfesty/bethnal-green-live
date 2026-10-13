@@ -1,0 +1,155 @@
+{
+  "venue_id": "spitalfields-city-farm",
+  "venue_name": "Spitalfields City Farm",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Buxton Street, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.spitalfieldscityfarm.org/visit-us",
+          "quote": "Spitalfields City Farm, Buxton Street, London E1 5AR",
+          "retrieved_at": "2026-10-13T00:21:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 5AR",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.spitalfieldscityfarm.org/visit-us",
+          "quote": "Spitalfields City Farm, Buxton Street, London E1 5AR",
+          "retrieved_at": "2026-10-13T00:21:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.spitalfieldscityfarm.org",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.spitalfieldscityfarm.org/",
+          "quote": "Plan your FREE visit to Spitalfields City Farm",
+          "retrieved_at": "2026-10-13T00:21:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://www.spitalfieldscityfarm.org/visit-us",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.access_page"],
+          "url": "https://www.spitalfieldscityfarm.org/visit-us",
+          "quote": "We are happy to welcome Guide Dogs for the Blind, Disability Assistance Dogs",
+          "retrieved_at": "2026-10-13T00:21:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.accessible_toilet"],
+          "url": "https://www.euansguide.com/venues/spitalfields-city-farm-london-2532",
+          "quote": "1 disabled toilet with large doorway and hand rails",
+          "retrieved_at": "2026-10-13T00:27:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The farm's own visit page says assistance dogs are welcome if fully registered and kept under control, and owners must show ID on entry and dogs must wear their jackets. Livestock can be loose on site, so visitors are asked to call ahead on 0207 247 8762. Euan's Guide, supplied by the farm, says the gardens and farmyard are accessible but some pathways may be difficult, with ramps serving the picnic areas and several other buildings, and disabled parking by prior arrangement. The farm's pages do not say whether the main areas are step-free.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.spitalfieldscityfarm.org/visit-us",
+          "quote": "Owners must show the relevant Identification Cards upon entering the Farm and all assistance dogs must wear their identifying jackets whilst on site.",
+          "retrieved_at": "2026-10-13T00:21:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.spitalfieldscityfarm.org/visit-us",
+          "quote": "There may be times when our livestock is loose on site, so it is best to call ahead",
+          "retrieved_at": "2026-10-13T00:21:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.euansguide.com/venues/spitalfields-city-farm-london-2532",
+          "quote": "Gardens and Farmyard accessible but may have difficulties on some pathways",
+          "retrieved_at": "2026-10-13T00:27:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.euansguide.com/venues/spitalfields-city-farm-london-2532",
+          "quote": "Ramps to picnic areas, shop, office, yurt, tent, and eco-station.",
+          "retrieved_at": "2026-10-13T00:27:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.euansguide.com/venues/spitalfields-city-farm-london-2532",
+          "quote": "Disabled parking available with prior arrangement. Please call the office to confirm : 0207 247 8762",
+          "retrieved_at": "2026-10-13T00:27:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "cost.free_entry",
+      "value": "always",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["cost.free_entry"],
+          "url": "https://www.spitalfieldscityfarm.org/",
+          "quote": "Plan your FREE visit to Spitalfields City Farm",
+          "retrieved_at": "2026-10-13T00:21:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Visits are free. The farm also runs ticketed activities and after-hours events, and hires its spaces out.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["cost.notes"],
+          "url": "https://www.spitalfieldscityfarm.org/visit-us",
+          "quote": "We host special activities and after hour ticketed events.",
+          "retrieved_at": "2026-10-13T00:21:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.hearing_loop",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Opening hours on the home page: winter 10:00am to 4:00pm (October to March), summer 10:00am to 4:30pm (March to October), Tuesday to Sunday. Capacity: no whole-farm figure. Hire spaces on the spaces-for-hire page: Safari Tent up to 40 people, Covered Walkway 20-30 people, another room 15 people. Step-free access is not stated plainly, so it is left empty for the editor."
+}

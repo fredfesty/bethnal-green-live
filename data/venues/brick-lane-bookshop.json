@@ -1,0 +1,127 @@
+{
+  "id": "brick-lane-bookshop",
+  "name": "Brick Lane Bookshop",
+  "zone": "fringe",
+  "aliases": [
+    "Eastside Books",
+    "Tower Hamlets Arts Project"
+  ],
+  "address": "166 Brick Lane, London",
+  "postcode": "E1 6RU",
+  "website": "https://bricklanebookshop.org",
+  "summary": "A bookshop on Brick Lane, started in 1978 as a community project. It stocks fiction, local history and non-fiction, and hosts community events.",
+  "music": {
+    "styles": [],
+    "notes": "Author talks and book launches, and a French book club."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/shopping/brick-lane-books",
+      "quote": "Established in 1978 as a community project",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/shopping/brick-lane-books",
+      "quote": "It stocks a great range of fiction, local history and the usual non-fiction sections",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/shopping/brick-lane-books",
+      "quote": "these days hosts various community events",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "aliases"
+      ],
+      "url": "https://www.timeout.com/london/shopping/brick-lane-books",
+      "quote": "first becoming Eastside Books",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "aliases"
+      ],
+      "url": "https://www.timeout.com/london/shopping/brick-lane-books",
+      "quote": "known as the Tower Hamlets Arts Project",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://bricklanebookshop.org/",
+      "quote": "Join Jessie Greengrass as she talks to Caroline Albertine Minor",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://bricklanebookshop.org/",
+      "quote": "Book Launch: Blessings by Caroline Albertine Minor (October 22nd)",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://bricklanebookshop.org/",
+      "quote": "French Book Club",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://bricklanebookshop.org/contact-us/",
+      "quote": "166 Brick Lane London E1 6RU",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:42:18Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:42:18Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: dropped unquoted 'independent'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

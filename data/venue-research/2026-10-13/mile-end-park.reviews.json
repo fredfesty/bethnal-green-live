@@ -1,0 +1,68 @@
+{
+  "venue_id": "mile-end-park",
+  "venue_name": "Mile End Park (incl. Ecology Pavilion)",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:13:46Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A 32-hectare park along the Regent's Canal, managed by Tower Hamlets council on behalf of a charity, with the Ecology Pavilion available for hire.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park.aspx",
+          "quote": "Mile End Park is a 32 hectare linear park.",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park.aspx",
+          "quote": "Mile End Park is managed by the council on behalf of the King George’s Field, Mile End Charity",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_ecology_pavilion.aspx",
+          "quote": "The Ecology Pavilion is available to hire for exhibitions, corporate events, wedding ceremonies and receptions and other celebrations.",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park.aspx",
+          "quote": "The park follows the Regent's Canal from Victoria Park to Limehouse Basin.",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/mile_end_park/mile_end_ecology_pavilion.aspx",
+          "quote": "The Ecology Pavilion is a large modern venue in natural surroundings.",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "directory"
+        }
+      ],
+      "source_date": null
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "No independent review or press article about Mile End Park or the Ecology Pavilion was found within the search budget. The council hire page for the Ecology Pavilion (not a review) says the building is 'step free and accessible'; the facts researcher should check that against the council page. Council pages are undated."
+}

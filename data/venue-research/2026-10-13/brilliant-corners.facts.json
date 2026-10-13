@@ -1,0 +1,66 @@
+{
+  "venue_id": "brilliant-corners",
+  "venue_name": "Brilliant Corners",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:27:25Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://brilliantcornerslondon.co.uk/",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://brilliantcornerslondon.co.uk/contact/",
+          "quote": "we provide table reservations for guests taking dinner",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "470-472 Kingsland Road, London",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://brilliantcornerslondon.co.uk/contact/",
+          "quote": "470 – 472 Kingsland Rd, London E8 4AE",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E8 4AE",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://brilliantcornerslondon.co.uk/contact/",
+          "quote": "470 – 472 Kingsland Rd, London E8 4AE",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "capacity",
+    "age_policy",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes"
+  ],
+  "notes": "The home page is built with JavaScript and gives little text; the contact and dates pages were read instead. No access, capacity, age or price information was found on its pages. Its 'play' and 'live' pages were not read for access. Address and postcode are from its own contact page, so the registry's 'Kingsland Road' with no address can now be filled."
+}

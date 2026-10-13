@@ -1,0 +1,74 @@
+{
+  "venue_id": "colours-hoxton",
+  "venue_name": "Colours Hoxton",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A bar and club on Hoxton Square, with gigs and club nights most evenings and private karaoke rooms. The venue calls itself London's Premier Live Music Nightlife Venue.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://colourshoxton.com/colours-hoxton-story/",
+          "quote": "London's Premier Live Music Nightlife Venue",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://colourshoxton.com/karaoke-shoreditch-london/",
+          "quote": "stacked club and gig events in our venue almost every evening",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Gigs and club nights most evenings, from established names to emerging artists, with raves, gigs and DJ nights; a private karaoke room is one of its features.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://colourshoxton.com/karaoke-shoreditch-london/",
+          "quote": "stacked club and gig events in our venue almost every evening, featuring both established names and emerging artists",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://colourshoxton.com/karaoke-shoreditch-london/",
+          "quote": "into raves, gigs or DJ nights",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://colourshoxton.com/karaoke-shoreditch-london/",
+          "quote": "home to one of the best private karaoke rooms in East London",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd (the venue's own pages describe the programme, not who goes)",
+    "status (no closure news; site says it is open)",
+    "aliases (none found)",
+    "music.styles (no genre named repeatedly)"
+  ],
+  "notes": "WebSearch budget was used up for this turn; no press reviews were found by search, so the findings rest on the venue's own pages. The venue's story and karaoke pages carry no date, so source_date is empty."
+}

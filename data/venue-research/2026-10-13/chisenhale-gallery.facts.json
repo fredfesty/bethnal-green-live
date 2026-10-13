@@ -1,0 +1,222 @@
+{
+  "venue_id": "chisenhale-gallery",
+  "venue_name": "Chisenhale Gallery",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "64 Chisenhale Road, London, E3 5QZ",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://chisenhale.org.uk/",
+          "quote": "64 Chisenhale Road, London, E3 5QZ",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E3 5QZ",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://chisenhale.org.uk/",
+          "quote": "64 Chisenhale Road, London, E3 5QZ",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://chisenhale.org.uk",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://chisenhale.org.uk/",
+          "quote": "© Chisenhale Gallery 2026",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.step_free"
+          ],
+          "url": "https://chisenhale.org.uk/visit/",
+          "quote": "Chisenhale Gallery is step-free and suitable for wheelchair users.",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://chisenhale.org.uk/visit/",
+          "quote": "There is one accessible universal toilet onsite that is used by both staff and visitors.",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://chisenhale.org.uk/visit/",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.access_page"
+          ],
+          "url": "https://chisenhale.org.uk/visit/",
+          "quote": "Access and Facilities",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The entrance off Chisenhale Road has a slope and a 2cm lip on the door frame; the narrowest ground-floor width is 90cm. Folding chairs, relaxed sessions and assistance animals are offered, and baby changing is in the accessible toilet. Access needs: mail@chisenhale.org.uk.",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://chisenhale.org.uk/visit/",
+          "quote": "Visitors should be aware that there is a slope upon entrance to the gallery.",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://chisenhale.org.uk/visit/",
+          "quote": "The narrowest access point on our ground floor is a width of 90cm.",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://chisenhale.org.uk/visit/",
+          "quote": "As you enter the building there is a raised lip as part of the door frame which is 2cm off the ground.",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://chisenhale.org.uk/visit/",
+          "quote": "We are able to provide folding chairs to any visitors who may need to sit down regularly.",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://chisenhale.org.uk/visit/",
+          "quote": "We are happy to offer relaxed sessions upon request",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://chisenhale.org.uk/visit/",
+          "quote": "Assistance animals are always welcome.",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://chisenhale.org.uk/visit/",
+          "quote": "Baby changing facilities are available, located within our accessible universal toilet.",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://chisenhale.org.uk/visit/",
+          "quote": "Email mail@chisenhale.org.uk or call: +44 (0)20 8981 4518.",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.free_entry",
+      "value": "always",
+      "evidence": [
+        {
+          "fields": [
+            "cost.free_entry"
+          ],
+          "url": "https://chisenhale.org.uk/visit/",
+          "quote": "Free entry",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Entry to the gallery's exhibitions is free; it is open Wednesday to Sunday, 12 to 6pm during exhibitions.",
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://chisenhale.org.uk/visit/",
+          "quote": "Free entry",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://chisenhale.org.uk/visit/",
+          "quote": "Wednesday to Sunday, 12–6pm",
+          "retrieved_at": "2026-10-13T00:11:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.hearing_loop",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "The Your Visit page is the general access statement. A 2026 talk's event page also says flat access and an accessible toilet, but the visit page is used here. No hearing loop is mentioned on any page checked. The page's 'Free entry' line sits beside the exhibition opening hours."
+}

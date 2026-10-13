@@ -1,0 +1,50 @@
+{
+  "venue_id": "bethnal-green-market",
+  "venue_name": "Bethnal Green Market",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:13:46Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "Time Out reported in November 2025 a new Saturday market of six art and craft stalls outside E Pellicci on Bethnal Green Road, planned to run until 20 December.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/news/a-brand-new-weekend-market-has-launched-in-east-london-111425",
+          "quote": "a new Saturday market has launched in Bethnal Green, east London, with six stalls selling an array of artsy goods",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/news/a-brand-new-weekend-market-has-launched-in-east-london-111425",
+          "quote": "in front of legendary cafe E Pellicci on Bethnal Green Road",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/news/a-brand-new-weekend-market-has-launched-in-east-london-111425",
+          "quote": "It’ll be open every Saturday from 9am to 4pm, until December 20.",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2025-11-14"
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Only the 2025 pop-up market was found. It is an eight-week Saturday market, not clearly the same as a permanent 'Bethnal Green Market'; the editor should check the match before publishing. The Tower Hamlets council news page (November 2025) gives 10am to 4pm hours, Time Out gives 9am to 4pm; the programme or facts researcher should settle hours. Any status change would be news older than six months, so none is proposed."
+}

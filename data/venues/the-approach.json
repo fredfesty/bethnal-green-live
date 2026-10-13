@@ -1,0 +1,104 @@
+{
+  "id": "the-approach",
+  "name": "The Approach",
+  "zone": "core",
+  "address": "1st Floor, 47 Approach Road, Bethnal Green, London",
+  "postcode": "E2 9LY",
+  "website": "https://www.theapproach.co.uk",
+  "summary": "A contemporary art gallery on the first floor of The Approach Tavern, a Victorian pub on Approach Road.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": false,
+    "accessible_toilet": null,
+    "notes": "The gallery is up a staircase, reached through the pub below. It warns that the stairs may be difficult for some disabled visitors and for people with pushchairs."
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://theapproachtavern.co.uk/about-us/",
+      "quote": "The Approach Tavern also has an internationally renowned contemporary art gallery located on the first floor.",
+      "retrieved_at": "2026-10-13T00:12:38Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://theapproachtavern.co.uk/about-us/",
+      "quote": "a beautiful and welcoming high ceilinged stripped back Victorian pub",
+      "retrieved_at": "2026-10-13T00:12:38Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes"
+      ],
+      "url": "https://www.theapproach.co.uk/contact/",
+      "quote": "The gallery is on the 1st floor accessible via a staircase, which may present difficulties for those with physical disabilities or baby buggies.",
+      "retrieved_at": "2026-10-13T00:09:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.theapproach.co.uk/contact/",
+      "quote": "Access to the gallery via The Approach Tavern.",
+      "retrieved_at": "2026-10-13T00:09:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.theapproach.co.uk/contact/",
+      "quote": "Contact → The Approach",
+      "retrieved_at": "2026-10-13T00:09:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.theapproach.co.uk/contact/",
+      "quote": "1st Floor, 47 Approach Road",
+      "retrieved_at": "2026-10-13T00:09:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.theapproach.co.uk/contact/",
+      "quote": "Bethnal Green, London E2 9LY",
+      "retrieved_at": "2026-10-13T00:09:30Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:41:11Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:41:11Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

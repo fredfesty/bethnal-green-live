@@ -1,0 +1,107 @@
+{
+  "venue_id": "victoria-park",
+  "venue_name": "Victoria Park",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:13:46Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A large park in Tower Hamlets, first landscaped in 1842, with two lakes and a boating pond. Time Out calls it the People's Park and says summer festivals often take it over.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/attractions/victoria-park",
+          "quote": "Stretched over a huge 86.18 hectares, this swath of the outdoors is nestled entirely in Tower Hamlets",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/attractions/victoria-park",
+          "quote": "originally landscaped by the famous architect Sir James Pennethorne in 1842",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/attractions/victoria-park",
+          "quote": "Victoria Park boasts two expansive lakes (one with a Chinese pagoda island), a boating pond and lots of wonderful activities for youngsters.",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/attractions/victoria-park",
+          "quote": "In the summer it’s often taken over by festivals like Field Day and All Points East.",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2024-10-17"
+    },
+    {
+      "field": "aliases",
+      "value": [
+        "People's Park"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "aliases"
+          ],
+          "url": "https://www.timeout.com/london/attractions/victoria-park",
+          "quote": "Known as the ‘People’s Park’, Victoria Park is one of London’s favourite open spaces.",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2024-10-17"
+    },
+    {
+      "field": "crowd",
+      "value": "Time Out says the park draws East London residents in large numbers, in all weathers.",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.timeout.com/london/attractions/victoria-park",
+          "quote": "attracts East London dwellers in their masses, rain or shine",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2024-10-17"
+    },
+    {
+      "field": "music.notes",
+      "value": "Time Out says large summer festivals, such as Field Day and All Points East, often take over the park.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/attractions/victoria-park",
+          "quote": "In the summer it’s often taken over by festivals like Field Day and All Points East.",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2024-10-17"
+    }
+  ],
+  "not_found": [
+    "status",
+    "music.styles",
+    "types"
+  ],
+  "notes": "Time Out's page is dated 17 October 2024 and is the only review read. No news of closure or change found. The web search budget ran out before other reviews could be checked."
+}

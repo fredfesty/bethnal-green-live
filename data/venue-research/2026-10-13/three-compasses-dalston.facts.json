@@ -1,0 +1,52 @@
+{
+  "venue_id": "three-compasses-dalston",
+  "venue_name": "The Three Compasses",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:27:25Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "99 Dalston Ln, Kingsland, London",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://dice.fm/venue/the-three-compasses-qony",
+          "quote": "99 Dalston Ln, Kingsland, London E8 1NH",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E8 1NH",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://dice.fm/venue/the-three-compasses-qony",
+          "quote": "99 Dalston Ln, Kingsland, London E8 1NH",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website",
+    "capacity",
+    "age_policy",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes"
+  ],
+  "notes": "Only the DICE venue page was readable: it gives the address and a list of events, with no about text, capacity, access, age or price information. The venue's own website was not found: the two domains tried (threecompasses.co.uk and thethreecompasses.com) are closed to our bot by robots.txt, so they were not read. The website and access facts need a person or a later run to find its own site."
+}

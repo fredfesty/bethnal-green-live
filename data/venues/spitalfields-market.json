@@ -1,0 +1,130 @@
+{
+  "id": "spitalfields-market",
+  "name": "Spitalfields Market",
+  "zone": "outer",
+  "postcode": "E1 6AA",
+  "website": "https://www.spitalfields.co.uk",
+  "summary": "A covered market whose 1887 market hall sits alongside a modern shopping precinct. It describes itself as a destination for fashion, food and fun.",
+  "music": {
+    "styles": [],
+    "notes": "Outdoor summer dance sessions: swing on selected July and August dates, and tango lessons (free) followed by dancing."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "notes": "Visitors are asked to check with individual shops and restaurants about their own access. Public toilets are on Lamb Street."
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/things-to-do/spitalfields-market",
+      "quote": "This East End stalwart combines the refurbished 1887 covered market with a modern shopping precinct.",
+      "retrieved_at": "2026-10-13T00:27:03Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.spitalfields.co.uk/about/",
+      "quote": "Spitalfields Market is a 1-stop destination for fashion, food and fun, and the gateway to East London.",
+      "retrieved_at": "2026-10-13T00:27:03Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.spitalfields.co.uk/events/",
+      "quote": "Taking place across selected dates in July and August, Swing Patrol at Spitalfields is a chance to enjoy two hours of music, movement and feel-good dancing",
+      "retrieved_at": "2026-10-13T00:23:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.spitalfields.co.uk/events/",
+      "quote": "Taking place across selected dates this summer, Tango @ Spitalfields offers free beginner-friendly tango lessons followed by outdoor dancing",
+      "retrieved_at": "2026-10-13T00:23:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free"
+      ],
+      "url": "https://www.spitalfields.co.uk/contact-us/faqs/",
+      "quote": "The Spitalfields Market is wheelchair accessible throughout.",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://www.euansguide.com/venues/spitalfields-market-london-17023",
+      "quote": "A designated accessible toilet designed for wheelchair users and others with visible and non-visible accessibility requirements is available within the main public areas.",
+      "retrieved_at": "2026-10-13T00:27:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.spitalfields.co.uk/contact-us/faqs/",
+      "quote": "Please check with individual shops and restaurants for accessibility.",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.spitalfields.co.uk/contact-us/faqs/",
+      "quote": "You can find public toilets in Lamb Street",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.spitalfields.co.uk/contact-us/faqs/",
+      "quote": "Spitalfields Market is open every day of the week, Mon-Fri 08:00-23:00",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.spitalfields.co.uk/contact-us/",
+      "quote": "\"postalCode\": \"E1 6AA\"",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:47:33Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:47:33Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: cut unquoted 'on Brushfield Street'; accessibility.notes: dropped process comment"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

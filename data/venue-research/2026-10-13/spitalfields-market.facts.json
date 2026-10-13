@@ -1,0 +1,128 @@
+{
+  "venue_id": "spitalfields-market",
+  "venue_name": "Spitalfields Market",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "56 Brushfield Street, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.spitalfields.co.uk/contact-us/",
+          "quote": "\"streetAddress\": \"56 Brushfield Street\"",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 6AA",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.spitalfields.co.uk/contact-us/",
+          "quote": "\"postalCode\": \"E1 6AA\"",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.spitalfields.co.uk",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.spitalfields.co.uk/contact-us/faqs/",
+          "quote": "Spitalfields Market is open every day of the week, Mon-Fri 08:00-23:00",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.step_free"],
+          "url": "https://www.spitalfields.co.uk/contact-us/faqs/",
+          "quote": "The Spitalfields Market is wheelchair accessible throughout.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.accessible_toilet"],
+          "url": "https://www.euansguide.com/venues/spitalfields-market-london-17023",
+          "quote": "A designated accessible toilet designed for wheelchair users and others with visible and non-visible accessibility requirements is available within the main public areas.",
+          "retrieved_at": "2026-10-13T00:27:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://www.spitalfields.co.uk/contact-us/faqs/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.access_page"],
+          "url": "https://www.spitalfields.co.uk/contact-us/faqs/",
+          "quote": "The Spitalfields Market is wheelchair accessible throughout.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The market's FAQ says to check with individual shops and restaurants about their own access. Public toilets are on Lamb Street, on the Old Spitalfields Market side; the FAQ does not say whether those are accessible, so the accessible toilet above comes only from Euan's Guide. Dogs are allowed in the trader and art markets and public spaces, kept on leads where possible, but indoor cafes, restaurants, bars and shops may not allow them.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.spitalfields.co.uk/contact-us/faqs/",
+          "quote": "Please check with individual shops and restaurants for accessibility.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.spitalfields.co.uk/contact-us/faqs/",
+          "quote": "You can find public toilets in Lamb Street",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.spitalfields.co.uk/contact-us/faqs/",
+          "quote": "Indoor cafes, restaurants/bars and store may not allow dogs or any pets inside, so please check before.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.hearing_loop",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Address conflict for the editor: the contact page's structured data gives 56 Brushfield Street, E1 6AA (proposed above, matching the registry), but the FAQ says 'Its address is 30 Spital Square, Spitalfields, London, E1 6DX' and Euan's Guide gives 65 Brushfield Street, E1 6AA. A person should confirm which address to show. Opening hours on the FAQ: Monday to Friday 08:00 to 23:00, Saturday and Sunday 9:00 to 23:00, with traders and the Arts Market on their own hours. No whole-venue capacity or entry cost was found; the FAQ's 'Free events' are not a statement that entry is free."
+}

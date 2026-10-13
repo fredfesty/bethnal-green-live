@@ -1,0 +1,62 @@
+{
+  "venue_id": "satans-whiskers",
+  "venue_name": "Satan's Whiskers",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:25:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "343 Cambridge Heath Road, London, E2 9RA",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.satanswhiskers.com/",
+          "quote": "343 Cambridge Heath Road, London, E2 9RA",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 9RA",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.satanswhiskers.com/",
+          "quote": "343 Cambridge Heath Road, London, E2 9RA",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.satanswhiskers.com",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.satanswhiskers.com/",
+          "quote": "Satan’s Whiskers is Bethnal Green’s original neighbourhood cocktail bar",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free (the site has no access page; the reservations page covers phone bookings and walk-ins only)",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "A cocktail bar. Its own site gives opening hours on the home page (early evening opening, later at weekends) and says walk-in guests are accepted, with reservations by telephone only (reservations page, read 13 Oct 2026). The site's internal links are shop, terms, shipping and reservations; no access, FAQ or age page was found at the usual addresses (/faq and /contact returned 404). Access is unknown, so leave the step-free and toilet fields empty."
+}

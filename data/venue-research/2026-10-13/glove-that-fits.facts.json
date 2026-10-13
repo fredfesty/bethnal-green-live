@@ -1,0 +1,65 @@
+{
+  "venue_id": "glove-that-fits",
+  "venue_name": "The Glove That Fits (and Gloves Off garden)",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:28:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "179 Morning Lane, London E9 6LH",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+          "quote": "\"streetAddress\":\"179 Morning Lane\"",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+          "quote": "\"postalCode\":\"E9 6LH\"",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E9 6LH",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.skiddle.com/whats-on/London/The-Glove-That-Fits/",
+          "quote": "\"postalCode\":\"E9 6LH\"",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website (the venue's own site, theglovethatfits.com, is refused: robots.txt unreachable, so it was not read; its domain was not tried another way)",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity",
+    "AccessAble, Euan's Guide and Attitude is Everything entries (none reached: AccessAble venue URL guess returned its home page; web search budget used up in this run)"
+  ],
+  "notes": "Nothing about access, cost, age or capacity could be read for this venue. The address comes only from the Skiddle venue page, a ticketing platform's listing, so it is recorded as aggregator. Gloves Off, the garden named in the venue's listing, is not separately confirmed here. A retest from the routine environment may help, since the venue's own site is blocked for this run."
+}

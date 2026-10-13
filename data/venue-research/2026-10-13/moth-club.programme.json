@@ -1,0 +1,158 @@
+{
+  "venue_id": "moth-club",
+  "venue_name": "MOTH Club",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:40:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "live-music",
+        "club",
+        "comedy"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://mothclub.co.uk/",
+          "quote": "MOTH Club | Live Music Venue in Hackney, London",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://dice.fm/venue/moth-club-43ox",
+          "quote": "Knock2Bag Comedy Night with Lou Sanders",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://dice.fm/venue/moth-club-43ox",
+          "quote": "Amy Winehouse Clubnight - Back To Black Is 20",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.timeout.com/london/music/moth-club",
+          "quote": "playing host to an eclectic programme of live music, stand-up comedy, film screenings and club nights",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "northern soul",
+        "pop"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://dice.fm/venue/moth-club-43ox",
+          "quote": "Deptford Northern Soul Club",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.timeout.com/london/music/moth-club",
+          "quote": "the club’s main room is the venue for regular nights including Deptford Northern Soul Club",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://dice.fm/venue/moth-club-43ox",
+          "quote": "For The Love Of Pop",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://dice.fm/venue/moth-club-43ox",
+          "quote": "For The Love Of Pop - Halloween Special",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Live gigs and recurring club nights, including a northern soul night, a pop night and an 80s night, plus Knock2Bag comedy nights and film screenings.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://mothclub.co.uk/",
+          "quote": "MOTH Club | Live Music Venue in Hackney, London",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/moth-club-43ox",
+          "quote": "Dancing In The Dark - Halloween Special",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/music/moth-club",
+          "quote": "’80s night Dancing in the Dark",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/music/moth-club",
+          "quote": "film screenings and club nights",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/moth-club-43ox",
+          "quote": "Knock2Bag Comedy Night with Lou Sanders",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "cost.notes",
+    "age_policy"
+  ],
+  "notes": "Upcoming on DICE (read 2026-10-13): Knock2Bag Comedy Night with Lou Sanders, Wed 14 Oct 2026; Deptford Northern Soul Club, Fri 16 Oct 2026; Dancing In The Dark, Sat 17 Oct 2026 (Halloween special Sat 31 Oct); For The Love Of Pop, Sat 24 Oct 2026 (Halloween special Fri 30 Oct); Amy Winehouse Clubnight, Fri 23 Oct 2026. No past listings in data/events or candidates."
+}

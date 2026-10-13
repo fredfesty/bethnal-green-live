@@ -5,10 +5,10 @@
   "address": "35-47 Bethnal Green Rd, London",
   "postcode": "E1 6LA",
   "website": null,
-  "summary": "An independent arts centre, run as a charity, with three cinema screens plus spaces for exhibitions and performances and a café-bar. Its programme takes in gigs, theatre, art shows, festivals and workshops as well as films.",
+  "summary": "An independent, charity-run arts centre with exhibition and performance spaces and a café-bar, hosting gigs, theatre, art shows, festivals and workshops. Time Out reported in September 2026 that its cinema screenings are paused for 12 months, with reopening planned for autumn 2027, while the building stays open for gigs and festivals.",
   "music": {
     "styles": [],
-    "notes": null
+    "notes": "Gigs and festivals, some in a room called The Stage, and a special programme mixing music, talks and the odd film screening."
   },
   "crowd": null,
   "accessibility": {
@@ -70,12 +70,105 @@
       "quote": "All our spaces (including our 3 cinema screens) are available for hire and are fully accessible.",
       "retrieved_at": "2026-10-12T23:03:00Z",
       "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
+      "quote": "East London’s Rich Mix has paused its cinema screenings for the next 12 months.",
+      "retrieved_at": "2026-10-13T00:12:30Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
+      "quote": "While its cinema programme will be on pause, Rich Mix will remain open for gigs and festivals.",
+      "retrieved_at": "2026-10-13T00:12:30Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
+      "quote": "The new-look cinema is earmarked for reopening in autumn 2027.",
+      "retrieved_at": "2026-10-13T00:12:30Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://dice.fm/event/7d5r8b-brick-by-brick-grime-14th-nov-rich-mix-london-tickets",
+      "quote": "The gig will take place in The Stage.",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://dice.fm/event/7d5r8b-brick-by-brick-grime-14th-nov-rich-mix-london-tickets",
+      "quote": "Brick by Brick: Grime",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://dice.fm/event/7d5r8b-brick-by-brick-grime-14th-nov-rich-mix-london-tickets",
+      "quote": "Screening & Talk",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://dice.fm/event/q2dbxp-after-dark-club-28th-nov-rich-mix-london-tickets",
+      "quote": "After Dark: Club",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
+      "quote": "a special programme of music, talks and occasional film screenings",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
+      "quote": "our recently announced London, From the Margins season",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "press"
     }
   ],
-  "profiled_at": "2026-10-12T23:08:23Z",
+  "profiled_at": "2026-10-13T00:51:21Z",
   "review": {
-    "checked_at": "2026-10-12T23:14:31Z",
+    "checked_at": "2026-10-13T01:01:23Z",
     "removed_fields": []
   },
-  "needs_review": null
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-13T00:51:21Z",
+      "by": "venue-editor",
+      "change": "Time Out (17 Sept 2026) says only the cinema is paused for 12 months, the building stays open for gigs and festivals: summary updated and music notes added from DICE listings; status left open"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes: cut inferences from single DICE events and unquoted 'autumn'/'underground culture'"
+    }
+  ]
 }

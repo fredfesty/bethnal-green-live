@@ -1,0 +1,155 @@
+{
+  "id": "netil360",
+  "name": "Netil360",
+  "zone": "fringe",
+  "address": "Top floor of Netil House, 1 Westgate Street, Hackney, London",
+  "postcode": "E8 3RL",
+  "website": "https://www.netil360.com",
+  "summary": "A rooftop bar and pizza restaurant at the top of Netil House in London Fields, with views over London.",
+  "music": {
+    "styles": [
+      "soul",
+      "hip-hop",
+      "house",
+      "disco",
+      "jazz"
+    ],
+    "notes": "DJs every Friday and Saturday, and live acoustic jazz on Thursdays."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": false,
+    "accessible_toilet": null,
+    "notes": "The bar is on the top floor of Netil House, and the venue says it cannot provide lift access for wheelchair users to reach the rooftop safely."
+  },
+  "cost": {
+    "free_entry": "always",
+    "notes": "Entry is free. Outside alcohol is not allowed, free water is available and bookings are limited."
+  },
+  "age_policy": "Over 18s only",
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.netil360.com",
+      "quote": "Netil360, rooftop bar with panoramic views over London",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.netil360.com",
+      "quote": "Netil360 Rooftop Bar & Pizza Restaurant in London Fields, Hackney, East London",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "accessibility.notes",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.netil360.com/faq",
+      "quote": "Top floor of Netil House, 1 Westgate Street, E8 3RL.",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://www.netil360.com",
+      "quote": "Each weekend, a curated lineup of DJs brings soul, hip-hop, house, disco and global sounds to the sky-high dancefloor.",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://www.netil360.com/jazz",
+      "quote": "Every Thursday some of London’s finest musicians bring live acoustic jazz to Netil 360",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.netil360.com",
+      "quote": "DJs every Friday & Saturday.",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes"
+      ],
+      "url": "https://www.netil360.com/faq",
+      "quote": "Unfortunately, due to structural restrictions in the Netil House building, we are unable to provide lift access for safe wheelchair entry to the rooftop.",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.free_entry",
+        "cost.notes"
+      ],
+      "url": "https://www.netil360.com/faq",
+      "quote": "Is entry free? Yes.",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.netil360.com/faq",
+      "quote": "No. Outside alcohol is not permitted. Free water is available.",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.netil360.com/faq",
+      "quote": "Limited bookings are available.",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://www.netil360.com/faq",
+      "quote": "Netil360 is an over-18s venue.",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:49:03Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:49:03Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: cut unquoted 'Neapolitan'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

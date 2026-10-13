@@ -1,0 +1,113 @@
+{
+  "id": "town-hall-hotel",
+  "name": "Town Hall Hotel (Da Terra, Restaurant Elis)",
+  "zone": "core",
+  "address": "Patriot Square, Bethnal Green, London",
+  "postcode": "E2 9NF",
+  "website": "https://www.townhallhotel.com",
+  "summary": "A boutique hotel in a restored Edwardian building on Patriot Square in Bethnal Green, home to the Michelin-starred restaurant Da Terra.",
+  "music": {
+    "styles": [],
+    "notes": "Offers seasonal events, Christmas parties and private or corporate events."
+  },
+  "crowd": "The hotel says it caters to business travellers, city explorers and people after a unique London escape.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.townhallhotel.com/home",
+      "quote": "Set within a beautifully restored Edwardian building in the heart of Bethnal Green",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.daterra.co.uk/",
+      "quote": "Da Terra — Michelin Starred Restaurant in London",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.daterra.co.uk/",
+      "quote": "Located inside the landmark Edwardian Town Hall Hotel, Da Terra has an elegant and contemporary look",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.townhallhotel.com/home",
+      "quote": "we offer an unforgettable stay for business travellers, city explorers and those seeking a unique London escape.",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.townhallhotel.com/christmas-at-town-hall-hotel",
+      "quote": "Whether you’re planning a Christmas party, private celebration or corporate event",
+      "retrieved_at": "2026-10-13T00:24:04Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.townhallhotel.com/christmas-at-town-hall-hotel",
+      "quote": "join us for one of our seasonal events and celebrations",
+      "retrieved_at": "2026-10-13T00:24:04Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.townhallhotel.com/home",
+      "quote": "Town Hall Hotel is one of East London’s most distinctive luxury boutique hotels",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.townhallhotel.com/home",
+      "quote": "Patriot Square, Bethnal Green, London, E2 9NF",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:47:43Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:47:43Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

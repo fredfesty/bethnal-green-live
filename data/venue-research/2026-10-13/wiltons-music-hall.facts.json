@@ -1,0 +1,154 @@
+{
+  "venue_id": "wiltons-music-hall",
+  "venue_name": "Wilton's Music Hall",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:21:07Z",
+  "findings": [
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://wiltons.org.uk/visit-us/accessibility/",
+          "quote": "there is an accessible, gender-neutral toilet on the ground floor next to the women’s toilets",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The ground floor and auditorium are wheelchair accessible. The first floor, including the balcony, is reached by 19 stairs (four more to the balcony), with one to five steps between rooms up there. Access tickets are booked through the Box Office, and a companion ticket is free. Assistance dogs are welcome.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://wiltons.org.uk/visit-us/accessibility/",
+          "quote": "The whole ground floor and auditorium is wheelchair accessible",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://wiltons.org.uk/visit-us/accessibility/",
+          "quote": "There are 19 stairs to access the first floor",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://wiltons.org.uk/visit-us/accessibility/",
+          "quote": "We can offer a companion ticket, where required, free of charge",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://wiltons.org.uk/visit-us/accessibility/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.access_page"
+          ],
+          "url": "https://wiltons.org.uk/visit-us/accessibility/",
+          "quote": "For any questions about access at Wilton’s, or to discuss your access requirements",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "age_policy",
+      "value": "Under-16s must be accompanied by an adult in the auditorium; alcohol is for 18 and over",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://wiltons.org.uk/visit-us/accessibility/",
+          "quote": "All under 16s must be accompanied by an adult whilst watching a show in the auditorium.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://wiltons.org.uk/visit-us/accessibility/",
+          "quote": "Alcohol is only for consumption by persons 18 years and over.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "1 Graces Alley (pedestrian access only)",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://wiltons.org.uk/visit-us/find-contact/",
+          "quote": "1 Graces Alley (pedestrian access only)",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 8JB",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://wiltons.org.uk/visit-us/accessibility/",
+          "quote": "London E1 8JB",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://wiltons.org.uk/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://wiltons.org.uk/",
+          "quote": "Home - Wilton's Music Hall",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.hearing_loop (looked on the accessibility and find-contact pages; none stated)",
+    "accessibility.step_free (not set: the auditorium is step-free but the first floor and balcony are not; see notes)",
+    "capacity (not stated on the find-contact or accessibility pages read)",
+    "cost.free_entry and cost.notes (no general pricing on the pages read; show prices are per event)"
+  ],
+  "notes": "Access detail is the main value here: the auditorium and ground-floor bar are step-free, but the first floor (balcony and rooms) is stairs only, so step_free is left for the editor. Address and postcode come from the venue's own pages. The accessibility page is the access page. The find-contact page gives tube and Shadwell routes on foot."
+}

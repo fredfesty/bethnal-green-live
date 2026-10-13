@@ -1,0 +1,54 @@
+{
+  "id": "mother-kellys-bethnal-green",
+  "name": "Mother Kelly's Bethnal Green",
+  "zone": "core",
+  "summary": "A bottle shop and taproom under the railway arches in Bethnal Green, with a bar lined with beer taps, according to DesignMyNight.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/mother-kellys",
+      "quote": "Mother Kelly's is a bottle shop and taproom nestled underneath the railway arches in Bethnal Green",
+      "retrieved_at": "2026-10-13T00:27:03Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/mother-kellys",
+      "quote": "Kitted out with a bar that showcases a long line of beer taps and a smattering of tables and bar stools",
+      "retrieved_at": "2026-10-13T00:27:03Z",
+      "source_kind": "aggregator"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:46:55Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:46:55Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

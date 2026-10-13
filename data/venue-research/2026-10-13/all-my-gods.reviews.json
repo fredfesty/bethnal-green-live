@@ -1,0 +1,97 @@
+{
+  "venue_id": "all-my-gods",
+  "venue_name": "All My Gods",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:20:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A dive-style cocktail bar in a Bethnal Green railway arch on Paradise Row, with rock and alternative music and regular community nights. Time Out (August 2025) describes it as a rock bar and a menu it calls surprising.",
+      "source_date": "2025-08-21",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "Part alternative cocktail bar, part community hub, with a dive bar vibe.",
+          "retrieved_at": "2026-10-13T00:14:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/bars-and-pubs/all-my-gods",
+          "quote": "A Bethnal Green rock bar with a surprising menu",
+          "retrieved_at": "2026-10-13T00:14:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/bars-and-pubs/all-my-gods",
+          "quote": "this old railway arch",
+          "retrieved_at": "2026-10-13T00:14:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The venue says it is for its regulars, London's motorcycle community and queer community groups.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["crowd"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "for our regulars, for London's motorcycle community, and for queer groups looking for a home",
+          "retrieved_at": "2026-10-13T00:14:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["crowd"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "All My Gods is a queer-friendly space and proud host to regular community nights",
+          "retrieved_at": "2026-10-13T00:14:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["rock", "alternative"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "Rock and alt music, cocktails, proper pints, and a calendar full of fun.",
+          "retrieved_at": "2026-10-13T00:14:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Its regular nights include drag bingo, queer community nights and motorcycle meet-ups, plus live custom bike builds in the bar.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "Drag Bingo, hosted by drag rockstar Envy The Queen.",
+          "retrieved_at": "2026-10-13T00:14:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "Custom Bike Build events with Outriders Moto. Building bikes live in the bar.",
+          "retrieved_at": "2026-10-13T00:14:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "aliases",
+    "status"
+  ],
+  "notes": "Same venue as the map lead (map-all-my-gods.json); the editor should merge them. Opened August 2025 per Time Out, so not news. No closure or renaming found. Only the venue's own site and Time Out were read for this aspect; no live-music listing with dates found. Own site read on allmygodsbar.co.uk (not .com)."
+}

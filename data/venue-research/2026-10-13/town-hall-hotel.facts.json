@@ -1,0 +1,62 @@
+{
+  "venue_id": "town-hall-hotel",
+  "venue_name": "Town Hall Hotel (Da Terra, Restaurant Elis)",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:25:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Patriot Square, Bethnal Green, London, E2 9NF",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.townhallhotel.com/home",
+          "quote": "Patriot Square, Bethnal Green, London, E2 9NF",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 9NF",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.townhallhotel.com/home",
+          "quote": "Patriot Square, Bethnal Green, London, E2 9NF",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.townhallhotel.com",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.townhallhotel.com/home",
+          "quote": "Town Hall Hotel is one of East London’s most distinctive luxury boutique hotels",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free (the home and facilities pages say nothing about access for visitors; /access and /accessibility are 404)",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity (the event spaces and restaurant pages were not reachable at the addresses tried, and the facilities page gives no capacity)"
+  ],
+  "notes": "A boutique hotel with restaurants inside; the listing should be about the hotel, not the restaurants. Da Terra and Restaurant Elis have no pages at the addresses tried (/da-terra and /restaurant-elis return 404), so their own facts were not read. The facilities page describes a pool, gym and dog policy for hotel guests, which is not public-venue access and is not proposed here. The Bethnal Hall and Council Chamber hire spaces appear in the site menu, but their pages were not found at the addresses tried, so no capacity is proposed."
+}

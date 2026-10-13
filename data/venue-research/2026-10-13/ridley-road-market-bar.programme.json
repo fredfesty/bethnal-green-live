@@ -1,0 +1,185 @@
+{
+  "venue_id": "ridley-road-market-bar",
+  "venue_name": "Ridley Road Market Bar",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:29:34Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "dj-bar",
+        "bar",
+        "karaoke"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com/whats-on",
+          "quote": "DJ Bar in Dalston",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com",
+          "quote": "We're a friendly bar in the middle of Ridley Road market Dalston.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com/whats-on",
+          "quote": "Wednesday night karaoke at Ridley Road Market Bar",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "disco",
+        "hip hop",
+        "r&b",
+        "house",
+        "pop",
+        "soul"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com",
+          "quote": "Music runs across disco, hip hop, R&B, house, pop and singalong favourites depending on the night",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com/whats-on",
+          "quote": "Soon Come, only the best sounds from Gio One Stop.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com/whats-on",
+          "quote": "serving up a juicy mix of 90's R&B, hip-hop, house",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com/whats-on",
+          "quote": "Step back into the golden era of 90s and 2000s R&B and hip-hop.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "DJ nights most days from Tuesday to Saturday: Icons Only on Fridays, Club Mix on Saturdays, Wednesday karaoke (LUNGS) and monthly club nights such as Telefunk & Friends.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com/whats-on",
+          "quote": "we are open EVERY Tuesday-Sat",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com/whats-on",
+          "quote": "Fridays at Ridley are always a vibe with ICONS ONLY!",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com/whats-on",
+          "quote": "CLUB MIX is THE East London club night you need to be at",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com/whats-on",
+          "quote": "Wednesday night karaoke at Ridley Road Market Bar",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com/whats-on",
+          "quote": "Every first Thursday of the month Dr. Telefunk invites a friend",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.free_entry",
+      "value": "some-nights",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.free_entry",
+            "cost.notes"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com",
+          "quote": "Free entry Tues-Thurs, and before 10pm Fri/Sat (£6 after 10pm Fri/Sat). No guestlist.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Free entry from Tuesday to Thursday, and before 10pm on Friday and Saturday; £6 after 10pm on Friday and Saturday.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.ridleyroadmarketbar.com",
+          "quote": "Free entry Tues-Thurs, and before 10pm Fri/Sat (£6 after 10pm Fri/Sat). No guestlist.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types: queer-friendly (the registry lists it; no page fetched says it)"
+  ],
+  "notes": "Nights seen: Icons Only, Fri 16 Oct 2026; Club Mix, Sat 17 Oct 2026; LUNGS Karaoke, Wed 14 Oct 2026; Telefunk & Friends, Thu 15 Oct 2026; Disco Freaks, Thu 29 Oct 2026. DICE lists the same nights, all marked Free. Capacity 150 on DICE (not programme; not proposed)."
+}

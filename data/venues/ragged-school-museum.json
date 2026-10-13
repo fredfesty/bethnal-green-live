@@ -1,0 +1,181 @@
+{
+  "id": "ragged-school-museum",
+  "name": "Ragged School Museum",
+  "zone": "fringe",
+  "address": "46-50 Copperfield Road, London",
+  "postcode": "E3 4RR",
+  "website": "https://raggedschoolmuseum.org.uk",
+  "summary": "A museum on Copperfield Road in Bow, in a converted warehouse where poor children were taught literacy and basic arithmetic. Its Victorian classroom is the heart of the museum.",
+  "music": {
+    "styles": [],
+    "notes": "A monthly Sunday Victorian lesson, free family activities at half term and a music festival in June."
+  },
+  "crowd": "The museum says some 16,000 children a year visit its Victorian classroom.",
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": null,
+    "notes": "A lift serves every floor, and a platform lift runs between the lower ground and second floors. The schools' lunch room is up one step.",
+    "access_page": "https://raggedschoolmuseum.org.uk/plan-your-visit/"
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Admission is charged: adults £5, family £10 and concessions £2.50, as listed on the visit page when checked."
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://spitalfieldslife.com/2024/05/05/at-the-ragged-school-museum-i/",
+      "quote": "teaching literacy and basic arithmetic to poor children in a converted warehouse",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://spitalfieldslife.com/2024/05/05/at-the-ragged-school-museum-i/",
+      "quote": "the Ragged School Museum in Copperfield Rd, Bow, next to the canal",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "crowd"
+      ],
+      "url": "https://raggedschoolmuseum.org.uk/",
+      "quote": "At the heart of the Ragged School Museum is our unique classroom, where each year some 16,000 children come to experience a glimpse of Victorian life.",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://raggedschoolmuseum.org.uk/whats-on/first-sunday-victorian-lesson/",
+      "quote": "On the first Sunday of every month, we invite you to step through our doors",
+      "retrieved_at": "2026-10-13T00:11:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://raggedschoolmuseum.org.uk/news-events/",
+      "quote": "Half Term: Free Family Activities",
+      "retrieved_at": "2026-10-13T00:11:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://raggedschoolmuseum.org.uk/news-events/",
+      "quote": "This June, the Ragged Music Festival returns with a very different kind of edition.",
+      "retrieved_at": "2026-10-13T00:11:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.access_page"
+      ],
+      "url": "https://raggedschoolmuseum.org.uk/plan-your-visit/",
+      "quote": "Step-free access throughout the building.",
+      "retrieved_at": "2026-10-13T00:39:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://raggedschoolmuseum.org.uk/",
+      "quote": "All floors are accessible by lift",
+      "retrieved_at": "2026-10-13T00:39:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://raggedschoolmuseum.org.uk/schools/faqs/",
+      "quote": "There is a platform lift which travels from lower ground to second floor.",
+      "retrieved_at": "2026-10-13T00:39:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://raggedschoolmuseum.org.uk/schools/faqs/",
+      "quote": "There is a step to the Schools’ Lunch Room.",
+      "retrieved_at": "2026-10-13T00:39:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://raggedschoolmuseum.org.uk/plan-your-visit/",
+      "quote": "Full price adults £ 5:00",
+      "retrieved_at": "2026-10-13T00:39:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://raggedschoolmuseum.org.uk/plan-your-visit/",
+      "quote": "Family £10:00",
+      "retrieved_at": "2026-10-13T00:39:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://raggedschoolmuseum.org.uk/plan-your-visit/",
+      "quote": "Concession £ 2:50",
+      "retrieved_at": "2026-10-13T00:39:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://raggedschoolmuseum.org.uk/",
+      "quote": "All content © Ragged School Museum Trust",
+      "retrieved_at": "2026-10-13T00:39:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://raggedschoolmuseum.org.uk/",
+      "quote": "46-50 Copperfield Road London E3 4RR",
+      "retrieved_at": "2026-10-13T00:39:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:47:33Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:47:33Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: cut unquoted 'Dr Barnardo's'; music.notes: cut unquoted 'mainly a heritage museum'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

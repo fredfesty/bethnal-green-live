@@ -1,0 +1,172 @@
+{
+  "id": "victoria-park",
+  "name": "Victoria Park",
+  "zone": "fringe",
+  "aliases": [
+    "People's Park"
+  ],
+  "address": "Grove Road, Bow, London",
+  "postcode": "E3 5TB",
+  "website": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+  "summary": "A large park in Tower Hamlets, landscaped in 1842, with two lakes and a boating pond. Time Out says summer festivals such as Field Day and All Points East often take it over.",
+  "music": {
+    "styles": [],
+    "notes": "Large summer festivals, with Time Out naming Field Day and All Points East, and an annual programme called In the Neighbourhood that includes live music, sport and family theatre."
+  },
+  "crowd": "Time Out says it attracts East Londoners in large numbers whatever the weather.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": true,
+    "notes": "Both community buildings in the park have step-free access, and a Changing Places toilet has been installed. Blue Badge drivers are encouraged to use the disabled bays in the two main car parks."
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/attractions/victoria-park",
+      "quote": "Stretched over a huge 86.18 hectares, this swath of the outdoors is nestled entirely in Tower Hamlets",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/attractions/victoria-park",
+      "quote": "originally landscaped by the famous architect Sir James Pennethorne in 1842",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/attractions/victoria-park",
+      "quote": "Victoria Park boasts two expansive lakes (one with a Chinese pagoda island), a boating pond and lots of wonderful activities for youngsters.",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/attractions/victoria-park",
+      "quote": "In the summer it’s often taken over by festivals like Field Day and All Points East.",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "aliases"
+      ],
+      "url": "https://www.timeout.com/london/attractions/victoria-park",
+      "quote": "Known as the ‘People’s Park’, Victoria Park is one of London’s favourite open spaces.",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/attractions/victoria-park",
+      "quote": "attracts East London dwellers in their masses, rain or shine",
+      "retrieved_at": "2026-10-13T00:13:46Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/2026/July/IN-THE-NEIGHBOURHOOD-makes-its-annual-return-to-Victoria-Park.aspx",
+      "quote": "IN THE NEIGHBOURHOOD makes its annual return to Victoria Park",
+      "retrieved_at": "2026-10-13T00:11:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/2026/July/IN-THE-NEIGHBOURHOOD-makes-its-annual-return-to-Victoria-Park.aspx",
+      "quote": "From Live Music, to Sport & Fitness Sessions, Family Theatre Shows",
+      "retrieved_at": "2026-10-13T00:11:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+      "quote": "All Victoria Park's public toilets have an accessible cubicle and both our cafés are accessible for wheelchair users.",
+      "retrieved_at": "2026-10-13T00:36:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+      "quote": "Both our community buildings offer step-free access.",
+      "retrieved_at": "2026-10-13T00:36:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+      "quote": "We have installed a new changing places toilet facility at Victoria Park.",
+      "retrieved_at": "2026-10-13T00:36:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+      "quote": "we strongly encourage Blue Badge drivers to make use of the designated disabled parking bays located in our two main car parks.",
+      "retrieved_at": "2026-10-13T00:36:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+      "quote": "Victoria Park opens at 7am and closes at dusk, 365 days a year.",
+      "retrieved_at": "2026-10-13T00:36:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+      "quote": "Grove Road Bow London E3 5TB",
+      "retrieved_at": "2026-10-13T00:36:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:46:24Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:46:24Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes: cut unquoted 'summer' on In the Neighbourhood"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

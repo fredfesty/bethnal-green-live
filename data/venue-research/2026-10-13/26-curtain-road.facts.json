@@ -1,0 +1,22 @@
+{
+  "venue_id": "26-curtain-road",
+  "venue_name": "26 Curtain Road",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:40:00Z",
+  "findings": [],
+  "not_found": [
+    "address",
+    "postcode",
+    "website",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Not reached. The venue's own site, 26curtainroad.com, is refused by the page-reading script because its robots.txt could not be read. 26curtainroad.co.uk redirects to a Linktree page that the bot's robots rules disallow. No other source (access guide, directory, DICE or Ticket Tailor page) was found in this run, and WebSearch was out of budget. A person should confirm the address, website and access details by hand before this venue is profiled."
+}

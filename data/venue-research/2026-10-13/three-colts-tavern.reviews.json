@@ -1,0 +1,74 @@
+{
+  "venue_id": "three-colts-tavern",
+  "venue_name": "Three Colts Tavern (Glue Factory)",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:32Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A pub in Bethnal Green run by Exale Brewing, with 14 keg lines and cask ale. CAMRA's listing says it was originally the Fugitive Motel.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://camra.org.uk/pubs/three-colts-tavern-bethnal-green-154899",
+          "quote": "Originally Fugitive Motel. Now run by Exale Brewing. 14 Keg lines and cask available.",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "directory"
+        }
+      ],
+      "source_date": "2026-08-05"
+    },
+    {
+      "field": "aliases",
+      "value": [
+        "Fugitive Motel"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "aliases"
+          ],
+          "url": "https://camra.org.uk/pubs/three-colts-tavern-bethnal-green-154899",
+          "quote": "Originally Fugitive Motel.",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "directory"
+        }
+      ],
+      "source_date": "2026-08-05"
+    },
+    {
+      "field": "music.notes",
+      "value": "CAMRA's listing names live music and quiz nights among the pub's facilities.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://camra.org.uk/pubs/three-colts-tavern-bethnal-green-154899",
+          "quote": "Live Music",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://camra.org.uk/pubs/three-colts-tavern-bethnal-green-154899",
+          "quote": "Quiz nights",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "directory"
+        }
+      ],
+      "source_date": "2026-08-05"
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "status (no closure or new-owner news found; the closing and new-owner searches were not run because the search budget ran out)",
+    "aliases: 'The Glue Factory' (the name in our batch) was not quoted on any page I could read, so it is not proposed"
+  ],
+  "notes": "The CAMRA listing (East London & City Branch) was last updated 05/08/2026, read as 5 August 2026. It lists 'Step free access. Accessible toilet.' and 'Dog Friendly' under access, and 'Opens at 4:00pm' (facts researcher's fields; not proposed here). The 'Fugitive Motel' line is the only former name quoted."
+}

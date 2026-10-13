@@ -1,0 +1,84 @@
+{
+  "venue_id": "rio-cinema",
+  "venue_name": "Rio Cinema",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:12:52Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["cinema"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
+          "quote": "Rio Cinema | WhatsOn",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
+          "quote": "Pink Palace presents the winner of the Palme D'Or Award at the 2003 Cannes Film Festival.",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["punk"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
+          "quote": "It's a film about the infamous, fairly un-famous, and beloved punk rock band NOFX.",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
+          "quote": "This year’s Doc'n Roll FF shorts programme is united by a distinctly punk ethos, not a genre, but an attitude.",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A cinema with a regular queer lo-fi film club (Pink Palace), music documentary nights under Doc'n Roll in October, and a Halloween queer horror night with a live shadow cast.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
+          "quote": "Our regular queer lo-fi film club",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
+          "quote": "DOC'N ROLL: SHORTS NIGHT",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
+          "quote": "QUEER HORROR NIGHTS returns to the Rio with our spectacular midnight sing-along screening",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "Live music gigs at the venue (none listed on the what's-on page read)",
+    "Cost notes: no general pricing quoted (membership and tickets only as product pages)",
+    "Venue history and hire page (the history page returned a server error; the hire page was not readable)"
+  ],
+  "notes": "Nights seen: 'Pink Palace: ELEPHANT' from Thu 15 Oct 2026; 'Pink Palace: J.G.Ballard's CRASH' from Mon 19 Oct 2026; 'Doc'n Roll: NOFX: 40 Years of F*N' Up!' from Fri 23 Oct 2026; 'Doc'n Roll: THE BEST SUMMER + Q&A' from Sat 24 Oct 2026; 'Queer Horror Nights: The Rocky Horror Picture Show with Shadow Cast' from Sat 31 Oct 2026."
+}

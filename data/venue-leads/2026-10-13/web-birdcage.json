@@ -1,0 +1,66 @@
+{
+  "id": "birdcage",
+  "name": "The Birdcage",
+  "about_venue_id": null,
+  "address": "80 Columbia Road, London, E2 7QB",
+  "postcode": "E2 7QB",
+  "website": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+  "found_by": "web",
+  "signal": "new",
+  "kind_hint": "pub on Columbia Road with a ground floor bar and a new upstairs space; launch party with music",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": [
+        "name",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.designmynight.com/london/whats-on/vip-party/launch-party-the-birdcage-1",
+      "quote": "Venue address: 80 Columbia Road, London, E2 7QB",
+      "retrieved_at": "2026-10-13T00:05:41Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+      "quote": "80 Columbia Rd,",
+      "retrieved_at": "2026-10-13T00:05:41Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+      "quote": "Located on the vibrant Columbia Road, The Birdcage is a pub steeped in character and charm",
+      "retrieved_at": "2026-10-13T00:05:41Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "kind_hint",
+        "signal"
+      ],
+      "url": "https://www.designmynight.com/london/whats-on/vip-party/launch-party-the-birdcage-1",
+      "quote": "Set across a buzzing ground floor bar and a brand new upstairs",
+      "retrieved_at": "2026-10-13T00:05:41Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.designmynight.com/london/whats-on/vip-party/launch-party-the-birdcage-1",
+      "quote": "Join us on Friday 15th May from 6pm as we open",
+      "retrieved_at": "2026-10-13T00:05:41Z",
+      "source_kind": "aggregator"
+    }
+  ],
+  "found_at": "2026-10-13T00:05:41Z",
+  "notes": "Borderline fit. DesignMyNight's launch party (Fri 15 May 2026, 6pm to 8pm, tagged Live Music) is the only music evidence; the venue's own site lists a pub quiz, Sunday roast and table football, no regular live music or DJ night found. Launch date is past, so 'new' is the only signal. Editor to decide."
+}

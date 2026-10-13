@@ -1,0 +1,36 @@
+{
+  "venue_id": "roman-road-market",
+  "venue_name": "Roman Road Market",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Roman Road, E3",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+          "quote": "Roman Road, E3",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "postcode",
+    "website",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Only source is Tower Hamlets council's markets page: Roman Road Market, Tuesday, Thursday and Saturday, 8am to 6pm, in Roman Road E3 (Bow), about 1.3km from Bethnal Green tube per the registry. Its closest stations are Bow Church, Bow Road and Mile End, so it is outside core. For the editor: the same council page lists a separate Roman Road Square Market (also called Globe Town market) at Roman Road Square, E2 0RN, Monday to Saturday, 8am to 6pm, which is core and not covered by this record. No venue site, access or cost information was found."
+}

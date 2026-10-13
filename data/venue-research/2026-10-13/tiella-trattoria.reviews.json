@@ -1,0 +1,65 @@
+{
+  "venue_id": "tiella-trattoria",
+  "venue_name": "Tiella Trattoria & Bar",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:25:15Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A trattoria in a converted Victorian pub on Columbia Road, run by chef Dara Klein with regional Italian dishes.",
+      "source_date": "2026-02-02",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/restaurants/tiella",
+          "quote": "inside a gorgeously gabled Victorian boozer on the eastern fringes of Colombia Road",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/restaurants/tiella",
+          "quote": "chef-founder Dara Klein",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/restaurants/tiella",
+          "quote": "Dipping into rarer regional cracks of Italian cuisine",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "Time Out sees it as a local hub where people gather over food and drink.",
+      "source_date": "2026-02-02",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.timeout.com/london/restaurants/tiella",
+          "quote": "a welcoming hub where the community comes together over food and booze",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "aliases",
+    "status"
+  ],
+  "notes": "Time Out review (2 February 2026) read. The registry's Hot Dinners article could not be reached by direct URL. No venue website found (Instagram only, not used). Time Out spells the street 'Colombia Road'; the registry has 'Columbia Road'. WebSearch was unavailable this run."
+}

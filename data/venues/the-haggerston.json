@@ -2,6 +2,10 @@
   "id": "the-haggerston",
   "name": "The Haggerston",
   "zone": "fringe",
+  "aliases": [
+    "Uncle Sam's",
+    "Richmonds"
+  ],
   "address": "438 Kingsland Rd, London",
   "postcode": "E8 4AA",
   "website": null,
@@ -94,14 +98,33 @@
       "quote": "Mobility Access Statement Steps at entrance. Accessible toilet.",
       "retrieved_at": "2026-10-12T22:56:45Z",
       "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "aliases"
+      ],
+      "url": "https://camra.org.uk/pubs/haggerston-hackney-156101",
+      "quote": "Was the Swan, then Richmonds, from late 1980s Uncle Sam's for over a decade",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "directory"
     }
   ],
-  "profiled_at": "2026-10-12T23:04:43Z",
+  "profiled_at": "2026-10-13T00:51:21Z",
   "review": {
-    "checked_at": "2026-10-12T23:13:30Z",
-    "removed_fields": [
-      "crowd"
-    ]
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
   },
-  "needs_review": null
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-13T00:51:21Z",
+      "by": "venue-editor",
+      "change": "added former names Uncle Sam's and Richmonds from the CAMRA entry"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ]
 }

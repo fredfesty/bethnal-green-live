@@ -1,0 +1,167 @@
+{
+  "id": "rio-cinema",
+  "name": "Rio Cinema",
+  "zone": "outer",
+  "address": "107 Kingsland High Street",
+  "postcode": "E8 2PB",
+  "website": "https://riocinema.org.uk",
+  "summary": "A community-run cinema on Kingsland High Street in Dalston. Apollo Magazine marks 50 years of community running and describes it as Britain's oldest continuously operating cinema.",
+  "music": {
+    "styles": [],
+    "notes": "A regular queer lo-fi film club, music documentary nights under the Doc'n Roll name, and queer horror nights with a midnight sing-along screening."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "notes": "Automatic entrance doors and step-free access to both screens. These details are from Euan's Guide, which carries the cinema's own access information; email the manager for more detail."
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://apollo-magazine.com/rio-cinema-dalston-east-london/",
+      "quote": "The beloved Hackney picture house is celebrating 50 years as a community-run enterprise",
+      "retrieved_at": "2026-10-13T00:13:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://apollo-magazine.com/rio-cinema-dalston-east-london/",
+      "quote": "as Britain’s oldest continuously operating cinema, its roots go much further back",
+      "retrieved_at": "2026-10-13T00:13:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://apollo-magazine.com/rio-cinema-dalston-east-london/",
+      "quote": "even in a thoroughfare as tumultuous as Kingsland High Street in Dalston",
+      "retrieved_at": "2026-10-13T00:13:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
+      "quote": "Our regular queer lo-fi film club",
+      "retrieved_at": "2026-10-13T00:12:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
+      "quote": "DOC'N ROLL: SHORTS NIGHT",
+      "retrieved_at": "2026-10-13T00:12:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
+      "quote": "QUEER HORROR NIGHTS returns to the Rio with our spectacular midnight sing-along screening",
+      "retrieved_at": "2026-10-13T00:12:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free"
+      ],
+      "url": "https://www.euansguide.com/venues/rio-cinema-london-8784/information",
+      "quote": "Step free access to both screens + disabled toilets for both screens",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://www.euansguide.com/venues/rio-cinema-london-8784/information",
+      "quote": "A designated accessible toilet designed for wheelchair users and others with visible and non-visible accessibility requirements is available within the main public areas.",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.euansguide.com/venues/rio-cinema-london-8784/information",
+      "quote": "Disabled Access Information Provided by Rio Cinema",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.euansguide.com/venues/rio-cinema-london-8784/information",
+      "quote": "Automatic entrance doors, step free.",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.euansguide.com/venues/rio-cinema-london-8784/information",
+      "quote": "For additional detailed accessibility information, please contact: manager@riocinema.org.uk",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://riocinema.org.uk/Rio.dll/Home",
+      "quote": "marking the 50 th anniversary of the cinema",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://riocinema.org.uk/Rio.dll/Home",
+      "quote": "107 Kingsland High Street",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.euansguide.com/venues/rio-cinema-london-8784/information",
+      "quote": "107 Kingsland High Street, London, Greater London, England, United Kingdom, E8 2PB",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:43:27Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:43:27Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

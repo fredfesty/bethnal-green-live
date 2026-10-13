@@ -1,0 +1,94 @@
+{
+  "id": "queen-adelaide",
+  "name": "The Queen Adelaide",
+  "zone": "core",
+  "address": "483 Hackney Road, London",
+  "postcode": "E2 9ED",
+  "website": "https://www.thequeenadelaide.com",
+  "summary": "A bar on Hackney Road with draught beer and cider and a basement used for club nights. A listings site, ma.to, describes the basement as a space for queer culture and underground dance music.",
+  "music": {
+    "styles": [
+      "house",
+      "disco",
+      "hi-nrg",
+      "italo disco",
+      "electroclash"
+    ],
+    "notes": "Frequent club nights in the basement, many of them queer-focused, according to ma.to."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.thequeenadelaide.com/locations",
+      "quote": "483 Hackney Road London E2 9ED",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.thequeenadelaide.com/welcome",
+      "quote": "Draught beer and cider. Selection of wines and spirits.",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://ma.to/venue/thequeenadelaide",
+      "quote": "Located in East London, The Queen Adelaide is a vital basement venue dedicated to queer culture, community connection, and underground dance music",
+      "retrieved_at": "2026-10-13T00:23:52Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://ma.to/venue/thequeenadelaide",
+      "quote": "Its basement space hosts frequent club nights soundtracked by Hi-NRG, Italo disco, electroclash, and house.",
+      "retrieved_at": "2026-10-13T00:23:52Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://ma.to/venue/thequeenadelaide",
+      "quote": "The Queen Adelaide hosts a variety of queer-focused club nights featuring genres like house, disco, and electroclash in its basement space.",
+      "retrieved_at": "2026-10-13T00:23:52Z",
+      "source_kind": "aggregator"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:47:43Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:47:43Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

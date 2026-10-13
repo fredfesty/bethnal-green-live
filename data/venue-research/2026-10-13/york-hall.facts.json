@@ -1,0 +1,145 @@
+{
+  "venue_id": "york-hall",
+  "venue_name": "York Hall",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:21:07Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "5 Old Ford Road",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://be-well.org.uk/centres/york-hall-leisure-centre/",
+          "quote": "5 Old Ford Road, Bethnal Green, Tower Hamlets, London, E2 9PJ",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 9PJ",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://be-well.org.uk/centres/york-hall-leisure-centre/",
+          "quote": "5 Old Ford Road, Bethnal Green, Tower Hamlets, London, E2 9PJ",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "capacity",
+      "value": 1200,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "capacity"
+          ],
+          "url": "https://be-well.org.uk/centres/york-hall-leisure-centre/",
+          "quote": "1200-person capacity for boxing and other events",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://be-well.org.uk/centres/york-hall-leisure-centre/",
+          "quote": "Disabled toilet",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The centre's facilities list includes wheelchair adaptations, accessible changing and a poolside hoist. The page does not say which parts of the main hall are step-free, so step_free is left unset. Lift access is also listed among the facilities, without detail.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://be-well.org.uk/centres/york-hall-leisure-centre/",
+          "quote": "Adapted for wheelchairs",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://be-well.org.uk/centres/york-hall-leisure-centre/",
+          "quote": "Accessible changing",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://be-well.org.uk/centres/york-hall-leisure-centre/",
+          "quote": "Poolside hoist",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://be-well.org.uk/centres/york-hall-leisure-centre/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.access_page"
+          ],
+          "url": "https://be-well.org.uk/centres/york-hall-leisure-centre/",
+          "quote": "Where to find us & accessibility",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://be-well.org.uk/centres/york-hall-leisure-centre/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://be-well.org.uk/centres/york-hall-leisure-centre/",
+          "quote": "York Hall Leisure Centre",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free (the facility list does not say which rooms are step-free)",
+    "accessibility.hearing_loop (not stated)",
+    "age_policy (not stated)",
+    "cost.free_entry and cost.notes (no admission pricing for events; leisure prices not read)"
+  ],
+  "notes": "Website and address come from Be Well's centre page (Tower Hamlets Council's leisure operator), because York Hall's own site could not be read (robots.txt error on the domains tried). The centre page carries a temporary-closure notice for the water supply, with no date. It is NOT set as a status here: it needs a dated check by the editor or a person before any status change. The 1200 capacity is quoted for boxing and other events in the main hall."
+}

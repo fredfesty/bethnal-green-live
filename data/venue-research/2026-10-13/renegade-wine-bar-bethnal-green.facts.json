@@ -1,0 +1,22 @@
+{
+  "venue_id": "renegade-wine-bar-bethnal-green",
+  "venue_name": "Renegade Wine Bar (Bethnal Green)",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:25:00Z",
+  "findings": [],
+  "not_found": [
+    "address",
+    "postcode",
+    "website (renegadewinebar.com answers, but its pages are a JavaScript redirect to /lander with no readable text; no quote could be taken)",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Could not read the venue's own site. https://www.renegadewinebar.com/ and its guessed pages (/contact, /visit, /about, /menu, /events, /faq, /access, /accessibility, /info, /hire) all send to /lander, which returns no text without JavaScript. The .co.uk address does not resolve. No directory, DICE or access-guide page was found, because web search was unavailable in this run. Needs a retry with a browser-rendered read or a person's check of the address, postcode (E2 0EJ from triage) and access before any facts are proposed."
+}

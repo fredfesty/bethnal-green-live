@@ -1,0 +1,90 @@
+{
+  "venue_id": "135-bar-and-lounge",
+  "venue_name": "135 Bar & Lounge",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["bar", "live-music"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.135-barandlounge.co.uk/",
+          "quote": "Our welcoming spot for great drinks, soulful music, and good vibes.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://www.designmynight.com/london/bars/bethnal-green/135-bar-and-lounge/ellie-harris-trio-jam-live-at-135-bar-lounge",
+          "quote": "vibrant new jam hosted by Ellie Harris",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["blues", "jazz", "funk", "soul"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.135-barandlounge.co.uk/",
+          "quote": "Amazing live blues, dancing and cocktails!",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.designmynight.com/london/bars/bethnal-green/135-bar-and-lounge/ellie-harris-trio-jam-live-at-135-bar-lounge",
+          "quote": "Jazz, Funk & Soul and Live Music",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A recurring Thursday jam, hosted by a trio led by Ellie Harris, roughly fortnightly from 7:30pm to 11:30pm; everyone can bring instruments. A Friday live blues night, from 8pm to 2am, hosted by an outside promoter, with free entry as the venue lists it.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.designmynight.com/london/bars/bethnal-green/135-bar-and-lounge/ellie-harris-trio-jam-live-at-135-bar-lounge",
+          "quote": "Every Thursday - fortnightly from 7:30 pm to 11:30 pm",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.designmynight.com/london/bars/bethnal-green/135-bar-and-lounge/ellie-harris-trio-jam-live-at-135-bar-lounge",
+          "quote": "Bring ya horns, hands and vibes - everyone welcome",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.135-barandlounge.co.uk/",
+          "quote": "Live Blues Night",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.135-barandlounge.co.uk/",
+          "quote": "Hosted by Blues at The Brewery",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "cost.notes: only the single blues night is stated as FREE ENTRY; no general pricing found",
+    "No DICE or Ticket Tailor page found for the venue"
+  ],
+  "notes": "Nights seen: Live Blues Night, Fri 16 Oct 2026, 8PM-2AM (own site, free entry, hosted by Blues at The Brewery). Ellie Harris Trio Jam: Thu 15 Oct, 29 Oct, 12 Nov, 26 Nov, 10 Dec and 24 Dec 2026 (DesignMyNight). Time conflict on DesignMyNight: 19:30 - 23:00 in the dates block, 7:30 pm to 11:30 pm in the description. Music styles rest on one blues night and one jam tagged jazz, funk and soul; the editor may judge them thin. Venue site says it is open Tue to Sat, Sunday until 12:30am, with Monday private hire only."
+}

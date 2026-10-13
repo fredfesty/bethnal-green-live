@@ -1,0 +1,150 @@
+{
+  "id": "ridley-road-market-bar",
+  "name": "Ridley Road Market Bar",
+  "zone": "outer",
+  "address": "49 Ridley Road, Dalston, London",
+  "postcode": "E8 2NP",
+  "website": "https://www.ridleyroadmarketbar.com/",
+  "summary": "A Dalston bar set in the heart of Ridley Road market, which describes itself as a tropical bar, cultural hub and 70s disco in one.",
+  "music": {
+    "styles": [
+      "disco",
+      "hip hop",
+      "r&b",
+      "house",
+      "pop"
+    ],
+    "notes": "Open Tuesday to Saturday, with Icons Only on Fridays, a Club Mix night, Wednesday karaoke and a monthly Dr. Telefunk night on the first Thursday."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": "some-nights",
+    "notes": "Free entry Tuesday to Thursday, and before 10pm on Friday and Saturday, then £6 later on those two nights. No guest list."
+  },
+  "capacity": 150,
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://dice.fm/venue/ridley-road-market-bar-a28q",
+      "quote": "Part tropical bar, part cultural hub, part 70’s disco",
+      "retrieved_at": "2026-10-13T00:31:53Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.ridleyroadmarketbar.com/",
+      "quote": "We're a friendly bar in the middle of Ridley Road market Dalston.",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://www.ridleyroadmarketbar.com",
+      "quote": "Music runs across disco, hip hop, R&B, house, pop and singalong favourites depending on the night",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.ridleyroadmarketbar.com/whats-on",
+      "quote": "we are open EVERY Tuesday-Sat",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.ridleyroadmarketbar.com/whats-on",
+      "quote": "Fridays at Ridley are always a vibe with ICONS ONLY!",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.ridleyroadmarketbar.com/whats-on",
+      "quote": "CLUB MIX is THE East London club night you need to be at",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.ridleyroadmarketbar.com/whats-on",
+      "quote": "Wednesday night karaoke at Ridley Road Market Bar",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.ridleyroadmarketbar.com/whats-on",
+      "quote": "Every first Thursday of the month Dr. Telefunk invites a friend",
+      "retrieved_at": "2026-10-13T00:29:34Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.free_entry",
+        "cost.notes"
+      ],
+      "url": "https://www.ridleyroadmarketbar.com/",
+      "quote": "Free entry Tues-Thurs, and before 10pm Fri/Sat (£6 after 10pm Fri/Sat). No guestlist.",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "capacity"
+      ],
+      "url": "https://dice.fm/venue/ridley-road-market-bar-a28q",
+      "quote": "Capacity 150 Email",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/ridley-road-market-bar-a28q",
+      "quote": "49 Ridley Road, Dalston, London, E8 2NP, United Kingdom",
+      "retrieved_at": "2026-10-13T00:27:25Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:49:48Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:49:48Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

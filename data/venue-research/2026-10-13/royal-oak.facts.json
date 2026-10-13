@@ -1,0 +1,62 @@
+{
+  "venue_id": "royal-oak",
+  "venue_name": "Royal Oak",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "73 Columbia Road, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.royaloakbethnalgreen.co.uk/",
+          "quote": "73 Columbia Road, London, London, E2 7RG",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 7RG",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.royaloakbethnalgreen.co.uk/",
+          "quote": "73 Columbia Road, London, London, E2 7RG",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.royaloakbethnalgreen.co.uk/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.royaloakbethnalgreen.co.uk/",
+          "quote": "Just off Columbia Road Flower Market, the Royal Oak is a welcoming pub and restaurant in Bethnal Green",
+          "retrieved_at": "2026-10-13T00:12:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Own site is royaloakbethnalgreen.co.uk (Difford's lists royaloaklondon.com, which redirects there); the lead had no website, so the editor should set it. The home page gives address and phone only, and the tried pages /access, /accessibility, /faqs, /contact, /visit and /private-hire returned 404. Quiz and comedy nights are upstairs per DesignMyNight; whether upstairs is step-free is not stated in any page read. The CAMRA and Difford's entries give no access line. Web search was unavailable this run, so AccessAble and Euan's Guide were not checked."
+}

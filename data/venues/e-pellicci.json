@@ -1,0 +1,104 @@
+{
+  "id": "e-pellicci",
+  "name": "E. Pellicci",
+  "zone": "core",
+  "address": "332 Bethnal Green Road, London",
+  "postcode": "E2 0AG",
+  "website": "https://epellicci.co.uk",
+  "summary": "A family-run Italian café on Bethnal Green Road, established in 1900. Its early-1940s interior was given Grade II listed status in 2007.",
+  "music": {
+    "styles": [],
+    "notes": "An evening cocktail night on the first Thursday of the month."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/e-pellicci",
+      "quote": "We are an authentic Italian family cafe established in 1900",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/e-pellicci",
+      "quote": "Our beautiful interior, created in the early 1940’s by family friend and local genius carpenter Achille Capocci was awarded Grade 2 listing status in 2007.",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://epellicci.co.uk/pages/our-story",
+      "quote": "A Family-Run Café",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://epellicci.co.uk/pages/events",
+      "quote": "Join us for a night of cocktails on Thursday 1st October from 6:30pm - 10pm",
+      "retrieved_at": "2026-10-13T00:24:04Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://epellicci.co.uk/pages/events",
+      "quote": "Every 1st Thursday of the month",
+      "retrieved_at": "2026-10-13T00:24:04Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://epellicci.co.uk/",
+      "quote": "Serving the local community for over a century",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://epellicci.co.uk/pages/contact",
+      "quote": "332 Bethnal Green Road, London, UK, E2 0AG",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:46:55Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:46:55Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes: cut unquoted 'mainly a daytime café'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

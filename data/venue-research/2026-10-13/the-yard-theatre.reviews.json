@@ -1,0 +1,51 @@
+{
+  "venue_id": "the-yard-theatre",
+  "venue_name": "The Yard Theatre",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:13:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A charity theatre in Hackney Wick, E9, which left its original building in 2025 and now runs from a new one. Time Out calls it Hackney Wick's only theatre.",
+      "source_date": "2025-03-12",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.theyardtheatre.co.uk",
+          "quote": "We're a charity.",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.theyardtheatre.co.uk",
+          "quote": "A NEW YARD IS HERE",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/theatre/the-glass-menagerie-6-review",
+          "quote": "as it closes the doors of its original building not with a fringe curio but a revival of Tennessee Williams’s greatest play The Glass Menagerie",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/theatre/the-glass-menagerie-6-review",
+          "quote": "But it’s fair to say that Hackney Wick’s only theatre has come a long way in the 14 years since then",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Time Out review of The Glass Menagerie (Andrzej Lukowski, 12 March 2025) marks the close of the original building. The venue's own site (undated) shows a 2026 season with shows on sale, so it appears open. Older news (OnLondon, Dec 2024, and Mixmag, 2016, on a relocation) is not used here."
+}

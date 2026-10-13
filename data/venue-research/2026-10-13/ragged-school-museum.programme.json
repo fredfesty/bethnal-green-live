@@ -1,0 +1,58 @@
+{
+  "venue_id": "ragged-school-museum",
+  "venue_name": "Ragged School Museum",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:44Z",
+  "findings": [
+    {
+      "field": "music.notes",
+      "value": "Mainly a heritage museum with a monthly Sunday Victorian classroom lesson, school-holiday family activities and exhibitions. Its music event is a festival held each June.",
+      "source_date": "2026",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://raggedschoolmuseum.org.uk/whats-on/first-sunday-victorian-lesson/",
+          "quote": "On the first Sunday of every month, we invite you to step through our doors",
+          "retrieved_at": "2026-10-13T00:11:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://raggedschoolmuseum.org.uk/news-events/",
+          "quote": "Half Term: Free Family Activities",
+          "retrieved_at": "2026-10-13T00:11:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://raggedschoolmuseum.org.uk/news-events/",
+          "quote": "Fifth Ragged School Music Festival: Schubertiade",
+          "retrieved_at": "2026-10-13T00:11:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://raggedschoolmuseum.org.uk/news-events/",
+          "quote": "This June, the Ragged Music Festival returns with a very different kind of edition.",
+          "retrieved_at": "2026-10-13T00:11:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types: no quote calls it a music, theatre, gallery or community venue in its own words (it describes itself as a museum, which is not on the types list)",
+    "music.styles: the music festival names no genre repeatedly; one 2025 edition was titled Schubertiade and a chamber choir concert is listed without a usable date",
+    "cost.notes: no general pricing stated; the Victorian lessons and family activities are described without prices on the pages read",
+    "upcoming music nights: none listed for 2026 on the news page"
+  ],
+  "notes": "Nights found: First Sunday Victorian Lesson, monthly, two lessons at 11:30am and 12:45pm, 45 minutes each, led by an actor in Victorian costume (venue's page, undated); Summer holiday family activities (Thursdays in July 2026, news page); Half term family activities (Wednesday 18 and Thursday 19 February 2026, news page); Pattern Cutters exhibition (7 June to 6 July 2025); Fifth Ragged Music Festival: Schubertiade (20 to 22 June 2025). The annual music festival is the music scout's; only its place here is recorded."
+}

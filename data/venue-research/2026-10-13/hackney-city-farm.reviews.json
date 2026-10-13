@@ -1,0 +1,74 @@
+{
+  "venue_id": "hackney-city-farm",
+  "venue_name": "Hackney City Farm",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:54Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A free-to-visit city farm on Goldsmiths Row, E2, with farmyard animals, a garden, school visits and room hire. It is run as a registered charity.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://hackneycityfarm.co.uk/",
+          "quote": "Hackney City Farm is free to visit. As a small community charity",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://hackneycityfarm.co.uk/",
+          "quote": "Registered charity no. 291211",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://hackneycityfarm.co.uk/",
+          "quote": "Room & Party Hire",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The farm says it offers animal visits to children and grown-ups. Time Out says it draws locals and visitors alike.",
+      "source_date": "2025-07-14",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://hackneycityfarm.co.uk/",
+          "quote": "We offer children and grown-ups the opportunity to get up close to a range of farmyard animals.",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.timeout.com/london/attractions/hackney-city-farm",
+          "quote": "providing a welcome dose of nature for locals and visitors alike",
+          "retrieved_at": "2026-10-13T00:12:54Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "The Time Out page's structured data gives a 2025-07-14 date, but its other dates are 2019; the same site-wide stamp appears on other Time Out pages. The farm's own home page says 'Pottery closed 'til Sept.' while the farmyard is open. That is a closure of one part of the site, not the venue, so no status is proposed. Web search budget ran out, so further press reviews were not checked."
+}

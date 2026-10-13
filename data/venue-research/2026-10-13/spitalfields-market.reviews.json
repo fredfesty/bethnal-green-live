@@ -1,0 +1,41 @@
+{
+  "venue_id": "spitalfields-market",
+  "venue_name": "Spitalfields Market",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:27:03Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A covered market and shopping precinct on Brushfield Street, E1, combining a refurbished 1887 market hall with newer shops. The market calls itself a place for fashion, food and fun.",
+      "source_date": "2018-08-06",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/things-to-do/spitalfields-market",
+          "quote": "This East End stalwart combines the refurbished 1887 covered market with a modern shopping precinct.",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.spitalfields.co.uk/about/",
+          "quote": "Spitalfields Market is a 1-stop destination for fashion, food and fun, and the gateway to East London.",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "The Time Out review is dated 6 August 2018 and its opening hours are old, so it backs the history and layout only. The market's own site (About page) is current and describes the market in its own words. No recent press review was found. Spitalfields Market's own site lists events, which the programme researcher should check."
+}

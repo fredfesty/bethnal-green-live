@@ -1,0 +1,124 @@
+{
+  "id": "135-bar-and-lounge",
+  "name": "135 Bar & Lounge",
+  "about_venue_id": null,
+  "address": "135 Cambridge Heath Road, Bethnal Green, London",
+  "postcode": "E1 5RN",
+  "website": "https://www.135-barandlounge.co.uk/",
+  "found_by": "listings",
+  "signal": "new",
+  "kind_hint": "bar and lounge with live blues, jazz and jam nights",
+  "evidence": [
+    {
+      "fields": [
+        "name",
+        "website"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/",
+      "quote": "135 Bar & Lounge Bethnal Green",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/",
+      "quote": "135 Cambridge Heath Road",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/",
+      "quote": "Amazing live blues, dancing and cocktails!",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/",
+      "quote": "Friday 16th October",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/135-bar-and-lounge/ellie-harris-trio-jam-live-at-135-bar-lounge",
+      "quote": "135, Cambridge Heath Road, E1 5RN",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/135-bar-and-lounge/ellie-harris-trio-jam-live-at-135-bar-lounge",
+      "quote": "Thursday 15th October 2026 and 5 other Thursdays",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/135-bar-and-lounge/ellie-harris-trio-jam-live-at-135-bar-lounge",
+      "quote": "Thursday 29th October 2026",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/135-bar-and-lounge/ellie-harris-trio-jam-live-at-135-bar-lounge",
+      "quote": "Thursday 12th November 2026",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/135-bar-and-lounge/ellie-harris-trio-jam-live-at-135-bar-lounge",
+      "quote": "Thursday 26th November 2026",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/135-bar-and-lounge/ellie-harris-trio-jam-live-at-135-bar-lounge",
+      "quote": "Thursday 10th December 2026",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/135-bar-and-lounge/ellie-harris-trio-jam-live-at-135-bar-lounge",
+      "quote": "Thursday 24th December 2026",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/135-bar-and-lounge/ellie-harris-trio-jam-live-at-135-bar-lounge",
+      "quote": "19:30 - 23:00",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "aggregator"
+    }
+  ],
+  "found_at": "2026-10-13T00:07:00Z",
+  "notes": "Events: Live Blues Night, Fri 16 Oct 2026, 8PM-2AM (own site). Ellie Harris Trio Jam on Thursdays 15 Oct, 29 Oct, 12 Nov, 26 Nov, 10 Dec and 24 Dec 2026, 19:30 to 23:00 per DesignMyNight (its description says 7:30 pm to 11:30 pm). Core zone (Cambridge Heath Road). No DICE or Ticket Tailor page found."
+}

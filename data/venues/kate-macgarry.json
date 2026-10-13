@@ -1,0 +1,84 @@
+{
+  "id": "kate-macgarry",
+  "name": "Kate MacGarry",
+  "zone": "core",
+  "address": "27 Old Nichol Street, London",
+  "postcode": "E2 7HR",
+  "website": "https://www.katemacgarry.com",
+  "summary": "A contemporary art gallery at 27 Old Nichol Street, founded in 2002 and representing about 25 emerging and established artists.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://londongalleryweekend.art/galleries/174-kate-macgarry/",
+      "quote": "Kate MacGarry, founded in 2002, has expanded to represent 25 emerging and established artists",
+      "retrieved_at": "2026-10-13T00:12:38Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.whitechapelgallery.org/first-thursdays/galleries/first-thursdays-galleries-kate-macgarry/",
+      "quote": "Kate MacGarry is a contemporary art gallery located in London.",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.katemacgarry.com/contact/",
+      "quote": "Kate MacGarry has expanded to represent over 25 emerging and established artists",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.katemacgarry.com/contact/",
+      "quote": "27 Old Nichol Street",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.katemacgarry.com/contact/",
+      "quote": "London E2 7HR",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:41:11Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:41:11Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

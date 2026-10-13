@@ -1,0 +1,212 @@
+{
+  "venue_id": "hackney-city-farm",
+  "venue_name": "Hackney City Farm",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:21:07Z",
+  "findings": [
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.step_free"
+          ],
+          "url": "https://hackneycityfarm.co.uk/visit/",
+          "quote": "Step-free access",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.step_free"
+          ],
+          "url": "https://hackneycityfarm.co.uk/visit/",
+          "quote": "There are no steps around the garden paths",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://hackneycityfarm.co.uk/visit/",
+          "quote": "There is an accessible toilet and baby changing facilities in the cafe.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The driveway and farmyard are cobbled. There is a ramp at the rear entrance of the main building, and one at the side entrance on request. Garden paths mix concrete, woodchip and cobbles. Guide dogs are allowed everywhere on site, including the farmyard. Groups of more than 10, or anyone with special needs, should book ahead.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://hackneycityfarm.co.uk/visit/",
+          "quote": "The driveway and farmyard are cobbled.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://hackneycityfarm.co.uk/visit/",
+          "quote": "a ramp can be made available at the side entrance, just ask a member of staff",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://hackneycityfarm.co.uk/visit/",
+          "quote": "Guide dogs are allowed in all parts of Hackney City Farm",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://hackneycityfarm.co.uk/visit/",
+          "quote": "For groups of more than 10, or have special needs, please book in advance.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://hackneycityfarm.co.uk/visit/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.access_page"
+          ],
+          "url": "https://hackneycityfarm.co.uk/visit/",
+          "quote": "There is a ramp at the rear entrance of the main building",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.free_entry",
+      "value": "always",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.free_entry"
+          ],
+          "url": "https://hackneycityfarm.co.uk/visit/",
+          "quote": "Entry to Hackney City Farm is free.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.free_entry"
+          ],
+          "url": "https://hackneycityfarm.co.uk/",
+          "quote": "Hackney City Farm is free to visit.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Donations are welcome. Classes and workshops are listed separately, not as admission.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://hackneycityfarm.co.uk/visit/",
+          "quote": "Entry to Hackney City Farm is free. Donations are welcome!",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://hackneycityfarm.co.uk/visit/",
+          "quote": "Please visit classes for details or the what's on calendar.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "1a Goldsmiths Row",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://hackneycityfarm.co.uk/visit/",
+          "quote": "1a Goldsmiths Row",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 8QA",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://hackneycityfarm.co.uk/visit/",
+          "quote": "London E2 8QA",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://hackneycityfarm.co.uk/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://hackneycityfarm.co.uk/",
+          "quote": "Hackney City Farm is free to visit.",
+          "retrieved_at": "2026-10-13T00:21:07Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.hearing_loop (not stated)",
+    "age_policy (not stated)",
+    "capacity (not stated)"
+  ],
+  "notes": "Farmyard hours per the visit page: Tuesday to Sunday 10:00 to 16:30, closed Mondays except bank holidays, with some evening activities. The home page also shows pottery as closed until September, a dated note for the editor and not a profile field. The step-free statement comes from a heading and describes the cobbled farmyard, so the editor should check the wording before publishing."
+}

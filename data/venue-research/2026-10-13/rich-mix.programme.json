@@ -1,0 +1,120 @@
+{
+  "venue_id": "rich-mix",
+  "venue_name": "Rich Mix",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "arts-centre"
+      ],
+      "source_date": "2026-09-17",
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
+          "quote": "The charity-run arts venue and cinema in Shoreditch",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "types",
+      "value": [
+        "gig-venue"
+      ],
+      "source_date": "2026-09-17",
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
+          "quote": "Rich Mix will remain open for gigs and festivals.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Gigs and festivals in its main room, The Stage. Club and grime nights open with a screening and talk in the cinema, then a gig. Autumn 2026 listings include a K-music festival, a West African music gig and a 'London, From the Margins' season of music and talks. The cinema is paused until autumn 2027.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/event/7d5r8b-brick-by-brick-grime-14th-nov-rich-mix-london-tickets",
+          "quote": "The gig will take place in The Stage.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/event/7d5r8b-brick-by-brick-grime-14th-nov-rich-mix-london-tickets",
+          "quote": "Brick by Brick: Grime",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/event/q2dbxp-after-dark-club-28th-nov-rich-mix-london-tickets",
+          "quote": "After Dark: Club",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/event/pyby3w-manding-melody-featuring-habib-koite-sura-susso-1st-nov-rich-mix-london-tickets",
+          "quote": "Soulful vocals, shimmering kora melodies and complex rhythmic Malian guitar in",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
+          "quote": "a special programme of music, talks and occasional film screenings",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/event/7d5r8b-brick-by-brick-grime-14th-nov-rich-mix-london-tickets",
+          "quote": "Screening & Talk",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
+          "quote": "our recently announced London, From the Margins season",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no genre named on more than one night; the venue's own pages name genres only on single events",
+    "cost.notes: only per-event prices on DICE, no general pricing stated",
+    "richmix.org.uk: returned 403, not read or fetched"
+  ],
+  "notes": "Upcoming nights on DICE (venue page, read 2026-10-13): K-MUSIC FESTIVAL: CHUDAHYE CHAGIS, Sat 17 Oct 2026, 7:30pm (gig, described as psychedelic shamanic funk); Manding Melody featuring Habib Koite & Sura Susso, Sun 1 Nov 2026, 7pm; Brick by Brick: Grime, Sat 14 Nov 2026, screening and talk 6:30pm then gig; After Dark: Club, Sat 28 Nov 2026, screening and talk then gig. Time Out (17 Sep 2026) says the cinema is paused for 12 months and the building stays open for live events; that is for the reviews researcher to weigh as status."
+}

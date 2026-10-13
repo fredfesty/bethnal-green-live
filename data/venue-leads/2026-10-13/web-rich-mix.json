@@ -1,0 +1,44 @@
+{
+  "id": "rich-mix",
+  "name": "Rich Mix",
+  "about_venue_id": "rich-mix",
+  "address": null,
+  "postcode": null,
+  "website": null,
+  "found_by": "web",
+  "signal": "temporarily-closed",
+  "kind_hint": null,
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": [
+        "name",
+        "signal"
+      ],
+      "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
+      "quote": "East London’s Rich Mix has paused its cinema screenings for the next 12 months",
+      "retrieved_at": "2026-10-13T00:05:41Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
+      "quote": "The building remains open this autumn, with a busy programme of live events,",
+      "retrieved_at": "2026-10-13T00:05:41Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.timeout.com/london/news/one-of-east-londons-top-indie-cinemas-wont-show-films-until-next-year-091726",
+      "quote": "The new-look cinema is earmarked for reopening in autumn 2027.",
+      "retrieved_at": "2026-10-13T00:05:41Z",
+      "source_kind": "press"
+    }
+  ],
+  "found_at": "2026-10-13T00:05:41Z",
+  "notes": "Time Out, 17 Sept 2026, is inside six months. Only the cinema is paused; the building stays open for gigs, so not a closure. 'temporarily-closed' is the nearest signal; editor to decide. richmix.org.uk returned 403 and was not read."
+}

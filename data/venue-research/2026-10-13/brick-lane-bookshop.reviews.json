@@ -1,0 +1,64 @@
+{
+  "venue_id": "brick-lane-bookshop",
+  "venue_name": "Brick Lane Bookshop",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:35Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "An independent bookshop on Brick Lane, begun in 1978 as a community project, with a range of fiction, local history and non-fiction, and community events.",
+      "source_date": "2025-03-06",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/shopping/brick-lane-books",
+          "quote": "Established in 1978 as a community project",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/shopping/brick-lane-books",
+          "quote": "It stocks a great range of fiction, local history and the usual non-fiction sections",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/shopping/brick-lane-books",
+          "quote": "these days hosts various community events",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "aliases",
+      "value": ["Eastside Books", "Tower Hamlets Arts Project"],
+      "source_date": "2025-03-06",
+      "evidence": [
+        {
+          "fields": ["aliases"],
+          "url": "https://www.timeout.com/london/shopping/brick-lane-books",
+          "quote": "first becoming Eastside Books",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["aliases"],
+          "url": "https://www.timeout.com/london/shopping/brick-lane-books",
+          "quote": "known as the Tower Hamlets Arts Project",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status"
+  ],
+  "notes": "The venue's own website was not reachable: the domains guessed were unreachable, and no search for its own site could run after the search budget ran out. Time Out is the only source read. Its 2024 award news (London winner of Independent Bookshop of the Year) is older than six months and is not used for status."
+}

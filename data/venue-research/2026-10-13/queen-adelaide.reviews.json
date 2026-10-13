@@ -1,0 +1,86 @@
+{
+  "venue_id": "queen-adelaide",
+  "venue_name": "The Queen Adelaide",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:26:56Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A bar on Hackney Road with draught beer and cider and a basement used for club nights. A listings site describes it as a queer venue for dance music.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.thequeenadelaide.com/",
+          "quote": "483 Hackney Road",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.thequeenadelaide.com/",
+          "quote": "Draught beer and cider. Selection of wines and spirits.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://ma.to/venue/thequeenadelaide",
+          "quote": "Located in East London, The Queen Adelaide is a vital basement venue dedicated to queer culture, community connection, and underground dance music",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "house",
+        "disco",
+        "hi-nrg",
+        "italo disco",
+        "electroclash"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://ma.to/venue/thequeenadelaide",
+          "quote": "Its basement space hosts frequent club nights soundtracked by Hi-NRG, Italo disco, electroclash, and house.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Club nights in the basement, often queer-focused, according to a listings site.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/thequeenadelaide",
+          "quote": "The Queen Adelaide hosts a variety of queer-focused club nights featuring genres like house, disco, and electroclash in its basement space.",
+          "retrieved_at": "2026-10-13T00:26:56Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "status",
+    "aliases"
+  ],
+  "notes": "WebSearch budget was used up, so no independent press review was found. Time Out's bars-and-pubs page under this name is a Putney pub (2018) and was not used. The queer description comes only from ma.to, not from the venue's own site, so no crowd is proposed. Club Shilpa on ma.to is dated 13 Nov 2026."
+}

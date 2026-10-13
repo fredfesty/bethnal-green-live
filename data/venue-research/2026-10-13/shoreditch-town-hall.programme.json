@@ -1,0 +1,85 @@
+{
+  "venue_id": "shoreditch-town-hall",
+  "venue_name": "Shoreditch Town Hall",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:14:56Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "theatre",
+        "community-venue"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://shoreditchtownhall.com/whats-on",
+          "quote": "Theatre & Performance",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://shoreditchtownhall.com/whats-on",
+          "quote": "Community & Family",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://shoreditchtownhall.com/",
+          "quote": "Local Community Hires",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Mostly theatre, dance and a musical rather than gigs: autumn tea dances and beginners' dance classes, a musical running into November, and monthly theatre training. No gig listed on the page read.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://shoreditchtownhall.com/whats-on",
+          "quote": "Ceilidh The Musical",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://shoreditchtownhall.com/whats-on",
+          "quote": "Town Hall Tea Dance & Beginners’ Dance Class Autumn 2026",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://shoreditchtownhall.com/whats-on",
+          "quote": "Monthly, Sep - Nov 2026",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles (no genre named on the pages read)",
+    "cost.notes (no general pricing found)",
+    "regular gig nights (none listed)"
+  ],
+  "notes": "Past and upcoming nights seen: Ceilidh The Musical (Thu 23 Oct to Fri 13 Nov 2026); Mod Taster Menu (Tue 20 Oct 2026); Workshop – Re:Treat (Mon 19 to Fri 23 Oct 2026); LUNG: Woodhill (Sat 14 to Thu 19 Nov 2026); Town Hall Tea Dance and beginners’ dance class (September and December 2026). Monthly Theatre Re training classes run September to November 2026. The page has a Music & Gigs category but no gig was listed when read."
+}

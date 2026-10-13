@@ -1,0 +1,83 @@
+{
+  "venue_id": "satans-whiskers",
+  "venue_name": "Satan's Whiskers",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:24:04Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "bar"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.satanswhiskers.com/",
+          "quote": "Satan’s Whiskers is Bethnal Green’s original neighbourhood cocktail bar",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "hip-hop"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.satanswhiskers.com/",
+          "quote": "all to our now infamous hip-hop soundtrack",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A cocktail bar with a hip-hop soundtrack and a daily changing menu, open from 5pm. Its site lists no events, live nights or guest shifts.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.satanswhiskers.com/",
+          "quote": "all to our now infamous hip-hop soundtrack",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.satanswhiskers.com/",
+          "quote": "5pm till late Sunday to Thursday",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.satanswhiskers.com/",
+          "quote": "The daily changing menu means that even if you live in the neighbourhood",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "events and dated nights on the venue's site (none listed)",
+    "live music or DJ nights"
+  ],
+  "notes": "No dated events found. The site has no events section; the registry notes that guest bartender shifts and takeovers appear only on Instagram, which was not fetched. The hip-hop soundtrack is stated once, so it is recorded as the venue's own description rather than a pattern across nights."
+}

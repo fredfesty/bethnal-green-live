@@ -1,0 +1,85 @@
+{
+  "venue_id": "maureen-paley",
+  "venue_name": "Maureen Paley",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:32Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A contemporary art gallery in Bethnal Green, begun in 1984 in a terraced house in the East End and in Bethnal Green's industrial spaces since 1999. The gallery says it was one of the first to show contemporary art in the East End.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.maureenpaley.com/about",
+          "quote": "The gallery programme began in 1984 in a Victorian terraced house in London’s East End.",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.maureenpaley.com/about",
+          "quote": "Since September 1999, the gallery has been situated in industrial spaces in Bethnal Green.",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.maureenpaley.com/about",
+          "quote": "Maureen Paley was one of the first to present contemporary art in London’s East End",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.theartnewspaper.com/2024/09/16/40-years-of-maureen-paley-gallery",
+          "quote": "The Maureen Paley mothership is currently situated in an industrial space in Bethnal Green",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2024-09-16"
+    },
+    {
+      "field": "aliases",
+      "value": [
+        "Interim Art"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "aliases"
+          ],
+          "url": "https://www.maureenpaley.com/about",
+          "quote": "Initially named Interim Art, the gallery changed its name to Maureen Paley in 2004",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "aliases"
+          ],
+          "url": "https://www.theartnewspaper.com/2024/09/16/40-years-of-maureen-paley-gallery",
+          "quote": "Interim Art, as it was first called",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2024-09-16"
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status (no closure news found for the Bethnal Green gallery; the closing and new-owner searches were not run because the search budget ran out)"
+  ],
+  "notes": "The about page lists press coverage and says 'Studio M ... operated from 2020 to 2026'. That is a different space in Shoreditch, not this venue. Its homepage lists exhibitions at '4 Herald Street' and '60 Three Colts Lane' from 9 October to 12 December 2026. The Herald Street address may not be the same venue as herald-st; the facts researcher should check."
+}

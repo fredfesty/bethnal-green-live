@@ -1,0 +1,101 @@
+{
+  "venue_id": "maureen-paley",
+  "venue_name": "Maureen Paley",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:10:44Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "60 Three Colts Lane, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.maureenpaley.com/contact",
+          "quote": "60 Three Colts Lane London E2 6GQ",
+          "retrieved_at": "2026-10-13T00:10:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 6GQ",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.maureenpaley.com/contact",
+          "quote": "60 Three Colts Lane London E2 6GQ",
+          "retrieved_at": "2026-10-13T00:10:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.maureenpaley.com",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.maureenpaley.com/",
+          "quote": "Maureen Paley, 60 Three Colts Lane",
+          "retrieved_at": "2026-10-13T00:10:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The Three Colts Lane gallery is described as wheelchair accessible; no step-free statement is proposed beyond that. The second space at 4 Herald Street, London E2 6JT is on the first floor, reached by stairs only, and visitors press a bell to be let in.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.maureenpaley.com/contact",
+          "quote": "The gallery is wheelchair accessible",
+          "retrieved_at": "2026-10-13T00:10:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.maureenpaley.com/contact",
+          "quote": "Please note the gallery is located on the first floor with access via stairs only",
+          "retrieved_at": "2026-10-13T00:10:44Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.maureenpaley.com/contact",
+          "quote": "Press the bell for Maureen Paley to gain access",
+          "retrieved_at": "2026-10-13T00:10:44Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "The site has no access page (/visit, /info, /access and /accessibility are 404). 'Wheelchair accessible' is recorded in notes, not as step_free, for a person to decide. The Herald Street space is Maureen Paley's, not the Herald St gallery at 2 Herald St."
+}

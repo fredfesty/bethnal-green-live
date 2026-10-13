@@ -1,0 +1,107 @@
+{
+  "id": "mare-street-market",
+  "name": "Mare Street Market",
+  "zone": "fringe",
+  "address": "117 Mare Street, Hackney, London",
+  "postcode": "E8 4RU",
+  "website": "https://marestreetmarket.com",
+  "summary": "A venue of independent restaurants and shops at 117 Mare Street in Hackney, with a second site at King's Cross. It also works as a bar and deli.",
+  "music": {
+    "styles": [],
+    "notes": "DJ sets, including Enjoy Fridays sessions, free-entry daytime sets and sessions with Stranger Than Paradise Records DJs."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": null,
+    "notes": "At the Hackney site, step-free access is by a ramp on Watergate Street that leads into the Deli entrance."
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://marestreetmarket.com/",
+      "quote": "Discover Mare Street Market: Enjoy independent restaurants and unique retail in Hackney and King’s Cross.",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://ma.to/venue/marestreetmarket",
+      "quote": "functioning as a restaurant, bar, and deli under one roof",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "quote": "Enjoy Fridays With Maurice Alexander",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://ma.to/venue/marestreetmarket",
+      "quote": "Free-entry daytime set in Mare Street Music's October programme.",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://marestreetmarket.com/",
+      "quote": "Stranger Than Paradise Records DJs",
+      "retrieved_at": "2026-10-13T00:24:44Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.notes"
+      ],
+      "url": "https://marestreetmarket.com/",
+      "quote": "Mare Street Market Hackney offers step-free access via a ramp on Watergate Street, leading directly into the Deli entrance.",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://marestreetmarket.com/contact-hackney/",
+      "quote": "117 Mare Street Hackney, London, E8 4RU",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:49:03Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:49:03Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

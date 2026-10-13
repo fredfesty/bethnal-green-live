@@ -1,0 +1,115 @@
+{
+  "id": "cafe-oto",
+  "name": "Cafe OTO",
+  "about_venue_id": null,
+  "address": "18–22 Ashwin Street, Dalston, London",
+  "postcode": "E8 3DL",
+  "website": "https://www.cafeoto.co.uk/",
+  "found_by": "listings",
+  "signal": "new",
+  "kind_hint": "cafe and concert venue for creative new and experimental music",
+  "evidence": [
+    {
+      "fields": [
+        "name",
+        "website"
+      ],
+      "url": "https://www.cafeoto.co.uk/info/",
+      "quote": "Info ← Cafe OTO",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.cafeoto.co.uk/info/",
+      "quote": "18–22 Ashwin street",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.cafeoto.co.uk/info/",
+      "quote": "Dalston London E8 3DL",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://www.cafeoto.co.uk/info/",
+      "quote": "Cafe OTO provides a home for creative new music that exists outside of the mainstream",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.cafeoto.co.uk/",
+      "quote": "Thursday 15 October 2026",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.cafeoto.co.uk/",
+      "quote": "Upset the Rhythm: WOLF EYES + CUNTROACHES – Day One",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.cafeoto.co.uk/",
+      "quote": "Wednesday 14 October 2026",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.cafeoto.co.uk/",
+      "quote": "Saturday 17 October 2026",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.cafeoto.co.uk/",
+      "quote": "Saturday 28 November 2026",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.cafeoto.co.uk/",
+      "quote": "Monday 30 November 2026",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "signal"
+      ],
+      "url": "https://www.cafeoto.co.uk/",
+      "quote": "Tuesday 15 December 2026",
+      "retrieved_at": "2026-10-13T00:07:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "found_at": "2026-10-13T00:07:00Z",
+  "notes": "Events on its own programme page: Wed 14 Oct 2026 Delphine Joussein; Thu 15 and Fri 16 Oct 2026 Upset the Rhythm: WOLF EYES (two days); Sat 17 Oct 2026 the87press Mushaira; later dates 28 Nov, 30 Nov and 15 Dec 2026. Dalston is outer zone: standout nights only (worth_the_trip). The programme page is primary."
+}

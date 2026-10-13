@@ -1,0 +1,56 @@
+{
+  "venue_id": "carlos-ishikawa",
+  "venue_name": "Carlos/Ishikawa",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:10:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["gallery"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.carlosishikawa.com/",
+          "quote": "dedicated to considered and ambitious exhibitions",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Exhibitions by its artists, with solo and group shows at the gallery. Its homepage also lists shows by its artists at museums abroad, which are not at the gallery (not music).",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.carlosishikawa.com/",
+          "quote": "Maxwell Alexandre",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.carlosishikawa.com/",
+          "quote": "Black painter, white figuration",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.carlosishikawa.com/",
+          "quote": "Astrup Fearnley Museet, Oslo",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: not applicable, no music nights seen",
+    "cost.notes: no pricing found on the pages read",
+    "a recurring event (talks, openings, late nights): none found on the homepage or exhibitions page read"
+  ],
+  "notes": "Current gallery show seen: Maxwell Alexandre, Black painter, white figuration, 9 Oct to 28 Nov 2026 (listed first on the homepage). Only the homepage and exhibitions page were read; the /about address returned 404."
+}

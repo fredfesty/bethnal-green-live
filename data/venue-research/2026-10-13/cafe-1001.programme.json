@@ -1,0 +1,97 @@
+{
+  "venue_id": "cafe-1001",
+  "venue_name": "Café 1001",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:23:52Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["dj-bar", "bar"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.cafe1001.co.uk",
+          "quote": "finding guest DJs to join us in our bespoke hand-built DJ booth",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://ma.to/venue/cafe_1001",
+          "quote": "transitions from a daytime cafe into an intimate hi-fi listening bar after dark",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["house", "disco", "funk", "garage", "soul"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://ma.to/venue/cafe_1001",
+          "quote": "The space features a wide-ranging programme including house, disco, funk, balearic, broken beat, and UK Garage.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://ma.to/venue/cafe_1001",
+          "quote": "Event series for classic 90s house, US garage and soulful house.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://ma.to/venue/cafe_1001",
+          "quote": "Obscure funk, soul, and deep-disco as Euan and Lel take over Brick Lane for the night.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A daytime cafe that turns into a hi-fi listening bar after dark: guest DJ sets, regular listening parties, midweek sessions where guests bring their own records, a Thursday night party streamed live as Radio 1001, and themed club nights such as the Athens of the North Disco Club.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/cafe_1001",
+          "quote": "Expect regular listening parties, DJ sets, and events like the midweek BYOV sessions.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/cafe_1001",
+          "quote": "Bring your own wax and hear it spun on the hi-fi system at a midweek music social.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/cafe_1001",
+          "quote": "Thursday night party with London talent, recorded and streamed live from a custom booth.",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.cafe1001.co.uk",
+          "quote": "HIFI by NIGHT",
+          "retrieved_at": "2026-10-13T00:23:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "cost.notes (no general pricing found)",
+    "events listed on the venue's own site (the site shows no dated events; the nights come from ma.to)"
+  ],
+  "notes": "Upcoming on ma.to: Athens of the North Disco Club, Fri 30 Oct 2026 19:00 (ma.to startDate 2026-10-30T19:00). Past on ma.to: Close To The Source; Groove Candy (classic 90s house, US garage and soulful house, a series); Radio 1001 Live (Thursday, streamed, listed twice); BYOV hosted by Majoris Music (midweek). Its own homepage was last modified 2026-10-12 and still lists no dated events."
+}

@@ -1,0 +1,67 @@
+{
+  "venue_id": "brick-lane-bookshop",
+  "venue_name": "Brick Lane Bookshop",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:19:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "166 Brick Lane, London",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode",
+            "website"
+          ],
+          "url": "https://bricklanebookshop.org/contact-us/",
+          "quote": "166 Brick Lane London E1 6RU",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 6RU",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://bricklanebookshop.org/contact-us/",
+          "quote": "166 Brick Lane London E1 6RU",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://bricklanebookshop.org",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://bricklanebookshop.org/contact-us/",
+          "quote": "166 Brick Lane London E1 6RU",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Opening hours are not a profile field. The contact page says 'Open every day 10am – 6pm.' while its structured data says 09:00-17:00; the editor should check which is current. Its site has no access page."
+}

@@ -1,0 +1,50 @@
+{
+  "venue_id": "rio-cinema",
+  "venue_name": "Rio Cinema",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:13:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A community-run cinema on Kingsland High Street in Dalston. Apollo Magazine marks its half-century as a community-run cinema and calls it Britain's oldest continuously operating cinema.",
+      "source_date": "2026-04-29",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://apollo-magazine.com/rio-cinema-dalston-east-london/",
+          "quote": "The beloved Hackney picture house is celebrating 50 years as a community-run enterprise",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://apollo-magazine.com/rio-cinema-dalston-east-london/",
+          "quote": "as Britain’s oldest continuously operating cinema, its roots go much further back",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://apollo-magazine.com/rio-cinema-dalston-east-london/",
+          "quote": "even in a thoroughfare as tumultuous as Kingsland High Street in Dalston",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Apollo Magazine feature (Damian Thompson, 29 April 2026) is the only recent press found. The venue's own site lists films on sale for October 2026 and shows no closure notice. Older news (Time Out and Hackney Citizen, 2020, on a possible commercial sell-off and funding concerns) is more than six months old and is not used. Cinema, so no music fields."
+}

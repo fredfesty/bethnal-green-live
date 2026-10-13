@@ -1,0 +1,169 @@
+{
+  "id": "chisenhale-gallery",
+  "name": "Chisenhale Gallery",
+  "zone": "fringe",
+  "address": "64 Chisenhale Road, London",
+  "postcode": "E3 5QZ",
+  "website": "https://chisenhale.org.uk",
+  "summary": "A contemporary art gallery on Chisenhale Road, founded by artists, that commissions and produces art and publishes books and online material.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "notes": "The entrance has a slope and a 2cm raised lip on the door frame; the narrowest ground-floor point is 90cm wide. Folding chairs and relaxed sessions are available on request, assistance animals are welcome, and baby changing is in the accessible toilet.",
+    "access_page": "https://chisenhale.org.uk/visit/"
+  },
+  "cost": {
+    "free_entry": "always"
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://chisenhale.org.uk/what-we-do/",
+      "quote": "We commission and produce contemporary art, publish books and online material, and actively engage in social projects.",
+      "retrieved_at": "2026-10-13T00:12:38Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://chisenhale.org.uk/what-we-do/",
+      "quote": "Chisenhale Gallery was founded by artists.",
+      "retrieved_at": "2026-10-13T00:11:36Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.access_page"
+      ],
+      "url": "https://chisenhale.org.uk/visit/",
+      "quote": "Chisenhale Gallery is step-free and suitable for wheelchair users.",
+      "retrieved_at": "2026-10-13T00:11:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://chisenhale.org.uk/visit/",
+      "quote": "There is one accessible universal toilet onsite that is used by both staff and visitors.",
+      "retrieved_at": "2026-10-13T00:11:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://chisenhale.org.uk/visit/",
+      "quote": "Visitors should be aware that there is a slope upon entrance to the gallery.",
+      "retrieved_at": "2026-10-13T00:11:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://chisenhale.org.uk/visit/",
+      "quote": "The narrowest access point on our ground floor is a width of 90cm.",
+      "retrieved_at": "2026-10-13T00:11:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://chisenhale.org.uk/visit/",
+      "quote": "As you enter the building there is a raised lip as part of the door frame which is 2cm off the ground.",
+      "retrieved_at": "2026-10-13T00:11:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://chisenhale.org.uk/visit/",
+      "quote": "We are able to provide folding chairs to any visitors who may need to sit down regularly.",
+      "retrieved_at": "2026-10-13T00:11:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://chisenhale.org.uk/visit/",
+      "quote": "We are happy to offer relaxed sessions upon request",
+      "retrieved_at": "2026-10-13T00:11:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://chisenhale.org.uk/visit/",
+      "quote": "Assistance animals are always welcome.",
+      "retrieved_at": "2026-10-13T00:11:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://chisenhale.org.uk/visit/",
+      "quote": "Baby changing facilities are available, located within our accessible universal toilet.",
+      "retrieved_at": "2026-10-13T00:11:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.free_entry"
+      ],
+      "url": "https://chisenhale.org.uk/visit/",
+      "quote": "Free entry",
+      "retrieved_at": "2026-10-13T00:11:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://chisenhale.org.uk/",
+      "quote": "© Chisenhale Gallery 2026",
+      "retrieved_at": "2026-10-13T00:11:30Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://chisenhale.org.uk/",
+      "quote": "64 Chisenhale Road, London, E3 5QZ",
+      "retrieved_at": "2026-10-13T00:11:30Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:42:18Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:42:18Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

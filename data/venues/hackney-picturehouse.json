@@ -1,0 +1,144 @@
+{
+  "id": "hackney-picturehouse",
+  "name": "Hackney Picturehouse",
+  "zone": "outer",
+  "address": "270 Mare Street",
+  "postcode": "E8 1HE",
+  "website": "https://www.picturehouses.com/cinema/hackney-picturehouse",
+  "summary": "A six-screen Picturehouse cinema on Mare Street that also hosts comedy nights as The Attic Comedy Club.",
+  "music": {
+    "styles": [],
+    "notes": "Film Q&As and special seasons, and a comedy night called The Attic Comedy Club."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": true,
+    "notes": "Screen 4 is on the ground floor. Screens 1, 2 and 6 are on the second floor and reached by lift. Screen 5 is up three flights of stairs or by a lift that was out of order when the page was read. Carers can get a free ticket.",
+    "access_page": "https://www.picturehouses.com/cinema/10/accessibility"
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.picturehouses.com/cinema/hackney-picturehouse/information",
+      "quote": "Picturehouse Cinemas and architects Panter Hudspith transformed the building into a six-screen venue",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "music.notes"
+      ],
+      "url": "https://www.picturehouses.com/cinema/hackney-picturehouse",
+      "quote": "The Attic Comedy Club",
+      "retrieved_at": "2026-10-13T00:12:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.picturehouses.com/cinema/hackney-picturehouse",
+      "quote": "Q&As, world class arts events, and special film seasons",
+      "retrieved_at": "2026-10-13T00:12:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.picturehouses.com/cinema/hackney-picturehouse",
+      "quote": "Bringing families together through the love of cinema",
+      "retrieved_at": "2026-10-13T00:12:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://www.picturehouses.com/cinema/10/accessibility",
+      "quote": "All of our accessible toilets are unlocked at all times and all include baby changing facilities.",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.picturehouses.com/cinema/10/accessibility",
+      "quote": "Screen 4 is located on the ground floor and is fully accessible.",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.picturehouses.com/cinema/10/accessibility",
+      "quote": "Screens 1,2 and 6 are located on the second floor and are accessible to customers with limited mobility via a lift",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.picturehouses.com/cinema/10/accessibility",
+      "quote": "Our screen 5 is accessible via 3 flights of stairs, or a lift (currently out of order but we hope will be fixed soon).",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.picturehouses.com/cinema/10/accessibility",
+      "quote": "accompanying carers are eligible for a free ticket",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.access_page"
+      ],
+      "url": "https://www.picturehouses.com/cinema/10/accessibility",
+      "quote": "This page explains the current facilities for people with disabilities",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.picturehouses.com/cinema/hackney-picturehouse/information",
+      "quote": "270 Mare Street London E8 1HE",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:43:27Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:43:27Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes: cut unquoted 'family screenings'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

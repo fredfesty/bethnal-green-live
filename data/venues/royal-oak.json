@@ -1,0 +1,142 @@
+{
+  "id": "royal-oak",
+  "name": "Royal Oak",
+  "zone": "core",
+  "aliases": [
+    "Upstairs At The Royal Oak"
+  ],
+  "types": [
+    "pub"
+  ],
+  "location": {
+    "lat": 51.529302,
+    "lon": -0.069246,
+    "distance_m": 1025,
+    "source": "postcodes.io"
+  },
+  "discovered": {
+    "first_seen": "2026-10-13",
+    "found_by": [
+      "listings"
+    ]
+  },
+  "address": "73 Columbia Road, London",
+  "postcode": "E2 7RG",
+  "website": "https://www.royaloakbethnalgreen.co.uk/",
+  "summary": "A pub on Columbia Road with a bar downstairs and a dining room upstairs, where Time Out's 2023 review found Modern European cooking. Time Out also notes it appeared in the sitcom Goodnight Sweetheart.",
+  "music": {
+    "styles": [],
+    "notes": "A monthly pub quiz upstairs on the last Wednesday of the month, listed on DesignMyNight."
+  },
+  "crowd": "Time Out (2023) says Fridays and Saturdays can get uncomfortably busy, and Sundays can be a crush because of the flower market outside.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "types",
+        "summary",
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/royal-oak-1",
+      "quote": "Downstairs in the good-looking pub, built around a handsome central bar",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "aliases"
+      ],
+      "url": "https://www.designmynight.com/london/pubs/bethnal-green/upstairs-at-the-royal-oak/pub-quiz",
+      "quote": "Upstairs At The Royal Oak",
+      "retrieved_at": "2026-10-13T00:16:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/royal-oak-1",
+      "quote": "Upstairs is a cultured, calm and almost sedate dining room, within which nouveau EastEnders tuck into expensive but impressive Modern European cooking.",
+      "retrieved_at": "2026-10-13T00:16:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/royal-oak-1",
+      "quote": "Keen-eyed sitcom enthusiasts may recognise the Royal Oak from its starring role in Goodnight Sweetheart",
+      "retrieved_at": "2026-10-13T00:16:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/royal-oak-1",
+      "quote": "Fridays and Saturdays can be uncomfortably frantic, and the flower market on the doorstep means Sundays can be a crush.",
+      "retrieved_at": "2026-10-13T00:16:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.designmynight.com/london/pubs/bethnal-green/upstairs-at-the-royal-oak/pub-quiz",
+      "quote": "Monthly Pub Quiz at The Oak!",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.designmynight.com/london/pubs/bethnal-green/upstairs-at-the-royal-oak/pub-quiz",
+      "quote": "Last Wednesday of every month from 7.30pm.",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.royaloakbethnalgreen.co.uk/",
+      "quote": "Just off Columbia Road Flower Market, the Royal Oak is a welcoming pub and restaurant in Bethnal Green",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.royaloakbethnalgreen.co.uk/",
+      "quote": "73 Columbia Road, London, London, E2 7RG",
+      "retrieved_at": "2026-10-13T00:12:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:50:59Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:50:59Z",
+      "by": "venue-editor",
+      "change": "new venue, found by the listings finder; profile written from the pub's own site, Time Out and DesignMyNight"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes: dropped process comment; crowd: cut unquoted 'downstairs bar livelier' claim"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

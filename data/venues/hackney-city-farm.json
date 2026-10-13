@@ -1,0 +1,225 @@
+{
+  "id": "hackney-city-farm",
+  "name": "Hackney City Farm",
+  "zone": "core",
+  "address": "1a Goldsmiths Row, London",
+  "postcode": "E2 8QA",
+  "website": "https://hackneycityfarm.co.uk/",
+  "summary": "A free-to-visit city farm on Goldsmiths Row, run as a registered charity, with farmyard animals, a garden and rooms for hire.",
+  "music": {
+    "styles": [],
+    "notes": "Hosts a community choir, Hackney Harmony."
+  },
+  "crowd": "Offers children and adults the chance to get close to farmyard animals; Time Out says it serves locals and visitors alike.",
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "notes": "The driveway and farmyard are cobbled. A ramp serves the main building's back entrance, and another can be set up at the side entrance on request. Guide dogs can go anywhere on site. Groups of more than 10, or anyone with special needs, should book ahead.",
+    "access_page": "https://hackneycityfarm.co.uk/visit/"
+  },
+  "cost": {
+    "free_entry": "always",
+    "notes": "Donations are welcome; classes and workshops are listed separately."
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://hackneycityfarm.co.uk/",
+      "quote": "Hackney City Farm is free to visit. As a small community charity",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://hackneycityfarm.co.uk/",
+      "quote": "Registered charity no. 291211",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://hackneycityfarm.co.uk/",
+      "quote": "Room & Party Hire",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "crowd"
+      ],
+      "url": "https://hackneycityfarm.co.uk/",
+      "quote": "We offer children and grown-ups the opportunity to get up close to a range of farmyard animals.",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/attractions/hackney-city-farm",
+      "quote": "providing a welcome dose of nature for locals and visitors alike",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://hackneycityfarm.co.uk/see-and-do/",
+      "quote": "Come and sing as the Hackney Harmony, a diverse and vibrant choir in the heart of East London.",
+      "retrieved_at": "2026-10-13T00:14:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free"
+      ],
+      "url": "https://hackneycityfarm.co.uk/visit/",
+      "quote": "Step-free access",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free"
+      ],
+      "url": "https://hackneycityfarm.co.uk/visit/",
+      "quote": "There are no steps around the garden paths",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://hackneycityfarm.co.uk/visit/",
+      "quote": "There is an accessible toilet and baby changing facilities in the cafe.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://hackneycityfarm.co.uk/visit/",
+      "quote": "The driveway and farmyard are cobbled.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes",
+        "accessibility.access_page"
+      ],
+      "url": "https://hackneycityfarm.co.uk/visit/",
+      "quote": "There is a ramp at the rear entrance of the main building",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://hackneycityfarm.co.uk/visit/",
+      "quote": "a ramp can be made available at the side entrance, just ask a member of staff",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://hackneycityfarm.co.uk/visit/",
+      "quote": "Guide dogs are allowed in all parts of Hackney City Farm",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://hackneycityfarm.co.uk/visit/",
+      "quote": "For groups of more than 10, or have special needs, please book in advance.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.free_entry"
+      ],
+      "url": "https://hackneycityfarm.co.uk/visit/",
+      "quote": "Entry to Hackney City Farm is free.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://hackneycityfarm.co.uk/visit/",
+      "quote": "Entry to Hackney City Farm is free. Donations are welcome!",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://hackneycityfarm.co.uk/visit/",
+      "quote": "Please visit classes for details or the what's on calendar.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://hackneycityfarm.co.uk/",
+      "quote": "Hackney City Farm is free to visit.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://hackneycityfarm.co.uk/visit/",
+      "quote": "1a Goldsmiths Row",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://hackneycityfarm.co.uk/visit/",
+      "quote": "London E2 8QA",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:44:31Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:44:31Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

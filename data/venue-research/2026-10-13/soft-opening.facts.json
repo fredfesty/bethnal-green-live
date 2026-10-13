@@ -1,0 +1,51 @@
+{
+  "venue_id": "soft-opening",
+  "venue_name": "Soft Opening",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "6 Minerva Street",
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://softopening.london/",
+          "quote": "6 Minerva Street",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://softopening.london",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://softopening.london/",
+          "quote": "Soft Opening, London",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "postcode",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "The home page and the exhibitions page give the address only. The contact, visit and info pages return 404, and the Info page named in the menu could not be reached, so access and entry are unknown. The postcode is not printed on its own site and is left empty."
+}

@@ -1,0 +1,199 @@
+{
+  "venue_id": "genesis-cinema",
+  "venue_name": "Genesis Cinema",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:19:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "93-95 Mile End Road, Whitechapel, London",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode",
+            "website"
+          ],
+          "url": "https://www.genesiscinema.co.uk/pricing",
+          "quote": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 4UJ",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.genesiscinema.co.uk/pricing",
+          "quote": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.genesiscinema.co.uk",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.genesiscinema.co.uk/pricing",
+          "quote": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://www.genesiscinema.co.uk/access-needs",
+          "quote": "There is a unisex accessible toilet on the ground floor that is on level access from the entrance.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.hearing_loop",
+      "value": false,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.hearing_loop"
+          ],
+          "url": "https://www.genesiscinema.co.uk/access-needs",
+          "quote": "There is not a hearing loop for those with hearing aids.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://www.genesiscinema.co.uk/access-needs",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.access_page"
+          ],
+          "url": "https://www.genesiscinema.co.uk/access-needs",
+          "quote": "Our team does all it can to make the venue as accessible as possible for people with different needs.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Box Office, Kiosk and the ground-floor accessible toilet have level access from the entrance. Screens two and three, plus Studios four and five, are reached by ramp. Screen 1 and the upper-floor bar and kitchen have no lift; staff can help people on the stairs with a stair climber. Carers with a CEA card get one free ticket, booked by phone. A wheelchair can be borrowed.",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes",
+            "accessibility"
+          ],
+          "url": "https://www.genesiscinema.co.uk/access-needs",
+          "quote": "There is level access into the cinema and to Box Office, Coffee, the Kiosk and the accessible toilet.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes",
+            "accessibility"
+          ],
+          "url": "https://www.genesiscinema.co.uk/access-needs",
+          "quote": "Screens 2 and 3 and Studios 4 and 5 are accessible via a ramp.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes",
+            "accessibility"
+          ],
+          "url": "https://www.genesiscinema.co.uk/access-needs",
+          "quote": "Screen 1, Bar Paragon and the Kitchen are all upstairs. The only way to access upstairs is via our stairs. There is no lift in the building.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes",
+            "accessibility"
+          ],
+          "url": "https://www.genesiscinema.co.uk/access-needs",
+          "quote": "we can assist you with the use of our stair climber (max load 150kg) which is operated by our trained managers.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes",
+            "accessibility"
+          ],
+          "url": "https://www.genesiscinema.co.uk/access-needs",
+          "quote": "We accept Cinema Exhibitor's Association (CEA) Cards and other carer ID cards which entitle a person who needs assistance to ONE free ticket",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes",
+            "accessibility"
+          ],
+          "url": "https://www.genesiscinema.co.uk/access-needs",
+          "quote": "There is a wheelchair that can be borrowed whilst in the venue.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Prices are set by day: adults pay £4.99 Monday to Wednesday, £7.75 on Thursday and £12.00 Friday to Sunday, with lower prices for under 14s, over 60s, students and families. Studios 4 and 5 cost £10 to £15. 3D adds £2.50 a ticket.",
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes",
+            "cost"
+          ],
+          "url": "https://www.genesiscinema.co.uk/pricing",
+          "quote": "Monday, Tuesday and Wednesday Thursday Friday - Sunday Adults £4.99 £7.75 £12.00 Children Under 14 £4.99 £5.00 £5.00",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes",
+            "cost"
+          ],
+          "url": "https://www.genesiscinema.co.uk/pricing",
+          "quote": "3D Screenings +£2.50 per ticket.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "cost.free_entry",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Step-free status is mixed, so it is left null: the entrance, Box Office and ground-floor screens are level or ramped, but Screen 1, Bar Paragon and The Kitchen are upstairs with no lift. The hire page (/hire) did not load (connection reset), so capacity is not confirmed. Its footer and pricing page give the same address."
+}

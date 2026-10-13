@@ -1,0 +1,163 @@
+{
+  "venue_id": "netil360",
+  "venue_name": "Netil360",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:28:00Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://www.netil360.com",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.netil360.com",
+          "quote": "Netil360 Rooftop Bar & Pizza Restaurant in London Fields, Hackney, East London",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "Top floor of Netil House, 1 Westgate Street, Hackney, London E8 3RL",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://www.netil360.com/faq",
+          "quote": "Top floor of Netil House, 1 Westgate Street, E8 3RL.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E8 3RL",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.netil360.com/faq",
+          "quote": "Top floor of Netil House, 1 Westgate Street, E8 3RL.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": false,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.step_free",
+            "accessibility.notes"
+          ],
+          "url": "https://www.netil360.com/faq",
+          "quote": "Unfortunately, due to structural restrictions in the Netil House building, we are unable to provide lift access for safe wheelchair entry to the rooftop.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The venue is on the top floor of Netil House. Its FAQ says a lift cannot be provided, so wheelchair users cannot safely reach the rooftop. It does not mention toilets or a hearing loop.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.netil360.com/faq",
+          "quote": "Top floor of Netil House, 1 Westgate Street, E8 3RL.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.netil360.com/faq",
+          "quote": "Unfortunately, due to structural restrictions in the Netil House building, we are unable to provide lift access for safe wheelchair entry to the rooftop.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "age_policy",
+      "value": "Over 18s only",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://www.netil360.com/faq",
+          "quote": "Netil360 is an over-18s venue.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.free_entry",
+      "value": "always",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.free_entry"
+          ],
+          "url": "https://www.netil360.com/faq",
+          "quote": "Is entry free? Yes.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Entry is free. Outside drink is not allowed, and free water is available. Bookings are limited.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.netil360.com/faq",
+          "quote": "No. Outside alcohol is not permitted. Free water is available.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.netil360.com/faq",
+          "quote": "Limited bookings are available.",
+          "retrieved_at": "2026-10-13T00:25:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page (/find-us and /contact return 404; the wheelchair answer is in the FAQ)",
+    "capacity (groups of 6 to 60 for private hire is not a capacity)"
+  ],
+  "notes": "Editor: the FAQ answer on wheelchair access is the only access statement, and it is about the rooftop, which is the whole venue as listed. I have set step_free to false on that plain wording; please confirm before publishing. The FAQ says entry is free and that the venue is over 18s only. The DJ and opening-hours lines on the same pages are for the listings, not recorded here."
+}

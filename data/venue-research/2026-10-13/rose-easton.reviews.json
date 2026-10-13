@@ -1,0 +1,63 @@
+{
+  "venue_id": "rose-easton",
+  "venue_name": "Rose Easton",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:38Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A contemporary art gallery in the Bethnal Green area that mixes art and fashion, according to Plaster magazine (2024). Its own website lists shows running into December 2026.",
+      "source_date": "2024-01-16",
+      "evidence": [
+        {
+          "fields": [
+            "summary",
+            "types"
+          ],
+          "url": "https://plastermagazine.com/features/all-hail-the-bethnal-green-art-boom/",
+          "quote": "has been expertly combining art and fashion with playful shows",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.roseeaston.com/",
+          "quote": "3 Oct – 12 Dec 2026",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "types",
+      "value": [
+        "gallery"
+      ],
+      "source_date": "2024-01-16",
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://plastermagazine.com/features/all-hail-the-bethnal-green-art-boom/",
+          "quote": "Rose Easton’s eponymous gallery",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases",
+    "website",
+    "address",
+    "postcode"
+  ],
+  "notes": "Plaster magazine (January 2024) puts the gallery in the Bethnal Green area, but its wording is loose, so the summary keeps the area vague. The own-site dates are for 2026 shows, which suggests it is open, but no closure or opening news was found. Only one press source was found: WebSearch budget ran out, and artrabbit.com was refused under the never-use policy.  The homepage shows no date of its own, so the summary has no source_date."
+}

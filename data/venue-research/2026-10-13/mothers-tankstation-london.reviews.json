@@ -1,0 +1,61 @@
+{
+  "venue_id": "mothers-tankstation-london",
+  "venue_name": "mother's tankstation London",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:38Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A contemporary art gallery near Three Colts Lane in Bethnal Green, showing a programme of global contemporary artists, according to Plaster magazine's 2024 guide to the area.",
+      "source_date": "2024-01-16",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://plastermagazine.com/features/all-hail-the-bethnal-green-art-boom/",
+          "quote": "Down by Three Colts Lane, Herald St has been flying the East London flag since 2005",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary",
+            "types"
+          ],
+          "url": "https://plastermagazine.com/features/all-hail-the-bethnal-green-art-boom/",
+          "quote": "mother’s tankstation following suit with its programme of global contemporary artists",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "types",
+      "value": [
+        "gallery"
+      ],
+      "source_date": "2024-01-16",
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://plastermagazine.com/features/all-hail-the-bethnal-green-art-boom/",
+          "quote": "mother’s tankstation following suit with its programme of global contemporary artists",
+          "retrieved_at": "2026-10-13T00:12:38Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases",
+    "website"
+  ],
+  "notes": "Only one press source (Plaster magazine, January 2024) was found. The venue's own website could not be reached: robots.txt was unreachable for the domain tried, and WebSearch budget ran out before a correct website or any review or news search was done. Status is therefore unverified; the Plaster piece gives no closure or opening news."
+}

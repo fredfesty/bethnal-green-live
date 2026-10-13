@@ -1,0 +1,30 @@
+{
+  "venue_id": "mare-street-market",
+  "venue_name": "Mare Street Market",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "An independent food and shopping market in Hackney, with restaurants and shops. Its own site also names King's Cross.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://marestreetmarket.com/",
+          "quote": "Enjoy independent restaurants and unique retail in Hackney and King's Cross.",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Source: the venue's own home page (its meta description; the page has no visible review text). The .co.uk address returned an empty page, so it was not used. No press review found: WebSearch budget was used up before this run's searches. Not a music venue on the evidence found, so no music or crowd finding is proposed."
+}

@@ -1,0 +1,98 @@
+{
+  "venue_id": "135-bar-and-lounge",
+  "venue_name": "135 Bar & Lounge",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:20:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A bar and lounge on Cambridge Heath Road with a music bar, cocktails and Nordic-European small plates.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.135-barandlounge.co.uk/about",
+          "quote": "Tucked away on Cambridge Heath Road, 135 Bar & Lounge is one of Bethnal Green’s hidden gems",
+          "retrieved_at": "2026-10-13T00:15:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.135-barandlounge.co.uk/about",
+          "quote": "Our elegant music bar offers a sophisticated evening of dancing and drinks",
+          "retrieved_at": "2026-10-13T00:15:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.135-barandlounge.co.uk/about",
+          "quote": "thoughtful Nordic-European small plates and sharing boards designed for social dining",
+          "retrieved_at": "2026-10-13T00:15:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["blues", "jazz", "soul", "funk", "disco", "house", "latin"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.135-barandlounge.co.uk/whats-on",
+          "quote": "Amazing live blues, dancing and cocktails!",
+          "retrieved_at": "2026-10-13T00:15:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.135-barandlounge.co.uk/whats-on",
+          "quote": "Live jazz every Thursday",
+          "retrieved_at": "2026-10-13T00:15:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.135-barandlounge.co.uk/whats-on",
+          "quote": "Friday nights, 10 pm-2 am feature our resident DJs spinning vinyl, bringing you the best in soul, funk, disco, house, and world music.",
+          "retrieved_at": "2026-10-13T00:15:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.135-barandlounge.co.uk/whats-on",
+          "quote": "Sundays bring live jazz, funk and Latin sessions",
+          "retrieved_at": "2026-10-13T00:15:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Live blues, jazz and Latin sessions, a piano bar in the early evening, and resident DJs playing vinyl on Friday nights.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.135-barandlounge.co.uk/whats-on",
+          "quote": "Early evenings come alive with our piano bar sessions",
+          "retrieved_at": "2026-10-13T00:15:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.135-barandlounge.co.uk/whats-on",
+          "quote": "Friday nights, 10 pm-2 am feature our resident DJs spinning vinyl",
+          "retrieved_at": "2026-10-13T00:15:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "aliases",
+    "status"
+  ],
+  "notes": "Own site (what's on, about) is the main source; it is undated, so source_date is null. Its 'Live jazz every Thursday' conflicts with the DesignMyNight listing (Ellie Harris Trio jam, 'every Thursday - fortnightly'); the music notes avoid a specific night. CAMRA describes it as an 'Art Deco Cocktail Bar in Whitechapel', which does not match the venue's own address and was not used. No press review found in this aspect."
+}

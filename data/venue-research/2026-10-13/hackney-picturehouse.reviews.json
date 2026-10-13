@@ -1,0 +1,37 @@
+{
+  "venue_id": "hackney-picturehouse",
+  "venue_name": "Hackney Picturehouse",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:13:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A cinema in Hackney run by Picturehouse, which also hosts comedy nights under the name The Attic Comedy Club.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.picturehouses.com/cinema/hackney-picturehouse",
+          "quote": "Big screens. Bigger laughs. Katie Norris, Amy Annette, Jon Long and Steve Bugeja join us at our next night of comedy.",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.picturehouses.com/cinema/hackney-picturehouse",
+          "quote": "The Attic Comedy Club",
+          "retrieved_at": "2026-10-13T00:13:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "The Picturehouse page is undated, so it backs the summary only. Litro Magazine (7 Dec 2012) describes the building as an arthouse cinema but is too old for anything except history, so it is not used. No closure or refurbishment news found in this run. Search budget ran out before a current independent review could be found."
+}

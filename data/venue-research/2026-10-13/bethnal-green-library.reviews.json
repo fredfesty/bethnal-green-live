@@ -1,0 +1,41 @@
+{
+  "venue_id": "bethnal-green-library",
+  "venue_name": "Bethnal Green Library (Idea Store)",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:13:46Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A public library off Cambridge Road in Bethnal Green, opened in 1922, with two halls for hire.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Bethnal_Green_Library.aspx",
+          "quote": "The Library opened its doors in 1922 and is situated In Bethnal Green Gardens – off Cambridge Road",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Bethnal_Green_Library.aspx",
+          "quote": "There are two halls available for hire at this site.",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "directory"
+        }
+      ],
+      "source_date": null
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Idea Store's Bethnal Green page (a programme point for the programme researcher) lists a free event on 28 and 29 October 2026: 'Experience a collaboration between Bethnal Green Library and Let’s Discuss Death.' For the facts researcher: the council hire page says 'there is no disabled access to the 1st floor where the two halls are based'. The Idea Store site returned 403 for one URL and was not used further. No reviews or press found in the search budget."
+}

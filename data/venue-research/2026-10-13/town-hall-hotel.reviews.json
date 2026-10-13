@@ -1,0 +1,74 @@
+{
+  "venue_id": "town-hall-hotel",
+  "venue_name": "Town Hall Hotel (Da Terra, Restaurant Elis)",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:25:15Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A boutique hotel in a restored Edwardian town hall on Patriot Square, with the Michelin-starred Da Terra restaurant inside.",
+      "source_date": "2025-08-01",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.townhallhotel.com/home",
+          "quote": "Set within a beautifully restored Edwardian building in the heart of Bethnal Green",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.daterra.co.uk/",
+          "quote": "Located inside the landmark Edwardian Town Hall Hotel, Da Terra has an elegant and contemporary look",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.daterra.co.uk/",
+          "quote": "Da Terra — Michelin Starred Restaurant in London",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/hotels/town-hall-hotel",
+          "quote": "A mad mixture of Edwardian architecture, art deco interiors, beguiling baroque corridors",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The hotel says it is aimed at business travellers, city explorers and people wanting a unique London escape.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.townhallhotel.com/home",
+          "quote": "we offer an unforgettable stay for business travellers, city explorers and those seeking a unique London escape.",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "aliases",
+    "status"
+  ],
+  "notes": "Time Out review (1 August 2025) and the hotel and Da Terra sites read. Da Terra's own Time Out review (23 May 2019) is too old for anything but history and is not quoted. Restaurant Elis has no quotable description in what I read. Hotel 'what's on' page was not reached. WebSearch was unavailable this run."
+}

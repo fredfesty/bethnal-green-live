@@ -1,0 +1,74 @@
+{
+  "venue_id": "mothers-tankstation-london",
+  "venue_name": "mother's tankstation London",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Dressage Court, 48 Three Colts Lane, Bethnal Green, London E2 6GQ",
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.motherstankstation.com/contact/",
+          "quote": "Dressage Court",
+          "retrieved_at": "2026-10-13T00:09:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.motherstankstation.com/contact/",
+          "quote": "48 Three Colts Lane",
+          "retrieved_at": "2026-10-13T00:09:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 6GQ",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.motherstankstation.com/contact/",
+          "quote": "London E2 6GQ",
+          "retrieved_at": "2026-10-13T00:09:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.motherstankstation.com",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.motherstankstation.com/",
+          "quote": "Mother's Tankstation Limited – Contemporary Art Gallery",
+          "retrieved_at": "2026-10-13T00:09:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "The website is the gallery's main site, which covers both the Dublin gallery and the London space. The London address comes from its contact page. The London pages give opening hours (Thursday to Saturday, noon to 6pm) but no access, entry, age or capacity details. Nothing here about the London space's access is confirmed."
+}

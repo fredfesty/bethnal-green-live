@@ -1,0 +1,63 @@
+{
+  "venue_id": "birdcage",
+  "venue_name": "The Birdcage",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["pub"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+          "quote": "Located on the vibrant Columbia Road, The Birdcage is a pub steeped in character and charm",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A live music afternoon in the main bar on the second Sunday of the month, with a trad band. A free comedy night on Wednesdays, a quiz on Tuesdays and Sunday roasts. A launch party in May 2026 had background and live music.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+          "quote": "Join us in the main bar, every second Sunday of the month for live music from a trad band.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+          "quote": "2nd Row Comedy will bring the laughs every Wednesday for FREE.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+          "quote": "Quiz Night at The Birdcage",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.designmynight.com/london/whats-on/vip-party/launch-party-the-birdcage-1",
+          "quote": "Background Music and Live Music",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: the one music night named is a trad band; no genre named on more than one night",
+    "cost.notes: no general pricing found; the launch party price is one event",
+    "Dates on the venue's What's On page are not clearly dated for the year; the live music and comedy nights are shown as recurring"
+  ],
+  "notes": "Nights seen: Live Music Sunday, 2nd Sunday of the month, 3:30pm, trad band (venue site, recurring; the page's own dates are unclear, so no fixed date is confirmed). Free Comedy Night with 2nd Row Comedy, every Wednesday 7:30pm (venue site, recurring). Quiz Night, 7:30pm every Tuesday (venue site). Day of The Dead at The Birdcage, Sat 31 Oct 2026, 4pm to 11pm (venue site). Launch party, Fri 15 May 2026, 6pm to 8pm (DesignMyNight, past; tagged Background Music and Live Music). The venue's pages are shared with other Urban Pubs & Bars sites; only The Birdcage entries were used."
+}

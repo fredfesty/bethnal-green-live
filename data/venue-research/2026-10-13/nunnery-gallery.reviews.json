@@ -1,0 +1,37 @@
+{
+  "venue_id": "nunnery-gallery",
+  "venue_name": "Nunnery Gallery (Bow Arts)",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:35Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A free, not-for-profit contemporary art gallery run by Bow Arts, which hosts the East London Art Prize shortlist and winner's shows in alternate years.",
+      "source_date": "2026-06-19",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "The Nunnery Gallery is a not-for-profit, free, contemporary art space.",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "The Nunnery Gallery hosts the shortlist and winner’s exhibitions on alternate years.",
+          "retrieved_at": "2026-10-13T00:12:35Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "The venue's own Bow Arts page is the only source read. No named-publication review was found in the searches (the search budget ran out). A Hackney Citizen tag page and a Time Out listing for Bow Arts came up in search but were not read. Outer zone; the editor should keep worth_the_trip."
+}

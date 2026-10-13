@@ -1,0 +1,62 @@
+{
+  "venue_id": "135-bar-and-lounge",
+  "venue_name": "135 Bar & Lounge",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "135 Cambridge Heath Road, Bethnal Green, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.135-barandlounge.co.uk/contact",
+          "quote": "135 Cambridge Heath Road Bethnal Green London United Kingdom E1 5RN",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 5RN",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.135-barandlounge.co.uk/contact",
+          "quote": "135 Cambridge Heath Road Bethnal Green London United Kingdom E1 5RN",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.135-barandlounge.co.uk/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.135-barandlounge.co.uk/",
+          "quote": "Our welcoming spot for great drinks, soulful music, and good vibes.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Home, about, contact and bookings pages say nothing about access (no step-free, toilet or loop detail). 'FREE ENTRY' appears only against the Live Blues Night of 16 October, so it is not general entry and cost is left empty. The About page gives seating for 25 in the lounge only, which is not a whole-venue capacity. The Ellie Harris Trio jam nights from DesignMyNight are not checked here."
+}

@@ -1,0 +1,64 @@
+{
+  "id": "brick-lane-market",
+  "name": "Brick Lane Market (Sundays)",
+  "zone": "fringe",
+  "address": "Brick Lane, E1",
+  "summary": "A street market on and around Brick Lane that is at its busiest on Sundays. Time Out says it has grown to take in seven markets known as The Truman Markets.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/shopping/brick-lane-market",
+      "quote": "Operating at its fullest on Sundays, Brick Lane and its surrounding streets come alive, teeming with sellers shifting their wares.",
+      "retrieved_at": "2026-10-13T00:27:03Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/shopping/brick-lane-market",
+      "quote": "Brick Lane Market, in the heart of Shoreditch, has grown and mutated over the years to incorporate seven different markets known as The Truman Markets.",
+      "retrieved_at": "2026-10-13T00:27:03Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+      "quote": "Brick Lane, E1",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:47:33Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:47:33Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

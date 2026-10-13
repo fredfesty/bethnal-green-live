@@ -1,0 +1,58 @@
+{
+  "venue_id": "renegade-wine-bar-bethnal-green",
+  "venue_name": "Renegade Wine Bar (Bethnal Green)",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:25:15Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A wine bar and takeaway shop in Gales Gardens, run by Renegade Urban Winery.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.renegadelondonwine.com/bethnalgreen",
+          "quote": "Wine Bar + Takeaway Shop",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.renegadelondonwine.com/bethnalgreen",
+          "quote": "Arch 12, Gales Gardens, E2 0EJ",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "aliases",
+      "value": [
+        "Renegade Urban Winery"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "aliases"
+          ],
+          "url": "https://www.renegadelondonwine.com/bethnalgreen",
+          "quote": "Book A Table | Bethnal Green (E2) — Renegade Urban Winery",
+          "retrieved_at": "2026-10-13T00:25:15Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status"
+  ],
+  "notes": "Only the venue's own booking page was readable. No independent review or press article found in the direct pages tried (Time Out URL guesses 404). No closing news. WebSearch was unavailable this run. The E17 Walthamstow winery is a different site and was not used."
+}

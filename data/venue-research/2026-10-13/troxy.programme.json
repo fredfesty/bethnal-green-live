@@ -1,0 +1,94 @@
+{
+  "venue_id": "troxy",
+  "venue_name": "Troxy",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:40:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "live-music",
+        "club",
+        "comedy"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.timeout.com/london/music/troxy",
+          "quote": "including MMA fights, immersive cinema, club nights and a huge range of live music concerts",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://troxy.co.uk/accessibility/",
+          "quote": "For our talks, comedy nights, live podcasts and some gigs",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Concerts, club nights and rave-style events such as Trance Sanctuary Presents Kearnage, DnB Allstars NYE and Shrek Rave, plus comedy nights, talks and live podcasts.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/music/troxy",
+          "quote": "club nights and a huge range of live music concerts",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://troxy.co.uk/whats-on/",
+          "quote": "Trance Sanctuary Presents Kearnage",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://troxy.co.uk/whats-on/",
+          "quote": "DnB Allstars NYE: London",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://troxy.co.uk/whats-on/",
+          "quote": "Shrek Rave",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://troxy.co.uk/accessibility/",
+          "quote": "For our talks, comedy nights, live podcasts and some gigs",
+          "retrieved_at": "2026-10-13T00:40:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "cost.notes"
+  ],
+  "notes": "Upcoming on the what's-on page (read 2026-10-13, dates as printed DD.MM.YY): Angine de Poitrine, 19 and 20 Oct 2026 (both sold out); Trance Sanctuary Presents Kearnage, 7 Nov 2026; Shrek Rave, 14 Nov 2026; DnB Allstars NYE: London, 31 Dec 2026; Adam Grant: The Secret to Successful Connections, 8 Dec 2026 (talk). Genre words appear only in one-off event titles, so no styles were proposed. No past listings in data/events or candidates under this venue id."
+}

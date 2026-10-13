@@ -1,0 +1,128 @@
+{
+  "venue_id": "queen-of-hoxton",
+  "venue_name": "Queen of Hoxton",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:40:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "1 Curtain Road, Shoreditch, London, EC2A 3JX",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "1 Curtain Road, Shoreditch, London, EC2A 3JX",
+          "retrieved_at": "2026-10-13T00:30:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "EC2A 3JX",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "1 Curtain Road, Shoreditch, London, EC2A 3JX",
+          "retrieved_at": "2026-10-13T00:30:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://queenofhoxton.com/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "Welcome to Queen of Hoxton, a vibrant nightclub and bar in Shoreditch that first opened its doors in 2009.",
+          "retrieved_at": "2026-10-13T00:30:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "capacity",
+      "value": 500,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "capacity"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "The capacity of our full venue is 500.",
+          "retrieved_at": "2026-10-13T00:30:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.free_entry",
+      "value": "some-nights",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.free_entry"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "Free entry. No dress code.",
+          "retrieved_at": "2026-10-13T00:30:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "The Thursday rooftop happy hour, Clock Off at Queen, has drinks at £5 all evening and free entry.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "Every Thursday from 5pm, selected cocktails and beers are £5 all evening.",
+          "retrieved_at": "2026-10-13T00:30:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Gig accessibility questions, disability assistance and carers' tickets go to the venue managers, by email or phone.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://queenofhoxton.com/contact-us/",
+          "quote": "contact for gig accessibility/disability assistance queries and carers’ tickets",
+          "retrieved_at": "2026-10-13T00:30:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page",
+    "age_policy"
+  ],
+  "notes": "The venue's site has no access page: /accessibility/ is a 404 and the page sitemap lists none. The rooftop and club pages say nothing about steps or toilets. Capacity 500 is the whole venue, from the home page FAQ. Free entry is the weekly Thursday rooftop happy hour, not every night."
+}

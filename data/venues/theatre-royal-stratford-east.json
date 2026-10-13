@@ -1,0 +1,152 @@
+{
+  "id": "theatre-royal-stratford-east",
+  "name": "Theatre Royal Stratford East",
+  "zone": "outer",
+  "address": "Gerry Raffles Square, London",
+  "postcode": "E15 1BN",
+  "website": "https://stratfordeast.com",
+  "summary": "A theatre on Gerry Raffles Square in Stratford, run as a charity, which says its ties to the Newham community go back to 1884.",
+  "music": {
+    "styles": [],
+    "notes": "Theatre and dance productions, plus free bar events."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "notes": "Six wheelchair spaces in the stalls. Assistance dogs can come into the auditorium, and a Sennheiser listening system is available for Deaf and hard of hearing people. A separate chill-out room is available to audience members who need it.",
+    "access_page": "https://stratfordeast.com/your-visit/access/"
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://stratfordeast.com/about-us/",
+      "quote": "Charity Reg. No 233801",
+      "retrieved_at": "2026-10-13T00:13:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://theatreweekly.com/stratford-east-announces-140th-anniversary-season/",
+      "quote": "We have been part of the Newham community since 1884",
+      "retrieved_at": "2026-10-13T00:13:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.stratfordeast.com/whats-on",
+      "quote": "25th anniversary show for the Olivier-winning dance group",
+      "retrieved_at": "2026-10-13T00:12:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.stratfordeast.com/whats-on",
+      "quote": "Information about our upcoming FREE bar events.",
+      "retrieved_at": "2026-10-13T00:12:52Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.step_free"
+      ],
+      "url": "https://stratfordeast.com/your-visit/access/",
+      "quote": "The main entrance to the theatre has step-free access.",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://stratfordeast.com/your-visit/access/",
+      "quote": "wheelchair-accessible Box Office and toilets",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://stratfordeast.com/your-visit/access/",
+      "quote": "Within the auditorium, there are six wheelchair spaces in the stalls",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://stratfordeast.com/your-visit/access/",
+      "quote": "Assistance dogs are welcome in the auditorium.",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://stratfordeast.com/your-visit/access/",
+      "quote": "The theatre has a Sennheiser tourguide system for people who are Deaf or hard of hearing.",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://stratfordeast.com/your-visit/access/",
+      "quote": "there will be a separate chill-out room for any audience members that require it",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.access_page"
+      ],
+      "url": "https://stratfordeast.com/your-visit/access/",
+      "quote": "For further information on all of our access facilities, contact the Audience Experience Manager",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://stratfordeast.com/your-visit/access/",
+      "quote": "Theatre Royal Stratford East, Gerry Raffles Square, London E15 1BN",
+      "retrieved_at": "2026-10-13T00:11:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:43:27Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:43:27Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

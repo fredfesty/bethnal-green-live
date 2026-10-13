@@ -1,0 +1,88 @@
+{
+  "venue_id": "brilliant-corners",
+  "venue_name": "Brilliant Corners",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:31:53Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A restaurant and bar with an izakaya-inspired menu, open seven nights a week, which also runs a ticketed jazz night called Played Twice.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://brilliantcornerslondon.co.uk/food/",
+          "quote": "Our menu takes inspiration from the izakaya of Japan",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://brilliantcornerslondon.co.uk/food/",
+          "quote": "We are open seven nights a week.",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://brilliantcornerslondon.co.uk/played-twice/",
+          "quote": "Played Twice is a ticketed jazz night we run as often as we can.",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "jazz"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://brilliantcornerslondon.co.uk/played-twice/",
+          "quote": "Played Twice is a ticketed jazz night we run as often as we can.",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Ticketed listening nights where a jazz record is played seated, then a band plays live versions of it.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://brilliantcornerslondon.co.uk/played-twice/",
+          "quote": "It’s a seated playback of a timeless jazz record on the best pressing we can find",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://brilliantcornerslondon.co.uk/played-twice/",
+          "quote": "followed by a live interpretation of that music by a band of musicians",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "aliases",
+    "status"
+  ],
+  "notes": "Its own site (food, Played Twice and dates pages) was read. The Played Twice page links to two reviews, which were not followed: page_text gives only the text, and WebSearch budget was used up, so the press reviews are still to be checked. Its /dates page lists a name for each night but never says DJ, so no DJ-night claim is made. The address is not on any page read here, so the summary does not give one."
+}

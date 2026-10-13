@@ -1,0 +1,65 @@
+{
+  "venue_id": "stepney-city-farm",
+  "venue_name": "Stepney City Farm",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:27:03Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A 4.5 acre working farm in Tower Hamlets where visitors can meet farm animals and learn how to grow food, with a Saturday farmers' market.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://stepneycityfarm.org/",
+          "quote": "Stepney City Farm is a 4.5 acre working farm; a rural oasis in the heart of Tower Hamlets.",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://stepneycityfarm.org/",
+          "quote": "We give children and adults a chance to meet farm animals, learn how to grow food and try out arts and crafts.",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://stepneycityfarm.org/",
+          "quote": "The Farmer’s Market is on Saturdays, 10am-3pm.",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The farm says all are welcome: general visitors need no booking, while schools and groups should book ahead.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://stepneycityfarm.org/about-the-farm/visit/",
+          "quote": "No booking required for general visitors, all welcome. Booking essential for schools and groups",
+          "retrieved_at": "2026-10-13T00:27:03Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Only the farm's own site was readable; no press review was found. The farm's site is not dated, so no source_date."
+}

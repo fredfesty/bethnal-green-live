@@ -1,0 +1,66 @@
+{
+  "venue_id": "theatre-royal-stratford-east",
+  "venue_name": "Theatre Royal Stratford East",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:12:52Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "theatre"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.stratfordeast.com/about-us/hires-events/",
+          "quote": "we do not hire the auditorium for professional theatrical pieces, so as to avoid any clashes with our wider programming",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Theatre productions and dance shows, a panto-style show this autumn, and free bar events alongside its main programme.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.stratfordeast.com/whats-on",
+          "quote": "25th anniversary show for the Olivier-winning dance group",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.stratfordeast.com/whats-on",
+          "quote": "Rifco Arts Indian retelling of the Cinderella story in a panto style.",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.stratfordeast.com/whats-on",
+          "quote": "Information about our upcoming FREE bar events.",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "Music styles: no genre named on more than one night",
+    "Regular club or live music nights (none listed on the what's-on page)",
+    "Cost notes (no general pricing quoted; individual show prices are not recorded here)"
+  ],
+  "notes": "Nights seen: 'Application 39' 13-14 Oct 2026; 'The Ballad of John and Paul' 15 Oct 2026 (7:30 PM); 'Surinderella' 20-31 Oct 2026; 'Boy Blue: 25 Stories' 5-7 Nov 2026; 'Robin Hood and the Merry Mandem' 21 Nov 2026 - 2 Jan 2027. The panto-style claim rests on the Surinderella listing only."
+}

@@ -1,0 +1,60 @@
+{
+  "id": "carlos-ishikawa",
+  "name": "Carlos/Ishikawa",
+  "zone": "fringe",
+  "address": "Unit 4, 88 Mile End Road, London",
+  "postcode": "E1 4UN",
+  "website": "https://www.carlosishikawa.com",
+  "summary": "A gallery at 88 Mile End Road, founded in 2011, that says its programme is devoted to exhibitions it calls considered and ambitious.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.carlosishikawa.com/",
+      "quote": "Founded in 2011, Carlos/Ishikawa’s program is dedicated to considered and ambitious exhibitions",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.carlosishikawa.com/",
+      "quote": "Unit 4, 88 Mile End Road London E1 4UN",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:42:18Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:42:18Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

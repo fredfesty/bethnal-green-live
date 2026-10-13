@@ -1,0 +1,168 @@
+{
+  "venue_id": "shacklewell-arms",
+  "venue_name": "The Shacklewell Arms",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:27:25Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://www.shacklewellarms.com/",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.shacklewellarms.com/",
+          "quote": "The Shacklewell Arms is programmed and produced by LNZRT",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "71 Shacklewell Lane, London E8 2EB",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+          "quote": "Capacity 200 Address 71 Shacklewell Lane, London E8 2EB",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://www.shacklewellarms.com/",
+          "quote": "71 Shacklewell Lane E8 2EB",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E8 2EB",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.shacklewellarms.com/",
+          "quote": "71 Shacklewell Lane E8 2EB",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "capacity",
+      "value": 200,
+      "evidence": [
+        {
+          "fields": [
+            "capacity"
+          ],
+          "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+          "quote": "Capacity 200 Address 71 Shacklewell Lane, London E8 2EB",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": false,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://www.shacklewellarms.com/info",
+          "quote": "Unfortunately The Shacklewell Arms does not have a wheelchair accessible toilet.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://www.shacklewellarms.com/info",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.access_page"
+          ],
+          "url": "https://www.shacklewellarms.com/info",
+          "quote": "All of us at The Shacklewell Arms, welcome those who may require accessibility assistance",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Step-free into the bar, but there is a small step inside as you head to the gig room, and a temporary ramp can be provided. Seating with a view of the stage may be offered, subject to capacity, if you give notice. Assistance dogs may be allowed. The garden has one step. Companion tickets are requested by email after buying your own ticket.",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.shacklewellarms.com/info",
+          "quote": "There is step free access into the bar area upon entry with a small step inside the venue as you head towards the gig room.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.shacklewellarms.com/info",
+          "quote": "A temporary ramp can be provided where necessary.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.shacklewellarms.com/info",
+          "quote": "Assistance dogs may be allowed into the venue.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.shacklewellarms.com/info",
+          "quote": "There is one step to our garden area when entering or exiting by the fire exit door.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.shacklewellarms.com/info",
+          "quote": "If you require a PA / Companion ticket please purchase your own ticket and then apply for a PA ticket by emailing",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.hearing_loop",
+    "age_policy",
+    "cost.free_entry",
+    "cost.notes"
+  ],
+  "notes": "For the editor: step_free is left unset because the access page says there is step-free access into the bar but a small step inside to the gig room, which is where gigs are. The capacity 200 is from the DICE venue page and is the whole venue's figure as listed there. The access page gives a contact for hidden disabilities (info@shacklewellarms.com), which is not quoted. No age policy or general entry price found."
+}

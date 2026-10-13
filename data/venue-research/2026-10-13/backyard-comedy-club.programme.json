@@ -1,0 +1,65 @@
+{
+  "venue_id": "backyard-comedy-club",
+  "venue_name": "Backyard Comedy Club",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:56Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "comedy"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/",
+          "quote": "We are the largest professional, purpose built comedy club in London",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/",
+          "quote": "have been the home of comedy in the East End for the past 20 years.",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Stand-up comedy only, not music. The club's own events page shows one-off headline shows (for example Lee Hurst in January 2025) and a free mid-week night called The Comedy Hump.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/events/",
+          "quote": "Lee Hurst is back with his first stand up tour for 6 years.",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/events/",
+          "quote": "Get over Hump Day with this FREE event! It's The Comedy Hump!",
+          "retrieved_at": "2026-10-13T00:11:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no music genres (comedy only)",
+    "upcoming events on the venue's own site: its events page says 'There are no upcoming events.' when read on 13 Oct 2026, so the current programme could only be read from DesignMyNight",
+    "cost.notes: no general pricing on the venue's own pages (single-show prices only)",
+    "regular club nights (Thursday, Friday, Saturday): not stated on any page we are allowed to quote"
+  ],
+  "notes": "Comedy club. Its own events page showed 'There are no upcoming events.' on 13 Oct 2026, so upcoming shows could only be read elsewhere. LEAD ONLY, NOT QUOTED (DesignMyNight, discovery-only in the registry): Thursday Night (Thu 15 Oct 2026), Friday Night (Fri 16 Oct 2026), Saturday Night (Sat 17 Oct 2026), The Comedy Hump (Wed 4 Nov 2026). Own-site past shows: Lee Hurst (Sun 26 Jan 2025), The Comedy Hump (4 Dec 2024). A person should decide whether DesignMyNight may be used for this venue before the editor relies on the club-night pattern."
+}

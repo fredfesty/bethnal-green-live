@@ -1,0 +1,93 @@
+{
+  "venue_id": "wiltons-music-hall",
+  "venue_name": "Wilton's Music Hall",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:14:56Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "theatre",
+        "live-music"
+      ],
+      "source_date": "2026-10-12",
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://wiltons.org.uk/",
+          "quote": "We present extraordinary theatre and music in the oldest Grand Music Hall in the world.",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "music hall"
+      ],
+      "source_date": "2026-10-12",
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://wiltons.org.uk/",
+          "quote": "oldest Grand Music Hall in the world",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://wiltons.org.uk/whats-on/",
+          "quote": "The Players’ 90th Birthday Music Hall Gala",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Theatre and music in a historic music hall: one-off shows and music-hall galas, with history tours on Saturdays.",
+      "source_date": "2026-10-12",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://wiltons.org.uk/whats-on/",
+          "quote": "The Players’ 90th Birthday Music Hall Gala",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://wiltons.org.uk/whats-on/",
+          "quote": "Barb Jungr in Soho Songs",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://wiltons.org.uk/whats-on/",
+          "quote": "Sat 24 Oct & Sat 31 Oct, 5pm",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "cost.notes (no general pricing found on the pages read)",
+    "regular club or gig nights (none listed)"
+  ],
+  "notes": "Past and upcoming nights seen: The Players’ 90th Birthday Music Hall Gala (Wed 21 Oct 2026, sold out); Stewart Lee’s Pea Green Boat (Thu 22 Oct 2026, sold out); Barb Jungr in Soho Songs (Fri 23 to Sat 24 Oct 2026); History Tours (Sat 24 and Sat 31 Oct 2026); Songs from the Sea (Mon 9 Nov 2026). The listings are theatre and music-hall shows, with no regular club or gig night on the pages read."
+}

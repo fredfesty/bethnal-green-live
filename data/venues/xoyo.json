@@ -1,0 +1,115 @@
+{
+  "id": "xoyo",
+  "name": "XOYO",
+  "zone": "outer",
+  "address": "32-37 Cowper Street, London",
+  "postcode": "EC2A 4AP",
+  "website": "https://www.xoyo.co.uk/",
+  "summary": "A venue next to Old Street roundabout that Time Out says was established in 2010. Its own site describes it as a rebuilt venue for forward-thinking music.",
+  "music": {
+    "styles": [],
+    "notes": "Time Out singles out its gigs by experimental and rising artists; the venue also lists all-dayers and a new weekly Thursday night."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "The cloakroom charges £3 per item."
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/music/xoyo",
+      "quote": "Established in 2010",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/music/xoyo",
+      "quote": "the black box next to Old Street roundabout",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.xoyo.co.uk/",
+      "quote": "A rebuilt space for forward-thinking sound.",
+      "retrieved_at": "2026-10-13T00:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.timeout.com/london/music/xoyo",
+      "quote": "mainly for the decent amount of gigs with experimental and up-and-coming artists it hosts",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.xoyo.co.uk/whats-on",
+      "quote": "Drum and Bass Classics - All-Dayer",
+      "retrieved_at": "2026-10-13T00:27:31Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.xoyo.co.uk/",
+      "quote": "THE NEW WEEKLY THURSDAY AT XOYO",
+      "retrieved_at": "2026-10-13T00:27:31Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.xoyo.co.uk/lost-found",
+      "quote": "The cloakroom service is chargeable with a fee of £3 per item.",
+      "retrieved_at": "2026-10-13T00:30:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.xoyo.co.uk/hire-contact",
+      "quote": "32-37 Cowper St, London EC2A 4AP",
+      "retrieved_at": "2026-10-13T00:30:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:50:00Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:50:00Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: cut unquoted 'in Shoreditch'; music.notes: cut unquoted 'club nights'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

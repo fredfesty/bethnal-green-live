@@ -1,0 +1,56 @@
+{
+  "venue_id": "royal-oak",
+  "venue_name": "Royal Oak",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["pub"],
+      "source_date": "2023-08-02",
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.timeout.com/london/bars-and-pubs/royal-oak-1",
+          "quote": "Downstairs in the good-looking pub, built around a handsome central bar",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "No music nights found. Upstairs, a monthly pub quiz run by an outside quiz company, on the last Wednesday of the month from 7:30pm. A stand-up comedy night was listed in 2022 and is not shown as current.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.designmynight.com/london/pubs/bethnal-green/upstairs-at-the-royal-oak/pub-quiz",
+          "quote": "Monthly Pub Quiz at The Oak!",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.designmynight.com/london/pubs/bethnal-green/upstairs-at-the-royal-oak/pub-quiz",
+          "quote": "Last Wednesday of every month from 7.30pm.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.designmynight.com/london/pubs/bethnal-green/upstairs-at-the-royal-oak/pub-quiz",
+          "quote": "Hosted by Weekly Quiz",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no live music, DJ or gig listing found for the venue",
+    "cost.notes: only the quiz's entry price (£3 per person) on DesignMyNight; no general pricing found",
+    "Own website or ticket page: none found (lead says none)"
+  ],
+  "notes": "Nights seen: Monthly Pub Quiz, Wed 28 Oct 2026 (DesignMyNight, from 7:30pm, £3 per person; Quiz nights are not music, editor decides). Jokes At the Oak, stand-up comedy upstairs, Wed 16 Feb 2022 (DesignMyNight; old, not current). The DesignMyNight quiz page says both 'Every 4th Wednesday of the month' and 'Last Wednesday of every month'; the next date given is the last Wednesday, 28 Oct, so the editor should check the frequency. The venue's own site was not found, so nothing is confirmed by the venue directly."
+}

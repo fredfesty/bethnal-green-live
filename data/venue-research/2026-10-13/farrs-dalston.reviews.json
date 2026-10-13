@@ -1,0 +1,45 @@
+{
+  "venue_id": "farrs-dalston",
+  "venue_name": "Farr's Dalston",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:31:53Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A community bar in Dalston that serves pizza and hosts weekly cultural events, according to a listings site.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://ma.to/venue/farrsdalston",
+          "quote": "Farr’s Dalston is a rustic community bar in London serving artisan pizza and hosting eclectic weekly cultural events",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Vinyl DJ sessions and a regular pub quiz, according to a listings site.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/farrsdalston",
+          "quote": "featuring a regular pub quiz, vinyl DJ sessions, and various community-focused exhibitions and movie screenings",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "aliases",
+    "status",
+    "music.styles"
+  ],
+  "notes": "Only aggregator text found: the ma.to page. Its text reads like a generated blurb, so it is only proposed as a summary and not as crowd or music. The venue's own site (farrsdalston.com) is refused by page_text (robots.txt unreachable), so it was not read. No press review or closure news found; WebSearch budget was used up."
+}

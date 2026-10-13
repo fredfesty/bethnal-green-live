@@ -1,0 +1,106 @@
+{
+  "id": "satans-whiskers",
+  "name": "Satan's Whiskers",
+  "zone": "core",
+  "address": "343 Cambridge Heath Road, London",
+  "postcode": "E2 9RA",
+  "website": "https://www.satanswhiskers.com",
+  "summary": "A cocktail bar on Cambridge Heath Road that calls itself Bethnal Green's original neighbourhood cocktail bar. Time Out gave it five stars, and its menu changes often.",
+  "music": {
+    "styles": [
+      "hip-hop"
+    ]
+  },
+  "crowd": "Time Out describes it as a relaxed neighbourhood hangout rather than a high-end cocktail bar.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.satanswhiskers.com/",
+      "quote": "Satan’s Whiskers is Bethnal Green’s original neighbourhood cocktail bar",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/satans-whiskers",
+      "quote": "5 out of 5 stars",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/satans-whiskers",
+      "quote": "Their menu changes often",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/satans-whiskers",
+      "quote": "it’s more of a laid-back neighbourhood hangout than an out-of-place, high-end cocktail bar",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/satans-whiskers",
+      "quote": "Inside, there’s hip hop on the stereo",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.styles"
+      ],
+      "url": "https://www.satanswhiskers.com/",
+      "quote": "all to our now infamous hip-hop soundtrack.",
+      "retrieved_at": "2026-10-13T00:25:15Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.satanswhiskers.com/",
+      "quote": "343 Cambridge Heath Road, London, E2 9RA",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:46:55Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:46:55Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: cut unquoted 'opened in late 2013'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

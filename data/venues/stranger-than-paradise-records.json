@@ -1,0 +1,87 @@
+{
+  "id": "stranger-than-paradise-records",
+  "name": "Stranger Than Paradise Records",
+  "zone": "fringe",
+  "address": "Mare Street Market, 117 Mare Street, Hackney, London",
+  "postcode": "E8 4RU",
+  "website": "https://www.strangerthanparadiserecords.com",
+  "summary": "A Hackney record shop selling vinyl, inside Mare Street Market, which also holds in-store events such as listening parties, release parties and signings.",
+  "music": {
+    "styles": [],
+    "notes": "Events include record release parties with DJs, listening parties and artist signings."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://www.strangerthanparadiserecords.com/",
+      "quote": "Hackney Record Store selling Vinyl - Stranger Than Paradise Records",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.strangerthanparadiserecords.com/",
+      "quote": "Jon Hassell 'Music Is Invisible' Listening Party",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.strangerthanparadiserecords.com/",
+      "quote": "Release Party + Mr Bongo DJs",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.strangerthanparadiserecords.com/",
+      "quote": "Gary Bartz - Meet & Greet / Signing",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.strangerthanparadiserecords.com/",
+      "quote": "Mare Street Market, 117 Mare Street, Hackney, London, E8 4RU",
+      "retrieved_at": "2026-10-13T00:25:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:49:03Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:49:03Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

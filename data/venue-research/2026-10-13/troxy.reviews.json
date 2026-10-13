@@ -1,0 +1,80 @@
+{
+  "venue_id": "troxy",
+  "venue_name": "Troxy",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:28:42Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A Grade II-listed art deco building that opened as a cinema in 1933, was later used as an opera school and bingo hall, and now hosts concerts, club nights and other events.",
+      "source_date": "2023-03-10",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://troxy.co.uk/",
+          "quote": "Troxy first opened its doors in 1933",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/music/troxy",
+          "quote": "It spent time as an opera school and a bingo hall, but now hosts events",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Time Out lists concerts and club nights alongside MMA fights and immersive cinema.",
+      "source_date": "2023-03-10",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/music/troxy",
+          "quote": "MMA fights, immersive cinema, club nights and a huge range of live music concerts",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The venue says everyone is welcome and that its staff are trained to make visits inclusive.",
+      "source_date": "2023-12-04",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://troxy.co.uk/discover/history/",
+          "quote": "All staff at the venue are highly trained to create a fully inclusive customer experience",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://troxy.co.uk/accessibility/",
+          "quote": "Everyone’s welcome at Troxy",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "status",
+    "aliases"
+  ],
+  "notes": "Time Out's review (dated 10 March 2023) has 'More: Temporarily closed' in its page metadata, not in its text, and the venue's own pages are current (FAQ updated June 2026; event sitemap updated 12 October 2026). No status proposed; the editor may want to check the tag. Time Out names no music genres for Troxy."
+}

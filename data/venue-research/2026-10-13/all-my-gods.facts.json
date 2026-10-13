@@ -1,0 +1,88 @@
+{
+  "venue_id": "all-my-gods",
+  "venue_name": "All My Gods",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:12:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "253 Paradise Row, Bethnal Green",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "\"streetAddress\": \"253 Paradise Row\"",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 9LE",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "\"postalCode\": \"E2 9LE\"",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.allmygodsbar.co.uk/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.allmygodsbar.co.uk/",
+          "quote": "All My Gods is an alternative bar and community space in Bethnal Green, east London",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The venue's FAQ says the entrance has a 10cm step, with a ramp available on request. It says it has toilet accessibility but gives no detail. The page describes a step at the entrance, so step-free access is not confirmed.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.allmygodsbar.co.uk/faqs",
+          "quote": "Yes we have a 10cm step to get in, with a ramp we can provide if needed.",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "capacity",
+      "value": 80,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["capacity"],
+          "url": "https://www.allmygodsbar.co.uk/private-hire",
+          "quote": "the whole venue is yours, up to 80 guests",
+          "retrieved_at": "2026-10-13T00:10:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.access_page (no dedicated access page; the access answer sits in the FAQs at /faqs)",
+    "cost.free_entry",
+    "cost.notes (only a single drink price on the home page, which is not general pricing)",
+    "age_policy"
+  ],
+  "notes": "Map and web finders describe the same bar; the editor should merge all-my-gods.facts.json with both. Its own pages give opening hours Wednesday to Sunday. Capacity 80 is the figure its private-hire page gives for the whole venue. The FAQ's toilet line is vague, so accessible_toilet is left empty. The allmygodsbar.com domain named by the map finder was not used."
+}

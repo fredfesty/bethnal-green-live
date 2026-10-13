@@ -1,0 +1,65 @@
+{
+  "venue_id": "renegade-wine-bar-bethnal-green",
+  "venue_name": "Renegade Wine Bar (Bethnal Green)",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:24:04Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "bar"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.renegadelondonwine.com/events",
+          "quote": "Bethnal Green: Renegade Wine Bar, Arch 12, Gales Gardens, London E2 0EJ",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Wine and cheese pairing sessions on the first Wednesday of the month, and an E2 Sunday Sessions afternoon with live music. Its own page also lists E17 (Walthamstow winery) events, which are out of area and left out here. A third-party listing adds bi-weekly Thirsty Thursday tastings.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.renegadelondonwine.com/events",
+          "quote": "every first Wednesday of the month you have the opportunity to learn how to perfectly pair wine and cheese",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.renegadelondonwine.com/events",
+          "quote": "Live music from late afternoon, a glass of something good in hand",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.designmynight.com/london/bars/bethnal-green/renegade-wine-bar",
+          "quote": "They also run bi-weekly Thirsty Thursday tastings",
+          "retrieved_at": "2026-10-13T00:24:04Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles (no genre named on the page)",
+    "dated Thirsty Thursday tastings on its own site"
+  ],
+  "notes": "Past and upcoming E2 nights seen on the venue's events page: 'E2 Cheese & Wine: Rouge and Ewe' (4 November 2026); 'E2 Cheese & Wine Pairing: Fizz and Feast' (2 December 2026); 'E2 Sunday Sessions' (6 December 2026). The page's 'E17 Live Pianist every Thurs' and E17 pinot and winery tour nights are at Walthamstow and excluded. The Thirsty Thursday and Wine & Live Music nights are from DesignMyNight, not the venue's own page."
+}

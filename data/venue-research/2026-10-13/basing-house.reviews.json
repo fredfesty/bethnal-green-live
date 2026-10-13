@@ -1,0 +1,119 @@
+{
+  "venue_id": "basing-house",
+  "venue_name": "Basing House",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A late-licensed music venue on Kingsland Road in Shoreditch, with a 300-capacity room and a rooftop terrace. It has run since 2010 and is known for club nights and DJs.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://basinghouse.co.uk/about/",
+          "quote": "Located at the vibrant south end of Kingsland Road in Shoreditch",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://basinghouse.co.uk/about/",
+          "quote": "intimate 300-capacity space",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://basinghouse.co.uk/about/",
+          "quote": "Since opening its doors in 2010",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The venue describes its guests as music lovers after a close, high-quality clubbing experience.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://basinghouse.co.uk/about/",
+          "quote": "a go-to destination for music lovers seeking an up-close, high-quality clubbing experience",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "house",
+        "disco",
+        "garage",
+        "drum and bass",
+        "electronic"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://basinghouse.co.uk/about/",
+          "quote": "From house and disco to garage and drum and bass",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://basinghouse.co.uk/about/",
+          "quote": "rooted in the evolution of electronic music",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Late-licensed. Club nights every Friday and Saturday, select Thursday parties and a growing midweek live music programme, with a rotating roster of outside promoters and labels.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://basinghouse.co.uk/about/",
+          "quote": "Operating under a late license, Basing House comes alive every Friday and Saturday, alongside select Thursday parties and an expanding programme of midweek live music events.",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://basinghouse.co.uk/about/",
+          "quote": "a rotating roster of top-tier external promoters and forward-thinking labels",
+          "retrieved_at": "2026-10-13T00:23:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "status",
+    "aliases"
+  ],
+  "notes": "Sources: the venue's own about page (no date shown) and its events page, which lists events from 8 Oct to late Oct 2026, so the venue is open; no status finding is proposed. No review or article found: the WebSearch budget was used up before this run's searches, and no press page was reached by direct URL. Summary, crowd and music rest on the venue's own words only, so a press review would be worth adding."
+}

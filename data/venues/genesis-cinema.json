@@ -1,0 +1,217 @@
+{
+  "id": "genesis-cinema",
+  "name": "Genesis Cinema",
+  "zone": "fringe",
+  "address": "93-95 Mile End Road, Whitechapel, London",
+  "postcode": "E1 4UJ",
+  "website": "https://www.genesiscinema.co.uk",
+  "summary": "An independent, family-run cinema and arts venue on Mile End Road with five screens and a bar upstairs. Time Out describes it as offering an arthouse experience at low prices.",
+  "music": {
+    "styles": [],
+    "notes": "Film screenings, some with a Q&A, plus a recurring Bar Trash film season and pro wrestling events."
+  },
+  "crowd": "Time Out describes it as a favourite of local residents and bargain hunters.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": true,
+    "hearing_loop": false,
+    "notes": "Level access to the entrance, box office, kiosk and the ground-floor accessible toilet; screens 2 and 3 plus the two studios (4 and 5) are reached by ramp. Screen 1, the bar and the kitchen are upstairs with no lift, though staff can help with a stair climber. A wheelchair can be borrowed.",
+    "access_page": "https://www.genesiscinema.co.uk/access-needs"
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Adult prices depend on the day: £4.99 Monday to Wednesday, £7.75 Thursday and £12 Friday to Sunday. Event tickets can be priced differently."
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.genesiscinema.co.uk/about",
+      "quote": "Genesis is a family run, independent cinema and arts venue",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/news/one-of-londons-most-popular-cinemas-has-big-plans-to-safeguard-its-future-032825",
+      "quote": "bargain-priced five-screen picturehouse",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/cinemas/genesis-cinema",
+      "quote": "There’s a bar upstairs",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/cinemas/genesis-cinema",
+      "quote": "the promise of an arthouse experience without sky high prices",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/cinemas/genesis-cinema",
+      "quote": "beloved of local residents and bargain hunters",
+      "retrieved_at": "2026-10-13T00:12:35Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whats-on",
+      "quote": "BAR TRASH continues our 14th sensational season",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whats-on",
+      "quote": "Steel of Film (in 35 mm) + Q&A",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whats-on",
+      "quote": "EMPORIUM PRO WRESTLING PRESENTS: SLASHERAMA",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://www.genesiscinema.co.uk/access-needs",
+      "quote": "There is a unisex accessible toilet on the ground floor that is on level access from the entrance.",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.hearing_loop"
+      ],
+      "url": "https://www.genesiscinema.co.uk/access-needs",
+      "quote": "There is not a hearing loop for those with hearing aids.",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.genesiscinema.co.uk/access-needs",
+      "quote": "There is level access into the cinema and to Box Office, Coffee, the Kiosk and the accessible toilet.",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.genesiscinema.co.uk/access-needs",
+      "quote": "Screens 2 and 3 and Studios 4 and 5 are accessible via a ramp.",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.genesiscinema.co.uk/access-needs",
+      "quote": "Screen 1, Bar Paragon and the Kitchen are all upstairs. The only way to access upstairs is via our stairs. There is no lift in the building.",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.genesiscinema.co.uk/access-needs",
+      "quote": "we can assist you with the use of our stair climber (max load 150kg) which is operated by our trained managers.",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://www.genesiscinema.co.uk/access-needs",
+      "quote": "There is a wheelchair that can be borrowed whilst in the venue.",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "accessibility.access_page"
+      ],
+      "url": "https://www.genesiscinema.co.uk/access-needs",
+      "quote": "Our team does all it can to make the venue as accessible as possible for people with different needs.",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.genesiscinema.co.uk/pricing",
+      "quote": "Monday, Tuesday and Wednesday Thursday Friday - Sunday Adults £4.99 £7.75 £12.00 Children Under 14 £4.99 £5.00 £5.00",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.genesiscinema.co.uk/pricing",
+      "quote": "Event ticket prices may vary",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.genesiscinema.co.uk/pricing",
+      "quote": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+      "retrieved_at": "2026-10-13T00:19:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:42:18Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:42:18Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes: cut unquoted 'mostly', 'many' and 'occasional'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

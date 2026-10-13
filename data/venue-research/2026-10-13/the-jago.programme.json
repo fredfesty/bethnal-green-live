@@ -1,0 +1,170 @@
+{
+  "venue_id": "the-jago",
+  "venue_name": "The Jago",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:29:34Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "gig-venue",
+        "live-music",
+        "arts-centre"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.thejagodalston.com/",
+          "quote": "Grassroots Live Music Venue and Multi-functional Events Space",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.thejagodalston.com/about/",
+          "quote": "The Jago is an arts and culture hotspot.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.thejagodalston.com/about/",
+          "quote": "we host a range of live music events, dance, performance, film screenings, workshops",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "jazz",
+        "soul",
+        "afrobeats",
+        "reggae",
+        "disco"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://ma.to/venue/thejagodalston",
+          "quote": "Experience energetic jam sessions and curated all-vinyl parties highlighting genres such as afrobeats, reggae, disco, salsa, and nu-jazz.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://ma.to/venue/thejagodalston",
+          "quote": "Weekly jazz fusion jam session hosted by DC Entropy. Free entry.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://ma.to/venue/thejagodalston",
+          "quote": "Weekly Thursday jam with London collectives, live jazz, soul and more",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://ma.to/venue/thejagodalston",
+          "quote": "Live jazz, soul, hip-hop and Afrobeats from London jam collectives",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Regular jam sessions mixing jazz, soul and afrobeats (some free entry); CARAVAN nights with live music, DJs and art; vinyl-only dance parties such as Move Your Boots; and live gigs.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/thejagodalston",
+          "quote": "Weekly jazz fusion jam session hosted by DC Entropy. Free entry.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.thejagodalston.com/",
+          "quote": "TOTAL IMPRO JAM SESSION",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.thejagodalston.com/",
+          "quote": "CARAVAN: The October edition",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/thejagodalston",
+          "quote": "Live music, street dance, DJs and art at The Jago until 1am.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/thejagodalston",
+          "quote": "Vinyl-only dance night with georgemapplebeck b2b blissoutlive",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.thejagodalston.com/",
+          "quote": "Move Your Boots x Bliss Out",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/thejagodalston",
+          "quote": "Palestinian-Italian artist TÄRA blends RnB, Arabic music and alt-pop in a live set.",
+          "retrieved_at": "2026-10-13T00:29:34Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "cost.notes: no general pricing stated (the site shows per-event prices and 'FREE ENTRY' on some jams)",
+    "age_policy: not looked for in the programme aspect"
+  ],
+  "notes": "Nights seen: Move Your Boots x Bliss Out, Fri 16 Oct 2026 (ma.to: 22:00); SIMO LAGNAWI JAM, 8 Oct 2026, FREE ENTRY; Groove Therapy #3, 10 Oct 2026; CARAVAN: The October edition, 29 Oct 2026, £10; TOTAL IMPRO JAM SESSION, 25 Oct 2026, FREE ENTRY. Opening hours on the site: Friday and Saturday 8pm to 3.30am; Sunday 8pm to 1am."
+}

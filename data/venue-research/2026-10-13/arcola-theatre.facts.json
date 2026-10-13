@@ -1,0 +1,115 @@
+{
+  "venue_id": "arcola-theatre",
+  "venue_name": "Arcola Theatre",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:14:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "24 Ashwin Street, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.arcolatheatre.com/visit-us/pwyc/",
+          "quote": "24 Ashwin Street London E8 3DL",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E8 3DL",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.arcolatheatre.com/visit-us/pwyc/",
+          "quote": "24 Ashwin Street London E8 3DL",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.arcolatheatre.com",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.arcolatheatre.com/visit-us/pwyc/",
+          "quote": "Arcola Theatre Production Company is a registered charity no.1108613.",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://www.arcolatheatre.com/access/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.access_page"],
+          "url": "https://www.arcolatheatre.com/access/",
+          "quote": "Feel at home at Arcola Theatre.",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The main theatre entrance is at street level. Wheelchair access is listed, along with touch tours, relaxed and captioned performances, and booking an access companion. Access needs can be logged online or with the box office.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.arcolatheatre.com/access/",
+          "quote": "Main Theatre Entrance (Street Level)",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.arcolatheatre.com/access/",
+          "quote": "Wheelchair access",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "A limited number of pay what you can tickets are held back for Tuesday evening performances. They are bought face to face from 6pm on the night, with a cap of two per person. The average ticket spend is £5.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["cost.notes"],
+          "url": "https://www.arcolatheatre.com/visit-us/pwyc/",
+          "quote": "Pay What You Can tickets can only be purchased in person, from 6pm on the night of the performance.",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["cost.notes"],
+          "url": "https://www.arcolatheatre.com/visit-us/pwyc/",
+          "quote": "The average ticket spend is £5",
+          "retrieved_at": "2026-10-13T00:11:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "cost.free_entry",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Access page metadata shows it was last updated 1 Sept 2026. The access page lists wheelchair access but does not say step-free in words, so step_free is left empty for the editor. Hires page names two studios without seat numbers, so capacity is empty. Pages read: /access/, /visit-us/pwyc/, /hires/."
+}

@@ -1,0 +1,12 @@
+{
+  "venue_id": "26-curtain-road",
+  "venue_name": "26 Curtain Road",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:27:31Z",
+  "findings": [],
+  "not_found": [
+    "types, music.styles, music.notes: no page was read. The venue's website was not identified, and the one URL tried (a guessed domain) was refused by the tool's robots.txt check, so it was not fetched again",
+    "Past listings: none in data/events or data/candidates for this venue"
+  ],
+  "notes": "No website or ticketing page was found for 26 Curtain Road. WebSearch was used up for this turn, so no search could be made. A follow-up search by name and postcode (EC2A 3NY) would be needed to find a page to read."
+}

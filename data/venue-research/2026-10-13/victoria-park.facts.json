@@ -1,0 +1,115 @@
+{
+  "venue_id": "victoria-park",
+  "venue_name": "Victoria Park",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:40:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Victoria Park, Grove Road, Bow, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address", "postcode"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+          "quote": "Grove Road Bow London E3 5TB",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E3 5TB",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+          "quote": "Grove Road Bow London E3 5TB",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+          "quote": "Victoria Park opens at 7am and closes at dusk, 365 days a year.",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.accessible_toilet"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+          "quote": "All Victoria Park's public toilets have an accessible cubicle and both our cafés are accessible for wheelchair users.",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "Both community buildings in the park offer step-free access. A Changing Places toilet has been installed in the park. Cars are not allowed inside except for blue badge holders, who are asked to use the disabled bays in the two main car parks.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+          "quote": "Both our community buildings offer step-free access.",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+          "quote": "We have installed a new changing places toilet facility at Victoria Park.",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+          "quote": "we strongly encourage Blue Badge drivers to make use of the designated disabled parking bays located in our two main car parks.",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.access_page"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/victoria_park/victoria_park.aspx",
+          "quote": "All Victoria Park's public toilets have an accessible cubicle",
+          "retrieved_at": "2026-10-13T00:36:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free for the whole park (only the two community buildings are stated as step-free)",
+    "accessibility.hearing_loop",
+    "cost.free_entry (the park's page does not say entry is free in words)",
+    "cost.notes",
+    "age_policy",
+    "capacity (a park; no figure given)"
+  ],
+  "notes": "Council park page (the park's own page, the only official site found). Opening: 'Victoria Park opens at 7am and closes at dusk, 365 days a year'. The page says events news is on Facebook and Twitter, which we do not fetch. Its 'How to get here' section gives Mile End station and the nearest gates are about 10-15 minutes' walk. Splash pool 11am to 5pm daily in season (not an access fact). The park page is the only source for access; no separate AccessAble or Euan's Guide entry was reached."
+}

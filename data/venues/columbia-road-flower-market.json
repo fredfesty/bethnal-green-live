@@ -1,0 +1,82 @@
+{
+  "id": "columbia-road-flower-market",
+  "name": "Columbia Road Flower Market",
+  "zone": "core",
+  "website": "https://columbiaroad.info/",
+  "summary": "A Sunday street market on Columbia Road, where traders sell flowers, houseplants, herbs, bulbs and shrubs along a narrow Victorian street with more than 60 independent businesses.",
+  "music": {
+    "styles": []
+  },
+  "crowd": "Time Out says tourists and locals both turn up in big numbers, and it gets jostly around midday.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+      "quote": "It takes place each Sunday, when market traders line the narrow Victorian street selling flowers, houseplants, herbs, bulbs and shrubs.",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+      "quote": "the quaint little street is home to over 60 independent businesses",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+      "quote": "it draws large crowds of tourists and locals alike",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+      "quote": "During the midday rush you may well find yourself being jostled",
+      "retrieved_at": "2026-10-13T00:12:54Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://columbiaroad.info/",
+      "quote": "Columbia Road Flower Market is a street market in Bethnal Green in London, England.",
+      "retrieved_at": "2026-10-13T00:21:07Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:44:31Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:44:31Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

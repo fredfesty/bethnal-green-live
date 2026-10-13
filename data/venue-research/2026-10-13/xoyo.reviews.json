@@ -1,0 +1,91 @@
+{
+  "venue_id": "xoyo",
+  "venue_name": "XOYO",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A club beside Old Street roundabout in Shoreditch, established in 2010. Time Out says its draw is its experimental and emerging-artist gigs, and the venue's own site presents it as newly rebuilt and aimed at forward-thinking music.",
+      "source_date": "2025-07-17",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/music/xoyo",
+          "quote": "Established in 2010",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/music/xoyo",
+          "quote": "the black box next to Old Street roundabout",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.xoyo.co.uk/",
+          "quote": "A rebuilt space for forward-thinking sound.",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Time Out highlights its experimental and emerging-artist gigs; the venue lists club nights and all-dayers, including drum and bass and house, and a new weekly Thursday night.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/music/xoyo",
+          "quote": "mainly for the decent amount of gigs with experimental and up-and-coming artists it hosts",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.xoyo.co.uk/",
+          "quote": "Drum and Bass Classics - All-Dayer",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.xoyo.co.uk/",
+          "quote": "My House - Get Your Freak On",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.xoyo.co.uk/",
+          "quote": "THE NEW WEEKLY THURSDAY AT XOYO",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd (Time Out calls it a student haunt; left out as it names a life stage, not a stated policy)",
+    "status (the site says 'XOYO is back!' but undated, so not usable as status news)",
+    "aliases (none found)"
+  ],
+  "notes": "WebSearch budget was used up for this turn. The venue's own home page says 'XOYO is back!' and 'This isn't a comeback' with no date, so it is not usable as status news; check the reopening date before any status change. Time Out's XOYO page is dated 17 Jul 2025."
+}

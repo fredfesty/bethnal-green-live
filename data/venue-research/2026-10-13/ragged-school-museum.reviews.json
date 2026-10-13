@@ -1,0 +1,92 @@
+{
+  "venue_id": "ragged-school-museum",
+  "venue_name": "Ragged School Museum",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:13:46Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A museum in Bow, E3, in a converted warehouse where Dr Barnardo's ragged school taught poor children, with a Victorian-style classroom where pupils take lessons.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://spitalfieldslife.com/2024/05/05/at-the-ragged-school-museum-i/",
+          "quote": "One hundred and fifty years ago, Dr Barnardo opened the first of his",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://spitalfieldslife.com/2024/05/05/at-the-ragged-school-museum-i/",
+          "quote": "teaching literacy and basic arithmetic to poor children in a converted warehouse",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://spitalfieldslife.com/2024/05/05/at-the-ragged-school-museum-i/",
+          "quote": "the Ragged School Museum in Copperfield Rd, Bow, next to the canal",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://spitalfieldslife.com/2024/05/05/at-the-ragged-school-museum-i/",
+          "quote": "In 1990, the building became a museum of the life and works of Dr Barnardo, with a classroom where pupils from schools around London come to experience nineteenth century disciplinarian education.",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://raggedschoolmuseum.org.uk/",
+          "quote": "At the heart of the Ragged School Museum is our unique classroom, where each year some 16,000 children come to experience a glimpse of Victorian life.",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": "2024-05-05"
+    },
+    {
+      "field": "crowd",
+      "value": "The museum says some 16,000 children a year come to its classroom, and Spitalfields Life describes pupils from schools around London visiting.",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://raggedschoolmuseum.org.uk/",
+          "quote": "each year some 16,000 children come to experience a glimpse of Victorian life",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://spitalfieldslife.com/2024/05/05/at-the-ragged-school-museum-i/",
+          "quote": "a classroom where pupils from schools around London come to experience nineteenth century disciplinarian education",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2024-05-05"
+    }
+  ],
+  "not_found": [
+    "status",
+    "music.styles",
+    "music.notes",
+    "aliases"
+  ],
+  "notes": "The museum's home page (updated July 2026 per its metadata) has no news of closure. Spitalfields Life (5 May 2024) is the only press piece read; the search budget ran out before other reviews could be checked. VisitLondon returned 403 and was not used."
+}

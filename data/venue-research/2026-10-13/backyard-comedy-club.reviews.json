@@ -1,0 +1,40 @@
+{
+  "venue_id": "backyard-comedy-club",
+  "venue_name": "Backyard Comedy Club",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:12:32Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A comedy club in Bethnal Green which says it has run as a comedy venue in the East End for two decades. Time Out (2017) described it as run by the comedian Lee Hurst.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://backyardcomedyclub.co.uk/",
+          "quote": "We are the largest professional, purpose built comedy club in London and have been the home of comedy in the East End for the past 20 years.",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/comedy/backyard-comedy-club-34",
+          "quote": "run by British stand-up Lee Hurst",
+          "retrieved_at": "2026-10-13T00:12:32Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2017-08-28"
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status (no closure or new-owner news found; the closing and new-owner searches were not run because the search budget ran out)"
+  ],
+  "notes": "The Time Out page is dated 2017-08-28 (last edited 2018), so it only backs the summary's history. The venue's own site lists 'Upcoming Events' and a 2026 copyright line, which suggests it is still operating; the editor should check that against the programme findings. Time Out's page says the club has 'hosted variety shows, cabaret, swing dancing and more' since 2013; that is old and is not proposed as music."
+}

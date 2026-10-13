@@ -1,0 +1,98 @@
+{
+  "venue_id": "queen-of-hoxton",
+  "venue_name": "Queen of Hoxton",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A Shoreditch bar, nightclub and rooftop on Curtain Road, open since 2009. It runs club nights, pop and hip hop nights, drag cabaret and a drag bottomless brunch; Time Out calls it a pub, club and everything in-between.",
+      "source_date": "2026-09-25",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "Welcome to Queen of Hoxton, a vibrant nightclub and bar in Shoreditch that first opened its doors in 2009.",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/clubs/queen-of-hoxton",
+          "quote": "The Queen of Hoxton – pub, club and everything in-between",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The venue describes itself as a safe, inclusive space for all, with vibrant drag shows.",
+      "source_date": "2026-09-25",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "our venue honours her legacy with vibrant drag shows and a safe, inclusive space for all",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "disco",
+        "house"
+      ],
+      "source_date": "2024-10-24",
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.timeout.com/london/clubs/queen-of-hoxton",
+          "quote": "with DJs playing on a cutting-edge disco/house tip on the weekends",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A mix of club nights, drag cabaret and hip-hop and pop evenings, plus karaoke and weekend DJs playing disco and house, according to Time Out.",
+      "source_date": "2026-09-25",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://queenofhoxton.com/",
+          "quote": "we host everything from pop nights, hip hop jams and drag cabaret shows",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/clubs/queen-of-hoxton",
+          "quote": "Offering nights of cabaret, pop and karaoke",
+          "retrieved_at": "2026-10-13T00:20:00Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "status (no closure or reopening news found; site lists 2026 opening hours)",
+    "aliases (none found)"
+  ],
+  "notes": "WebSearch budget was used up for this turn, so no press search was run; press came from the Time Out club page, read directly. Time Out page dated 24 Oct 2024. Structured data on the venue's home page shows a modified date of 25 Sep 2026."
+}

@@ -1,0 +1,124 @@
+{
+  "venue_id": "village-underground",
+  "venue_name": "Village Underground",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:28:42Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A converted Victorian warehouse under Shoreditch railway arches, known for the tube carriages on its roof and for gigs and club nights, which Time Out says often feature top electronic DJs.",
+      "source_date": "2025-07-16",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/music/village-underground",
+          "quote": "You can’t miss Village Underground thanks to the four brightly coloured, graffiti-covered tube carriages perched on its roof",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/music/village-underground",
+          "quote": "Set underneath some cavernous railway arches, Village Underground is one of the city’s most atmospheric gig and club venues",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://villageunderground.co.uk/about/",
+          "quote": "a renovated turn-of-the-century warehouse in the heart of Shoreditch",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The venue says it welcomes a diverse audience and aims to be a safe space free of harassment and discrimination.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://villageunderground.co.uk/faqs/",
+          "quote": "We welcome diversity in our audience and work to create a safe space for everyone present",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://villageunderground.co.uk/faqs/",
+          "quote": "VU is a club for people to enjoy music without fear of harassment or discrimination.",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "electronic"
+      ],
+      "source_date": "2025-07-16",
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.timeout.com/london/music/village-underground",
+          "quote": "which often hosts top electronic DJs and exciting up-and-coming artists",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "The venue describes itself as home to clubbing and live music, with an artist or DJ most nights; its shows are usually booked by outside promoters.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://villageunderground.co.uk/about/",
+          "quote": "Home to cutting-edge culture, clubbing and live music",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://villageunderground.co.uk/about/",
+          "quote": "Most nights of the week you can catch an artist or DJ on the cusp of huge things",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://villageunderground.co.uk/faqs/",
+          "quote": "Shows at Village Underground are usually booked by external promoters",
+          "retrieved_at": "2026-10-13T00:28:42Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "aliases",
+    "status"
+  ],
+  "notes": "No closure news found; the venue's own events pages list shows into late 2026. The homepage (undated) says 'For the first time, Village Underground opens its rooftop to the public.' and describes a rooftop bar with the tube carriages; the editor may want to consider it for the summary. Time Out's review is dated 16 July 2025, within the window for summary and music."
+}

@@ -1,0 +1,72 @@
+{
+  "venue_id": "hackney-city-farm",
+  "venue_name": "Hackney City Farm",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:14:56Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "community-venue"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://hackneycityfarm.co.uk/",
+          "quote": "As a small community charity we rely on the generosity of our partners and supporters.",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Free to visit; a small community charity that relies on supporters.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://hackneycityfarm.co.uk/",
+          "quote": "Hackney City Farm is free to visit.",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "No music nights of its own on the pages read. The see and do page lists a community choir and a twice-monthly bike workshop.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://hackneycityfarm.co.uk/see-and-do/",
+          "quote": "Come and sing as the Hackney Harmony, a diverse and vibrant choir in the heart of East London.",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://hackneycityfarm.co.uk/see-and-do/",
+          "quote": "Hackney Bike Workshop run sessions from 19:00–21:00 on the first and third Tuesday of each month.",
+          "retrieved_at": "2026-10-13T00:14:56Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles (no genre named for the farm's own events)",
+    "club or gig nights (none)"
+  ],
+  "notes": "No music nights of its own on the pages read. Recurring activities seen: Hackney Bike Workshop, first and third Tuesday of each month, 19:00 to 21:00; a community choir (Hackney Harmony) listed under see and do; farmyard open Tuesday to Sunday, 10:00 to 16:30."
+}

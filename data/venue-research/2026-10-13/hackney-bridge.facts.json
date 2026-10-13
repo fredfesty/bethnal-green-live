@@ -1,0 +1,22 @@
+{
+  "venue_id": "hackney-bridge",
+  "venue_name": "Hackney Bridge (incl. Nico's bar)",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:40:00Z",
+  "findings": [],
+  "not_found": [
+    "address",
+    "postcode",
+    "website",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Both venue sites are built by JavaScript and return no readable text: www.hackneybridge.co.uk (home and every page tried) and nicosbar.co.uk. Their robots.txt files were readable, the page text was not. AccessAble venue URLs redirected to its home page, and no DICE or Ticket Tailor page was found at the guessed addresses. The triage postcode E15 2SJ is not quoted from any page, so it is unconfirmed. Needs a person to check the venue's own pages."
+}

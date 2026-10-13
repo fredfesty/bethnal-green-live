@@ -1,0 +1,93 @@
+{
+  "id": "hackney-bridge",
+  "name": "Hackney Bridge (incl. Nico's bar)",
+  "zone": "outer",
+  "website": "https://hackneybridge.org/",
+  "summary": "A canalside site at Hackney Wick that combines eating, drinking, community life, events and sports screenings, with street food, a weekend flea market and a late-night cocktail bar, Nico's.",
+  "music": {
+    "styles": [],
+    "notes": "An event space that hosts club nights and corporate events, including a listening session with live performance followed by a club night."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://hackneybridge.org/",
+      "quote": "Food, Drink, Community, Events and Sports Screenings",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://hackneybridge.org/",
+      "quote": "Hackney Wick Canal Side",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://hackneybridge.org/",
+      "quote": "our newest late-night cocktail spot situated at the corner of Hackney Bridge",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://hackneybridge.org/",
+      "quote": "Our weekend flea market is home to vintage finds, clothing, art and more",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://hackneybridge.org/",
+      "quote": "Our event space plays host to club nights and corporate events",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://hackneybridge.org/",
+      "quote": "SENSORIAL: SCENE THREE (Listening Session + Live Performance + Club Night)",
+      "retrieved_at": "2026-10-13T00:20:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:50:00Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:50:00Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

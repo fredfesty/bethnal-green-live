@@ -1,0 +1,63 @@
+{
+  "venue_id": "the-jago",
+  "venue_name": "The Jago",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:31:53Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "The Jago describes itself as a grassroots music venue that also hosts events, with live music, dance, performance and film screenings.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.thejagodalston.com/",
+          "quote": "Grassroots Live Music Venue and Multi-functional Events Space",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.thejagodalston.com/about/",
+          "quote": "we host a range of live music events, dance, performance, film screenings, workshops and much more",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Live music, jam sessions and dance nights, according to its own site.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.thejagodalston.com/",
+          "quote": "TOTAL IMPRO JAM SESSION",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.thejagodalston.com/about/",
+          "quote": "we host a range of live music events, dance, performance, film screenings, workshops and much more",
+          "retrieved_at": "2026-10-13T00:31:53Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "aliases",
+    "status",
+    "music.styles"
+  ],
+  "notes": "Its own about page and homepage were read. No press review or closure news found; WebSearch budget was used up. Its homepage lists events dated to November 2026, so no status change. The crowd is not described by any source here, so it is left out."
+}

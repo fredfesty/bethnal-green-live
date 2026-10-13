@@ -1,0 +1,49 @@
+{
+  "venue_id": "victoria-park-market",
+  "venue_name": "Victoria Park Market",
+  "aspect": "reviews",
+  "researched_at": "2026-10-13T00:13:46Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A weekly Sunday produce market in Victoria Park, E2, run by the Good Market Company and set up in 2017 as a summer project.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "http://victoriaparkmarket.com/",
+          "quote": "A weekly Sunday produce market inside East London's most beautiful park",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://secretldn.com/victoria-park-market/",
+          "quote": "The market is run by the Good Market Company",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://secretldn.com/victoria-park-market/",
+          "quote": "Established back in June 2017 and initially launched as a six month summer project",
+          "retrieved_at": "2026-10-13T00:13:46Z",
+          "source_kind": "press"
+        }
+      ],
+      "source_date": "2023-07-11"
+    }
+  ],
+  "not_found": [
+    "status",
+    "crowd",
+    "music.styles",
+    "music.notes"
+  ],
+  "notes": "The market's own site describes it as a weekly Sunday produce market; Secret London (11 July 2023) gives its history. Time Out's review is dated 11 May 2018, too old to back crowd, music or status; it mentions live jazz sometimes, which cannot be used. No closing or new-owner news found. The site's own page does not give a date."
+}

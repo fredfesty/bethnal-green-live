@@ -1,0 +1,31 @@
+{
+  "venue_id": "the-approach",
+  "venue_name": "The Approach",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:11:36Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "gallery"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.theapproach.co.uk/contact/",
+          "quote": "Gallery opening hours: Wednesday - Saturday, 12-6pm and by appointment",
+          "retrieved_at": "2026-10-13T00:11:36Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes"
+  ],
+  "notes": "Gallery on the first floor above The Approach Tavern. Shows seen: 'Faun' by Olivia Jia, 17.09-31.10.26 (home page); Frieze East End Day, Sunday 11 October, 11am-6pm (contact page). No music nights, gigs or club nights found on the gallery's own pages. The Approach Tavern downstairs is a separate venue (registry id approach-tavern) and was not researched here."
+}

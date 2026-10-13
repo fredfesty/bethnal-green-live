@@ -1,0 +1,199 @@
+{
+  "venue_id": "nunnery-gallery",
+  "venue_name": "Nunnery Gallery (Bow Arts)",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:19:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Nunnery Gallery, 181 Bow Road, London",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode",
+            "website"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "Address: Nunnery Gallery, 181 Bow Road, London, E3 2SJ",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": "2026-06-19"
+    },
+    {
+      "field": "postcode",
+      "value": "E3 2SJ",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "Address: Nunnery Gallery, 181 Bow Road, London, E3 2SJ",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": "2026-06-19"
+    },
+    {
+      "field": "website",
+      "value": "https://bowarts.org/nunnery-gallery/",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "Address: Nunnery Gallery, 181 Bow Road, London, E3 2SJ",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": "2026-06-19"
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.step_free",
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "The Nunnery Gallery and Cafe have step-free access throughout from street level, including to the accessible toilet",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": "2026-06-19"
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "The Nunnery Gallery and Cafe have step-free access throughout from street level, including to the accessible toilet",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": "2026-06-19"
+    },
+    {
+      "field": "accessibility.hearing_loop",
+      "value": false,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.hearing_loop"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "This venue does not have a hearing loop system.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": "2026-06-19"
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://bowarts.org/nunnery-gallery/",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.access_page"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "The Nunnery Gallery and Cafe have step-free access throughout from street level, including to the accessible toilet",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": "2026-06-19"
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "There is no accessible parking on the premises. Access needs and other formats such as Easy Read can be raised before a visit by email or phone. The gallery is service-animal friendly.",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes",
+            "accessibility"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "Accessible parking is not available on-site.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes",
+            "accessibility"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "please email nunnery@bowarts.com or call 020 8980 7774 (Ext. 3)",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes",
+            "accessibility"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "is service animal friendly",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": "2026-06-19"
+    },
+    {
+      "field": "cost.free_entry",
+      "value": "always",
+      "evidence": [
+        {
+          "fields": [
+            "cost.free_entry",
+            "cost"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "Open to the public Wednesday-Sunday, 10am-4pm, all exhibitions are free to enter.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": "2026-06-19"
+    },
+    {
+      "field": "cost.notes",
+      "value": "Exhibitions are free to enter.",
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes",
+            "cost"
+          ],
+          "url": "https://bowarts.org/nunnery-gallery/",
+          "quote": "all exhibitions are free to enter.",
+          "retrieved_at": "2026-10-13T00:19:00Z",
+          "source_kind": "primary"
+        }
+      ],
+      "source_date": "2026-06-19"
+    }
+  ],
+  "not_found": [
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Opening hours on the page: Wednesday to Sunday, 10am to 4pm (not a profile field). Bow Arts' events list also includes events at other sites; take only Nunnery/Bow Road."
+}

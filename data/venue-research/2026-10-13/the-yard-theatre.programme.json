@@ -1,0 +1,59 @@
+{
+  "venue_id": "the-yard-theatre",
+  "venue_name": "The Yard Theatre",
+  "aspect": "programme",
+  "researched_at": "2026-10-13T00:12:52Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "theatre",
+        "cabaret",
+        "drag"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.theyardtheatre.co.uk/about",
+          "quote": "Plays, cabaret, dance and drag.",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Its own description lists plays, cabaret, dance and drag, with theatre productions on its concrete stage.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.theyardtheatre.co.uk/about",
+          "quote": "Plays, cabaret, dance and drag.",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.theyardtheatre.co.uk/about",
+          "quote": "All of these artists have made theatre on our concrete stage.",
+          "retrieved_at": "2026-10-13T00:12:52Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "Music styles: none named by the venue or its listings",
+    "Recurring nights: none seen on the pages read",
+    "Cost notes: no general entry pricing stated (membership tiers only)"
+  ],
+  "notes": "Shows on the home page: 'The Cocoa Butter Club' 1 - 17 Oct 2026; 'Lear' 17 Nov 2026 - 2 Jan 2027; 'There's Something About Adam Black' 13 Jan - 20 Feb 2027; 'Mrs Dalloway' 10 Mar - 10 Apr 2027. The what's-on page loads by script and was not readable, so these come from the home page only; genres of individual shows were not checked."
+}

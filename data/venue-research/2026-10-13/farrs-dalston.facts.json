@@ -1,0 +1,89 @@
+{
+  "venue_id": "farrs-dalston",
+  "venue_name": "Farr's Dalston",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:27:25Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://www.farrs.pub/",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.farrs.pub/",
+          "quote": "Farr’s Dalston is a buzzy bar, pub, and private hire event venue that’s become a local favourite.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "17-19 Dalston Lane, E8 3DF",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://www.farrs.pub/",
+          "quote": "17–19 Dalston Lane, E8 3DF, just a few steps from Dalston Junction",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E8 3DF",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.farrs.pub/",
+          "quote": "17–19 Dalston Lane, E8 3DF, just a few steps from Dalston Junction",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Private hire of the basement bar starts at £200 for a whole evening, for up to 100 guests. Catering and bar options are on request.",
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.farrs.pub/venue-hire",
+          "quote": "Host your event for up to 100 guest in our private basement venue from £200 for the whole evening.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.farrs.pub/venue-hire",
+          "quote": "Catering and bar options are available ​​on request.",
+          "retrieved_at": "2026-10-13T00:27:25Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "capacity",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "age_policy",
+    "cost.free_entry"
+  ],
+  "notes": "Capacity for the editor: the venue hire page gives figures only for the basement room (standing 'Between 80-100 people', seated 'Up to 45 seats'), so no whole-venue capacity is proposed. The 'Getting Here' section gives directions only, no access detail; no access statement was found. The venue's own pages give no entry price or age policy for general nights. The ma.to listing (aggregator) gives the same street address."
+}

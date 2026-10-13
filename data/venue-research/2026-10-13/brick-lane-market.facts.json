@@ -1,0 +1,36 @@
+{
+  "venue_id": "brick-lane-market",
+  "venue_name": "Brick Lane Market (Sundays)",
+  "aspect": "facts",
+  "researched_at": "2026-10-13T00:30:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Brick Lane, E1",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+          "quote": "Brick Lane, E1",
+          "retrieved_at": "2026-10-13T00:24:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "postcode",
+    "website",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Only source is Tower Hamlets council's markets page: Sundays, 10am to 3pm, closest stations Aldgate East, Liverpool Street and Shoreditch High Street. No postcode or venue site given; the council's Brick Lane pages do not say whether the street is step-free. The private Truman Brewery markets are not covered here. Access and entry cost were not found on any page read; the editor should not assume either."
+}

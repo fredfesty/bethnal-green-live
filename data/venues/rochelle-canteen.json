@@ -1,0 +1,104 @@
+{
+  "id": "rochelle-canteen",
+  "name": "Rochelle Canteen",
+  "zone": "fringe",
+  "address": "16 Playground Gardens, London",
+  "postcode": "E2 7FA",
+  "website": "https://rochellecanteen.com",
+  "summary": "A restaurant in a walled garden serving a seasonal, daily-changing menu of classic and modern European food. Time Out calls it a garden restaurant and London landmark.",
+  "music": {
+    "styles": []
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "notes": "Its contact page describes it as wheelchair accessible, with no further detail."
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "website"
+      ],
+      "url": "https://rochellecanteen.com/",
+      "quote": "Rochelle Canteen’s seasonal, daily changing menu",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://rochellecanteen.com/",
+      "quote": "Our cooking is both classic and modern European, meaning we take influences from Britain and further afield to Europe.",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://rochellecanteen.com/",
+      "quote": "The garden surroundings, walled off from the bustle of surrounding streets",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/rochelle-canteen",
+      "quote": "A gorgeous garden restaurant and London landmark, hidden away in the backstreets of Shoreditch",
+      "retrieved_at": "2026-10-13T00:26:56Z",
+      "source_kind": "press"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://rochellecanteen.com/contact/",
+      "quote": "Wheelchair accessible",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://rochellecanteen.com/contact/",
+      "quote": "16 Playground Gardens",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://rochellecanteen.com/contact/",
+      "quote": "London E2 7FA",
+      "retrieved_at": "2026-10-13T00:25:50Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:47:43Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:47:43Z",
+      "by": "venue-editor",
+      "change": "profile created from the 13 October 2026 venue research"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: cut unquoted 'off Arnold Circus'"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}

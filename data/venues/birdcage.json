@@ -1,0 +1,121 @@
+{
+  "id": "birdcage",
+  "name": "The Birdcage",
+  "zone": "core",
+  "types": [
+    "pub"
+  ],
+  "location": {
+    "lat": 51.528462,
+    "lon": -0.070637,
+    "distance_m": 1101,
+    "source": "postcodes.io"
+  },
+  "discovered": {
+    "first_seen": "2026-10-13",
+    "found_by": [
+      "web"
+    ]
+  },
+  "address": "80 Columbia Road, London",
+  "postcode": "E2 7QB",
+  "website": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+  "summary": "A pub on Columbia Road with a ground-floor bar and a newer upstairs room. A launch party marked its opening on Friday 15 May.",
+  "music": {
+    "styles": [],
+    "notes": "A trad band plays live in the main bar on the second Sunday of each month, and a free comedy night runs on Wednesdays."
+  },
+  "crowd": "The venue says it welcomes both locals and visitors.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null
+  },
+  "cost": {
+    "free_entry": null
+  },
+  "evidence": [
+    {
+      "fields": [
+        "types",
+        "summary",
+        "website"
+      ],
+      "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+      "quote": "Located on the vibrant Columbia Road, The Birdcage is a pub steeped in character and charm",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.designmynight.com/london/whats-on/vip-party/launch-party-the-birdcage-1",
+      "quote": "Set across a buzzing ground floor bar and a brand new upstairs",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.designmynight.com/london/whats-on/vip-party/launch-party-the-birdcage-1",
+      "quote": "Join us on Friday 15th May from 6pm as we open",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+      "quote": "offering a warm and welcoming atmosphere for locals and visitors alike",
+      "retrieved_at": "2026-10-13T00:24:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+      "quote": "Join us in the main bar, every second Sunday of the month for live music from a trad band.",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+      "quote": "2nd Row Comedy will bring the laughs every Wednesday for FREE.",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+      "quote": "80 Columbia Rd, London E2 7QB",
+      "retrieved_at": "2026-10-13T00:10:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-13T00:50:59Z",
+  "history": [
+    {
+      "at": "2026-10-13T00:50:59Z",
+      "by": "venue-editor",
+      "change": "new venue, found by the web finder; profile written from the operator's venue page and the launch listing"
+    },
+    {
+      "at": "2026-10-13T01:01:23Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ],
+  "review": {
+    "checked_at": "2026-10-13T01:01:23Z",
+    "removed_fields": []
+  }
+}
