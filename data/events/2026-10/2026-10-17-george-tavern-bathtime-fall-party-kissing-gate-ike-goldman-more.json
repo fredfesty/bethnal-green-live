@@ -99,7 +99,12 @@
     "record": "data/verification/2026-10-14/2026-10-17-george-tavern-bathtime-fall-party-kissing-gate-ike-goldman-more.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "An afternoon gig at The George Tavern, the pub and live music venue on Commercial Road, with Kissing Gate and Ike Goldman on the bill. An early start for a Saturday.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
   "history": [],

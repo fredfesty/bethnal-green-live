@@ -64,7 +64,12 @@
     "record": "data/verification/2026-10-14/2026-10-17-oslo-hackney-locomotive-disco-ft-sue-from-hr-disco-exotic.json"
   },
   "editor_note": "A disco night at Oslo Hackney with a named guest, Sue From HR, per its DICE listing.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A club night at Oslo Hackney with Sue From HR on the bill, in the former station building in Hackney Central. The listing bills it as disco, so wear your dancing shoes.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
   "history": [],

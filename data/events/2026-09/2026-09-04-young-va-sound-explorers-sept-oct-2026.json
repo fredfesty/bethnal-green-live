@@ -123,6 +123,144 @@
   "listing": null,
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T13:38:09Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, then, now, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T13:45:00Z",
+      "by": "event-story-checker",
+      "change": "cut unsupported clauses: 'design company', 'autumn', Mini Museum link in vibe"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "The sessions are led by Young V&A's Play Champions, according to the venue's own website. The programme was developed with School of Noise, and Play Build Play made its sensory tiles to order; they work on environments with others, with very young children a particular focus, says the venue's own blog.",
+    "then": "An earlier run of Sound Explorers started at Young V&A in October 2023, according to the venue's own website, with the same School of Noise collaboration and Play Build Play tiles.",
+    "now": "This run belongs to Young V&A's Power of Play programme, which the venue's own website describes as a consortium bringing learning through play to children in Tower Hamlets, funded by the LEGO Foundation.",
+    "vibe": "The venue's own website describes it as a chance to listen, play and make noise, using sound and music to explore the museum display.",
+    "worth_knowing": [
+      "Buggies stay in the designated buggy park, as they cannot go into the Mini Museum space.",
+      "Adults take part alongside their children in all Young V&A family activities."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.who",
+          "story.vibe"
+        ],
+        "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+        "quote": "Listen, play and make some noise with Young V&A’s Play Champions!",
+        "retrieved_at": "2026-10-14T13:38:09Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+        "quote": "explore our museum display through sound and music.",
+        "retrieved_at": "2026-10-14T13:38:09Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who",
+          "story.then"
+        ],
+        "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+        "quote": "Sound Explorers has been developed in collaboration with School of Noise, and our resources include a bespoke set of Sensory Tiles designed and made by Play Build Play.",
+        "retrieved_at": "2026-10-14T13:38:09Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.vam.ac.uk/blog/museum-life/sparkly-and-shiny-exploring-texture-through-play",
+        "quote": "Play Build Play are Eva Freeman and James Sale. They design environments with people, especially very young children.",
+        "retrieved_at": "2026-10-14T13:38:09Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.vam.ac.uk/event/GP07qPkrgGR/sound-explorers-oct-dec-2023",
+        "quote": "Sound Explorers has been developed in collaboration with School of Noise, and our resources include a bespoke set of Sensory Tiles designed and made by Play Build Play.",
+        "retrieved_at": "2026-10-14T13:38:09Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.vam.ac.uk/event/GP07qPkrgGR/sound-explorers-oct-dec-2023",
+        "quote": "2023-10-04 11:30:00 +0100",
+        "retrieved_at": "2026-10-14T13:38:09Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+        "quote": "The Power of Play is a collective impact consortium to bring quality learning-through-play to children in the London Borough of Tower Hamlets.",
+        "retrieved_at": "2026-10-14T13:38:09Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+        "quote": "The project is funded by the LEGO Foundation and coordinated by the LEGO Group in London.",
+        "retrieved_at": "2026-10-14T13:38:09Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe",
+          "story.worth_knowing"
+        ],
+        "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+        "quote": "Please note that the buggies need to be left in the designated buggy park and cannot be brought into the Mini Museum space.",
+        "retrieved_at": "2026-10-14T13:38:09Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+        "quote": "All our events are family activities, where adults are required to participate alongside their children.",
+        "retrieved_at": "2026-10-14T13:38:09Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-14T13:38:09Z",
+    "review": {
+      "checked_at": "2026-10-14T13:45:00Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Only V&A's own pages found; no press on Sound Explorers or School of Noise's own page read. Try School of Noise site and Play Build Play site next time."
+  }
 }

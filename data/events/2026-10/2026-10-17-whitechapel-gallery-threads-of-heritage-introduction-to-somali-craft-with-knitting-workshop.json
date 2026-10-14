@@ -76,7 +76,12 @@
     "record": "data/verification/2026-10-14/2026-10-17-whitechapel-gallery-threads-of-heritage-introduction-to-somali-craft-with-knitting-workshop.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A free, hands-on introduction to Somali craft with a knitting workshop, in the Clore Creative Studio at Whitechapel Gallery. It is part of a series from Numbi Arts CIC and is open to anyone curious about making.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
   "history": [],

@@ -91,6 +91,15 @@
   "listing": null,
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T16:00:00+01:00",
+      "by": "verifier",
+      "change": "needs_review set: rescout of the same id shows 12:00-16:30 instead of 14:00-16:00; update held"
+    }
+  ],
+  "needs_review": {
+    "since": "2026-10-14T16:00:00+01:00",
+    "reason": "time may have changed: venue page now prints Saturday 17th October 12:00 PM - 4:30 PM, published as 14:00-16:00; held for a person"
+  }
 }

@@ -63,7 +63,12 @@
     "record": "data/verification/2026-10-13/2026-10-20-bgwmc-deeper-into-movies-david-lynch-music-video-showcase.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A film evening of David Lynch music videos at Bethnal Green Working Men's Club. One for film fans, and for Lynch fans in particular.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-13T14:00:00+01:00",
   "updated_at": "2026-10-13T14:00:00+01:00",
   "history": [],

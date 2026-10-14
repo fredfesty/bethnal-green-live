@@ -1,0 +1,70 @@
+{
+  "id": "2026-10-24-bgwmc-greek-queer-night",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-14-b"
+  },
+  "found_at": "2026-10-14T14:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "queer-party",
+  "title": "GREEK QUEER NIGHT",
+  "summary": "A queer club night at Bethnal Green Working Men's Club on Saturday 24 October, 9pm to 2am, listed on the venue's box office.",
+  "venue": {
+    "venue_id": "bgwmc",
+    "name": "Bethnal Green Working Men's Club",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-24T21:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://www.tickettailor.com/events/workingmens-club",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "GREEK QUEER NIGHT Sat 24 Oct 2026 9:00 PM - 2:00 AM BST",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "BETHNAL GREEN WORKING MENS CLUB, E26NB",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "Buy tickets",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Queer club night at the venue's box office list. No music, line-up or price is named on the list, and the event's own page was not found (no link in the text read). Subcategory is the scout's call. The list shows the card's postcode as E26NB. The clocks change at 02:00 on 25 Oct, so the 2:00 AM BST end has no recorded end time. Ticket URL is the box office list, not an event page."
+}

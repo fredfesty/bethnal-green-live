@@ -75,6 +75,54 @@
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T13:38:32Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who"
+    },
+    {
+      "at": "2026-10-14T13:45:00Z",
+      "by": "event-story-checker",
+      "change": "story checked, no changes"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "Olivia Jia has shown at The Approach before this exhibition. According to the Contemporary Art Library, she appeared there in a two-person show with Leroy Johnson for Condo London 2026, curated by Margot Samel.",
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.contemporaryartlibrary.org/project/olivia-jia-leroy-johnson-at-the-approach-london-62683",
+        "quote": "The Approach, London\nJanuary 17 – February 21, 2026\nCurated by Margot Samel",
+        "retrieved_at": "2026-10-14T13:38:32Z",
+        "source_kind": "directory",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.contemporaryartlibrary.org/project/olivia-jia-leroy-johnson-at-the-approach-london-62683",
+        "quote": "Olivia Jia, Leroy JohnsonCondo London 2026",
+        "retrieved_at": "2026-10-14T13:38:32Z",
+        "source_kind": "directory",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-14T13:38:32Z",
+    "review": {
+      "checked_at": "2026-10-14T13:45:00Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Gallery pages for Faun carry no text. ArtRabbit and Margot Samel refused by policy/robots, Ocula 403. Only found the 2026 Condo London show at The Approach. Try the gallery's exhibition page, Frieze, Apollo, ArtReview, Time Out for Faun."
+  }
 }

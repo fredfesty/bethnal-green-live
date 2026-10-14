@@ -1,0 +1,138 @@
+{
+  "id": "2026-10-17-colour-factory-shindig-nights-w-deekapz",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-14-b"
+  },
+  "found_at": "2026-10-14T14:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "SHINDIG NIGHTS w/ Deekapz",
+  "summary": "A club night at Colour Factory on Saturday 17 October headlined by the DJ duo Deekapz, from São Paulo. 21+.",
+  "venue": {
+    "venue_id": "colour-factory",
+    "name": "Colour Factory",
+    "address": "Ground Floor, Queen's Yard, London",
+    "postcode": "E9 5EN"
+  },
+  "starts_at": "2026-10-17T23:00:00+01:00",
+  "ends_at": "2026-10-18T04:00:00+01:00",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Deekapz"
+  ],
+  "genres": [
+    "Brazilian Funk"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 16,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://dice.fm/event/avk7x2-shindig-nights-w-deekapz-17th-oct-colour-factory-london-tickets",
+  "age_restriction": "21+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/avk7x2-shindig-nights-w-deekapz-17th-oct-colour-factory-london-tickets",
+      "quote": "SHINDIG NIGHTS w/ Deekapz Tickets | 17 Oct | Colour Factory, London | DICE",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/avk7x2-shindig-nights-w-deekapz-17th-oct-colour-factory-london-tickets",
+      "quote": "Sat 17 Oct, 11:00 pm",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ends_at"
+      ],
+      "url": "https://dice.fm/event/avk7x2-shindig-nights-w-deekapz-17th-oct-colour-factory-london-tickets",
+      "quote": "\"endDate\":\"2026-10-18T04:00:00+01:00\"",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/avk7x2-shindig-nights-w-deekapz-17th-oct-colour-factory-london-tickets",
+      "quote": "Ground Floor, Queen's Yard, London E9 5EN",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/avk7x2-shindig-nights-w-deekapz-17th-oct-colour-factory-london-tickets",
+      "quote": "Headlined by the DJ-duo Deekapz",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/avk7x2-shindig-nights-w-deekapz-17th-oct-colour-factory-london-tickets",
+      "quote": "Brazilian Funk beats",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/avk7x2-shindig-nights-w-deekapz-17th-oct-colour-factory-london-tickets",
+      "quote": "\"lowPrice\":\"16.00\",\"highPrice\":\"16.00\"",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/avk7x2-shindig-nights-w-deekapz-17th-oct-colour-factory-london-tickets",
+      "quote": "This is a 21+ event",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "worth_the_trip",
+        "why_its_good"
+      ],
+      "url": "https://dice.fm/event/avk7x2-shindig-nights-w-deekapz-17th-oct-colour-factory-london-tickets",
+      "quote": "The pair from São Paulo look to bring their Brazilian Funk beats",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "why_its_good"
+      ],
+      "url": "https://dice.fm/event/avk7x2-shindig-nights-w-deekapz-17th-oct-colour-factory-london-tickets",
+      "quote": "for their Europe '26 tour!",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Headline stop on the São Paulo DJ duo Deekapz's Europe tour, with Brazilian funk, from 11pm.",
+  "notes_for_verifier": "Subcategory club-night: DICE category is 'DJ'. Venue address is the one printed on the DICE page, which differs in form from the registry."
+}

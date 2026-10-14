@@ -1,0 +1,33 @@
+{
+  "id": "2026-09-04-st-margarets-house-nokshi-katha",
+  "candidate_file": "data/candidates/community/2026-10-14/2026-09-04-st-margarets-house-nokshi-katha.json",
+  "run_id": "2026-10-14-v2",
+  "verified_at": "2026-10-14T16:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Page text says Autumn term 4 Sep to 6 Nov, but the page's own event data gives startDate 2026-10-16, so the opening date is in doubt.",
+    "Status 'full' quote has no title nearby (unverifiable under the checker), and the course is already full and under way."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events/nokshi-katha",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events/nokshi-katha",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "sold-out",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

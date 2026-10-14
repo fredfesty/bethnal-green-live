@@ -107,7 +107,12 @@
     "record": "data/verification/2026-10-14/2026-10-24-oslo-hackney-daft-disko-a-french-house-disco-party.json"
   },
   "editor_note": "The return of Daft Disko, a French house and disco night, on a Saturday late.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A French house and disco party at Oslo Hackney, in the former station building in Hackney Central. Worth booking if you like your house with a bit of disco.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
   "history": [],

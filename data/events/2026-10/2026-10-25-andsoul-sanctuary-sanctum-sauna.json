@@ -75,7 +75,12 @@
     "record": "data/verification/2026-10-14/2026-10-25-andsoul-sanctuary-sanctum-sauna.json"
   },
   "editor_note": "A Sunday-morning session that moves from movement, breath and sound into the sauna and then an ice bath, all in one visit.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A Sunday-morning Sanctum + Sauna session at AndSoul Sanctuary, the membership wellness club on Cheshire Street with its own sauna and chilly plunge.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
   "history": [],

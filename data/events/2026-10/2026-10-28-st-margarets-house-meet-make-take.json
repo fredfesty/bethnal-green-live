@@ -77,7 +77,12 @@
     "record": "data/verification/2026-10-14/2026-10-28-st-margarets-house-meet-make-take.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A Meet Make Take workshop at St Margaret's House, a regular monthly session in the building's creative space.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
   "history": [],

@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-16-bgwmc-sexquisite",
+  "candidate_file": "data/candidates/arts/2026-10-14/2026-10-16-bgwmc-sexquisite.json",
+  "run_id": "2026-10-14-v2",
+  "verified_at": "2026-10-14T16:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Category/subcategory unconfirmed: the Ticket Tailor list prints only title, date, time and venue, and the scout says Sexquisite may be a club night rather than arts performance.",
+    "Title, venue and date are confirmed, so this can publish once a person decides the category."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

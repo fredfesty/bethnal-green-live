@@ -1,0 +1,119 @@
+{
+  "id": "2026-10-17-st-margarets-house-saturday-circus-club",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-14-b"
+  },
+  "found_at": "2026-10-14T14:28:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Saturday Circus Club",
+  "summary": "A weekly Saturday morning circus skills session for children at St Margaret's House, in two age groups, from 17 October to 5 December.",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "The Mulberry Hall, St Margaret's House",
+    "address": null,
+    "postcode": "E2 9PL"
+  },
+  "starts_at": "2026-10-17T09:45:00+01:00",
+  "ends_at": "2026-10-17T10:45:00+01:00",
+  "recurrence": "Saturdays, 9.45-10.45am and 11am-12noon",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://www.tickettailor.com/events/stmargaretshouse",
+  "age_restriction": "School Years 1-3 at 9.45am (younger children with an adult); School Years 4-6 at 11am",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Saturday Circus Club",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at",
+        "recurrence"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Saturdays, 9.45-10.45am and 11am-12noon",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "description"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Saturday morning sessions for children to learn circus skills, developing communication and creative thinking.",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "9.45am: Children in School Years 1-3 (younger children can attend, accompanied by an adult)",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "11am: Children in School Years 4-6",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "The Mulberry Hall at St Margaret’s House",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "Saturday Circus - Weekly Booking",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "postcode"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "The Mulberry Hall, St Margaret's House, E2 9PL",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Recurring weekly class from the venue's events list (sessions to 5 Dec); the 17 Oct session is recorded. Booking is through Ticket Tailor ('Saturday Circus - Weekly Booking'); no price was readable, so none is recorded. No own event page was readable (the guessed slug returned 404)."
+}

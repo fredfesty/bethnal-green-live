@@ -80,7 +80,12 @@
     "record": "data/verification/2026-10-13/2026-10-27-andsoul-sanctuary-ecstatic-dance-culture-womens-full-moon-dance.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A women's full moon dance at AndSoul Sanctuary, part of its Ecstatic Dance Culture series that comes round monthly. One for anyone who likes to dance.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-13T14:00:00+01:00",
   "updated_at": "2026-10-13T14:00:00+01:00",
   "history": [],

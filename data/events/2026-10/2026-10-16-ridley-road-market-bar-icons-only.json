@@ -102,7 +102,12 @@
     "record": "data/verification/2026-10-13/2026-10-16-ridley-road-market-bar-icons-only.json"
   },
   "editor_note": "The event page calls it one of East London's longest-running and most iconic nights. Disco, 90s R&B and club classics, with the price shown as free.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A free Friday DJ night at Ridley Road Market Bar, with disco, 90s R&B, pop and club classics on the bill. A cheap, no-fuss way to start the weekend.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-13T11:00:00+01:00",
   "updated_at": "2026-10-13T11:00:00+01:00",
   "history": [],

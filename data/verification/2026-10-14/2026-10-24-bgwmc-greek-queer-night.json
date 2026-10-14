@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-24-bgwmc-greek-queer-night",
+  "candidate_file": "data/candidates/nights-music/2026-10-14/2026-10-24-bgwmc-greek-queer-night.json",
+  "run_id": "2026-10-14-v2",
+  "verified_at": "2026-10-14T16:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary source."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "status",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "method": "read",
+      "source_kind": "primary",
+      "note": "No sold-out, cancelled or postponed wording seen on the page."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-17-st-margarets-house-saturday-circus-club",
+  "candidate_file": "data/candidates/community/2026-10-14/2026-10-17-st-margarets-house-saturday-circus-club.json",
+  "run_id": "2026-10-14-v2",
+  "verified_at": "2026-10-14T16:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "The 17 Oct start date is confirmed only by reading the events list page (Sat, 17 Oct 2026 09:45 to Sat, 5 Dec); the scout's quotes give only 'Saturdays, 9.45-10.45am and 11am-12noon' with no date.",
+    "A start date confirmed only by reading cannot be published. Price also not printed."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

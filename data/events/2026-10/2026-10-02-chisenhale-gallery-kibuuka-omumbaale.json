@@ -83,6 +83,203 @@
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T13:38:11Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, then, now, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T13:45:00Z",
+      "by": "event-story-checker",
+      "change": "cut unsupported details: 'new video commission', 'several panel discussions'"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "Wakaliga Uganda are a film collective from Kampala, and this is their first UK exhibition, according to the gallery's own website. Isaac Nabwana and Harriet Nakasujja set up the collective, which runs a film studio in the city's Wakaliga district. Their shows include If Uganda Was America at The Renaissance Society in Chicago in 2025 and documenta fifteen in Kassel in 2022, and their films were screened at MoMA in New York in 2019.",
+    "then": "The gallery's own website says the group has a cult reputation for films that rework Western action films, as well as Cantonese martial arts cinema and online viral video. Cast and crew build props, costumes and sets from found materials. They also teach one another martial arts and CGI, and help write the scripts.",
+    "now": "The show was co-commissioned by the gallery and The Santozeum in Santorini. It starts from the 1961 return of the remains of Kibuuka Omumbaale, a Buganda warrior-god, out of Cambridge University and back to the Uganda Museum in Kampala. In the film a teenager, Isaak, gains the god's powers after a school trip to the museum.",
+    "vibe": "The gallery's own website describes a subversive superhero action film with a playful, incisive tone. It borrows the Ugandan VJ tradition, where a comic narrator, called a 'video joker', improvises over the action, and draws on Hong Kong martial arts cinema.",
+    "worth_knowing": [
+      "The film weaves its story together with remarks from elders, healers and museum guides.",
+      "A talk between Isaac Nabwana and Ryan Trecartin and a panel discussion are also part of the programme."
+    ],
+    "written_at": "2026-10-14T13:38:11Z",
+    "evidence": [
+      {
+        "fields": [
+          "story.who",
+          "story.now"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "the first UK exhibition by Kampala-based collective Wakaliga Uganda.",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who",
+          "story.then"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "Founded by Isaac Nabwana and Harriet Nakasujja, the collective has gained cult status for producing moving image works that appropriate and rework the visual grammars of Western action films, Cantonese martial arts cinema, and YouTube virality.",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "have established a film studio in Kampala’s Wakaliga district.",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "Their selected exhibitions include: If Uganda Was America, The Renaissance Society, Chicago, 2025; and documenta fifteen, Kassel, 2022. Selected screenings include MoMA, New York, 2019.",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "Recurring cast and crew members assemble props, costumes, and sets with found materials; train each other in skills such as martial arts and CGI; and contribute to the screenwriting",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "Co-commissioned by Chisenhale Gallery, London and The Santozeum, Santorini.",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "the 1961 repatriation of Kibuuka Omumbaale’s remains from the University of Cambridge to the Uganda Museum in Kampala.",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "a teenager named Isaak comes into contact with the display of these remains during a school trip at the Uganda Museum. He unexpectedly acquires Kibuuka’s supernatural powers",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "Kibuuka Omumbaale, a warrior-god of the Kingdom of Buganda.",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "The exhibition introduces a subversive take on the superhero action film",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "playful, incisive critiques of global power dynamics.",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "the VJ, a Ugandan tradition in which a comedic narrator, or ‘video joker’, improvises commentary and emotional interpretation over action.",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "draws on the mystical traditions of Hong Kong martial arts cinema",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "Interspersed with commentary from community elders, spiritual healers, and museum tour guides",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "Isaac Nabwana in conversation with Ryan Trecartin",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://chisenhale.org.uk/whats-on/wakaliga-uganda/",
+        "quote": "Panel discussion with Dr Iain Robert Smith, Nadia Denton, and Dr Samantha Iwowo, chaired by Dr Sarah Jilani.",
+        "retrieved_at": "2026-10-14T13:38:11Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "review": {
+      "checked_at": "2026-10-14T13:45:00Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "outcome": "written",
+    "attempts": 1,
+    "next_check": null,
+    "note": "Used only the gallery's own page; no searches. Could add press on Wakaliga Uganda (Guardian, Frieze) and started date."
+  }
 }

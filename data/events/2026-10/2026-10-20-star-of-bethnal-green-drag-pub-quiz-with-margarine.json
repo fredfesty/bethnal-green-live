@@ -110,7 +110,12 @@
     "record": "data/verification/2026-10-14/2026-10-20-star-of-bethnal-green-drag-pub-quiz-with-margarine.json"
   },
   "editor_note": "A weekly quiz with a drag host at a core-zone pub, with the price printed on the event page.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A weekly drag pub quiz hosted by Margarine at The Star of Bethnal Green. A cheap midweek night out with friends.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
   "history": [],

@@ -86,7 +86,12 @@
     "record": "data/verification/2026-10-13/2026-10-17-oxford-house-araweelo-sneak-peek-operatic-performance-and-discussion.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A sneak-peek operatic performance of Araweelo followed by a discussion, at Oxford House in Bethnal Green. A good choice if you like to hear about a work as well as watch it.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-13T11:00:00+01:00",
   "updated_at": "2026-10-13T11:00:00+01:00",
   "history": [],

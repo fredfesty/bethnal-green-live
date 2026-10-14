@@ -113,7 +113,12 @@
     "record": "data/verification/2026-10-14/2026-10-24-the-shacklewell-arms-scared-to-dance-guest-dj-john-grant.json"
   },
   "editor_note": "A guest DJ, John Grant, joins resident Paul Richards for a Scared To Dance night.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A late-night club night at The Shacklewell Arms with Paul Richards and John Grant, part of the Scared To Dance series at the pub's gig room venue.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
   "history": [],

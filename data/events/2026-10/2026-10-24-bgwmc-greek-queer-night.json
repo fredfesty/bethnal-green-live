@@ -1,0 +1,81 @@
+{
+  "id": "2026-10-24-bgwmc-greek-queer-night",
+  "category": "nights-music",
+  "subcategory": "queer-party",
+  "title": "GREEK QUEER NIGHT",
+  "venue": {
+    "venue_id": "bgwmc",
+    "name": "Bethnal Green Working Men's Club",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-24T21:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://www.tickettailor.com/events/workingmens-club",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "GREEK QUEER NIGHT Sat 24 Oct 2026 9:00 PM - 2:00 AM BST",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "BETHNAL GREEN WORKING MENS CLUB, E26NB",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "Buy tickets",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T16:00:00+01:00",
+    "run_id": "2026-10-14-v2",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-14/2026-10-24-bgwmc-greek-queer-night.json"
+  },
+  "editor_note": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A Greek queer night at Bethnal Green Working Men's Club, a Saturday-night party for anyone who fancies a dance.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
+  "story": null,
+  "story_research": null,
+  "first_seen": "2026-10-14T16:00:00+01:00",
+  "updated_at": "2026-10-14T16:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

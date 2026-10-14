@@ -104,6 +104,51 @@
   },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T13:38:13Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, now, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T13:45:00Z",
+      "by": "event-story-checker",
+      "change": "cut everything resting on B-Side Guys and Indie Boulevard (not tied to this event beyond name and city) and the story's now, vibe, worth_knowing; kept the Ents24 line"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "Filip Clements is a songwriter based in London who performs solo, in an indie rock style with pop leanings, says Ents24.",
+    "now": null,
+    "vibe": null,
+    "worth_knowing": [],
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.ents24.com/london-events/sebright-arms/filip-clements/7539281",
+        "quote": "Filip Clements is a London-based songwriter and solo artist whose music is indie rock with pop sensibilities, written for the big stage.",
+        "retrieved_at": "2026-10-14T13:38:13Z",
+        "source_kind": "directory",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-14T13:38:13Z",
+    "review": {
+      "checked_at": "2026-10-14T13:45:00Z",
+      "removed_fields": [
+        "story.now",
+        "story.vibe",
+        "story.worth_knowing"
+      ]
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Tied via Ents24 (London-based songwriter at this Sebright date) and reviews of the same London debut EP; the artist's linktr.ee and Melodic Mag were blocked by robots. Not found: the special guests, any Sebright-specific detail."
+  }
 }

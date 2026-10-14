@@ -1,0 +1,140 @@
+{
+  "id": "2026-11-06-colour-factory-labyrinth-presents-j-gadget-groove-with-gadget",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-14-b"
+  },
+  "found_at": "2026-10-14T14:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Labyrinth presents: J Gadget - Groove With Gadget",
+  "summary": "J Gadget's headline set, Groove With Gadget, at Colour Factory on Friday 6 November from 10pm. 18+.",
+  "venue": {
+    "venue_id": "colour-factory",
+    "name": "Colour Factory",
+    "address": "Ground Floor, Queen's Yard, London",
+    "postcode": "E9 5EN"
+  },
+  "starts_at": "2026-11-06T22:00:00+00:00",
+  "ends_at": "2026-11-07T03:00:00+00:00",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "J Gadget"
+  ],
+  "genres": [
+    "amapiano",
+    "gqom",
+    "afro-electric"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 30.93,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://dice.fm/event/wwkapp-labyrinth-presents-j-gadget-groove-with-gadget-6th-nov-colour-factory-london-tickets",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/wwkapp-labyrinth-presents-j-gadget-groove-with-gadget-6th-nov-colour-factory-london-tickets",
+      "quote": "Labyrinth presents: J Gadget - Groove With Gadget Tickets | 6 Nov | Colour Factory, London | DICE",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/wwkapp-labyrinth-presents-j-gadget-groove-with-gadget-6th-nov-colour-factory-london-tickets",
+      "quote": "Fri 6 Nov, 10:00 pm",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ends_at"
+      ],
+      "url": "https://dice.fm/event/wwkapp-labyrinth-presents-j-gadget-groove-with-gadget-6th-nov-colour-factory-london-tickets",
+      "quote": "\"endDate\":\"2026-11-07T03:00:00+00:00\"",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/wwkapp-labyrinth-presents-j-gadget-groove-with-gadget-6th-nov-colour-factory-london-tickets",
+      "quote": "Ground Floor, Queen's Yard, London E9 5EN",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/wwkapp-labyrinth-presents-j-gadget-groove-with-gadget-6th-nov-colour-factory-london-tickets",
+      "quote": "{\"@type\":\"PerformingGroup\",\"name\":\"J Gadget\"",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/wwkapp-labyrinth-presents-j-gadget-groove-with-gadget-6th-nov-colour-factory-london-tickets",
+      "quote": "returns to East London with his amapiano, gqom & afro-electric sounds",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/wwkapp-labyrinth-presents-j-gadget-groove-with-gadget-6th-nov-colour-factory-london-tickets",
+      "quote": "\"lowPrice\":\"30.93\",\"highPrice\":\"30.93\"",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/wwkapp-labyrinth-presents-j-gadget-groove-with-gadget-6th-nov-colour-factory-london-tickets",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "worth_the_trip",
+        "why_its_good"
+      ],
+      "url": "https://dice.fm/event/wwkapp-labyrinth-presents-j-gadget-groove-with-gadget-6th-nov-colour-factory-london-tickets",
+      "quote": "Following a sold-out debut at Colours Hoxton",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "why_its_good"
+      ],
+      "url": "https://dice.fm/event/wwkapp-labyrinth-presents-j-gadget-groove-with-gadget-6th-nov-colour-factory-london-tickets",
+      "quote": "for an extended set",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "J Gadget's return to Colour Factory after a sold-out debut at Colours Hoxton, for an extended set.",
+  "notes_for_verifier": "The DICE page's 'Read more' text is cut off; genres are from the full description in the page's JSON-LD. Subcategory club-night: DICE category is 'DJ'."
+}

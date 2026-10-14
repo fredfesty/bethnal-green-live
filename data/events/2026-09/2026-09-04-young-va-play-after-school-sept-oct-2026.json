@@ -114,6 +114,190 @@
   "listing": null,
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T13:38:00Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, then, now, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T13:45:00Z",
+      "by": "event-story-checker",
+      "change": "cut unsupported details: gallery and Town Square locations for Design Challenges and Board Games, 'building challenges', age item"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "The sessions are run by the museum's team of Play Champions, who lead the activities in the interactive galleries, according to the Young V&A's own website.",
+    "then": "The sessions belong to Young V&A's Power of Play programme, a consortium working to bring learning through play to children in Tower Hamlets. The venue's own website says the LEGO Foundation pays for it and the LEGO Group in London coordinates it, and the other partners are EasyPeasy, Ambition Aspire Achieve, Save the Children and the Institute of Imagination.",
+    "now": "The activity changes from week to week, and the venue's own website lists four. Design Challenges includes building local landmarks from LEGO on a custom map of Tower Hamlets. Play Together, in the Play gallery, offers moving and making challenges and adventures inspired by objects there. Imagine This, in the Imagine gallery, has props and costumes and a mini-theatre stage. Board Games is a pop-up board game café themed on The Arcade.",
+    "vibe": "The venue's own website describes the Board Games session as family-friendly, with a mix of games to learn and a chance to share your own house rules.",
+    "worth_knowing": [
+      "Visitors can ask the team on arrival which gallery is hosting the activity that day, as it alternates weekly."
+    ],
+    "written_at": "2026-10-14T13:38:00Z",
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "Explore exciting play adventures with our friendly team of Play Champions in our interactive galleries.",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "The Power of Play is a collective impact consortium to bring quality learning-through-play to children in the London Borough of Tower Hamlets.",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "The project is funded by the LEGO Foundation and coordinated by the LEGO Group in London.",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "Young V&A is participating in the project alongside the Institute of Imagination, Save the Children, EasyPeasy and Ambition Aspire Achieve.",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "Activities run from 15:30-17:00 and alternate between the activities below each week.",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "build local landmarks using LEGO all set against the backdrop of a custom-made map of Tower Hamlets.",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "Take on moving and making challenges with our Play Champions!",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "go on an adventure inspired by one of the objects in our Play Gallery.",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "Unleash your creativity by playing with props and costumes to invent your own stories.",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "bring them to life on our mini-theatre stage for an exciting performance experience!",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "A pop-up board game café, inspired by 'The Arcade.'",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "It’s a fun, family-friendly event where you can explore a variety of board games, learn new ones, and share your own unique 'House Rules.'",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "Feel free to ask us when you arrive what gallery we will be playing in today!",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "Most Suitable for ages 2+",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+        "quote": "Imagine This: Imagine Gallery",
+        "retrieved_at": "2026-10-14T13:38:00Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "review": {
+      "checked_at": "2026-10-14T13:45:00Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "outcome": "written",
+    "attempts": 1,
+    "next_check": null,
+    "note": "Used only the venue's own event page; no named individuals and no searches run. Press on the Power of Play programme could add more."
+  }
 }
