@@ -189,3 +189,43 @@ def test_health_and_wellness_section_takes_only_wellness_events(repo, validators
     ev.write_text(json.dumps(e), encoding="utf-8")
     assert not has(errors(d, validators), "is for health-wellness events")
     assert newsletter.kind_label(e) == "Sound bath"
+
+
+def test_test_recipients_keeps_only_addresses():
+    assert newsletter.test_recipients(" a@x.com, b@y.co.uk ;nope, ") == ["a@x.com", "b@y.co.uk"]
+    assert newsletter.test_recipients(None) == []
+
+
+def test_buttondown_test_copy_goes_only_to_the_test_list(repo, monkeypatch, capsys):
+    issue_path = repo / "data/newsletter/issues/2026-10-29.json"
+    issue_path.write_text(EX_ISSUE.read_text(encoding="utf-8"), encoding="utf-8")
+    calls = []
+
+    class Resp:
+        def __init__(self, body):
+            self.body = body
+
+        def read(self):
+            return self.body
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            return False
+
+    def fake_urlopen(req, timeout=0):
+        calls.append((req.full_url, json.loads(req.data.decode())))
+        return Resp(b'{"id": "em_123"}' if req.full_url.endswith("/emails") else b"{}")
+
+    monkeypatch.setattr(newsletter.urllib.request, "urlopen", fake_urlopen)
+    monkeypatch.setenv("BUTTONDOWN_API_KEY", "k")
+    assert newsletter.main(["buttondown-draft", str(issue_path), "--test-to", "fred@example.com"]) == 0
+    assert calls[0][1]["status"] == "draft"
+    assert calls[1] == ("https://api.buttondown.com/v1/emails/em_123/send-draft", {"recipients": ["fred@example.com"]})
+    assert len(calls) == 2
+
+    calls.clear()
+    monkeypatch.delenv("NEWSLETTER_TEST_TO", raising=False)
+    assert newsletter.main(["buttondown-draft", str(issue_path)]) == 0
+    assert len(calls) == 1  # no test list: draft only, nothing emailed
