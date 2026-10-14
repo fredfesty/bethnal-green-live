@@ -452,7 +452,7 @@ def check_verification(path: Path, data: dict, today: dt.date | None, days: int 
 def check_event(path: Path, data: dict, today: dt.date | None, days: int = 31) -> list[str]:
     errs = (check_sources(data) + check_evidence_coverage(data) + check_subcategory(data)
             + check_id_and_date(data, None, days) + check_venue(data) + check_price(data["price"])
-            + check_listing(data))
+            + check_listing(data) + check_event_story(data))
     try:  # the folder-and-name rule for events covers the file name
         rel = path.resolve().relative_to(ROOT.resolve())
         expected = Path("data/events") / data["starts_at"][:7] / f"{data['id']}.json"
@@ -775,6 +775,65 @@ def _not_after(a: str | None, b: str | None) -> bool:
         return dt.datetime.fromisoformat(a) <= dt.datetime.fromisoformat(b)
     except (TypeError, ValueError):
         return True
+
+
+EVENT_STORY_PARTS = ["story.who", "story.started", "story.then", "story.now", "story.vibe", "story.worth_knowing"]
+EVENT_STORY_FRESH_YEARS = 5  # story.now and story.vibe need sources no older than this
+
+
+def check_event_story(data: dict) -> list[str]:
+    """'The story' on an event page (the event storyteller): every part backed by its own quotes, in our own words,
+    with the weekly-retry bookkeeping. Its evidence lives in story.evidence, apart from the verifier's."""
+    errs = []
+    story, r = data.get("story"), data.get("story_research")
+    if story:
+        if not any(_filled(get(data, f)) for f in EVENT_STORY_PARTS):
+            errs.append("story: has no content; use null instead")
+        ev = story.get("evidence", [])
+        errs += [f"story.{e}" for e in check_sources_any(ev)]
+        named = {f for e in ev for f in e["fields"]}
+        written = dt.datetime.fromisoformat(story["written_at"].replace("Z", "+00:00"))
+        for field in EVENT_STORY_PARTS:
+            val = get(data, field)
+            if not _filled(val):
+                continue
+            if not covered(field, named):
+                errs.append(f"{field}: is filled in but no story.evidence item names it")
+            elif field in ("story.now", "story.vibe"):
+                limit = written.date() - dt.timedelta(days=365 * EVENT_STORY_FRESH_YEARS)
+                backing = [e for e in ev if covered(field, set(e["fields"]))]
+                if all(e.get("source_date") and dt.date.fromisoformat(e["source_date"]) < limit for e in backing):
+                    errs.append(f"{field}: every source is over {EVENT_STORY_FRESH_YEARS} years old; "
+                                f"old pages may back story.started and story.then only")
+            plain_texts = [without_names(t, [data]) for t in (val if isinstance(val, list) else [val]) if t]
+            hit = next(((t, e) for t in plain_texts for e in ev + data["evidence"] if copied_run(t, e["quote"])), None)
+            if hit:
+                errs.append(f"{field}: copies the source word for word (\"{copied_run(hit[0], hit[1]['quote'])}\"); "
+                            f"write it in our own words")
+        rev = story.get("review")
+        if rev:
+            for f in rev.get("removed_fields", []):
+                if f not in EVENT_STORY_PARTS:
+                    errs.append(f"story.review: '{f}' is not a story part")
+                elif _filled(get(data, f)):
+                    errs.append(f"story.review: '{f}' is listed as removed but still filled in")
+    if r:
+        last = dt.date.fromisoformat(r["last_attempt"])
+        if r["outcome"] == "written":
+            if r.get("next_check"):
+                errs.append("story_research: next_check must be null once the story is written")
+            if not story:
+                errs.append("story_research: outcome 'written' but there is no story")
+        else:
+            want = (last + dt.timedelta(days=STORY_RETRY_DAYS)).isoformat()
+            if r.get("next_check") != want:
+                errs.append(f"story_research: after a '{r['outcome']}' try on {last} the next check is {want}, "
+                            f"not {r.get('next_check')} (weekly retries only)")
+        if story and story["written_at"][:10] > r["last_attempt"]:
+            errs.append("story_research: last_attempt is older than story.written_at")
+    elif story:
+        errs.append("story: written but story_research is empty (the storyteller always fills it)")
+    return errs
 
 
 def check_listing(data: dict) -> list[str]:

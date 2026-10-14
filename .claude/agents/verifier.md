@@ -79,7 +79,7 @@ How to empty a removed field:
    - **Copy** facts from the candidate exactly. Don't reword, round or "fix" anything. The only changes allowed are removing a field and setting status from the page.
    - `evidence`: the candidate's items exactly as they were, minus any you couldn't confirm, plus your own status quote if you added one.
    - `editor_note` = the candidate's `why_its_good` (internal only). The scout's `summary` is **not** carried over; public text is written later from confirmed fields.
-   - `listing`: null for a new event. `needs_review`: null.
+   - `listing`, `story` and `story_research`: null for a new event. `needs_review`: null.
 3. **Then check your own work:**
    - `python scripts/check_quote.py --file <each event file you wrote>` (this also checks any status quote you added);
    - `python scripts/validate.py verification data/verification/<run-date>`;
@@ -89,7 +89,7 @@ How to empty a removed field:
 
 ### Updates to published events
 
-- **Same id** (time, price, status or line-up changed): verify as above with `existing_event` set. If you publish, keep `first_seen`, set `updated_at`, and add one `history` line per change (`by: "verifier"`). Keep `listing` only if no fact it mentions changed; otherwise set it to null so it gets rewritten. A cancellation keeps the event with `status: cancelled`.
+- **Same id** (time, price, status or line-up changed): verify as above with `existing_event` set. If you publish, keep `first_seen`, set `updated_at`, and add one `history` line per change (`by: "verifier"`). Keep `listing` only if no fact it mentions changed; otherwise set it to null so it gets rewritten. Keep `story` and `story_research` exactly as they are (they're the event storyteller's), except: if the title or line-up changed, set `story` to null and `story_research` to null, so it gets rewritten for the new bill. A cancellation keeps the event with `status: cancelled`.
 - **Date changed** (new id, same venue, similar title): hold the new candidate. On the old event, set `needs_review` (`since`: now, `reason`: "date may have moved to <new date>, see <new id>") and add a history line. The site hides or flags events under review, so the old date stops showing.
 - **Held update** of any other kind: also set `needs_review` on the published event, so the old facts aren't shown as certain.
 

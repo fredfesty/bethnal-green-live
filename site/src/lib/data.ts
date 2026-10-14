@@ -5,6 +5,7 @@ import path from "node:path";
 import { addDays, hasTime, instant, londonDate, todayInLondon, type When } from "./time";
 import { kindLabel, typeGroup } from "./labels";
 import { demoEvents } from "./demo";
+import type { EventStory } from "./eventstory";
 import config from "../site.config.mjs";
 
 export const DEMO = process.env.BGL_DEMO === "1";
@@ -20,6 +21,7 @@ export interface RawEvent {
   accessibility?: string | null; status: string; evidence: Evidence[];
   verification: { verified_at: string; outcome: string; removed_fields?: string[] };
   listing?: { headline?: string | null; blurb: string } | null;
+  story?: EventStory | null;
   needs_review?: { since: string; reason: string } | null;
   updated_at: string;
 }

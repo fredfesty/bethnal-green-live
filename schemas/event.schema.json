@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://bethnalgreen.live/schemas/event.schema.json",
   "title": "Event",
-  "description": "A verified event, as the website and newsletter read it. Written only by the verifier (facts) and later the listing writer (the 'listing' block). Lives in data/events/<YYYY-MM>/<id>.json. Public text (the listing blurb) is written later from confirmed fields only; the scout's summary is not carried over.",
+  "description": "A verified event, as the website and newsletter read it. Written only by the verifier (facts), the listing writer (the 'listing' block) and the event storyteller and event story checker (the 'story' and 'story_research' blocks). Lives in data/events/<YYYY-MM>/<id>.json. Public text (the listing blurb) is written later from confirmed fields only; the scout's summary is not carried over.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -196,6 +196,202 @@
           }
         }
       ]
+    },
+    "story": {
+      "description": "The longer read under 'The story' on the event page, written by the event storyteller: who is on and what they have done, when the night or series started and its history, what is special about this one, what it is like, and other things worth knowing. Every part is our own words and backed by quotes in story.evidence. The site shows it only after the event story checker's review is newer than written_at. Null until written; the verifier sets it to null when the title or line-up changes.",
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "written_at",
+        "evidence"
+      ],
+      "properties": {
+        "started": {
+          "description": "When the night, series or festival began (or when the act formed), as a source states it, e.g. '2014, as a monthly night at the Sebright Arms'.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 120
+        },
+        "then": {
+          "description": "The history of the night or series, or of the act: past editions, moves, organisers, releases. Our own words.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 700
+        },
+        "who": {
+          "description": "Who is on: the acts, artists, speakers, chefs or teachers, what they have done and what named publications have said about them, attributed. Only professional facts, never private life or looks.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 700
+        },
+        "now": {
+          "description": "What is special about this edition or this run (a launch, an anniversary, a tour, the theme), from sources no more than five years old.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 600
+        },
+        "vibe": {
+          "description": "What it is like, only as sources describe it (past editions, the act live, the show), attributed where it is a judgement. Never describes people by age, race, class or looks.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 600
+        },
+        "worth_knowing": {
+          "description": "Up to five short facts a reader would enjoy, our own words.",
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 240
+          }
+        },
+        "written_at": {
+          "$ref": "common.schema.json#/$defs/timestamp"
+        },
+        "evidence": {
+          "description": "The quotes behind the story, separate from the event's own evidence (which only the verifier writes).",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "fields",
+              "url",
+              "quote",
+              "retrieved_at",
+              "source_kind"
+            ],
+            "properties": {
+              "fields": {
+                "description": "Which parts of the story this quote backs: 'story' for all of it, or 'story.started', 'story.then', 'story.who', 'story.now', 'story.vibe', 'story.worth_knowing'.",
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "pattern": "^story(\\.(started|then|who|now|vibe|worth_knowing))?$"
+                }
+              },
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https?://"
+              },
+              "quote": {
+                "description": "One contiguous snippet copied word for word from the page, 10 to 300 characters.",
+                "type": "string",
+                "minLength": 10,
+                "maxLength": 300,
+                "pattern": "[A-Za-z0-9].*[A-Za-z0-9]"
+              },
+              "retrieved_at": {
+                "$ref": "common.schema.json#/$defs/timestamp"
+              },
+              "source_kind": {
+                "description": "primary = the event's, act's, organiser's or venue's own page; press = an article or review by a named publication; directory = a reference or heritage listing, a label or agency roster; aggregator = a listings site that copies others.",
+                "enum": [
+                  "primary",
+                  "press",
+                  "directory",
+                  "aggregator"
+                ]
+              },
+              "source_date": {
+                "description": "When the page was written or last updated, if it shows one. A source over five years old may back story.started and story.then (history) but not story.now or story.vibe.",
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date"
+              }
+            }
+          }
+        },
+        "review": {
+          "description": "The event story checker's stamp: every story quote re-fetched and every part compared with its quotes. Older than written_at, it doesn't count.",
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "required": [
+            "checked_at",
+            "removed_fields"
+          ],
+          "properties": {
+            "checked_at": {
+              "$ref": "common.schema.json#/$defs/timestamp"
+            },
+            "removed_fields": {
+              "description": "Story parts emptied because nothing backed them, e.g. 'story.vibe'.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "story_research": {
+      "description": "Internal bookkeeping for the event storyteller, never shown on the site. An event whose story is still short after a try waits a week after last_attempt, never sooner (and is dropped once it is over).",
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "last_attempt",
+        "outcome",
+        "attempts",
+        "next_check"
+      ],
+      "properties": {
+        "last_attempt": {
+          "type": "string",
+          "format": "date"
+        },
+        "outcome": {
+          "description": "written = the story reaches 6 lines; partial = something was added but it is shorter; nothing-found = nothing quotable was found.",
+          "enum": [
+            "written",
+            "partial",
+            "nothing-found"
+          ]
+        },
+        "attempts": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "next_check": {
+          "description": "last_attempt + 7 days unless the outcome is written (then null).",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 400
+        }
+      }
     },
     "first_seen": {
       "$ref": "common.schema.json#/$defs/timestamp"

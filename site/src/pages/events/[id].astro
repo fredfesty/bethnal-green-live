@@ -5,6 +5,8 @@ import { kindLabel, STATUS, ZONE } from "../../lib/labels";
 import { timeRange, weekday, dayMonth, longDate, hasTime, londonDate, dayMonthShort } from "../../lib/time";
 import { rel } from "../../lib/rel";
 import { venuePathFor } from "../../lib/venues";
+import { linkSources, type Segment } from "../../lib/storylinks";
+import { shownStory } from "../../lib/eventstory";
 import config from "../../site.config.mjs";
 
 export function getStaticPaths() {
@@ -46,6 +48,9 @@ const jsonld = {
   url: pageUrl,
 };
 const vpath = venuePathFor(e);
+// "The story", once the event story checker has stamped it; the sites it names link to the pages the facts came from.
+const story = shownStory(e.story);
+const sl = (part: string, text: string): Segment[] => linkSources(text, part, story?.evidence ?? []);
 const mail = config.correctionsContact;
 const fixHref = !mail ? null : mail.includes("@")
   ? `mailto:${mail}?subject=${encodeURIComponent(`Correction: ${e.title} (${e.date})`)}&body=${encodeURIComponent(`Listing: ${pageUrl}\n\nWhat's wrong:\n`)}`
@@ -109,6 +114,21 @@ const fixHref = !mail ? null : mail.includes("@")
       </div>
     </div>
 
+    {story && (
+      <section class="ev__story" aria-labelledby="story-head">
+        <h2 id="story-head">The story</h2>
+        {story.who && <><h3>Who's on</h3><p>{sl("who", story.who).map((s) => s.href ? <a href={s.href} rel="noopener">{s.text}</a> : s.text)}</p></>}
+        {(story.started || story.then) && <h3>{e.recurrence ? "The night" : "Background"}</h3>}
+        {story.started && <p class="ev__started"><strong>Started:</strong> {sl("started", story.started).map((s) => s.href ? <a href={s.href} rel="noopener">{s.text}</a> : s.text)}</p>}
+        {story.then && <p>{sl("then", story.then).map((s) => s.href ? <a href={s.href} rel="noopener">{s.text}</a> : s.text)}</p>}
+        {story.now && <><h3>This time</h3><p>{sl("now", story.now).map((s) => s.href ? <a href={s.href} rel="noopener">{s.text}</a> : s.text)}</p></>}
+        {story.vibe && <><h3>What it's like</h3><p>{sl("vibe", story.vibe).map((s) => s.href ? <a href={s.href} rel="noopener">{s.text}</a> : s.text)}</p></>}
+        {(story.worth_knowing?.length ?? 0) > 0 && (
+          <><h3>Worth knowing</h3><ul class="ev__worth">{story.worth_knowing!.map((w) => <li>{sl("worth_knowing", w).map((s) => s.href ? <a href={s.href} rel="noopener">{s.text}</a> : s.text)}</li>)}</ul></>
+        )}
+      </section>
+    )}
+
     <section class="ev__checked" aria-labelledby="checked">
       <h2 id="checked">How we checked this</h2>
       <p>
@@ -144,6 +164,11 @@ const fixHref = !mail ? null : mail.includes("@")
   .ev__note { color: var(--muted); font-size: 0.95rem; }
   .ev__actions { display: grid; gap: 0.6rem; min-width: 13rem; }
   .ev__blurb { margin: 1rem 0 0; font-size: 1.15rem; line-height: 1.5; max-width: var(--measure); }
+  .ev__story { margin-top: 2.5rem; max-width: var(--measure); }
+  .ev__story h2 { font-size: 1.35rem; font-weight: 750; }
+  .ev__story h3 { font-size: 1rem; font-weight: 700; margin: 1.1rem 0 0; }
+  .ev__story p { margin: 0.5rem 0 0; line-height: 1.6; }
+  .ev__worth { margin: 0.5rem 0 0; padding-left: 1.2rem; display: grid; gap: 0.3rem; line-height: 1.6; }
   .ev__checked { margin-top: 2.5rem; padding: 1.1rem 1.25rem; background: var(--green-tint); border-radius: 8px; max-width: 46rem; }
   .ev__checked h2 { font-size: 1.05rem; }
   .ev__checked p { margin: 0.5rem 0 0; }

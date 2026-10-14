@@ -10,7 +10,8 @@ Usage
   python scripts/check_quote.py --file data/candidates/nights-music/2026-10-13/a.json [b.json ...]
   python scripts/check_quote.py --url https://example.com/event --quote "Fri 16 Oct, 10pm"
 
-Works on any JSON file with an 'evidence' list (candidates and events).
+Works on any JSON file with an 'evidence' list (candidates and events). With --story, it checks an event's
+story.evidence instead (the event story checker); 'index' is then the position in story.evidence.
 
 Output: one JSON object per evidence item, on its own line:
   {"file", "index", "url", "final_url", "fields", "result", "score", "http_status",
@@ -375,6 +376,8 @@ def main(argv: list[str] | None = None) -> int:
     g.add_argument("--url", help="check one URL (with --quote)")
     ap.add_argument("--quote")
     ap.add_argument("--title", help="with --url: the event title, to report title_nearby")
+    ap.add_argument("--story", action="store_true",
+                    help="with --file: check the quotes in story.evidence (an event's story) instead of evidence")
     ap.add_argument("--max-per-domain", type=int, default=20)
     args = ap.parse_args(argv)
     globals()["MAX_PER_DOMAIN"] = args.max_per_domain
@@ -388,7 +391,7 @@ def main(argv: list[str] | None = None) -> int:
         for f in args.files:
             try:
                 data = json.loads(Path(f).read_text(encoding="utf-8-sig"))
-                evidence = data["evidence"]
+                evidence = (data["story"] or {}).get("evidence", []) if args.story else data["evidence"]
             except (OSError, ValueError, KeyError, TypeError) as e:
                 print(json.dumps({"file": f, "result": "unreadable-file", "note": str(e)}))
                 jobs.append((f, -1, {}, None))
