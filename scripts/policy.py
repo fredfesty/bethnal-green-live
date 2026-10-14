@@ -79,7 +79,7 @@ def _approved_primary() -> tuple[tuple[str, str], ...]:
         reg = json.loads(p.read_text(encoding="utf-8-sig"))
         for v in reg.get("venues", []):
             for listing in v.get("listings", []):
-                ok = listing.get("approved") or {}
+                ok = listing.get("approved") if isinstance(listing.get("approved"), dict) else {}
                 if listing.get("role") == "primary" and ok.get("by") and ok.get("on") and listing.get("url") \
                         and is_discovery_only(listing["url"]):
                     out.append((v["id"], listing["url"]))

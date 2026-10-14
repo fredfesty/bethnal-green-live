@@ -86,7 +86,7 @@ One JSON file per candidate at `data/candidates/<category>/<run-date>/<id>.json`
 
 ## Self-check before you finish
 
-1. `python scripts/validate.py candidates <your candidate files> --window` (only the files you wrote: the nights scouts share a folder, and neither touches the other's files; list yours with `grep -l '"name": "<scout>"' data/candidates/<category>/<run-date>/*.json`). Fix every failure. If you can't fix one honestly (no evidence for a field), empty that field rather than inventing support.
+1. `python scripts/validate.py candidates <your candidate files> --window` (only the files you wrote: the nights scouts share a folder, and neither touches the other's files; list yours with `grep -lE '"name": ?"<scout>"' data/candidates/<category>/<run-date>/*.json`). Fix every failure. If you can't fix one honestly (no evidence for a field), empty that field rather than inventing support.
 2. `python scripts/check_quote.py --as <scout> --file <your candidate files>` (only the files you wrote; the pages you read come from the run's cache, so this costs nothing unless you cite a page you never read). A `missing` or `near-mismatch` quote means you paraphrased, stitched or misread: copy the exact text again. `title_nearby: false` means the quote is on a list page away from the title: quote a passage that includes the title, or use the event's own page. `blocked` or `forbidden`: drop that evidence item and the facts that relied on it. `thin-page` or `fetch-failed` can be left for the verifier, but mention it in `notes_for_verifier`.
 3. Do not finish with failing files. If you found nothing, write no candidates, just the report.
 

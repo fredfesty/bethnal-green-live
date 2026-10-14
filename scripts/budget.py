@@ -18,7 +18,7 @@ Limits (per run date, per agent):
 A page that a scout has already read in this run is served from the run's page cache, so reading it
 again (for example in the scout's own quote self-check) costs nothing and does not touch the site.
 The verifier uses `--as verifier`: its pages are counted the same way, but it never reads or writes the
-cache, so it always checks the live page.
+cache, so it always checks the live page; a page it has already read this run is not counted again.
 
 Only the names below are accepted, so a typo can't start a fresh allowance.
 
@@ -156,6 +156,8 @@ def page_refusal(rows: list[dict], agent: str, url: str) -> str | None:
     mine = [r for r in pages if r["agent"] == agent]
     if len(mine) >= PAGES_PER_RUN:
         return f"budget: {agent} has read {len(mine)} pages this run, the limit is {PAGES_PER_RUN}"
+    if agent in NO_CACHE and any(r["url"] == url for r in mine):
+        return None  # re-reading a page already counted (the verifier checks one page at several steps)
     group = SHARED_ALLOWANCE.get(agent)
     sharers = {a for a, g in SHARED_ALLOWANCE.items() if g == group} if group else {agent}
     if group:
@@ -175,12 +177,18 @@ def charge_page(agent: str, url: str, date: str | None = None) -> str | None:
     """Record one page read. Returns a refusal reason instead (and records nothing) if over a limit."""
     check_agent(agent)
     date = date or run_date()
-    with _locked(date):
-        reason = page_refusal(_ledger(date), agent, url)
-        if reason:
-            return reason
-        _append(date, {"kind": "page", "agent": agent, "site": site_of(url), "url": url,
-                       "at": dt.datetime.now(LONDON).isoformat(timespec="seconds")})
+    try:
+        with _locked(date):
+            rows = _ledger(date)
+            reason = page_refusal(rows, agent, url)
+            if reason:
+                return reason
+            if agent in NO_CACHE and any(r["kind"] == "page" and r["agent"] == agent and r["url"] == url for r in rows):
+                return None
+            _append(date, {"kind": "page", "agent": agent, "site": site_of(url), "url": url,
+                           "at": dt.datetime.now(LONDON).isoformat(timespec="seconds")})
+    except OSError as e:  # the ledger couldn't be locked or written: refuse rather than read uncounted
+        return f"budget: the run's ledger is unavailable ({type(e).__name__}); try again in a moment"
     return None
 
 

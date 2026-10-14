@@ -208,3 +208,32 @@ def test_page_text_says_refused_when_over_budget(capsys):
         read("community", f"https://venue.example/{i}")
     assert page_text.main(["--as", "community", "https://venue.example/more"]) == 2
     assert capsys.readouterr().out.startswith("REFUSED budget:")
+
+
+def test_verifier_pays_once_per_page_and_scouts_cannot_starve_it():
+    for _ in range(3):  # the same page checked at three steps
+        assert read("verifier", "https://dice.fm/event/1") is None
+    assert budget.usage(DATE, "verifier")["verifier"]["pages"] == 1
+    for i in range(19):
+        assert read("verifier", f"https://dice.fm/event/n{i}") is None
+    assert read("verifier", "https://dice.fm/event/one-too-many") is not None
+    assert read("verifier", "https://dice.fm/event/1") is None  # an already counted page stays readable
+
+
+def test_a_real_403_is_remembered_for_the_run(monkeypatch):
+    import urllib.error
+
+    def refuse(req, timeout=None):
+        raise urllib.error.HTTPError(req.full_url, 403, "Forbidden", {}, None)
+
+    monkeypatch.setattr(check_quote._opener, "open", refuse)
+    check_quote.use_budget("arts", DATE)
+    assert check_quote.fetch((FIX / "event_page.html").as_uri())["status"] == 403
+    assert any(r["kind"] == "slowed" for r in budget._ledger(DATE))
+
+
+def test_a_ledger_that_cannot_be_locked_refuses(monkeypatch):
+    def broken(date):
+        raise OSError("locked by another reader")
+    monkeypatch.setattr(budget, "_locked", broken)
+    assert "ledger is unavailable" in read("arts", "https://example.org/")

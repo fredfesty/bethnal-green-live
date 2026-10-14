@@ -33,9 +33,7 @@ Subcategory: `gig`, `jazz`, `folk-acoustic`, `karaoke`, `open-mic`, `in-store`, 
 
 ## Where to look, within your limits
 
-On every website except dice.fm you may read at most 12 pages, and the club scout's pages on that site count towards the shared 20, so read your core venues first.
-
-You may read at most **6 dice.fm pages** this run (the club scout has the other 14), and the two of you share 20 pages on every other website. So use venues' own sites and other ticket sellers first, and DICE venue pages (which list every dated event with its time and price) rather than single DICE event pages.
+You may read at most **6 dice.fm pages** this run (the club scout has the other 14). On every other website the two of you share 20 pages, and you may take at most 12 of them, so read your core venues first. Use venues' own sites and other ticket sellers first, and DICE venue pages (which list every dated event with its time and price) rather than single DICE event pages.
 
 1. **Primary listings** in the registry, venue by venue: venue sites (Oxford House, Troxy, 93 Feet East, Rough Trade East, Hackney Empire and so on), Ticket Tailor box offices, DICE venue pages, Skiddle public pages, OutSavvy.
 2. **Skiddle API**, only if `SKIDDLE_API_KEY` is set: one search for the event code LIVE centred on Bethnal Green tube, radius 1 mile, `minDate` today, first counted with `python scripts/budget.py page --as nights-gigs <the API URL>`. Skip quietly if the key is missing.
