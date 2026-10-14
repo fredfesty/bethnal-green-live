@@ -1,0 +1,110 @@
+{
+  "id": "2026-11-01-oslo-hackney-phil-campbells-bastard-sons",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Phil Campbell’s Bastard Sons",
+  "venue": {
+    "venue_id": "oslo-hackney",
+    "name": "Oslo Hackney",
+    "address": "1a Amhurst Road, Hackney, London",
+    "postcode": "E8 1LL"
+  },
+  "starts_at": "2026-11-01T18:00:00+00:00",
+  "ends_at": "2026-11-01T22:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Phil Campbell’s Bastard Sons"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 31.52,
+    "max_gbp": 31.52,
+    "notes": "£31.52 on the DICE venue listing"
+  },
+  "ticket_url": "https://dice.fm/event/6a687fc940069b00016b7cd6",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue",
+        "price"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "PHIL CAMPBELL’S BASTARD SONS Sun 1 Nov Oslo Hackney London £31.52",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "PHIL CAMPBELL’S BASTARD SONS 2026-11-01T18:00:00+00:00 2026-11-01T22:00:00+00:00",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "Capacity 370",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "1a Amhurst Road, Hackney, London, E8 1LL, United Kingdom",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "https://dice.fm/event/6a687fc940069b00016b7cd6",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "PHIL CAMPBELL’S BASTARD SONS Sun 1 Nov Oslo Hackney London £31.52",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T17:00:00+01:00",
+    "run_id": "2026-10-14-v3",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-14/2026-11-01-oslo-hackney-phil-campbells-bastard-sons.json"
+  },
+  "editor_note": "Phil Campbell’s Bastard Sons on a Sunday night in a 370-capacity room.",
+  "listing": null,
+  "story": null,
+  "story_research": null,
+  "first_seen": "2026-10-14T17:00:00+01:00",
+  "updated_at": "2026-10-14T17:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

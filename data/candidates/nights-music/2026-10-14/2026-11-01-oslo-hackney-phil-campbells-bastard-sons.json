@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-01-oslo-hackney-phil-campbells-bastard-sons",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T16:58:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Phil Campbell’s Bastard Sons",
+  "summary": "Phil Campbell’s Bastard Sons at Oslo Hackney on Sunday 1 November, 6pm to 10pm, with tickets at £31.52 on DICE.",
+  "venue": {
+    "venue_id": "oslo-hackney",
+    "name": "Oslo Hackney",
+    "address": "1a Amhurst Road, Hackney, London",
+    "postcode": "E8 1LL"
+  },
+  "starts_at": "2026-11-01T18:00:00+00:00",
+  "zone": "outer",
+  "worth_the_trip": true,
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 31.52,
+    "max_gbp": 31.52,
+    "notes": "£31.52 on the DICE venue listing"
+  },
+  "ticket_url": "https://dice.fm/event/6a687fc940069b00016b7cd6",
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue",
+        "price"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "PHIL CAMPBELL’S BASTARD SONS Sun 1 Nov Oslo Hackney London £31.52",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "PHIL CAMPBELL’S BASTARD SONS 2026-11-01T18:00:00+00:00 2026-11-01T22:00:00+00:00",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "Capacity 370",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "1a Amhurst Road, Hackney, London, E8 1LL, United Kingdom",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "https://dice.fm/event/6a687fc940069b00016b7cd6",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "PHIL CAMPBELL’S BASTARD SONS Sun 1 Nov Oslo Hackney London £31.52",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "ends_at": "2026-11-01T22:00:00+00:00",
+  "lineup": [
+    "Phil Campbell’s Bastard Sons"
+  ],
+  "why_its_good": "Phil Campbell’s Bastard Sons on a Sunday night in a 370-capacity room.",
+  "notes_for_verifier": "Start time from the DICE venue page's event data; doors not stated. Genre not stated."
+}

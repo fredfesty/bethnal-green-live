@@ -1,0 +1,141 @@
+{
+  "id": "2026-10-16-queen-of-hoxton-so-fresh-so-clean",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T12:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "So Fresh So Clean",
+  "summary": null,
+  "venue": {
+    "venue_id": "queen-of-hoxton",
+    "name": "Queen Of Hoxton",
+    "address": "1 Curtain Rd, London EC2A 3JX",
+    "postcode": "EC2A 3JX"
+  },
+  "starts_at": "2026-10-16T19:00:00+01:00",
+  "ends_at": "2026-10-17T02:00:00+01:00",
+  "recurrence": "Every Friday",
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "So Fresh So Clean DJs"
+  ],
+  "genres": [
+    "Hip-Hop",
+    "RnB",
+    "Afrobeats",
+    "Bashment",
+    "UK Garage"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "From free; free entry 7pm to 9pm on the rooftop"
+  },
+  "ticket_url": "https://dice.fm/event/6ab4f67314df280001b203f4",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://dice.fm/event/6ab4f67314df280001b203f4",
+      "quote": "So Fresh So Clean\nQueen Of Hoxton\nFri 16 Oct, 7:00 pm",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/6ab4f67314df280001b203f4",
+      "quote": "1 Curtain Rd, London EC2A 3JX",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/6ab4f67314df280001b203f4",
+      "quote": "Lineup So Fresh So Clean DJs",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/6ab4f67314df280001b203f4",
+      "quote": "Timeless Hip-Hop & RnB, plus Afrobeats, Bashment and UK Garage.",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://dice.fm/event/6ab4f67314df280001b203f4",
+      "quote": "Every Friday at Queen of Hoxton.",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/6ab4f67314df280001b203f4",
+      "quote": "From freeThe price you'll pay",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/6ab4f67314df280001b203f4",
+      "quote": "Start the night on the rooftop with FREE ENTRY from 7PM–9PM",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/queen-of-hoxton-4ng8",
+      "quote": "\"name\":\"So Fresh So Clean\",\"startDate\":\"2026-10-16T19:00:00+01:00\",\"endDate\":\"2026-10-17T02:00:00+01:00\"",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/queen-of-hoxton-4ng8",
+      "quote": "https://dice.fm/event/6ab4f67314df280001b203f4",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/6ab4f67314df280001b203f4",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Weekly Friday night of hip-hop, R&B and UK garage, with free rooftop entry from 7pm to 9pm.",
+  "notes_for_verifier": "Recurring weekly. Price: 'From free' on DICE, rooftop free entry 7pm to 9pm. Age: 18+ on the event page."
+}

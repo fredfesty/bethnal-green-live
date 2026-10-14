@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-23-93-feet-east-house-forty-seven-presents-irfan-ahmed-band",
+  "candidate_file": "data/candidates/nights-music/2026-10-14/2026-10-23-93-feet-east-house-forty-seven-presents-irfan-ahmed-band.json",
+  "run_id": "2026-10-14-v3",
+  "verified_at": "2026-10-14T17:00:00+01:00",
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier",
+  "decision": "hold",
+  "reasons": [
+    "Unresolved from the 12 Oct hold: page header says Fri 23 Oct 8 PM - 12 AM but the description ends '23 November'. The candidate does not resolve it.",
+    "Check: confirm the real date with the venue or promoter. https://www.93feeteast.co.uk"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.93feeteast.co.uk/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.93feeteast.co.uk/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.93feeteast.co.uk/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "2026-11-02-george-tavern-the-klittens",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T16:58:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "The Klittens",
+  "summary": "The Klittens play The George Tavern on Monday 2 November, 7.30pm to 11pm, with tickets at £14.50 on DICE.",
+  "venue": {
+    "venue_id": "george-tavern",
+    "name": "The George Tavern",
+    "address": "373 Commercial Rd, London",
+    "postcode": "E1 0LA"
+  },
+  "starts_at": "2026-11-02T19:30:00+00:00",
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 14.5,
+    "max_gbp": 14.5,
+    "notes": "£14.50 on the DICE venue listing"
+  },
+  "ticket_url": "https://dice.fm/event/6a2915de56f15d0001c39757",
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue",
+        "price"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "The Klittens Mon 2 Nov The George Tavern London £14.50",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "The Klittens 2026-11-02T19:30:00+00:00 2026-11-02T23:00:00+00:00",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "373 Commercial Rd, London E1 0LA, UK",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "https://dice.fm/event/6a2915de56f15d0001c39757",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "The Klittens Mon 2 Nov The George Tavern London £14.50",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "ends_at": "2026-11-02T23:00:00+00:00",
+  "lineup": [
+    "The Klittens"
+  ],
+  "notes_for_verifier": "Genre not stated on the page."
+}

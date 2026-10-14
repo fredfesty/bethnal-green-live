@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-19-three-colts-tavern-brazillian-choro-jam",
+  "candidate_file": "data/candidates/nights-music/2026-10-14/2026-10-19-three-colts-tavern-brazillian-choro-jam.json",
+  "run_id": "2026-10-14-v3",
+  "verified_at": "2026-10-14T17:00:00+01:00",
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier",
+  "decision": "hold",
+  "reasons": [
+    "Everything is confirmed on the venue's own page, but the venue's published Monday Night Open Mic Comedy runs 20:00-21:30 the same evening and this jam is printed as 19:00-22:00.",
+    "Check: that both really run on Mon 19 Oct at the Three Colts (different rooms?) and that the jam isn't a different time."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.threecoltstavern.co.uk/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.threecoltstavern.co.uk/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.threecoltstavern.co.uk/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ]
+}

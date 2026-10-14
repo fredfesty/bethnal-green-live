@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-25-mare-street-market-stranger-than-paradise-records-djs",
+  "candidate_file": "data/candidates/nights-music/2026-10-14/2026-10-25-mare-street-market-stranger-than-paradise-records-djs.json",
+  "run_id": "2026-10-14-v3",
+  "verified_at": "2026-10-14T17:00:00+01:00",
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier",
+  "decision": "hold",
+  "reasons": [
+    "Everything is confirmed on the primary page, but validate.py flags it as a duplicate of the 18 Oct night (same title, 7 days apart, no recurrence recorded).",
+    "Check: the page lists 18.10.26 and 25.10.26 as separate Sundays; approve, or relax the duplicate rule for weekly sessions. https://marestreetmarket.com/events-hackney/"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ]
+}

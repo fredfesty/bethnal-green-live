@@ -1,0 +1,24 @@
+{
+  "id": "2026-11-01-troxy-ele-yan",
+  "candidate_file": "data/candidates/nights-music/2026-10-14/2026-11-01-troxy-ele-yan.json",
+  "run_id": "2026-10-14-v3",
+  "verified_at": "2026-10-14T17:00:00+01:00",
+  "page_status_seen": "none",
+  "existing_event": "data/events/2026-11/2026-11-01-troxy-ele-yan.json",
+  "changes": [],
+  "decided_by": "verifier",
+  "decision": "reject",
+  "reasons": [
+    "duplicate of 2026-11-01-troxy-ele-yan: already published under the same id; this re-found candidate adds nothing new and was not re-fetched. The published event is covered by the upcoming-events re-check."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "unverifiable",
+      "url": null,
+      "method": "none",
+      "source_kind": null,
+      "note": "Not re-fetched; already published."
+    }
+  ]
+}

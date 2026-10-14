@@ -1,0 +1,88 @@
+{
+  "id": "2026-10-18-troxy-sweetnotes",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Sweetnotes",
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-18",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Sweetnotes"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "few-left",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "18.10.26 Limited Availability Sweetnotes",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "status"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "Limited Availability",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "Troxy first opened its doors in 1933",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "18.10.26 Limited Availability Sweetnotes",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T17:00:00+01:00",
+    "run_id": "2026-10-14-v3",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-14/2026-10-18-troxy-sweetnotes.json"
+  },
+  "editor_note": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A gig at Troxy, the Grade II-listed art deco building that began life as a cinema in 1933, with Sweetnotes on the bill.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
+  },
+  "story": null,
+  "story_research": null,
+  "first_seen": "2026-10-14T17:00:00+01:00",
+  "updated_at": "2026-10-14T17:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

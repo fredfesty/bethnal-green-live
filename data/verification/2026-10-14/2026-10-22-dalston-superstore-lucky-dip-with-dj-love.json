@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-22-dalston-superstore-lucky-dip-with-dj-love",
+  "candidate_file": "data/candidates/nights-music/2026-10-14/2026-10-22-dalston-superstore-lucky-dip-with-dj-love.json",
+  "run_id": "2026-10-14-v3",
+  "verified_at": "2026-10-14T17:00:00+01:00",
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier",
+  "decision": "hold",
+  "reasons": [
+    "Venue, start time and line-up come only from ma.to (aggregator); only title and a year-less date are on the venue's own page. Dalston Superstore isn't marked no_primary_listing.",
+    "Check: a person decides whether ma.to may stand in for this venue, or finds the time on a primary page."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/dsuperstore",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/dsuperstore",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/dsuperstore",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "From the page's own event data (JSON-LD)."
+    }
+  ]
+}

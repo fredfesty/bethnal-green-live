@@ -60,12 +60,145 @@
   "editor_note": null,
   "listing": {
     "headline": null,
-    "blurb": "An exhibition of work by Bernard Piffaretti at Kate MacGarry, running until mid-November. Close to Bethnal Green tube, so a handy stop on a gallery crawl.",
-    "written_at": "2026-10-13T01:50:00+01:00",
-    "run_id": "2026-10-13-lw2"
+    "blurb": "An exhibition of work by Bernard Piffaretti at Kate MacGarry, the gallery on Old Nichol Street. It's on until mid-November.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T16:11:58Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, started, then, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T16:16:20Z",
+      "by": "event-story-checker",
+      "change": "cut the 2017 Kate MacGarry show (quote does not name the gallery) and 'solo' / 'group' labels the quotes do not support"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "Bernard Piffaretti is a painter from Saint-Etienne in France who lives and works in Paris, according to the gallery's own website. His abstract paintings look like two identical halves split down the middle, though close up the brushstrokes, drips and weight of colour differ between the sides. His work is in the collections of the Centre Georges Pompidou in Paris and MAMCO in Geneva, among others, and his earlier shows at Kate MacGarry include one in 2022.",
+    "started": "Since 1986, when he committed to his 'duplication method'",
+    "then": "Per the gallery's own website, Piffaretti has shown at Kate MacGarry before, in 2022, and had a show at Lisson Gallery in Los Angeles in 2024. Another show was at the Centre Pompidou-Metz in 2023.",
+    "worth_knowing": [
+      "Piffaretti has said the duplication clouds when a work was made, and that abolishing supremacy is the subject of his painting."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.katemacgarry.com/artists/42-bernard-piffaretti",
+        "quote": "Bernard Piffaretti was born in 1955 in Saint-Etienne, France and lives and works in Paris.",
+        "retrieved_at": "2026-10-14T16:11:58Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.katemacgarry.com/artists/42-bernard-piffaretti",
+        "quote": "abstract paintings that appear to be two identical halves split through the vertical axis. Closer inspection reveals moments of differentiation: the inclination of the brushstrokes, the number of drips, the weight of the hue.",
+        "retrieved_at": "2026-10-14T16:11:58Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.katemacgarry.com/artists/42-bernard-piffaretti",
+        "quote": "Piffaretti’s work is included in the collections of Centre Georges Pompidou, Paris;",
+        "retrieved_at": "2026-10-14T16:11:58Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.katemacgarry.com/artists/42-bernard-piffaretti",
+        "quote": "MAMCO, Geneva, Switzerland",
+        "retrieved_at": "2026-10-14T16:11:58Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.katemacgarry.com/artists/42-bernard-piffaretti",
+        "quote": "Ridgeline, Kate MacGarry, London (2022)",
+        "retrieved_at": "2026-10-14T16:11:58Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.started"
+        ],
+        "url": "https://www.katemacgarry.com/artists/42-bernard-piffaretti",
+        "quote": "Since 1986 Piffaretti has committed his practice to the 'duplication method'",
+        "retrieved_at": "2026-10-14T16:11:58Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.katemacgarry.com/artists/42-bernard-piffaretti",
+        "quote": "Ridgeline\n4 March - 9 April 2022",
+        "retrieved_at": "2026-10-14T16:11:58Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.katemacgarry.com/artists/42-bernard-piffaretti",
+        "quote": "Je n’ai jamais peinte un tableau récent, Lisson Gallery, Los Angeles (2024)",
+        "retrieved_at": "2026-10-14T16:11:58Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.katemacgarry.com/artists/42-bernard-piffaretti",
+        "quote": "Repetition, Centre Pompidou-Metz, France (2023)",
+        "retrieved_at": "2026-10-14T16:11:58Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.katemacgarry.com/artists/42-bernard-piffaretti",
+        "quote": "\"The duplication clouds the origin of the time of the work. All supremacy is abolished, and that is the subject of my painting\"",
+        "retrieved_at": "2026-10-14T16:11:58Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-14T16:11:58Z",
+    "review": {
+      "checked_at": "2026-10-14T16:16:20Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Only the gallery's artist page was usable. Exhibition page text, press (Hyperallergic 2019, BOMB 2006) not read; ArtRabbit is never-use, Ocula 403. Try the exhibition 'Read more' page and Hyperallergic PDF next time for what the show is about and the vibe."
+  }
 }

@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-23-hackney-bridge-based-on-taste",
+  "candidate_file": "data/candidates/nights-music/2026-10-14/2026-10-23-hackney-bridge-based-on-taste.json",
+  "run_id": "2026-10-14-v3",
+  "verified_at": "2026-10-14T17:00:00+01:00",
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier",
+  "decision": "hold",
+  "reasons": [
+    "Only ma.to cites it, and it names the venue as Nico's Bar; nothing quoted says Hackney Bridge, and no address is quoted. Zone 'outer' with a free night at an unconfirmed place.",
+    "Check: confirm the venue and listing on a primary page (Nico's Bar / Hackney Bridge)."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/nicos.hackneybridge",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "unverifiable",
+      "url": "https://ma.to/venue/nicos.hackneybridge",
+      "method": "near",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/nicos.hackneybridge",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": "From the page's own event data (JSON-LD)."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-22-dalston-superstore-lucky-dip-with-dj-love",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T12:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Lucky Dip with DJ Love",
+  "summary": null,
+  "venue": {
+    "venue_id": "dalston-superstore",
+    "name": "Dalston Superstore",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-22T22:00:00+01:00",
+  "ends_at": "2026-10-23T02:30:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "DJ Love",
+    "DUTY FREE",
+    "Dionokia",
+    "MIE"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://ma.to/event/lucky-dip-with-dj-love-2026-10-22",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "Lucky Dip with DJ Love",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "lineup",
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "\"description\":\"Club night with DJ Love, DUTY FREE, Dionokia, MIE and more on the dancefloor.\",\"startDate\":\"2026-10-22T22:00:00.000+01:00\",\"endDate\":\"2026-10-23T02:30:00.000+01:00\"",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "https://ma.to/event/lucky-dip-with-dj-love-2026-10-22",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "Lucky Dip with DJ Love\nDalston Superstore",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://dalstonsuperstore.com/",
+      "quote": "Thursday 22nd October\nLUCKY DIP",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "Club night with DJ Love, DUTY FREE, Dionokia and MIE on the dancefloor.",
+  "notes_for_verifier": "Only ma.to lists it. The source says 'and more', so the lineup may be incomplete. Price not stated. Venue's own what's-on page gives the date, not the time; time from ma.to (aggregator)."
+}

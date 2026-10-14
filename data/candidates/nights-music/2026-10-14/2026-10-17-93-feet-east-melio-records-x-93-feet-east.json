@@ -1,0 +1,80 @@
+{
+  "id": "2026-10-17-93-feet-east-melio-records-x-93-feet-east",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T12:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Melio Records x 93 Feet East",
+  "summary": null,
+  "venue": {
+    "venue_id": "93-feet-east",
+    "name": "93 Feet East",
+    "address": "150 Brick Lane London E1 6QL",
+    "postcode": "E1 6QL"
+  },
+  "starts_at": "2026-10-17T15:00:00+01:00",
+  "ends_at": "2026-10-17T23:00:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [
+    "House",
+    "Progressive house"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.93feeteast.co.uk",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.93feeteast.co.uk",
+      "quote": "Saturday 17 Oct 3 pm - 11 PM / Members Bar / Rooftop Terrace Melio Records x 93 Feet East",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.93feeteast.co.uk",
+      "quote": "150 Brick Lane London E1 6QL",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.93feeteast.co.uk",
+      "quote": "Buy Tickets",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres",
+        "age_restriction"
+      ],
+      "url": "https://www.93feeteast.co.uk",
+      "quote": "Melio Records x 93 Feet East House Progressive house 18+",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "The venue's own 93 CLUB listing (club room, not a live act). Rooftop terrace, 3 pm to 11 PM.",
+  "notes_for_verifier": "Venue's own what's-on page. Lineup not named on the page. Genres and age copied from the listing."
+}

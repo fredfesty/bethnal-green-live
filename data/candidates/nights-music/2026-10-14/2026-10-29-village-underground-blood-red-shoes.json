@@ -1,0 +1,90 @@
+{
+  "id": "2026-10-29-village-underground-blood-red-shoes",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T16:58:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Blood Red Shoes",
+  "summary": "Blood Red Shoes at Village Underground on Thursday 29 October, 7.30pm to 11pm, from £29.87 on DICE.",
+  "venue": {
+    "venue_id": "village-underground",
+    "name": "Village Underground",
+    "address": "54 Holywell Lane, London",
+    "postcode": "EC2A 3PQ"
+  },
+  "starts_at": "2026-10-29T19:30:00+00:00",
+  "zone": "outer",
+  "worth_the_trip": true,
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 29.87,
+    "max_gbp": null,
+    "notes": "From £29.87"
+  },
+  "ticket_url": "https://dice.fm/event/69bc1bc81e82590001fd768d",
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue",
+        "price"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "Blood Red Shoes Thu 29 Oct Village Underground London From £29.87",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "Blood Red Shoes 2026-10-29T19:30:00+00:00 2026-10-29T23:00:00+00:00",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "54 Holywell Lane, London EC2A 3PQ, UK",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "https://dice.fm/event/69bc1bc81e82590001fd768d",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "Blood Red Shoes Thu 29 Oct Village Underground London From £29.87",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "ends_at": "2026-10-29T23:00:00+00:00",
+  "lineup": [
+    "Blood Red Shoes"
+  ],
+  "why_its_good": "Blood Red Shoes on a Thursday evening at Village Underground, EC2A.",
+  "notes_for_verifier": "Genre not stated on the page."
+}

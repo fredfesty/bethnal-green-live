@@ -66,12 +66,151 @@
   "editor_note": null,
   "listing": {
     "headline": null,
-    "blurb": "Part 2 of Screen Portraits: Whitechapel Gallery Artists, an exhibition at Whitechapel Gallery with a run lasting into the new year.",
-    "written_at": "2026-10-13T02:00:00+01:00",
-    "run_id": "2026-10-13-lw2"
+    "blurb": "The second part of Screen Portraits, a Whitechapel Gallery exhibition on the artists linked to the gallery. It runs until mid-January 2027.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T16:12:25Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, started, then, now, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T16:16:25Z",
+      "by": "event-story-checker",
+      "change": "cut Holly Graham (no quote names her), 'across documentary, experimental and narrative approaches', 'looked back over the decades', and the claim that all four films run 12 to 24 minutes"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "Three of the four artists whose films make up the programme: Ayo Akingbade (The Fist, 2022), Maz Murray (Principal Boy, 2024) and Gaby Sahhar (a 2026 film). The gallery's own website says all four have taken part in its Participation Programme in recent years, each building a new joint project alongside Duchamp & Sons, its youth collective.",
+    "started": "Part 2 follows Part 1, shown in spring 2026, in a film series for the gallery's 125th anniversary.",
+    "then": "Part 1 drew on interviews, archive footage and analysis of artists' work, with figures including Barbara Hepworth, David Hockney, Frida Kahlo and Philip Guston, according to the gallery's own website.",
+    "now": "This second instalment turns to artists connected to the gallery's recent history. The gallery's own website says the films explore identity, place, memory and resistance, and reflect on personal and collective histories and the politics of belonging.",
+    "worth_knowing": [
+      "It is the second instalment of a screening series marking the gallery's 125th anniversary.",
+      "Ayo Akingbade's The Fist runs 24 minutes and Gaby Sahhar's Abstraction Belongs to Us runs 12."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.whitechapelgallery.org/exhibitions/screen-portraits-whitechapel-gallery-artists-part-2/",
+        "quote": "These four artists have all contributed to Whitechapel Gallery’s Participation Programme in recent years. Each one worked closely with our youth collective, Duchamp & Sons, to develop a new collaborative project.",
+        "retrieved_at": "2026-10-14T16:12:25Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who",
+          "story.worth_knowing"
+        ],
+        "url": "https://www.whitechapelgallery.org/exhibitions/screen-portraits-whitechapel-gallery-artists-part-2/",
+        "quote": "Ayo Akingbade, The Fist (2022), 24 minutes",
+        "retrieved_at": "2026-10-14T16:12:25Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.whitechapelgallery.org/exhibitions/screen-portraits-whitechapel-gallery-artists-part-2/",
+        "quote": "Maz Murray, Principal Boy (2024), 21 minutes",
+        "retrieved_at": "2026-10-14T16:12:25Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who",
+          "story.worth_knowing"
+        ],
+        "url": "https://www.whitechapelgallery.org/exhibitions/screen-portraits-whitechapel-gallery-artists-part-2/",
+        "quote": "Gaby Sahhar, Abstraction Belongs to Us (2026), 12 minutes",
+        "retrieved_at": "2026-10-14T16:12:25Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.started",
+          "story.worth_knowing"
+        ],
+        "url": "https://www.whitechapelgallery.org/exhibitions/screen-portraits-whitechapel-gallery-artists-part-2/",
+        "quote": "The second instalment of a special screening series celebrating Whitechapel Gallery’s 125th anniversary",
+        "retrieved_at": "2026-10-14T16:12:25Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.started",
+          "story.then"
+        ],
+        "url": "https://www.whitechapelgallery.org/exhibitions/screen-portraits-whitechapel-gallery-artists-part-1/",
+        "quote": "This exhibition was on 1 Apr - 28 Jun 2026",
+        "retrieved_at": "2026-10-14T16:12:25Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.whitechapelgallery.org/exhibitions/screen-portraits-whitechapel-gallery-artists-part-1/",
+        "quote": "The programme includes interviews, archival footage and documentary analysis featuring artists such as Barbara Hepworth, David Hockney, Frida Kahlo, Tina Modotti, Philip Guston",
+        "retrieved_at": "2026-10-14T16:12:25Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.whitechapelgallery.org/exhibitions/screen-portraits-whitechapel-gallery-artists-part-2/",
+        "quote": "the programme explores themes of identity, place, memory and resistance through moving image.",
+        "retrieved_at": "2026-10-14T16:12:25Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.whitechapelgallery.org/exhibitions/screen-portraits-whitechapel-gallery-artists-part-2/",
+        "quote": "these films reflect on personal and collective histories, the politics of belonging",
+        "retrieved_at": "2026-10-14T16:12:25Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.whitechapelgallery.org/exhibitions/screen-portraits-whitechapel-gallery-artists-part-2/",
+        "quote": "artist films connected to the Gallery’s recent history",
+        "retrieved_at": "2026-10-14T16:12:25Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-14T16:12:25Z",
+    "review": {
+      "checked_at": "2026-10-14T16:16:25Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Used the gallery's two Screen Portraits pages. Did not research the four artists elsewhere (no web search results beyond gallery pages). No vibe sources. Lead: artists' own sites and press on Akingbade, Graham, Murray, Sahhar."
+  }
 }

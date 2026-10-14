@@ -1,0 +1,77 @@
+{
+  "id": "2026-10-23-george-tavern-potato-what-s-next-hans-single-launch-party",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T16:58:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Potato \"What's Next? / Hans\" Single Launch Party",
+  "summary": "A single launch party for Potato at The George Tavern on Friday 23 October, listed at £6 on DICE; no start time is printed on the venue page.",
+  "venue": {
+    "venue_id": "george-tavern",
+    "name": "The George Tavern",
+    "address": "373 Commercial Rd, London",
+    "postcode": "E1 0LA"
+  },
+  "starts_at": "2026-10-23",
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 6,
+    "max_gbp": 6,
+    "notes": "£6 on the DICE venue listing"
+  },
+  "ticket_url": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "Potato \"What's Next? / Hans\" Single Launch Party Fri 23 Oct",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "The George Tavern London £6",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "Potato \"What's Next? / Hans\" Single Launch Party Fri 23 Oct",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "373 Commercial Rd, London E1 0LA, UK",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "lineup": [
+    "Potato"
+  ],
+  "notes_for_verifier": "Date only: the DICE venue page prints no time for this listing and its event page was not read (page budget). Page does not say whether it is a live set or a DJ night; the club scout may claim it if DJ-led."
+}

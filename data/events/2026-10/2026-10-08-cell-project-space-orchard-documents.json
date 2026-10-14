@@ -77,12 +77,148 @@
   "editor_note": null,
   "listing": {
     "headline": null,
-    "blurb": "An exhibition at Cell Project Space with work by Jeff Preiss, running into mid-December. It's open from Thursday to Sunday, so weekends are covered.",
-    "written_at": "2026-10-13T01:50:00+01:00",
-    "run_id": "2026-10-13-lw2"
+    "blurb": "An exhibition of work by Jeff Preiss at Cell Project Space, the artist-founded gallery on Cambridge Heath Road. It runs until mid-December, open Thursday to Sunday.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T16:12:22Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, started, then, now, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T16:16:25Z",
+      "by": "event-story-checker",
+      "change": "cut 'the gallery behind the films' and 'George W.', and made 'gallery's own website' read 'venue's own website' where Orchard is the gallery meant"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "Jeff Preiss is a filmmaker, cinematographer and visual artist based in New York, according to the venue's own website. He was director of photography on Bruce Weber's Let's Get Lost, and the 2014 feature Low Down earned him the Sundance Cinematography Award. He was among the twelve members who jointly ran the Orchard gallery.",
+    "started": "Orchard ran from 2005 to 2008 on New York's Lower East Side.",
+    "then": "The venue's own website says Orchard was a cooperatively run space, formed in resistance to Bush's re-election, with a three-year lease timed to end with his presidency. Its members each curated one show and framed one of their own.",
+    "now": "The venue's own website says all seven Orchard Documents are shown here, alongside a sculptural film installation that Preiss first made for an Orchard group show. Temporary walls echo the gallery's original exhibition architecture.",
+    "worth_knowing": [
+      "Orchard was set up legally as a for-profit company called Art Sales and Services, a joke at the expense of alternative spaces.",
+      "MoMA screened Preiss's 2023 film The Secret World, a collaboration with Josiah McElheny, in 2024, says the venue's own website."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.cellprojects.org/exhibitions/current",
+        "quote": "Jeff Preiss is a New York-based filmmaker, cinematographer, and visual artist active since the 1980s.",
+        "retrieved_at": "2026-10-14T16:12:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.cellprojects.org/exhibitions/current",
+        "quote": "He was Director of Photography for Bruce Weber’s ‘Let’s Get Lost’ (1989), and his 2014 feature Low Down won the Sundance Cinematography Award.",
+        "retrieved_at": "2026-10-14T16:12:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who",
+          "story.then"
+        ],
+        "url": "https://www.cellprojects.org/exhibitions/current",
+        "quote": "he was one of twelve members who co-ran the space.",
+        "retrieved_at": "2026-10-14T16:12:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.started"
+        ],
+        "url": "https://www.cellprojects.org/exhibitions/current",
+        "quote": "a cooperatively run gallery that operated on New York City’s Lower East Side between 2005 and 2008.",
+        "retrieved_at": "2026-10-14T16:12:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.cellprojects.org/exhibitions/current",
+        "quote": "Formed as an act of resistance to Bush’s re-election as president, Orchard’s three-year lease on an empty property in Manhattan was timed to expire at the end of his presidency in late 2008",
+        "retrieved_at": "2026-10-14T16:12:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.cellprojects.org/exhibitions/current",
+        "quote": "with each individual eventually curating one exhibition of their choosing and another framing their own work.",
+        "retrieved_at": "2026-10-14T16:12:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.cellprojects.org/exhibitions/current",
+        "quote": "All seven Orchard Documents are presented at Cell Project Space, along with a sculptural film installation Preiss first made for a group show at Orchard.",
+        "retrieved_at": "2026-10-14T16:12:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.cellprojects.org/exhibitions/current",
+        "quote": "Temporary walls also pay homage to Orchard’s original exhibition architecture",
+        "retrieved_at": "2026-10-14T16:12:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.cellprojects.org/exhibitions/current",
+        "quote": "the gallery was also established as a for-profit limited liability company (LLC) under the name Art Sales and Services, or ASS; a sardonic nod to the many woes of running a so-called alternative space",
+        "retrieved_at": "2026-10-14T16:12:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.cellprojects.org/exhibitions/current",
+        "quote": "his film ‘The Secret World’ (2023), made in collaboration with the artist Josiah McElheny, was screened at MoMA in 2024.",
+        "retrieved_at": "2026-10-14T16:12:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-14T16:12:22Z",
+    "review": {
+      "checked_at": "2026-10-14T16:16:25Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Used the venue's own exhibition page (the event URL lists only title/dates). Did not find press (Frieze 2022 piece and e-flux exist but unread); no vibe or review yet. Lead: Frieze Jeff Preiss article, e-flux announcement, Close-Up Cinema screening page."
+  }
 }

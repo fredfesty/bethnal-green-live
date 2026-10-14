@@ -1,0 +1,79 @@
+{
+  "id": "2026-10-31-mare-street-market-halloween-djs",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T12:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Halloween DJs",
+  "summary": null,
+  "venue": {
+    "venue_id": "mare-street-market",
+    "name": "Mare Street Market",
+    "address": "117 Mare Street, Hackney, London, E8 4RU",
+    "postcode": "E8 4RU"
+  },
+  "starts_at": "2026-10-31T12:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "'Free entry' on the venue's events page"
+  },
+  "ticket_url": "https://marestreetmarket.com/events-hackney/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "quote": "31.10.26\n12.00\nHalloween DJs",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "quote": "117 Mare Street, Hackney, London, E8 4RU",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "quote": "Halloween DJs\nFree entry",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "quote": "WHATS’ ON / HACKNEY",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Venue's own events page; the listing gives no DJ names beyond the shop's DJs. ticket_url is the events page (no ticket seller)."
+}

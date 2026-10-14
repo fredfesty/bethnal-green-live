@@ -1,0 +1,79 @@
+{
+  "id": "2026-10-23-troxy-yll-limani-international-live-tour-2026",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Yll Limani – International Live Tour 2026",
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-23",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Yll Limani"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "23.10.26 Yll Limani – International Live Tour 2026",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "Troxy first opened its doors in 1933",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "23.10.26 Yll Limani – International Live Tour 2026",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T17:00:00+01:00",
+    "run_id": "2026-10-14-v3",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-14/2026-10-23-troxy-yll-limani-international-live-tour-2026.json"
+  },
+  "editor_note": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A gig at Troxy, the Grade II-listed art deco building that opened as a cinema in 1933, with Yll Limani on the International Live Tour 2026.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
+  },
+  "story": null,
+  "story_research": null,
+  "first_seen": "2026-10-14T17:00:00+01:00",
+  "updated_at": "2026-10-14T17:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-16-135-bar-and-lounge-live-blues-night",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T16:58:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Live Blues Night",
+  "summary": "A live blues night at 135 Bar & Lounge on Friday 16 October, hosted by Blues at The Brewery, with free entry from 8pm to 2am.",
+  "venue": {
+    "venue_id": "135-bar-and-lounge",
+    "name": "135 Bar & Lounge",
+    "address": "135 Cambridge Heath Road, Bethnal Green, London",
+    "postcode": "E1 5RN"
+  },
+  "starts_at": "2026-10-16T20:00:00+01:00",
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "FREE ENTRY"
+  },
+  "ticket_url": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/",
+      "quote": "Friday 16th October Live Blues Night 8PM-2AM",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/",
+      "quote": "FREE ENTRY",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/",
+      "quote": "Hosted by Blues at The Brewery",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/",
+      "quote": "Amazing live blues, dancing and cocktails!",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/",
+      "quote": "135 Bar & Lounge Bethnal Green",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/",
+      "quote": "135 Cambridge Heath Road Bethnal Green London United Kingdom E1 5RN",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "ends_at": "2026-10-17T02:00:00+01:00",
+  "lineup": [
+    "Blues at The Brewery"
+  ],
+  "genres": [
+    "blues"
+  ],
+  "why_its_good": "Free-entry live blues night in a core-zone bar, from 8pm to 2am.",
+  "notes_for_verifier": "Venue profile 135-bar-and-lounge exists in data/venues. The page is the venue's homepage; no separate event page was read."
+}

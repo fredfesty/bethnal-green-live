@@ -1,0 +1,69 @@
+{
+  "id": "2026-10-15-genesis-cinema-bar-trash-queer-horror-shivers-creepozoids",
+  "category": "arts",
+  "subcategory": "film",
+  "title": "Bar Trash: Queer Horror / Double Feature: SHIVERS (1975) + CREEPOZOIDS (1987)",
+  "venue": {
+    "venue_id": "genesis-cinema",
+    "name": "Genesis Cinema",
+    "address": "93-95 Mile End Road, Whitechapel, London",
+    "postcode": "E1 4UJ"
+  },
+  "starts_at": "2026-10-15T19:30:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.genesiscinema.co.uk/whatson/bartrash",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/bartrash",
+      "quote": "Bar Trash: Queer Horror / Double Feature: SHIVERS (1975) + CREEPOZOIDS (1987) Running time: 210 mins Details Thu 15 Oct 19:30",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "quote": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T17:00:00+01:00",
+    "run_id": "2026-10-14-v3",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-14/2026-10-15-genesis-cinema-bar-trash-queer-horror-shivers-creepozoids.json"
+  },
+  "editor_note": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A queer horror double bill at Genesis Cinema, pairing the films Shivers (1975) and Creepozoids (1987) as part of the Bar Trash series. One for horror fans.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
+  },
+  "story": null,
+  "story_research": null,
+  "first_seen": "2026-10-14T17:00:00+01:00",
+  "updated_at": "2026-10-14T17:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

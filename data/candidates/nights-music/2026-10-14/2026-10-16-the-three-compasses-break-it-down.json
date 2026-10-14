@@ -1,0 +1,122 @@
+{
+  "id": "2026-10-16-the-three-compasses-break-it-down",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T12:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Break It Down",
+  "summary": null,
+  "venue": {
+    "venue_id": "three-compasses-dalston",
+    "name": "The Three Compasses",
+    "address": "99 Dalston Ln, Kingsland, London E8 1NH",
+    "postcode": "E8 1NH"
+  },
+  "starts_at": "2026-10-16T21:00:00+01:00",
+  "ends_at": "2026-10-17T00:30:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Symon"
+  ],
+  "genres": [
+    "rare-groove funk & soul classics",
+    "old school hip hop",
+    "disco re-edits",
+    "dance classics"
+  ],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "'Free Entry' on DICE"
+  },
+  "ticket_url": "https://dice.fm/event/69c679913bf82f00016dfecd",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://dice.fm/event/69c679913bf82f00016dfecd",
+      "quote": "Break It Down\nThe Three Compasses\nFri 16 Oct, 9:00 pm",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup",
+        "genres"
+      ],
+      "url": "https://dice.fm/event/69c679913bf82f00016dfecd",
+      "quote": "Symon plays a flavoursome mix, from rare-groove funk & soul classics mixed with old school hip hop, disco re-edits & dance classics up to the present day.",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/69c679913bf82f00016dfecd",
+      "quote": "\"name\":\"Break It Down\",\"startDate\":\"2026-10-16T21:00:00+01:00\"",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/the-three-compasses-qony",
+      "quote": "99 Dalston Ln, Kingsland, London E8 1NH",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/69c679913bf82f00016dfecd",
+      "quote": "FreeThe price you'll pay",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/69c679913bf82f00016dfecd",
+      "quote": "Presented by The Three Compasses, Dalston",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/the-three-compasses-qony",
+      "quote": "https://dice.fm/event/69c679913bf82f00016dfecd",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/the-three-compasses-qony",
+      "quote": "\"name\":\"Break It Down\",\"startDate\":\"2026-10-16T21:00:00+01:00\",\"endDate\":\"2026-10-17T00:30:00+01:00\"",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Rare-groove and soul DJ night from Symon, DJs until 12.30 and free entry.",
+  "notes_for_verifier": "Event page on DICE. Address from the venue's DICE page (99 Dalston Ln, Kingsland, London E8 1NH). Ends time from DICE event data (00:30); the event page does not print it."
+}

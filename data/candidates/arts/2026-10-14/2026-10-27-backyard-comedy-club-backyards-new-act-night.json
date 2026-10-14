@@ -1,0 +1,93 @@
+{
+  "id": "2026-10-27-backyard-comedy-club-backyards-new-act-night",
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-14-c"
+  },
+  "found_at": "2026-10-14T16:55:46+01:00",
+  "category": "arts",
+  "subcategory": "comedy",
+  "title": "Backyard's New Act Night",
+  "summary": "Free night for new stand-up comics at Backyard Comedy Club.",
+  "venue": {
+    "venue_id": "backyard-comedy-club",
+    "name": "Backyard Comedy Club",
+    "address": "231 Cambridge Heath Road, E2 0EL",
+    "postcode": "E2 0EL"
+  },
+  "starts_at": "2026-10-27",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Tickets are free if booked in"
+  },
+  "ticket_url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "Backyard's New Act Night",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "Tuesday 27th October, 2026",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "Tickets are free if booked in",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "Backyard Presents a FREE night for brand new comics to cut their",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "Backyard Comedy Club, 231, Cambridge Heath Road, E2 0EL",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Price is conditional ('Tickets are free if booked in', text cut off on the page), so is_free is false with min 0. The page also lists 24 Nov 2026 ('Tuesday 27th October and Tuesday 24th November 2026'); next date only. No show time printed, so medium."
+}

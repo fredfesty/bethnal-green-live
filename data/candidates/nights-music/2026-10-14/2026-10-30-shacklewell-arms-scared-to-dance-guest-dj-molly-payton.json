@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-30-shacklewell-arms-scared-to-dance-guest-dj-molly-payton",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T12:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Scared To Dance: Guest DJ Molly Payton",
+  "summary": null,
+  "venue": {
+    "venue_id": "shacklewell-arms",
+    "name": "The Shacklewell Arms",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-30T23:00:00+00:00",
+  "ends_at": "2026-10-31T03:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Molly Payton"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 11.33,
+    "max_gbp": null,
+    "notes": "£11.33 on DICE"
+  },
+  "ticket_url": "https://dice.fm/event/6ab552883fd3b200012dbe72",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+      "quote": "\"name\":\"Scared To Dance: Guest DJ Molly Payton\",\"startDate\":\"2026-10-30T23:00:00+00:00\",\"endDate\":\"2026-10-31T03:00:00+00:00\"",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+      "quote": "The Shacklewell ArmsLondon\n£11.33",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+      "quote": "https://dice.fm/event/6ab552883fd3b200012dbe72",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+      "quote": "The Shacklewell ArmsLondon",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Scared To Dance guest-DJ night at the Shacklewell Arms with Molly Payton.",
+  "notes_for_verifier": "The price line is from the venue's DICE list; check it sits under this title on the event page."
+}

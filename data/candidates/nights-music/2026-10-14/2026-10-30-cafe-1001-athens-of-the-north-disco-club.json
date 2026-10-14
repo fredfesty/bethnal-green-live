@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-30-cafe-1001-athens-of-the-north-disco-club",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T12:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Athens of the North Disco Club",
+  "summary": null,
+  "venue": {
+    "venue_id": "cafe-1001",
+    "name": "Cafe 1001",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-30T19:00:00+00:00",
+  "ends_at": "2026-10-31T00:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Euan and Lel"
+  ],
+  "genres": [
+    "funk",
+    "soul",
+    "deep-disco"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://ma.to/event/athens-of-the-north-disco-club-30-oct-2026",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://ma.to/venue/cafe_1001",
+      "quote": "Athens of the North Disco Club",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "lineup",
+        "genres"
+      ],
+      "url": "https://ma.to/venue/cafe_1001",
+      "quote": "Obscure funk, soul, and deep-disco as Euan and Lel take over Brick Lane for the night.",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://ma.to/venue/cafe_1001",
+      "quote": "\"startDate\":\"2026-10-30T19:00:00.000+00:00\",\"endDate\":\"2026-10-31T00:00:00.000+00:00\"",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://ma.to/venue/cafe_1001",
+      "quote": "https://ma.to/event/athens-of-the-north-disco-club-30-oct-2026",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://ma.to/venue/cafe_1001",
+      "quote": "Athens of the North Disco Club\nCafe 1001",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "Obscure funk, soul and deep-disco from Euan and Lel on Brick Lane.",
+  "notes_for_verifier": "Cafe has no primary listing (registry); ma.to only. Price not stated. Start time is printed on ma.to in +00:00 form (after the clocks change)."
+}

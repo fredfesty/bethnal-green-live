@@ -1,0 +1,90 @@
+{
+  "id": "2026-10-23-village-underground-swervedriver",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T16:58:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Swervedriver",
+  "summary": "Swervedriver at Village Underground on Friday 23 October, 6pm to 10pm, with tickets at £33.84 on DICE.",
+  "venue": {
+    "venue_id": "village-underground",
+    "name": "Village Underground",
+    "address": "54 Holywell Lane, London",
+    "postcode": "EC2A 3PQ"
+  },
+  "starts_at": "2026-10-23T18:00:00+01:00",
+  "zone": "outer",
+  "worth_the_trip": true,
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 33.84,
+    "max_gbp": 33.84,
+    "notes": "£33.84 on the DICE venue listing"
+  },
+  "ticket_url": "https://dice.fm/event/69f069659be3640001e60037",
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue",
+        "price"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "Swervedriver Fri 23 Oct Village Underground London £33.84",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "Swervedriver 2026-10-23T18:00:00+01:00 2026-10-23T22:00:00+01:00",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "54 Holywell Lane, London EC2A 3PQ, UK",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "https://dice.fm/event/69f069659be3640001e60037",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "Swervedriver Fri 23 Oct Village Underground London £33.84",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "ends_at": "2026-10-23T22:00:00+01:00",
+  "lineup": [
+    "Swervedriver"
+  ],
+  "why_its_good": "Swervedriver on a Friday evening at Village Underground, EC2A.",
+  "notes_for_verifier": "Genre not stated on the page. The second night (24 Oct) is a separate listing on the same venue page."
+}

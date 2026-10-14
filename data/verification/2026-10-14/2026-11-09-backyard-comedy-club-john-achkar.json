@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-09-backyard-comedy-club-john-achkar",
+  "candidate_file": "data/candidates/arts/2026-10-14/2026-11-09-backyard-comedy-club-john-achkar.json",
+  "run_id": "2026-10-14-v3",
+  "verified_at": "2026-10-14T17:00:00+01:00",
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary page."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ]
+}

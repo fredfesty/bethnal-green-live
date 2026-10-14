@@ -66,12 +66,136 @@
   "editor_note": null,
   "listing": {
     "headline": null,
-    "blurb": "A month-long exhibition at Whitechapel Gallery, subtitled Artists for Whitechapel Gallery. It closes in early November, so it's one not to leave too late.",
-    "written_at": "2026-10-13T02:00:00+01:00",
-    "run_id": "2026-10-13-lw2"
+    "blurb": "A month-long show at Whitechapel Gallery, subtitled Artists for Whitechapel Gallery. It closes in early November, so it's worth getting to sooner rather than later.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T16:12:31Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: now, then, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T16:16:25Z",
+      "by": "event-story-checker",
+      "change": "cut 'dealers', 'solo' and 'reward' (not in quotes)"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "now": "According to the gallery's own website, this is a show-and-sale made together with the artists and their galleries to celebrate the gallery's 125th anniversary and help fund its future. Twenty-three international artists take part, all committed to painting. Every work is for sale, and the money goes to the gallery, the artists and their galleries.",
+    "then": "The gallery's own website says it has been in East London since 1901. Its past shows include Barbara Hepworth in 1954, Jackson Pollock in 1958, Helio Oiticica in 1969 and Gilbert & George in 1971.",
+    "vibe": "The gallery's own website describes paintings that invite a slower look, with meaning emerging gradually from built-up layers, marks and shifting perspective.",
+    "worth_knowing": [
+      "The show is curated by Katrina Schwarz with Daniel Lamb, says the gallery's own website.",
+      "Every work in the show is offered for sale, according to the gallery's own website."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/this-must-be-the-place-artists-for-whitechapel-gallery/",
+        "quote": "a special exhibition and sale developed in collaboration with artists and their galleries to mark Whitechapel Gallery’s 125th anniversary and help support its future.",
+        "retrieved_at": "2026-10-14T16:12:31Z",
+        "source_kind": "primary",
+        "source_date": "2026-10-01"
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/this-must-be-the-place-artists-for-whitechapel-gallery/",
+        "quote": "bringing together twenty-three international artists",
+        "retrieved_at": "2026-10-14T16:12:31Z",
+        "source_kind": "primary",
+        "source_date": "2026-10-01"
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/this-must-be-the-place-artists-for-whitechapel-gallery/",
+        "quote": "All the artists share a commitment to painting as a practice.",
+        "retrieved_at": "2026-10-14T16:12:31Z",
+        "source_kind": "primary",
+        "source_date": "2026-10-01"
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/this-must-be-the-place-artists-for-whitechapel-gallery/",
+        "quote": "All works are offered for sale, with proceeds directly supporting Whitechapel Gallery, the artists and their representative galleries.",
+        "retrieved_at": "2026-10-14T16:12:31Z",
+        "source_kind": "primary",
+        "source_date": "2026-10-01"
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/this-must-be-the-place-artists-for-whitechapel-gallery/",
+        "quote": "invite a slower encounter, with content and meaning revealed gradually through layers of paint, accumulated marks, shifts of perspective and visual ambiguity.",
+        "retrieved_at": "2026-10-14T16:12:31Z",
+        "source_kind": "primary",
+        "source_date": "2026-10-01"
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/this-must-be-the-place-artists-for-whitechapel-gallery/",
+        "quote": "Since opening its doors in East London in 1901",
+        "retrieved_at": "2026-10-14T16:12:31Z",
+        "source_kind": "primary",
+        "source_date": "2026-10-01"
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/this-must-be-the-place-artists-for-whitechapel-gallery/",
+        "quote": "Barbara Hepworth (1954), Jackson Pollock (1958), Helio Oiticica (1969), Gilbert & George (1971)",
+        "retrieved_at": "2026-10-14T16:12:31Z",
+        "source_kind": "primary",
+        "source_date": "2026-10-01"
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/this-must-be-the-place-artists-for-whitechapel-gallery/",
+        "quote": "is curated by Katrina Schwarz in collaboration with Daniel Lamb",
+        "retrieved_at": "2026-10-14T16:12:31Z",
+        "source_kind": "primary",
+        "source_date": "2026-10-01"
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/this-must-be-the-place-artists-for-whitechapel-gallery/",
+        "quote": "All works are offered for sale, with proceeds directly supporting Whitechapel Gallery, the artists and their representative galleries.",
+        "retrieved_at": "2026-10-14T16:12:31Z",
+        "source_kind": "primary",
+        "source_date": "2026-10-01"
+      }
+    ],
+    "written_at": "2026-10-14T16:12:31Z",
+    "review": {
+      "checked_at": "2026-10-14T16:16:25Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Used the gallery's press page. Individual artist names not read (list on exhibition page not fetched); could add who from artist biographies. No outside press found."
+  }
 }

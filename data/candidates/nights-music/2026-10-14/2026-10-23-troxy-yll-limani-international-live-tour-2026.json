@@ -1,0 +1,61 @@
+{
+  "id": "2026-10-23-troxy-yll-limani-international-live-tour-2026",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T16:58:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Yll Limani – International Live Tour 2026",
+  "summary": "Yll Limani on the International Live Tour 2026 at Troxy, listed for Friday 23 October.",
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-23",
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "23.10.26 Yll Limani – International Live Tour 2026",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "Troxy first opened its doors in 1933",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "23.10.26 Yll Limani – International Live Tour 2026",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "lineup": [
+    "Yll Limani"
+  ],
+  "notes_for_verifier": "Troxy's homepage lists the date and act only: no time, price or genre. Take the time from the event's own page before publishing."
+}

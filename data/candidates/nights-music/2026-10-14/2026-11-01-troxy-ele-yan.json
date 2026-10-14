@@ -1,0 +1,62 @@
+{
+  "id": "2026-11-01-troxy-ele-yan",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T16:58:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Ele Yan",
+  "summary": "Ele Yan at Troxy, listed as sold out for Sunday 1 November.",
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-11-01",
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "status": "sold-out",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "status"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "01.11.26 Sold Out Ele Yan",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "Troxy first opened its doors in 1933",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "01.11.26 Sold Out Ele Yan",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "lineup": [
+    "Ele Yan"
+  ],
+  "notes_for_verifier": "Troxy's homepage lists the date and act only: no time, price or genre. Take the time from the event's own page before publishing. Sold out per the homepage listing."
+}
