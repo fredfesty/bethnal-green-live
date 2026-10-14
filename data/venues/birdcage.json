@@ -20,7 +20,7 @@
   "address": "80 Columbia Road, London",
   "postcode": "E2 7QB",
   "website": "https://www.urbanpubsandbars.com/venues/the-birdcage",
-  "summary": "A pub on Columbia Road with a ground-floor bar and a newer upstairs room. A launch party marked its opening on Friday 15 May.",
+  "summary": "A pub on Columbia Road with a ground-floor bar and a newer upstairs room.",
   "music": {
     "styles": [],
     "notes": "A trad band plays live in the main bar on the second Sunday of each month, and a free comedy night runs on Wednesdays."
@@ -99,9 +99,159 @@
       "quote": "80 Columbia Rd, London E2 7QB",
       "retrieved_at": "2026-10-13T00:10:00Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://spitalfieldslife.com/2012/02/08/last-orders-at-the-birdcage/",
+      "quote": "a public house established in 1760",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "press",
+      "source_date": "2012-02-08"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://pubwiki.co.uk/LondonPubs/BethnalGreen/BirdCage.shtml",
+      "quote": "This pub was established by 1760",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://spitalfieldslife.com/2012/02/08/last-orders-at-the-birdcage/",
+      "quote": "landlords Mr & Mrs Joel – who managed The Birdcage from 1922 until 1955 – kept the pub open thoughout",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "press",
+      "source_date": "2012-02-08"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://spitalfieldslife.com/2012/02/08/last-orders-at-the-birdcage/",
+      "quote": "revealing that it was once a Truman's pub",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "press",
+      "source_date": "2012-02-08"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://spitalfieldslife.com/2012/02/08/last-orders-at-the-birdcage/",
+      "quote": "Teresa Farnham called “Last Orders!” at The Birdcage on Columbia Rd after twenty-one years behind the bar",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "press",
+      "source_date": "2012-02-08"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://spitalfieldslife.com/2012/02/08/last-orders-at-the-birdcage/",
+      "quote": "the new publican takes over this week",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "press",
+      "source_date": "2012-02-08"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://pubwiki.co.uk/LondonPubs/BethnalGreen/BirdCage.shtml",
+      "quote": "Earlier address is at 68 Columbia Road.",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+      "quote": "© 2023 Urban Pubs & Bars Ltd. All rights reserved.",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+      "quote": "2nd Row Comedy will bring the laughs every Wednesday for FREE. Doors from 6:30pm.",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+      "quote": "Join us in the main bar, every second Sunday of the month for live music from a trad band.",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+      "quote": "Halloween takes over The Birdcage",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.urbanpubsandbars.com/venues/the-birdcage",
+      "quote": "Full Venue - 180",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://spitalfieldslife.com/2012/02/08/last-orders-at-the-birdcage/",
+      "quote": "a name that reflects the popular custom of keeping caged birds which was introduced to the East End by the Huguenots",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "press",
+      "source_date": "2012-02-08"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://spitalfieldslife.com/2012/02/08/last-orders-at-the-birdcage/",
+      "quote": "defines the Western extremity of the flower market",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "press",
+      "source_date": "2012-02-08"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://spitalfieldslife.com/2012/02/08/last-orders-at-the-birdcage/",
+      "quote": "the ornate architectural flourish on the top may have been destroyed",
+      "retrieved_at": "2026-10-14T12:21:40Z",
+      "source_kind": "press",
+      "source_date": "2012-02-08"
     }
   ],
-  "profiled_at": "2026-10-13T00:50:59Z",
+  "profiled_at": "2026-10-14T12:21:40Z",
   "history": [
     {
       "at": "2026-10-13T00:50:59Z",
@@ -112,10 +262,38 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T12:21:40Z",
+      "by": "venue-storyteller",
+      "change": "added story (opened, then, now, worth knowing) from the operator's page, Spitalfields Life and PubWiki"
+    },
+    {
+      "at": "2026-10-14T12:30:32Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: cut single-event launch sentence; story.opened/then/now/worth_knowing: cut unquoted tiles, building age, John Farnham, address detail, Day of the Dead date, private hire, 'junction', hedge restored"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T12:30:32Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "Established by 1760, according to Spitalfields Life and PubWiki.",
+    "then": "A 2012 Spitalfields Life article says the pub was once a Truman's house and that Mr and Mrs Joel ran it from 1922 to 1955, keeping it open through the Second World War. Teresa Farnham called last orders after 21 years behind the bar in February 2012, with a new publican taking over that week. PubWiki notes an earlier address at 68 Columbia Road. Its current website is run by Urban Pubs & Bars.",
+    "now": "The venue's own website lists a free comedy night every Wednesday (2nd Row Comedy, doors from 6:30pm), live music from a trad band in the main bar on the second Sunday of each month, and a Halloween event.",
+    "worth_knowing": [
+      "Spitalfields Life says the name nods to the Huguenot habit of keeping caged birds, which spread through the East End.",
+      "Spitalfields Life says the pub defines the western edge of the Columbia Road flower market.",
+      "Spitalfields Life says the ornate flourish on top of the building may have been destroyed in the Second World War."
+    ],
+    "written_at": "2026-10-14T12:21:40Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Used operator page, Spitalfields Life (2012) and PubWiki. No vibe: operator copy is generic and no recent review found. Could try Time Out or Londonist for the 2026 reopening and refit."
   }
 }

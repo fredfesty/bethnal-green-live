@@ -122,11 +122,101 @@
       "quote": "PECHA KUCHA – 5 NOVEMBER",
       "retrieved_at": "2026-10-13T14:09:08Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://londontheinside.com/low-intervention-english-wine-made-in-bethnal-green-neighbourhood-watch/",
+      "quote": "Founded by Hugh Thorn and Caroline Price in 2023",
+      "retrieved_at": "2026-10-14T12:21:48Z",
+      "source_kind": "press",
+      "source_date": "2026-03-23"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://londontheinside.com/low-intervention-english-wine-made-in-bethnal-green-neighbourhood-watch/",
+      "quote": "the latest release a 500-bottle run of 25 Fire Horse, a still Bacchus named in honour of Lunar New Year",
+      "retrieved_at": "2026-10-14T12:21:48Z",
+      "source_kind": "press",
+      "source_date": "2026-03-23"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://londontheinside.com/low-intervention-english-wine-made-in-bethnal-green-neighbourhood-watch/",
+      "quote": "a big Brit Nat party, featuring over 50 producers and 80 Pet Nats to taste, coming up in June",
+      "retrieved_at": "2026-10-14T12:21:48Z",
+      "source_kind": "press",
+      "source_date": "2026-03-23"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.numberswine.com/pages/visit",
+      "quote": "CELLAR DOOR AND BAR OPEN:",
+      "retrieved_at": "2026-10-14T12:21:48Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.numberswine.com/blogs/events",
+      "quote": "PET NAT MAKING WORKSHOP – 31 OCTOBER",
+      "retrieved_at": "2026-10-14T12:21:48Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.numberswine.com/blogs/events",
+      "quote": "VICTORIA'S TREES – IMMO KLINK",
+      "retrieved_at": "2026-10-14T12:21:48Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://londontheinside.com/low-intervention-english-wine-made-in-bethnal-green-neighbourhood-watch/",
+      "quote": "alongside a small selection of other local drinks and nibbles",
+      "retrieved_at": "2026-10-14T12:21:48Z",
+      "source_kind": "press",
+      "source_date": "2026-03-23"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.numberswine.com/pages/about",
+      "quote": "ONE OF THE UK’S PIONEERING URBAN WINERIES",
+      "retrieved_at": "2026-10-14T12:21:48Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://londontheinside.com/low-intervention-english-wine-made-in-bethnal-green-neighbourhood-watch/",
+      "quote": "complete with bespoke labels created in collaboration with artist Gareth McConnell",
+      "retrieved_at": "2026-10-14T12:21:48Z",
+      "source_kind": "press",
+      "source_date": "2026-03-23"
     }
   ],
-  "profiled_at": "2026-10-13T14:17:34Z",
+  "profiled_at": "2026-10-14T12:21:48Z",
   "review": {
-    "checked_at": "2026-10-13T14:20:42Z",
+    "checked_at": "2026-10-14T12:30:32Z",
     "removed_fields": []
   },
   "needs_review": null,
@@ -140,6 +230,33 @@
       "at": "2026-10-13T14:20:42Z",
       "by": "venue-checker",
       "change": "cut 'No music nights found' (an absence, not sourced) and 'talks' (not stated) from music.notes"
+    },
+    {
+      "at": "2026-10-14T12:21:48Z",
+      "by": "venue-storyteller",
+      "change": "added story (opened, then, now, worth knowing) from the venue's site and London On The Inside"
+    },
+    {
+      "at": "2026-10-14T12:30:32Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: story.now: cut unquoted opening days, hire/visits, 'exhibition' and date; worth_knowing: wording matched to quote"
     }
-  ]
+  ],
+  "story": {
+    "opened": "2023, when Hugh Thorn and Caroline Price founded the winery, according to London On The Inside.",
+    "then": "London On The Inside reported in March 2026 that the latest release was a 500-bottle run of a still Bacchus called 25 Fire Horse, named for Lunar New Year. It also said a large Brit Nat party, with more than 50 producers and 80 pet nats, was planned for June.",
+    "now": "The venue's own website lists a cellar door and bar, and its events page lists a pet nat making workshop on 31 October and Victoria's Trees by Immo Klink. London On The Inside says a few other local drinks and nibbles are served alongside the wines.",
+    "worth_knowing": [
+      "The venue's own website calls it a pioneering urban winery in the UK.",
+      "According to London On The Inside, a recent release carried bespoke labels made with the artist Gareth McConnell."
+    ],
+    "written_at": "2026-10-14T12:21:48Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Own site and one London On The Inside piece used. No vibe: no source describes the room. No independent review or building history found; one search gave nothing new."
+  }
 }

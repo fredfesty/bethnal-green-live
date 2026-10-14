@@ -84,9 +84,179 @@
       "quote": "343 Cambridge Heath Road, London, E2 9RA",
       "retrieved_at": "2026-10-13T00:24:00Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.top50cocktailbars.com/stories/news/how-satans-whiskers-became-the-uks-best-cocktail-bar.html",
+      "quote": "Opened in November 2013 in London’s Bethnal Green",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2025-03-19"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.satanswhiskers.com/",
+      "quote": "first opening the doors LATE 2013.",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.top50cocktailbars.com/stories/news/how-satans-whiskers-became-the-uks-best-cocktail-bar.html",
+      "quote": "the launch team behind Satan’s Whiskers all brought extensive bartending experience",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2025-03-19"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.top50cocktailbars.com/stories/news/how-satans-whiskers-became-the-uks-best-cocktail-bar.html",
+      "quote": "Opening Satan’s Whiskers was in some ways a response to the types of bars that were being opened around that time.",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2025-03-19"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.timeout.com/london/news/this-bethnal-green-cocktail-bar-has-been-named-the-best-in-the-uk-for-the-third-time-021225",
+      "quote": "scored top place in the list in 2019 and 2023, and has clawed back the number one spot",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2025-02-12"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.timeout.com/london/news/satans-whiskers-best-cocktail-bar-in-world-2026-072426",
+      "quote": "Satan’s Whiskers was named the ‘Best International Cocktail Bar’ at the 20th annual Spirited Awards in New Orleans",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2026-07-24"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.satanswhiskers.com/",
+      "quote": "The daily changing menu means that even if you live in the neighbourhood, there will always be something new for you try.",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.satanswhiskers.com/",
+      "quote": "WE WELCOME RESERVATIONS,",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.satanswhiskers.com/",
+      "quote": "BUT ONLY BY TELEPHONE.",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.satanswhiskers.com/",
+      "quote": "We offer a full consultancy service on beverage, bar design, operations, systems, training and back of house.",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.timeout.com/london/news/satans-whiskers-best-cocktail-bar-in-world-2026-072426",
+      "quote": "but the focus is on classic and modern classic cocktails.",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2026-07-24"
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.top50cocktailbars.com/stories/news/how-satans-whiskers-became-the-uks-best-cocktail-bar.html",
+      "quote": "a small, dimly lit, intimate 50-seat bar, with a background soundtrack of primarily old-school hip hop.",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2025-03-19"
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.timeout.com/london/news/satans-whiskers-best-cocktail-bar-in-world-2026-072426",
+      "quote": "Inside, there’s hip hop on the stereo, a smartly modish setting, vintage French posters on the walls",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2026-07-24"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.timeout.com/london/news/satans-whiskers-best-cocktail-bar-in-world-2026-072426",
+      "quote": "It was also named Bar of the Year and Best Bar in London & the South East in the CLASS Bar Awards 2026.",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2026-07-24"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.top50cocktailbars.com/stories/news/how-satans-whiskers-became-the-uks-best-cocktail-bar.html",
+      "quote": "Also listed on the menu daily, in order to give staff the recognition they deserve, are the names of the front-of-house team.",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2025-03-19"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.timeout.com/london/news/satans-whiskers-best-cocktail-bar-in-world-2026-072426",
+      "quote": "with a carousel of more than 400 cocktails",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2026-07-24"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.timeout.com/london/news/this-bethnal-green-cocktail-bar-has-been-named-the-best-in-the-uk-for-the-third-time-021225",
+      "quote": "Satan’s Whiskers, which opened back in 2013, scored top place in the list in 2019 and 2023",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2025-02-12"
     }
   ],
-  "profiled_at": "2026-10-13T00:46:55Z",
+  "profiled_at": "2026-10-14T12:22:00Z",
   "history": [
     {
       "at": "2026-10-13T00:46:55Z",
@@ -97,10 +267,40 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "cut or narrowed: summary: cut unquoted 'opened in late 2013'"
+    },
+    {
+      "at": "2026-10-14T12:22:00Z",
+      "by": "venue-storyteller",
+      "change": "added story (opened, then, now, vibe, worth knowing) from the venue site, Time Out and Top 50 Cocktail Bars"
+    },
+    {
+      "at": "2026-10-14T12:30:32Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: story.then: cut unquoted 'several London bars' and 'concept-heavy'"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T12:30:32Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "November 2013, according to Top 50 Cocktail Bars; the venue's own website says late 2013.",
+    "then": "Top 50 Cocktail Bars says the opening team had extensive bartending experience, and that the bar was partly a reaction to the kinds of bars opening at that time. Time Out reports it topped the Top 50 Cocktail Bars list in 2019 and 2023 and again in 2025. In July 2026 Time Out says it was named Best International Cocktail Bar at the Spirited Awards in New Orleans.",
+    "now": "The venue's own website says the menu changes daily and that it takes reservations by telephone only; it also runs a bar consultancy service covering drinks, design, systems and training. Time Out says the drinks lean towards classics and modern classics.",
+    "vibe": "Top 50 Cocktail Bars describes a small, dimly lit, 50-seat bar with mostly old-school hip hop in the background. Time Out mentions vintage French posters on the walls and a smartly modish setting.",
+    "worth_knowing": [
+      "Time Out says it was Bar of the Year and Best London & South East bar at the 2026 CLASS Bar Awards.",
+      "Top 50 Cocktail Bars says each day's menu also credits the front-of-house staff by name.",
+      "Time Out says its menu has stretched to over 400 cocktails.",
+      "Time Out says it has taken the top spot in the Top 50 Cocktail Bars list three times."
+    ],
+    "written_at": "2026-10-14T12:22:00Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "outcome": "written",
+    "attempts": 1,
+    "next_check": null,
+    "note": "Read venue site, Time Out and Top 50 Cocktail Bars. Not found: building history before 2013, ownership changes, access details."
   }
 }

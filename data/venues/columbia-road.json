@@ -6,7 +6,7 @@
   "summary": "A street of Victorian shops off Hackney Road in Tower Hamlets, where traders sell flowers, houseplants, herbs, bulbs and shrubs on Sundays.",
   "music": {
     "styles": [],
-    "notes": "A free festival with music, dance and a procession, and shops that open late on Wednesdays before Christmas."
+    "notes": null
   },
   "crowd": "Time Out says it pulls in big crowds of visitors and locals alike.",
   "accessibility": {
@@ -70,9 +70,139 @@
       "quote": "Columbia Road is in the East End, sitting at the edge of the City",
       "retrieved_at": "2026-10-13T00:25:50Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "The run of Victorian shops we see today were built during the 1860’s to service the population of the nearby Jesus Hospital Estate.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+      "quote": "one of the city’s longest-running markets, dating all the way back to 1869",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "press",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "The Flower market began as a Saturday trading market, but as the Jewish population grew a Sunday market was established.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "Plants were brought by handcart from nearby market gardens in Hackney and Islington",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "The whole area went into a decline in the 1970’s. Indeed demolition was mooted, but the locals fought back and the area and market were saved.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "Columbia Road began its life as a pathway along which sheep were driven to the slaughterhouses at Smithfield.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://columbiaroad.info/",
+      "quote": "Columbia Road flower market and shops are open on Sundays from 8am til 3(ish!).",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://columbiaroad.info/",
+      "quote": "Columbia Road will celebrate London’s Day of the Dead on Saturday 31st October 2026",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+      "quote": "During the midday rush you may well find yourself being jostled by the waves of visitors shuffling down the narrow street.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "press",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://columbiaroad.info/",
+      "quote": "Small art galleries sit next to cupcake shops, vintage clothes stores, English and Italian delis, gardening, gifts, souvenirs, and antique shops.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "Columbia Road was named in honour of the heiress and philanthropist Angela Burdett Coutts",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+      "quote": "Columbia Road Flower Market is free and unticketed",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "press",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.timeout.com/london/shopping/columbia-road-flower-market",
+      "quote": "Don’t be afraid to barter. Your best be is to wait until the market is winding down, when traders typically reduce their prices to shift any remaining stock.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "press",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:47:43Z",
+  "profiled_at": "2026-10-14T12:21:28Z",
   "history": [
     {
       "at": "2026-10-13T00:47:43Z",
@@ -83,10 +213,41 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "cut or narrowed: music.notes: 'street festival' -> 'festival'"
+    },
+    {
+      "at": "2026-10-14T12:21:28Z",
+      "by": "venue-storyteller",
+      "change": "added story: opened, then, now, vibe, worth knowing"
+    },
+    {
+      "at": "2026-10-14T12:30:32Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes emptied (one-off festival and shop hours, not music); story.now: cut unquoted 'free'; story.vibe: cut unquoted 'arrive at opening' advice"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
-    "removed_fields": []
+    "checked_at": "2026-10-14T12:30:32Z",
+    "removed_fields": [
+      "music.notes"
+    ]
+  },
+  "story": {
+    "opened": "The Victorian shops date from the 1860s; Time Out says the market goes back to 1869",
+    "then": "The venue's own website says the street began as a drovers' path to Smithfield. The flower market started on Saturdays, then moved to Sundays as the local Jewish population grew, supplied by handcart from market gardens in Hackney and Islington. The area declined in the 1970s and demolition was talked of, but locals fought back and saved the street and market.",
+    "now": "According to the venue's own website, the market and shops open on Sundays from 8am to about 3pm. On Saturday 31 October 2026 the street celebrates London's Day of the Dead.",
+    "vibe": "Time Out says the narrow street gets jostly around midday. The venue's own website describes small art galleries beside cupcake shops, vintage clothing stores, delis and antique shops.",
+    "worth_knowing": [
+      "The street is named after the philanthropist Angela Burdett Coutts, according to the venue's own website.",
+      "Time Out says the market is free and unticketed.",
+      "Time Out suggests that traders tend to cut prices as the market winds down, so late buyers can haggle."
+    ],
+    "written_at": "2026-10-14T12:21:28Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "outcome": "written",
+    "attempts": 1,
+    "next_check": null,
+    "note": "Used the venue's history page and Time Out. Could have added an independent history source (Historic England, Survey of London) and a review for vibe."
   }
 }

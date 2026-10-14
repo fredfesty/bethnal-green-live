@@ -69,9 +69,50 @@
       "quote": "Live music from late afternoon, a glass of something good in hand",
       "retrieved_at": "2026-10-13T00:24:04Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened",
+        "story.worth_knowing"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/renegade-london-wine",
+      "quote": "Renegade has been producing since early 2017",
+      "retrieved_at": "2026-10-14T12:21:23Z",
+      "source_kind": "aggregator",
+      "source_date": "2017-09-11"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/renegade-london-wine",
+      "quote": "East London’s first urban winery, complete with taproom.",
+      "retrieved_at": "2026-10-14T12:21:23Z",
+      "source_kind": "aggregator",
+      "source_date": "2017-09-11"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://camra.org.uk/pubs/renegade-wine-bar-bethnal-green-198884",
+      "quote": "Situated in a railway arch this was the original site of Renegade Winery which moved to Walthamstow. Space was converted to a wine bar.",
+      "retrieved_at": "2026-10-14T12:21:23Z",
+      "source_kind": "aggregator",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.renegadelondonwine.com/bethnalgreen",
+      "quote": "Full or Half Venue Hire, Private Wine Tastings and Wedding or Special Event Inquiries",
+      "retrieved_at": "2026-10-14T12:21:23Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:46:55Z",
+  "profiled_at": "2026-10-14T12:21:23Z",
   "history": [
     {
       "at": "2026-10-13T00:46:55Z",
@@ -82,10 +123,31 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "cut or narrowed: music.notes: cut unquoted 'Sunday'"
+    },
+    {
+      "at": "2026-10-14T12:21:23Z",
+      "by": "venue-storyteller",
+      "change": "added story: opened, then, now, worth_knowing from Time Out, CAMRA and the venue's website"
     }
   ],
   "review": {
     "checked_at": "2026-10-13T01:01:23Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "Renegade began making wine in this railway arch in early 2017, according to Time Out.",
+    "then": "The arch was the original home of Renegade Urban Winery, according to the CAMRA pub guide. The winemaking moved to Walthamstow and the space was converted into a wine bar.",
+    "now": "The venue's own website says groups can enquire about hiring all or half of the arch, as well as private tastings and weddings or other special events.",
+    "worth_knowing": [
+      "Time Out's 2017 review described it as the first urban winery in east London, with a taproom attached."
+    ],
+    "written_at": "2026-10-14T12:21:23Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Used venue site, Time Out (2017) and CAMRA. No source found for when the winery became a wine bar, or a recent (post-2021) description of the room for vibe. Leads: DesignMyNight page, Londonist railway arches list (undated), local press on the Walthamstow move."
   }
 }

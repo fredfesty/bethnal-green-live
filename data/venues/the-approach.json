@@ -82,9 +82,81 @@
       "quote": "Bethnal Green, London E2 9LY",
       "retrieved_at": "2026-10-13T00:09:30Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened",
+        "story.then"
+      ],
+      "url": "https://www.pubology.co.uk/pubs/2682.html",
+      "quote": "Dates open: 1860- rebuilt post-WW2",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.opened",
+        "story.then"
+      ],
+      "url": "https://www.theartnewspaper.com/2017/09/20/cheers-twenty-years-of-londons-approach-gallery",
+      "quote": "celebrating two decades of putting on world class shows, all from a couple of rooms above an East End pub",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2017-09-20"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.theartnewspaper.com/2017/09/20/cheers-twenty-years-of-londons-approach-gallery",
+      "quote": "Peter Doig as a guest curator for a show of painting in the gallery’s first year",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2017-09-20"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.theartnewspaper.com/2017/09/20/cheers-twenty-years-of-londons-approach-gallery",
+      "quote": "the Approach’s founder-director Jake Miller",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2017-09-20"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.theapproach.co.uk/contact/",
+      "quote": "Gallery opening hours: Wednesday - Saturday, 12-6pm and by appointment",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.theapproach.co.uk/contact/",
+      "quote": "Access to the gallery via The Approach Tavern.",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.theartnewspaper.com/2017/09/20/cheers-twenty-years-of-londons-approach-gallery",
+      "quote": "Enrico David, Peter Davies, Jeremy Deller, Salvador Dali, Tacita Dean",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2017-09-20"
     }
   ],
-  "profiled_at": "2026-10-13T00:41:11Z",
+  "profiled_at": "2026-10-14T12:22:00Z",
   "history": [
     {
       "at": "2026-10-13T00:41:11Z",
@@ -95,10 +167,36 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T12:22:00Z",
+      "by": "venue-storyteller",
+      "change": "added a short story (opened, then, now, worth knowing) from the venue's site, The Art Newspaper and London Pubology"
+    },
+    {
+      "at": "2026-10-14T12:30:32Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T12:30:32Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "The pub dates from 1860; the gallery above it marked twenty years in 2017.",
+    "then": "According to London Pubology, the Approach Tavern was rebuilt after the Second World War. The Art Newspaper reported in 2017 that the gallery, run by founder-director Jake Miller, had spent two decades in a couple of rooms above the pub, with Peter Doig guest-curating a painting show in its first year.",
+    "now": "According to the venue's own website, the gallery is open Wednesday to Saturday, 12 to 6pm, and by appointment, and is reached through the pub downstairs.",
+    "worth_knowing": [
+      "The Art Newspaper noted in 2017 that artists shown here have included Jeremy Deller, Tacita Dean and Enrico David."
+    ],
+    "written_at": "2026-10-14T12:22:00Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Used the venue's contact page, The Art Newspaper (2017) and London Pubology. Not found: a recent review for vibe, and the gallery's exact opening year or a current programme description."
   }
 }
