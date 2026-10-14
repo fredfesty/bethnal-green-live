@@ -14,6 +14,16 @@ test("the closed section still shows its title and how many runs it holds", () =
   assert.match(page, /<summary class="runs__summary">[\s\S]*Exhibitions & runs[\s\S]*\{runs\.length\}/);
 });
 
-test("a search or filter opens the section when it has matches", () => {
-  assert.match(page, /filtering[\s\S]*runsBox\.open = true/);
+test("the title is a heading inside the summary", () => {
+  assert.match(page, /<summary class="runs__summary">\s*<h2 class="day__head" id="runs-head">/);
+});
+
+test("a search or filter opens the section only when matches first appear", () => {
+  assert.match(page, /const runMatch = filtering && /);
+  assert.match(page, /if \(runMatch && !hadRunMatch\) runsBox\.open = true;/);
+  assert.match(page, /hadRunMatch = runMatch;/);
+});
+
+test("clearing the filters folds the section away again", () => {
+  assert.match(page, /form\.reset\(\); if \(runsBox\) runsBox\.open = false;/);
 });

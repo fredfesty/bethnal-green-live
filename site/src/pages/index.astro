@@ -160,6 +160,7 @@ const here = Astro.url.pathname;
   const dates = document.getElementById("dates");
   const more = document.getElementById("more");
   const runsBox = document.getElementById("runs");
+  let hadRunMatch = false;
   const active = document.getElementById("active");
   const wide = matchMedia("(min-width: 52.01rem)");
   const syncOpen = () => { if (wide.matches) more.open = true; };
@@ -220,7 +221,10 @@ const here = Astro.url.pathname;
     for (const day of days) day.hidden = !day.querySelector(".event:not([hidden])");
     // The runs start folded away; open them when a search or filter has matched some, so matches never hide.
     const filtering = Boolean(q) || val("type") !== "all" || val("when") !== "any" || price !== "any" || area !== "all";
-    if (filtering && runsBox && runsBox.querySelector(".event:not([hidden])")) runsBox.open = true;
+    // Only when matches first appear, so a reader who folds it away again isn't overruled on the next keystroke.
+    const runMatch = filtering && Boolean(runsBox && runsBox.querySelector(".event:not([hidden])"));
+    if (runMatch && !hadRunMatch) runsBox.open = true;
+    hadRunMatch = runMatch;
     count.textContent = `${shown} ${shown === 1 ? "listing" : "listings"}`;
     none.hidden = shown !== 0;
     const n = [type !== "all", val("when") !== "any", price !== "any", area !== "all"].filter(Boolean).length;
@@ -252,7 +256,7 @@ const here = Astro.url.pathname;
 
   form.addEventListener("input", () => apply());
   form.addEventListener("change", () => apply());
-  document.getElementById("clear").addEventListener("click", () => { form.reset(); apply(); });
+  document.getElementById("clear").addEventListener("click", () => { form.reset(); if (runsBox) runsBox.open = false; apply(); });
   apply(false);
 })();
 </script>
@@ -301,7 +305,7 @@ const here = Astro.url.pathname;
   }
   .runs__summary::-webkit-details-marker { display: none; }
   .runs__summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
-  .runs__summary .day__head { margin-top: 0; margin-bottom: 0; }
+  .runs__summary .day__head { margin-top: 0; margin-bottom: 0; flex: 1; min-width: 0; flex-wrap: wrap; gap: 0.25rem 1rem; }
   .runs__toggle {
     flex: none; width: 2rem; height: 2rem; border: 1.5px solid #000; border-radius: 999px; background: #fff;
     display: grid; place-items: center;
