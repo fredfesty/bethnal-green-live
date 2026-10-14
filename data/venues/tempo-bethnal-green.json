@@ -25,9 +25,49 @@
       "quote": "a wine bar and restaurant serving modern South East Asian cooking",
       "retrieved_at": "2026-10-13T00:24:04Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.tempo.restaurant/about-us",
+      "quote": "bold, share-friendly plates cooked in our open kitchen",
+      "retrieved_at": "2026-10-14T11:51:49Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.tempo.restaurant/about-us",
+      "quote": "pouring everything from easy drinkers to more adventurous bottles, alongside a rotating by-the-glass selection",
+      "retrieved_at": "2026-10-14T11:51:49Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.tempo.restaurant/about-us",
+      "quote": "under the arches in Bethnal Green, founded by Dan Long and Eric Wan",
+      "retrieved_at": "2026-10-14T11:51:49Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.tempo.restaurant/about-us",
+      "quote": "Our food takes cues from Chef Eric’s roots",
+      "retrieved_at": "2026-10-14T11:51:49Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:46:55Z",
+  "profiled_at": "2026-10-14T11:51:49Z",
   "history": [
     {
       "at": "2026-10-13T00:46:55Z",
@@ -38,10 +78,35 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T11:51:49Z",
+      "by": "venue-storyteller",
+      "change": "added story: what it does now and two facts, from the venue's about page"
+    },
+    {
+      "at": "2026-10-14T11:55:58Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T11:55:58Z",
     "removed_fields": []
+  },
+  "story": {
+    "now": "Share-style plates are cooked in an open kitchen, drawing on the chef's own background. The wine list runs from easy bottles to more unusual ones, with a changing choice by the glass.",
+    "worth_knowing": [
+      "Two founders, Dan Long and Eric Wan, started it; Eric's background shapes the food.",
+      "The restaurant is set under the railway arches in Bethnal Green."
+    ],
+    "written_at": "2026-10-14T11:51:49Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Only the venue's own about page was usable. No opening date or history found. Infatuation refused by robots; Tower Hamlets Slice is never-use; Harden's page is undated. Try Hot Dinners, Time Out, Evening Standard for opening news and a dated review."
   }
 }

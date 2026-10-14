@@ -32,9 +32,109 @@
       "quote": "has been expertly combining art and fashion with playful shows",
       "retrieved_at": "2026-10-13T00:12:38Z",
       "source_kind": "press"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.roseeaston.com/information",
+      "quote": "Rose Easton opened in London in October 2021.",
+      "retrieved_at": "2026-10-14T11:52:15Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.roseeaston.com/information",
+      "quote": "The gallery ran under the name Moarain House from October 2021 – September 2022.",
+      "retrieved_at": "2026-10-14T11:52:15Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.timeout.com/london/art/rose-easton",
+      "quote": "with former stints as an umbrella factory and the studio of Turner Prize-winning photographer Wolfgang Tillmans",
+      "retrieved_at": "2026-10-14T11:52:15Z",
+      "source_kind": "press",
+      "source_date": "2026-08-13"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.roseeaston.com/information",
+      "quote": "Open, Wednesday – Saturday, 12 – 6pm",
+      "retrieved_at": "2026-10-14T11:52:15Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.timeout.com/london/art/rose-easton",
+      "quote": "This small commercial gallery is helping to keep Bethnal Green’s art heart beating.",
+      "retrieved_at": "2026-10-14T11:52:15Z",
+      "source_kind": "press",
+      "source_date": "2026-08-13"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.roseeaston.com/information",
+      "quote": "the gallery is located on the first floor and accessible only by stairs",
+      "retrieved_at": "2026-10-14T11:52:15Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://plastermagazine.com/features/all-hail-the-bethnal-green-art-boom/",
+      "quote": "complete with plush pink carpet",
+      "retrieved_at": "2026-10-14T11:52:15Z",
+      "source_kind": "press",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.timeout.com/london/art/rose-easton",
+      "quote": "a graffitied block on Cambridge Heath Road",
+      "retrieved_at": "2026-10-14T11:52:15Z",
+      "source_kind": "press",
+      "source_date": "2026-08-13"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.timeout.com/london/art/rose-easton",
+      "quote": "the studio of Turner Prize-winning photographer Wolfgang Tillmans",
+      "retrieved_at": "2026-10-14T11:52:15Z",
+      "source_kind": "press",
+      "source_date": "2026-08-13"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.timeout.com/london/art/rose-easton",
+      "quote": "former stints as an umbrella factory",
+      "retrieved_at": "2026-10-14T11:52:15Z",
+      "source_kind": "press",
+      "source_date": "2026-08-13"
     }
   ],
-  "profiled_at": "2026-10-13T00:41:11Z",
+  "profiled_at": "2026-10-14T11:52:15Z",
   "history": [
     {
       "at": "2026-10-13T00:41:11Z",
@@ -45,10 +145,38 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T11:52:15Z",
+      "by": "venue-storyteller",
+      "change": "added story: opened, then, now, vibe, worth knowing"
+    },
+    {
+      "at": "2026-10-14T11:55:58Z",
+      "by": "venue-checker",
+      "change": "story.opened: cut unquoted address 223 Cambridge Heath Road; story.then: cut 'later' (order not quoted)"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T11:55:58Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "October 2021.",
+    "then": "For its first year, to September 2022, the gallery traded as Moarain House. The building has had other lives: Time Out says it was once an umbrella factory, and also the studio of the photographer Wolfgang Tillmans.",
+    "now": "A small commercial gallery on the first floor, reached by stairs only, open Wednesday to Saturday from noon to 6pm. Time Out credits it with helping to keep Bethnal Green's art scene going.",
+    "vibe": "The building is a graffiti-covered block on Cambridge Heath Road. Plaster magazine noted the gallery's plush pink carpet.",
+    "worth_knowing": [
+      "The building was once the workspace of Wolfgang Tillmans, a photographer who has won the Turner Prize.",
+      "Before the art, the building housed an umbrella factory, according to Time Out."
+    ],
+    "written_at": "2026-10-14T11:52:15Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Used gallery information page, Time Out, Plaster. Artnet profile returned 403. Could add founder background and programme history from another press piece; homepage exhibition lines span lines so not quoted."
   }
 }

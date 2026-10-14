@@ -55,9 +55,79 @@
       "quote": "London E2 6GQ",
       "retrieved_at": "2026-10-13T00:09:30Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://londongalleryweekend.art/galleries/159-mothers-tankstation/",
+      "quote": "mother’s opened a London space in 2017, which has established itself on the ground floor in the busy gallery district of Bethnal Green.",
+      "retrieved_at": "2026-10-14T11:52:38Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://frontrunnermag.com/from-eire-to-england-a-qa-with-mothers-tankstation-director-finola-jones/",
+      "quote": "We opened the new London space with a curated exhibition of Jessie Homer French’s Stealth Bombers",
+      "retrieved_at": "2026-10-14T11:52:38Z",
+      "source_kind": "press",
+      "source_date": "2019-04-16"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://frontrunnermag.com/from-eire-to-england-a-qa-with-mothers-tankstation-director-finola-jones/",
+      "quote": "a London space seemed like a way to increase the audience for our programme beyond what people could experience from the levelling artifice of art fairs",
+      "retrieved_at": "2026-10-14T11:52:38Z",
+      "source_kind": "press",
+      "source_date": "2019-04-16"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://londongalleryweekend.art/galleries/159-mothers-tankstation/",
+      "quote": "Established in Dublin, 2006",
+      "retrieved_at": "2026-10-14T11:52:38Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.motherstankstation.com/exhibitions/london/",
+      "quote": "11 October - 5 December 2026",
+      "retrieved_at": "2026-10-14T11:52:38Z",
+      "source_kind": "primary",
+      "source_date": "2026-10-14"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.motherstankstation.com/contact/",
+      "quote": "Closed August or other times by appointment",
+      "retrieved_at": "2026-10-14T11:52:38Z",
+      "source_kind": "primary",
+      "source_date": "2026-10-14"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://frontrunnermag.com/from-eire-to-england-a-qa-with-mothers-tankstation-director-finola-jones/",
+      "quote": "We considered various other centres to open a second space: Hong Kong, Paris, etc, but eventually settled on London",
+      "retrieved_at": "2026-10-14T11:52:38Z",
+      "source_kind": "press",
+      "source_date": "2019-04-16"
     }
   ],
-  "profiled_at": "2026-10-13T00:41:11Z",
+  "profiled_at": "2026-10-14T11:52:38Z",
   "history": [
     {
       "at": "2026-10-13T00:41:11Z",
@@ -68,10 +138,36 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T11:52:38Z",
+      "by": "venue-storyteller",
+      "change": "added story: opened, then, now, worth knowing"
+    },
+    {
+      "at": "2026-10-14T11:55:58Z",
+      "by": "venue-checker",
+      "change": "story.opened: cut 'Irish' (not in quote)"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T11:55:58Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "2017, as the London branch of a gallery founded in Dublin in 2006.",
+    "then": "The gallery began in Dublin in 2006. Its director said a London space was a way to reach more people than art fairs allow, and the Bethnal Green space opened with a show of work by Jessie Homer French.",
+    "now": "A show listed on the gallery's London page runs from 11 October to 5 December 2026. The space closes in August and can otherwise be visited by appointment.",
+    "worth_knowing": [
+      "The director said Hong Kong and Paris were also considered for a second space before London was chosen."
+    ],
+    "written_at": "2026-10-14T11:52:38Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Found opening year, origin and current show. No vibe/interior description found; Dublin-side press only. Try Time Out, Art Review, Frieze or Studio International reviews of the Three Colts Lane space next week."
   }
 }

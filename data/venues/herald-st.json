@@ -46,9 +46,61 @@
       "quote": "2 Herald St London E2 6JT",
       "retrieved_at": "2026-10-13T00:11:02Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://artbasel.com/catalog/gallery/1155/Herald-St",
+      "quote": "Herald St was established in 2005 by Ash L’ange and Nicky Verber.",
+      "retrieved_at": "2026-10-14T11:52:17Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then",
+        "story.worth_knowing"
+      ],
+      "url": "https://www.artribune.com/professioni-e-professionisti/2025/11/galleria-herald-st-apre-bologna-gennaio-2026/",
+      "quote": "Dopo il debutto nel 2025 ad Arte Fiera, la galleria londinese Herald St torna in Italia per restare: il 6 febbraio 2026 aprirà infatti un nuovo spazio a Bologna, il primo fuori dal Regno Unito.",
+      "retrieved_at": "2026-10-14T11:52:17Z",
+      "source_kind": "press",
+      "source_date": "2025-11-06"
+    },
+    {
+      "fields": [
+        "story.then",
+        "story.worth_knowing"
+      ],
+      "url": "https://www.artribune.com/professioni-e-professionisti/2025/11/galleria-herald-st-apre-bologna-gennaio-2026/",
+      "quote": "Aggiungendosi nel ventesimo anniversario della galleria a quelli londinesi di Bethnal Green nell’East Side e di Bloomsbury in centro",
+      "retrieved_at": "2026-10-14T11:52:17Z",
+      "source_kind": "press",
+      "source_date": "2025-11-06"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.artribune.com/professioni-e-professionisti/2025/11/galleria-herald-st-apre-bologna-gennaio-2026/",
+      "quote": "la sede di Bologna sarà un ambiente di oltre 100 mq al piano terra di un palazzo storico",
+      "retrieved_at": "2026-10-14T11:52:17Z",
+      "source_kind": "press",
+      "source_date": "2025-11-06"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://artbasel.com/catalog/gallery/1155/Herald-St",
+      "quote": "the gallery represents twenty-nine artists and participates in multiple art fairs including Art Basel, Art Basel Hong Kong and Frieze London, amongst others.",
+      "retrieved_at": "2026-10-14T11:52:17Z",
+      "source_kind": "directory",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:41:11Z",
+  "profiled_at": "2026-10-14T11:52:17Z",
   "history": [
     {
       "at": "2026-10-13T00:41:11Z",
@@ -59,10 +111,37 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T11:52:17Z",
+      "by": "venue-storyteller",
+      "change": "added story: opened, then, now, worth knowing (Art Basel gallery page, Artribune on the Bologna space)"
+    },
+    {
+      "at": "2026-10-14T11:55:58Z",
+      "by": "venue-checker",
+      "change": "story.now: cut 'commercial' (not in quote)"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T11:55:58Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "2005, founded by Ash L'ange and Nicky Verber.",
+    "then": "For its twentieth anniversary the gallery announced its first space outside the UK: a ground-floor room of more than 100 square metres in a historic building in Bologna, due to open on 6 February 2026. It joined the Bethnal Green gallery and a second London space in Bloomsbury.",
+    "now": "A contemporary art gallery representing twenty-nine artists. It takes part in art fairs including Art Basel and Frieze London.",
+    "worth_knowing": [
+      "Bologna was its first venture abroad; the gallery first showed at the city's Arte Fiera in 2025.",
+      "The gallery has two London spaces, in Bethnal Green and Bloomsbury."
+    ],
+    "written_at": "2026-10-14T11:52:17Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Found founding year and founders, Bologna opening, fairs. Not found: any account of the Bethnal Green space itself (building, move date, former use), what the room is like, or opening hours. frieze.com gave 403; heraldst.com has no about page. Try Time Out, Londonist, Evening Standard, a Herald St profile in an art guide."
   }
 }

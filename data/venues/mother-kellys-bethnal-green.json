@@ -32,9 +32,39 @@
       "quote": "Kitted out with a bar that showcases a long line of beer taps and a smattering of tables and bar stools",
       "retrieved_at": "2026-10-13T00:27:03Z",
       "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/mother-kellys",
+      "quote": "the owners have taken the stripped-back, railway-arch aesthetics applied at their Bethnal Green flagship and recreated them in Vauxhall",
+      "retrieved_at": "2026-10-14T11:52:07Z",
+      "source_kind": "press",
+      "source_date": "2017-10-09"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://londonist.com/pubs/mother-kellys",
+      "quote": "The owners have since opened a second venue in Vauxhall along the same lines, with much more space.",
+      "retrieved_at": "2026-10-14T11:52:07Z",
+      "source_kind": "press",
+      "source_date": "2018-09-01"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://londonist.com/pubs/mother-kellys",
+      "quote": "The vibe of the place is supposedly inspired by New York craft ale bars",
+      "retrieved_at": "2026-10-14T11:52:07Z",
+      "source_kind": "press",
+      "source_date": "2018-09-01"
     }
   ],
-  "profiled_at": "2026-10-13T00:46:55Z",
+  "profiled_at": "2026-10-14T11:52:07Z",
   "history": [
     {
       "at": "2026-10-13T00:46:55Z",
@@ -45,10 +75,34 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T11:52:07Z",
+      "by": "venue-storyteller",
+      "change": "added story: then and one worth-knowing item (Time Out 2017, Londonist 2018)"
+    },
+    {
+      "at": "2026-10-14T11:55:58Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T11:55:58Z",
     "removed_fields": []
+  },
+  "story": {
+    "then": "The owners later opened a second, roomier branch in Vauxhall, repeating the Bethnal Green original's plain railway-arch style. Time Out called the Bethnal Green bar their flagship.",
+    "worth_knowing": [
+      "Londonist's 2018 entry said the look was supposedly inspired by craft beer bars in New York."
+    ],
+    "written_at": "2026-10-14T11:52:07Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Venue site motherkellys.co.uk and thenudge, CAMRA refused. Found only old press on the Vauxhall sibling link. No opening date, no fresh now/vibe source (DesignMyNight undated). Try Time Out Bethnal Green page, Hackney/Tower Hamlets Slice, Secret London."
   }
 }

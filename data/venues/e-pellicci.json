@@ -5,7 +5,7 @@
   "address": "332 Bethnal Green Road, London",
   "postcode": "E2 0AG",
   "website": "https://epellicci.co.uk",
-  "summary": "A family-run Italian café on Bethnal Green Road, established in 1900. Its early-1940s interior was given Grade II listed status in 2007.",
+  "summary": "A family-run Italian café on Bethnal Green Road, established in 1900. Its early-1940s interior has Grade II listed status.",
   "music": {
     "styles": [],
     "notes": "An evening cocktail night on the first Thursday of the month."
@@ -82,9 +82,189 @@
       "quote": "332 Bethnal Green Road, London, UK, E2 0AG",
       "retrieved_at": "2026-10-13T00:24:00Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://epellicci.co.uk/pages/our-story",
+      "quote": "Priamo Pellicci began working in the cafe in 1900",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://epellicci.co.uk/pages/our-story",
+      "quote": "running the cafe below to keep the family after her husband’s death in 1931",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://epellicci.co.uk/pages/our-story",
+      "quote": "Mr. Nevio Snr., who was born upstairs, ran the business after Mrs. Elide Pellicci until he passed away in 2008.",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://epellicci.co.uk/pages/our-story",
+      "quote": "Mr. Nevio’s wife, Maria, is the head of the family business today.",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://londonist.com/2005/03/caff_gets_liste",
+      "quote": "commissioned local carpenter Achille Capocci, to install \"a rich Deco-style marquetry panelled interior.\"",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "press",
+      "source_date": "2005-03-07"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://gb.britishlistedbuildings.co.uk/101391332-e-pellicci-cafe-st-peters-ward",
+      "quote": "Listing Date: 13 January 2005",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/e-pellicci",
+      "quote": "All dishes are available all day, whether it be a freshly cooked breakfast or pancakes",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "press",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/e-pellicci",
+      "quote": "We serve great quality Arabica bean coffee and have an alcohol license too!",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "press",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://epellicci.co.uk/pages/events",
+      "quote": "Every 1st Thursday of the month",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/e-pellicci",
+      "quote": "Decked out in Formica and staffed by friendly sorts keen to chat",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "press",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://epellicci.co.uk/pages/our-story",
+      "quote": "Pellicci’s boasts an ornate panelled wooden decor",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://londonist.com/2005/03/caff_gets_liste",
+      "quote": "It was also a favourite of the Krays who were regular customers",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "press",
+      "source_date": "2005-03-07"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/e-pellicci",
+      "quote": "Harry Styles filmed a (tiny!) bit of the music video for ‘Late Night Talking’ here in 2022.",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "press",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://epellicci.co.uk/pages/our-story",
+      "quote": "Elide is the E. Pellicci whose initial is still emblazoned in chrome",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://gb.britishlistedbuildings.co.uk/101391332-e-pellicci-cafe-st-peters-ward",
+      "quote": "an architecturally strong and increasingly rare example of the intact and stylish Italian cafe",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://epellicci.co.uk/pages/our-story",
+      "quote": "it was here that his wife Elide brought up their seven children single-handedly",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://epellicci.co.uk/pages/events",
+      "quote": "Join us for a night of cocktails on Thursday 1st October from 6:30pm - 10pm",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://epellicci.co.uk/pages/our-story",
+      "quote": "her portrait remains inside the cafe",
+      "retrieved_at": "2026-10-14T11:55:00Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:46:55Z",
+  "profiled_at": "2026-10-14T11:55:00Z",
   "history": [
     {
       "at": "2026-10-13T00:46:55Z",
@@ -95,10 +275,40 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "cut or narrowed: music.notes: cut unquoted 'mainly a daytime café'"
+    },
+    {
+      "at": "2026-10-14T11:55:00Z",
+      "by": "venue-storyteller",
+      "change": "added story: opened, then, now, vibe, worth knowing"
+    },
+    {
+      "at": "2026-10-14T11:55:58Z",
+      "by": "venue-checker",
+      "change": "cut from summary the 2007 listing year (conflicts with 2005 listing record); story.then: cut '1946', 'her son'; story.vibe: cut 'a proper caff' (not in quote)"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T11:55:58Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "1900, as a family-run Italian café; the Pellicci family still runs it.",
+    "then": "Priamo Pellicci's widow, Elide, kept the café going after his death in 1931 while bringing up seven children. Carpenter Achille Capocci was commissioned to fit the Deco-style panelled interior. Nevio Pellicci ran the business until 2008, and his wife Maria now heads it. The café was listed Grade II in 2005.",
+    "now": "Every dish is on offer all day, from breakfasts to pancakes. It serves coffee, holds an alcohol licence, and runs a cocktail night on the first Thursday of each month.",
+    "vibe": "Time Out describes it as fitted out with Formica, with friendly staff who like a chat. The café's own page stresses its ornate wooden panelling.",
+    "worth_knowing": [
+      "The Krays were regulars, according to a 2005 Londonist report.",
+      "Harry Styles filmed a little of the 'Late Night Talking' video here in 2022, says Time Out.",
+      "The chrome 'E' on the shopfront is for Elide Pellicci, whose portrait hangs inside.",
+      "Listing describes it as a rare intact example of a stylish Italian café."
+    ],
+    "written_at": "2026-10-14T11:55:00Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Written from own site, Time Out, Londonist (2005) and the listing text. Note: listing date conflicts (Historic England 2005 per listing page; Time Out/summary says 2007); story uses 2005. Time Out page undated."
   }
 }

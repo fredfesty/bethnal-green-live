@@ -63,9 +63,59 @@
       "quote": "Bonner gate, London, England, E2 9HN",
       "retrieved_at": "2026-10-13T00:37:00Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://secretldn.com/victoria-park-market/",
+      "quote": "Established back in June 2017 and initially launched as a six month summer project",
+      "retrieved_at": "2026-10-14T11:51:58Z",
+      "source_kind": "press",
+      "source_date": "2024-12-30"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://secretldn.com/victoria-park-market/",
+      "quote": "Victoria Park Market is now a vital organ of Tower Hamlets",
+      "retrieved_at": "2026-10-14T11:51:58Z",
+      "source_kind": "press",
+      "source_date": "2024-12-30"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://secretldn.com/victoria-park-market/",
+      "quote": "Located on a pedestrianised street called the Nightwalk (that runs between Bonner Gate and Gore Gate)",
+      "retrieved_at": "2026-10-14T11:51:58Z",
+      "source_kind": "press",
+      "source_date": "2024-12-30"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://secretldn.com/victoria-park-market/",
+      "quote": "From cheese and charcuterie to burgers and burritos",
+      "retrieved_at": "2026-10-14T11:51:58Z",
+      "source_kind": "press",
+      "source_date": "2024-12-30"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://secretldn.com/victoria-park-market/",
+      "quote": "committed to creating food markets that combine high quality produce with companies making a positive social impact",
+      "retrieved_at": "2026-10-14T11:51:58Z",
+      "source_kind": "press",
+      "source_date": "2024-12-30"
     }
   ],
-  "profiled_at": "2026-10-13T00:46:24Z",
+  "profiled_at": "2026-10-14T11:51:58Z",
   "history": [
     {
       "at": "2026-10-13T00:46:24Z",
@@ -76,10 +126,36 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T11:51:58Z",
+      "by": "venue-storyteller",
+      "change": "added story: opened, then, now, worth knowing"
+    },
+    {
+      "at": "2026-10-14T11:55:58Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T11:55:58Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "June 2017, started as a six-month summer project.",
+    "then": "What began as a short summer trial has become, in Secret London's words, a vital part of Tower Hamlets life.",
+    "now": "Sets up on the pedestrianised Nightwalk inside the park, between Bonner Gate and Gore Gate. Food stalls cover cheese, charcuterie, burgers and burritos, among much else.",
+    "worth_knowing": [
+      "The Good Market Company, which runs it, says it wants markets that pair quality produce with businesses that have a positive social impact."
+    ],
+    "written_at": "2026-10-14T11:51:58Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Only the market's own page and a Secret London article (Dec 2024) were usable; Tower Hamlets Slice, Roman Road London and The Nudge are refused. No vibe or detail on later changes. Try Good Market Company site, council pages, Time Out."
   }
 }

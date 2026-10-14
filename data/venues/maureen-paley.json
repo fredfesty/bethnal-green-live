@@ -5,7 +5,7 @@
   "aliases": [
     "Interim Art"
   ],
-  "address": "60 Three Colts Lane, London (second space: 4 Herald Street, London E2 6JT, first floor, stairs only)",
+  "address": "60 Three Colts Lane, London",
   "postcode": "E2 6GQ",
   "website": "https://www.maureenpaley.com",
   "summary": "A gallery showing contemporary art. The programme began in 1984 in a terraced house in the East End, and since 1999 the gallery has been based in industrial spaces in Bethnal Green.",
@@ -75,9 +75,109 @@
       "quote": "60 Three Colts Lane London E2 6GQ",
       "retrieved_at": "2026-10-13T00:10:44Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.maureenpaley.com/about",
+      "quote": "The gallery programme began in 1984 in a Victorian terraced house in London’s East End.",
+      "retrieved_at": "2026-10-14T11:52:19Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.maureenpaley.com/about",
+      "quote": "Since September 1999, the gallery has been situated in industrial spaces in Bethnal Green.",
+      "retrieved_at": "2026-10-14T11:52:19Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.maureenpaley.com/about",
+      "quote": "Initially named Interim Art, the gallery changed its name to Maureen Paley in 2004 to celebrate its 20th anniversary.",
+      "retrieved_at": "2026-10-14T11:52:19Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.maureenpaley.com/about",
+      "quote": "Maureen Paley opened a location in Hove called Morena di Luna in 2017.",
+      "retrieved_at": "2026-10-14T11:52:19Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.maureenpaley.com/about",
+      "quote": "Studio M was opened in the Rochelle School in Shoreditch and operated from 2020 to 2026.",
+      "retrieved_at": "2026-10-14T11:52:19Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.maureenpaley.com/about",
+      "quote": "Most recently in 2025, the gallery opened a new space in Bethnal Green at 4 Herald Street to expand its exhibition footprint.",
+      "retrieved_at": "2026-10-14T11:52:19Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.maureenpaley.com/about",
+      "quote": "Gallery artists include Turner Prize winners Gillian Wearing, 1997; Wolfgang Tillmans, 2000 and Lawrence Abu Hamdan, 2019",
+      "retrieved_at": "2026-10-14T11:52:19Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.maureenpaley.com/about",
+      "quote": "Maureen Paley was one of the first to present contemporary art in London’s East End",
+      "retrieved_at": "2026-10-14T11:52:19Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.maureenpaley.com/about",
+      "quote": "The following year, Wall to Wall was presented as part of the Arts Council of Great Britain’s National Touring Exhibitions programme, appearing at the Serpentine Gallery in London",
+      "retrieved_at": "2026-10-14T11:52:19Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.maureenpaley.com/about",
+      "quote": "In 1994 she organised a show of works by Felix Gonzalez-Torres, Joseph Kosuth, and Ad Reinhardt at the Camden Arts Centre.",
+      "retrieved_at": "2026-10-14T11:52:19Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:40:36Z",
+  "profiled_at": "2026-10-14T11:52:19Z",
   "history": [
     {
       "at": "2026-10-13T00:40:36Z",
@@ -88,10 +188,37 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T11:52:19Z",
+      "by": "venue-storyteller",
+      "change": "added story: opened, then, worth_knowing from the gallery's about page"
+    },
+    {
+      "at": "2026-10-14T11:55:58Z",
+      "by": "venue-checker",
+      "change": "address: cut unquoted second space (4 Herald Street E2 6JT, first floor, stairs only); story: dropped unquoted '1995'"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T11:55:58Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "1984, as a gallery programme in a Victorian terraced house in the East End; in Bethnal Green since September 1999.",
+    "then": "The gallery began as Interim Art and took Maureen Paley's own name in 2004, for its 20th anniversary. It opened a Hove location, Morena di Luna, in 2017, and ran Studio M in the Rochelle School, Shoreditch, from 2020 to 2026. In 2025 it added a second Bethnal Green space at 4 Herald Street, extending its exhibition area.",
+    "worth_knowing": [
+      "Turner Prize winners on its artist list include Gillian Wearing, Wolfgang Tillmans and Lawrence Abu Hamdan.",
+      "By the gallery's own account, it was among the earliest to show contemporary art in the East End.",
+      "Paley has also curated public shows, including Wall to Wall, which appeared at the Serpentine Gallery."
+    ],
+    "written_at": "2026-10-14T11:52:19Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Only the gallery's own About page was used. No now or vibe: Frieze (403), Broadsheet, Art Newspaper and FT interviews listed on the About page not read; could add programme and room description."
   }
 }
