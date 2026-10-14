@@ -110,7 +110,12 @@
     "record": "data/verification/2026-10-14/2026-10-26-xoyo-motion-halloween-2026.json"
   },
   "editor_note": "A Monday club night, running strong since 2014, here for Halloween at XOYO.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A Monday-night Halloween club night at XOYO, the venue by Old Street roundabout. It starts late, so it's one for night owls.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
   "history": [],

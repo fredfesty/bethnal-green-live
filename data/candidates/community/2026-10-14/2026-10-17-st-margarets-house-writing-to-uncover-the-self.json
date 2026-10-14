@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-17-st-margarets-house-writing-to-uncover-the-self",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-14-b"
+  },
+  "found_at": "2026-10-14T14:28:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Writing to Uncover the Self",
+  "summary": "A writing workshop series of three autumn Saturday sessions at St Margaret's House (3, 17 and 31 October).",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "St Margaret's House",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-17T10:30:00+01:00",
+  "ends_at": "2026-10-17T12:30:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://www.stmargaretshouse.org.uk/events",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "The popular series Writing to Uncover the Self returns to St Margaret’s House for three autumn sessions.",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Saturdays 3rd, 17th and 31st October, 10.30am-12.30pm",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Sat, 17 Oct 2026",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Three sessions (3, 17 and 31 Oct); this record is the 17 Oct session, the next one in the window. The venue's own event page (/events/writing-to-uncover-the-self) still shows a 2024 date (Wednesday 3 July 2024) and 2024 prices, so no price is recorded; please check the Ticket Tailor price before publishing. Room not stated on the list; the event page says The Create Place."
+}

@@ -107,7 +107,12 @@
     "record": "data/verification/2026-10-13/2026-10-16-george-tavern-you-wanted-a-party.json"
   },
   "editor_note": "A DJ set from Jøseph in a fringe pub, with two live sets before it. One of the last of the year, per the event page.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A DJ night at The George Tavern with Cape Orange, Lifeloose and Jøseph (DJ) on the bill, in the pub and live music venue on Commercial Road.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-13T14:00:00+01:00",
   "updated_at": "2026-10-13T14:00:00+01:00",
   "history": [],

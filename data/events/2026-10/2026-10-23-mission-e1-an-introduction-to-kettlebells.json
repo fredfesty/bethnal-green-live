@@ -84,7 +84,12 @@
     "record": "data/verification/2026-10-13/2026-10-23-mission-e1-an-introduction-to-kettlebells.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A two-hour introduction to kettlebells at Mission, the yoga and movement centre on Fashion Street. A sensible first step if you've never swung one.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-13T14:00:00+01:00",
   "updated_at": "2026-10-13T14:00:00+01:00",
   "history": [],

@@ -1,0 +1,90 @@
+{
+  "id": "2026-09-04-st-margarets-house-nokshi-katha",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-14-b"
+  },
+  "found_at": "2026-10-14T14:28:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Nokshi Katha",
+  "summary": "A free ten-week autumn workshop series in Nokshi Katha, a Bangladeshi embroidery technique using upcycled cloth, at The Create Place, St Margaret's House. The autumn term is full.",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "The Create Place, St Margaret's House",
+    "address": "29 Old Ford Road, London, E2 9PJ",
+    "postcode": "E2 9PJ"
+  },
+  "starts_at": "2026-09-04",
+  "ends_at": "2026-11-06",
+  "recurrence": null,
+  "run_schedule": "Autumn Term - Fridays, 10am-1pm (4 September - 6 November)",
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "'This is a free course but registration is essential'. Materials provided."
+  },
+  "ticket_url": "https://www.stmargaretshouse.org.uk/events/nokshi-katha",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "sold-out",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/nokshi-katha",
+      "quote": "This free 10-week workshop series invites you to connect with different cultures and learn the skills and techniques of Nokshi Katha",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at",
+        "run_schedule"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/nokshi-katha",
+      "quote": "Dates & Times: Autumn Term - Fridays, 10am-1pm (4 September - 6 November)",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/nokshi-katha",
+      "quote": "Venue: The Create Place, 29 Old Ford Road, London, E2 9PJ",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/nokshi-katha",
+      "quote": "This is a free course but registration is essential",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "status"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/nokshi-katha",
+      "quote": "The 2026 Autumn term is now full",
+      "retrieved_at": "2026-10-14T14:28:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A free craft course in Nokshi Katha embroidery at St Margaret's House. The autumn term is full, so readers can only join the next term.",
+  "notes_for_verifier": "Run of the Autumn term as printed on the event page (4 Sep to 6 Nov). Status is 'full' per the page; the editor decides whether to show it. The page invites enquiries about the Winter term (January 2027), not recorded."
+}

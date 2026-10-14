@@ -75,6 +75,122 @@
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T13:38:15Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, now, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T13:45:00Z",
+      "by": "event-story-checker",
+      "change": "cut unsupported details: 'October 2026 issue', 1968 and student protests"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "Maren Karlson, who according to an ArtReview review is German-born and based in Los Angeles, paints from newspaper images in a distorted, digitally adjusted way. ArtReview has reviewed this Soft Opening show.",
+    "now": "ArtReview explains that the title LAG is the ending of the name Axel Springer Verlag, the final three letters. The review links the show to events that led to the Red Army Faction being founded, and says it also includes two photographs alongside the paintings.",
+    "vibe": "ArtReview describes a spare white room where each painting sits in a low alcove raised about 25 centimetres off the concrete. The reviewer says the greyish works read like footnotes.",
+    "worth_knowing": [
+      "Each painting is set in a low alcove built for the show, about 25cm above the floor, says ArtReview.",
+      "The photographs use articles photocopied from the Springer Verlag public archive, according to ArtReview."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://artreview.com/maren-karlson-lag-soft-opening-london-review-lydia-eliza-trail/",
+        "quote": "the German-born, Los Angeles-based Karlson paints – in an oneiric, highly distorted, digitally adjusted manner – from newspaper images",
+        "retrieved_at": "2026-10-14T13:38:15Z",
+        "source_kind": "press",
+        "source_date": "2026-10-09"
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://artreview.com/maren-karlson-lag-soft-opening-london-review-lydia-eliza-trail/",
+        "quote": "Maren Karlson: LAG at Soft Opening, London, 11 September – 17 October",
+        "retrieved_at": "2026-10-14T13:38:15Z",
+        "source_kind": "press",
+        "source_date": "2026-10-09"
+      },
+      {
+        "fields": [
+          "story.now",
+          "story.worth_knowing"
+        ],
+        "url": "https://artreview.com/maren-karlson-lag-soft-opening-london-review-lydia-eliza-trail/",
+        "quote": "Maren Karlson’s LAG is named for the last three letters of Axel Springer Verlag",
+        "retrieved_at": "2026-10-14T13:38:15Z",
+        "source_kind": "press",
+        "source_date": "2026-10-09"
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://artreview.com/maren-karlson-lag-soft-opening-london-review-lydia-eliza-trail/",
+        "quote": "The events of that year became the catalyst for the founding of the Red Army Faction (RAF).",
+        "retrieved_at": "2026-10-14T13:38:15Z",
+        "source_kind": "press",
+        "source_date": "2026-10-09"
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://artreview.com/maren-karlson-lag-soft-opening-london-review-lydia-eliza-trail/",
+        "quote": "two photographs, LAG #7–8",
+        "retrieved_at": "2026-10-14T13:38:15Z",
+        "source_kind": "press",
+        "source_date": "2026-10-09"
+      },
+      {
+        "fields": [
+          "story.vibe",
+          "story.worth_knowing"
+        ],
+        "url": "https://artreview.com/maren-karlson-lag-soft-opening-london-review-lydia-eliza-trail/",
+        "quote": "Each of the LAG paintings sits within a specially created low alcove in the gallery’s industrial-chic architecture, around 25 centimetres above the concrete floor.",
+        "retrieved_at": "2026-10-14T13:38:15Z",
+        "source_kind": "press",
+        "source_date": "2026-10-09"
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://artreview.com/maren-karlson-lag-soft-opening-london-review-lydia-eliza-trail/",
+        "quote": "In the austere, white space, the greyish works appear like footnotes.",
+        "retrieved_at": "2026-10-14T13:38:15Z",
+        "source_kind": "press",
+        "source_date": "2026-10-09"
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://artreview.com/maren-karlson-lag-soft-opening-london-review-lydia-eliza-trail/",
+        "quote": "photocopied from the Springer Verlag public archive",
+        "retrieved_at": "2026-10-14T13:38:15Z",
+        "source_kind": "press",
+        "source_date": "2026-10-09"
+      }
+    ],
+    "written_at": "2026-10-14T13:38:15Z",
+    "review": {
+      "checked_at": "2026-10-14T13:45:00Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Only ArtReview review (9 Oct 2026) found; Soft Opening page has no text on the show. No started/then: could try Karlson's gallery pages or Soft Opening artist page."
+  }
 }

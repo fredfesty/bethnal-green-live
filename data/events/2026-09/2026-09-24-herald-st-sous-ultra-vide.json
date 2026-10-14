@@ -75,5 +75,12 @@
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
   "history": [],
-  "needs_review": null
+  "needs_review": null,
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "nothing-found",
+    "next_check": "2026-10-21",
+    "note": "Herald St page only names the show and artist. A Beaux-arts de Paris page about an Elise Nguyen Quoc (Thaddaeus Ropac prize, ballpoint-pen paintings) could not be tied to this show, so left out. ArtRabbit is never-use. Try a Herald St press release or exhibition page, or press reviews, later."
+  }
 }

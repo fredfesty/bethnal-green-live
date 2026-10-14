@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-28-star-of-bethnal-green-simpsons-quiz",
+  "candidate_file": "data/candidates/food-drink/2026-10-14/2026-10-28-star-of-bethnal-green-simpsons-quiz.json",
+  "run_id": "2026-10-14-v2",
+  "verified_at": "2026-10-14T16:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary source.",
+    "Removed unconfirmed fields: price."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "unverifiable",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Quote has no title nearby on the page; field removed."
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "age_restriction",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "status",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "method": "read",
+      "source_kind": "primary",
+      "note": "No sold-out, cancelled or postponed wording seen on the page."
+    },
+    {
+      "field": "price",
+      "result": "unverifiable",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Page prints both £3pp by the title and \"Entry £2pp.\" in the body; conflicting, so removed."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

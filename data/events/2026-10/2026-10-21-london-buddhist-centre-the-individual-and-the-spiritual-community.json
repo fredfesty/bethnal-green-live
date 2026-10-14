@@ -104,7 +104,12 @@
     "record": "data/verification/2026-10-13/2026-10-21-london-buddhist-centre-the-individual-and-the-spiritual-community.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "An evening workshop course at the London Buddhist Centre on Roman Road, running on Wednesdays. The centre says most of its events suit people new to Buddhism, and there are lower prices for people on low incomes and for 18 to 25s.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-13T14:00:00+01:00",
   "updated_at": "2026-10-13T14:00:00+01:00",
   "history": [],

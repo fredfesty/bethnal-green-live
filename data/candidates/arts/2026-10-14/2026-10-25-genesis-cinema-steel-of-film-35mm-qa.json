@@ -1,0 +1,101 @@
+{
+  "id": "2026-10-25-genesis-cinema-steel-of-film-35mm-qa",
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-14-b"
+  },
+  "found_at": "2026-10-14T13:00:00+01:00",
+  "category": "arts",
+  "subcategory": "film",
+  "title": "Steel of Film (in 35 mm) + Q&A",
+  "summary": "A screening of a documentary on the end of traditional steelmaking in Port Talbot, followed by a Q&A, at Genesis Cinema on Sunday 25 October 2026.",
+  "venue": {
+    "venue_id": "genesis-cinema",
+    "name": "Genesis Cinema",
+    "address": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+    "postcode": "E1 4UJ"
+  },
+  "starts_at": "2026-10-25",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://genesiscinema.co.uk/event/114463",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://genesiscinema.co.uk/event/114463",
+      "quote": "Steel of Film (in 35 mm) + Q&A",
+      "retrieved_at": "2026-10-14T13:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://genesiscinema.co.uk/event/114463",
+      "quote": "Sun 25 Oct",
+      "retrieved_at": "2026-10-14T13:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://genesiscinema.co.uk/event/114463",
+      "quote": "Release Date: 25/10/2026",
+      "retrieved_at": "2026-10-14T13:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://genesiscinema.co.uk/event/114463",
+      "quote": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+      "retrieved_at": "2026-10-14T13:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://genesiscinema.co.uk/event/114463",
+      "quote": "Events | Genesis Cinema",
+      "retrieved_at": "2026-10-14T13:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://genesiscinema.co.uk/event/114463",
+      "quote": "The screening will be followed by a Q&A.",
+      "retrieved_at": "2026-10-14T13:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://genesiscinema.co.uk/event/114463",
+      "quote": "Steel of Film (in 35 mm) + Q&A",
+      "retrieved_at": "2026-10-14T13:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "A 35 mm screening followed by a Q&A, on a Sunday evening.",
+  "notes_for_verifier": "Time missing from a contiguous quote: the page prints 'Q&A' then '18:30' after the date block. starts_at is date-only until the verifier confirms 18:30 with a quote (then 2026-10-25T18:30:00+00:00). Year from 'Release Date: 25/10/2026'; Sunday 25 Oct 2026 matches. No line-up recorded (Joe Cornick is named as the film's maker). No price printed. ticket_url is the event page."
+}

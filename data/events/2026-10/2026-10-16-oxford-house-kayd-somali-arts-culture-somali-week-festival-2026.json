@@ -94,7 +94,12 @@
     "record": "data/verification/2026-10-13/2026-10-16-oxford-house-kayd-somali-arts-culture-somali-week-festival-2026.json"
   },
   "editor_note": "A ten-day Somali arts festival at Oxford House, with comedy, opera, poetry and film sessions in the same run.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A Somali arts and culture festival running across ten days at Oxford House, the community arts centre in a Grade II listed building in Bethnal Green. The festival page says to check each event for its own ticket price.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-13T11:00:00+01:00",
   "updated_at": "2026-10-13T11:00:00+01:00",
   "history": [],

@@ -1,0 +1,109 @@
+{
+  "id": "2026-10-28-star-of-bethnal-green-simpsons-quiz",
+  "category": "food-drink",
+  "subcategory": "quiz",
+  "title": "The Star of Bethnal Green Simpsons Quiz",
+  "venue": {
+    "venue_id": "star-of-bethnal-green",
+    "name": "The Star of Bethnal Green",
+    "address": "359 Bethnal Green Rd, London E2 6LG",
+    "postcode": "E2 6LG"
+  },
+  "starts_at": "2026-10-28T19:30:00+00:00",
+  "ends_at": "2026-10-28T21:45:00+00:00",
+  "recurrence": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [
+    "Marge"
+  ],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "run_schedule": null,
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "quote": "The Star of Bethnal Green Simpsons Quiz",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "quote": "Star of Bethnal Green\nAn Electric Star pub",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "quote": "Wednesday 28th October\n7:30 PM - 9:45 PM",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "quote": "£3pp\n18+\nBook Now",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/whats-on/the-star-of-bethnal-green-simpsons-quiz/",
+      "quote": "Join our fabulous Quiz Host Marge",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/",
+      "quote": "359 Bethnal Green Rd, London E2 6LG",
+      "retrieved_at": "2026-10-14T14:20:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T16:00:00+01:00",
+    "run_id": "2026-10-14-v2",
+    "outcome": "verified-with-gaps",
+    "removed_fields": [
+      "price"
+    ],
+    "record": "data/verification/2026-10-14/2026-10-28-star-of-bethnal-green-simpsons-quiz.json"
+  },
+  "editor_note": "A one-off themed quiz at a core-zone pub, with a host and prize printed on the event page.",
+  "listing": null,
+  "story": null,
+  "story_research": null,
+  "first_seen": "2026-10-14T16:00:00+01:00",
+  "updated_at": "2026-10-14T16:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

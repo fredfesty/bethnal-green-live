@@ -129,6 +129,121 @@
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T13:37:57Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, now, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T13:45:00Z",
+      "by": "event-story-checker",
+      "change": "cut unsupported clauses: month-by-month themes, 'guide families', 'or a space', 'under-twos' and 'beforehand' wording"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "The sessions are led by Young V&A's Play Champions, according to the museum's own website, and they developed the sessions themselves.",
+    "now": "The museum's own website lists a sensory story drawn from an object in the Adventure gallery, and a session in the Mini Museum in the Play Gallery, a space built around texture, colour and sound.",
+    "vibe": "The museum's own website describes the sessions as relaxed, with tactile and sensory materials to play with together, and designed around parent and child.",
+    "worth_knowing": [
+      "The Mini Museum normally serves children aged 2 and under; for these sessions it welcomes children of every age who have extra sensory needs.",
+      "The museum has a visual story with pictures of the building, and its Access page has more information."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+        "quote": "Every first Saturday of the month join Young V&A's Play Champions for a SEND Play session.",
+        "retrieved_at": "2026-10-14T13:37:57Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who",
+          "story.vibe"
+        ],
+        "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+        "quote": "This session was developed by the Play Champions and is relaxed and designed with you and your child in mind.",
+        "retrieved_at": "2026-10-14T13:37:57Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+        "quote": "Explore a sensory story inspired by an object from the museum's Adventure gallery with our Play Champions.",
+        "retrieved_at": "2026-10-14T13:37:57Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+        "quote": "Explore the Mini Museum in Young V&A’s Play Gallery, a space that celebrates the texture, colour and sound of objects.",
+        "retrieved_at": "2026-10-14T13:37:57Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+        "quote": "You will be invited to play with tactile and sensory materials, helping to bring the story to life together.",
+        "retrieved_at": "2026-10-14T13:37:57Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+        "quote": "The Mini Museum is usually reserved for children aged 2 and under.",
+        "retrieved_at": "2026-10-14T13:37:57Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+        "quote": "For this inclusive play session, it will be open to children of any age with additional sensory needs.",
+        "retrieved_at": "2026-10-14T13:37:57Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.vam.ac.uk/event/Q007lPeed6d/send-play-jul-dec-2026",
+        "quote": "Our visual story shows you pictures of the museum and how to access our spaces. Please check our Access page for further information.",
+        "retrieved_at": "2026-10-14T13:37:57Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-14T13:37:57Z",
+    "review": {
+      "checked_at": "2026-10-14T13:45:00Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Used the event's own page only. No line-up; Play Champions not researched elsewhere. Could try V&A press or Learn pages on SEND Play for when it began."
+  }
 }

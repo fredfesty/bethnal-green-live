@@ -99,6 +99,171 @@
   "listing": null,
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T13:38:07Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, then, now, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T13:45:00Z",
+      "by": "event-story-checker",
+      "change": "cut the unquoted date (17 October) from who and now"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "Satnam Sokhal, a chess player and teacher from the area, joins the museum's Play Champions. The museum's own website says he has played since he was nine, was called up to play for East London against teams from other counties, and enjoys teaching children and adults alike.",
+    "then": "The sessions are part of Young V&A's Power of Play programme, which the museum's website describes as a consortium bringing learning through play to children in Tower Hamlets. The LEGO Foundation funds it and the LEGO Group in London coordinates it.",
+    "now": "One session is a chess day with plenty of sets, including a giant one, and a black-and-white play kit made for the youngest children. The museum says beginners, experienced players and the curious are all welcome.",
+    "vibe": "The museum's own website describes a team of friendly Play Champions leading play adventures in the interactive galleries and on Town Square. The activities rotate between the Play, Imagine and Design Galleries.",
+    "worth_knowing": [
+      "Adults are required to take part alongside their children at every Play Saturdays activity.",
+      "Young V&A shares the Power of Play project with several partners, among them Save the Children and EasyPeasy."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.vam.ac.uk/event/7RD9X6lEyB/play-saturdays-sept-dec-2026",
+        "quote": "We’re delighted to welcome local chess player and teacher Satnam Sokhal, who will be joining our Play Champions",
+        "retrieved_at": "2026-10-14T13:38:07Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.vam.ac.uk/event/7RD9X6lEyB/play-saturdays-sept-dec-2026",
+        "quote": "Satnam has played chess since the age of nine.",
+        "retrieved_at": "2026-10-14T13:38:07Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.vam.ac.uk/event/7RD9X6lEyB/play-saturdays-sept-dec-2026",
+        "quote": "he was called to play for East London challenging a variety of counties around the UK.",
+        "retrieved_at": "2026-10-14T13:38:07Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.vam.ac.uk/event/7RD9X6lEyB/play-saturdays-sept-dec-2026",
+        "quote": "Satnam loves teaching and exposing chess to children and adults alike.",
+        "retrieved_at": "2026-10-14T13:38:07Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.vam.ac.uk/event/7RD9X6lEyB/play-saturdays-sept-dec-2026",
+        "quote": "The Power of Play is a collective impact consortium to bring quality learning-through-play to children in the London Borough of Tower Hamlets.",
+        "retrieved_at": "2026-10-14T13:38:07Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.vam.ac.uk/event/7RD9X6lEyB/play-saturdays-sept-dec-2026",
+        "quote": "The project is funded by the LEGO Foundation and coordinated by the LEGO Group in London.",
+        "retrieved_at": "2026-10-14T13:38:07Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.vam.ac.uk/event/7RD9X6lEyB/play-saturdays-sept-dec-2026",
+        "quote": "There will be plenty of chess sets available for everyone to enjoy, including a giant chess set",
+        "retrieved_at": "2026-10-14T13:38:07Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.vam.ac.uk/event/7RD9X6lEyB/play-saturdays-sept-dec-2026",
+        "quote": "a special black-and-white play kit designed especially for early years children.",
+        "retrieved_at": "2026-10-14T13:38:07Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.vam.ac.uk/event/7RD9X6lEyB/play-saturdays-sept-dec-2026",
+        "quote": "Whether you're a complete beginner, a seasoned player, or simply curious to discover what chess is all about",
+        "retrieved_at": "2026-10-14T13:38:07Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://www.vam.ac.uk/event/7RD9X6lEyB/play-saturdays-sept-dec-2026",
+        "quote": "Explore exciting play adventures with our friendly team of Play Champions in our interactive galleries and on Town Square.",
+        "retrieved_at": "2026-10-14T13:38:07Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://www.vam.ac.uk/event/7RD9X6lEyB/play-saturdays-sept-dec-2026",
+        "quote": "Activities change regularly, rotating between our Play, Imagine and Design Galleries.",
+        "retrieved_at": "2026-10-14T13:38:07Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.vam.ac.uk/event/7RD9X6lEyB/play-saturdays-sept-dec-2026",
+        "quote": "All our events are family activities, where adults are required to participate alongside their children.",
+        "retrieved_at": "2026-10-14T13:38:07Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.vam.ac.uk/event/7RD9X6lEyB/play-saturdays-sept-dec-2026",
+        "quote": "Young V&A is participating in the project alongside the Institute of Imagination, Save the Children and EasyPeasy",
+        "retrieved_at": "2026-10-14T13:38:07Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-14T13:38:07Z",
+    "review": {
+      "checked_at": "2026-10-14T13:45:00Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Used only the V&A event page; no outside searches. Series start date and past editions not found; try V&A Young V&A Play Saturdays page or Power of Play announcements."
+  }
 }

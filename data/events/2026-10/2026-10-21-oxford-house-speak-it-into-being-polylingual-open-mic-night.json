@@ -86,7 +86,12 @@
     "record": "data/verification/2026-10-13/2026-10-21-oxford-house-speak-it-into-being-polylingual-open-mic-night.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A polylingual open mic night at Oxford House, the community arts centre in Bethnal Green, for anyone who likes to hear and share in more than one language.",
+    "written_at": "2026-10-14T14:36:57+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-13T11:00:00+01:00",
   "updated_at": "2026-10-13T11:00:00+01:00",
   "history": [],
