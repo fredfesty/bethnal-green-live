@@ -2,7 +2,7 @@
   "venue_id": "granby-community-hub",
   "venue_name": "Granby Community Hub",
   "aspect": "facts",
-  "researched_at": "2026-10-14T16:05:00Z",
+  "researched_at": "2026-10-14T22:15:00Z",
   "findings": [
     {
       "field": "address",
@@ -15,14 +15,32 @@
           ],
           "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Threads-of-Heritage-Family-Craft-Session-and-Community-Celebration.aspx",
           "quote": "Granby Community Hub 37 St Matthew's Row London E2 6D",
-          "retrieved_at": "2026-10-14T16:05:00Z",
+          "retrieved_at": "2026-10-14T22:15:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "types",
+      "value": [
+        "community-venue"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
+          "quote": "The space is available to host local community groups",
+          "retrieved_at": "2026-10-14T22:15:00Z",
           "source_kind": "directory"
         }
       ]
     },
     {
       "field": "cost.notes",
-      "value": "Hall hire may be discounted for long-running regular bookings.",
+      "value": "Bookings go through the council's community booking co-ordinator, and long-running hires may be discounted.",
       "source_date": null,
       "evidence": [
         {
@@ -30,8 +48,17 @@
             "cost.notes"
           ],
           "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
+          "quote": "To book spaces please contact the Community Booking Co-ordinator",
+          "retrieved_at": "2026-10-14T22:15:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
           "quote": "Discounts for regular bookings of more than 12 weeks may be available.",
-          "retrieved_at": "2026-10-14T16:05:00Z",
+          "retrieved_at": "2026-10-14T22:15:00Z",
           "source_kind": "directory"
         }
       ]
@@ -40,14 +67,14 @@
   "not_found": [
     "postcode",
     "website",
-    "access_page",
+    "capacity",
+    "age_policy",
+    "cost.free_entry",
     "accessibility.step_free",
     "accessibility.accessible_toilet",
     "accessibility.hearing_loop",
     "accessibility.notes",
-    "age_policy",
-    "capacity",
-    "cost.free_entry"
+    "accessibility.access_page"
   ],
-  "notes": "The full postcode was not found: the council event page cuts it at 'E2 6D' and the council hub page gives none, and no search found it, so the venue can't be placed yet. The hub page gives room sizes, not a whole-venue capacity: two halls together up to 80 people, one hall up to 40, and two community rooms up to 15 each. It is set just off Bethnal Green Road, about a 10-minute walk from Bethnal Green station (council page). The council hub page is the only source; there is no own website."
+  "notes": "Full postcode not found. The council event page prints 'E2 6D' (cut short), the council hub page gives none, and one search found none, so the venue can't be placed yet. No own website found. Council hub page (directory) is the only source. Location as the hub page puts it: 'Set just off Bethnal Green Road', 'within a 10 minute walk from Bethnal Green station'. No whole-venue capacity is stated; room figures are: two halls with a divider up to 80 people, one hall up to 40, and two community rooms up to 15 each. No access details on any page read."
 }

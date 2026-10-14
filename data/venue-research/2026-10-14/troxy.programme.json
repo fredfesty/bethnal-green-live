@@ -2,88 +2,92 @@
   "venue_id": "troxy",
   "venue_name": "Troxy",
   "aspect": "programme",
-  "researched_at": "2026-10-14T16:04:00Z",
+  "researched_at": "2026-10-14T21:58:21Z",
   "findings": [
     {
       "field": "types",
-      "value": ["gig-venue", "club"],
-      "source_date": null,
+      "value": [
+        "gig-venue",
+        "club",
+        "live-music",
+        "comedy"
+      ],
       "evidence": [
         {
-          "fields": ["types"],
+          "fields": [
+            "types"
+          ],
           "url": "https://troxy.co.uk/discover/history/",
           "quote": "hosting prestigious awards ceremonies, sporting events, gigs and films",
-          "retrieved_at": "2026-10-14T16:02:00Z",
+          "retrieved_at": "2026-10-14T21:58:21Z",
           "source_kind": "primary"
         },
         {
-          "fields": ["types"],
+          "fields": [
+            "types"
+          ],
           "url": "https://www.timeout.com/london/music/troxy",
           "quote": "club nights and a huge range of live music concerts",
-          "retrieved_at": "2026-10-14T16:02:00Z",
+          "retrieved_at": "2026-10-14T21:58:21Z",
           "source_kind": "press"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://troxy.co.uk/accessibility/",
+          "quote": "For our talks, comedy nights, live podcasts and some gigs",
+          "retrieved_at": "2026-10-14T21:58:21Z",
+          "source_kind": "primary"
         }
       ]
     },
     {
       "field": "music.notes",
-      "value": "Live concerts and club nights, mixed with comedy, seated talks, family shows and ballet. Listed nights include Bassvictim & Friends, Trance Sanctuary Presents Kearnage, Shrek Rave and a DnB Allstars New Year's Eve.",
-      "source_date": null,
+      "value": "Live concerts and club nights, alongside comedy nights, talks, live podcasts, MMA fights, family shows and ballet. Listed club-style nights include Trance Sanctuary Presents Kearnage, Shrek Rave and DnB Allstars New Year's Eve.",
       "evidence": [
         {
-          "fields": ["music.notes"],
+          "fields": [
+            "music.notes"
+          ],
           "url": "https://www.timeout.com/london/music/troxy",
-          "quote": "club nights and a huge range of live music concerts",
-          "retrieved_at": "2026-10-14T16:02:00Z",
+          "quote": "including MMA fights, immersive cinema, club nights and a huge range of live music concerts",
+          "retrieved_at": "2026-10-14T21:58:21Z",
           "source_kind": "press"
         },
         {
-          "fields": ["music.notes"],
-          "url": "https://troxy.co.uk/whats-on/",
-          "quote": "Bassvictim & Friends",
-          "retrieved_at": "2026-10-14T16:02:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": ["music.notes"],
+          "fields": [
+            "music.notes"
+          ],
           "url": "https://troxy.co.uk/whats-on/",
           "quote": "Trance Sanctuary Presents Kearnage",
-          "retrieved_at": "2026-10-14T16:02:00Z",
+          "retrieved_at": "2026-10-14T21:58:21Z",
           "source_kind": "primary"
         },
         {
-          "fields": ["music.notes"],
+          "fields": [
+            "music.notes"
+          ],
           "url": "https://troxy.co.uk/whats-on/",
           "quote": "Shrek Rave",
-          "retrieved_at": "2026-10-14T16:02:00Z",
+          "retrieved_at": "2026-10-14T21:58:21Z",
           "source_kind": "primary"
         },
         {
-          "fields": ["music.notes"],
+          "fields": [
+            "music.notes"
+          ],
           "url": "https://troxy.co.uk/whats-on/",
           "quote": "DnB Allstars NYE: London",
-          "retrieved_at": "2026-10-14T16:02:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": ["music.notes"],
-          "url": "https://troxy.co.uk/accessibility/",
-          "quote": "For our talks, comedy nights, live podcasts and some gigs, we have seats available",
-          "retrieved_at": "2026-10-14T16:02:00Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": ["music.notes"],
-          "url": "https://troxy.co.uk/whats-on/",
-          "quote": "The Nutcracker",
-          "retrieved_at": "2026-10-14T16:02:00Z",
+          "retrieved_at": "2026-10-14T21:58:21Z",
           "source_kind": "primary"
         }
       ]
     }
   ],
   "not_found": [
-    "music.styles: no genre is named on two or more different nights on the venue's own pages, so none is proposed"
+    "music.styles (the listed club nights name different genres once each, so no style repeats)",
+    "cost.notes (no general pricing found)"
   ],
-  "notes": "Dated titles on troxy.co.uk/whats-on/ (2026): Sweetnotes, 18 Oct; Angine de Poitrine, 19 and 20 Oct; Bassvictim & Friends, 6 Nov; Trance Sanctuary Presents Kearnage, 7 Nov; Shrek Rave, 14 Nov; DnB Allstars NYE: London, 31 Dec. Adam Grant talk, 8 Dec, and The Nutcracker, 23 Dec, are also listed. The whats-on page's metadata is dated 2024 but its listings run into 2027, so source_date is left null. The Time Out quote (published 10 March 2023) is press, used only for types and the club-night wording."
+  "notes": "Upcoming on its what's-on page: Partners In Crime, Fri 30 Oct 2026; Bassvictim & Friends, Fri 6 Nov 2026; Trance Sanctuary Presents Kearnage, Sat 7 Nov 2026; Shrek Rave, Sat 14 Nov 2026; DnB Allstars NYE: London, Thu 31 Dec 2026. Mostly one-off ticketed shows; the page lists titles only, not genres."
 }

@@ -2,13 +2,13 @@
   "venue_id": "idea-store-whitechapel",
   "venue_name": "Idea Store Whitechapel",
   "aspect": "programme",
-  "researched_at": "2026-10-14T16:01:29Z",
+  "researched_at": "2026-10-14T21:59:45Z",
   "findings": [],
   "not_found": [
-    "types: the council describes it as a hire venue for meetings and events; no registry type fits without a guess",
-    "music.styles: no music named",
-    "music.notes: no music nights found; the only event seen is a reuse and swap event",
+    "types: the council page describes it as a space for corporate and social activities to hire; no registry type is quoted for it",
+    "music.styles: no music named on the pages read",
+    "music.notes: no music nights found on the pages read",
     "cost.notes: no hire prices on the pages read"
   ],
-  "notes": "Programme: the council hire page says it can host 'meetings, seminars, conferences, training, interviews, dance rehearsals and hospitality events'. The council events calendar lists one event at this address: 'This event celebrates reuse and recycling' (14/10/2026, a clothes and book swap and repair event; no time shown). Its own site was opened but no Whitechapel what's-on page was found. A council library and learning venue, and a separate branch from the Bethnal Green Library Idea Store."
+  "notes": "Programme, from the council hire page (directory): it 'can cater for a variety of corporate and social activities ranging from meetings, seminars, conferences, training, interviews, dance rehearsals and hospitality events'. The Idea Store network site (primary, but covering all branches) describes adult learning classes, not music. The council events calendar lists a clothes and book swap and repair event at 321 Whitechapel Road on 14 Oct 2026 (date only, as seen in the lead; not read on its own page here). No Whitechapel what's-on page was found."
 }

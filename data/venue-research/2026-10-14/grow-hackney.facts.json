@@ -2,22 +2,19 @@
   "venue_id": "grow-hackney",
   "venue_name": "Grow Hackney",
   "aspect": "facts",
-  "researched_at": "2026-10-14T16:03:46Z",
+  "researched_at": "2026-10-14T21:58:00Z",
   "findings": [
     {
       "field": "address",
       "value": "98c Wallis Road, Main Yard, Hackney Wick",
-      "source_date": null,
       "evidence": [
         {
           "fields": [
-            "address",
-            "postcode",
-            "accessibility.access_page"
+            "address"
           ],
           "url": "https://www.growhackney.co.uk/access-accessibility",
           "quote": "Venue address is: Grow Hackney, 98c Wallis Road, Main Yard, Hackney Wick, E9 5LN",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T21:55:37Z",
           "source_kind": "primary"
         }
       ]
@@ -25,17 +22,14 @@
     {
       "field": "postcode",
       "value": "E9 5LN",
-      "source_date": null,
       "evidence": [
         {
           "fields": [
-            "address",
-            "postcode",
-            "accessibility.access_page"
+            "postcode"
           ],
           "url": "https://www.growhackney.co.uk/access-accessibility",
           "quote": "Venue address is: Grow Hackney, 98c Wallis Road, Main Yard, Hackney Wick, E9 5LN",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T21:55:37Z",
           "source_kind": "primary"
         }
       ]
@@ -43,49 +37,14 @@
     {
       "field": "website",
       "value": "https://www.growhackney.co.uk",
-      "source_date": null,
       "evidence": [
         {
           "fields": [
-            "website",
-            "summary"
+            "website"
           ],
           "url": "https://www.growhackney.co.uk",
           "quote": "Grow is an independent canalside cafe, bar, kitchen and grassroots music venue on the River Lea, serving Hackney Wick since 2014.",
-          "retrieved_at": "2026-10-14T16:03:46Z",
-          "source_kind": "primary"
-        }
-      ]
-    },
-    {
-      "field": "accessibility.access_page",
-      "value": "https://www.growhackney.co.uk/access-accessibility",
-      "source_date": null,
-      "evidence": [
-        {
-          "fields": [
-            "accessibility.access_page"
-          ],
-          "url": "https://www.growhackney.co.uk/access-accessibility",
-          "quote": "Please find information on accessibility at GROW.",
-          "retrieved_at": "2026-10-14T16:03:46Z",
-          "source_kind": "primary"
-        }
-      ]
-    },
-    {
-      "field": "accessibility.step_free",
-      "value": true,
-      "source_date": null,
-      "evidence": [
-        {
-          "fields": [
-            "accessibility.step_free",
-            "accessibility.accessible_toilet"
-          ],
-          "url": "https://www.growhackney.co.uk/access-accessibility",
-          "quote": "The inside bar area is wheelchair accessible with an accessible gender-neutral toilet.",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T21:55:37Z",
           "source_kind": "primary"
         }
       ]
@@ -93,16 +52,14 @@
     {
       "field": "accessibility.accessible_toilet",
       "value": true,
-      "source_date": null,
       "evidence": [
         {
           "fields": [
-            "accessibility.step_free",
             "accessibility.accessible_toilet"
           ],
           "url": "https://www.growhackney.co.uk/access-accessibility",
           "quote": "The inside bar area is wheelchair accessible with an accessible gender-neutral toilet.",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T21:55:37Z",
           "source_kind": "primary"
         }
       ]
@@ -110,7 +67,6 @@
     {
       "field": "accessibility.hearing_loop",
       "value": false,
-      "source_date": null,
       "evidence": [
         {
           "fields": [
@@ -118,15 +74,29 @@
           ],
           "url": "https://www.growhackney.co.uk/access-accessibility",
           "quote": "There is no loop system for hearing aid users",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T21:55:37Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://www.growhackney.co.uk/access-accessibility",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.access_page"
+          ],
+          "url": "https://www.growhackney.co.uk/access-accessibility",
+          "quote": "Please find information on accessibility at GROW.",
+          "retrieved_at": "2026-10-14T21:55:37Z",
           "source_kind": "primary"
         }
       ]
     },
     {
       "field": "accessibility.notes",
-      "value": "Wheelchair access is to the indoor bar and stage area only, and there is a lower wheelchair-height bar on the side. The terrace, greenhouse and mezzanine can only be reached up stairs. No BSL or live captioning unless an event page says so. Assistance animals are permitted. Strobe lighting and smoke machines are not usually used; visitors with concerns can email before an event. Access parking can be requested by email.",
-      "source_date": null,
+      "value": "Only the inside bar area and the side bar are wheelchair accessible; the terrace, greenhouse and mezzanine are reached by stairs (the access page gives 9 steps to the canalside). Main bar counter is 128 cm high and the side bar 102 cm. Assistance animals are allowed. Parking for access reasons must be requested by email well ahead, as the yard has automated parking restrictions. No BSL or live captioning unless an event page says so; ask hello@growhackney.co.uk about a specific event, ideally 72 hours ahead. Smoke and strobes are not usually used; email to check a date. The route from Hackney Wick station is level, with dropped kerbs, though tactile paving is limited.",
       "evidence": [
         {
           "fields": [
@@ -134,7 +104,25 @@
           ],
           "url": "https://www.growhackney.co.uk/access-accessibility",
           "quote": "The outside terrace, greenhouse and mezzanine are not wheelchair accessible and can only be accessed via a series of stairs",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T21:55:37Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.growhackney.co.uk/access-accessibility",
+          "quote": "There are 9 steps on the metal staircase.",
+          "retrieved_at": "2026-10-14T21:55:37Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.growhackney.co.uk/access-accessibility",
+          "quote": "The height of the bar is 128 cm.",
+          "retrieved_at": "2026-10-14T21:55:37Z",
           "source_kind": "primary"
         },
         {
@@ -143,16 +131,7 @@
           ],
           "url": "https://www.growhackney.co.uk/access-accessibility",
           "quote": "Grow has a wheelchair-accessible bar on the side with a height of 102 cm.",
-          "retrieved_at": "2026-10-14T16:03:46Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": [
-            "accessibility.notes"
-          ],
-          "url": "https://www.growhackney.co.uk/access-accessibility",
-          "quote": "We do not have BSL or live captioning at events, unless otherwise specified on the event page.",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T21:55:37Z",
           "source_kind": "primary"
         },
         {
@@ -161,7 +140,7 @@
           ],
           "url": "https://www.growhackney.co.uk/access-accessibility",
           "quote": "Assistance animals are permitted, and bowls of water can be provided.",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T21:55:37Z",
           "source_kind": "primary"
         },
         {
@@ -169,8 +148,8 @@
             "accessibility.notes"
           ],
           "url": "https://www.growhackney.co.uk/access-accessibility",
-          "quote": "Smoke machines are not usually used, but we ask if you have concerns to email us",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "quote": "GROW can arrange parking for those who require it for access reasons. Please email hello@growhackney.co.uk to request this with as much notice as possible.",
+          "retrieved_at": "2026-10-14T21:55:37Z",
           "source_kind": "primary"
         },
         {
@@ -178,8 +157,35 @@
             "accessibility.notes"
           ],
           "url": "https://www.growhackney.co.uk/access-accessibility",
-          "quote": "GROW can arrange parking for those who require it for access reasons. Please email hello@growhackney.co.uk to request this",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "quote": "We do not have BSL or live captioning at events, unless otherwise specified on the event page.",
+          "retrieved_at": "2026-10-14T21:55:37Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.growhackney.co.uk/access-accessibility",
+          "quote": "We ask for as much advance notice as possible but ideally 72 hours to give us enough time to respond.",
+          "retrieved_at": "2026-10-14T21:55:37Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.growhackney.co.uk/access-accessibility",
+          "quote": "Strobe lighting is not usually used, but we ask if you have concerns to email us",
+          "retrieved_at": "2026-10-14T21:55:37Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.growhackney.co.uk/access-accessibility",
+          "quote": "Routes from Hackney Wick station to the venue consist of level-access enabled by dropped kerbs; however, tactile paving/detectable warning surfaces is limited.",
+          "retrieved_at": "2026-10-14T21:55:37Z",
           "source_kind": "primary"
         }
       ]
@@ -187,70 +193,71 @@
     {
       "field": "cost.free_entry",
       "value": "some-nights",
-      "source_date": null,
       "evidence": [
         {
           "fields": [
-            "cost.free_entry",
-            "cost.notes"
+            "cost.free_entry"
           ],
           "url": "https://www.growhackney.co.uk/faqs",
-          "quote": "Many Grow events are free or low-cost, including live music, DJs, jazz and community events. Some events are ticketed",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "quote": "Many events are free or low-cost.",
+          "retrieved_at": "2026-10-14T21:56:36Z",
           "source_kind": "primary"
         }
       ]
     },
     {
       "field": "cost.notes",
-      "value": "Many events are free or low-cost and some are ticketed. From 9pm on Fridays and Saturdays entry may be charged, depending on the event. Card and contactless only, and the cloakroom costs £2 an item.",
-      "source_date": null,
+      "value": "Ticketed events and door charges happen on some nights. After 9pm on Friday and Saturday, guests may queue and pay at the door, depending on the event. Card and contactless only, no cash. The main bar cloakroom costs £2 per item.",
       "evidence": [
         {
           "fields": [
-            "cost.free_entry",
+            "cost.notes"
+          ],
+          "url": "https://www.growhackney.co.uk/faqs",
+          "quote": "Some events are ticketed or have a door charge.",
+          "retrieved_at": "2026-10-14T21:56:36Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
             "cost.notes"
           ],
           "url": "https://www.growhackney.co.uk/faqs",
           "quote": "After 9pm on Fridays and Saturdays, guests may need to join the general queue and pay for entry, depending on the event.",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T21:56:36Z",
           "source_kind": "primary"
         },
         {
           "fields": [
-            "cost.free_entry",
             "cost.notes"
           ],
           "url": "https://www.growhackney.co.uk/faqs",
-          "quote": "Grow is a cashless venue. We accept card and contactless payments only.",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "quote": "No. Grow is a cashless venue. We accept card and contactless payments only.",
+          "retrieved_at": "2026-10-14T21:56:36Z",
           "source_kind": "primary"
         },
         {
           "fields": [
-            "cost.free_entry",
             "cost.notes"
           ],
           "url": "https://www.growhackney.co.uk/faqs",
           "quote": "The cloakroom is £2 per item at the main bar.",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T21:56:36Z",
           "source_kind": "primary"
         }
       ]
     },
     {
       "field": "age_policy",
-      "value": "Under-18s with a parent or guardian until 8pm; most events 18+ (Challenge 25)",
-      "source_date": null,
+      "value": "Under-18s may attend until 8pm with a parent or guardian at their table; most events are 18+ and Challenge 25 applies",
       "evidence": [
         {
           "fields": [
-            "age_policy",
-            "crowd"
+            "age_policy"
           ],
           "url": "https://www.growhackney.co.uk/faqs",
-          "quote": "Under-18s are welcome until 8pm if accompanied by a parent or guardian and seated at your table. Most evening events are 18+",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "quote": "Under-18s are welcome until 8pm if accompanied by a parent or guardian and seated at your table.",
+          "retrieved_at": "2026-10-14T21:56:36Z",
           "source_kind": "primary"
         },
         {
@@ -258,8 +265,8 @@
             "age_policy"
           ],
           "url": "https://www.growhackney.co.uk/faqs",
-          "quote": "Most events are 18+. Challenge 25 is in place",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "quote": "Yes. Most events are 18+. Challenge 25 is in place, so please bring valid photo ID",
+          "retrieved_at": "2026-10-14T21:56:36Z",
           "source_kind": "primary"
         }
       ]
@@ -267,7 +274,6 @@
     {
       "field": "capacity",
       "value": 290,
-      "source_date": null,
       "evidence": [
         {
           "fields": [
@@ -275,15 +281,14 @@
           ],
           "url": "https://www.growhackney.co.uk/private-hire",
           "quote": "Venue Capacity: Standing:290 // Dining:200 // Sq/ft:1000.00",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T21:56:36Z",
           "source_kind": "primary"
         }
       ]
     }
   ],
   "not_found": [
-    "accessibility.lift (none stated)",
-    "accessibility.quiet_space (none stated)"
+    "accessibility.step_free"
   ],
-  "notes": "Searches used: none. Pages read: growhackney.co.uk access-accessibility, faqs and private-hire. The access page gives wheelchair access for the indoor bar and stage area only, so step_free is true for that space, not the whole building. Capacity is the venue's own hire-page figure. Cost is general pricing only; event prices are not recorded here. The website quote is from the venue's home page as held in its profile and still needs a check."
+  "notes": "Access page (dated only by its footer, 2026) says the inside bar area is the wheelchair-accessible part; it does not say the front entrance is step-free, so step_free is left unset. Capacity is the private-hire page figure (standing 290, dining 200) and is taken as the whole venue. The FAQ says under-18s may come until 8pm; the age policy applies to events, so check listings for a particular night."
 }

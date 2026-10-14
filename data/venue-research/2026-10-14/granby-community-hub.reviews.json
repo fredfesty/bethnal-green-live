@@ -2,58 +2,70 @@
   "venue_id": "granby-community-hub",
   "venue_name": "Granby Community Hub",
   "aspect": "reviews",
-  "researched_at": "2026-10-14T16:01:32Z",
+  "researched_at": "2026-10-14T21:58:41Z",
   "findings": [
     {
       "field": "summary",
-      "value": "A council community hub just off Bethnal Green Road, with two large halls, smaller rooms and a kitchen, bookable for community activities, social clubs, parties and celebrations.",
+      "value": "A council-run community hub just off Bethnal Green Road, with halls and rooms for hire by community groups, social clubs, youth groups and residents.",
       "source_date": null,
       "evidence": [
         {
           "fields": ["summary"],
           "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
           "quote": "Set just off Bethnal Green Road, Granby Community Hub is perfect for a range of activities",
-          "retrieved_at": "2026-10-14T16:01:32Z",
-          "source_kind": "directory"
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "directory",
+          "source_date": null
         },
         {
           "fields": ["summary"],
           "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
-          "quote": "Two large halls separated by a room divider",
-          "retrieved_at": "2026-10-14T16:01:32Z",
-          "source_kind": "directory"
-        },
+          "quote": "community activities, social clubs, youth groups, parties and celebrations",
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "directory",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "field": "types",
+      "value": ["community-venue"],
+      "source_date": null,
+      "evidence": [
         {
-          "fields": ["summary"],
+          "fields": ["types"],
           "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
-          "quote": "The versatile spaces hold events such as community activities, social clubs, youth groups, parties and celebrations.",
-          "retrieved_at": "2026-10-14T16:01:32Z",
-          "source_kind": "directory"
+          "quote": "The space is available to host local community groups",
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "directory",
+          "source_date": null
         }
       ]
     },
     {
       "field": "crowd",
-      "value": "The council says the hub's spaces are available to local community groups, resident associations and local residents.",
+      "value": "The council says the rooms are available to local community groups, resident associations and local residents to hire.",
       "source_date": null,
       "evidence": [
         {
           "fields": ["crowd"],
           "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
           "quote": "The space is available to host local community groups",
-          "retrieved_at": "2026-10-14T16:01:32Z",
-          "source_kind": "directory"
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "directory",
+          "source_date": null
         },
         {
           "fields": ["crowd"],
           "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
           "quote": "resident associations and local residents",
-          "retrieved_at": "2026-10-14T16:01:32Z",
-          "source_kind": "directory"
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "directory",
+          "source_date": null
         }
       ]
     }
   ],
-  "not_found": ["music.styles", "music.notes", "status"],
-  "notes": "The council's hub page is the only source read; the lead's council event page gives no full postcode, so the facts researcher needs one (the event page cuts it at 'E2 6D'). One WebSearch found no press. The hub is not a music venue on any source read."
+  "not_found": ["status", "music.styles", "music.notes", "aliases", "website"],
+  "notes": "Council hire page read in full; it is the only source. One WebSearch found no website of its own and no press. Not a music or nights venue on any source read. The council's event listing gives the address as 37 St Matthew's Row with a cut postcode, so the facts researcher needs the full postcode."
 }

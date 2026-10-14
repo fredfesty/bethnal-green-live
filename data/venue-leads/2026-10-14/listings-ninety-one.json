@@ -1,0 +1,54 @@
+{
+  "id": "ninety-one",
+  "name": "Ninety One",
+  "about_venue_id": null,
+  "address": "91 Brick Lane, Spitalfields, London, E1 6QL",
+  "postcode": "E1 6QL",
+  "website": null,
+  "found_by": "listings",
+  "signal": "new",
+  "kind_hint": "modern pub on Brick Lane with live music and DJs on Friday nights",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": [
+        "name",
+        "address",
+        "postcode"
+      ],
+      "url": "https://camra.org.uk/pubs/ninety-one-london-155038",
+      "quote": "91 Brick Lane, Spitalfields, London, E1 6QL",
+      "retrieved_at": "2026-10-14T21:52:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "name"
+      ],
+      "url": "https://camra.org.uk/pubs/ninety-one-london-155038",
+      "quote": "Ninety One, London",
+      "retrieved_at": "2026-10-14T21:52:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://www.designmynight.com/london/bars/brick-lane/ninety-one/renditions-lauryn-hill-special",
+      "quote": "Every Friday, we invite live performances to the stage with a DJ",
+      "retrieved_at": "2026-10-14T21:52:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.designmynight.com/london/bars/brick-lane/ninety-one/renditions-lauryn-hill-special",
+      "quote": "Ninety One, 91 Brick Lane, E1 6QL",
+      "retrieved_at": "2026-10-14T21:52:00Z",
+      "source_kind": "aggregator"
+    }
+  ],
+  "found_at": "2026-10-14T21:52:00Z",
+  "notes": "DesignMyNight 'Renditions: Lauryn Hill Special', Fri 11 Sep 2026, 20:00 to 01:00, free before 9pm then up to GBP 5.50 (aggregator; inside the three-month look-back). The page says the Friday nights run weekly, but no later date was read. No own website found. Fringe, about 1.4 km."
+}

@@ -1,0 +1,53 @@
+{
+  "id": "tramshed-community-hub",
+  "name": "The Tramshed Community Hub",
+  "about_venue_id": null,
+  "address": "Digby Street, London E2 0LS",
+  "postcode": "E2 0LS",
+  "website": null,
+  "found_by": "listings",
+  "signal": "new",
+  "kind_hint": "community hub hosting children's half-term sessions",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": [
+        "name"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "quote": "The Tramshed Community Hub",
+      "retrieved_at": "2026-10-14T21:52:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "quote": "Digby Street",
+      "retrieved_at": "2026-10-14T21:52:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "quote": "London, England, E2 0LS",
+      "retrieved_at": "2026-10-14T21:52:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "quote": "Half Term Circus Club",
+      "retrieved_at": "2026-10-14T21:52:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "found_at": "2026-10-14T21:52:00Z",
+  "notes": "Half Term Circus Club, free, children 5 to 8: Tue 27 Oct 10am-12noon, Wed 28 Oct 2-4pm, Thu 29 Oct 10am-12noon. The organiser's page places it at this hub, not St Margaret's House. Only source is that page; no hub website found. Core, about 360 m."
+}

@@ -1,0 +1,101 @@
+{
+  "venue_id": "elys-yard-social",
+  "venue_name": "Ely's Yard Social",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T21:58:30Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "bar",
+        "live-music"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.elysyardsocial.com/",
+          "quote": "A laid-back, open-air bar and social space built for long days, easy nights, and everything in between!",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.elysyardsocial.com/",
+          "quote": "A spacious warehouse-style hideaway featuring a large bar, inviting dancefloor, and live stage.",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.elysyardsocial.com/special-events/",
+          "quote": "From live music and big-screen screenings to quiz nights, themed parties, game nights and one-off events",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Live music, screenings, quiz nights, parties and games sit alongside one-off events, and the Hall has a live stage and dancefloor. The one dated night listed is an 80s Halloween party with a DJ on Saturday 31 October 2026.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.elysyardsocial.com/special-events/",
+          "quote": "From live music and big-screen screenings to quiz nights, themed parties, game nights and one-off events",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.elysyardsocial.com/",
+          "quote": "A spacious warehouse-style hideaway featuring a large bar, inviting dancefloor, and live stage.",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.elysyardsocial.com/special-events/",
+          "quote": "Nightmare On Brick Lane: 80’s Halloween Party",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.elysyardsocial.com/special-events/",
+          "quote": "DJ Miami Myers dropping the biggest blood curdling anthems from 80s icons",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.elysyardsocial.com/special-events/",
+          "quote": "Saturday 31 October",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no genre named on the pages read; 'good music' is the only music wording",
+    "music.notes: only one dated night is listed, so no recurring night can be named",
+    "cost.notes: no general pricing on the pages read (the structured data gives only a price range symbol)"
+  ],
+  "notes": "Nights seen on the venue's Special Events page (primary): Nightmare On Brick Lane: 80s Halloween Party, Sat 31 Oct 2026, from 9pm, with DJ Miami Myers. The page lists only this one dated night, alongside a general description of live music, screenings, quiz nights and parties. The About page says special event hours may differ, so dates should be checked. No recurring night found."
+}

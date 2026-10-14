@@ -1,0 +1,49 @@
+{
+  "venue_id": "elys-yard-social",
+  "venue_name": "Ely's Yard Social",
+  "aspect": "facts",
+  "researched_at": "2026-10-14T22:00:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "15 Hanbury Street, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.elysyardsocial.com/about/",
+          "quote": "15 Hanbury Street",
+          "retrieved_at": "2026-10-14T21:58:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.elysyardsocial.com/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.elysyardsocial.com/",
+          "quote": "A New Social Space at the Heart of Truman Brewery",
+          "retrieved_at": "2026-10-14T21:58:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "access_page",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "age_policy",
+    "capacity",
+    "cost.free_entry",
+    "cost.notes",
+    "postcode"
+  ],
+  "notes": "The site's structured data gives the postcode as E1 6QR, but its About page's contact block gives 'Ely's Yard, Dray Walk, London E1 6QL'. The postcode is left out until the editor or a person decides. No access page was found: /access/, /faq/, /bookings/ and /contact/ returned 404, the sitemap too, and the Private Hire and Special Events pages say nothing about access. Its opening hours and a 'priceRange' of ££ are on the site, but the price range is not a general price and is not stored. Search found no access guide."
+}

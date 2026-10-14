@@ -1,0 +1,32 @@
+{
+  "venue_id": "tramshed-community-hub",
+  "venue_name": "The Tramshed Community Hub",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T21:59:30Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "community-venue"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Tramshed_Community_Hub.aspx",
+          "quote": "Perfect for a range of activities, the Tramshed Community Hub offers affordable spaces to host events such as conferences, parties and celebrations, youth groups, community activities and social clubs.",
+          "retrieved_at": "2026-10-14T21:58:30Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no music named on the council hub page or the event page read",
+    "music.notes: no music nights found; the council describes it as a space to hire for community activities",
+    "cost.notes: the council page says 'affordable spaces' but gives no prices, so no general pricing is proposed",
+    "own website: none found; the council hub page is the venue's only page read"
+  ],
+  "notes": "The hub is a council space for hire (Tower Hamlets community hubs page). The only event seen at it is the Half Term Circus Club, free sessions for children run by St Margaret's House and placed at this hub on the organiser's page. The organiser's event data runs from Tue 27 Oct 2026 10:00 to Thu 29 Oct 2026 12:00. Not a music or nightlife venue on the evidence read."
+}

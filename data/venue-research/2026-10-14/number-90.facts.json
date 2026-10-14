@@ -2,7 +2,7 @@
   "venue_id": "number-90",
   "venue_name": "Number 90",
   "aspect": "facts",
-  "researched_at": "2026-10-14T16:03:46Z",
+  "researched_at": "2026-10-14T22:12:00Z",
   "findings": [
     {
       "field": "address",
@@ -13,7 +13,7 @@
           "fields": ["address", "postcode", "website"],
           "url": "https://www.number90bar.co.uk",
           "quote": "90 Wallis Road, E9 5LN London",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T22:12:00Z",
           "source_kind": "primary"
         }
       ]
@@ -24,10 +24,10 @@
       "source_date": null,
       "evidence": [
         {
-          "fields": ["address", "postcode", "website"],
+          "fields": ["postcode"],
           "url": "https://www.number90bar.co.uk",
           "quote": "90 Wallis Road, E9 5LN London",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T22:12:00Z",
           "source_kind": "primary"
         }
       ]
@@ -38,52 +38,59 @@
       "source_date": null,
       "evidence": [
         {
-          "fields": ["address", "postcode", "website"],
+          "fields": ["website"],
           "url": "https://www.number90bar.co.uk",
           "quote": "90 Wallis Road, E9 5LN London",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T22:12:00Z",
           "source_kind": "primary"
         }
       ]
     },
     {
       "field": "accessibility.notes",
-      "value": "These access lines come from the events hire site, not a guide to the bar. Number 90 Lock, one of its spaces, is listed as step-free with loading access. For other spaces, hirers are asked to contact the team about access needs, and accessible parking can be arranged in advance.",
-      "source_date": null,
+      "value": "The hire site describes the Number 90 Lock room, which it calls its largest, as step-free with loading access; it does not say this of the other spaces. Other access needs: contact the events team. Accessible parking in the private car park can be pre-arranged.",
+      "source_date": "2026-07-16",
       "evidence": [
         {
           "fields": ["accessibility.notes"],
           "url": "https://number90corporate.co.uk/number-90-lock/",
           "quote": "Step-free, with loading access and flexible crew timings",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "retrieved_at": "2026-10-14T22:12:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://number90corporate.co.uk/number-90-lock/",
+          "quote": "our largest venue, favoured by event producers",
+          "retrieved_at": "2026-10-14T22:12:00Z",
           "source_kind": "primary"
         },
         {
           "fields": ["accessibility.notes"],
           "url": "https://number90corporate.co.uk/further-info/",
-          "quote": "Please contact our team directly to discuss any specific accessibility needs. From step-free entry to reserved parking or seating arrangements.",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "quote": "Please contact our team directly to discuss any specific accessibility needs.",
+          "retrieved_at": "2026-10-14T22:12:00Z",
           "source_kind": "primary"
         },
         {
           "fields": ["accessibility.notes"],
           "url": "https://number90corporate.co.uk/further-info/",
-          "quote": "While the adjacent car park is private, accessible parking can be pre-arranged with our team.",
-          "retrieved_at": "2026-10-14T16:03:46Z",
+          "quote": "accessible parking can be pre-arranged with our team.",
+          "retrieved_at": "2026-10-14T22:12:00Z",
           "source_kind": "primary"
         }
       ]
     }
   ],
   "not_found": [
-    "accessibility.step_free (no whole-venue statement; only Number 90 Lock is called step-free)",
+    "accessibility.step_free",
     "accessibility.accessible_toilet",
     "accessibility.hearing_loop",
-    "accessibility.access_page (the hire site has no access-information page)",
+    "accessibility.access_page",
     "age_policy",
+    "capacity",
     "cost.free_entry",
-    "cost.notes",
-    "capacity (hire pages give capacity per room, 'over 1000' for the two combined studios, and no single whole-venue figure)"
+    "cost.notes"
   ],
-  "notes": "Searched: none (WebSearch not needed; the venue's own site and hire site were enough). Pages read: number90bar.co.uk home, contact-us, venue-hire, privatehire, sitemap; number90corporate.co.uk further-info and number-90-lock. The existing accessibility.notes was removed at review; these lines are the hire team's own words and the editor should decide whether they are enough. The venue-hire page still names the site as Studio 9294 (the old name), which the editor may want as an alias."
+  "notes": "Editor: the bar's own site (www.number90bar.co.uk) is the venue's website; the hire site number90corporate.co.uk is the same business. Whole-venue capacity is not stated. Room figures only: Number 90 Lock 180 seated / 650 standing (corporate Lock page, dated 16 Jul 2026). The bar's venue hire page, which still uses the old name Studio 9294, says 'up to 1000 people standing capacity' for corporate events; left out as unclear. No accessible toilet or hearing loop is stated on any page read. Step-free is stated for the Lock room only, so the venue-wide step_free is not set."
 }

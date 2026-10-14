@@ -1,0 +1,62 @@
+{
+  "venue_id": "st-john-on-bethnal-green",
+  "venue_name": "St John on Bethnal Green",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T21:57:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A Grade I listed Church of England parish church designed by Sir John Soane, at the centre of its parish since 1828. Besides worship it can be hired for events, and it is raising money for a major restoration project.",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.stjohnonbethnalgreen.church/",
+          "quote": "St John on Bethnal Green is a Grade 1 listed building of international significance which has been at the centre of the vibrant parish of Bethnal Green since 1828.",
+          "retrieved_at": "2026-10-14T21:56:39Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.stjohnonbethnalgreen.church/",
+          "quote": "It is one of only three churches to be designed by the world-renowned architect, Sir John Soane.",
+          "retrieved_at": "2026-10-14T21:56:39Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.stjohnonbethnalgreen.church/about",
+          "quote": "The church is available to hire for events.",
+          "retrieved_at": "2026-10-14T21:56:39Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.stjohnonbethnalgreen.church/",
+          "quote": "is launching a national call to action to support and raise funds for Phase One of a major renovation project",
+          "retrieved_at": "2026-10-14T21:56:39Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The church says it welcomes anyone, whatever their stage of faith.",
+      "evidence": [
+        {
+          "fields": ["crowd"],
+          "url": "https://www.stjohnonbethnalgreen.church/about",
+          "quote": "Whoever you are, and wherever you are on your journey of faith, we would love to welcome you.",
+          "retrieved_at": "2026-10-14T21:56:39Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "music.notes",
+    "status",
+    "aliases"
+  ],
+  "notes": "Own site read (home and About pages, undated). Press hits: The Upcoming live review of a 2015 gig and Red Guitar Music's 2019 gig report. Both are over five years old, so they can't back music, crowd or status; not used. No recent press review or closing news found in one search. The restoration appeal is undated (says 'this Easter week'), so the summary has no source_date."
+}

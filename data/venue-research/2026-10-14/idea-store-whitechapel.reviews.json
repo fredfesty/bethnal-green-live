@@ -2,30 +2,34 @@
   "venue_id": "idea-store-whitechapel",
   "venue_name": "Idea Store Whitechapel",
   "aspect": "reviews",
-  "researched_at": "2026-10-14T16:01:32Z",
+  "researched_at": "2026-10-14T21:58:00Z",
   "findings": [
     {
       "field": "summary",
-      "value": "A Tower Hamlets Idea Store on Whitechapel Road, which the council lists among its halls and venues for hire for meetings, training and social events.",
-      "source_date": null,
+      "value": "An Idea Store branch on Whitechapel Road, in a modern building in Whitechapel market, that hosts meetings, training, conferences and social events.",
       "evidence": [
         {
           "fields": ["summary"],
           "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Idea_Store_Whitechapel.aspx",
-          "quote": "Idea Store Whitechapel can cater for a variety of corporate and social activities",
-          "retrieved_at": "2026-10-14T16:01:32Z",
+          "quote": "Idea Store Whitechapel can cater for a variety of corporate and social activities ranging from meetings, seminars, conferences, training, interviews, dance rehearsals and hospitality events housed in a modern architectural building.",
+          "retrieved_at": "2026-10-14T21:55:49Z",
           "source_kind": "directory"
         },
         {
           "fields": ["summary"],
           "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Idea_Store_Whitechapel.aspx",
-          "quote": "Halls and venues for hire",
-          "retrieved_at": "2026-10-14T16:01:32Z",
+          "quote": "Based in the busy Whitechapel market in front of Sainsbury",
+          "retrieved_at": "2026-10-14T21:55:49Z",
           "source_kind": "directory"
         }
       ]
     }
   ],
-  "not_found": ["crowd", "music.styles", "music.notes", "status"],
-  "notes": "Council hire page only; the events calendar lead has a date but no description. One WebSearch found no press or review. The hire page names the Whitechapel branch, which the lead says is separate from the Bethnal Green Library Idea Store in the registry."
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status"
+  ],
+  "notes": "Council hire page only. The council events calendar lead has a date but no description, and its own site pages tried had no readable description. One WebSearch found no press or review. No status news."
 }

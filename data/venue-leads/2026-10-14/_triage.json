@@ -2,18 +2,18 @@
   "run_date": "2026-10-14",
   "research": [
     {
-      "venue_id": "hare",
-      "name": "Hare",
+      "venue_id": "tramshed-community-hub",
+      "name": "The Tramshed Community Hub",
       "found_by": [
-        "map"
+        "listings"
       ],
       "signals": [],
-      "postcode": "E2 9BU",
+      "postcode": "E2 0LS",
       "zone": "core",
-      "distance_m": 731,
+      "distance_m": 358,
       "website": null,
       "leads": [
-        "data/venue-leads/2026-10-14/map-hare.json"
+        "data/venue-leads/2026-10-14/listings-tramshed-community-hub.json"
       ],
       "reason": "new"
     },
@@ -34,34 +34,50 @@
       "reason": "new"
     },
     {
-      "venue_id": "hoxton-hound",
-      "name": "Hoxton Hound",
+      "venue_id": "art-house",
+      "name": "The Art House",
       "found_by": [
         "map"
       ],
       "signals": [],
-      "postcode": "E2 8HZ",
+      "postcode": "E2 9AP",
       "zone": "core",
-      "distance_m": 1534,
-      "website": null,
+      "distance_m": 951,
+      "website": "https://www.acrylicize.com/",
       "leads": [
-        "data/venue-leads/2026-10-14/map-hoxton-hound.json"
+        "data/venue-leads/2026-10-14/map-art-house-acrylicize.json"
       ],
       "reason": "new"
     },
     {
-      "venue_id": "hoxton-cabin",
-      "name": "Hoxton Cabin",
+      "venue_id": "ninety-one",
+      "name": "Ninety One",
       "found_by": [
         "listings"
       ],
       "signals": [],
-      "postcode": "E2 8DP",
-      "zone": "core",
-      "distance_m": 1567,
+      "postcode": "E1 6QL",
+      "zone": "fringe",
+      "distance_m": 1376,
       "website": null,
       "leads": [
-        "data/venue-leads/2026-10-14/listings-hoxton-cabin.json"
+        "data/venue-leads/2026-10-14/listings-ninety-one.json"
+      ],
+      "reason": "new"
+    },
+    {
+      "venue_id": "elys-yard-social",
+      "name": "Ely's Yard Social",
+      "found_by": [
+        "map"
+      ],
+      "signals": [],
+      "postcode": "E1 6QR",
+      "zone": "fringe",
+      "distance_m": 1467,
+      "website": "https://www.elysyardsocial.com/",
+      "leads": [
+        "data/venue-leads/2026-10-14/map-elys-yard-social.json"
       ],
       "reason": "new"
     },
@@ -114,30 +130,6 @@
       "reason": "new"
     },
     {
-      "venue_id": "lauriston",
-      "name": "The Lauriston",
-      "found_by": [
-        "web"
-      ],
-      "signals": [],
-      "postcode": null,
-      "zone": null,
-      "distance_m": null,
-      "website": null,
-      "leads": [
-        "data/venue-leads/2026-10-14/web-lauriston.json"
-      ],
-      "reason": "new"
-    },
-    {
-      "venue_id": "mile-end-climbing-wall",
-      "name": "Mile End Climbing Wall",
-      "reason": "unprofiled",
-      "zone": "fringe",
-      "postcode": "E3 5BE",
-      "leads": []
-    },
-    {
       "venue_id": "village-underground",
       "name": "Village Underground",
       "reason": "refresh",
@@ -183,15 +175,64 @@
       "leads": []
     },
     {
-      "venue_id": "sebright-arms",
-      "name": "The Sebright Arms",
+      "venue_id": "st-john-on-bethnal-green",
+      "name": "St John on Bethnal Green",
       "reason": "refresh",
       "zone": "core",
-      "postcode": "E2 9AG",
+      "postcode": "E2 9PA",
       "profiled_at": "2026-10-12T23:05:39Z",
       "leads": []
     }
   ],
   "report_only": [],
-  "known": []
+  "known": [
+    {
+      "venue_id": "hoxton-cabin",
+      "name": "Hoxton Cabin",
+      "where": "profile",
+      "found_by": [
+        "listings"
+      ],
+      "signals": [],
+      "leads": [
+        "data/venue-leads/2026-10-14/listings-hoxton-cabin.json"
+      ]
+    },
+    {
+      "venue_id": "hare",
+      "name": "Hare",
+      "where": "profile",
+      "found_by": [
+        "map"
+      ],
+      "signals": [],
+      "leads": [
+        "data/venue-leads/2026-10-14/map-hare.json"
+      ]
+    },
+    {
+      "venue_id": "hoxton-hound",
+      "name": "Hoxton Hound",
+      "where": "profile",
+      "found_by": [
+        "map"
+      ],
+      "signals": [],
+      "leads": [
+        "data/venue-leads/2026-10-14/map-hoxton-hound.json"
+      ]
+    },
+    {
+      "venue_id": "lauriston",
+      "name": "The Lauriston",
+      "where": "profile",
+      "found_by": [
+        "web"
+      ],
+      "signals": [],
+      "leads": [
+        "data/venue-leads/2026-10-14/web-lauriston.json"
+      ]
+    }
+  ]
 }

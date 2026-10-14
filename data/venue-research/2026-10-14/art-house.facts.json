@@ -1,0 +1,62 @@
+{
+  "venue_id": "art-house",
+  "venue_name": "The Art House",
+  "aspect": "facts",
+  "researched_at": "2026-10-14T22:00:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "30-36 Pritchards Road, Bethnal Green",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://www.acrylicize.com/",
+          "quote": "30-36 Pritchards Road",
+          "retrieved_at": "2026-10-14T21:58:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 9AP",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.acrylicize.com/",
+          "quote": "Bethnal Green, E2 9AP",
+          "retrieved_at": "2026-10-14T21:58:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.acrylicize.com/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://www.acrylicize.com/",
+          "quote": "A global creative studio that unlocks the full potential of space and culture",
+          "retrieved_at": "2026-10-14T21:58:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "access_page",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "age_policy",
+    "capacity",
+    "cost.free_entry",
+    "cost.notes"
+  ],
+  "notes": "The Art House is the space at the design studio Acrylicize's Pritchards Road address. The studio's homepage does not name the space; its 'Perspectives' page names it for an April 2026 exhibition, which is past and not used here. No access, capacity, pricing or age page was found on the studio's site (its sitemap returned 404). Most searches for 'The Art House' returned other venues of that name, which are not used."
+}

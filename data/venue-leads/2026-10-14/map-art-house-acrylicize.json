@@ -1,0 +1,51 @@
+{
+  "id": "art-house-acrylicize",
+  "name": "The Art House",
+  "about_venue_id": null,
+  "address": "30-36 Pritchards Road, Bethnal Green",
+  "postcode": "E2 9AP",
+  "website": "https://www.acrylicize.com/",
+  "found_by": "map",
+  "signal": "new",
+  "kind_hint": "arts space hosting exhibitions and public programmes, run by a design studio",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": ["name", "kind_hint"],
+      "url": "https://www.acrylicize.com/perspectives",
+      "quote": "Peaks of Imperfection is a week-long exhibition and public programme at The Art House in Bethnal Green, running 24 April – 30 April 2026.",
+      "retrieved_at": "2026-10-14T21:53:29Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": ["name"],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/business/licences/alcohol_and_entertainment/Licence_applications_received_this_week.aspx",
+      "quote": "The Art House, Acrylicize",
+      "retrieved_at": "2026-10-14T21:53:29Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": ["address"],
+      "url": "https://www.acrylicize.com/",
+      "quote": "30-36 Pritchards Road",
+      "retrieved_at": "2026-10-14T21:53:29Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": ["postcode"],
+      "url": "https://www.acrylicize.com/",
+      "quote": "Bethnal Green, E2 9AP",
+      "retrieved_at": "2026-10-14T21:53:29Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": ["website"],
+      "url": "https://www.acrylicize.com/",
+      "quote": "Making Human Connection Inevitable",
+      "retrieved_at": "2026-10-14T21:53:29Z",
+      "source_kind": "primary"
+    }
+  ],
+  "found_at": "2026-10-14T21:53:29Z",
+  "notes": "Tower Hamlets register (current week only) lists a late TEN here for 29 October 2026; a TEN alone is not the basis. The studio's own site describes the space's public programme. The quoted exhibition ran in April 2026; no upcoming public event read yet. Website is the studio's site, which runs the space."
+}

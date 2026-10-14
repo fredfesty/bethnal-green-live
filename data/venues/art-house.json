@@ -1,0 +1,129 @@
+{
+  "id": "art-house",
+  "name": "The Art House",
+  "zone": "core",
+  "location": {
+    "lat": 51.534188,
+    "lon": -0.062363,
+    "distance_m": 951,
+    "source": "postcodes.io"
+  },
+  "types": [
+    "gallery"
+  ],
+  "address": "30-36 Pritchards Road, Bethnal Green",
+  "postcode": "E2 9AP",
+  "discovered": {
+    "first_seen": "2026-10-14",
+    "found_by": [
+      "map"
+    ]
+  },
+  "website": "https://www.acrylicize.com/",
+  "summary": "The home of the studio Acrylicize, offering project, studio and event space. It can also be hired for events.",
+  "music": {
+    "styles": [],
+    "notes": "The public programme takes in music alongside visual arts, performance, film, literature and artist residencies."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.acrylicize.com/perspectives/welcome-to-the-art-house-by-acrylicize",
+      "quote": "The Art House is the home of Acrylicize. We provide project, studio, and event space",
+      "retrieved_at": "2026-10-14T21:56:13Z",
+      "source_kind": "primary",
+      "source_date": "2025-03-20"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.acrylicize.com/perspectives/welcome-to-the-art-house-by-acrylicize",
+      "quote": "Want to hire The Art House for your next event?",
+      "retrieved_at": "2026-10-14T21:56:13Z",
+      "source_kind": "primary",
+      "source_date": "2025-03-20"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.acrylicize.com/perspectives/welcome-to-the-art-house-by-acrylicize",
+      "quote": "with a dynamic public programme spanning visual arts, performance, film, literature, music, and artist residencies",
+      "retrieved_at": "2026-10-14T21:56:13Z",
+      "source_kind": "primary",
+      "source_date": "2025-03-20"
+    },
+    {
+      "fields": [
+        "types"
+      ],
+      "url": "https://www.acrylicize.com/perspectives/peaks-of-imperfection",
+      "quote": "is an exhibition and public programme by Submit to Love Studios, presented at The Art House from 24 April – 30 April 2026.",
+      "retrieved_at": "2026-10-14T21:58:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.acrylicize.com/",
+      "quote": "Bethnal Green, E2 9AP",
+      "retrieved_at": "2026-10-14T21:58:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.acrylicize.com/",
+      "quote": "30-36 Pritchards Road",
+      "retrieved_at": "2026-10-14T21:58:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "website"
+      ],
+      "url": "https://www.acrylicize.com/",
+      "quote": "A global creative studio that unlocks the full potential of space and culture",
+      "retrieved_at": "2026-10-14T21:58:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-14T22:04:00Z",
+  "review": {
+    "checked_at": "2026-10-14T22:06:00Z",
+    "removed_fields": []
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-14T22:04:00Z",
+      "by": "venue-editor",
+      "change": "new venue, found by the map finder; summary, music notes, type and address from the studio's own site"
+    },
+    {
+      "at": "2026-10-14T22:06:00Z",
+      "by": "venue-checker",
+      "change": "cut 'design' studio, 'Bethnal Green base' and 'public arts programme' from summary (not in its quotes); rest kept"
+    }
+  ]
+}

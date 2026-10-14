@@ -1,0 +1,28 @@
+{
+  "venue_id": "tramshed-community-hub",
+  "venue_name": "The Tramshed Community Hub",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T21:58:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A community hub on Digby Street in Bethnal Green, with a multi-purpose hall that the council hires out for parties, conferences, youth groups and social clubs.",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Tramshed_Community_Hub.aspx",
+          "quote": "Perfect for a range of activities, the Tramshed Community Hub offers affordable spaces to host events such as conferences, parties and celebrations, youth groups, community activities and social clubs.",
+          "retrieved_at": "2026-10-14T21:55:42Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status"
+  ],
+  "notes": "Only the council's hub page and hire page were readable; no review or press article was found in one search. Its listing on St Margaret's House (organiser of a half-term club held here) is an event page, not a review. The council hire page is headed 'Tramshed Community Centre'. No own website found."
+}

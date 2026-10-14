@@ -1,0 +1,91 @@
+{
+  "id": "tramshed-community-hub",
+  "name": "The Tramshed Community Hub",
+  "zone": "core",
+  "location": {
+    "lat": 51.527315,
+    "lon": -0.049752,
+    "distance_m": 358,
+    "source": "postcodes.io"
+  },
+  "types": [
+    "community-venue"
+  ],
+  "address": "Digby Street, London",
+  "postcode": "E2 0LS",
+  "discovered": {
+    "first_seen": "2026-10-14",
+    "found_by": [
+      "listings"
+    ]
+  },
+  "summary": "A community hub on Digby Street, with a large hall and mezzanine that groups can hire for parties, conferences, clubs and local activities.",
+  "music": {
+    "styles": [],
+    "notes": null
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": 70,
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "types"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Tramshed_Community_Hub.aspx",
+      "quote": "Perfect for a range of activities, the Tramshed Community Hub offers affordable spaces to host events such as conferences, parties and celebrations, youth groups, community activities and social clubs.",
+      "retrieved_at": "2026-10-14T21:58:30Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Tramshed_Community_Hub.aspx",
+      "quote": "Digby Street London E2 0LS",
+      "retrieved_at": "2026-10-14T21:58:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "capacity",
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Tramshed_Community_Hub.aspx",
+      "quote": "A large multi-purpose hall with an overlooking mezzanine for up to 70 people.",
+      "retrieved_at": "2026-10-14T21:58:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-14T22:04:00Z",
+  "review": {
+    "checked_at": "2026-10-14T22:06:00Z",
+    "removed_fields": []
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-14T22:04:00Z",
+      "by": "venue-editor",
+      "change": "new venue, found by the listings finder; type, address and hall capacity from the council's hub page"
+    },
+    {
+      "at": "2026-10-14T22:06:00Z",
+      "by": "venue-checker",
+      "change": "cut 'in Bethnal Green' from summary (not in its quotes); rest kept"
+    }
+  ]
+}

@@ -2,47 +2,50 @@
   "venue_id": "fine-cider-company-shop",
   "venue_name": "The Fine Cider Company Shop",
   "aspect": "reviews",
-  "researched_at": "2026-10-14T16:01:32Z",
+  "researched_at": "2026-10-14T21:58:00Z",
   "findings": [
     {
       "field": "summary",
-      "value": "A shop under the arches in London Fields that sells British ciders and perries and runs bookable tastings on Friday and Saturday evenings.",
+      "value": "A cider and perry shop in London Fields focused on British cider, with tastings on Fridays and Saturdays.",
       "source_date": "2026-06-03",
       "evidence": [
         {
-          "fields": ["summary"],
-          "url": "https://www.tickettailor.com/events/thefinecidercompany",
-          "quote": "We specialise mainly in fine British ciders",
-          "retrieved_at": "2026-10-14T16:01:32Z",
-          "source_kind": "primary"
-        },
-        {
-          "fields": ["summary"],
+          "fields": [
+            "summary"
+          ],
           "url": "https://londontheinside.com/find-the-finest-ciders-in-the-country-at-this-london-fields-spot-neighbourhood-watch/",
-          "quote": "the Fine Cider Company specialises in British ciders and perries sourced from all over the country",
-          "retrieved_at": "2026-10-14T16:01:32Z",
+          "quote": "Run by fine cider merchant Felix Nash, the Fine Cider Company specialises in British ciders and perries sourced from all over the country.",
+          "retrieved_at": "2026-10-14T21:56:48Z",
           "source_kind": "press",
           "source_date": "2026-06-03"
         },
         {
-          "fields": ["summary"],
-          "url": "https://londontheinside.com/find-the-finest-ciders-in-the-country-at-this-london-fields-spot-neighbourhood-watch/",
-          "quote": "it's under the arches, close to e5 Bakehouse",
-          "retrieved_at": "2026-10-14T16:01:32Z",
-          "source_kind": "press",
-          "source_date": "2026-06-03"
-        },
-        {
-          "fields": ["summary"],
+          "fields": [
+            "summary"
+          ],
           "url": "https://londontheinside.com/find-the-finest-ciders-in-the-country-at-this-london-fields-spot-neighbourhood-watch/",
           "quote": "there are tastings held every Friday and Saturday where you can try over half a dozen styles",
-          "retrieved_at": "2026-10-14T16:01:32Z",
+          "retrieved_at": "2026-10-14T21:56:48Z",
           "source_kind": "press",
           "source_date": "2026-06-03"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany",
+          "quote": "We specialise mainly in fine British ciders & perries",
+          "retrieved_at": "2026-10-14T21:55:29Z",
+          "source_kind": "primary"
         }
       ]
     }
   ],
-  "not_found": ["crowd", "music.styles", "music.notes", "status"],
-  "notes": "London On The Inside (press, published 3 June 2026, updated 23 June 2026) reviews the shop; the ticket page is the venue's own. It is a cider shop with tastings, not a bar or a music venue, so the editor should decide whether it fits the guide. One WebSearch found no other press."
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "music.notes",
+    "status"
+  ],
+  "notes": "London The Inside article (3 June 2026, updated 23 June 2026) and the shop's own Ticket Tailor page were read; the article's 'perfect place to shop these bottles' is its opinion and is not used. No review or other press article found in one WebSearch. The Ticket Tailor event page states an age limit (strictly 18+), which belongs to the facts aspect. No status news."
 }

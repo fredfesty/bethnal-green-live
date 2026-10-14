@@ -2,10 +2,29 @@
   "venue_id": "grow-hackney",
   "venue_name": "Grow Hackney",
   "aspect": "reviews",
-  "researched_at": "2026-10-14T16:03:00Z",
-  "findings": [],
-  "not_found": [
-    "status"
+  "researched_at": "2026-10-14T21:57:00Z",
+  "findings": [
+    {
+      "field": "crowd",
+      "value": "The venue says all are welcome.",
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://www.growhackney.co.uk/our-vision-what-we-do",
+          "quote": "All are welcome.",
+          "retrieved_at": "2026-10-14T21:56:39Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
   ],
-  "notes": "Re-read the venue's own FAQ and home page today; the published summary, crowd, age policy and music notes still match them, so nothing is proposed. No press review found: the one search result that looked like a review (The Nudge) is a never-use site and was refused, so it was not read. No closing, reopening or new-name news found. Its own who-we-are page returns 404."
+  "not_found": [
+    "status",
+    "aliases",
+    "music.styles",
+    "music.notes"
+  ],
+  "notes": "Own About page (undated) read and checked against the published summary: nothing contradicts it, no closing or renaming news. The only press hit, The Nudge, is on the never-use list (refused), so no press review was used. No press review of Grow from the named publications was found in one search; a later run could try Time Out or Londonist. The published summary, crowd and music notes are not changed."
 }
