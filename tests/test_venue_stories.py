@@ -65,7 +65,7 @@ def test_never_tried_first_then_core_before_fringe_and_the_daily_cap(repo):
     t = venue_stories.todo(TODAY, limit=10)
     ids = [r["venue_id"] for r in t["research"]]
     assert len(ids) == 10 and "fringe-one" not in ids
-    assert t["left_for_later_days"] == 3
+    assert t["left_for_later_weeks"] == 3
 
 
 def test_written_but_cut_back_still_waits_a_week(repo):

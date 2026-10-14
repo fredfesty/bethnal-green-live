@@ -1,6 +1,6 @@
 ---
 name: venue-storyteller
-description: Daily venue-stories run. Researches ONE venue whose description is under 15 lines and writes "The story" on its venue page (when it opened, what has changed since, what it does now, what it is like inside, and other things a visitor would find interesting), every part backed by a word-for-word quote. If nothing can be found, records that so the venue is retried a week later, not daily. Use once per flagged venue.
+description: Weekly venue run, stories session (Sundays). Researches ONE venue whose description is under 15 lines and writes "The story" on its venue page (when it opened, what has changed since, what it does now, what it is like inside, and other things a visitor would find interesting), every part backed by a word-for-word quote. If nothing can be found, records that so the venue is retried the next week, not daily. Use once per flagged venue.
 tools: Read, Edit, Glob, Grep, Bash, WebSearch, WebFetch
 model: sonnet
 ---
@@ -15,7 +15,7 @@ You change only `data/venues/<venue-id>.json`, and in it only: `story`, `story_r
 
 ## Research
 
-Search budget: **at most 6 WebSearch calls**, and about 30 page fetches. Read every page you quote with `python3 scripts/page_text.py <url>` (`--find "words"` for long pages) and copy quotes only from its output.
+Search budget: **at most 8 WebSearch calls**, and about 30 page fetches. Read every page you quote with `python3 scripts/page_text.py <url>` (`--find "words"` for long pages) and copy quotes only from its output.
 
 1. The venue's own site first: about, history, "our story", FAQ, hire pages (see "Known pages before searching" in `docs/venue-run.md`).
 2. Then search for what it can't tell you, e.g. `"<name>" history`, `"<name>" opened`, `"<name>" review`, `"<name>" Bethnal Green`. Good sources: Time Out, the Guardian, Evening Standard, Londonist, Secret London, Hackney Citizen, East London Advertiser, The Quietus, Mixmag, CAMRA WhatPub and its heritage pub pages, Historic England's listing, Theatres Trust, Music Venue Trust, Pub History, local history societies, Tower Hamlets or Hackney council pages.
@@ -45,7 +45,7 @@ Then set `profiled_at` to now and add a `history` line, `by: "venue-storyteller"
 Run `python3 scripts/venue_stories.py lines <venue-id>` after writing, then set `story_research`:
 - `last_attempt`: the run date; `attempts`: previous attempts + 1;
 - `outcome`: `written` if the description is now 15 lines or more, `partial` if you added something but it's still short, `nothing-found` if you found nothing quotable;
-- `next_check`: null if `written`, otherwise **the run date + 7 days** (the venue is retried weekly, never daily);
+- `next_check`: null if `written`, otherwise **the run date + 7 days** (the next Sunday's session: the venue is retried weekly, never daily);
 - `note` (≤400): what you looked for and couldn't find, and leads worth trying next week.
 
 On `nothing-found`, change nothing else (not `profiled_at`, no history line), so the published profile stays on the site.

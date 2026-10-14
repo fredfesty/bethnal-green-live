@@ -20,7 +20,7 @@ Every Sunday morning a team of agents looks for venues around Bethnal Green we d
   checks, branch, pull request, auto-merge ─► the site republishes
 ```
 
-The routine that runs it: `routines/weekly-venues.md`. The longer "story" on each venue page is written separately, by the daily venue-stories run (`routines/daily-venue-stories.md`); the weekly run leaves `story` and `story_research` alone.
+The routine that runs it: `routines/weekly-venues.md`. The longer "story" on each venue page is written by the same weekly run's second Sunday session, a few hours later (`routines/weekly-venue-stories.md`): one storyteller per venue whose description is under 15 lines. It is a separate session so it has its own WebSearch budget (8 per storyteller, 12 storytellers, 96 in all) and doesn't eat into the 200 below. The first session leaves `story` and `story_research` alone.
 
 ## Rules every finder and researcher follows
 

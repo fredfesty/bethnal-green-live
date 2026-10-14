@@ -5,8 +5,8 @@ A venue page's description is everything we write about the place: the summary, 
 and cost notes, and 'The story'. It is measured in lines as the page shows them (about 70 characters a line
 at the page's text width, every paragraph starting a new line). A venue under 15 lines is flagged.
 
-A flagged venue is researched by the daily venue-stories run (routines/daily-venue-stories.md), one
-storyteller agent per venue, at most --max a day. If a venue is still short after a try (nothing found,
+A flagged venue is researched in the weekly venue run's stories session on Sundays
+(routines/weekly-venue-stories.md), one storyteller agent per venue, at most --max a week. If a venue is still short after a try (nothing found,
 or not enough), it waits a week after that try before the next one: story_research.next_check.
 
   python3 scripts/venue_stories.py report                      every profile's line count, flagged ones marked
@@ -28,7 +28,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CHARS_PER_LINE = 70
 MIN_LINES = 15
 RETRY_DAYS = 7
-DEFAULT_MAX = 10
+DEFAULT_MAX = 12
 ZONE_ORDER = {"core": 0, "fringe": 1, "outer": 2}
 
 
@@ -102,7 +102,7 @@ def todo(today: dt.date, limit: int = DEFAULT_MAX) -> dict:
                      "attempts": r.get("attempts", 0), "last_outcome": r.get("outcome"),
                      "last_note": r.get("note"), "website": p.get("website")})
     return {"date": today.isoformat(), "min_lines": MIN_LINES, "flagged": len(flagged), "due": len(due),
-            "waiting_for_weekly_retry": len(waiting), "left_for_later_days": max(0, len(due) - limit),
+            "waiting_for_weekly_retry": len(waiting), "left_for_later_weeks": max(0, len(due) - limit),
             "research": rows}
 
 

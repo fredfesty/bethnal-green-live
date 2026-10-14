@@ -1,7 +1,7 @@
-name: Venue stories pull request
+name: Weekly venue stories pull request
 
-# The same as morning-run-pr.yml, for the daily venue-stories run (routines/daily-venue-stories.md).
-# When the venue-stories run pushes its branch (claude/venue-stories-<date>), this workflow:
+# The same as morning-run-pr.yml, for the weekly venue run's stories session (routines/weekly-venue-stories.md).
+# When the stories session pushes its branch (claude/weekly-venue-stories-<date>), this workflow:
 #   1. re-runs every check on GitHub's machines (tests + data validation + site build),
 #   2. opens the pull request, with the verifier's and scout's run reports as its description,
 #   3. merges it if the repository variable AUTO_MERGE is "true" and every check passed,
@@ -13,9 +13,9 @@ name: Venue stories pull request
 
 on:
   push:
-    # Only the daily run's branches, claude/venue-stories-<run-date>[-2, -3, …], so a hand-made branch
+    # Only the scheduled session's branches, claude/weekly-venue-stories-<run-date>[-2, -3, …], so a hand-made branch
     # (say, one changing the storyteller itself) is never auto-merged.
-    branches: ["claude/venue-stories-[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]*"]
+    branches: ["claude/weekly-venue-stories-[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]*"]
 
 permissions:
   contents: write
@@ -23,7 +23,7 @@ permissions:
   actions: write
 
 concurrency:
-  group: venue-stories-pr-${{ github.ref_name }}
+  group: weekly-venue-stories-pr-${{ github.ref_name }}
   cancel-in-progress: false
 
 jobs:
@@ -55,10 +55,10 @@ jobs:
       - name: Write the pull request description
         id: body
         run: |
-          RUN="${GITHUB_REF_NAME#claude/venue-stories-}"
+          RUN="${GITHUB_REF_NAME#claude/weekly-venue-stories-}"
           DATE="${RUN:0:10}"
           {
-            echo "Automatic venue-stories run for **${DATE}**: storytellers researched the venues whose description was under 15 lines, and the checker re-checked every quote. Every check passed on GitHub."
+            echo "Automatic weekly venue stories for **${DATE}**: storytellers researched the venues whose description was under 15 lines, and the checker re-checked every quote. Every check passed on GitHub."
             echo
             if [ -f "data/runs/venue-stories/${DATE}.md" ]; then cat "data/runs/venue-stories/${DATE}.md"; echo; fi
             echo
@@ -78,7 +78,7 @@ jobs:
             NUMBER="$EXISTING"
           else
             URL=$(gh pr create --base main --head "$GITHUB_REF_NAME" \
-              --title "Venue stories — ${{ steps.body.outputs.date }}" --body-file pr-body-trimmed.md)
+              --title "Weekly venue stories — ${{ steps.body.outputs.date }}" --body-file pr-body-trimmed.md)
             NUMBER="${URL##*/}"
           fi
           echo "number=${NUMBER}" >> "$GITHUB_OUTPUT"
@@ -90,7 +90,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh pr merge "${{ steps.pr.outputs.number }}" --merge --delete-branch \
-            --subject "Venue stories ${{ steps.body.outputs.date }} (auto-merged after all checks passed)"
+            --subject "Weekly venue stories ${{ steps.body.outputs.date }} (auto-merged after all checks passed)"
           # A merge made by this workflow doesn't start other workflows by itself, so start the site deploy.
           gh workflow run site.yml --ref main
           echo "Merged and site rebuild started." >> "$GITHUB_STEP_SUMMARY"
