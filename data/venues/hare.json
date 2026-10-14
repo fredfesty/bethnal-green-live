@@ -88,11 +88,91 @@
       "quote": "One very shallow step from the street to the bar. No accessible toilet.",
       "retrieved_at": "2026-10-14T16:05:00Z",
       "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://pubology.co.uk/pubs/2698.html",
+      "quote": "Dates open:\nby 1792-",
+      "retrieved_at": "2026-10-14T21:45:55Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://pubology.co.uk/pubs/2698.html",
+      "quote": "Truman Hanbury Buxton (former)",
+      "retrieved_at": "2026-10-14T21:45:55Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://pubology.co.uk/pubs/2698.html",
+      "quote": "Hackney Road (1823)",
+      "retrieved_at": "2026-10-14T21:45:55Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://pubology.co.uk/pubs/2698.html",
+      "quote": "16 Heath Place [or 15 Heath Place], Cambridge Heath (1861)",
+      "retrieved_at": "2026-10-14T21:45:55Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+      "quote": "two regular ales & a changing beer. Small heated courtyard, pool & darts.",
+      "retrieved_at": "2026-10-14T21:45:55Z",
+      "source_kind": "directory",
+      "source_date": "2026-10-14"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://pubology.co.uk/pubs/2698.html",
+      "quote": "Good Beer Guide:\n2013",
+      "retrieved_at": "2026-10-14T21:45:55Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://pubology.co.uk/pubs/2698.html",
+      "quote": "Hackney Road (1823)",
+      "retrieved_at": "2026-10-14T21:45:55Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+      "quote": "Independent ex-Truman free house in Bethnal Green",
+      "retrieved_at": "2026-10-14T21:45:55Z",
+      "source_kind": "directory",
+      "source_date": "2026-10-14"
     }
   ],
-  "profiled_at": "2026-10-14T16:09:06Z",
+  "profiled_at": "2026-10-14T21:45:55Z",
   "review": {
-    "checked_at": "2026-10-14T16:10:32Z",
+    "checked_at": "2026-10-14T21:51:14Z",
     "removed_fields": []
   },
   "needs_review": null,
@@ -106,6 +186,33 @@
       "at": "2026-10-14T16:10:32Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T21:45:55Z",
+      "by": "venue-storyteller",
+      "change": "added opened, then, now and worth_knowing from London Pubology and CAMRA entries"
+    },
+    {
+      "at": "2026-10-14T21:51:14Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
     }
-  ]
+  ],
+  "story": {
+    "opened": "Open by 1792, according to London Pubology.",
+    "then": "London Pubology lists the pub as a former Truman Hanbury Buxton house, and CAMRA's WhatPub entry describes it today as an independent free house. Pubology also records earlier addresses of Hackney Road in 1823 and Heath Place, Cambridge Heath in 1861.",
+    "now": "CAMRA's WhatPub entry says the pub pours two regular ales plus a changing beer, and has pool, darts and a small heated courtyard.",
+    "worth_knowing": [
+      "London Pubology records the Hare as a Good Beer Guide entry for 2013.",
+      "In the 1800s the pub was listed under other addresses, including Hackney Road in 1823, says London Pubology."
+    ],
+    "written_at": "2026-10-14T21:45:55Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "No website for the pub. Found only directory entries (CAMRA WhatPub, London Pubology). London CAMRA branch page (vibe, horseshoe bar) redirects so could not be quoted. No vibe source within five years, no press or review found; pubshistory.com page 404. Try Pubwiki, Time Out or local news next week."
+  }
 }

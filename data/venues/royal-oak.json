@@ -120,9 +120,139 @@
       "quote": "73 Columbia Road, London, London, E2 7RG",
       "retrieved_at": "2026-10-13T00:12:00Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://pubwiki.co.uk/LondonPubs/BethnalGreen/RoyalOak.shtml",
+      "quote": "Existed from at least 1839. Address formerly 19 Barnet Street. This pub was re-built in its current form in 1923.",
+      "retrieved_at": "2026-10-14T21:46:19Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://camra.org.uk/pubs/royal-oak-bethnal-green-155583",
+      "quote": "Built in 1923, probably by A E Sewell, with classic Truman, Hanbury and Buxton signage on the exterior.",
+      "retrieved_at": "2026-10-14T21:46:19Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://camra.org.uk/pubs/royal-oak-bethnal-green-155583",
+      "quote": "One of the Inter-War pubs listed in August 2015.",
+      "retrieved_at": "2026-10-14T21:46:19Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://camra.org.uk/pubs/royal-oak-bethnal-green-155583",
+      "quote": "Ex Truman's pub retaining many original features despite being opened up with a single central bar.",
+      "retrieved_at": "2026-10-14T21:46:19Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://camra.org.uk/pubs/royal-oak-bethnal-green-155583",
+      "quote": "Originally there were partitions creating three rooms and an off-sales but all have now been removed.",
+      "retrieved_at": "2026-10-14T21:46:19Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.royaloakbethnalgreen.co.uk/",
+      "quote": "serving great food, pints and popular Sunday roasts.",
+      "retrieved_at": "2026-10-14T21:46:19Z",
+      "source_kind": "primary",
+      "source_date": "2026-10-01"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.designmynight.com/london/pubs/bethnal-green/upstairs-at-the-royal-oak/pub-quiz",
+      "quote": "Last Wednesday of every month from 7.30pm.",
+      "retrieved_at": "2026-10-14T21:46:19Z",
+      "source_kind": "aggregator",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/royal-oak-1",
+      "quote": "Upstairs is a cultured, calm and almost sedate dining room",
+      "retrieved_at": "2026-10-14T21:46:19Z",
+      "source_kind": "press",
+      "source_date": "2023-08-02"
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/royal-oak-1",
+      "quote": "the scene is more boisterous",
+      "retrieved_at": "2026-10-14T21:46:19Z",
+      "source_kind": "press",
+      "source_date": "2023-08-02"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://camra.org.uk/pubs/royal-oak-bethnal-green-155583",
+      "quote": "This pub retains its original counter, and fielded panelling with the names of Truman's beers in gilt lettering on it.",
+      "retrieved_at": "2026-10-14T21:46:19Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://pubwiki.co.uk/LondonPubs/BethnalGreen/RoyalOak.shtml",
+      "quote": "Featured in the Kray film and was used for the TV series 'Goodnight Sweetheart'.",
+      "retrieved_at": "2026-10-14T21:46:19Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://camra.org.uk/pubs/royal-oak-bethnal-green-155583",
+      "quote": "There is a small white walled garden with a variety of plants.",
+      "retrieved_at": "2026-10-14T21:46:19Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://camra.org.uk/pubs/royal-oak-bethnal-green-155583",
+      "quote": "retains an inter-war curved fielded panelled bar counter",
+      "retrieved_at": "2026-10-14T21:46:19Z",
+      "source_kind": "directory",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:50:59Z",
+  "profiled_at": "2026-10-14T21:46:19Z",
   "history": [
     {
       "at": "2026-10-13T00:50:59Z",
@@ -133,10 +263,40 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "cut or narrowed: music.notes: dropped process comment; crowd: cut unquoted 'downstairs bar livelier' claim"
+    },
+    {
+      "at": "2026-10-14T21:46:19Z",
+      "by": "venue-storyteller",
+      "change": "added story (opened, then, now, vibe, worth knowing) from CAMRA, PubWiki, Time Out, DesignMyNight and the pub's site"
+    },
+    {
+      "at": "2026-10-14T21:51:14Z",
+      "by": "venue-checker",
+      "change": "Cut: worth_knowing: cut 'unique in London' clause"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T21:51:14Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "Standing as a pub since at least 1839; the present building dates from 1923.",
+    "then": "CAMRA's pub entry says the Royal Oak was a Truman's brewery house and was listed as one of the inter-war pubs in August 2015. According to CAMRA, the 1923 layout of three rooms and an off-sales has since been opened up, leaving a single central bar.",
+    "now": "The venue's own website describes a pub and restaurant serving food, pints and Sunday roasts. DesignMyNight lists a monthly pub quiz upstairs on the last Wednesday of the month from 7.30pm.",
+    "vibe": "Time Out's 2023 review found the downstairs bar more boisterous, while the upstairs dining room was described as calm and almost sedate.",
+    "worth_knowing": [
+      "CAMRA says the old wall panelling still shows the brewery's beer brands, lettered in gold.",
+      "According to PubWiki, the pub appeared in a Kray film and in the TV series Goodnight Sweetheart.",
+      "CAMRA notes a small walled garden with plants.",
+      "CAMRA says the upstairs room keeps a curved inter-war bar counter."
+    ],
+    "written_at": "2026-10-14T21:46:19Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Found via CAMRA, PubWiki, Time Out, pub site. Historic England listing page returned 403, not read. Could add owner history (Young's) if a source is found."
   }
 }

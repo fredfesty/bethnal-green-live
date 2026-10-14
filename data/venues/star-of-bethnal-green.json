@@ -15,7 +15,7 @@
   },
   "crowd": null,
   "accessibility": {
-    "step_free": false,
+    "step_free": null,
     "accessible_toilet": true,
     "hearing_loop": null,
     "notes": "CAMRA says there is a small step at the entrance and an accessible toilet.",
@@ -97,12 +97,154 @@
       "quote": "The Star of Bethnal Green, 359, Bethnal Green Road, E2 6LG",
       "retrieved_at": "2026-10-12T23:07:24Z",
       "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/the-star-of-bethnal-green",
+      "quote": "Dating back to 1810 and originally known as The White Hart",
+      "retrieved_at": "2026-10-14T21:46:47Z",
+      "source_kind": "press",
+      "source_date": "2023-03-08"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/the-star-of-bethnal-green",
+      "quote": "refurbished in 2008 and reopened as the flagship venue of the Electric Star Group",
+      "retrieved_at": "2026-10-14T21:46:47Z",
+      "source_kind": "press",
+      "source_date": "2023-03-08"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/food-drinks/",
+      "quote": "For over 18 years, we have been championing",
+      "retrieved_at": "2026-10-14T21:46:47Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/food-drinks/",
+      "quote": "Now the official guest kitchen at The Star of Bethnal Green",
+      "retrieved_at": "2026-10-14T21:46:47Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/karaoke/",
+      "quote": "Experience Karaoke like never before in these stylish, soundproof spaces.",
+      "retrieved_at": "2026-10-14T21:46:47Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/karaoke/",
+      "quote": "This iconic disco-themed Karaoke room is perfect for groups of up to 18 people",
+      "retrieved_at": "2026-10-14T21:46:47Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/karaoke/",
+      "quote": "Each room features unique decor and top-of-the-line sound.",
+      "retrieved_at": "2026-10-14T21:46:47Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/private-hire/",
+      "quote": "located at the front of the pub",
+      "retrieved_at": "2026-10-14T21:46:47Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/the-star-of-bethnal-green",
+      "quote": "this quirky little East End boozer",
+      "retrieved_at": "2026-10-14T21:46:47Z",
+      "source_kind": "press",
+      "source_date": "2023-03-08"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.timeout.com/london/bars-and-pubs/the-star-of-bethnal-green",
+      "quote": "DJ nights featuring local lad Idris Elba on the decks",
+      "retrieved_at": "2026-10-14T21:46:47Z",
+      "source_kind": "press",
+      "source_date": "2023-03-08"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/private-hire/",
+      "quote": "share the same space that Metronomy, Laura Marling and Cage The Elephant have all performed on",
+      "retrieved_at": "2026-10-14T21:46:47Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-12T23:05:39Z",
+  "profiled_at": "2026-10-14T21:46:47Z",
   "review": {
-    "checked_at": "2026-10-12T23:14:31Z",
-    "removed_fields": []
+    "checked_at": "2026-10-14T21:51:21Z",
+    "removed_fields": [
+      "accessibility.step_free"
+    ]
   },
-  "needs_review": null
+  "needs_review": null,
+  "story": {
+    "opened": "Dates back to 1810, according to Time Out, when it was The White Hart.",
+    "then": "Time Out says a 2008 refurbishment relaunched it as the lead pub of the Electric Star Group.",
+    "now": "The venue's own website says its kitchen has long hosted street-food traders, and Peck Peck Chicken is now the guest kitchen. Themed private karaoke rooms can be booked; the Studio 54 room takes groups of up to 18.",
+    "vibe": "Time Out calls it a quirky little East End boozer. The venue's own website says each karaoke room has its own decor and good sound, and the pub has a stage at the front.",
+    "worth_knowing": [
+      "Time Out says Idris Elba has DJed here.",
+      "According to the venue's own website, Cage The Elephant, Laura Marling and Metronomy have all played on its stage."
+    ],
+    "written_at": "2026-10-14T21:46:47Z"
+  },
+  "history": [
+    {
+      "at": "2026-10-14T21:46:47Z",
+      "by": "venue-storyteller",
+      "change": "added story (opened, then, now, vibe, worth knowing) from Time Out and the venue's own site"
+    },
+    {
+      "at": "2026-10-14T21:51:21Z",
+      "by": "venue-checker",
+      "change": "Cut: accessibility.step_free (a small step is not 'no step-free access'); story.then and story.vibe narrowed"
+    }
+  ],
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "outcome": "written",
+    "attempts": 1,
+    "next_check": null,
+    "note": "Time Out and the venue's own pages used. Could still look for local history of the White Hart building and any Evening Standard or Londonist coverage."
+  }
 }

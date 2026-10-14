@@ -5,7 +5,7 @@
   "address": "231 Cambridge Heath Rd, Bethnal Green, London",
   "postcode": "E2 0EL",
   "website": "https://backyardcomedyclub.co.uk",
-  "summary": "A purpose-built stand-up comedy club on Cambridge Heath Road. It says it is the largest of its kind in London.",
+  "summary": "A purpose-built comedy club on Cambridge Heath Road. It says it is the largest of its kind in London.",
   "music": {
     "styles": []
   },
@@ -139,9 +139,29 @@
       "quote": "Backyard Comedy Club, 231 Cambridge Heath Rd, Bethnal Green, E2 0EL",
       "retrieved_at": "2026-10-13T00:09:41Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.timeout.com/london/comedy/backyard-comedy-club-34",
+      "quote": "since 2013, they've also hosted variety shows, cabaret, swing dancing and more.",
+      "retrieved_at": "2026-10-14T21:46:24Z",
+      "source_kind": "press",
+      "source_date": "2018-11-01"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.timeout.com/london/comedy/backyard-comedy-club-34",
+      "quote": "run by British stand-up Lee Hurst, star of 'They Think it's All Over', who you can occasionally find performing here.",
+      "retrieved_at": "2026-10-14T21:46:24Z",
+      "source_kind": "press",
+      "source_date": "2018-11-01"
     }
   ],
-  "profiled_at": "2026-10-13T00:40:36Z",
+  "profiled_at": "2026-10-14T21:46:24Z",
   "history": [
     {
       "at": "2026-10-13T00:40:36Z",
@@ -152,10 +172,34 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "cut or narrowed: summary: cut unquoted '20 years' claim; accessibility.notes: 'email' -> 'contact'; cost.notes: dropped implied price range"
+    },
+    {
+      "at": "2026-10-14T21:46:24Z",
+      "by": "venue-storyteller",
+      "change": "added story: then, worth_knowing (Chortle, Time Out)"
+    },
+    {
+      "at": "2026-10-14T21:51:14Z",
+      "by": "venue-checker",
+      "change": "Cut: summary: purpose-built comedy club; story.then cut to the Time Out line; first worth_knowing (Chortle, old club) cut"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T21:51:14Z",
     "removed_fields": []
+  },
+  "story": {
+    "then": "Time Out says the club has hosted variety shows, cabaret and swing dancing since 2013.",
+    "worth_knowing": [
+      "Time Out says the club is run by stand-up Lee Hurst, who still performs there from time to time."
+    ],
+    "written_at": "2026-10-14T21:46:24Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Found Chortle (2007, 2010) and Time Out. Not confirmed that the 1998 club and the present 231 Cambridge Heath Rd building are the same site, so no 'opened' line. Tried: own site (no history page), 2 searches. Next: the Travelodge planning link, 2012-13 reopening news, recent reviews for now/vibe."
   }
 }

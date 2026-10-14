@@ -20,7 +20,7 @@
   },
   "cost": {
     "free_entry": "some-nights",
-    "notes": "Regular classes are free of charge; retreats and courses ask for payment when you book."
+    "notes": "Regular classes are free of charge; retreats ask for payment when you book."
   },
   "age_policy": null,
   "capacity": null,
@@ -99,11 +99,81 @@
       "quote": "need to ask for a certain amount when you book",
       "retrieved_at": "2026-10-13T14:13:53Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://londonist.com/london/history/these-london-buildings-all-used-to-be-fire-stations",
+      "quote": "London Buddhist Centre opened in 1978 in the former Bethnal Green Fire Station",
+      "retrieved_at": "2026-10-14T21:50:00Z",
+      "source_kind": "press",
+      "source_date": "2017-05-18"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://londonist.com/london/history/these-london-buildings-all-used-to-be-fire-stations",
+      "quote": "The building had been disused since 1968, having been built as a fire station in 1889.",
+      "retrieved_at": "2026-10-14T21:50:00Z",
+      "source_kind": "press",
+      "source_date": "2017-05-18"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://londonist.com/london/history/these-london-buildings-all-used-to-be-fire-stations",
+      "quote": "The building had been disused since 1968, having been built as a fire station in 1889.",
+      "retrieved_at": "2026-10-14T21:50:00Z",
+      "source_kind": "press",
+      "source_date": "2017-05-18"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/about-us/about-the-lbc",
+      "quote": "daily yoga classes, regular events for families, classes and retreats for sub-25s and people of colour, and evenings with well known artists at PoetryEast.",
+      "retrieved_at": "2026-10-14T21:50:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/about-us/about-the-lbc",
+      "quote": "hosts school visits, Buddhist festivals and runs two charity shops. We are open Monday-Saturday, 10am-5pm.",
+      "retrieved_at": "2026-10-14T21:50:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/about-us/about-the-lbc",
+      "quote": "We're also continuing to offer a number of events online.",
+      "retrieved_at": "2026-10-14T21:50:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/about-us/lamas-pyjamas",
+      "quote": "The shop is run in line with Buddhist ethical principles",
+      "retrieved_at": "2026-10-14T21:50:00Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T14:17:34Z",
+  "profiled_at": "2026-10-14T21:50:00Z",
   "review": {
-    "checked_at": "2026-10-13T14:20:42Z",
+    "checked_at": "2026-10-14T21:51:14Z",
     "removed_fields": []
   },
   "needs_review": null,
@@ -117,6 +187,33 @@
       "at": "2026-10-13T14:20:42Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T21:50:00Z",
+      "by": "venue-storyteller",
+      "change": "added story: opened, then, now, worth knowing"
+    },
+    {
+      "at": "2026-10-14T21:51:14Z",
+      "by": "venue-checker",
+      "change": "Cut: cost.notes narrowed to retreats; worth_knowing cut 'team-based business'"
     }
-  ]
+  ],
+  "story": {
+    "opened": "Opened in 1978 inside Bethnal Green's old fire station, according to Londonist.",
+    "then": "Londonist says the building was put up as a fire station in 1889 and had stood disused since 1968, before the centre moved in.",
+    "now": "The venue's own website says the centre hosts Buddhist festivals, daily yoga, family events, PoetryEast evenings with well-known artists and school visits, and runs two charity shops. It is open Monday to Saturday, 10am to 5pm, and some events are also online.",
+    "worth_knowing": [
+      "The building was a fire station from 1889 until 1968, according to Londonist.",
+      "Its Lama's Pyjamas charity shop is run on Buddhist ethical principles, says the venue's own website."
+    ],
+    "written_at": "2026-10-14T21:50:00Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Opening and building history from Londonist (2017); current activity from the centre's own site. No vibe source found (romanroadlondon.com is never-use). Could still try Time Out or Historic England for a vibe/history addition."
+  }
 }

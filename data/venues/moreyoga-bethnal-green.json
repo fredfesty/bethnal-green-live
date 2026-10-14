@@ -79,11 +79,41 @@
       "quote": "Our most affordable memberships with unlimited usage across all locations.",
       "retrieved_at": "2026-10-13T14:13:53Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+      "quote": "Beyond the mat, it is a local hub, connecting neighbours through community events, sharing circles, and workshops.",
+      "retrieved_at": "2026-10-14T21:45:34Z",
+      "source_kind": "primary",
+      "source_date": "2026-08-17"
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+      "quote": "this corrugated arch space has become a warm, minimalist urban oasis, with soft ply-panelled walls, floating paper lantern lighting, and plenty of room to breathe.",
+      "retrieved_at": "2026-10-14T21:45:34Z",
+      "source_kind": "primary",
+      "source_date": "2026-08-17"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.moreyoga.co.uk/yoga-studio-london/bethnal-green",
+      "quote": "Hidden just off the local streets through brick alleyways",
+      "retrieved_at": "2026-10-14T21:45:34Z",
+      "source_kind": "primary",
+      "source_date": "2026-08-17"
     }
   ],
-  "profiled_at": "2026-10-13T14:17:34Z",
+  "profiled_at": "2026-10-14T21:45:34Z",
   "review": {
-    "checked_at": "2026-10-13T14:20:42Z",
+    "checked_at": "2026-10-14T21:51:14Z",
     "removed_fields": []
   },
   "needs_review": null,
@@ -97,6 +127,31 @@
       "at": "2026-10-13T14:20:42Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T21:45:34Z",
+      "by": "venue-storyteller",
+      "change": "added story (now, vibe, worth knowing) from the studio's own page"
+    },
+    {
+      "at": "2026-10-14T21:51:14Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
     }
-  ]
+  ],
+  "story": {
+    "now": "The venue's own website describes the studio as a local hub, with community events, sharing circles and workshops alongside its regular classes.",
+    "vibe": "The venue's own website describes a corrugated railway-arch room with soft plywood-panelled walls and paper lantern lighting, kept minimal and warm, with plenty of floor space.",
+    "worth_knowing": [
+      "The studio is reached through brick alleyways just off the surrounding streets, according to the venue's own website."
+    ],
+    "written_at": "2026-10-14T21:45:34Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Only the studio's own page found; one search returned no press or opening date. Could try MoreYoga blog/news pages for when the Gales Gardens arch opened, and local press on the arch."
+  }
 }
