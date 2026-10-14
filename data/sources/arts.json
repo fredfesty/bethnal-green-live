@@ -63,7 +63,7 @@
       "id": "designmynight",
       "name": "DesignMyNight",
       "policy": "discovery-only",
-      "how": "Leads only (registry-wide policy). Note: it appears to be the actual booking system for Backyard Comedy Club and lists Three Colts Tavern's comedy night, so for those venues it is the best text available. A person should decide whether to allow a per-venue exception; until then, cap confidence at medium.",
+      "how": "Leads only (registry-wide policy), with one exception a person approved: Backyard Comedy Club's DesignMyNight page is its real booking system, so it is that venue's primary listing (see its entry). Three Colts Tavern's comedy night is also only on DesignMyNight; that venue stays no_primary_listing, so its confidence is capped at medium.",
       "domains": [
         "designmynight.com"
       ]
@@ -204,9 +204,14 @@
         {
           "platform": "designmynight",
           "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
-          "role": "discovery",
+          "role": "primary",
           "readable": "ok",
-          "notes": "Lists dated shows (Thursday/Friday/Saturday club nights and one-offs). Appears to be the club's real booking system."
+          "notes": "Lists dated shows (Thursday/Friday/Saturday club nights and one-offs). Approved as this venue's primary listing: evidence from this page and the show pages under it is 'primary', so shows can be 'high' and publish. Quote the show title next to its date and time.",
+          "approved": {
+            "by": "Fred Festy",
+            "on": "2026-10-14",
+            "why": "The club's own site lists no readable dates; DesignMyNight is its real booking system."
+          }
         },
         {
           "platform": "mato",
@@ -218,7 +223,7 @@
       ],
       "status": "open",
       "status_evidence": "DesignMyNight lists shows on Wed 14 Oct 2026, Thursday 15th October 2026 and Mon 9 Nov 2026.",
-      "notes": "Biggest comedy venue in the area. Own site gives no readable dates, so confidence is capped at medium until a person approves DesignMyNight for this venue or the club shares a feed. Strong candidate for a direct relationship."
+      "notes": "Biggest comedy venue in the area. Its own site gives no readable dates; its DesignMyNight page is approved as its primary listing (14 Oct 2026). Shows held before then only because they rested on DesignMyNight should be recorded again (same id) with that evidence marked 'primary'. Strong candidate for a direct relationship."
     },
     {
       "id": "bgwmc",
@@ -514,15 +519,43 @@
       "listings": [
         {
           "platform": "venue-site",
-          "url": "https://www.genesiscinema.co.uk/whats-on",
+          "url": "https://www.genesiscinema.co.uk/whatson/qanda",
           "role": "primary",
           "readable": "ok",
-          "notes": "Film titles and day tabs readable; per-film times may need the film page."
+          "notes": "Every screening with a Q&A, each with its title, next date (e.g. 'Sun 25 Oct', no year) and time on the lines just below. One read covers the whole programme. Tested 14 Oct 2026."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://www.genesiscinema.co.uk/whatson/events",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Special events (presented screenings, live shows, film clubs), same layout as the Q&A page. Some are music or poetry: take only arts ones."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://www.genesiscinema.co.uk/whatson/bartrash",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Bar Trash cult-film nights, same layout as the Q&A page. Tested 14 Oct 2026."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://www.genesiscinema.co.uk/whatson/35mm",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "35mm screenings, same layout. Read 'No 35mm events scheduled' on 14 Oct 2026."
+        },
+        {
+          "platform": "venue-site",
+          "url": "https://www.genesiscinema.co.uk/event/114463",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Example of a film's own page (/event/<number>): prints every date it shows and its times ('Sun 25 Oct' then '18:30'). Read it when a film on the lists above may show on more than one date. The /whats-on page shows only one day's screenings, so don't use it for dates."
         }
       ],
       "status": "open",
       "status_evidence": "What's On lists 'Cat Video Fest 2026' and screenings on Wed 14 Oct to Fri 16 Oct; the contact page lists an event on Monday 19th October 2026.",
-      "notes": "Independent cinema with regular special screenings and Q&As."
+      "notes": "Independent cinema with regular special screenings and Q&As. Ordinary releases are not events; record Q&As, presented screenings, festivals, one-off and live events. The listing pages print dates without a year: apply the year-and-weekday rule."
     },
     {
       "id": "rich-mix",

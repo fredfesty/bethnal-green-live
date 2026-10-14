@@ -7,14 +7,15 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 1. **Never invent a fact.** Every date, time, price, venue, line-up, age limit or status in `data/` must be backed by a word-for-word quote from a page, with its URL. If you can't quote it, leave the field empty.
 2. **Stay in your lane.** Each agent writes only to its own paths (table below). Nobody but a person edits `data/sources/`; agents suggest changes in their run report.
 3. **Never push to `main`, never merge.** Inside a routine, only the routine's main session uses git: it pushes one `claude/<routine>-<date>` branch. Subagents never touch git. Merging is done by GitHub (`.github/workflows/morning-run-pr.yml`, only when the `AUTO_MERGE` variable is on and every check passes) or by a person. Working by hand, use a `claude/<agent>-<date>` branch; Fred has asked that Claude then opens the pull request and merges it itself once every check on it has passed (this does not apply to the scheduled runs, which merge only through their workflows, or to newsletter issues, which Fred reads first).
-4. **Respect the web.** Obey robots.txt, never fetch ra.co, Instagram or Facebook, never log in anywhere, stop on 403/429. Never copy promo text or images.
+4. **Respect the web.** Obey robots.txt, never fetch ra.co, Instagram or Facebook, never log in anywhere, stop on 403/429. Never copy promo text or images. Hard limits per run: 20 pages per website and 5 web searches per agent (`scripts/budget.py` enforces them for the scouts).
 5. **Run the checks before finishing**, and never weaken a record just to make a check pass.
 
 ## Who writes what
 
 | Agent | Instructions | Writes to |
 | --- | --- | --- |
-| Nights & music scout (all scouts also follow `docs/scout-rules.md`) | `.claude/agents/scout-nights-music.md` | `data/candidates/nights-music/<date>/`, `data/runs/nights-music/` |
+| Club & DJ nights scout (all scouts also follow `docs/scout-rules.md`) | `.claude/agents/scout-nights-clubs.md` | `data/candidates/nights-music/<date>/` (shared, never overwriting), `data/runs/nights-clubs/` |
+| Gigs & live music scout | `.claude/agents/scout-nights-gigs.md` | `data/candidates/nights-music/<date>/` (shared, never overwriting), `data/runs/nights-gigs/` |
 | Verifier | `.claude/agents/verifier.md` | `data/verification/<date>/`, `data/events/`, `data/runs/verifier/` |
 | Arts scout | `.claude/agents/scout-arts.md` | `data/candidates/arts/<date>/`, `data/runs/arts/` |
 | Food & drink scout | `.claude/agents/scout-food-drink.md` | `data/candidates/food-drink/<date>/`, `data/runs/food-drink/` |
@@ -87,7 +88,9 @@ python scripts/venue_stories.py todo --date <run-date> --max 12
 python scripts/newsletter.py week <issue-date>
 python scripts/newsletter.py render data/newsletter/issues/<issue-date>.json --format md
 python scripts/check_quote.py --file <files…>
-python scripts/page_text.py <url> [--find "words"]
+python scripts/page_text.py [--as <scout>] <url> [--find "words"]
+python scripts/budget.py search --as <scout> "<query>"
+python scripts/budget.py usage [--as <scout>] [--date <run-date>]
 python -m pytest -q
 (cd site && npm test)
 ```

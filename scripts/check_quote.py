@@ -9,6 +9,9 @@ not against the scout's copy.
 Usage
   python scripts/check_quote.py --file data/candidates/nights-music/2026-10-13/a.json [b.json ...]
   python scripts/check_quote.py --url https://example.com/event --quote "Fri 16 Oct, 10pm"
+  python scripts/check_quote.py --as nights-clubs --file ...   (a scout's self-check: pages it already read
+                                                                this run come from the run's cache, new ones
+                                                                count against its budget; see scripts/budget.py)
 
 Works on any JSON file with an 'evidence' list (candidates and events). With --story, it checks an event's
 story.evidence instead (the event story checker); 'index' is then the position in story.evidence.
@@ -54,6 +57,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import budget  # noqa: E402
 import policy  # noqa: E402
 
 USER_AGENT = "BethnalGreenLiveBot/0.1 (+https://github.com/fredfesty/bethnal-green-live)"
@@ -202,6 +206,10 @@ _per_domain: dict[str, int] = {}
 _slowed: set[str] = set()
 _pages: dict[str, dict] = {}
 MAX_PER_DOMAIN = 20
+# Set by --as: the agent whose run budget pays for each page (scripts/budget.py). None for the verifier,
+# which never uses the run's page cache.
+BUDGET_AGENT: str | None = None
+BUDGET_DATE: str | None = None
 
 
 def robots_verdict(url: str) -> str | None:
@@ -210,17 +218,31 @@ def robots_verdict(url: str) -> str | None:
     if parts.scheme not in ("http", "https"):
         return None
     base = f"{parts.scheme}://{parts.netloc}"
+    if base not in _robots and BUDGET_AGENT:  # read robots.txt once per run, not once per page
+        cached = budget.cache_get("robots", base, BUDGET_DATE)
+        if cached is not None:
+            if "lines" in cached:
+                rp = urllib.robotparser.RobotFileParser()
+                rp.parse(cached["lines"])
+                _robots[base] = rp
+            else:
+                _robots[base] = cached["state"]
     if base not in _robots:
         rp = urllib.robotparser.RobotFileParser()
+        remember: dict = {}
         try:
             req = urllib.request.Request(base + "/robots.txt", headers={"User-Agent": USER_AGENT})
             with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-                rp.parse(decode(r.read(500_000), r.headers.get_content_charset()).splitlines())
-            _robots[base] = rp
+                lines = decode(r.read(500_000), r.headers.get_content_charset()).splitlines()
+            rp.parse(lines)
+            _robots[base], remember = rp, {"lines": lines}
         except urllib.error.HTTPError as e:
             _robots[base] = "allow-all" if 400 <= e.code < 500 and e.code != 429 else f"robots.txt answered HTTP {e.code}"
+            remember = {"state": _robots[base]}
         except Exception as e:
             _robots[base] = f"robots.txt unreachable ({type(e).__name__})"
+        if BUDGET_AGENT and remember:
+            budget.cache_put("robots", base, remember, BUDGET_DATE)
     rp = _robots[base]
     if rp == "allow-all":
         return None
@@ -251,10 +273,19 @@ def fetch(url: str) -> dict:
     """{'status', 'text', 'final_url', 'error', 'result'?}. Cached per process."""
     if url in _pages:
         return _pages[url]
+    if BUDGET_AGENT:  # already read in this run (by this or another scout): no new request to the site
+        cached = budget.cache_get("pages", url, BUDGET_DATE)
+        if cached is not None:
+            _pages[url] = cached
+            return cached
     host = policy.domain_of(url)
     if host in _slowed or _per_domain.get(host, 0) >= MAX_PER_DOMAIN:
         return {"result": "rate-limited", "status": None, "text": None, "final_url": None,
                 "error": f"per-site limit reached for {host} this run"}
+    if BUDGET_AGENT:
+        reason = budget.charge_page(BUDGET_AGENT, url, BUDGET_DATE)
+        if reason:
+            return {"result": "rate-limited", "status": None, "text": None, "final_url": None, "error": reason}
     _per_domain[host] = _per_domain.get(host, 0) + 1
     try:
         req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "en-GB,en"})
@@ -275,7 +306,23 @@ def fetch(url: str) -> dict:
     except Exception as e:  # timeouts, DNS, TLS, proxy refusals, missing local files
         out = {"status": None, "text": None, "final_url": None, "error": f"{type(e).__name__}: {e}"}
     _pages[url] = out
+    if BUDGET_AGENT and out.get("text") is not None:
+        budget.cache_put("pages", url, out, BUDGET_DATE)
     return out
+
+
+def budget_refusal(url: str) -> str | None:
+    """Under --as: why reading this page now would break a hard limit (None if it's fine or already cached)."""
+    if not BUDGET_AGENT or url in _pages or budget.cache_get("pages", url, BUDGET_DATE) is not None:
+        return None
+    return budget.page_refusal(budget._ledger(BUDGET_DATE or budget.run_date()), BUDGET_AGENT, url)
+
+
+def use_budget(agent: str | None, date: str | None = None) -> None:
+    """Make every fetch in this process count against `agent`'s run budget (scripts/budget.py)."""
+    if agent:
+        budget.check_agent(agent)
+    globals()["BUDGET_AGENT"], globals()["BUDGET_DATE"] = agent, date
 
 
 # ---------------------------------------------------------------- matching
@@ -379,8 +426,15 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--story", action="store_true",
                     help="with --file: check the quotes in story.evidence (an event's story) instead of evidence")
     ap.add_argument("--max-per-domain", type=int, default=20)
+    ap.add_argument("--as", dest="agent", default=None,
+                    help="scouts: your scout name, so re-checks use this run's page cache and budget (never the verifier)")
+    ap.add_argument("--run-date", default=None, help="with --as: the run date (default: today in London)")
     args = ap.parse_args(argv)
     globals()["MAX_PER_DOMAIN"] = args.max_per_domain
+    try:
+        use_budget(args.agent, args.run_date)
+    except ValueError as e:
+        ap.error(str(e))
 
     jobs: list[tuple[str | None, int, dict, str | None]] = []
     if args.url:

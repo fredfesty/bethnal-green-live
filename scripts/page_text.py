@@ -7,10 +7,14 @@ is obeyed (for us and for Claude's crawlers), and a site that answers 403/429 is
 
 Usage
   python scripts/page_text.py https://www.oxfordhouse.org.uk/events/
+  python scripts/page_text.py --as arts <url>              # scouts: always say who you are (scripts/budget.py)
   python scripts/page_text.py <url> --find "friday jazz"     # only lines containing these words, with context
   python scripts/page_text.py <url> --max-chars 20000
 
 The first line says what happened: "OK <final url>", or "REFUSED <reason>" / "FAILED <reason>".
+With --as, every page counts against that scout's hard limits for the run (20 pages per website, 150 in
+all); over a limit the answer is "REFUSED budget: ..." and that site must be left alone for the rest of
+the run. A page already read this run comes from the run's cache and costs nothing.
 JSON-LD event data embedded in the page is included as text, so dates and prices from it can be quoted too.
 """
 from __future__ import annotations
@@ -29,16 +33,30 @@ def main(argv=None) -> int:
     ap.add_argument("url")
     ap.add_argument("--find", help="show only lines containing all these words (case-insensitive), with 2 lines of context")
     ap.add_argument("--max-chars", type=int, default=30000)
+    ap.add_argument("--as", dest="agent", default=None, help="your scout name, e.g. nights-clubs (counts the page against your budget)")
+    ap.add_argument("--run-date", default=None, help="with --as: the run date (default: today in London)")
     args = ap.parse_args(argv)
+    try:
+        cq.use_budget(args.agent, args.run_date)
+    except ValueError as e:
+        print(f"REFUSED {e}")
+        return 2
 
     if policy.is_forbidden(args.url):
         print("REFUSED never-use site under our source policy")
+        return 2
+    reason = cq.budget_refusal(args.url)  # before anything touches the site, robots.txt included
+    if reason:
+        print(f"REFUSED {reason}")
         return 2
     reason = cq.robots_verdict(args.url)
     if reason:
         print(f"REFUSED {reason}")
         return 2
     page = cq.fetch(args.url)
+    if page.get("result") == "rate-limited":
+        print(f"REFUSED {page.get('error')}")
+        return 2
     if page.get("result") == "blocked":
         print(f"REFUSED {page.get('error')}")
         return 2
