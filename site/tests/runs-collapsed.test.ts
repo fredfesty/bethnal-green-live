@@ -11,11 +11,14 @@ test("the exhibitions & runs section is a details element that starts closed", (
 });
 
 test("the closed section still shows its title and how many runs it holds", () => {
-  assert.match(page, /<summary class="runs__summary">[\s\S]*Exhibitions & runs[\s\S]*\{runs\.length\}/);
+  assert.match(page, /<h2 class="day__head" id="runs-head">[\s\S]*Exhibitions & runs[\s\S]*\{runs\.length\}/);
 });
 
-test("the title is a heading inside the summary", () => {
-  assert.match(page, /<summary class="runs__summary">\s*<h2 class="day__head" id="runs-head">/);
+test("the title is a real heading outside the summary button", () => {
+  const summary = page.match(/<summary class="runs__summary">[\s\S]*?<\/summary>/);
+  assert.ok(summary, "runs section needs a summary");
+  assert.doesNotMatch(summary[0], /<h[1-6]/, "no heading inside the summary");
+  assert.match(page, /<h2 class="day__head" id="runs-head">[\s\S]*?<\/h2>\s*<details class="runs"/);
 });
 
 test("a search or filter opens the section only when matches first appear", () => {
@@ -26,4 +29,11 @@ test("a search or filter opens the section only when matches first appear", () =
 
 test("clearing the filters folds the section away again", () => {
   assert.match(page, /form\.reset\(\); if \(runsBox\) runsBox\.open = false;/);
+});
+
+test("the toggle button has real, readable text for both states", () => {
+  const summary = page.match(/<summary class="runs__summary">[\s\S]*?<\/summary>/)![0];
+  const text = summary.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  assert.match(text, /Show exhibitions & runs/);
+  assert.match(text, /Hide exhibitions & runs/);
 });
