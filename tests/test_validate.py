@@ -635,3 +635,41 @@ def test_venues_shared_between_registries_agree():
                 assert (v["name"], v["zone"]) == (other["name"], other["zone"]), (v["id"], p.name, where)
             else:
                 seen[v["id"]] = (v, p.name)
+
+
+# ------------------------------------------------------------- an aggregator page approved as a venue's own
+
+DMN_BACKYARD = "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club"
+
+
+def _on(venue_id, url, kind="primary"):
+    return {"venue": {"venue_id": venue_id}, "ticket_url": None,
+            "evidence": [{"url": url, "source_kind": kind, "fields": ["title"], "quote": "x" * 12}]}
+
+
+def test_approved_aggregator_page_counts_as_primary_for_its_venue_only():
+    assert validate.check_sources(_on("backyard-comedy-club", DMN_BACKYARD)) == []
+    assert validate.check_sources(_on("backyard-comedy-club", DMN_BACKYARD + "/stand-up-for-gamesaid")) == []
+    # the same platform, another venue: still an aggregator
+    other = "https://www.designmynight.com/london/bars/bethnal-green/three-colts-tavern/monday-night-open-mic-comedy"
+    assert has(validate.check_sources(_on("three-colts-tavern", other)), "is an aggregator")
+    # the approved page cited for a different venue: still an aggregator
+    assert has(validate.check_sources(_on("bgwmc", DMN_BACKYARD)), "is an aggregator")
+    # a look-alike path that merely starts with the same letters is not under the approved page
+    assert has(validate.check_sources(_on("backyard-comedy-club", DMN_BACKYARD + "-copycat")), "is an aggregator")
+    # path tricks that climb out of the approved page, other ports and plain http don't count
+    for trick in ("/../three-colts-tavern", "/%2e%2e/three-colts-tavern", "/x/..%2f..%2fother"):
+        assert has(validate.check_sources(_on("backyard-comedy-club", DMN_BACKYARD + trick)), "is an aggregator")
+    for other in (DMN_BACKYARD.replace("https:", "http:"), DMN_BACKYARD.replace(".com/", ".com:8443/")):
+        assert has(validate.check_sources(_on("backyard-comedy-club", other)), "is an aggregator")
+
+
+def test_backyard_show_on_its_approved_listing_can_publish(validators, repo):
+    def to_backyard(d):
+        d["venue"].update(venue_id="backyard-comedy-club", name="Backyard Comedy Club")
+        for e in d["evidence"]:
+            e.update(url=DMN_BACKYARD, source_kind="primary")
+    cand = repo.edit(repo.cand, to_backyard)
+    repo.edit(repo.ver, lambda d: [c.update(url=DMN_BACKYARD) for c in d["field_checks"] if c.get("url")])
+    assert validate.check_sources(cand) == []
+    assert validate.check_verification(repo.ver, load(repo.ver), None) == []

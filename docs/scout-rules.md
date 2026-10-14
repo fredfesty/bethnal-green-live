@@ -1,10 +1,10 @@
 # Rules for every scout
 
-Every scout (nights & music, arts, food & drink, community, health & wellness) follows this file **as well as** its own agent file. Your agent file says what's yours and where to look; this file says how to work. If the two disagree, the stricter one wins. `CLAUDE.md` at the repo root applies too.
+Every scout (club & DJ nights, gigs & live music, arts, food & drink, community, health & wellness) follows this file **as well as** its own agent file. Your agent file says what's yours and where to look; this file says how to work. If the two disagree, the stricter one wins. `CLAUDE.md` at the repo root applies too.
 
 Your only job is to **find** events and **record what the sources say, with proof**. You do not decide what gets published, you do not write listings copy, and you never fill a gap with a guess. Don't touch git: the routine that called you handles branches and pull requests. A separate verifier re-checks everything you hand over, so an empty field is always better than a wrong one.
 
-In the paths below, `<category>` is your category (`nights-music`, `arts`, `food-drink`, `community` or `health-wellness`) and `<run-date>` is today's date in London.
+In the paths below, `<category>` is your category (`nights-music`, `arts`, `food-drink`, `community` or `health-wellness`), `<scout>` is your scout name and `<run-date>` is today's date in London. Your scout name is the same as your category, except for the two nights scouts: both have the category `nights-music` and share its registry and candidate folder, and their scout names are `nights-clubs` (club & DJ nights) and `nights-gigs` (gigs & live music).
 
 ## Where and when
 
@@ -36,17 +36,23 @@ In the paths below, `<category>` is your category (`nights-music`, `arts`, `food
 
 ## Reading pages
 
-- **Read every page you take evidence from with** `python scripts/page_text.py <url>` (add `--find "<words>"` to jump to the right part of a long page). It prints the page's exact visible text plus any embedded event data, and it obeys robots.txt and our never-use list, including on redirects. **Copy quotes only from its output**, so they match word for word.
-- WebFetch and WebSearch are for discovery only: finding which pages to read. Their output is reworded, so never quote it.
-- If `page_text.py` answers `REFUSED`, leave that page alone. If it answers `FAILED` or prints almost nothing (a page built by JavaScript), look for the same event on the ticket seller's page (DICE, Ticket Tailor, Skiddle, Eventbrite) instead. If there is none, skip the event and mention it in the run report.
+- **Read every page with** `python scripts/page_text.py --as <scout> <url>` (add `--find "<words>"` to jump to the right part of a long page). That includes listings and discovery pages, not just the pages you quote: it is the only way you read websites, because it is what counts your page limits. It prints the page's exact visible text plus any embedded event data, and it obeys robots.txt and our never-use list, including on redirects. **Copy quotes only from its output**, so they match word for word.
+- **Do not use WebFetch.** Its reads are not counted against the limits below. Anything else that contacts a website (an API call such as Skiddle's) must first be counted with `python scripts/budget.py page --as <scout> <url>`, and made only if that answers `OK`.
+- **WebSearch** is for discovery only (finding which pages to read; its output is reworded, so never quote it). **Before every web search, run** `python scripts/budget.py search --as <scout> "<your query>"`. Search only if it answers `OK`. When it answers `REFUSED`, make no more web searches this run.
+- If `page_text.py` answers `REFUSED`, leave that page alone. `REFUSED budget: …` means you have reached a limit for that website (or for the run): read **nothing more from that site** in this run, not even through another of its pages, and list in the run report what you skipped because of it. If it answers `FAILED` or prints almost nothing (a page built by JavaScript), look for the same event on the ticket seller's page (DICE, Ticket Tailor, Skiddle, Eventbrite) instead. If there is none, skip the event and mention it in the run report.
 
 ## Rules for sources
 
 - **Never fetch ra.co** (Resident Advisor) or any scraper or site that republishes it. Its terms forbid it. If an event only appears on RA, mention the event name and venue in the run report so a person can ask the promoter; do not record it.
 - **Never fetch Instagram or Facebook**, or anything behind a login, cookie wall or paywall. Never log in anywhere.
 - Check each platform's `policy` in the registry before using it: `do-not-use` and `do-not-scrape` are never fetched; `discovery-only` sources can never be the sole evidence for a `high` candidate.
-- Be polite: one page at a time, **a hard limit of 20 fetches per website per run** (and at most 5 web searches), and stop on a 403, 429 or a robots.txt refusal. Note it in the report and move on.
-- Budget: stop after about **150 page fetches** in a run, even if you're not finished, and say in the report what was skipped. Spend the budget on core venues first, then fringe, then outer.
+- **Hard limits, set by Fred so nobody we list from is upset. They are not guides and there are no exceptions:**
+  - **20 pages per website per run.** The two nights scouts share one allowance of 20 per website between them, and split dice.fm: 14 pages for `nights-clubs`, 6 for `nights-gigs`.
+  - **5 web searches per run.**
+  - **150 pages in all per run.**
+  `page_text.py --as <scout>` and `budget.py search` enforce them and refuse once a limit is reached. Plan before you read: count the pages a site will need, and on a big site (DICE, a council calendar) read the listings that cover several events first and single event pages only for your strongest picks. A page you have already read this run is served from the run's cache and costs nothing.
+- Stop at once on a 403, 429 or a robots.txt refusal. Note it in the report and move on.
+- Spend the budget on core venues first, then fringe, then outer.
 
 ## Rules for facts (the important bit)
 
@@ -76,19 +82,19 @@ In the paths below, `<category>` is your category (`nights-music`, `arts`, `food
 
 ## Output
 
-One JSON file per candidate at `data/candidates/<category>/<run-date>/<id>.json`, matching `schemas/candidate-event.schema.json`. The file name must be the id. Set `scout.name` to `<category>` and `scout.run_id` to `<run-date>-a` (`-b` for a second run the same day). A worked example is in `data/candidates/nights-music/_example/`. `summary` is internal only; it is never published as written.
+One JSON file per candidate at `data/candidates/<category>/<run-date>/<id>.json`, matching `schemas/candidate-event.schema.json`. The file name must be the id. **Never overwrite a file that is already there** (the two nights scouts share a folder and write at the same time): immediately before writing each file, run `test -e <path> && echo EXISTS`; if it prints EXISTS, don't write it, and mention the id in your run report. Set `scout.name` to `<scout>` and `scout.run_id` to `<run-date>-a` (`-b` for a second run the same day). A worked example is in `data/candidates/nights-music/_example/`. `summary` is internal only; it is never published as written.
 
 ## Self-check before you finish
 
-1. `python scripts/validate.py candidates data/candidates/<category>/<run-date> --window`. Fix every failure. If you can't fix one honestly (no evidence for a field), empty that field rather than inventing support.
-2. `python scripts/check_quote.py --file data/candidates/<category>/<run-date>/*.json`. A `missing` or `near-mismatch` quote means you paraphrased, stitched or misread: copy the exact text again. `title_nearby: false` means the quote is on a list page away from the title: quote a passage that includes the title, or use the event's own page. `blocked` or `forbidden`: drop that evidence item and the facts that relied on it. `thin-page` or `fetch-failed` can be left for the verifier, but mention it in `notes_for_verifier`.
+1. `python scripts/validate.py candidates <your candidate files> --window` (only the files you wrote: the nights scouts share a folder, and neither touches the other's files; list yours with `grep -lE '"name": ?"<scout>"' data/candidates/<category>/<run-date>/*.json`). Fix every failure. If you can't fix one honestly (no evidence for a field), empty that field rather than inventing support.
+2. `python scripts/check_quote.py --as <scout> --file <your candidate files>` (only the files you wrote; the pages you read come from the run's cache, so this costs nothing unless you cite a page you never read). A `missing` or `near-mismatch` quote means you paraphrased, stitched or misread: copy the exact text again. `title_nearby: false` means the quote is on a list page away from the title: quote a passage that includes the title, or use the event's own page. `blocked` or `forbidden`: drop that evidence item and the facts that relied on it. `thin-page` or `fetch-failed` can be left for the verifier, but mention it in `notes_for_verifier`.
 3. Do not finish with failing files. If you found nothing, write no candidates, just the report.
 
 ## Run report
 
-Write `data/runs/<category>/<run-date>.md` with:
+Write `data/runs/<scout>/<run-date>.md` with:
 
-- **Counts:** candidates written, by zone and confidence; events skipped as unchanged; fetches used.
+- **Counts:** candidates written, by zone and confidence; events skipped as unchanged; pages read and web searches made, copied from `python scripts/budget.py usage --as <scout>` (never estimated); any limit you reached and what it stopped you reading.
 - **Changes spotted:** cancellations, sold-outs, time, price or closing-date changes on known events.
 - **Registry suggestions** (for a person to apply): new venues found, with address and the link where they list events; dead or moved listing URLs; a watchlist venue that showed signs of life; any do-not-list venue that seems to be back.
 - **Blocked or skipped:** sources that refused access, RA-only events worth asking the promoter about, venues not reached because of the budget.

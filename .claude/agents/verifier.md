@@ -20,18 +20,19 @@ The scripts enforce most of the rules below; `scripts/validate.py` will refuse r
 
 ## Part 1: new candidates
 
-**Which:** every `.json` under `data/candidates/<category>/<date>/` for **every** category (`nights-music`, `arts`, `food-drink`, `community`, `health-wellness`; skip `_example`) that no verification record points to yet. Search `data/verification/*/*.json` for its path in `candidate_file`; records can be in any date folder. Work core zone first, then fringe, then outer.
+**Which:** every `.json` under `data/candidates/<category>/<date>/` for **every** category (`nights-music`, which both nights scouts write to, `arts`, `food-drink`, `community`, `health-wellness`; skip `_example`) that no verification record points to yet. Search `data/verification/*/*.json` for its path in `candidate_file`; records can be in any date folder. Work core zone first, then fringe, then outer.
 
 ### For each candidate
 
 1. **Format.** `python scripts/validate.py candidates <file>`. If it fails, reject with reason "format: …" and move on.
-2. **Already published?** Look for `data/events/*/<id>.json`. Also look for a published event at the **same venue with a similar title within 14 days** under a different id: that usually means the date changed (see Updates below). Two scouts can find the same event (a drag night is both music and performance): if an event in **another category** is already published or being published this run for the same venue, date and a similar title, reject the later one as "duplicate of <id>".
+2. **Already published?** Look for `data/events/*/<id>.json`. Also look for a published event at the **same venue with a similar title within 14 days** under a different id: that usually means the date changed (see Updates below). Two scouts can find the same event (a drag night is both music and performance), and the two nights scouts (club & DJ nights, gigs & live music) can both find one night under slightly different ids: if an event in **another category, or found by another scout**, is already published or being published this run for the same venue, date and a similar title, reject the later one as "duplicate of <id>" (when both are new in the same run, keep the one with the stronger evidence and reject the other).
 3. **Quotes.** Run the checker on all the run's candidates at once (it fetches each page once and limits itself per site):
-   `python scripts/check_quote.py --max-per-domain 40 --file <candidate files…>`
+   `python scripts/check_quote.py --as verifier --max-per-domain 20 --file <candidate files…>`
+   **Hard limits (Fred's rule): 20 pages per website and 150 in all, for the whole of your run, not per command.** Pass `--as verifier` to **every** `check_quote.py` command (it counts each page across all of them and always reads the live page, never the scouts' copies). A page refused for the limit comes back `rate-limited`: unverifiable, so hold.
    For each evidence item, by `result`:
    - `exact` or `near`: the quote is on the page. **Judge the record against `matched_text`**, the page's own words, never against the scout's quote.
    - `near-mismatch`: the page has a similar passage with a different number, day or month. That field is **contradicted** if `matched_text` clearly describes this event, otherwise unverifiable.
-   - `thin-page` or `fetch-failed`: you may read the page once with WebFetch and look for the quote yourself (method `read`). A field confirmed only by reading can't be title, venue or date (the checks refuse it). For those, hold.
+   - `thin-page` or `fetch-failed`: you may read the page once with WebFetch and look for the quote yourself (method `read`), but first run `python scripts/budget.py page --as verifier <url>` and only read it if that answers `OK`. A field confirmed only by reading can't be title, venue or date (the checks refuse it). For those, hold.
    - `blocked`, `forbidden`, `rate-limited`, `missing`, `too-short`: unverifiable. Don't fetch it any other way.
    - `title_nearby: false`: the quote backs a date, time, price or status but the event's title isn't near it on the page, so it may belong to another event on a listings page. Treat that field as **unverifiable**.
    - A `note` saying "redirected to …" the venue's home page or a list page usually means the event page is gone: `page_status_seen: page-gone`.
@@ -43,7 +44,7 @@ The scripts enforce most of the rules below; `scripts/validate.py` will refuse r
    - Title, venue, line-up, genres, age limit: the passage supports them as written, with nothing added.
    - Result per field: `confirmed`, `contradicted` (the page says something different) or `unverifiable`. Write **one field check per filled-in fact**, with the URL you checked and the method (`exact`, `near`, `read` or `none`).
 5. **Status now.** On the primary page, look for few left, sold out, cancelled, postponed, or the event having vanished (`page-gone`). Record it in `page_status_seen`. A change between few left and sold out is an update, not a contradiction. This is the **one** new fact you may add: set `status` to what the page shows and add an evidence item with your own exact quote from that page (`fields: ["status"]`, `source_kind: primary`).
-6. **Ticket link.** It must load and be for this event: `python scripts/check_quote.py --url <ticket_url> --quote "<a distinctive bit of the title>"`.
+6. **Ticket link.** It must load and be for this event: `python scripts/check_quote.py --as verifier --url <ticket_url> --quote "<a distinctive bit of the title>"`.
 
 ### Decide
 
@@ -55,7 +56,7 @@ The scripts enforce most of the rules below; `scripts/validate.py` will refuse r
 - the same event is already published or being published under another id (see step 2).
 
 **Hold** for a person (with reasons and exactly what to check) when:
-- title, venue and date are confirmed only by an aggregator or a reader tip, and the venue isn't marked `no_primary_listing`;
+- title, venue and date are confirmed only by an aggregator or a reader tip, and the venue isn't marked `no_primary_listing`. (An aggregator page that a person approved as a venue's own listing, such as Backyard Comedy Club's DesignMyNight page, has `"role": "primary"` and an `approved` note in that venue's registry entry: evidence from it is primary, and `validate.py` accepts it as such.);
 - title, venue or date is confirmed only by reading the page;
 - any other field is contradicted. Never correct it yourself;
 - an already-published event's date, time or venue has changed;
@@ -81,7 +82,7 @@ How to empty a removed field:
    - `editor_note` = the candidate's `why_its_good` (internal only). The scout's `summary` is **not** carried over; public text is written later from confirmed fields.
    - `listing`, `story` and `story_research`: null for a new event. `needs_review`: null.
 3. **Then check your own work:**
-   - `python scripts/check_quote.py --file <each event file you wrote>` (this also checks any status quote you added);
+   - `python scripts/check_quote.py --as verifier --file <each event file you wrote>` (this also checks any status quote you added);
    - `python scripts/validate.py verification data/verification/<run-date>`;
    - `python scripts/validate.py events data/events`.
 
@@ -97,7 +98,7 @@ How to empty a removed field:
 
 Every run, check each published event that has no `needs_review` and wasn't updated in the last 3 days, and either starts in the **next 14 days**, or is a **run that is on now** (started already, `ends_at` today or later) and wasn't updated in the last 7 days:
 
-`python scripts/check_quote.py --max-per-domain 40 --file <those event files>`
+`python scripts/check_quote.py --as verifier --max-per-domain 20 --file <those event files>`
 
 - All quotes still `exact`/`near` and status unchanged: do nothing.
 - A key quote is now missing, the page is gone, or it redirects away: set `needs_review` with the reason and a history line. **Don't change any facts during a re-check.** A person, or tomorrow's scout and your Part 1, will sort it out.

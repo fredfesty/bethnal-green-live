@@ -7,12 +7,13 @@
     "Scouts may read this file but must not edit it. Suggested changes go in the run report for a human to apply.",
     "A venue with no_primary_listing: true has no venue or ticket page online; the verifier may publish its events on aggregator evidence alone.",
     "Platform 'domains' are enforced by scripts/validate.py and scripts/check_quote.py: do-not-use and do-not-scrape domains are never fetched or accepted as evidence; discovery-only domains can never be labelled primary.",
-    "13 Oct 2026: DJ-coverage pass added 19 venues (mostly fringe/outer), DICE's 'DJ in London' browse page for daily discovery, and marked Songkick, EventsList (republishes RA), Shotgun (429) do-not-use."
+    "13 Oct 2026: DJ-coverage pass added 19 venues (mostly fringe/outer), DICE's 'DJ in London' browse page for daily discovery, and marked Songkick, EventsList (republishes RA), Shotgun (429) do-not-use.",
+    "14 Oct 2026: nights & music is now covered by two scouts working from this one registry: the club & DJ nights scout (scout-nights-clubs: club-night, dj-bar, queer-party) and the gigs & live music scout (scout-nights-gigs: gig, jazz, folk-acoustic, karaoke, open-mic, in-store, cabaret-drag, festival, other). Between them they read at most 20 pages per website per run, at most 12 each, except dice.fm, split 14 (clubs) and 6 (gigs)."
   ],
   "zones": {
     "core": "E2 postcode or within about 1km of Bethnal Green tube. Scanned every run.",
     "fringe": "Up to about a 20-minute walk (1.6km) from Bethnal Green tube. Scanned every run.",
-    "outer": "Further out (Dalston, Hackney Central, Hackney Wick, west Shoreditch, Clapton). Club and DJ nights: scanned every run, up to 15 standout nights. Other music: Monday runs only, max 5. All flagged worth_the_trip."
+    "outer": "Further out (Dalston, Hackney Central, Hackney Wick, west Shoreditch, Clapton). Scanned every run by both nights scouts: up to 15 standout club or DJ nights (club & DJ nights scout) and up to 10 standout gigs or other live music (gigs & live music scout). All flagged worth_the_trip."
   },
   "platforms": [
     {
@@ -1629,6 +1630,30 @@
       "status_evidence": "ma.to lists 'Based On Taste' at Nico's bar, Hackney Bridge, on 23 Oct 2026; NTS hosted a party here on 11 Jul 2026 (nts.live/events).",
       "no_primary_listing": true,
       "notes": "Canal-side Hackney Wick hub; open-air day parties in summer. Address line from ma.to ('Hackney Bridge, London E15 2SJ')."
+    },
+    {
+      "id": "genesis-cinema",
+      "name": "Genesis Cinema",
+      "address": "93-95 Mile End Road, Whitechapel, London",
+      "postcode": "E1 4UJ",
+      "zone": "fringe",
+      "type": [
+        "cinema",
+        "live-music"
+      ],
+      "website": "https://www.genesiscinema.co.uk",
+      "listings": [
+        {
+          "platform": "venue-site",
+          "url": "https://www.genesiscinema.co.uk/whatson/events",
+          "role": "primary",
+          "readable": "ok",
+          "notes": "Special events, each with its title, next date (no year) and time on the lines below; most are film, take only live music (gigs scout). Quote the title through to the time as one snippet."
+        }
+      ],
+      "status": "open",
+      "status_evidence": "Its events page listed 'Paytap Presents Rubayyat Jahan - live in concert' on Thu 12 Nov when read on 14 Oct 2026.",
+      "notes": "Mainly the arts scout's venue (data/sources/arts.json); listed here so the gigs scout can record its concerts."
     }
   ],
   "watchlist": [

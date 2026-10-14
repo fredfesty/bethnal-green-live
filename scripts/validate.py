@@ -220,11 +220,14 @@ def check_evidence_coverage(data: dict) -> list[str]:
 
 def check_sources(data: dict) -> list[str]:
     errs = []
+    venue_id = get(data, "venue.venue_id")
     for i, ev in enumerate(data["evidence"]):
         if policy.is_forbidden(ev["url"]):
             errs.append(f"evidence[{i}]: {policy.domain_of(ev['url'])} is a never-use source")
-        elif ev["source_kind"] == "primary" and policy.is_discovery_only(ev["url"]):
-            errs.append(f"evidence[{i}]: {policy.domain_of(ev['url'])} is an aggregator; it cannot be 'primary'")
+        elif ev["source_kind"] == "primary" and policy.is_discovery_only(ev["url"]) \
+                and not policy.is_approved_primary(ev["url"], venue_id):
+            errs.append(f"evidence[{i}]: {policy.domain_of(ev['url'])} is an aggregator; it cannot be 'primary'"
+                        f" (unless a person approved this page as the venue's own listing in its registry entry)")
     if data.get("ticket_url") and policy.is_forbidden(data["ticket_url"]):
         errs.append("ticket_url: points to a never-use source")
     return errs
