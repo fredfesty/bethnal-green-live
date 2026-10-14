@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-14-321-whitechapel-rd-clothes-and-book-swap-and-repair-event",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T09:30:00+01:00",
+  "category": "community",
+  "subcategory": "other",
+  "title": "Clothes and book swap and repair event",
+  "summary": "A council-listed clothes and book swap with repair, celebrating reuse and recycling, at 321 Whitechapel Road on 14 October.",
+  "venue": {
+    "venue_id": null,
+    "name": "321 Whitechapel Rd, London E1 1BU",
+    "address": "321 Whitechapel Rd London E1 1BU",
+    "postcode": "E1 1BU"
+  },
+  "starts_at": "2026-10-14",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/Events.aspx",
+      "quote": "Clothes and book swap and repair event",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/Events.aspx",
+      "quote": "14/10/2026",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/Events.aspx",
+      "quote": "321 Whitechapel Rd London E1 1BU",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/Events.aspx",
+      "quote": "This event celebrates reuse and recycling, helping us all take simple steps towards a more sustainable lifestyle.",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Only the council calendar list entry was read (its own event page was not found). No time is printed, so starts_at is the date only. Venue 321 Whitechapel Rd is not in the registry; the entry is not confirmed as the Idea Store. Price not printed. Happening today; the verifier should check the event page before publishing."
+}

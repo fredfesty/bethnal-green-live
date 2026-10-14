@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-25-andsoul-sanctuary-sanctum-sauna",
+  "candidate_file": "data/candidates/health-wellness/2026-10-14/2026-10-25-andsoul-sanctuary-sanctum-sauna.json",
+  "run_id": "2026-10-14-v",
+  "verified_at": "2026-10-14T12:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary page.",
+    "Removed price: quote found but the event title is not near it on the page, so it may belong to another event."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "unverifiable",
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Quote found but the event title is not near it on the page, so it may belong to another event."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

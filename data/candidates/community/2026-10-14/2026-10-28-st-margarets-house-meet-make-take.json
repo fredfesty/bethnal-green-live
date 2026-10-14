@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-28-st-margarets-house-meet-make-take",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T09:30:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Meet Make Take",
+  "summary": "A free monthly drop-in arts and crafts morning at The Create Place, St Margaret's House, on the last Wednesday of the month.",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "The Create Place, St Margaret's House",
+    "address": "29 Old Ford Road, London E2 9PJ",
+    "postcode": "E2 9PJ"
+  },
+  "starts_at": "2026-10-28",
+  "ends_at": null,
+  "recurrence": "the last Wednesday of the month",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "'Sessions are free to attend and you can drop in on the day.' Booking: 'it would be great if you could book a free ticket below.'"
+  },
+  "ticket_url": "https://www.stmargaretshouse.org.uk/events/meet-make-take",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/meet-make-take",
+      "quote": "Meet Make Take",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/meet-make-take",
+      "quote": "Wednesday 28 October 2026",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/meet-make-take",
+      "quote": "Join us for our free, monthly Meet Make Take session on the last Wednesday of the month.",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/meet-make-take",
+      "quote": "The Create Place at St Margaret’s House, 29 Old Ford Road — E2 9PJ",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/meet-make-take",
+      "quote": "Sessions are free to attend and you can drop in on the day.",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/meet-make-take",
+      "quote": "it would be great if you could book a free ticket below",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Recurring: next occurrence only. Time not confirmed for 28 Oct (listing shows 10:00, page says Time: 10am-1pm), so date only. Page calls it relaxed creative wellbeing; health & wellness may want to know."
+}

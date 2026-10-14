@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-11-sebright-arms-blood-wizard-otala-elk",
+  "candidate_file": "data/candidates/nights-music/2026-10-14/2026-11-11-sebright-arms-blood-wizard-otala-elk.json",
+  "run_id": "2026-10-14-v",
+  "verified_at": "2026-10-14T12:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary page.",
+    "Removed price: quote found but the event title is not near it on the page, so it may belong to another event."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/mxw5xw-blood-wizard-otala-elk-11th-nov-sebright-arms-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/mxw5xw-blood-wizard-otala-elk-11th-nov-sebright-arms-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/mxw5xw-blood-wizard-otala-elk-11th-nov-sebright-arms-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/mxw5xw-blood-wizard-otala-elk-11th-nov-sebright-arms-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "age_restriction",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/mxw5xw-blood-wizard-otala-elk-11th-nov-sebright-arms-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "unverifiable",
+      "url": "https://dice.fm/event/mxw5xw-blood-wizard-otala-elk-11th-nov-sebright-arms-london-tickets",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Quote found but the event title is not near it on the page, so it may belong to another event."
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/mxw5xw-blood-wizard-otala-elk-11th-nov-sebright-arms-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

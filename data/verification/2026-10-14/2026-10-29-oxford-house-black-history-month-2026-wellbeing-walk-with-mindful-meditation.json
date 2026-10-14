@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-29-oxford-house-black-history-month-2026-wellbeing-walk-with-mindful-meditation",
+  "candidate_file": "data/candidates/health-wellness/2026-10-13/2026-10-29-oxford-house-black-history-month-2026-wellbeing-walk-with-mindful-meditation.json",
+  "run_id": "2026-10-14-v",
+  "verified_at": "2026-10-14T12:00:00+01:00",
+  "decision": "reject",
+  "reasons": [
+    "duplicate of 2026-10-29-oxford-house-black-history-month-2026-wellbeing-walk-with-mindful-meditation (same id, already published from the community scout)."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.oxfordhouse.org.uk/whats-on/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.oxfordhouse.org.uk/whats-on/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.oxfordhouse.org.uk/whats-on/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.oxfordhouse.org.uk/whats-on/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": "data/events/2026-10/2026-10-29-oxford-house-black-history-month-2026-wellbeing-walk-with-mindful-meditation.json",
+  "changes": [],
+  "decided_by": "verifier"
+}

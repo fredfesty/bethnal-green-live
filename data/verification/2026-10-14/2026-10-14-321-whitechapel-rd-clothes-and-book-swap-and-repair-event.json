@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-14-321-whitechapel-rd-clothes-and-book-swap-and-repair-event",
+  "candidate_file": "data/candidates/community/2026-10-14/2026-10-14-321-whitechapel-rd-clothes-and-book-swap-and-repair-event.json",
+  "run_id": "2026-10-14-v",
+  "verified_at": "2026-10-14T12:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Only a council list entry; venue is a bare address, not a known venue; no time; happening today. Check the event's own page at towerhamlets.gov.uk/News_events/Events/Events.aspx."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/Events.aspx",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/Events.aspx",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/Events.aspx",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

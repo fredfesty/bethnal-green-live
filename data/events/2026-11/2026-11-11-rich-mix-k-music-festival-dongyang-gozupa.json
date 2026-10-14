@@ -1,0 +1,117 @@
+{
+  "id": "2026-11-11-rich-mix-k-music-festival-dongyang-gozupa",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "K-MUSIC FESTIVAL: Dongyang Gozupa",
+  "venue": {
+    "venue_id": "rich-mix",
+    "name": "Rich Mix",
+    "address": "35-47 Bethnal Green Rd, London",
+    "postcode": "E1 6LA"
+  },
+  "starts_at": "2026-11-11T19:30:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Dongyang Gozupa"
+  ],
+  "genres": [
+    "progressive",
+    "post-rock"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 15,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "K-MUSIC FESTIVAL: Dongyang Gozupa Tickets | 11 Nov | Rich Mix, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "Wed 11 Nov, 7:30 pm",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "\"name\":\"K-MUSIC FESTIVAL: Dongyang Gozupa\",\"startDate\":\"2026-11-11T19:30:00+00:00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "\"lowPrice\":\"15.00\",\"highPrice\":\"15.00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "A genre-defying sound where Korean tradition meets progressive and post-rock.",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "35-47 Bethnal Green Rd, London E1 6LA",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "K-MUSIC FESTIVAL: Dongyang Gozupa Tickets | 11 Nov | Rich Mix, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T12:00:00+01:00",
+    "run_id": "2026-10-14-v",
+    "outcome": "verified-with-gaps",
+    "removed_fields": [
+      "age_restriction"
+    ],
+    "record": "data/verification/2026-10-14/2026-11-11-rich-mix-k-music-festival-dongyang-gozupa.json"
+  },
+  "editor_note": null,
+  "listing": null,
+  "first_seen": "2026-10-14T12:00:00+01:00",
+  "updated_at": "2026-10-14T12:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-25-andsoul-sanctuary-sanctum-sauna",
+  "category": "health-wellness",
+  "subcategory": "sauna",
+  "title": "Sanctum + Sauna",
+  "venue": {
+    "venue_id": "andsoul-sanctuary",
+    "name": "AndSoul Sanctuary",
+    "address": "114-116 Cheshire Street, London",
+    "postcode": "E2 6EJ"
+  },
+  "starts_at": "2026-10-25T10:30:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "lineup": [],
+  "genres": [],
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "quote": "Sanctum + Sauna",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "quote": "October 25, 2026 @ 10:30 AM",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "quote": "114-116 Cheshire Street, London E2 6EJ",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "quote": "Booking is now open.",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T12:00:00+01:00",
+    "run_id": "2026-10-14-v",
+    "outcome": "verified-with-gaps",
+    "removed_fields": [
+      "price"
+    ],
+    "record": "data/verification/2026-10-14/2026-10-25-andsoul-sanctuary-sanctum-sauna.json"
+  },
+  "editor_note": "A Sunday-morning session that moves from movement, breath and sound into the sauna and then an ice bath, all in one visit.",
+  "listing": null,
+  "first_seen": "2026-10-14T12:00:00+01:00",
+  "updated_at": "2026-10-14T12:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

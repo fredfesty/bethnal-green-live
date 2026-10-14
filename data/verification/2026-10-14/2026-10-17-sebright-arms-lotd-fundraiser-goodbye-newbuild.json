@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-17-sebright-arms-lotd-fundraiser-goodbye-newbuild",
+  "candidate_file": "data/candidates/nights-music/2026-10-14/2026-10-17-sebright-arms-lotd-fundraiser-goodbye-newbuild.json",
+  "run_id": "2026-10-14-v",
+  "verified_at": "2026-10-14T12:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary page.",
+    "Removed price: page says donations-based sliding scale with no figure, so min_gbp 0 and is_free false are not backed by it."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/xe8kll-lotd-fundraiser-goodbye-newbuild-17th-oct-sebright-arms-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/xe8kll-lotd-fundraiser-goodbye-newbuild-17th-oct-sebright-arms-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/xe8kll-lotd-fundraiser-goodbye-newbuild-17th-oct-sebright-arms-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/xe8kll-lotd-fundraiser-goodbye-newbuild-17th-oct-sebright-arms-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "age_restriction",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/xe8kll-lotd-fundraiser-goodbye-newbuild-17th-oct-sebright-arms-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "unverifiable",
+      "url": "https://dice.fm/event/xe8kll-lotd-fundraiser-goodbye-newbuild-17th-oct-sebright-arms-london-tickets",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Sliding-scale donation with no figure printed; min_gbp 0 / is_free false not backed."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

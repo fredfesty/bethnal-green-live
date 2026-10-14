@@ -1,0 +1,95 @@
+{
+  "id": "2026-10-31-colours-hoxton-dark-room-x-nagnagnag-halloween",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Dark Room x NagNagNag Halloween",
+  "venue": {
+    "venue_id": "colours-hoxton",
+    "name": "Colours Hoxton",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-31T21:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://dice.fm/event/k6lav9-dark-room-x-nagnagnag-halloween-31st-oct-colours-hoxton-london-tickets",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue"
+      ],
+      "url": "https://dice.fm/event/k6lav9-dark-room-x-nagnagnag-halloween-31st-oct-colours-hoxton-london-tickets",
+      "quote": "Dark Room x NagNagNag Halloween Tickets | 31 Oct | Colours Hoxton, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/k6lav9-dark-room-x-nagnagnag-halloween-31st-oct-colours-hoxton-london-tickets",
+      "quote": "Sat 31 Oct, 9:00 pm",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/venue/colours-hoxton-mxew",
+      "quote": "\"name\":\"Dark Room x NagNagNag Halloween\",\"startDate\":\"2026-10-31T21:00:00+00:00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://dice.fm/event/k6lav9-dark-room-x-nagnagnag-halloween-31st-oct-colours-hoxton-london-tickets",
+      "quote": "For Halloween 2026 we welcome three very special guests to Colours Hoxton as part of the Iptamenos Discos 5th Anniversary Showcase.",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/k6lav9-dark-room-x-nagnagnag-halloween-31st-oct-colours-hoxton-london-tickets",
+      "quote": "Dark Room x NagNagNag Halloween Tickets | 31 Oct | Colours Hoxton, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T12:00:00+01:00",
+    "run_id": "2026-10-14-v",
+    "outcome": "verified-with-gaps",
+    "removed_fields": [
+      "price",
+      "age_restriction",
+      "genres"
+    ],
+    "record": "data/verification/2026-10-14/2026-10-31-colours-hoxton-dark-room-x-nagnagnag-halloween.json"
+  },
+  "editor_note": "A Halloween showcase marking the Iptamenos Discos 5th anniversary, with three guests.",
+  "listing": null,
+  "first_seen": "2026-10-14T12:00:00+01:00",
+  "updated_at": "2026-10-14T12:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

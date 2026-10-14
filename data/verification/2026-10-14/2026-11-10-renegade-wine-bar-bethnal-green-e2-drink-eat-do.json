@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-10-renegade-wine-bar-bethnal-green-e2-drink-eat-do",
+  "candidate_file": "data/candidates/food-drink/2026-10-14/2026-11-10-renegade-wine-bar-bethnal-green-e2-drink-eat-do.json",
+  "run_id": "2026-10-14-v",
+  "verified_at": "2026-10-14T12:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Date is on the venue page, but time (19:00 start) and price (from 64.80) come only from DesignMyNight with no title nearby. Check https://www.renegadelondonwine.com/events for time and price."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.renegadelondonwine.com/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.renegadelondonwine.com/bethnalgreen",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.renegadelondonwine.com/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "unverifiable",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/renegade-wine-bar",
+      "method": "none",
+      "source_kind": "aggregator",
+      "note": "No confirmed quote."
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.renegadelondonwine.com/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "unverifiable",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/renegade-wine-bar",
+      "method": "none",
+      "source_kind": "aggregator",
+      "note": "No confirmed quote."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}
