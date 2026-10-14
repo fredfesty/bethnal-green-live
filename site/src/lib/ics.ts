@@ -2,6 +2,7 @@
 import { addDays, hasTime, icsStamp, instant } from "./time";
 import type { SiteEvent } from "./data";
 import { STATUS } from "./labels";
+import type { CalendarEntry } from "./calendarlinks";
 
 const esc = (s: string) => s.replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
 
@@ -21,25 +22,34 @@ function fold(line: string): string {
   return out.join("\r\n ");
 }
 
-export function vevent(e: SiteEvent, pageUrl: string): string[] {
-  const lines = ["BEGIN:VEVENT", `UID:${e.id}@bethnal-green-live`, `DTSTAMP:${icsStamp(new Date(e.updated_at))}`];
+/** What a calendar shows for an event: the same for the .ics file and the Google, Outlook and Yahoo links. */
+export function calendarEntry(e: SiteEvent, pageUrl: string): CalendarEntry {
+  const status = STATUS[e.status] ? `${STATUS[e.status]}: ` : "";
+  const title = status + e.title;
+  const location = [e.venue.name, e.venue.address, e.venue.postcode].filter(Boolean).join(", ");
+  const details = [e.priceLabel, e.isRun && e.run_schedule ? `Open: ${e.run_schedule}` : "", e.lineup?.length ? `With ${e.lineup.join(", ")}` : "", e.ticket_url ? `Tickets: ${e.ticket_url}` : "", `Details: ${pageUrl}`]
+    .filter(Boolean).join("\n");
   if (e.isRun) {
     // A run (an exhibition, say) is an all-day entry from its opening day to its last day.
-    lines.push(`DTSTART;VALUE=DATE:${e.date.replace(/-/g, "")}`);
-    lines.push(`DTEND;VALUE=DATE:${addDays(e.until, 1).replace(/-/g, "")}`);
-  } else if (hasTime(e.starts_at)) {
-    lines.push(`DTSTART:${icsStamp(instant(e.starts_at))}`);
-    lines.push(`DTEND:${icsStamp(new Date(e.endsAtIso))}`);
-  } else {
-    lines.push(`DTSTART;VALUE=DATE:${e.date.replace(/-/g, "")}`);
-    lines.push(`DTEND;VALUE=DATE:${addDays(e.date, 1).replace(/-/g, "")}`);
+    return { title, location, details, allDayFrom: e.date, allDayUntilExclusive: addDays(e.until, 1) };
   }
-  const status = STATUS[e.status] ? `${STATUS[e.status]}: ` : "";
-  lines.push(`SUMMARY:${esc(status + e.title)}`);
-  lines.push(`LOCATION:${esc([e.venue.name, e.venue.address, e.venue.postcode].filter(Boolean).join(", "))}`);
-  const desc = [e.priceLabel, e.isRun && e.run_schedule ? `Open: ${e.run_schedule}` : "", e.lineup?.length ? `With ${e.lineup.join(", ")}` : "", e.ticket_url ? `Tickets: ${e.ticket_url}` : "", `Details: ${pageUrl}`]
-    .filter(Boolean).join("\n");
-  lines.push(`DESCRIPTION:${esc(desc)}`);
+  if (hasTime(e.starts_at)) return { title, location, details, start: instant(e.starts_at), end: new Date(e.endsAtIso) };
+  return { title, location, details, allDayFrom: e.date, allDayUntilExclusive: addDays(e.date, 1) };
+}
+
+export function vevent(e: SiteEvent, pageUrl: string): string[] {
+  const c = calendarEntry(e, pageUrl);
+  const lines = ["BEGIN:VEVENT", `UID:${e.id}@bethnal-green-live`, `DTSTAMP:${icsStamp(new Date(e.updated_at))}`];
+  if (c.allDayFrom && c.allDayUntilExclusive) {
+    lines.push(`DTSTART;VALUE=DATE:${c.allDayFrom.replace(/-/g, "")}`);
+    lines.push(`DTEND;VALUE=DATE:${c.allDayUntilExclusive.replace(/-/g, "")}`);
+  } else {
+    lines.push(`DTSTART:${icsStamp(c.start!)}`);
+    lines.push(`DTEND:${icsStamp(c.end!)}`);
+  }
+  lines.push(`SUMMARY:${esc(c.title)}`);
+  lines.push(`LOCATION:${esc(c.location)}`);
+  lines.push(`DESCRIPTION:${esc(c.details)}`);
   lines.push(`URL:${pageUrl}`);
   if (e.status === "cancelled") lines.push("STATUS:CANCELLED");
   lines.push("END:VEVENT");
