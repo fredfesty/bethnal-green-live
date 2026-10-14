@@ -554,8 +554,11 @@ VENUE_FACTS = [
     "accessibility.step_free", "accessibility.accessible_toilet", "accessibility.hearing_loop",
     "accessibility.notes", "accessibility.access_page",
     "cost.free_entry", "cost.notes",
+    "story.opened", "story.then", "story.now", "story.vibe", "story.worth_knowing",
 ]
 WRITTEN_FIELDS = ["summary", "crowd", "music.notes", "accessibility.notes", "cost.notes"]
+STORY_WRITTEN = ["story.opened", "story.then", "story.now", "story.vibe", "story.worth_knowing"]
+STORY_RETRY_DAYS = 7  # a venue still short after a try waits a week (scripts/venue_stories.py)
 COPY_RUN = 7  # this many words in a row lifted from a quote is copying, not our own words
 
 
@@ -670,10 +673,47 @@ def check_venue_profile(path: Path, data: dict, today: dt.date | None = None, da
                 errs.append(f"{field}: copies the source word for word (\"{run_}\"); write it in our own words")
                 break
 
+    for field in STORY_WRITTEN:
+        val = get(data, field)
+        for text in (val if isinstance(val, list) else [val]):
+            if not text:
+                continue
+            for e in ev:
+                run_ = copied_run(text, e["quote"])
+                if run_:
+                    errs.append(f"{field}: copies the source word for word (\"{run_}\"); write it in our own words")
+                    break
+    errs += check_story_research(data)
+
     removed = (data.get("review") or {}).get("removed_fields", [])
     for f in removed:
         if _filled(get(data, f)) and not isinstance(get(data, f), bool):
             errs.append(f"review: '{f}' is listed as removed but still filled in")
+    return errs
+
+
+def check_story_research(data: dict) -> list[str]:
+    """The storyteller's bookkeeping: a venue still short after a try waits exactly a week."""
+    r = data.get("story_research")
+    errs = []
+    story = data.get("story")
+    if story and not any(_filled(v) for k, v in story.items() if k != "written_at"):
+        errs.append("story: has no content; use null instead")
+    if not r:
+        return errs
+    last = dt.date.fromisoformat(r["last_attempt"])
+    if r["outcome"] == "written":
+        if r.get("next_check"):
+            errs.append("story_research: next_check must be null once the story is written")
+        if not story:
+            errs.append("story_research: outcome 'written' but there is no story")
+    else:
+        want = (last + dt.timedelta(days=STORY_RETRY_DAYS)).isoformat()
+        if r.get("next_check") != want:
+            errs.append(f"story_research: after a '{r['outcome']}' try on {last} the next check is {want}, "
+                        f"not {r.get('next_check')} (weekly retries only)")
+    if story and story.get("written_at", "")[:10] > r["last_attempt"]:
+        errs.append("story_research: last_attempt is older than story.written_at")
     return errs
 
 

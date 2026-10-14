@@ -16,6 +16,8 @@ const { v } = Astro.props as { v: SiteVenue };
 const here = Astro.url.pathname;
 const p = v.profile;
 const access = p ? accessLines(p) : [];
+const st = p?.story;
+const story = st && (st.opened || st.then || st.now || st.vibe || (st.worth_knowing?.length ?? 0) > 0) ? st : null;
 const days = byDate(v.events);
 // What we've listed here before: a count per kind of night, and the most recent few.
 const pastKinds = Object.entries(v.past.reduce((m: Record<string, number>, e) => {
@@ -117,6 +119,18 @@ const fixHref = !mail ? null : mail.includes("@")
       </div>
     </div>
 
+    {story && (
+      <section class="vn__story" aria-labelledby="story-head">
+        <h2 id="story-head">The story</h2>
+        {story.opened && <p class="vn__opened"><strong>Opened:</strong> {story.opened}</p>}
+        {story.then && <p>{story.then}</p>}
+        {story.now && <><h3>Now</h3><p>{story.now}</p></>}
+        {story.vibe && <><h3>Inside</h3><p>{story.vibe}</p></>}
+        {(story.worth_knowing?.length ?? 0) > 0 && (
+          <><h3>Worth knowing</h3><ul class="vn__worth">{story.worth_knowing!.map((w) => <li>{w}</li>)}</ul></>
+        )}
+      </section>
+    )}
     <section class="vn__on" id="whats-on" aria-labelledby="on-head">
       <h2 id="on-head">What's on here</h2>
       {days.length === 0 ? (
@@ -185,6 +199,11 @@ const fixHref = !mail ? null : mail.includes("@")
   .tags { list-style: none; margin: 0 0 0.5rem; padding: 0; display: flex; flex-wrap: wrap; gap: 0.35rem; }
   .tag { font-size: 0.9rem; font-weight: 600; padding: 0.15rem 0.55rem; border-radius: 4px; background: var(--green-tint); color: var(--green); }
   .tag--no { background: #f3e9e7; color: #8a2a20; }
+  .vn__story { margin-top: 2.5rem; max-width: var(--measure); }
+  .vn__story h2 { font-size: 1.35rem; font-weight: 750; }
+  .vn__story h3 { font-size: 1rem; font-weight: 700; margin: 1.1rem 0 0; }
+  .vn__story p { margin: 0.5rem 0 0; line-height: 1.6; }
+  .vn__worth { margin: 0.5rem 0 0; padding-left: 1.2rem; display: grid; gap: 0.3rem; }
   .vn__on { margin-top: 3rem; }
   .vn__status { margin: 1.25rem 0 0; padding: 0.75rem 1rem; border-left: 4px solid var(--red); background: #fff; font-weight: 600; max-width: var(--measure); }
   .vn__past { margin-top: 2.5rem; }

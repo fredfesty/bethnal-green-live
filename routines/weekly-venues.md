@@ -1,6 +1,6 @@
 # Routine: weekly venue run
 
-Every Sunday morning one scheduled run looks for venues around Bethnal Green that we don't list yet, re-researches some we do, and updates the Venues pages. It finishes before the morning run, so the scouts can look for events at any venue it adds the same day. How the team fits together: [`docs/venue-run.md`](../docs/venue-run.md).
+Every Sunday morning one scheduled run looks for venues around Bethnal Green that we don't list yet, re-researches some we do, and updates the Venues pages. It finishes before the morning run, so the scouts can look for events at any venue it adds the same day. How the team fits together: [`docs/venue-run.md`](../docs/venue-run.md). A second session later on Sunday morning writes the longer venue stories: [`weekly-venue-stories.md`](weekly-venue-stories.md).
 
 ```
 04:58 Sunday  scheduled run

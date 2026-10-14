@@ -33,7 +33,7 @@ Then write `data/venues/<id>.json` with the id from triage: `name`, `zone`, `loc
 
 ### Writing any profile
 
-- **Evidence**: copy evidence items **exactly** from the leads and findings (same url, quote, retrieved_at, source_kind); set their `fields` to the profile fields they back. Never write a quote yourself. Drop evidence items that no longer back any field.
+- **Evidence**: copy evidence items **exactly** from the leads and findings (same url, quote, retrieved_at, source_kind); set their `fields` to the profile fields they back. Never write a quote yourself. Drop evidence items that no longer back any field. Leave `story` and `story_research` exactly as they are, with every evidence item that names `story` or `story.*`: they belong to the venue storyteller (the Sunday stories session). If a finding shows the story is now wrong (closed, renamed, new owners), set `needs_review` instead of editing it.
 - **Written fields** (summary, crowd, music.notes, accessibility.notes, cost.notes) in our own words, saying no more than the quotes do. Seven words in a row from a quote is copying and fails the checks.
 - `profiled_at`: now (`date -u +%Y-%m-%dT%H:%M:%SZ`) whenever you change a profile. **Don't touch `review`**: the checker stamps it, and the site waits for a check newer than `profiled_at`.
 - `history`: add one line, `by: "venue-editor"`, saying what changed and why ("added step-free access from the venue's access page", "new venue, found by web and listings finders").
