@@ -8,6 +8,8 @@ import { venuePathFor } from "../../lib/venues";
 import { linkSources, type Segment } from "../../lib/storylinks";
 import { shownStory } from "../../lib/eventstory";
 import config from "../../site.config.mjs";
+import { calendarEntry } from "../../lib/ics";
+import { calendarLinks } from "../../lib/calendarlinks";
 
 export function getStaticPaths() {
   return loadEvents().map((e) => ({ params: { id: e.id }, props: { e } }));
@@ -48,6 +50,8 @@ const jsonld = {
   url: pageUrl,
 };
 const vpath = venuePathFor(e);
+// "Add to my calendar": the web calendars open pre-filled; Apple Calendar and other apps take the .ics file.
+const calLinks = calendarLinks(calendarEntry(e, pageUrl));
 // "The story", once the event story checker has stamped it; the sites it names link to the pages the facts came from.
 const story = shownStory(e.story);
 const sl = (part: string, text: string): Segment[] => linkSources(text, part, story?.evidence ?? []);
@@ -110,7 +114,13 @@ const fixHref = !mail ? null : mail.includes("@")
         {e.ticket_url && e.status !== "cancelled" && (
           <a class="button" href={e.ticket_url} rel="noopener">{e.price.is_free ? "Event page" : "Get tickets"}</a>
         )}
-        <a class="button button--quiet" href={rel(here, `events/${e.id}.ics`)} download>Add to my calendar</a>
+        <details class="cal">
+          <summary class="button button--quiet">Add to my calendar</summary>
+          <ul class="cal__menu">
+            {calLinks.map((l) => <li><a href={l.href} target="_blank" rel="noopener">{l.label}</a></li>)}
+            <li><a href={rel(here, `events/${e.id}.ics`)} download>Apple Calendar or other app (.ics)</a></li>
+          </ul>
+        </details>
       </div>
     </div>
 
@@ -144,6 +154,14 @@ const fixHref = !mail ? null : mail.includes("@")
   </article>
 </Base>
 
+<script>
+  // The calendar menu works without JavaScript; this just closes it on Escape or a click elsewhere.
+  for (const d of document.querySelectorAll<HTMLDetailsElement>("details.cal")) {
+    document.addEventListener("click", (ev) => { if (d.open && !d.contains(ev.target as Node)) d.open = false; });
+    d.addEventListener("keydown", (ev) => { if (ev.key === "Escape" && d.open) { d.open = false; d.querySelector("summary")?.focus(); } });
+  }
+</script>
+
 <style>
   .ev { max-width: 52rem; }
   .ev__back { margin: 0.5rem 0 1.5rem; }
@@ -163,6 +181,13 @@ const fixHref = !mail ? null : mail.includes("@")
   .ev__facts dd { margin: 0; }
   .ev__note { color: var(--muted); font-size: 0.95rem; }
   .ev__actions { display: grid; gap: 0.6rem; min-width: 13rem; }
+  .cal summary { list-style: none; width: 100%; }
+  .cal summary::-webkit-details-marker { display: none; }
+  .cal summary::after { content: ""; width: 0.45em; height: 0.45em; border: solid currentColor; border-width: 0 2px 2px 0; transform: rotate(45deg) translateY(-2px); transition: transform 0.15s; }
+  .cal[open] summary::after { transform: rotate(-135deg) translateY(-2px); }
+  .cal__menu { list-style: none; margin: 0.4rem 0 0; padding: 0.3rem 0; border: 1px solid var(--rule); border-radius: 6px; background: #fff; }
+  .cal__menu a { display: block; padding: 0.55rem 1rem; color: var(--green); font-weight: 600; text-decoration: none; }
+  .cal__menu a:hover, .cal__menu a:focus-visible { background: var(--green-tint); }
   .ev__blurb { margin: 1rem 0 0; font-size: 1.15rem; line-height: 1.5; max-width: var(--measure); }
   .ev__story { margin-top: 2.5rem; max-width: var(--measure); }
   .ev__story h2 { font-size: 1.35rem; font-weight: 750; }
