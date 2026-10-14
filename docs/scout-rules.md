@@ -45,7 +45,7 @@ In the paths below, `<category>` is your category (`nights-music`, `arts`, `food
 - **Never fetch ra.co** (Resident Advisor) or any scraper or site that republishes it. Its terms forbid it. If an event only appears on RA, mention the event name and venue in the run report so a person can ask the promoter; do not record it.
 - **Never fetch Instagram or Facebook**, or anything behind a login, cookie wall or paywall. Never log in anywhere.
 - Check each platform's `policy` in the registry before using it: `do-not-use` and `do-not-scrape` are never fetched; `discovery-only` sources can never be the sole evidence for a `high` candidate.
-- Be polite: one page at a time, no more than about 20 fetches per website per run, and stop on a 403, 429 or a robots.txt refusal. Note it in the report and move on.
+- Be polite: one page at a time, **a hard limit of 20 fetches per website per run** (and at most 5 web searches), and stop on a 403, 429 or a robots.txt refusal. Note it in the report and move on.
 - Budget: stop after about **150 page fetches** in a run, even if you're not finished, and say in the report what was skipped. Spend the budget on core venues first, then fringe, then outer.
 
 ## Rules for facts (the important bit)
