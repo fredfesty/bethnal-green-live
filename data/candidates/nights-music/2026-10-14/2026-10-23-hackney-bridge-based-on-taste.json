@@ -1,0 +1,86 @@
+{
+  "id": "2026-10-23-hackney-bridge-based-on-taste",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T12:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Based On Taste",
+  "summary": null,
+  "venue": {
+    "venue_id": "hackney-bridge",
+    "name": "Nico's Bar",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-23T17:00:00+01:00",
+  "ends_at": "2026-10-24T01:00:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "REO",
+    "Babylon Fox",
+    "ELL.IOT",
+    "BB"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Listed as 'Free' on ma.to"
+  },
+  "ticket_url": "https://ma.to/event/based-on-taste-2026-10-23",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://ma.to/venue/nicos.hackneybridge",
+      "quote": "Based On Taste",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "price",
+        "venue"
+      ],
+      "url": "https://ma.to/venue/nicos.hackneybridge",
+      "quote": "Based On Taste\nNico's Bar·Free",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "lineup",
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://ma.to/venue/nicos.hackneybridge",
+      "quote": "\"description\":\"Club night with REO, Babylon Fox, ELL.IOT and BB\",\"startDate\":\"2026-10-23T17:00:00.000+01:00\",\"endDate\":\"2026-10-24T01:00:00.000+01:00\"",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://ma.to/venue/nicos.hackneybridge",
+      "quote": "https://ma.to/event/based-on-taste-2026-10-23",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "low",
+  "why_its_good": "Club night with four named DJs at Nico's bar, free entry.",
+  "notes_for_verifier": "Only ma.to lists it; venue has no primary listing. Address not quoted. Registry: Nico's bar is inside Hackney Bridge."
+}

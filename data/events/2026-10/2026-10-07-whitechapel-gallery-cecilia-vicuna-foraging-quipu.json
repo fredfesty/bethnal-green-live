@@ -66,12 +66,189 @@
   "editor_note": null,
   "listing": {
     "headline": null,
-    "blurb": "Foraging Quipu, a Cecilia Vicuña exhibition at Whitechapel Gallery, has a long run into February 2027, so there's no rush to catch it.",
-    "written_at": "2026-10-13T02:00:00+01:00",
-    "run_id": "2026-10-13-lw2"
+    "blurb": "A long-running exhibition at Whitechapel Gallery, the public gallery on Whitechapel High Street, devoted to Cecilia Vicuña. It stays up until mid-February 2027, so it's easy to fit in.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T16:12:15Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, then, now, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T16:16:25Z",
+      "by": "event-story-checker",
+      "change": "cut 'Santiago-born', the 'Living Threads' name and 'starting point' claim, and the organisation's name (not in quotes); narrowed 'first major UK exhibition' to the wider exhibition"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "Cecilia Vicuña is an artist, poet and activist, and the gallery's own website counts her among the best-known artists from Latin America. Her work crosses painting, textile, photography, installation and film. She has made quipus for over fifty years, and she studied at the Slade School of Art in London in the early 1970s, with a studio in Stepney Green.",
+    "started": null,
+    "then": "According to the gallery's own website, Vicuña left Chile after the 1973 coup. This installation concludes the wider exhibition. In 1974 she co-founded an organisation in London to stand with Chile and other liberation struggles.",
+    "now": "Foraging Quipu is the closing work of the wider exhibition. It was first made at the Irish Museum of Modern Art in Dublin in 2025. For London, local people were invited to gather dry plant matter and light debris from their surroundings, and these contributions are woven into a hanging quipu, modelled on the Andean knotted cords once used to keep records. Branches, seeds, roots, fungi, textiles and plastics all sit together in it, according to the gallery.",
+    "vibe": null,
+    "worth_knowing": [
+      "The gallery's website calls the exhibition this belongs to the first major UK exhibition of Vicuña's work.",
+      "It is shown as part of a wider exhibition, which opens with her Quipu Menstrual."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "one of Latin America’s most internationally renowned artists, poets, and feminist activists.",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "encompasses painting, textile, photography, installation and film",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "Vicuña has been creating ‘quipus’ (knots) for over 50 years",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "Vicuña had a studio in Stepney Green when she was a student at the Slade School of Art (1972-1974)",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.whitechapelgallery.org/exhibitions/cecilia-vicuna-foraging-quipu/",
+        "quote": "Created through a public call for contributions, Foraging Quipu is a large-scale participatory installation by Cecilia Vicuña",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "Vicuña came to London in the early 1970s, where she self-exiled after the violent military coup against President Salvador Allende in 1973.",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "the organisation Vicuña co-founded in London in 1974 with David Medalla, John Dugger and Guy Brett in solidarity with Chile and other liberation struggles worldwide",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then",
+          "story.worth_knowing"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "Concluding the exhibition is Foraging Quipu (2025-2026)",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "first realised the Irish Museum of Modern Art (IMMA) in Dublin in 2025",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "an open call invitation was extended to local audiences to gather dry plant matter and lightweight debris from their surroundings",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "weaves together these contributions into a suspended quipu, a form inspired by the ancient Andean system of knotted cords used for recording and communication",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "Branches, seeds, roots, fungi, textiles, fragments of wood, plastics and other found objects coexist within the work",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "Whitechapel Gallery presents the first major UK exhibition of Cecilia Vicuña",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "The exhibition opens with Quipu Menstrual (2006–2024)",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-14T16:12:15Z",
+    "review": {
+      "checked_at": "2026-10-14T16:16:25Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Used only the gallery's own exhibition and press pages; one WebSearch. Not tried: press reviews (Guardian, Frieze, ArtReview) of the IMMA show or the London opening; artist's gallery pages (Lehmann Maupin, Xavier Hufkens)."
+  }
 }

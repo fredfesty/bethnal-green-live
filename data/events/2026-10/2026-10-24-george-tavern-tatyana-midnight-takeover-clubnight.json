@@ -1,0 +1,94 @@
+{
+  "id": "2026-10-24-george-tavern-tatyana-midnight-takeover-clubnight",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "TGT: TATYANA Midnight Takeover Clubnight",
+  "venue": {
+    "venue_id": "george-tavern",
+    "name": "The George Tavern",
+    "address": "373 Commercial Rd, London E1 0LA, UK",
+    "postcode": "E1 0LA"
+  },
+  "starts_at": "2026-10-24T23:00:00+01:00",
+  "ends_at": "2026-10-25T03:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "TATYANA"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 6,
+    "max_gbp": null,
+    "notes": "£6 on DICE"
+  },
+  "ticket_url": "https://dice.fm/event/6ac3a2c6a0185100013ac1f8",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "\"name\":\"TGT: TATYANA Midnight Takeover Clubnight\",\"startDate\":\"2026-10-24T23:00:00+01:00\",\"endDate\":\"2026-10-25T03:00:00+00:00\"",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "TGT: TATYANA Midnight Takeover ClubnightSat 24 Oct\nThe George TavernLondon\n£6",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "373 Commercial Rd, London E1 0LA, UK",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "https://dice.fm/event/6ac3a2c6a0185100013ac1f8",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T17:00:00+01:00",
+    "run_id": "2026-10-14-v3",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-14/2026-10-24-george-tavern-tatyana-midnight-takeover-clubnight.json"
+  },
+  "editor_note": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A late-night club night at The George Tavern with TATYANA, running until 3am. A cheap way to carry on a Saturday.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
+  },
+  "story": null,
+  "story_research": null,
+  "first_seen": "2026-10-14T17:00:00+01:00",
+  "updated_at": "2026-10-14T17:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

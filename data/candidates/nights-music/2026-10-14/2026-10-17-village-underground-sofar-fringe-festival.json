@@ -1,0 +1,78 @@
+{
+  "id": "2026-10-17-village-underground-sofar-fringe-festival",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T16:58:00+01:00",
+  "category": "nights-music",
+  "subcategory": "festival",
+  "title": "Sofar Fringe: a festival reimagined the Sofar way",
+  "summary": "A festival on Saturday 17 October from 1pm to 11pm, listed at Village Underground with several Shoreditch venues, £46.55 on DICE.",
+  "venue": {
+    "venue_id": "village-underground",
+    "name": "Village Underground",
+    "address": "54 Holywell Lane, London",
+    "postcode": "EC2A 3PQ"
+  },
+  "starts_at": "2026-10-17T13:00:00+01:00",
+  "zone": "outer",
+  "worth_the_trip": true,
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 46.55,
+    "max_gbp": 46.55,
+    "notes": "£46.55 on the DICE venue listing"
+  },
+  "ticket_url": "https://dice.fm/event/6a2bd924bcc901000174e25c",
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue",
+        "price"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "Sofar Fringe: a festival reimagined the Sofar way Sat 17 Oct Various Venues, Shoreditch, London London £46.55",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "Sofar Fringe: a festival reimagined the Sofar way 2026-10-17T13:00:00+01:00 2026-10-17T23:00:00+01:00",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "54 Holywell Lane, London EC2A 3PQ, UK",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "https://dice.fm/event/6a2bd924bcc901000174e25c",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "ends_at": "2026-10-17T23:00:00+01:00",
+  "why_its_good": "A full-day festival, 1pm to 11pm, across several Shoreditch venues.",
+  "notes_for_verifier": "DICE lists it under Village Underground with 'Various Venues, Shoreditch, London' as a second location. Check the festival's own page for the list of venues. Subcategory festival: a music festival."
+}

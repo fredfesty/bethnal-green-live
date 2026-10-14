@@ -1,0 +1,75 @@
+{
+  "id": "2026-10-23-bgwmc-til-death-do-us-after-party",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T12:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "'TIL DEATH DO US *AFTER* PARTY",
+  "summary": null,
+  "venue": {
+    "venue_id": "bgwmc",
+    "name": "Bethnal Green Working Men's Club",
+    "address": null,
+    "postcode": "E2 6NB"
+  },
+  "starts_at": "2026-10-23T21:30:00+01:00",
+  "ends_at": "2026-10-24T02:00:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.tickettailor.com/events/workingmens-club",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "'TIL DEATH DO US *AFTER* PARTY",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "Fri 23 Oct 2026 9:30 PM - 2:00 AM BST",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "BETHNAL GREEN WORKING MENS CLUB, E2 6NB",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.tickettailor.com/events/workingmens-club",
+      "quote": "Buy tickets",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Billed as a party at the club; the page names no DJs, so the lineup is empty. Verifier to check it is a DJ night."
+}

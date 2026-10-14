@@ -1,0 +1,78 @@
+{
+  "id": "2026-10-23-night-tales-e-soul-cultura-marcellus-pittman",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T12:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "E Soul Cultura: Marcellus Pittman",
+  "summary": null,
+  "venue": {
+    "venue_id": "night-tales",
+    "name": "Night Tales",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-23T22:00:00+01:00",
+  "ends_at": "2026-10-24T03:00:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Marcellus Pittman"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://ma.to/event/e-soul-cultura-marcellus-pittman-23-oct-2026",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://ma.to/venue/nighttalesldn",
+      "quote": "E Soul Cultura: Marcellus Pittman",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "lineup",
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://ma.to/venue/nighttalesldn",
+      "quote": "\"description\":\"Luke Una's residency continues with Detroit legend Marcellus Pittman and Make A Dance.\",\"startDate\":\"2026-10-23T22:00:00.000+01:00\",\"endDate\":\"2026-10-24T03:00:00.000+01:00\"",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://ma.to/venue/nighttalesldn",
+      "quote": "https://ma.to/event/e-soul-cultura-marcellus-pittman-23-oct-2026",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://ma.to/venue/nighttalesldn",
+      "quote": "E Soul Cultura: Marcellus Pittman\nNight Tales",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "low",
+  "why_its_good": "Detroit producer Marcellus Pittman in Luke Una's residency at Night Tales.",
+  "notes_for_verifier": "Only ma.to lists it. Make A Dance is also named in the source; left out of the lineup. Price not stated."
+}

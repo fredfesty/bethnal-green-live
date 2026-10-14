@@ -1,0 +1,77 @@
+{
+  "id": "2026-10-19-three-colts-tavern-brazillian-choro-jam",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T16:58:00+01:00",
+  "category": "nights-music",
+  "subcategory": "other",
+  "title": "Brazillian Choro Jam",
+  "summary": "A fortnightly roda jam where musicians play Choro, Brazilian instrumental music, at Three Colts Tavern on Monday 19 October.",
+  "venue": {
+    "venue_id": "three-colts-tavern",
+    "name": "Three Colts Tavern",
+    "address": "199 Cambridge Heath Road, London",
+    "postcode": "E2 0EL"
+  },
+  "starts_at": "2026-10-19T19:00:00+01:00",
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "venue"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/events",
+      "quote": "Brazillian Choro Jam Monday 19 October 2026 19:00 22:00 Three Colts Tavern",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence",
+        "lineup"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/events",
+      "quote": "This fortnightly roda jam brings together musicians to explore Choro: Brazil’s spirited, syncopated instrumental music",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/events",
+      "quote": "Choro: Brazil’s spirited, syncopated instrumental music",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/events",
+      "quote": "199 CAMBRIDGE HEATH ROAD, E2 0EL",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "ends_at": "2026-10-19T22:00:00+01:00",
+  "recurrence": "fortnightly",
+  "genres": [
+    "Choro"
+  ],
+  "notes_for_verifier": "No price printed on the events page, so price unknown. Subcategory 'other' chosen because it is a musicians' roda jam; the club scout and the verifier may judge differently. The page's own heading spells it 'Brazillian'."
+}

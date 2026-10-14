@@ -72,12 +72,137 @@
   "editor_note": null,
   "listing": {
     "headline": null,
-    "blurb": "A group exhibition at Rose Easton with work by Dogperson39, Sarah Benslimane, Sylvie Fleury, Charlotte Kingsnorth and Caitlin MacQueen, running until mid-December.",
-    "written_at": "2026-10-13T01:50:00+01:00",
-    "run_id": "2026-10-13-lw2"
+    "blurb": "A group show at Rose Easton with work by Dogperson39, Sarah Benslimane, Sylvie Fleury, Charlotte Kingsnorth and Caitlin MacQueen. It's on until mid-December.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T16:12:15Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, now, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T16:16:25Z",
+      "by": "event-story-checker",
+      "change": "cut Kingsnorth, MacQueen and Dogperson39 biographical clauses and the Dogperson39 anonymity item (quotes do not name them), Fleury 'Geneva'/'solo', and 'art and image culture'"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "Sylvie Fleury's exhibitions, by the gallery's own account, include Kunst Museum Winterthur and S.F. at Sprüth Magers in London, both in 2023. Sarah Benslimane, who lives and works in Geneva, has work in collections including MAMCO. Both from the gallery's own website.",
+    "started": null,
+    "then": null,
+    "now": "The gallery's own text asks how the body can be shown and understood in an age that seems to have lost interest in physical matter. It says each of the five artists negotiates categorisation and perception, and picks out Fleury's glowing amorphous sculpture and MacQueen's hallucinatory nightclub painting.",
+    "vibe": "The gallery's own website says the body is echoed in the room through puckered metal, foamy leather and pixelated wool.",
+    "worth_knowing": [
+      "The show's text on the gallery's website is by Dal Chodha."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.roseeaston.com/exhibitions/lumps-and-bumps",
+        "quote": "Sylvie Fleury, Kunst Museum Winterthur, Winterthur, Switzerland (2023); S.F., Sprüth Magers, London (2023)",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.roseeaston.com/exhibitions/lumps-and-bumps",
+        "quote": "Sarah Benslimane (b. 1997, Besançon, France) lives and works in Geneva.",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.roseeaston.com/exhibitions/lumps-and-bumps",
+        "quote": "Her works are part of several private and public collections, such as MAMCO - Genève;",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.roseeaston.com/exhibitions/lumps-and-bumps",
+        "quote": "How do we represent – and comprehend – the body in an age that has snubbed its own materiality?",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.roseeaston.com/exhibitions/lumps-and-bumps",
+        "quote": "Each of the five artists in Lumps and Bumps negotiates categorisation and perception, the flesh and the eye.",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.roseeaston.com/exhibitions/lumps-and-bumps",
+        "quote": "Sylvie Fleury presents here an amorphous glowing sculpture.",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.roseeaston.com/exhibitions/lumps-and-bumps",
+        "quote": "Caitlin MacQueen’s hallucinatory painting of a nightclub",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://www.roseeaston.com/exhibitions/lumps-and-bumps",
+        "quote": "the body – your body – is echoed in puckered metallic surface, foamy leather and pixelated wool",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.roseeaston.com/exhibitions/lumps-and-bumps",
+        "quote": "Text by Dal Chodha",
+        "retrieved_at": "2026-10-14T16:12:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-14T16:12:15Z",
+    "review": {
+      "checked_at": "2026-10-14T16:16:25Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Used the gallery's own exhibition page only; one search found nothing tying outside sources. Leads: Wallpaper*, FLO London and Organ Thing links on the exhibition page; none read."
+  }
 }

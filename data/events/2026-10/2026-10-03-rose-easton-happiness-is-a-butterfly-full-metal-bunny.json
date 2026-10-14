@@ -60,12 +60,59 @@
   "editor_note": null,
   "listing": {
     "headline": null,
-    "blurb": "An exhibition of work by Parker Ito at Rose Easton, on until mid-December, so there are plenty of weeks to catch it.",
-    "written_at": "2026-10-13T02:00:00+01:00",
-    "run_id": "2026-10-13-lw2"
+    "blurb": "An exhibition of work by Parker Ito at Rose Easton, a gallery that mixes art and fashion in its shows. It runs until mid-December.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T18:30:00Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, then"
+    },
+    {
+      "at": "2026-10-14T16:16:25Z",
+      "by": "event-story-checker",
+      "change": "cut the Zabludowicz Collection clause (image caption, does not tie that Parker Ito to this event) and 'solo' (not stamped: written_at is ahead of the clock)"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "Parker Ito is the artist behind the show, and according to the Contemporary Art Library he has shown at this gallery before.",
+    "then": "According to the Contemporary Art Library, Rose Easton hosted an earlier show by Ito that ran from 2 November to 14 December 2024. This new exhibition is his return to the gallery.",
+    "written_at": "2026-10-14T18:30:00Z",
+    "review": null,
+    "evidence": [
+      {
+        "fields": [
+          "story.who",
+          "story.then"
+        ],
+        "url": "https://contemporaryartlibrary.org/project/parker-ito-at-rose-easton-london-43916",
+        "quote": "Parker Ito at Rose Easton, London",
+        "retrieved_at": "2026-10-14T18:30:00Z",
+        "source_kind": "directory",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://contemporaryartlibrary.org/project/parker-ito-at-rose-easton-london-43916",
+        "quote": "November 2 – December 14, 2024",
+        "retrieved_at": "2026-10-14T18:30:00Z",
+        "source_kind": "directory",
+        "source_date": null
+      }
+    ]
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Rose Easton page gives only title and dates. Found Zabludowicz page and Contemporary Art Library page for his 2024 Rose Easton show. Not found: press release for this show, reviews, what the work is about. Try the gallery's exhibition page or Contemporary Art Library for this show."
+  }
 }

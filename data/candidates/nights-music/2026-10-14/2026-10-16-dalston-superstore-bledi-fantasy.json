@@ -1,0 +1,100 @@
+{
+  "id": "2026-10-16-dalston-superstore-bledi-fantasy",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T12:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "queer-party",
+  "title": "Bledi Fantasy",
+  "summary": null,
+  "venue": {
+    "venue_id": "dalston-superstore",
+    "name": "Dalston Superstore",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-16T22:00:00+01:00",
+  "ends_at": "2026-10-17T04:00:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 8,
+    "max_gbp": null,
+    "notes": "£8 on ma.to"
+  },
+  "ticket_url": "https://ma.to/event/bledi-fantasy-dalston-superstore-16-oct-2026",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "Bledi Fantasy",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "Bledi Fantasy\nDalston Superstore·£8",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "lineup",
+        "starts_at",
+        "ends_at",
+        "genres"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "\"description\":\"Queer Halloween celebration featuring DJs from the Arab and SWANA region and gogo dancers.\",\"startDate\":\"2026-10-16T22:00:00.000+01:00\",\"endDate\":\"2026-10-17T04:00:00.000+01:00\"",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "https://ma.to/event/bledi-fantasy-dalston-superstore-16-oct-2026",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "Bledi Fantasy\nDalston Superstore",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://dalstonsuperstore.com/",
+      "quote": "Friday 16th October\nBLEDI FANTASY",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "Queer Halloween night with DJs from the Arab and SWANA region, plus gogo dancers.",
+  "notes_for_verifier": "Only ma.to lists it. No DJ named. Price from ma.to. Venue's own what's-on page gives the date, not the time; time from ma.to (aggregator)."
+}

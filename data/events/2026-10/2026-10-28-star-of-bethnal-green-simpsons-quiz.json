@@ -99,7 +99,12 @@
     "record": "data/verification/2026-10-14/2026-10-28-star-of-bethnal-green-simpsons-quiz.json"
   },
   "editor_note": "A one-off themed quiz at a core-zone pub, with a host and prize printed on the event page.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A Simpsons-themed pub quiz at The Star of Bethnal Green, the Electric Star group's pub. One for fans of the show who fancy a midweek quiz.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "story": null,
   "story_research": null,
   "first_seen": "2026-10-14T16:00:00+01:00",

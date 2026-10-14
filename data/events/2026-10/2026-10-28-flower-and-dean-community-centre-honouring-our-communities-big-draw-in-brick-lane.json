@@ -93,7 +93,12 @@
     "record": "data/verification/2026-10-13/2026-10-28-flower-and-dean-community-centre-honouring-our-communities-big-draw-in-brick-lane.json"
   },
   "editor_note": "A free half-term family workshop making a shared artwork, part of the Black History Month programme.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A free family event for the Big Draw at Flower and Dean Community Centre, themed around honouring our communities.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-13T11:00:00+01:00",
   "updated_at": "2026-10-13T11:00:00+01:00",
   "history": [],

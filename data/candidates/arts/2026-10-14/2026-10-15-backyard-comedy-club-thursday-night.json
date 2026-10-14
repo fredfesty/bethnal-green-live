@@ -1,0 +1,82 @@
+{
+  "id": "2026-10-15-backyard-comedy-club-thursday-night",
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-14-c"
+  },
+  "found_at": "2026-10-14T16:55:46+01:00",
+  "category": "arts",
+  "subcategory": "comedy",
+  "title": "Backyard Comedy Club – Thursday Night",
+  "summary": "Weekly comedy club night at Backyard Comedy Club, with upcoming comedians and occasional special guests.",
+  "venue": {
+    "venue_id": "backyard-comedy-club",
+    "name": "Backyard Comedy Club",
+    "address": "231 Cambridge Heath Road, E2 0EL",
+    "postcode": "E2 0EL"
+  },
+  "starts_at": "2026-10-15",
+  "ends_at": null,
+  "recurrence": "Thursday 15th October 2026 and 48 other Thursdays",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 8.25,
+    "max_gbp": null,
+    "notes": "Tickets from £8.25"
+  },
+  "ticket_url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-thursday-night",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-thursday-night",
+      "quote": "Backyard Comedy Club – Thursday Night",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "recurrence",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-thursday-night",
+      "quote": "Thursday 15th October 2026 and 48 other Thursdays",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-thursday-night",
+      "quote": "Tickets from £8.25",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "Backyard Comedy Club, 231, Cambridge Heath Road, E2 0EL",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "No show time printed on the DesignMyNight pages read, so medium. Venue opening hours (18:00-23:00) are not a show time and were not used."
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2026-11-01-rich-mix-manding-melody-featuring-habib-koite-sura-susso",
+  "candidate_file": "data/candidates/nights-music/2026-10-14/2026-11-01-rich-mix-manding-melody-featuring-habib-koite-sura-susso.json",
+  "run_id": "2026-10-14-v3",
+  "verified_at": "2026-10-14T17:00:00+01:00",
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier",
+  "decision": "reject",
+  "reasons": [
+    "duplicate of 2026-11-01-rich-mix-manding-melody (same venue, same date, same act)"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/rich-mix-4w2r",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/rich-mix-4w2r",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/rich-mix-4w2r",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "From the page's own event data (JSON-LD)."
+    }
+  ]
+}

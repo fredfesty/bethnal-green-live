@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-17-village-underground-sofar-fringe-festival",
+  "candidate_file": "data/candidates/nights-music/2026-10-14/2026-10-17-village-underground-sofar-fringe-festival.json",
+  "run_id": "2026-10-14-v3",
+  "verified_at": "2026-10-14T17:00:00+01:00",
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier",
+  "decision": "hold",
+  "reasons": [
+    "The DICE page prints the venue as 'Various Venues, Shoreditch, London', not Village Underground; the Village Underground address quote comes from the venue listing. The festival's venue is not confirmed.",
+    "Check: the festival's own page for where it is held. https://dice.fm/event/6a2bd924bcc901000174e25c"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "contradicted",
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Page prints Various Venues, Shoreditch."
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ]
+}

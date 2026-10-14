@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-08-village-underground-dragonflies-dhani-harrison-and-nigel-godrich",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T16:58:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Dragonflies (Dhani Harrison and Nigel Godrich)",
+  "summary": "Dragonflies, billed with Dhani Harrison and Nigel Godrich, at Village Underground on Sunday 8 November, 7.30pm to 11pm, at £33.43 on DICE.",
+  "venue": {
+    "venue_id": "village-underground",
+    "name": "Village Underground",
+    "address": "54 Holywell Lane, London",
+    "postcode": "EC2A 3PQ"
+  },
+  "starts_at": "2026-11-08T19:30:00+00:00",
+  "zone": "outer",
+  "worth_the_trip": true,
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 33.43,
+    "max_gbp": 33.43,
+    "notes": "£33.43 on the DICE venue listing"
+  },
+  "ticket_url": "https://dice.fm/event/6aa157f69313940001e01908",
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue",
+        "price",
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "Dragonflies (Dhani Harrison and Nigel Godrich) Sun 8 Nov Village Underground London £33.43",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "Dragonflies (Dhani Harrison and Nigel Godrich) 2026-11-08T19:30:00+00:00 2026-11-08T23:00:00+00:00",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "54 Holywell Lane, London EC2A 3PQ, UK",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "https://dice.fm/event/6aa157f69313940001e01908",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "ends_at": "2026-11-08T23:00:00+00:00",
+  "lineup": [
+    "Dhani Harrison",
+    "Nigel Godrich"
+  ],
+  "why_its_good": "Dhani Harrison and Nigel Godrich, named in the title, playing on a Sunday evening at Village Underground.",
+  "notes_for_verifier": "Genre not stated on the page."
+}

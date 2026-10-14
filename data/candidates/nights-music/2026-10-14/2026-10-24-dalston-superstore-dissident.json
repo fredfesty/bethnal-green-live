@@ -1,0 +1,81 @@
+{
+  "id": "2026-10-24-dalston-superstore-dissident",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T12:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Dissident at Dalston Superstore",
+  "summary": null,
+  "venue": {
+    "venue_id": "dalston-superstore",
+    "name": "Dalston Superstore",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-24T22:00:00+01:00",
+  "ends_at": "2026-10-25T04:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [
+    "house",
+    "club",
+    "trance"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://ma.to/event/dissident-dalston-superstore-2026-10-24",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "Dissident at Dalston Superstore",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "lineup",
+        "genres",
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "\"description\":\"Two floors of house, club and trance with seven DJs until 4AM\",\"startDate\":\"2026-10-24T22:00:00.000+01:00\",\"endDate\":\"2026-10-25T04:00:00.000+00:00\"",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "https://ma.to/event/dissident-dalston-superstore-2026-10-24",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "Dissident at Dalston Superstore\nDalston Superstore",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "low",
+  "why_its_good": "Two floors of house, club and trance with seven DJs until 4AM.",
+  "notes_for_verifier": "Only ma.to lists it. The seven DJs are not named, so the lineup is empty. Price not stated."
+}

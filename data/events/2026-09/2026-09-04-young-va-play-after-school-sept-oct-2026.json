@@ -111,7 +111,12 @@
     "record": "data/verification/2026-10-14/2026-09-04-young-va-play-after-school-sept-oct-2026.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A free drop-in after-school activity session for families at Young V&A, on Thursdays and Fridays in term time until late October. An easy one to try without planning ahead.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
+  },
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
   "history": [

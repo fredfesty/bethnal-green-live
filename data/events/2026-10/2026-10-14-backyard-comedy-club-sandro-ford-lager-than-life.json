@@ -1,0 +1,154 @@
+{
+  "id": "2026-10-14-backyard-comedy-club-sandro-ford-lager-than-life",
+  "category": "arts",
+  "subcategory": "comedy",
+  "title": "Sandro Ford- Lager Than Life",
+  "venue": {
+    "venue_id": "backyard-comedy-club",
+    "name": "Backyard Comedy Club",
+    "address": "231 Cambridge Heath Road, E2 0EL",
+    "postcode": "E2 0EL"
+  },
+  "starts_at": "2026-10-14T19:30:00+01:00",
+  "ends_at": "2026-10-14T21:45:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [
+    "Sandro Ford"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "sold-out",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "Sandro Ford- Lager Than Life",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at",
+        "status",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "Wed, 14th Oct 2026 @ 19:30 - 21:45 Sold Out",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "comedian Sandro Ford is heading out on his first ever UK and",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "ticket_url"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "quote": "Backyard Comedy Club, 231, Cambridge Heath Road, E2 0EL",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T17:00:00+01:00",
+    "run_id": "2026-10-14-v3",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-14/2026-10-14-backyard-comedy-club-sandro-ford-lager-than-life.json"
+  },
+  "editor_note": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A stand-up comedy night at Backyard Comedy Club with Sandro Ford, under the title Lager Than Life.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
+  },
+  "story": {
+    "who": "Sandro Ford is a stand-up comedian. According to The Stand Comedy Club's listing for the show, he co-hosts the Problematic Pub Podcast and has appeared on Have A Word.",
+    "now": "Lager Than Life is Sandro Ford's first tour of the UK and Ireland, says The Stand Comedy Club, which also ran a work-in-progress show of it in Edinburgh before the tour set off.",
+    "worth_knowing": [],
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+        "quote": "comedian Sandro Ford is heading out on his first ever UK and",
+        "retrieved_at": "2026-10-14T16:12:00Z",
+        "source_kind": "aggregator",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.thestand.co.uk/fringe/3069/sandro-ford-lager-than-life-work-in-progress",
+        "quote": "Co-Host of the smash hit Problematic Pub Podcast, and as seen on Have A Word, Dead Men Talking, and Hot Water Green Room",
+        "retrieved_at": "2026-10-14T16:12:00Z",
+        "source_kind": "directory",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now",
+          "story.worth_knowing"
+        ],
+        "url": "https://www.thestand.co.uk/fringe/3069/sandro-ford-lager-than-life-work-in-progress",
+        "quote": "Stand-up comedian Sandro Ford is doing a work in progress show here in Edinburgh before heading out on his first-ever UK and Ireland tour.",
+        "retrieved_at": "2026-10-14T16:12:00Z",
+        "source_kind": "directory",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-14T16:12:00Z",
+    "review": {
+      "checked_at": "2026-10-14T16:16:25Z",
+      "removed_fields": [
+        "story.worth_knowing"
+      ]
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Only the Stand (Edinburgh) listing and venue-run promo text found; no press, no act site, no series history. Try his podcast page, agent or tour site, and Chortle/Time Out next week."
+  },
+  "first_seen": "2026-10-14T17:00:00+01:00",
+  "updated_at": "2026-10-14T17:00:00+01:00",
+  "history": [
+    {
+      "at": "2026-10-14T16:12:00Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, now, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T16:16:25Z",
+      "by": "event-story-checker",
+      "change": "cut 'Edinburgh Fringe' and the 16 August date (bare date quote does not tie it to the show); emptied worth_knowing"
+    }
+  ],
+  "needs_review": null
+}

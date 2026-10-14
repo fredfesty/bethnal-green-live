@@ -1,0 +1,79 @@
+{
+  "id": "2026-10-23-93-feet-east-house-forty-seven-presents-irfan-ahmed-band",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T16:58:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "House Forty Seven presents: Irfan Ahmed & Band",
+  "summary": "Irfan Ahmed & Band, presented by House Forty Seven in 93 Feet East's Live Room on Friday 23 October, listed with Bollywood and Sufi tags.",
+  "venue": {
+    "venue_id": "93-feet-east",
+    "name": "93 Feet East",
+    "address": "150 Brick Lane, London",
+    "postcode": "E1 6QL"
+  },
+  "starts_at": "2026-10-23T20:00:00+01:00",
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "venue"
+      ],
+      "url": "https://www.93feeteast.co.uk/",
+      "quote": "Friday 23 Oct 8 pm - 12 AM / Live Room House Forty Seven presents: Irfan Ahmed & Band",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://www.93feeteast.co.uk/",
+      "quote": "Bollywood Sufi",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.93feeteast.co.uk/",
+      "quote": "150 Brick Lane London E1 6QL",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://www.93feeteast.co.uk/",
+      "quote": "Friday 23 Oct 8 pm - 12 AM / Live Room House Forty Seven presents: Irfan Ahmed & Band",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "ends_at": "2026-10-24T00:00:00+01:00",
+  "lineup": [
+    "Irfan Ahmed & Band"
+  ],
+  "genres": [
+    "Bollywood",
+    "Sufi"
+  ],
+  "notes_for_verifier": "Homepage listing only; no price or event page read (page budget). Listed under 93 LIVE on the venue homepage. 'Band' is in the printed title."
+}

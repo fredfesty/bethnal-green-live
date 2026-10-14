@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-genesis-cinema-street-fighter",
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-14-c"
+  },
+  "found_at": "2026-10-14T16:55:46+01:00",
+  "category": "arts",
+  "subcategory": "film",
+  "title": "Street Fighter",
+  "summary": "Street Fighter screening at Genesis Cinema, Whitechapel.",
+  "venue": {
+    "venue_id": "genesis-cinema",
+    "name": "Genesis Cinema",
+    "address": "93-95 Mile End Road, Whitechapel, London",
+    "postcode": "E1 4UJ"
+  },
+  "starts_at": "2026-10-17T20:50:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.genesiscinema.co.uk/whatson/events",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ticket_url"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/events",
+      "quote": "Street Fighter Presented by Kung Fu Cinema Running time: 119 mins Details Sat 17 Oct 20:50",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "quote": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Listed as 'Presented by Kung Fu Cinema' (presenter kept out of the title). Next date shown on the list page; the film's own event page was not read."
+}

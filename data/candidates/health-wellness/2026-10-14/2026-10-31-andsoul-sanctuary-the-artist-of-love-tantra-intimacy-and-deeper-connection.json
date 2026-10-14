@@ -1,0 +1,88 @@
+{
+  "id": "2026-10-31-andsoul-sanctuary-the-artist-of-love-tantra-intimacy-and-deeper-connection",
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T12:00:00Z",
+  "category": "health-wellness",
+  "subcategory": "workshop",
+  "title": "The Artist of Love: Tantra, Intimacy & Deeper Connection",
+  "summary": "An afternoon session at AndSoul Sanctuary led by Nicholas Policarpio on tantra, intimacy and honest connection, Saturday 31 October 2026.",
+  "venue": {
+    "venue_id": "andsoul-sanctuary",
+    "name": "AndSoul Sanctuary",
+    "address": "114-116 Cheshire Street, London E2 6EJ",
+    "postcode": "E2 6EJ"
+  },
+  "starts_at": "2026-10-31T15:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://andsoulsanctuary.com/whats-on",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "The Artist of Love: Tantra, Intimacy & Deeper Connection",
+      "retrieved_at": "2026-10-14T12:00:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "October 31, 2026 @ 3:00 PM",
+      "retrieved_at": "2026-10-14T12:00:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "venue"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "Nicholas Policarpio brings The Artist of Love back to the Sanctuary for an afternoon on tantra, intimacy and honest connection.",
+      "retrieved_at": "2026-10-14T12:00:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "114-116 Cheshire Street, London E2 6EJ",
+      "retrieved_at": "2026-10-14T12:00:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "The Artist of Love: Tantra, Intimacy & Deeper Connection",
+      "retrieved_at": "2026-10-14T12:00:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Only the venue's listing page was read; the event's own page could not be found (a guessed address returned 404), so price and any booking detail are unknown. Taken as a wellbeing workshop under the venue's own description; the editor should decide whether it fits. Ticket link is the venue's listing page, not checked further."
+}

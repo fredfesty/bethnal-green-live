@@ -1,0 +1,115 @@
+{
+  "id": "2026-10-19-xoyo-motion-every-monday",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T12:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "MOTION: Every Monday",
+  "summary": null,
+  "venue": {
+    "venue_id": "xoyo",
+    "name": "XOYO London",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-19T23:00:00+01:00",
+  "ends_at": "2026-10-20T03:00:00+01:00",
+  "recurrence": "Every Monday",
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [
+    "Hip Hop",
+    "R&B",
+    "Trap",
+    "Rap",
+    "Afrobeats",
+    "Bashment"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 4.5,
+    "max_gbp": null,
+    "notes": "From £4.50 on DICE"
+  },
+  "ticket_url": "https://dice.fm/event/69d4e7e4809bb500016de695",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/xoyo-london-4n38",
+      "quote": "\"name\":\"MOTION: Every Monday\",\"startDate\":\"2026-10-19T23:00:00+01:00\",\"endDate\":\"2026-10-20T03:00:00+01:00\"",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/69d4e7e4809bb500016de695",
+      "quote": "From £4.50The price you'll pay",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/69d4e7e4809bb500016de695",
+      "quote": "Music: Hip Hop, R&B, Trap, Rap, Afrobeats, Bashment",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://dice.fm/event/69d4e7e4809bb500016de695",
+      "quote": "MOTION: Every Monday",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url",
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/69d4e7e4809bb500016de695",
+      "quote": "This is an 18+ event.",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/xoyo-london-4n38",
+      "quote": "https://dice.fm/event/69d4e7e4809bb500016de695",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/69d4e7e4809bb500016de695",
+      "quote": "MOTION: Every Monday\nXOYO London",
+      "retrieved_at": "2026-10-14T12:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "London's biggest Monday night, running strong since 2014, in a refurbished XOYO.",
+  "notes_for_verifier": "Recurring: every Monday per the title. No DJ is named on the page, so lineup is empty. Address from the registry, not quoted. 'Running strong since 2014' is on the event page."
+}

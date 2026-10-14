@@ -1,0 +1,61 @@
+{
+  "id": "2026-10-25-troxy-alexandros-tsouvelas",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T16:58:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Alexandros Tsouvelas",
+  "summary": "Alexandros Tsouvelas at Troxy, listed for Sunday 25 October.",
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-25",
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "25.10.26 Alexandros Tsouvelas",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "Troxy first opened its doors in 1933",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "25.10.26 Alexandros Tsouvelas",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "lineup": [
+    "Alexandros Tsouvelas"
+  ],
+  "notes_for_verifier": "Troxy's homepage lists the date and act only: no time, price or genre. Take the time from the event's own page before publishing. Genre not stated."
+}

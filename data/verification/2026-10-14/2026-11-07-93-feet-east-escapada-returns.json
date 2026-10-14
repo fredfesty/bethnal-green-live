@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-07-93-feet-east-escapada-returns",
+  "candidate_file": "data/candidates/nights-music/2026-10-14/2026-11-07-93-feet-east-escapada-returns.json",
+  "run_id": "2026-10-14-v3",
+  "verified_at": "2026-10-14T17:00:00+01:00",
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier",
+  "decision": "hold",
+  "reasons": [
+    "Unresolved from the 12 Oct hold: header says 3 PM - 1:30 AM but the description says 4PM; page also gives 21+ in the body and 18+ in the tag.",
+    "Check: confirm start time and age limit with the promoter. https://www.93feeteast.co.uk"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.93feeteast.co.uk",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.93feeteast.co.uk",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.93feeteast.co.uk",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ]
+}

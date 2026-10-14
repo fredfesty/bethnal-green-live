@@ -1,0 +1,111 @@
+{
+  "id": "2026-10-30-oxford-house-friday-jazz-october-2026",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T16:58:00+01:00",
+  "category": "nights-music",
+  "subcategory": "jazz",
+  "title": "Friday Jazz (October 2026)",
+  "summary": "Monthly early-evening jazz performance at Oxford House by its house band, free with donations welcome, on Friday 30 October.",
+  "venue": {
+    "venue_id": "oxford-house",
+    "name": "Oxford House",
+    "address": "Derbyshire Street, Bethnal Green, London",
+    "postcode": "E2 6HG"
+  },
+  "starts_at": "2026-10-30T17:00:00+00:00",
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Free, donations welcome"
+  },
+  "ticket_url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "quote": "Friday Jazz (October 2026) - Oxford House",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "quote": "Dates October 30, 2026 - October 30, 2026 Times 5:00 pm - 6:00 pm",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "quote": "Price Free, donations welcome",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "quote": "Location Oxford House, Café",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "quote": "Last Friday of each month.",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup",
+        "genres"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "quote": "monthly jazz performance curated by the OH House Band",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "quote": "Derbyshire Street Bethnal Green London E2 6HG",
+      "retrieved_at": "2026-10-14T16:58:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "ends_at": "2026-10-30T18:00:00+00:00",
+  "recurrence": "Last Friday of each month.",
+  "lineup": [
+    "OH House Band"
+  ],
+  "genres": [
+    "jazz"
+  ],
+  "why_its_good": "Free monthly jazz by Oxford House's own band, on the last Friday of the month.",
+  "notes_for_verifier": "Event page read at its own URL. Recurrence in the page's words: 'Last Friday of each month.' Next occurrence only."
+}

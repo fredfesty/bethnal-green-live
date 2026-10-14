@@ -66,12 +66,157 @@
   "editor_note": null,
   "listing": {
     "headline": null,
-    "blurb": "Living Threads, a Cecilia Vicuña exhibition at Whitechapel Gallery, runs until mid-February, a long run that leaves plenty of time for a visit.",
-    "written_at": "2026-10-13T02:00:00+01:00",
-    "run_id": "2026-10-13-lw2"
+    "blurb": "Living Threads is a Cecilia Vicuña exhibition at Whitechapel Gallery, on Whitechapel High Street. It runs until mid-February 2027, which leaves plenty of time for a visit.",
+    "written_at": "2026-10-14T18:00:00+01:00",
+    "run_id": "2026-10-14-lw"
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-14T16:12:21Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, then, now, worth_knowing"
+    },
+    {
+      "at": "2026-10-14T16:16:25Z",
+      "by": "event-story-checker",
+      "change": "cut 'starting point', 'braided sculptures', the group's name, the display on the group, 'closes with' and the Bogota film question (not in quotes)"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "According to the gallery's own website, Cecilia Vicuña is a Chilean-born artist, poet and feminist activist, whom the gallery places among the best known internationally from Latin America. This is billed as her first major UK exhibition. She has made quipus, or knots, for more than fifty years.",
+    "then": "The gallery says she worked from a studio in Stepney Green as a Slade student in the early 1970s. In London in 1974 she co-founded an organisation, with three others, including David Medalla, backing Chile.",
+    "now": "The gallery's own website says the show opens with Quipu Menstrual, a dense hanging installation of unspun wool in reds and browns. It also includes a new participatory installation first made at the Irish Museum of Modern Art in Dublin in 2025, for which local people were invited to gather dry plant matter and light debris.",
+    "worth_knowing": [
+      "Leila Hasham and Carolina Jozami curated the exhibition.",
+      "It includes a 1980 short film, titled as a question about poetry, filmed on the streets of Bogotá.",
+      "The gallery's own website says 2026 is its 125th anniversary year."
+    ],
+    "written_at": "2026-10-14T16:12:21Z",
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "Whitechapel Gallery presents the first major UK exhibition of Cecilia Vicuña (b.1948, Santiago, Chile)",
+        "retrieved_at": "2026-10-14T16:12:21Z",
+        "source_kind": "primary",
+        "source_date": "2026-09-22"
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "one of Latin America’s most internationally renowned artists, poets, and feminist activists",
+        "retrieved_at": "2026-10-14T16:12:21Z",
+        "source_kind": "primary",
+        "source_date": "2026-09-22"
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "Vicuña has been creating ‘quipus’ (knots) for over 50 years",
+        "retrieved_at": "2026-10-14T16:12:21Z",
+        "source_kind": "primary",
+        "source_date": "2026-09-22"
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "Vicuña had a studio in Stepney Green when she was a student at the Slade School of Art (1972-1974)",
+        "retrieved_at": "2026-10-14T16:12:21Z",
+        "source_kind": "primary",
+        "source_date": "2026-09-22"
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "the organisation Vicuña co-founded in London in 1974 with David Medalla, John Dugger and Guy Brett in solidarity with Chile",
+        "retrieved_at": "2026-10-14T16:12:21Z",
+        "source_kind": "primary",
+        "source_date": "2026-09-22"
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "The exhibition opens with Quipu Menstrual (2006–2024), a dense sculptural installation of unspun wool in vivid shades of red and brown suspended from the ceiling.",
+        "retrieved_at": "2026-10-14T16:12:21Z",
+        "source_kind": "primary",
+        "source_date": "2026-09-22"
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "a new large-scale participatory installation first realised the Irish Museum of Modern Art (IMMA) in Dublin in 2025",
+        "retrieved_at": "2026-10-14T16:12:21Z",
+        "source_kind": "primary",
+        "source_date": "2026-09-22"
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "an open call invitation was extended to local audiences to gather dry plant matter and lightweight debris from their surroundings",
+        "retrieved_at": "2026-10-14T16:12:21Z",
+        "source_kind": "primary",
+        "source_date": "2026-09-22"
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "Cecilia Vicuña: Living Threads is curated by Leila Hasham and Carolina Jozami.",
+        "retrieved_at": "2026-10-14T16:12:21Z",
+        "source_kind": "primary",
+        "source_date": "2026-09-22"
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "These include the short film What is Poetry to You? (1980). Filmed in the vibrant streets of Bogotá, where she was based from 1975 to 1980",
+        "retrieved_at": "2026-10-14T16:12:21Z",
+        "source_kind": "primary",
+        "source_date": "2026-09-22"
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.whitechapelgallery.org/about/press/cecilia-vicuna/",
+        "quote": "2026 marks Whitechapel Gallery’s 125th Anniversary",
+        "retrieved_at": "2026-10-14T16:12:21Z",
+        "source_kind": "primary",
+        "source_date": "2026-09-22"
+      }
+    ],
+    "review": {
+      "checked_at": "2026-10-14T16:16:25Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "outcome": "written",
+    "attempts": 1,
+    "next_check": null,
+    "note": "Used the gallery's press release page only. A search also showed Another Magazine and The Art Newspaper pieces; not read. Could add press reviews for vibe once published."
+  }
 }
