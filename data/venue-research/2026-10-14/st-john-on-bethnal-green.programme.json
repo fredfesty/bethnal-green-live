@@ -1,0 +1,49 @@
+{
+  "venue_id": "st-john-on-bethnal-green",
+  "venue_name": "St John on Bethnal Green",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T21:57:03Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "church"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://www.stjohnonbethnalgreen.church/",
+          "quote": "St John on Bethnal Green is a Church of England parish church in the Diocese of London.",
+          "retrieved_at": "2026-10-14T21:57:03Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Its listing on A Church Near You names concerts and live music among its facilities, but no concert is dated on the church's own pages or on that listing, so the concert programme is unconfirmed.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.achurchnearyou.com/church/15447/facilities/",
+          "quote": "Music and Worship Concerts / Live Music",
+          "retrieved_at": "2026-10-14T21:57:03Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no genre named on any page read",
+    "dated concerts or live music nights: none on the church's own pages or its A Church Near You events listing",
+    "crowd, age_policy, cost.notes and capacity: not on the programme pages read",
+    "types community-venue and arts-centre: no page describes the church that way in a quote"
+  ],
+  "notes": "Recurring services and events seen on the church's own site and A Church Near You: Parish Mass, Sunday 10am (weekly); School Evensong, Wednesday 4:00pm (weekly); Open Church, second Saturday of each month, 11am-2pm (Sat 14 Nov 2026 is the next one on A Church Near You). The site says the church is available to hire for events by email. A choral evensong page linked from a search result returned 404; a Songkick venue page appeared in a search result and was not fetched, as Songkick is on our never-use list."
+}

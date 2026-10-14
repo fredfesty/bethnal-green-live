@@ -1,0 +1,164 @@
+{
+  "venue_id": "ninety-one",
+  "venue_name": "Ninety One",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T21:58:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": [
+        "bar",
+        "jazz",
+        "dj-bar"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://camra.org.uk/pubs/ninety-one-london-155038",
+          "quote": "a café-bar with daytime workspaces, evening jazz/blues & craft beer",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://dice.fm/venue/ninety-one-6pob",
+          "quote": "Renditions: Kolakale Kolective + Resident DJs",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "types"
+          ],
+          "url": "https://dice.fm/venue/ninety-one-6pob",
+          "quote": "Jazz on the Lane: Jemima Whyte Jam",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "jazz"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://camra.org.uk/pubs/ninety-one-london-155038",
+          "quote": "evening jazz/blues & craft beer",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://dice.fm/venue/ninety-one-6pob",
+          "quote": "Jazz on the Lane: In Time Jam",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://dice.fm/venue/ninety-one-6pob",
+          "quote": "Renditions: John Coltrane (100 Years Of) + DJs",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A weekly Friday night of live performers with resident DJs, each themed on one artist (such as Fela Kuti, Miles Davis or John Coltrane), a regular jazz jam called Jazz on the Lane, DJ sets, a quiz night, and karaoke and comedy nights.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.designmynight.com/london/bars/brick-lane/ninety-one/renditions-lauryn-hill-special",
+          "quote": "Every Friday, we invite live performances to the stage with a DJ",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/ninety-one-6pob",
+          "quote": "Renditions: Fela Kuti Special + Resident DJs",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/ninety-one-6pob",
+          "quote": "Jazz on the Lane: Jemima Whyte Jam",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/ninety-one-6pob",
+          "quote": "Renditions: Miles Davis (100 Years Of) + DJs",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/ninety-one-6pob",
+          "quote": "Sounds Like London: Freshta (3 hour set) + Temujin",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/ninety-one-6pob",
+          "quote": "The Brick Lane Quiz Show",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/ninety-one-6pob",
+          "quote": "Gimme The Mic: Karaoke Night",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/ninety-one-6pob",
+          "quote": "Brick Lane Laughs: Ed Byrne, Milton Jones and Ninia Benjamin",
+          "retrieved_at": "2026-10-14T21:57:30Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website: no own website found; DICE venue page used as the primary source",
+    "cost.notes: DICE shows prices per event ('From free', 'From £5.67'), not general pricing",
+    "music.notes: days of the week other than Friday are not quotable word for word from the pages read, so they are left out"
+  ],
+  "notes": "Nights seen on the venue's DICE page (primary): Renditions: Fela Kuti Special + Resident DJs, Fri 16 Oct 2026; Sounds Like London: Freshta (3 hour set) + Temujin, Sat 17 Oct; Jazz on the Lane: Jemima Whyte Jam, Sun 18 Oct; The Brick Lane Quiz Show, Tue 20 Oct; Gimme The Mic: Karaoke Night, Thu 5 Nov. Jazz on the Lane and Renditions both recur through October and November on the same page. The CAMRA entry describes it as a cafe-bar with daytime workspaces (its own page is undated). Renditions is also described on DesignMyNight (aggregator, Sep 2026)."
+}

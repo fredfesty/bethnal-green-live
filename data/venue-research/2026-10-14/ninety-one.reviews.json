@@ -1,0 +1,86 @@
+{
+  "venue_id": "ninety-one",
+  "venue_name": "Ninety One",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T21:58:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A modern pub on Brick Lane in the old Truman Brewery buildings, serving local beers, with live music and DJs at weekends.",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://91bricklane.pub/",
+          "quote": "Set within the Old Brewmaster's House of the Truman Brewery, Ninety One is your local on Brick Lane - a modern pub in a historic location.",
+          "retrieved_at": "2026-10-14T21:56:33Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://91bricklane.pub/",
+          "quote": "Our drinks list is rooted in local beers",
+          "retrieved_at": "2026-10-14T21:56:33Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["jazz", "blues", "disco", "funk"],
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://camra.org.uk/pubs/ninety-one-london-155038",
+          "quote": "evening jazz/blues & craft beer incl. Beavertown",
+          "retrieved_at": "2026-10-14T21:56:21Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.designmynight.com/london/bars/brick-lane/ninety-one/renditions-lauryn-hill-special",
+          "quote": "Think disco and funk to afro beat, jazz,",
+          "retrieved_at": "2026-10-14T21:56:27Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Live music and DJs at weekends, with a weekly Friday night of live performers and a DJ, according to the venue and DesignMyNight.",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://91bricklane.pub/",
+          "quote": "Come the weekend, live music and DJs take over, bringing house party energy and late-night dancing long after dark.",
+          "retrieved_at": "2026-10-14T21:56:33Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.designmynight.com/london/bars/brick-lane/ninety-one/renditions-lauryn-hill-special",
+          "quote": "Every Friday, we invite live performances to the stage with a DJ",
+          "retrieved_at": "2026-10-14T21:56:27Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "aliases",
+      "value": ["Ninety One Living Room"],
+      "evidence": [
+        {
+          "fields": ["aliases"],
+          "url": "https://camra.org.uk/pubs/ninety-one-london-155038",
+          "quote": "Ninety One Living Room, London - Jazz & Craft Beer",
+          "retrieved_at": "2026-10-14T21:56:21Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "status"
+  ],
+  "notes": "Its own site (91bricklane.pub, linked from the DesignMyNight organiser entry) and CAMRA WhatPub were read; the DesignMyNight Friday series is one dated event page (11 Sep 2026) that says it is a weekly night. The CAMRA and own-site pages carry no visible date, so their music styles are undated. No review or press article found in one WebSearch. No status news."
+}

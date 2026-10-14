@@ -1,0 +1,58 @@
+{
+  "venue_id": "art-house",
+  "venue_name": "The Art House",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T21:58:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "The Bethnal Green home of the design studio Acrylicize: project, studio and event space with a public arts programme, which it also lets out for hire.",
+      "source_date": "2025-03-20",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.acrylicize.com/perspectives/welcome-to-the-art-house-by-acrylicize",
+          "quote": "The Art House is the home of Acrylicize. We provide project, studio, and event space",
+          "retrieved_at": "2026-10-14T21:56:13Z",
+          "source_kind": "primary",
+          "source_date": "2025-03-20"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.acrylicize.com/perspectives/welcome-to-the-art-house-by-acrylicize",
+          "quote": "Want to hire The Art House for your next event?",
+          "retrieved_at": "2026-10-14T21:56:13Z",
+          "source_kind": "primary",
+          "source_date": "2025-03-20"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Its public programme takes in music alongside film, literature, performance and visual arts, plus artist residencies.",
+      "source_date": "2025-03-20",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.acrylicize.com/perspectives/welcome-to-the-art-house-by-acrylicize",
+          "quote": "with a dynamic public programme spanning visual arts, performance, film, literature, music, and artist residencies",
+          "retrieved_at": "2026-10-14T21:56:13Z",
+          "source_kind": "primary",
+          "source_date": "2025-03-20"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "status"
+  ],
+  "notes": "The studio's own page dated 20.03.2025 describes the space; a Tower Hamlets TEN for late opening is not a review and is not used. The exhibition quoted on the studio's Perspectives page ran in April 2026 and is not a review. No independent review or press article found in one WebSearch. No status news."
+}

@@ -2,19 +2,18 @@
   "venue_id": "troxy",
   "venue_name": "Troxy",
   "aspect": "facts",
-  "researched_at": "2026-10-14T16:04:12Z",
+  "researched_at": "2026-10-14T22:05:00Z",
   "findings": [
     {
       "field": "address",
       "value": "490 Commercial Road, London",
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "address"
-          ],
+          "fields": ["address", "postcode"],
           "url": "https://troxy.co.uk/discover/getting-to-troxy/",
           "quote": "490 Commercial Road, London, E1 0HX",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "retrieved_at": "2026-10-14T22:05:00Z",
           "source_kind": "primary"
         }
       ]
@@ -22,30 +21,27 @@
     {
       "field": "postcode",
       "value": "E1 0HX",
+      "source_date": "2026-10-01",
       "evidence": [
         {
-          "fields": [
-            "postcode"
-          ],
+          "fields": ["postcode"],
           "url": "https://troxy.co.uk/accessibility/",
           "quote": "our postcode is E1 0HX",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-10-01"
+          "retrieved_at": "2026-10-14T22:05:00Z",
+          "source_kind": "primary"
         }
       ]
     },
     {
       "field": "website",
       "value": "https://troxy.co.uk/",
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "website"
-          ],
+          "fields": ["website"],
           "url": "https://troxy.co.uk/",
-          "quote": "The East End is closer than you think. We’re a mere 15 minutes from central London’s Waterloo station.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "quote": "Troxy first opened its doors in 1933",
+          "retrieved_at": "2026-10-14T22:05:00Z",
           "source_kind": "primary"
         }
       ]
@@ -53,173 +49,133 @@
     {
       "field": "accessibility.step_free",
       "value": true,
+      "source_date": "2026-10-01",
       "evidence": [
         {
-          "fields": [
-            "accessibility.step_free",
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.step_free"],
           "url": "https://troxy.co.uk/accessibility/",
           "quote": "Our building has step-free access via the front entrance, and throughout the upper section of the ground floor.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-10-01"
+          "retrieved_at": "2026-10-14T22:05:00Z",
+          "source_kind": "primary"
         }
       ]
     },
     {
       "field": "accessibility.accessible_toilet",
       "value": true,
+      "source_date": "2026-10-01",
       "evidence": [
         {
-          "fields": [
-            "accessibility.accessible_toilet"
-          ],
+          "fields": ["accessibility.accessible_toilet"],
           "url": "https://troxy.co.uk/accessibility/",
           "quote": "Our accessible toilet is located in the left-hand side of the foyer through the main entrance, and is accessible via Radar key.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-10-01"
-        }
-      ]
-    },
-    {
-      "field": "accessibility.hearing_loop",
-      "value": true,
-      "evidence": [
-        {
-          "fields": [
-            "accessibility.hearing_loop"
-          ],
-          "url": "https://troxy.co.uk/accessibility/",
-          "quote": "We have a hearing loop system in place at our box office window.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-10-01"
+          "retrieved_at": "2026-10-14T22:05:00Z",
+          "source_kind": "primary"
         }
       ]
     },
     {
       "field": "accessibility.notes",
-      "value": "Circle is reached only by 43 steps, with no lift. Front Stalls sit three steps below the upper ground floor and are not step-free; most other Stalls seats are. The hearing loop is at the box office window only; the page does not mention one in the auditorium. One free carer ticket per accessible ticket. Accessibility team: accesstickets@troxy.co.uk.",
+      "value": "The Circle is reached only by 43 steps, with no lift; Front Stalls are three steps down, so they are not step-free. The accessible toilet is opened with a Radar key, and a spare can be borrowed from security. A hearing loop is at the box office window only. BSL or audio description can be arranged on request. One free carer ticket per accessible ticket.",
       "source_date": "2026-10-01",
       "evidence": [
         {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.notes"],
           "url": "https://troxy.co.uk/accessibility/",
-          "quote": "there’s no lift to the Circle seating upstairs, and this can only be accessed via 43 steps to our upper level.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-10-01"
+          "quote": "this can only be accessed via 43 steps to our upper level",
+          "retrieved_at": "2026-10-14T22:05:00Z",
+          "source_kind": "primary"
         },
         {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.notes"],
           "url": "https://troxy.co.uk/accessibility/",
           "quote": "Please note that Front Stalls tickets are not step-free accessible, as the lower ground floor area at the front of the auditorium is only accessible via 3 steps down from the upper ground floor.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-10-01"
+          "retrieved_at": "2026-10-14T22:05:00Z",
+          "source_kind": "primary"
         },
         {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.notes"],
           "url": "https://troxy.co.uk/accessibility/",
-          "quote": "any seats sold as Stalls, Stalls Middle, or Stalls Rear will also be step-free accessible",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-10-01"
+          "quote": "we have a spare you can borrow",
+          "retrieved_at": "2026-10-14T22:05:00Z",
+          "source_kind": "primary"
         },
         {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.notes"],
+          "url": "https://troxy.co.uk/accessibility/",
+          "quote": "We have a hearing loop system in place at our box office window.",
+          "retrieved_at": "2026-10-14T22:05:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://troxy.co.uk/accessibility/",
+          "quote": "We can arrange British Sign Language interpretation or audio description for our events at the promoters",
+          "retrieved_at": "2026-10-14T22:05:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["accessibility.notes"],
           "url": "https://troxy.co.uk/accessibility/",
           "quote": "The accessible ticket policy limits one free carer ticket to each accessible ticket purchased.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-10-01"
-        },
-        {
-          "fields": [
-            "accessibility.notes"
-          ],
-          "url": "https://troxy.co.uk/accessibility/",
-          "quote": "You can contact our accessibility team directly at accesstickets@troxy.co.uk",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-10-01"
+          "retrieved_at": "2026-10-14T22:05:00Z",
+          "source_kind": "primary"
         }
       ]
     },
     {
       "field": "accessibility.access_page",
       "value": "https://troxy.co.uk/accessibility/",
+      "source_date": "2026-10-01",
       "evidence": [
         {
-          "fields": [
-            "accessibility.access_page"
-          ],
+          "fields": ["accessibility.access_page"],
           "url": "https://troxy.co.uk/accessibility/",
-          "quote": "Everyone’s welcome at Troxy – our team will always do their best to accommodate you and make sure your visit is relaxed, welcoming and accessible.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-10-01"
+          "quote": "Download our accessibility guide here",
+          "retrieved_at": "2026-10-14T22:05:00Z",
+          "source_kind": "primary"
         }
       ]
     },
     {
       "field": "cost.notes",
-      "value": "Tickets are sold online only; the venue does not take phone sales.",
-      "source_date": "2026-06-11",
+      "value": "Tickets are sold online only, with no phone sales; the box office can help with online bookings by phone or email.",
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "cost.notes"
-          ],
+          "fields": ["cost.notes"],
           "url": "https://troxy.co.uk/discover/faq/",
-          "quote": "we don’t sell tickets over the phone, as we’re a digital only venue",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-06-11"
+          "quote": "digital only venue. If you require help with booking your tickets through our website, feel free to call or email us.",
+          "retrieved_at": "2026-10-14T22:05:00Z",
+          "source_kind": "primary"
         }
       ]
     },
     {
       "field": "age_policy",
-      "value": "Varies by event; shown on each event listing",
-      "source_date": "2026-06-11",
+      "value": "Varies by event; the age limit is shown on each event's listing and ticketing page.",
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "age_policy"
-          ],
+          "fields": ["age_policy"],
           "url": "https://troxy.co.uk/discover/faq/",
           "quote": "Age restrictions will vary for each event and will be listed on our website and on ticketing sites when you purchase tickets",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-06-11"
+          "retrieved_at": "2026-10-14T22:05:00Z",
+          "source_kind": "primary"
         }
       ]
     },
     {
       "field": "capacity",
       "value": 3600,
-      "source_date": "2026-04-30",
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "capacity"
-          ],
-          "url": "https://troxy.co.uk/venue-hire/venue-specifications/",
-          "quote": "With a capacity of 3,600, Troxy features an Art Deco aesthetic that adds a touch of character to any occasion.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-04-30"
+          "fields": ["capacity"],
+          "url": "https://troxy.co.uk/discover/history/",
+          "quote": "as the capacity increases from 3,100 to 3,600",
+          "retrieved_at": "2026-10-14T22:05:00Z",
+          "source_kind": "primary"
         }
       ]
     }
@@ -227,5 +183,5 @@
   "not_found": [
     "cost.free_entry"
   ],
-  "notes": "Refresh. Accessibility page (updated 1 Oct 2026) and FAQ re-read; they support the published profile. The hearing loop is stated only for the box office window, so the editor may want to keep the note beside it. Step-free is stated for the front entrance and upper ground floor. Accessible and free carer tickets are sold through Ticketmaster; the accessibility page gives the rules. No closure news on the home page."
+  "notes": "Accessibility page dated 1 Oct 2026 and re-read today. hearing_loop is left unset: the loop covers the box office window only, and no auditorium loop is stated. Drop-off is on Caroline Street; the venue says there is no parking, and Blue Badge parking is pointed to nearby. Accessibility inbox (accesstickets@troxy.co.uk) is monitored weekdays 10am to 6pm; requests for weekend events should be sent by 6pm the Friday before."
 }

@@ -1,0 +1,139 @@
+{
+  "id": "ninety-one",
+  "name": "Ninety One",
+  "zone": "fringe",
+  "location": {
+    "lat": 51.520888,
+    "lon": -0.072197,
+    "distance_m": 1376,
+    "source": "postcodes.io"
+  },
+  "types": [
+    "pub",
+    "dj-bar"
+  ],
+  "address": "91 Brick Lane, Spitalfields, London",
+  "postcode": "E1 6QL",
+  "discovered": {
+    "first_seen": "2026-10-14",
+    "found_by": [
+      "listings"
+    ]
+  },
+  "aliases": [
+    "Ninety One Living Room"
+  ],
+  "website": "https://91bricklane.pub/",
+  "summary": "A modern pub on Brick Lane, based in the former brewmaster's house at the Truman Brewery. Its drinks lean on local beers, and weekends bring live music and DJs.",
+  "music": {
+    "styles": [],
+    "notes": "Live music and DJs at the weekend, including a weekly Friday night that pairs live performers with a DJ."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": false,
+    "hearing_loop": null,
+    "notes": "Taken from CAMRA's WhatPub entry, which is undated: steps at the entrance and no accessible toilet.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "types",
+        "website"
+      ],
+      "url": "https://91bricklane.pub/",
+      "quote": "Set within the Old Brewmaster's House of the Truman Brewery, Ninety One is your local on Brick Lane - a modern pub in a historic location.",
+      "retrieved_at": "2026-10-14T21:56:33Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://91bricklane.pub/",
+      "quote": "Our drinks list is rooted in local beers",
+      "retrieved_at": "2026-10-14T21:56:33Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes",
+        "types"
+      ],
+      "url": "https://91bricklane.pub/",
+      "quote": "Come the weekend, live music and DJs take over, bringing house party energy and late-night dancing long after dark.",
+      "retrieved_at": "2026-10-14T21:56:33Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://www.designmynight.com/london/bars/brick-lane/ninety-one/renditions-lauryn-hill-special",
+      "quote": "Every Friday, we invite live performances to the stage with a DJ",
+      "retrieved_at": "2026-10-14T21:56:27Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "aliases"
+      ],
+      "url": "https://camra.org.uk/pubs/ninety-one-london-155038",
+      "quote": "Ninety One Living Room, London - Jazz & Craft Beer",
+      "retrieved_at": "2026-10-14T21:56:21Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://camra.org.uk/pubs/ninety-one-london-155038",
+      "quote": "91 Brick Lane, Spitalfields, London, E1 6QL",
+      "retrieved_at": "2026-10-14T21:58:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.accessible_toilet",
+        "accessibility.notes"
+      ],
+      "url": "https://camra.org.uk/pubs/ninety-one-london-155038",
+      "quote": "Steps at entrance. No accessible toilet.",
+      "retrieved_at": "2026-10-14T21:58:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-14T22:04:00Z",
+  "review": {
+    "checked_at": "2026-10-14T22:06:00Z",
+    "removed_fields": [
+      "accessibility.step_free",
+      "music.styles",
+      "types:jazz"
+    ]
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-14T22:04:00Z",
+      "by": "venue-editor",
+      "change": "new venue, found by the listings finder; own site, CAMRA and DesignMyNight back summary, music, types and access"
+    },
+    {
+      "at": "2026-10-14T22:06:00Z",
+      "by": "venue-checker",
+      "change": "removed step_free (steps at entrance is not a plain no), jazz style and type (only an undated CAMRA blurb for an older cafe-bar format); rest kept"
+    }
+  ]
+}

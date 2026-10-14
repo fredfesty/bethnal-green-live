@@ -1,0 +1,79 @@
+{
+  "venue_id": "elys-yard-social",
+  "venue_name": "Ely's Yard Social",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T21:58:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "An open-air bar and social space in the Truman Brewery, with a terrace, a garden and an indoor hall that has a dancefloor and a live stage.",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.elysyardsocial.com/",
+          "quote": "A spacious warehouse-style hideaway featuring a large bar, inviting dancefloor, and live stage.",
+          "retrieved_at": "2026-10-14T21:55:15Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.elysyardsocial.com/",
+          "quote": "An alfresco sundeck complete with its own outdoor bar, perfect for summer sessions",
+          "retrieved_at": "2026-10-14T21:55:15Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.elysyardsocial.com/",
+          "quote": "A New Social Space at the Heart of Truman Brewery",
+          "retrieved_at": "2026-10-14T21:55:15Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Its events page lists live music, big-screen screenings, quiz nights, themed parties and game nights.",
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.elysyardsocial.com/special-events/",
+          "quote": "From live music and big-screen screenings to quiz nights, themed parties, game nights and one-off events",
+          "retrieved_at": "2026-10-14T21:55:22Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "aliases",
+      "value": [
+        "Elys Yard Social"
+      ],
+      "evidence": [
+        {
+          "fields": [
+            "aliases"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/business/licences/alcohol_and_entertainment/Licence_applications_received_this_week.aspx",
+          "quote": "Elys Yard Social",
+          "retrieved_at": "2026-10-14T21:57:31Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "music.styles",
+    "status"
+  ],
+  "notes": "Own site read (home, about, special events). Its events page lists one dated party with a DJ; that is one event, so it is not used for music. No review or press article found in one WebSearch (results were about the Truman Brewery's history). No status news; the site lists bookings and events."
+}

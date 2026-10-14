@@ -1,0 +1,62 @@
+{
+  "venue_id": "tramshed-community-hub",
+  "venue_name": "The Tramshed Community Hub",
+  "aspect": "facts",
+  "researched_at": "2026-10-14T22:00:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Digby Street, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["address", "postcode"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Tramshed_Community_Hub.aspx",
+          "quote": "Digby Street London E2 0LS",
+          "retrieved_at": "2026-10-14T21:58:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 0LS",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Tramshed_Community_Hub.aspx",
+          "quote": "Digby Street London E2 0LS",
+          "retrieved_at": "2026-10-14T21:58:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "capacity",
+      "value": 70,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["capacity"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Tramshed_Community_Hub.aspx",
+          "quote": "A large multi-purpose hall with an overlooking mezzanine for up to 70 people.",
+          "retrieved_at": "2026-10-14T21:58:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website",
+    "access_page",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "age_policy",
+    "cost.free_entry",
+    "cost.notes"
+  ],
+  "notes": "Only a council hire page (Tower Hamlets) describes the hub itself; one search found no website of its own. Its capacity is for the main hall with mezzanine. A hire listing on tagvenue gives a maximum of 60, which conflicts; the editor should choose. The lead's Half Term Circus Club is not confirmed at this hub: the St Margaret's House page gives its Venue as 'The Studio, 15 Old Ford Road' in the text, although its structured data says Digby Street. Do not attach that session to this venue until a person checks."
+}

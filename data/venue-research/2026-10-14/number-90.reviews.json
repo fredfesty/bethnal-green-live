@@ -2,110 +2,104 @@
   "venue_id": "number-90",
   "venue_name": "Number 90",
   "aspect": "reviews",
-  "researched_at": "2026-10-14T16:02:00Z",
+  "researched_at": "2026-10-14T21:58:41Z",
   "findings": [
     {
-      "field": "summary",
-      "value": "A large canalside warehouse bar and kitchen in Hackney Wick, with two club rooms, a 30-foot canal boat bar and a terrace on the canal. Time Out says its live music and club nights run through the year, and the space is also hired out for weddings and corporate events.",
-      "source_date": "2025-07-13",
-      "evidence": [
-        {
-          "fields": ["summary"],
-          "url": "https://www.timeout.com/london/nightlife/studio-9294",
-          "quote": "No90 Hideout and No90 Live, the two club spaces",
-          "retrieved_at": "2026-10-14T16:02:00Z",
-          "source_kind": "press"
-        },
-        {
-          "fields": ["summary"],
-          "url": "https://www.timeout.com/london/nightlife/studio-9294",
-          "quote": "The Mary Read Boat @No90, a 30-foot canal boat with a bar, AV and DJ decks",
-          "retrieved_at": "2026-10-14T16:02:00Z",
-          "source_kind": "press"
-        },
-        {
-          "fields": ["summary"],
-          "url": "https://www.timeout.com/london/nightlife/studio-9294",
-          "quote": "used for live music and club events year round",
-          "retrieved_at": "2026-10-14T16:02:00Z",
-          "source_kind": "press"
-        },
-        {
-          "fields": ["summary"],
-          "url": "https://number90corporate.co.uk/",
-          "quote": "perfect for weddings, corporate functions, art exhibitions, and live performances",
-          "retrieved_at": "2026-10-14T16:02:00Z",
-          "source_kind": "primary"
-        }
-      ]
-    },
-    {
       "field": "aliases",
-      "value": ["Studio 9294"],
+      "value": [
+        "Studio 9294"
+      ],
       "source_date": "2025-07-13",
       "evidence": [
         {
-          "fields": ["aliases"],
+          "fields": [
+            "aliases"
+          ],
           "url": "https://www.timeout.com/london/nightlife/studio-9294",
           "quote": "Formerly known as Studio 9294",
-          "retrieved_at": "2026-10-14T16:02:00Z",
-          "source_kind": "press"
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "press",
+          "source_date": "2025-07-13"
         }
       ]
     },
     {
-      "field": "music.styles",
-      "value": ["house", "disco", "funk", "soul", "hip-hop", "jazz", "world music"],
-      "source_date": null,
+      "field": "summary",
+      "value": "A canalside venue in Hackney Wick made up of several rooms, a warehouse bar, a terrace and a canal boat, used for live music and club nights.",
+      "source_date": "2025-07-13",
       "evidence": [
         {
-          "fields": ["music.styles"],
-          "url": "https://www.number90bar.co.uk/about",
-          "quote": "we have labels and collectives that showcase world music, jazz, house, disco, funk, soul and hip-hop",
-          "retrieved_at": "2026-10-14T16:02:00Z",
-          "source_kind": "primary"
-        }
-      ]
-    },
-    {
-      "field": "music.styles",
-      "value": ["electronic"],
-      "source_date": null,
-      "evidence": [
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/nightlife/studio-9294",
+          "quote": "made up of four venues used for live music and club events year round",
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "press",
+          "source_date": "2025-07-13"
+        },
         {
-          "fields": ["music.styles"],
-          "url": "https://www.nightclubber.ro/news/londons-number-90-undergoes-refurbishment-and-announces-launch-party-details",
-          "quote": "including cutting-edge electronic music showcases",
-          "retrieved_at": "2026-10-14T16:02:00Z",
-          "source_kind": "press"
+          "fields": [
+            "summary"
+          ],
+          "url": "https://www.timeout.com/london/nightlife/studio-9294",
+          "quote": "the No90Bar, a vast warehouse",
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "press",
+          "source_date": "2025-07-13"
         }
       ]
     },
     {
       "field": "music.notes",
-      "value": "Weekly DJ sets and live performances from resident labels and collectives, plus club nights and live music across its rooms through the year.",
+      "value": "Live music and club nights year round across its rooms, including a canal boat with a bar and DJ decks.",
       "source_date": "2025-07-13",
       "evidence": [
         {
-          "fields": ["music.notes"],
-          "url": "https://www.number90bar.co.uk/about",
-          "quote": "in the form of DJ sets and live performance",
-          "retrieved_at": "2026-10-14T16:02:00Z",
-          "source_kind": "primary"
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://www.timeout.com/london/nightlife/studio-9294",
+          "quote": "made up of four venues used for live music and club events year round",
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "press",
+          "source_date": "2025-07-13"
         },
         {
-          "fields": ["music.notes"],
+          "fields": [
+            "music.notes"
+          ],
           "url": "https://www.timeout.com/london/nightlife/studio-9294",
-          "quote": "used for live music and club events year round",
-          "retrieved_at": "2026-10-14T16:02:00Z",
-          "source_kind": "press"
+          "quote": "The Mary Read Boat @No90, a 30-foot canal boat with a bar, AV and DJ decks",
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "press",
+          "source_date": "2025-07-13"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "electronic"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://www.nightclubber.ro/news/londons-number-90-undergoes-refurbishment-and-announces-launch-party-details",
+          "quote": "cutting-edge electronic music showcases",
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "press",
+          "source_date": null
         }
       ]
     }
   ],
   "not_found": [
-    "crowd",
-    "status"
+    "status",
+    "crowd"
   ],
-  "notes": "Searched once for press reviews; the only results were a Time Out listing (2025-07-13, used here), a Nightclubber relaunch article with no date on the page (its quotes have source_date null) and ticketing pages. No closing, reopening or new-name news found. Number 90's own site has no events page (404 at /events); the about page has no date. The Time Out review's visible text does not show a date, only its JSON-LD datePublished."
+  "notes": "Time Out review dated 2025-07-13 is the main press source. Mixmag, 28 March 2025, reported the venue being split into three spaces (Number 90 Hideout, Number 90 Live, Number 90 Bar); that is a change of rooms, not a closure, and it is not used as a field. Nightclubber's piece on a rebrand as Number 90 Hackney Wick has no date on the page, so its music quote has no source_date and the editor should check it. One WebSearch found no closing or reopening news."
 }

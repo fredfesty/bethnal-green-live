@@ -2,47 +2,54 @@
   "venue_id": "granby-community-hub",
   "venue_name": "Granby Community Hub",
   "aspect": "programme",
-  "researched_at": "2026-10-14T16:01:29Z",
+  "researched_at": "2026-10-14T21:58:21Z",
   "findings": [
     {
       "field": "types",
-      "value": ["community-venue"],
+      "value": [
+        "community-venue"
+      ],
       "evidence": [
         {
-          "fields": ["types"],
+          "fields": [
+            "types"
+          ],
           "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
           "quote": "The space is available to host local community groups",
-          "retrieved_at": "2026-10-14T16:01:29Z",
+          "retrieved_at": "2026-10-14T21:58:21Z",
           "source_kind": "directory"
         }
       ]
     },
     {
       "field": "music.notes",
-      "value": "Mostly hall hire for community groups: social clubs, a friendly bingo club, youth groups, parties and celebrations. No music nights were found.",
+      "value": "Mostly hall hire for community groups: social clubs, a friendly bingo club, youth groups, parties and celebrations. No gigs or club nights found.",
       "evidence": [
         {
-          "fields": ["music.notes"],
+          "fields": [
+            "music.notes"
+          ],
           "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
           "quote": "The versatile spaces hold events such as community activities, social clubs, youth groups, parties and celebrations.",
-          "retrieved_at": "2026-10-14T16:01:29Z",
+          "retrieved_at": "2026-10-14T21:58:21Z",
           "source_kind": "directory"
         },
         {
-          "fields": ["music.notes"],
+          "fields": [
+            "music.notes"
+          ],
           "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
           "quote": "Bentworth Friendly Bingo Club",
-          "retrieved_at": "2026-10-14T16:01:29Z",
+          "retrieved_at": "2026-10-14T21:58:21Z",
           "source_kind": "directory"
         }
       ]
     }
   ],
   "not_found": [
-    "music.styles: no music named",
-    "website: no own website found; the council hub page is the only source",
-    "cost.notes: the council page gives no hire prices",
-    "postcode: not on the council page, so not part of this programme research"
+    "music.styles (no music nights or gigs on the hub's page or the council listing)",
+    "music nights or gigs of any kind",
+    "the hub's own what's-on page (none found in one search)"
   ],
-  "notes": "Nights and events seen: 'Threads of Heritage: Family Craft Session and Community Celebration', Friday 30th October 2026 (16:00-19:00), a free workshop series by Numbi Arts CIC for Black History Month (council events page). The hub page says it has two large halls, one hall, two community rooms, a prayer room and a kitchen, bookable through the community booking team. Regular users named on the page are a Somali senior citizens club, a women's group, a bingo club and resident associations."
+  "notes": "Our one lead is a council listing: 'Threads of Heritage: Family Craft Session and Community Celebration', Friday 30 October 2026, 16:00-19:00, a Black History Month craft workshop (council listing, not music). No other dated nights found; the hub is a council hall for hire."
 }

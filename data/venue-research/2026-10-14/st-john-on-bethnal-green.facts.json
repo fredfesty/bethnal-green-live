@@ -1,0 +1,111 @@
+{
+  "venue_id": "st-john-on-bethnal-green",
+  "venue_name": "St John on Bethnal Green",
+  "aspect": "facts",
+  "researched_at": "2026-10-14T21:58:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "200 Cambridge Heath Road, London",
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.stjohnonbethnalgreen.church/",
+          "quote": "St John on Bethnal Green 200 Cambridge Heath Road London E2 9PA",
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 9PA",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.stjohnonbethnalgreen.church/",
+          "quote": "St John on Bethnal Green 200 Cambridge Heath Road London E2 9PA",
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.stjohnonbethnalgreen.church",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.stjohnonbethnalgreen.church/",
+          "quote": "St John on Bethnal Green is a Church of England parish church in the Diocese of London.",
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://www.achurchnearyou.com/church/15447/facilities/",
+          "quote": "Accessibility Ramp Accessible toilet Large print",
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The Church of England's facilities listing shows a ramp, an accessible toilet and large-print material, but not where the ramp is or whether the route in is step-free. The church's own site has no access page. Hire and general enquiries go by email to hello@stjohnonbethnalgreen.church, and that is the place to ask about access.",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.achurchnearyou.com/church/15447/facilities/",
+          "quote": "Accessibility Ramp Accessible toilet Large print",
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.stjohnonbethnalgreen.church/contact",
+          "quote": "The church is available to hire for events. To make an enquiry, simply send us an email.",
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.stjohnonbethnalgreen.church/contact",
+          "quote": "hello@stjohnonbethnalgreen.church",
+          "retrieved_at": "2026-10-14T21:57:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.hearing_loop",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "cost.notes",
+    "age_policy",
+    "capacity"
+  ],
+  "notes": "Looked at the home page, contact, about, services, connect, art-classes and stations-of-the-cross pages in the sitemap, and the Church of England facilities listing; no access, FAQ or capacity page exists on the church's site and none of them mention entry prices, age limits or capacity. The home page describes a restoration project and an open-church session on the second Saturday of each month; no closure or access change is stated. No WebSearch result gave an access guide for this church, so access comes from the directory line only. Two searches used (of 8)."
+}

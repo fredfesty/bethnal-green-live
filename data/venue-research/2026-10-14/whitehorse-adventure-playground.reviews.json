@@ -2,26 +2,18 @@
   "venue_id": "whitehorse-adventure-playground",
   "venue_name": "Whitehorse Adventure Playground",
   "aspect": "reviews",
-  "researched_at": "2026-10-14T16:03:00Z",
+  "researched_at": "2026-10-14T21:58:41Z",
   "findings": [
     {
       "field": "summary",
-      "value": "A council-run adventure playground for children, with a play area for under-fives, a games area and an indoor community space.",
+      "value": "A council-managed adventure playground off Whitehorse Road in E1, with a play area, a multi-use games area and an indoor community space, for children and young people.",
       "source_date": null,
       "evidence": [
         {
           "fields": ["summary"],
           "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/Parks-directory/White-Horse-Road-Park-and-Adventure-Playground.aspx",
-          "quote": "Whitehorse Adventure Playground is managed by the council on behalf of",
-          "retrieved_at": "2026-10-14T15:59:40Z",
-          "source_kind": "directory",
-          "source_date": null
-        },
-        {
-          "fields": ["summary"],
-          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/Parks-directory/White-Horse-Road-Park-and-Adventure-Playground.aspx",
-          "quote": "Play area for ages 4 and below",
-          "retrieved_at": "2026-10-14T15:59:40Z",
+          "quote": "Whitehorse Adventure Playground is managed by the council",
+          "retrieved_at": "2026-10-14T21:57:00Z",
           "source_kind": "directory",
           "source_date": null
         },
@@ -29,7 +21,7 @@
           "fields": ["summary"],
           "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/Parks-directory/White-Horse-Road-Park-and-Adventure-Playground.aspx",
           "quote": "Indoor community space",
-          "retrieved_at": "2026-10-14T15:59:40Z",
+          "retrieved_at": "2026-10-14T21:57:00Z",
           "source_kind": "directory",
           "source_date": null
         }
@@ -37,43 +29,28 @@
     },
     {
       "field": "crowd",
-      "value": "The council says its sessions are for ages 5 to 15, and that the playground is fully inclusive, with equipment for young people aged 8 to 25 with additional needs.",
+      "value": "The council lists it as an adventure playground for children and young people: sessions are for ages 5 to 15, and the playground says it is fully inclusive for children with additional needs.",
       "source_date": null,
       "evidence": [
         {
           "fields": ["crowd"],
           "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/Parks-directory/White-Horse-Road-Park-and-Adventure-Playground.aspx",
-          "quote": "Adventure play sessions for ages 5 to 15, Tuesday to Thursday, 3:30 – 6pm (term time only).",
-          "retrieved_at": "2026-10-14T15:59:40Z",
+          "quote": "Adventure play sessions for ages 5 to 15, Tuesday to Thursday",
+          "retrieved_at": "2026-10-14T21:57:00Z",
           "source_kind": "directory",
           "source_date": null
         },
         {
           "fields": ["crowd"],
           "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/Parks-directory/White-Horse-Road-Park-and-Adventure-Playground.aspx",
-          "quote": "All equipment in this playground is accessible to children and young people with additional needs aged 8 – 25 (SEND)",
-          "retrieved_at": "2026-10-14T15:59:40Z",
-          "source_kind": "directory",
-          "source_date": null
-        }
-      ]
-    },
-    {
-      "field": "aliases",
-      "value": ["White Horse Road Park and Adventure Playground"],
-      "source_date": null,
-      "evidence": [
-        {
-          "fields": ["aliases"],
-          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/Parks-directory/White-Horse-Road-Park-and-Adventure-Playground.aspx",
-          "quote": "White Horse Road Park and Adventure Playground",
-          "retrieved_at": "2026-10-14T15:59:40Z",
+          "quote": "Fully inclusive adventure playground.",
+          "retrieved_at": "2026-10-14T21:57:00Z",
           "source_kind": "directory",
           "source_date": null
         }
       ]
     }
   ],
-  "not_found": ["music.styles", "music.notes", "status"],
-  "notes": "Council pages only. One WebSearch found no venue website and no press reviews, only council event listings (the 27 October 2026 half-term session is for the programme researcher). The postcode printed as E1 ONZ on the council listing was not used. Not a nights venue; the editor may decide whether it belongs in the Venues page."
+  "not_found": ["status", "music.styles", "music.notes", "aliases", "website", "types"],
+  "notes": "Council parks directory page read in full; one WebSearch found no venue website and no press reviews, only council event listings (left to the programme researcher). A children's playground rather than a nights-out venue; the editor may decide whether it belongs on the Venues page. Postcode not taken from the council listing (printed E1 ONZ, which is not valid)."
 }

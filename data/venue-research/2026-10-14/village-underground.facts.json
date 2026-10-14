@@ -2,20 +2,18 @@
   "venue_id": "village-underground",
   "venue_name": "Village Underground",
   "aspect": "facts",
-  "researched_at": "2026-10-14T16:04:12Z",
+  "researched_at": "2026-10-14T22:02:00Z",
   "findings": [
     {
       "field": "address",
       "value": "54 Holywell Lane, London",
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "address",
-            "postcode"
-          ],
+          "fields": ["address", "postcode"],
           "url": "https://dice.fm/venue/village-underground-wwop",
-          "quote": "54 Holywell Lane, London EC2A 3PQ, UK",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "quote": "Capacity 700 Address 54 Holywell Lane, London EC2A 3PQ, UK",
+          "retrieved_at": "2026-10-14T22:02:00Z",
           "source_kind": "primary"
         }
       ]
@@ -23,14 +21,13 @@
     {
       "field": "postcode",
       "value": "EC2A 3PQ",
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "postcode"
-          ],
+          "fields": ["postcode"],
           "url": "https://dice.fm/venue/village-underground-wwop",
-          "quote": "54 Holywell Lane, London EC2A 3PQ, UK",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "quote": "Address 54 Holywell Lane, London EC2A 3PQ, UK",
+          "retrieved_at": "2026-10-14T22:02:00Z",
           "source_kind": "primary"
         }
       ]
@@ -38,14 +35,13 @@
     {
       "field": "website",
       "value": "https://villageunderground.co.uk/",
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "website"
-          ],
-          "url": "https://villageunderground.co.uk/hire/",
-          "quote": "Village Underground, with its rich history and unique character, has transformed from a Victorian coal warehouse",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "fields": ["website"],
+          "url": "https://villageunderground.co.uk/about/",
+          "quote": "Village Underground is a renovated turn-of-the-century warehouse in the heart of Shoreditch, East London.",
+          "retrieved_at": "2026-10-14T22:02:00Z",
           "source_kind": "primary"
         }
       ]
@@ -53,24 +49,20 @@
     {
       "field": "accessibility.step_free",
       "value": true,
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "accessibility.step_free"
-          ],
+          "fields": ["accessibility.step_free"],
           "url": "https://villageunderground.co.uk/access/",
-          "quote": "the other is located on Great Eastern Street and is fully accessible",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "quote": "the other is located on Great Eastern Street and is fully accessible.",
+          "retrieved_at": "2026-10-14T22:02:00Z",
           "source_kind": "primary"
         },
         {
-          "fields": [
-            "accessibility.step_free",
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.step_free"],
           "url": "https://villageunderground.co.uk/access/",
-          "quote": "There is permanent ramp access to the accessible viewing area where we have a raised platform",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "quote": "There is permanent ramp access to the accessible viewing area where we have a raised platform and offer seating or wheelchair space.",
+          "retrieved_at": "2026-10-14T22:02:00Z",
           "source_kind": "primary"
         }
       ]
@@ -78,65 +70,55 @@
     {
       "field": "accessibility.accessible_toilet",
       "value": true,
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "accessibility.accessible_toilet"
-          ],
+          "fields": ["accessibility.accessible_toilet"],
           "url": "https://villageunderground.co.uk/access/",
           "quote": "We have one dedicated accessible toilet. This is located at the front of the building next to the cloakroom area.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "retrieved_at": "2026-10-14T22:02:00Z",
           "source_kind": "primary"
         }
       ]
     },
     {
       "field": "accessibility.notes",
-      "value": "Mostly unseated. A raised, ramped viewing platform at the back is for wheelchair users and people who need to sit, on all music events. Seated, wheelchair and carer tickets are sold only on DICE. No accessible bar, but a bartender can be provided for a customer without a carer. Strobes and flashing lights are used on some shows.",
+      "value": "Unseated for most events. A ramped, raised platform at the back has seats and wheelchair space for all music events. Seated, wheelchair and carer tickets are sold only on DICE. No accessible bar, but staff will serve someone without a carer. Strobes are used on some shows.",
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.notes"],
           "url": "https://villageunderground.co.uk/access/",
           "quote": "Village Underground is an unseated venue for most of our events",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "retrieved_at": "2026-10-14T22:02:00Z",
           "source_kind": "primary"
         },
         {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.notes"],
           "url": "https://villageunderground.co.uk/access/",
           "quote": "For all music events there is a raised platform at the back of the venue for wheelchair users and those who need to be seated.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "retrieved_at": "2026-10-14T22:02:00Z",
           "source_kind": "primary"
         },
         {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.notes"],
           "url": "https://villageunderground.co.uk/access/",
           "quote": "Seated/Wheelchair + Carer Tickets are only available to purchase on Dice.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "retrieved_at": "2026-10-14T22:02:00Z",
           "source_kind": "primary"
         },
         {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.notes"],
           "url": "https://villageunderground.co.uk/access/",
           "quote": "We do not have an accessible bar however we can provide a bartender if a customer is without a carer.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "retrieved_at": "2026-10-14T22:02:00Z",
           "source_kind": "primary"
         },
         {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["accessibility.notes"],
           "url": "https://villageunderground.co.uk/access/",
           "quote": "We do use strobe and flashing lighting in the venue on some shows",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "retrieved_at": "2026-10-14T22:02:00Z",
           "source_kind": "primary"
         }
       ]
@@ -144,93 +126,76 @@
     {
       "field": "accessibility.access_page",
       "value": "https://villageunderground.co.uk/access/",
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "accessibility.access_page"
-          ],
+          "fields": ["accessibility.access_page"],
           "url": "https://villageunderground.co.uk/access/",
-          "quote": "Village Underground is an unseated venue for most of our events",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "quote": "We recognise that for many people there are barriers that can sometimes make it difficult to enjoy live music and culture.",
+          "retrieved_at": "2026-10-14T22:02:00Z",
           "source_kind": "primary"
         }
       ]
     },
     {
       "field": "cost.notes",
-      "value": "Cashless: card or contactless only. The venue's own tickets are sold through DICE, and there is no full-time box office. Cloakroom charged per item: £3.50 for clothes, £4 for bags.",
-      "source_date": "2026-04-22",
+      "value": "Cashless: card or contactless only. The venue's own tickets are sold through DICE; promoters sell the rest through their own agencies.",
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "cost.notes"
-          ],
+          "fields": ["cost.notes"],
           "url": "https://villageunderground.co.uk/faqs/",
           "quote": "Our venue is now 100% cashless. All payments must be made by card or contactless methods.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-04-22"
+          "retrieved_at": "2026-10-14T22:02:00Z",
+          "source_kind": "primary"
         },
         {
-          "fields": [
-            "cost.notes"
-          ],
+          "fields": ["cost.notes"],
           "url": "https://villageunderground.co.uk/faqs/",
-          "quote": "Our official ticketing partner is Dice, so always check there for tickets first.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-04-22"
-        },
-        {
-          "fields": [
-            "cost.notes"
-          ],
-          "url": "https://villageunderground.co.uk/faqs/",
-          "quote": "the price is £3.50 for clothes and £4 for bags.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-04-22"
+          "quote": "The rest of the tickets are sold by the promoter, through various ticket agencies",
+          "retrieved_at": "2026-10-14T22:02:00Z",
+          "source_kind": "primary"
         }
       ]
     },
     {
       "field": "age_policy",
-      "value": "Live music 16+ (16 and 17-year-olds with one responsible adult); club nights 18+",
-      "source_date": "2026-04-22",
+      "value": "Live music events: over 16s, with 16 and 17-year-olds accompanied by one responsible adult. Club nights: over 18s.",
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "age_policy"
-          ],
+          "fields": ["age_policy"],
           "url": "https://villageunderground.co.uk/faqs/",
           "quote": "Live music events are strictly over 16 and each 16-17 year old under 18 must be accompanied by one responsible adult",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-04-22"
+          "retrieved_at": "2026-10-14T22:02:00Z",
+          "source_kind": "primary"
         },
         {
-          "fields": [
-            "age_policy"
-          ],
+          "fields": ["age_policy"],
           "url": "https://villageunderground.co.uk/faqs/",
           "quote": "Any Club night is strictly over 18 and right of admission will be reserved.",
-          "retrieved_at": "2026-10-14T16:04:12Z",
-          "source_kind": "primary",
-          "source_date": "2026-04-22"
+          "retrieved_at": "2026-10-14T22:02:00Z",
+          "source_kind": "primary"
         }
       ]
     },
     {
       "field": "capacity",
       "value": 700,
+      "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "capacity"
-          ],
+          "fields": ["capacity"],
           "url": "https://villageunderground.co.uk/hire/",
           "quote": "700 Standing",
-          "retrieved_at": "2026-10-14T16:04:12Z",
+          "retrieved_at": "2026-10-14T22:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["capacity"],
+          "url": "https://dice.fm/venue/village-underground-wwop",
+          "quote": "Capacity 700 Address 54 Holywell Lane",
+          "retrieved_at": "2026-10-14T22:02:00Z",
           "source_kind": "primary"
         }
       ]
@@ -240,5 +205,5 @@
     "accessibility.hearing_loop",
     "cost.free_entry"
   ],
-  "notes": "Refresh. Access page, FAQ and hire page re-read this run; they support the published profile. Hire page gives 700 standing, 200 theatre, 130 seated; 700 is the standing figure. The Holywell Lane entrance has a couple of steps, so step-free access is via Great Eastern Street. Free entry is never stated: pay per event, via DICE or promoters. No closure news on the home page."
+  "notes": "Access, FAQ and hire pages re-read today. No hearing loop is stated on the access, FAQ, hire, about or home pages. Free entry for a companion is available by emailing the venue (access page). Access tickets may need eligibility paperwork (e.g. PIP, DLA). Hire page also gives 200 theatre and 130 seated; not used as capacity."
 }

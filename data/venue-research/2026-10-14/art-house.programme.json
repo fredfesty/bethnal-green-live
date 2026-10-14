@@ -1,0 +1,29 @@
+{
+  "venue_id": "art-house",
+  "venue_name": "The Art House",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T21:59:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["gallery"],
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.acrylicize.com/perspectives/peaks-of-imperfection",
+          "quote": "is an exhibition and public programme by Submit to Love Studios, presented at The Art House from 24 April – 30 April 2026.",
+          "retrieved_at": "2026-10-14T21:58:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: the one exhibition read names 'poetry and music' among its media, but no recurring music night or genre",
+    "music.notes: no recurring music night found; the only dated programme read is the April 2026 exhibition",
+    "types beyond gallery: the studio's pages describe a space for exhibitions and public programmes, but no quote names arts-centre or any other type",
+    "cost.notes: no general pricing on the pages read",
+    "upcoming public events: none dated after 30 April 2026 found on the studio's own pages read (homepage and perspectives list)"
+  ],
+  "notes": "The Art House is run by the design studio Acrylicize at 30-36 Pritchards Road (its own site). Nights and events seen on the studio's pages: Peaks of Imperfection, exhibition open 24 to 30 April 2026 (drop-in, free), with a portrait drawing workshop on Sat 25 April, a stitch and chat drop-in on Sun 26 April, and a supper club and film screening on Thu 30 April (ticketed). The studio's perspectives list does not say where JOY, a two-day gathering, took place, so it is not attributed here. The triage row uses the id art-house; the map lead used art-house-acrylicize."
+}

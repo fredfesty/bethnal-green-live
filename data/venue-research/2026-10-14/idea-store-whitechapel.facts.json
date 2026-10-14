@@ -2,36 +2,18 @@
   "venue_id": "idea-store-whitechapel",
   "venue_name": "Idea Store Whitechapel",
   "aspect": "facts",
-  "researched_at": "2026-10-14T16:05:00Z",
+  "researched_at": "2026-10-14T22:00:00Z",
   "findings": [
-    {
-      "field": "website",
-      "value": "https://www.ideastore.co.uk/",
-      "source_date": null,
-      "evidence": [
-        {
-          "fields": [
-            "website"
-          ],
-          "url": "https://www.ideastore.co.uk/",
-          "quote": "Idea Store Whitechapel",
-          "retrieved_at": "2026-10-14T16:05:00Z",
-          "source_kind": "primary"
-        }
-      ]
-    },
     {
       "field": "address",
       "value": "321 Whitechapel Road, London",
       "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "address"
-          ],
+          "fields": ["address"],
           "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Idea_Store_Whitechapel.aspx",
           "quote": "321 Whitechapel Road",
-          "retrieved_at": "2026-10-14T16:05:00Z",
+          "retrieved_at": "2026-10-14T21:58:00Z",
           "source_kind": "directory"
         }
       ]
@@ -42,28 +24,38 @@
       "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "postcode"
-          ],
+          "fields": ["postcode"],
           "url": "https://www.towerhamlets.gov.uk/News_events/Events/Events.aspx",
           "quote": "321 Whitechapel Rd London E1 1BU",
-          "retrieved_at": "2026-10-14T16:05:00Z",
+          "retrieved_at": "2026-10-14T21:58:00Z",
           "source_kind": "directory"
         }
       ]
     },
     {
-      "field": "accessibility.notes",
-      "value": "The council's hire listing describes the venue as having full disabled access. It does not describe steps, lifts or toilets.",
+      "field": "website",
+      "value": "https://www.ideastore.co.uk/",
       "source_date": null,
       "evidence": [
         {
-          "fields": [
-            "accessibility.notes"
-          ],
+          "fields": ["website"],
+          "url": "https://www.ideastore.co.uk/",
+          "quote": "Idea Store Whitechapel",
+          "retrieved_at": "2026-10-14T21:58:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The council's hire listing says the venue has full disabled access. It gives no detail on steps, lifts or toilets, so no step-free or toilet field is set.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
           "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Idea_Store_Whitechapel.aspx",
           "quote": "The venue has full disabled access.",
-          "retrieved_at": "2026-10-14T16:05:00Z",
+          "retrieved_at": "2026-10-14T21:58:00Z",
           "source_kind": "directory"
         }
       ]
@@ -79,5 +71,5 @@
     "cost.free_entry",
     "cost.notes"
   ],
-  "notes": "A council Idea Store and a separate branch from Bethnal Green Library, which is the registry's Idea Store entry; the Idea Stores site lists the two separately. Its own site (ideastore.co.uk) has no access page we could reach (a sitemap was empty and guessed pages returned 404). The council events page lists a 'Clothes and book swap and repair event' at this address on 14/10/2026, with no time printed. The hire page gives a venue phone number and email, which are not stored here."
+  "notes": "A council Idea Store, separate from Bethnal Green Library (the registry's Idea Store entry). The Idea Stores site lists Whitechapel as one of its branches; its Accessibility link in the footer has no content of its own, and its sitemap gave nothing usable. The council's events page lists an event at 321 Whitechapel Rd on 14/10/2026 with no time, which is not used here. The hire page's phone and email are not stored."
 }

@@ -1,0 +1,58 @@
+{
+  "id": "elys-yard-social",
+  "name": "Ely's Yard Social",
+  "about_venue_id": null,
+  "address": "15 Hanbury Street",
+  "postcode": "E1 6QR",
+  "website": "https://www.elysyardsocial.com/",
+  "found_by": "map",
+  "signal": "new",
+  "kind_hint": "open-air bar with an indoor hall, dancefloor and live stage",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": ["name"],
+      "url": "https://www.elysyardsocial.com/special-events/",
+      "quote": "Ely's Yard Social | Special Events",
+      "retrieved_at": "2026-10-14T21:53:29Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": ["address"],
+      "url": "https://www.elysyardsocial.com/about/",
+      "quote": "15 Hanbury Street",
+      "retrieved_at": "2026-10-14T21:53:29Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": ["postcode"],
+      "url": "https://www.elysyardsocial.com/about/",
+      "quote": "\"postalCode\": \"E1 6QR\"",
+      "retrieved_at": "2026-10-14T21:53:29Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": ["kind_hint"],
+      "url": "https://www.elysyardsocial.com/",
+      "quote": "A spacious warehouse-style hideaway featuring a large bar, inviting dancefloor, and live stage.",
+      "retrieved_at": "2026-10-14T21:53:29Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": ["website"],
+      "url": "https://www.elysyardsocial.com/",
+      "quote": "A New Social Space at the Heart of Truman Brewery",
+      "retrieved_at": "2026-10-14T21:53:29Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": ["name"],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/business/licences/alcohol_and_entertainment/Licence_applications_received_this_week.aspx",
+      "quote": "Elys Yard Social",
+      "retrieved_at": "2026-10-14T21:53:29Z",
+      "source_kind": "directory"
+    }
+  ],
+  "found_at": "2026-10-14T21:53:29Z",
+  "notes": "Tower Hamlets register (current week only) lists a late TEN here for 31 October to 1 November 2026; a TEN alone is not the basis. Own site has a live stage and a Special Events page, but no dated public event read yet. Register spells it 'Elys Yard Social'."
+}
