@@ -96,14 +96,12 @@ const here = Astro.url.pathname;
         <p class="results__count" id="count" aria-live="polite">{events.length} {events.length === 1 ? "listing" : "listings"}</p>
         {runs.length > 0 && (
           <section class="day day--runs" aria-labelledby="runs-head">
+            <h2 class="day__head" id="runs-head">
+              <span class="plate plate--day">Exhibitions & runs</span>
+              <span class="day__rel">On for more than a day ({runs.length})</span>
+            </h2>
             <details class="runs" id="runs">
-              <summary class="runs__summary">
-                <h2 class="day__head" id="runs-head">
-                  <span class="plate plate--day">Exhibitions & runs</span>
-                  <span class="day__rel">On for more than a day ({runs.length})</span>
-                </h2>
-                <span class="runs__toggle" aria-hidden="true"></span>
-              </summary>
+              <summary class="runs__summary"><span class="runs__label"></span><span class="runs__toggle" aria-hidden="true"></span></summary>
               <ul class="day__list">
                 {runs.map((e) => <EventRow e={e} />)}
               </ul>
@@ -300,22 +298,20 @@ const here = Astro.url.pathname;
   .day__list { list-style: none; margin: 0.75rem 0 0; padding: 0; }
   .day--runs .day__rel { font-weight: 500; }
   .runs__summary {
-    display: flex; align-items: center; justify-content: space-between; gap: 1rem; cursor: pointer; list-style: none;
-    border-radius: 6px;
+    display: inline-flex; align-items: center; gap: 0.6rem; cursor: pointer; list-style: none; margin: 0.5rem 0 0 5px;
+    padding: 0.35rem 0.5rem 0.35rem 0.9rem; border: 1.5px solid #000; border-radius: 999px; background: #fff; font-weight: 700;
   }
   .runs__summary::-webkit-details-marker { display: none; }
   .runs__summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
-  .runs__summary .day__head { margin-top: 0; margin-bottom: 0; flex: 1; min-width: 0; flex-wrap: wrap; gap: 0.25rem 1rem; }
-  .runs__toggle {
-    flex: none; width: 2rem; height: 2rem; border: 1.5px solid #000; border-radius: 999px; background: #fff;
-    display: grid; place-items: center;
-  }
+  .runs__label::before { content: "Show"; }
+  .runs[open] .runs__label::before { content: "Hide"; }
+  .runs__toggle { flex: none; width: 1.4rem; height: 1.4rem; display: grid; place-items: center; }
   .runs__toggle::after {
     content: ""; width: 0.5rem; height: 0.5rem; border: solid currentColor; border-width: 0 2px 2px 0;
     transform: rotate(45deg) translateY(-2px);
   }
   .runs[open] .runs__toggle::after { transform: rotate(-135deg) translateY(-1px); }
-  .runs__summary:hover .runs__toggle { background: var(--green); border-color: var(--green); color: #fff; }
+  .runs__summary:hover { background: var(--green); border-color: var(--green); color: #fff; }
   .markets { max-width: 50rem; margin: 1rem 0 2.5rem; }
   .markets h2 { font-size: 1.5rem; font-variation-settings: "wdth" 80; font-weight: 750; }
   .markets p { margin: 0.4rem 0 0.8rem; color: var(--muted); }
