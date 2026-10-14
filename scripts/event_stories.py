@@ -37,7 +37,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CHARS_PER_LINE = 70
 MIN_LINES = 6
 RETRY_DAYS = 7
-DEFAULT_MAX = 6
+DEFAULT_MAX = 10
 DEFAULT_DAYS = 14
 PARTS = ("who", "started", "then", "now", "vibe")
 

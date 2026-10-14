@@ -27,7 +27,7 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 | Venue storyteller (weekly, Sundays' stories session, Sonnet, one per short venue) | `.claude/agents/venue-storyteller.md` | `story`, `story_research`, its own `story.*` evidence, `profiled_at` and `history` in one `data/venues/<id>.json`; the main session writes `data/runs/venue-stories/` |
 | Venue profiler (one-off profiling by hand) | `.claude/agents/venue-profiler.md` | `data/venues/`, `data/runs/venue-profiler/` |
 | Listing writer (Sonnet) | `.claude/agents/listing-writer.md` | the `listing` block of `data/events/` files only, `data/runs/listing-writer/` |
-| Event storyteller (daily, morning run, Sonnet, one per event, up to 6 a day) | `.claude/agents/event-storyteller.md` | `story`, `story_research` and one `history` line in one `data/events/` file; the main session writes `data/runs/event-stories/` |
+| Event storyteller (daily, morning run, Sonnet, one per event, up to 10 a day) | `.claude/agents/event-storyteller.md` | `story`, `story_research` and one `history` line in one `data/events/` file; the main session writes `data/runs/event-stories/` |
 | Event story checker (daily, morning run, Sonnet) | `.claude/agents/event-story-checker.md` | cuts in `story`, its `review`, and `history` in `data/events/` files |
 | Newsletter editor (Sonnet) | `.claude/agents/newsletter-editor.md` | `data/newsletter/issues/<issue-date>.json` (all but `intro`), `data/runs/newsletter/` |
 | Newsletter intro writer (Opus) | `.claude/agents/newsletter-intro.md` | the `intro` of that issue file only, plus one line in its run report |
@@ -45,7 +45,7 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 - `data/newsletter/issues/<issue-date>.json` — one weekly issue (the Thursday it goes out): which verified events, in which sections and layouts, with what words, and Fred's letter. It holds no event facts; they're read from `data/events/` when it's rendered. `scripts/newsletter.py` lists the week's events for the editor and renders an issue as email HTML or Markdown.
 - `story` in a venue profile — the longer read under "The story" on its page (opened, then, now, vibe, worth knowing), each part quoted. `scripts/venue_stories.py` flags venues whose description is under 15 lines and picks up to 12 a week for the storytellers (the weekly venue run's second Sunday session); one that is still short after a try waits a week (`story_research.next_check`).
 - `listing` in an event file — the short description shown with it on the site, written by the listing writer from checked facts only (`scripts/listings.py todo` lists what it may use). The verifier empties it when a fact it mentions changes, and the listing writer re-reads any event that changed after its description was written.
-- `story` in an event file — the longer read under "The story" on its page (who's on, where the night or series comes from, this time, what it's like, worth knowing), each part quoted in `story.evidence` (kept apart from the verifier's `evidence`). `scripts/event_stories.py` picks up to 6 of the soonest events a day for the event storytellers; dates of one regular night share their research, and one that comes up short waits a week (`story_research.next_check`). The site shows a story only once the event story checker's `story.review` is newer than it. The verifier resets it when the title or line-up changes.
+- `story` in an event file — the longer read under "The story" on its page (who's on, where the night or series comes from, this time, what it's like, worth knowing), each part quoted in `story.evidence` (kept apart from the verifier's `evidence`). `scripts/event_stories.py` picks up to 10 of the soonest events a day for the event storytellers; dates of one regular night share their research, and one that comes up short waits a week (`story_research.next_check`). The site shows a story only once the event story checker's `story.review` is newer than it. The verifier resets it when the title or line-up changes.
 - `data/runs/<agent>/<date>.md` — each run's report for a person.
 - `data/inbox/tips/` — reader tips waiting to be checked.
 - `scripts/validate.py` — format and house-rule checks. `scripts/check_quote.py` — re-fetches a page and looks for a quote. `scripts/page_text.py` — prints a page's exact text for quoting (scouts read pages with this, never with a summarising reader).
@@ -79,7 +79,7 @@ python scripts/validate.py all
 python scripts/venue_triage.py <date>
 python scripts/zone.py "<postcode>"
 python scripts/listings.py todo --date <run-date>
-python scripts/event_stories.py todo --date <run-date> --max 6
+python scripts/event_stories.py todo --date <run-date> --max 10
 python scripts/event_stories.py unchecked --date <run-date>
 python scripts/check_quote.py --story --file <event files…>
 python scripts/venue_stories.py report
