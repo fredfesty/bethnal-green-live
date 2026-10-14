@@ -1,0 +1,48 @@
+{
+  "venue_id": "lauriston",
+  "venue_name": "The Lauriston",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T16:03:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A pub just moments from Victoria Park that serves stone-baked pizza seven days a week and runs a pub quiz on Wednesdays.",
+      "source_date": "2026-09-12",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://thelauriston.com/",
+          "quote": "We are a beautiful friendly pub just moments from Victoria Park, Hackney serving delicious stone-baked pizza open 7 days a week.",
+          "retrieved_at": "2026-10-14T16:00:30Z",
+          "source_kind": "primary",
+          "source_date": "2026-09-12"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://thelauriston.com/",
+          "quote": "Our pub quiz is on every Wednesday from 8pm",
+          "retrieved_at": "2026-10-14T16:00:30Z",
+          "source_kind": "primary",
+          "source_date": "2026-09-12"
+        }
+      ]
+    },
+    {
+      "field": "types",
+      "value": ["pub"],
+      "source_date": "2026-09-12",
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://thelauriston.com/",
+          "quote": "We are a beautiful friendly pub just moments from Victoria Park",
+          "retrieved_at": "2026-10-14T16:00:30Z",
+          "source_kind": "primary",
+          "source_date": "2026-09-12"
+        }
+      ]
+    }
+  ],
+  "not_found": ["music.styles", "music.notes", "crowd", "status"],
+  "notes": "The venue's own homepage (modified 2026-09-12) names the pub quiz and pizza but no karaoke, DJ or live music nights. The Time Out listing is dated 2006 in its metadata, so its karaoke, live music, DJ and quiz line is not used. Londonist (2014) mentions karaoke and DJ nights but is over five years old, so it is not used for music. One WebSearch found no reviews from the last five years; the Londonist and Time Out pages were the only press. The Time Out page also gives the postcode E9 7JN, which is for the facts researcher."
+}

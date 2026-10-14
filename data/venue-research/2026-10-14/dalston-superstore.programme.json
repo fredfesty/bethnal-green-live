@@ -1,0 +1,117 @@
+{
+  "venue_id": "dalston-superstore",
+  "venue_name": "Dalston Superstore",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T16:04:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["queer-venue", "club", "bar", "drag"],
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "Dalston Superstore is East London’s queer nightlife institution.",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "Functioning in equal parts as a debaucherous nightclub, bar, cafe, community space and gallery",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "Superstore is as much a music-forward club as it is a front-running drag and performance space.",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["dance music", "drag"],
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "We’ve played host to dance music heavy-hitters",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://dalstonsuperstore.com/whats-on/",
+          "quote": "Drag Brunch with Lori Mae",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://dalstonsuperstore.com/whats-on/",
+          "quote": "Drag Brunch at Dalston Superstore with Femmi & Fabio!",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Two DJs on club nights, one upstairs and one in the basement club room, which opens Friday and Saturday. Drag brunch on weekend afternoons, Sunday karaoke, weekly M.A.D Wednesdays, film screenings and open decks.",
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "On club nights we have 2 DJs playing, one in the upstairs space, and one in the downstairs club space",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "On Friday and Saturday nights, our downstairs nightclub room is open.",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://dalstonsuperstore.com/drag-brunch/",
+          "quote": "dishing up a smorgasbord of bacon, bubbles, and fake boobs every Saturday and Sunday from 12-4pm.",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://dalstonsuperstore.com/whats-on/",
+          "quote": "KHOLE SUNDAYS! KARAOKE PARTY",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "We recently created M.A.D (Mutual Aid Distribution) Wednesdays: a weekly party",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "We’re open 7 days a week for lowlight cocktails & catchups, film screenings, karaoke, open decks, or our ever-expanding list of notorious club nights.",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no genre named on two or more nights beyond dance music and drag"
+  ],
+  "notes": "Nights seen on /whats-on/ (2026 dates): KHOLE SUNDAYS! KARAOKE PARTY, Sun 18, 25 Oct, 1, 8, 15 Nov; M.A.D WEDNESDAYS!!! Ft. CHEZA LUCINA!, Wed 14, 21, 28 Oct; Drag Brunch with Lori Mae, Sun 18 Oct; BLEDI FANTASY, Fri 16 Oct; SPANKYS HALLOWEEN! GOTH DISCO!, Sat 31 Oct. Also TRANSMISSIONS film screenings, Queer Open Decks (Mondays), dance workshops and speed dating. The what's-on page metadata is dated 2020 but its listings are 2026, so the listing names carry no source_date. The about-us page was modified 14 Oct 2026."
+}

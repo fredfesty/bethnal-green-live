@@ -1,0 +1,89 @@
+{
+  "venue_id": "hoxton-cabin",
+  "venue_name": "Hoxton Cabin",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T16:01:32Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A bar on Kingsland Road with an underground comedy stage, open decks played from vinyl, karaoke, and progressive house nights, according to its ma.to listing.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://ma.to/venue/hoxtoncabin",
+          "quote": "Guests can explore an underground stage hosting nightly stand-up comedy, alongside vinyl-only open decks, karaoke, and progressive house nights.",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "Its ma.to listing calls it an inclusive bar and creative hub.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "crowd"
+          ],
+          "url": "https://ma.to/venue/hoxtoncabin",
+          "quote": "Hoxton Cabin is an inclusive London bar and creative hub featuring underground comedy, vinyl open decks, and diverse social events",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": [
+        "progressive house",
+        "electronic"
+      ],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://ma.to/venue/hoxtoncabin",
+          "quote": "Hoxton Cabin hosts a variety of events including stand-up comedy, vinyl-only open decks, karaoke, pub quizzes, art exhibitions, and electronic music club nights.",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": [
+            "music.styles"
+          ],
+          "url": "https://ma.to/venue/hoxtoncabin",
+          "quote": "Guests can explore an underground stage hosting nightly stand-up comedy, alongside vinyl-only open decks, karaoke, and progressive house nights.",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Its ma.to listing says it hosts electronic music club nights, alongside stand-up comedy, vinyl open decks and karaoke.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://ma.to/venue/hoxtoncabin",
+          "quote": "Hoxton Cabin hosts a variety of events including stand-up comedy, vinyl-only open decks, karaoke, pub quizzes, art exhibitions, and electronic music club nights.",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "status",
+    "aliases"
+  ],
+  "notes": "No own website was found, so this rests on the ma.to aggregator page, which is undated; its upcoming events are listed for 2026. One WebSearch found only ticketing and listing pages, no press review. Music is from the aggregator only, so the editor should weigh it."
+}

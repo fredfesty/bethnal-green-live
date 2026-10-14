@@ -1,0 +1,85 @@
+{
+  "venue_id": "hoxton-cabin",
+  "venue_name": "Hoxton Cabin",
+  "aspect": "facts",
+  "researched_at": "2026-10-14T16:05:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "132 Kingsland Road, Haggerston, Bethnal Green",
+      "source_date": "2026-08-05",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://camra.org.uk/pubs/hoxton-cabin-bethnal-green-154827",
+          "quote": "132 Kingsland Road, Haggerston, Bethnal Green, E2 8DP",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 8DP",
+      "source_date": "2026-08-05",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://camra.org.uk/pubs/hoxton-cabin-bethnal-green-154827",
+          "quote": "132 Kingsland Road, Haggerston, Bethnal Green, E2 8DP",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": false,
+      "source_date": "2026-08-05",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet",
+            "accessibility.notes"
+          ],
+          "url": "https://camra.org.uk/pubs/hoxton-cabin-bethnal-green-154827",
+          "quote": "Step free access. No Accessible toilet.",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "CAMRA says the bar has step free access but no accessible toilet.",
+      "source_date": "2026-08-05",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://camra.org.uk/pubs/hoxton-cabin-bethnal-green-154827",
+          "quote": "Step free access. No Accessible toilet.",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website",
+    "access_page",
+    "accessibility.step_free",
+    "accessibility.hearing_loop",
+    "age_policy",
+    "capacity",
+    "cost.free_entry",
+    "cost.notes"
+  ],
+  "notes": "No own website found (one search; the venue appears only on ma.to and CAMRA). CAMRA's facility list includes a basement, and the ma.to aggregator lists events in a lower-ground space. No page read says how that space is reached, so step_free is left empty rather than set from CAMRA's bar-level line. Worth a check before the Venues page gives a step-free answer."
+}

@@ -1,0 +1,154 @@
+{
+  "id": "hoxton-cabin",
+  "name": "Hoxton Cabin",
+  "zone": "core",
+  "types": [
+    "bar",
+    "comedy"
+  ],
+  "location": {
+    "lat": 51.529648,
+    "lon": -0.077147,
+    "distance_m": 1567,
+    "source": "postcodes.io"
+  },
+  "discovered": {
+    "first_seen": "2026-10-14",
+    "found_by": [
+      "listings"
+    ]
+  },
+  "address": "132 Kingsland Road, London",
+  "postcode": "E2 8DP",
+  "website": null,
+  "summary": "A bar and creative hub on Kingsland Road, according to its ma.to listing, with underground stand-up comedy, karaoke, progressive house nights and open decks played on vinyl.",
+  "music": {
+    "styles": [
+      "progressive house",
+      "melodic house"
+    ],
+    "notes": "Per its ma.to listing: Red Eye nights of melodic and progressive house, weekly open-decks sessions for local DJs, plus stand-up comedy and karaoke."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": false,
+    "hearing_loop": null,
+    "notes": "CAMRA's entry mentions step-free access and no accessible toilet. Some nights are held in the basement, and no source says how that space is reached.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "types"
+      ],
+      "url": "https://ma.to/venue/hoxtoncabin",
+      "quote": "Hoxton Cabin is an inclusive London bar and creative hub featuring underground comedy, vinyl open decks, and diverse social events",
+      "retrieved_at": "2026-10-14T15:58:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://ma.to/venue/hoxtoncabin",
+      "quote": "Guests can explore an underground stage hosting nightly stand-up comedy, alongside vinyl-only open decks, karaoke, and progressive house nights.",
+      "retrieved_at": "2026-10-14T16:01:32Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://ma.to/venue/hoxtoncabin",
+      "quote": "Hoxton Cabin is located at 132 Kingsland Road, Shoreditch, London, E2 8DP.",
+      "retrieved_at": "2026-10-14T15:58:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://ma.to/venue/hoxtoncabin",
+      "quote": "Progressive and melodic house in an intimate East London cabin setting.",
+      "retrieved_at": "2026-10-14T16:01:29Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://ma.to/venue/hoxtoncabin",
+      "quote": "Celebrating four years of Red Eye with a special night of melodic house.",
+      "retrieved_at": "2026-10-14T16:01:29Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://ma.to/venue/hoxtoncabin",
+      "quote": "Weekly open deck sessions for local selectors and music lovers.",
+      "retrieved_at": "2026-10-14T16:01:29Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://ma.to/venue/hoxtoncabin",
+      "quote": "Hoxton Cabin hosts a variety of events including stand-up comedy, vinyl-only open decks, karaoke, pub quizzes, art exhibitions, and electronic music club nights.",
+      "retrieved_at": "2026-10-14T16:01:32Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet",
+        "accessibility.notes"
+      ],
+      "url": "https://camra.org.uk/pubs/hoxton-cabin-bethnal-green-154827",
+      "quote": "Step free access. No Accessible toilet.",
+      "retrieved_at": "2026-10-14T16:05:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.notes"
+      ],
+      "url": "https://ma.to/venue/hoxtoncabin",
+      "quote": "Deep music in the basement with four DJs",
+      "retrieved_at": "2026-10-14T16:01:29Z",
+      "source_kind": "aggregator"
+    }
+  ],
+  "profiled_at": "2026-10-14T16:09:06Z",
+  "review": {
+    "checked_at": "2026-10-14T16:10:32Z",
+    "removed_fields": [
+      "crowd"
+    ]
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-14T16:09:06Z",
+      "by": "venue-editor",
+      "change": "new venue, found by the listings finder; rests on its ma.to listing (aggregator) and CAMRA entry, no own website found"
+    },
+    {
+      "at": "2026-10-14T16:10:32Z",
+      "by": "venue-checker",
+      "change": "removed crowd (self-description only on an aggregator listing, too weak)"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "hare",
+  "name": "Hare",
+  "about_venue_id": null,
+  "address": "505 Cambridge Heath Road, Bethnal Green",
+  "postcode": "E2 9BU",
+  "website": null,
+  "found_by": "map",
+  "signal": "new",
+  "kind_hint": "free house pub with live music (CAMRA listing)",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": ["name"],
+      "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+      "quote": "Hare, Bethnal Green",
+      "retrieved_at": "2026-10-14T15:56:29Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": ["address", "postcode"],
+      "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+      "quote": "\"streetAddress\":\"505 Cambridge Heath Road\",\"addressLocality\":\"Bethnal Green\",\"postalCode\":\"E2 9BU\"",
+      "retrieved_at": "2026-10-14T15:56:29Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": ["kind_hint"],
+      "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+      "quote": "Independent ex-Truman free house in Bethnal Green serving two regular ales",
+      "retrieved_at": "2026-10-14T15:56:29Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": ["kind_hint"],
+      "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+      "quote": "Live Music",
+      "retrieved_at": "2026-10-14T15:56:29Z",
+      "source_kind": "directory"
+    }
+  ],
+  "found_at": "2026-10-14T15:56:29Z",
+  "notes": "Found on CAMRA WhatPub (page 'Last updated 14/10/2026', last surveyed 11/01/2026). Live Music is one of the listed facilities. No own website quoted; no event listing read yet, so the researchers should check whether live music is current. Zone core (E2) by scripts/zone.py."
+}

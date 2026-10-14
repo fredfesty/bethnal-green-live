@@ -1,0 +1,110 @@
+{
+  "venue_id": "village-underground",
+  "venue_name": "Village Underground",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T16:04:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["live-music", "club"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://villageunderground.co.uk/about/",
+          "quote": "Home to cutting-edge culture, clubbing and live music",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://villageunderground.co.uk/faqs/",
+          "quote": "Any Club night is strictly over 18 and right of admission will be reserved.",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["electronic", "house", "techno", "trance", "indie", "hip hop", "dub", "reggae"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://villageunderground.co.uk/events/",
+          "quote": "electronic, house, techno",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://villageunderground.co.uk/events/",
+          "quote": "house, techno, trance",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://villageunderground.co.uk/events/",
+          "quote": "garage, house, trance",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://villageunderground.co.uk/events/",
+          "quote": "garagerock, indie, indierock",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://villageunderground.co.uk/events/",
+          "quote": "hiphop, rap",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://villageunderground.co.uk/events/",
+          "quote": "dub, reggae",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Club nights and live gigs most nights of the week, many booked by outside promoters, plus a rooftop bar opened to the public for the first time.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://villageunderground.co.uk/about/",
+          "quote": "Most nights of the week you can catch an artist or DJ on the cusp of huge things in our intimate, underground, setting.",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://villageunderground.co.uk/faqs/",
+          "quote": "Shows at Village Underground are usually booked by external promoters",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://villageunderground.co.uk/",
+          "quote": "For the first time, Village Underground opens its rooftop to the public.",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.notes: no weekly or monthly night with a fixed name; the listings show one-off shows and club nights"
+  ],
+  "notes": "Nights seen on /events/ (2026 dates): Twofaced, Fri 16 Oct 23:00 (garage, house, trance); Toy Tonics with Cody Currie, Kapote + Aroop Roy, Sat 17 Oct 23:00 (electronic); Romare (Live), Thu 22 Oct 19:30 (dance, disco, electronic, house); Origins x VU Free Party: House Techno Trance, Sat 24 Oct 23:00; Batu (All Night Long), Fri 30 Oct 23:00. The about page (last modified 2023) and homepage (13 Oct 2026) are the only dated sources; event listings carry no page date, so source_date is left null."
+}

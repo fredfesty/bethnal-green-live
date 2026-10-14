@@ -1,0 +1,48 @@
+{
+  "venue_id": "fine-cider-company-shop",
+  "venue_name": "The Fine Cider Company Shop",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T16:01:32Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A shop under the arches in London Fields that sells British ciders and perries and runs bookable tastings on Friday and Saturday evenings.",
+      "source_date": "2026-06-03",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany",
+          "quote": "We specialise mainly in fine British ciders",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://londontheinside.com/find-the-finest-ciders-in-the-country-at-this-london-fields-spot-neighbourhood-watch/",
+          "quote": "the Fine Cider Company specialises in British ciders and perries sourced from all over the country",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "press",
+          "source_date": "2026-06-03"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://londontheinside.com/find-the-finest-ciders-in-the-country-at-this-london-fields-spot-neighbourhood-watch/",
+          "quote": "it's under the arches, close to e5 Bakehouse",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "press",
+          "source_date": "2026-06-03"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://londontheinside.com/find-the-finest-ciders-in-the-country-at-this-london-fields-spot-neighbourhood-watch/",
+          "quote": "there are tastings held every Friday and Saturday where you can try over half a dozen styles",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "press",
+          "source_date": "2026-06-03"
+        }
+      ]
+    }
+  ],
+  "not_found": ["crowd", "music.styles", "music.notes", "status"],
+  "notes": "London On The Inside (press, published 3 June 2026, updated 23 June 2026) reviews the shop; the ticket page is the venue's own. It is a cider shop with tastings, not a bar or a music venue, so the editor should decide whether it fits the guide. One WebSearch found no other press."
+}

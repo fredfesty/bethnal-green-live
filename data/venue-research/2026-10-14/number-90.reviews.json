@@ -1,0 +1,111 @@
+{
+  "venue_id": "number-90",
+  "venue_name": "Number 90",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T16:02:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A large canalside warehouse bar and kitchen in Hackney Wick, with two club rooms, a 30-foot canal boat bar and a terrace on the canal. Time Out says its live music and club nights run through the year, and the space is also hired out for weddings and corporate events.",
+      "source_date": "2025-07-13",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/nightlife/studio-9294",
+          "quote": "No90 Hideout and No90 Live, the two club spaces",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/nightlife/studio-9294",
+          "quote": "The Mary Read Boat @No90, a 30-foot canal boat with a bar, AV and DJ decks",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/nightlife/studio-9294",
+          "quote": "used for live music and club events year round",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "press"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://number90corporate.co.uk/",
+          "quote": "perfect for weddings, corporate functions, art exhibitions, and live performances",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "aliases",
+      "value": ["Studio 9294"],
+      "source_date": "2025-07-13",
+      "evidence": [
+        {
+          "fields": ["aliases"],
+          "url": "https://www.timeout.com/london/nightlife/studio-9294",
+          "quote": "Formerly known as Studio 9294",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["house", "disco", "funk", "soul", "hip-hop", "jazz", "world music"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.number90bar.co.uk/about",
+          "quote": "we have labels and collectives that showcase world music, jazz, house, disco, funk, soul and hip-hop",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["electronic"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.nightclubber.ro/news/londons-number-90-undergoes-refurbishment-and-announces-launch-party-details",
+          "quote": "including cutting-edge electronic music showcases",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Weekly DJ sets and live performances from resident labels and collectives, plus club nights and live music across its rooms through the year.",
+      "source_date": "2025-07-13",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.number90bar.co.uk/about",
+          "quote": "in the form of DJ sets and live performance",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.timeout.com/london/nightlife/studio-9294",
+          "quote": "used for live music and club events year round",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "press"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "crowd",
+    "status"
+  ],
+  "notes": "Searched once for press reviews; the only results were a Time Out listing (2025-07-13, used here), a Nightclubber relaunch article with no date on the page (its quotes have source_date null) and ticketing pages. No closing, reopening or new-name news found. Number 90's own site has no events page (404 at /events); the about page has no date. The Time Out review's visible text does not show a date, only its JSON-LD datePublished."
+}

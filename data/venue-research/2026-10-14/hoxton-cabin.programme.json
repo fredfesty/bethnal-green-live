@@ -1,0 +1,91 @@
+{
+  "venue_id": "hoxton-cabin",
+  "venue_name": "Hoxton Cabin",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T16:01:29Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["bar", "comedy"],
+      "source_date": "2026-09-18",
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://ma.to/venue/hoxtoncabin",
+          "quote": "Hoxton Cabin is an inclusive London bar and creative hub featuring underground comedy",
+          "retrieved_at": "2026-10-14T16:01:29Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["progressive house", "melodic house"],
+      "source_date": "2026-09-18",
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://ma.to/venue/hoxtoncabin",
+          "quote": "Progressive and melodic house in an intimate East London cabin setting.",
+          "retrieved_at": "2026-10-14T16:01:29Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://ma.to/venue/hoxtoncabin",
+          "quote": "Celebrating four years of Red Eye with a special night of melodic house.",
+          "retrieved_at": "2026-10-14T16:01:29Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://ma.to/venue/hoxtoncabin",
+          "quote": "vinyl-only open decks, karaoke, and progressive house nights",
+          "retrieved_at": "2026-10-14T16:01:29Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Melodic and progressive house nights (Red Eye, with a fourth-anniversary night on 28 November 2026), a basement deep-music night on 17 October 2026, weekly vinyl-only open decks, and stand-up comedy.",
+      "source_date": "2026-09-18",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/hoxtoncabin",
+          "quote": "Progressive and melodic house in an intimate East London cabin setting.",
+          "retrieved_at": "2026-10-14T16:01:29Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/hoxtoncabin",
+          "quote": "Deep music in the basement with four DJs",
+          "retrieved_at": "2026-10-14T16:01:29Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/hoxtoncabin",
+          "quote": "Weekly open deck sessions for local selectors and music lovers.",
+          "retrieved_at": "2026-10-14T16:01:29Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://ma.to/venue/hoxtoncabin",
+          "quote": "Guests can explore an underground stage hosting nightly stand-up comedy",
+          "retrieved_at": "2026-10-14T16:01:29Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website: no own website found; ma.to links only to Instagram, which was not opened",
+    "cost.notes: no general pricing found",
+    "music.styles: deep music is named on one night only, so it is not listed as a style"
+  ],
+  "notes": "Nights seen: Lower Ground: Deep Music, Sat 17 Oct 2026 from 22:00 (upcoming, ma.to); Red Eye 4th Anniversary, Sat 28 Nov 2026 from 21:00 (upcoming, ma.to); Red Eye, progressive and melodic house (past, ma.to); Open Decks, weekly vinyl-only (past, ma.to); Bitches in Stitches, comedy (past, ma.to). The ma.to page is an aggregator and its FAQ snapshot (September 2026) said nothing was scheduled that week, so the 'nightly' comedy is the venue's own description, not a checked schedule."
+}

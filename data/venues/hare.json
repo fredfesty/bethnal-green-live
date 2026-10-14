@@ -1,0 +1,111 @@
+{
+  "id": "hare",
+  "name": "Hare",
+  "zone": "core",
+  "types": [
+    "pub"
+  ],
+  "location": {
+    "lat": 51.53337,
+    "lon": -0.057495,
+    "distance_m": 731,
+    "source": "postcodes.io"
+  },
+  "discovered": {
+    "first_seen": "2026-10-14",
+    "found_by": [
+      "map"
+    ]
+  },
+  "address": "505 Cambridge Heath Road, Bethnal Green",
+  "postcode": "E2 9BU",
+  "website": null,
+  "summary": "An independent free house in Bethnal Green, formerly a Truman pub, with two regular ales and a small heated courtyard, according to CAMRA.",
+  "music": {
+    "styles": [],
+    "notes": "CAMRA's WhatPub entry lists live music among the pub's facilities. It doesn't say what kind or how often."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": false,
+    "hearing_loop": null,
+    "notes": "CAMRA mentions one shallow step between the street and the bar, and no accessible toilet.",
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "summary",
+        "types"
+      ],
+      "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+      "quote": "Independent ex-Truman free house in Bethnal Green serving two regular ales",
+      "retrieved_at": "2026-10-14T15:56:29Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+      "quote": "Small heated courtyard",
+      "retrieved_at": "2026-10-14T16:01:32Z",
+      "source_kind": "directory",
+      "source_date": "2026-10-14"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+      "quote": "\"streetAddress\":\"505 Cambridge Heath Road\",\"addressLocality\":\"Bethnal Green\",\"postalCode\":\"E2 9BU\"",
+      "retrieved_at": "2026-10-14T15:56:29Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+      "quote": "Live Music",
+      "retrieved_at": "2026-10-14T15:56:29Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet",
+        "accessibility.notes"
+      ],
+      "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+      "quote": "One very shallow step from the street to the bar. No accessible toilet.",
+      "retrieved_at": "2026-10-14T16:05:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-14T16:09:06Z",
+  "review": {
+    "checked_at": "2026-10-14T16:10:32Z",
+    "removed_fields": []
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-14T16:09:06Z",
+      "by": "venue-editor",
+      "change": "new venue, found by the map finder; basics from its CAMRA WhatPub entry, whether live music still runs is unconfirmed"
+    },
+    {
+      "at": "2026-10-14T16:10:32Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ]
+}

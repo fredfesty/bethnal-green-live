@@ -1,0 +1,37 @@
+{
+  "id": "lauriston",
+  "name": "The Lauriston",
+  "about_venue_id": null,
+  "address": "162 Victoria Park Rd",
+  "postcode": null,
+  "website": null,
+  "found_by": "web",
+  "signal": "new",
+  "kind_hint": "pub with karaoke, live music and DJ nights",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": ["name"],
+      "url": "https://www.timeout.com/london/clubs/the-lauriston",
+      "quote": "The Lauriston | Bars and pubs in Victoria Park, London",
+      "retrieved_at": "2026-10-14T15:55:06Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": ["address"],
+      "url": "https://www.timeout.com/london/clubs/the-lauriston",
+      "quote": "162 Victoria Park Rd",
+      "retrieved_at": "2026-10-14T15:55:06Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": ["kind_hint"],
+      "url": "https://www.timeout.com/london/clubs/the-lauriston",
+      "quote": "regular events, including Hot Breath Karaoke, live music, DJs and quiz on Wednesdays",
+      "retrieved_at": "2026-10-14T15:55:06Z",
+      "source_kind": "directory"
+    }
+  ],
+  "found_at": "2026-10-14T15:55:06Z",
+  "notes": "Time Out listing; its page metadata shows a 2006 date while the text reads as current, so the source date is unconfirmed. Postcode E9 7JN appears on the same page (not quoted in full, so left null); scripts/zone.py puts it at fringe, about 1.4 km straight line from Bethnal Green tube. No own website found; no search was run for this venue."
+}

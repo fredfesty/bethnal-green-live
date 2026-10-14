@@ -1,0 +1,52 @@
+{
+  "venue_id": "lauriston",
+  "venue_name": "The Lauriston",
+  "aspect": "facts",
+  "researched_at": "2026-10-14T16:04:12Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "162 Victoria Park Road, London",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://camra.org.uk/pubs/lauriston-homerton-156222",
+          "quote": "162 Victoria Park Road, Homerton, E9 7JN",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E9 7JN",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://camra.org.uk/pubs/lauriston-homerton-156222",
+          "quote": "162 Victoria Park Road, Homerton, E9 7JN",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "age_policy",
+    "cost.free_entry",
+    "cost.notes",
+    "capacity"
+  ],
+  "notes": "New venue. No own website found; one search (name and address) found only directories. Address and postcode are from CAMRA's WhatPub entry, which also says 'Renamed BRB@The Alex and now renamed again to LAURISTON' (a possible alias, for the editor). The CAMRA entry has no access line. The Time Out page is dated 2006 and was not used for any field. E9 7JN is about 1.37 km from Bethnal Green tube (scripts/zone.py: fringe). Its programme (karaoke, DJs, quiz) is for the programme researcher, not used here."
+}

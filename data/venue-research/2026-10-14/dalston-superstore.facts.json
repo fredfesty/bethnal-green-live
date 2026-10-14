@@ -1,0 +1,197 @@
+{
+  "venue_id": "dalston-superstore",
+  "venue_name": "Dalston Superstore",
+  "aspect": "facts",
+  "researched_at": "2026-10-14T16:04:12Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "117 Kingsland High St, London",
+      "evidence": [
+        {
+          "fields": ["address"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "Dalston Superstore 117 Kingsland High Street E8 2PB",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E8 2PB",
+      "evidence": [
+        {
+          "fields": ["postcode"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "Dalston Superstore 117 Kingsland High Street E8 2PB",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://dalstonsuperstore.com/",
+      "evidence": [
+        {
+          "fields": ["website"],
+          "url": "https://dalstonsuperstore.com/",
+          "quote": "Dalston Superstore 117 Kingsland High St London E8 2PB",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": false,
+      "evidence": [
+        {
+          "fields": ["accessibility.accessible_toilet", "accessibility.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "None of the toilets are wheelchair accessible.",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "One 20cm step up to the front door; a ramp is available if you ask the door team. Level access to the ground-floor bar and facilities. The downstairs club room (open Friday and Saturday nights) is reached by stairs only. Strobe and smoke can be turned off if you ask in advance. No designated quiet area; a small welfare area is in the downstairs bathroom on Thursday to Saturday. Free entry for PAs and access workers, and free concession tickets for low or no income, arranged by email beforehand.",
+      "source_date": "2026-08-10",
+      "evidence": [
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "There is one 20 cm step up to the entrance from street level.",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "There is level access to all facilities on this floor.",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "This space is accessible by stairs only.",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "Please let us know in advance if you would like us to avoid using either/both the smoke machine and strobe light.",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        },
+        {
+          "fields": ["accessibility.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "There are no designated chill-out spaces or quiet areas at Superstore, although on Thursdays, Fridays and Saturdays, there is a small welfare area available in the downstairs bathroom.",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        },
+        {
+          "fields": ["accessibility.notes", "cost.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "We offer free concession tickets if you are on low or no income. We offer free entry for PAs or access-workers.",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.access_page",
+      "value": "https://dalstonsuperstore.com/accessibility/",
+      "evidence": [
+        {
+          "fields": ["accessibility.access_page"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "We offer free concession tickets if you are on low or no income.",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "field": "cost.free_entry",
+      "value": "some-nights",
+      "evidence": [
+        {
+          "fields": ["cost.free_entry", "cost.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "It is usually free to enter before 10pm.",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        },
+        {
+          "fields": ["cost.free_entry", "cost.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "generally charge an entry fee between £7 – 10",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Paid club nights generally cost £7 to £10, and entry is usually free before 10pm. Free concession tickets for low or no income, and free entry for PAs and access workers, arranged by email beforehand.",
+      "source_date": "2026-08-10",
+      "evidence": [
+        {
+          "fields": ["cost.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "generally charge an entry fee between £7 – 10",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        },
+        {
+          "fields": ["cost.notes"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "To arrange free or concession entry, please email us ahead of your visit.",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "field": "capacity",
+      "value": 230,
+      "evidence": [
+        {
+          "fields": ["capacity"],
+          "url": "https://dalstonsuperstore.com/accessibility/",
+          "quote": "The venue can hold up to 230 people at once during a busy weekend party, across 2 floors.",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary",
+          "source_date": "2026-08-10"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.hearing_loop",
+    "age_policy"
+  ],
+  "notes": "Refresh. The access statement (updated 10 Aug 2026) is current and supports the published profile, and it is fresher than before. step_free is left empty: the front step has a ramp on request, so the page does not say the entrance is step-free. Age: the page says security run a 'challenge 25' policy and may ask for ID; that is an ID check, not an age limit, so age_policy is left empty for the editor to decide. Opening hours on the access page differ by day; not used here. No closure news; events are listed to 22 October."
+}

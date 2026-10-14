@@ -1,0 +1,85 @@
+{
+  "venue_id": "number-90",
+  "venue_name": "Number 90",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T16:04:19Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["club", "bar", "live-music"],
+      "source_date": "2025-11-27",
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://number90bar.co.uk/no-90-bar-kitchen-club/",
+          "quote": "No 90 transforms into a bustling club as night falls.",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://number90bar.co.uk/no-90-bar-kitchen-club/",
+          "quote": "No 90’s bar offers an extensive selection of drinks that complement the dining journey.",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://number90corporate.co.uk/",
+          "quote": "Number 90 offers adaptable, canal-side venues in Hackney Wick, perfect for weddings, corporate functions, art exhibitions, and live performances.",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "DJ-led club nights across its rooms, with some live performances and art events. Its own pages send club-night tickets to Dice and Resident Advisor; a ticketing listing shows the DJ nights below.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://number90bar.co.uk/no-90-bar-kitchen-club/",
+          "quote": "Tickets for club events are available on Resident Advisor or Dice.",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://number90corporate.co.uk/",
+          "quote": "perfect for weddings, corporate functions, art exhibitions, and live performances.",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://tixel.com/uk/tickets/number-90-bar",
+          "quote": "Elata Meets Slate: 3rd Anniversary - 24h Edition",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://tixel.com/uk/tickets/number-90-bar",
+          "quote": "Oliver Deutschmann",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "aggregator"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://tixel.com/uk/tickets/number-90-bar",
+          "quote": "The following artists have played at Number 90 Bar:",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "aggregator"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no genre named on the pages read or on the ticketing listing",
+    "crowd: not on the programme pages read",
+    "age_policy: not on the programme pages read",
+    "cost.notes: no general door pricing; the venue-hire prices are for private packages only"
+  ],
+  "notes": "Nights seen on Tixel (aggregator, a ticketing platform): DJ Slugo, Fri 16 Oct 2026 8pm; Elata Meets Slate 3rd Anniversary 24h Edition, Sun 18 Oct 2026 9am; Oliver Deutschmann, Fri 13 Nov 2026 11:30pm. Past acts on the same page include Kenny Dope, Dimitri From Paris and Andromedik (all 2026). Songkick refused and no DICE venue page was found by search. The venue's own events page loads its listings in a widget that returned no text. Resident-DJ posts on its blog date from 2020 to 2023, so they were not used for music claims."
+}

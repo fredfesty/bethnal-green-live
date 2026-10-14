@@ -1,0 +1,109 @@
+{
+  "venue_id": "hare",
+  "venue_name": "Hare",
+  "aspect": "facts",
+  "researched_at": "2026-10-14T16:05:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "505 Cambridge Heath Road, Bethnal Green",
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+          "quote": "\"streetAddress\":\"505 Cambridge Heath Road\"",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 9BU",
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+          "quote": "\"postalCode\":\"E2 9BU\"",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": false,
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.step_free",
+            "accessibility.accessible_toilet",
+            "accessibility.notes"
+          ],
+          "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+          "quote": "One very shallow step from the street to the bar. No accessible toilet.",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": false,
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+          "quote": "One very shallow step from the street to the bar. No accessible toilet.",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The entrance has a single, very shallow step, and CAMRA lists no accessible toilet. CAMRA also lists a mobility access statement for the pub, whose wording was not read.",
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+          "quote": "One very shallow step from the street to the bar. No accessible toilet.",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+          "quote": "Mobility Access Statement",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website",
+    "access_page",
+    "accessibility.hearing_loop",
+    "age_policy",
+    "capacity",
+    "cost.free_entry",
+    "cost.notes"
+  ],
+  "notes": "Found on CAMRA WhatPub only; two searches found no own website. CAMRA's facility list also has Live Music, Sports TV and a garden, which the programme researcher may want (not facts fields). Step-free is recorded as false because CAMRA describes a step to the bar; the mobility statement itself was not reached."
+}

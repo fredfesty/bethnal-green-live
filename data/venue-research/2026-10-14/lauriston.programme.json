@@ -1,0 +1,82 @@
+{
+  "venue_id": "lauriston",
+  "venue_name": "The Lauriston",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T16:04:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["pub", "live-music"],
+      "source_date": "2026-09-12",
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://thelauriston.com/",
+          "quote": "A beautiful pub with guest rooms in the heart of Victoria Park Village welcoming visitors and locals alike.",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://thelauriston.com/whats-on-at-the-lauriston/",
+          "quote": "Saturday Nights – Live music & DJs",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["traditional irish"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://thelauriston.com/whats-on-at-the-lauriston/",
+          "quote": "Catch live traditional Irish sessions every Thursday starting at 7:30 PM, featuring a wonderful lineup of local musicians.",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Weekly quiz on Wednesdays, Irish traditional music sessions each Thursday, karaoke on the last Saturday of the month, and live bands and DJs on Saturday nights.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://thelauriston.com/whats-on-at-the-lauriston/",
+          "quote": "Prove it at our weekly Quiz Night!",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://thelauriston.com/whats-on-at-the-lauriston/",
+          "quote": "Catch live traditional Irish sessions every Thursday starting at 7:30 PM, featuring a wonderful lineup of local musicians.",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://thelauriston.com/whats-on-at-the-lauriston/",
+          "quote": "Last Saturday of the month- karaoke with oz!",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://thelauriston.com/whats-on-at-the-lauriston/",
+          "quote": "From live bands to DJs spinning vinyl",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.notes: no dated events on the venue's own what's-on page, so no specific upcoming nights are listed"
+  ],
+  "notes": "The venue's own what's-on page (undated) lists four recurring nights: a Wednesday quiz, traditional Irish sessions every Thursday from 7:30pm, karaoke on the last Saturday of the month, and live bands and DJs on Saturday nights. The Time Out page (dated 9 March 2006) and Londonist (last updated January 2015) also mention karaoke, live music and DJs, but are too old to back music, so nothing from them is quoted. Homepage metadata shows 12 Sept 2026. The lead's postcode E9 7JN is not checked here (facts lane)."
+}

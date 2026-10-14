@@ -1,0 +1,26 @@
+{
+  "id": "granby-community-hub",
+  "name": "Granby Community Hub",
+  "about_venue_id": null,
+  "address": "37 St Matthew's Row, London",
+  "postcode": null,
+  "website": null,
+  "found_by": "listings",
+  "signal": "new",
+  "kind_hint": null,
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": [
+        "name",
+        "address"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Threads-of-Heritage-Family-Craft-Session-and-Community-Celebration.aspx",
+      "quote": "Granby Community Hub 37 St Matthew's Row London E2 6D",
+      "retrieved_at": "2026-10-14T15:58:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "found_at": "2026-10-14T15:58:00Z",
+  "notes": "Council listing 'Threads of Heritage: Family Craft Session and Community Celebration', Friday 30th October 2026 (16:00-19:00), Black History Month. The page cuts the postcode at 'E2 6D', so postcode is left empty; a full postcode is needed before it can be placed. Earlier candidate and venue-editor run notes agree on the same address."
+}

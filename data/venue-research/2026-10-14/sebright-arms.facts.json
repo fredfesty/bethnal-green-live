@@ -1,0 +1,128 @@
+{
+  "venue_id": "sebright-arms",
+  "venue_name": "The Sebright Arms",
+  "aspect": "facts",
+  "researched_at": "2026-10-14T16:03:46Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "31-35 Coate St, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode",
+            "capacity"
+          ],
+          "url": "https://dice.fm/venue/sebright-arms-4mm9",
+          "quote": "31-35 Coate St, London E2 9AG",
+          "retrieved_at": "2026-10-14T16:03:46Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 9AG",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode",
+            "capacity"
+          ],
+          "url": "https://dice.fm/venue/sebright-arms-4mm9",
+          "quote": "31-35 Coate St, London E2 9AG",
+          "retrieved_at": "2026-10-14T16:03:46Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "capacity",
+      "value": 150,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "capacity"
+          ],
+          "url": "https://dice.fm/venue/sebright-arms-4mm9",
+          "quote": "Capacity 150",
+          "retrieved_at": "2026-10-14T16:03:46Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": false,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.step_free",
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://camra.org.uk/pubs/sebright-arms-bethnal-green-155633",
+          "quote": "Step at entrance. No Accessible toilet.",
+          "retrieved_at": "2026-10-14T16:03:46Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": false,
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.step_free",
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://camra.org.uk/pubs/sebright-arms-bethnal-green-155633",
+          "quote": "Step at entrance. No Accessible toilet.",
+          "retrieved_at": "2026-10-14T16:03:46Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The gig room is in the basement, below the ground-floor bar. CAMRA's WhatPub entry records a step at the entrance and no accessible toilet; the pub's own access information could not be read.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://agg.uk.com/properties/lonl462",
+          "quote": "Ground floor pub with established live music venue in the basement",
+          "retrieved_at": "2026-10-14T16:03:46Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://camra.org.uk/pubs/sebright-arms-bethnal-green-155633",
+          "quote": "Step at entrance. No Accessible toilet.",
+          "retrieved_at": "2026-10-14T16:03:46Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "website (the venue's own site, sebrightarms.co.uk, could not be read: page_text.py refused it, robots.txt unreachable)",
+    "accessibility.access_page",
+    "accessibility.hearing_loop",
+    "age_policy",
+    "cost.free_entry",
+    "cost.notes (DICE prices are per event, and some events say Free; not general pricing)"
+  ],
+  "notes": "Searches used: 1 of 8, for an access guide; none found for this pub. Pages read: dice.fm venue page, camra.org.uk WhatPub entry, agg.uk.com listing. The registry gives https://www.sebrightarms.co.uk as the website, but it could not be read, so it is not confirmed. CAMRA's entry shows a 'Last updated' date in a form the schema won't take, so source_date is empty. The entrance step and accessible toilet lines are directory information, not from the venue."
+}

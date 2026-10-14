@@ -1,0 +1,46 @@
+{
+  "id": "fine-cider-company-shop",
+  "name": "The Fine Cider Company Shop",
+  "about_venue_id": null,
+  "address": "399 Mentmore Terrace, London Fields",
+  "postcode": "E8 3PH",
+  "website": "https://www.tickettailor.com/events/thefinecidercompany",
+  "found_by": "listings",
+  "signal": "new",
+  "kind_hint": "cider shop running paid, bookable tastings",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": [
+        "name",
+        "address",
+        "postcode",
+        "website"
+      ],
+      "url": "https://www.tickettailor.com/events/thefinecidercompany",
+      "quote": "The Fine Cider Company Shop, 399 Mentmore Terrace, London Fields, E8 3PH",
+      "retrieved_at": "2026-10-14T15:58:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
+      "quote": "Out tastings are available to book every Friday & Saturday, and always run from 6:30pm, to 8pm.",
+      "retrieved_at": "2026-10-14T15:58:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "name"
+      ],
+      "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
+      "quote": "Tastings at The Fine Cider Company Shop",
+      "retrieved_at": "2026-10-14T15:58:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "found_at": "2026-10-14T15:58:00Z",
+  "notes": "Ticket Tailor tastings, 18:30 to 20:00, public tickets from GBP 30 per the page data: Sat 17 Oct, Fri 23 Oct and Fri 30 Oct 2026 (dates from the page's event data). Page says strictly 18+. Postcode is E8, about 1.6 km from the tube, so fringe. A shop; a person may decide whether tasting shops fit the guide."
+}

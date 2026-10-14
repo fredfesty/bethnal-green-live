@@ -1,0 +1,197 @@
+{
+  "run_date": "2026-10-14",
+  "research": [
+    {
+      "venue_id": "hare",
+      "name": "Hare",
+      "found_by": [
+        "map"
+      ],
+      "signals": [],
+      "postcode": "E2 9BU",
+      "zone": "core",
+      "distance_m": 731,
+      "website": null,
+      "leads": [
+        "data/venue-leads/2026-10-14/map-hare.json"
+      ],
+      "reason": "new"
+    },
+    {
+      "venue_id": "idea-store-whitechapel",
+      "name": "Idea Store Whitechapel",
+      "found_by": [
+        "listings"
+      ],
+      "signals": [],
+      "postcode": "E1 1BU",
+      "zone": "core",
+      "distance_m": 799,
+      "website": null,
+      "leads": [
+        "data/venue-leads/2026-10-14/listings-idea-store-whitechapel.json"
+      ],
+      "reason": "new"
+    },
+    {
+      "venue_id": "hoxton-hound",
+      "name": "Hoxton Hound",
+      "found_by": [
+        "map"
+      ],
+      "signals": [],
+      "postcode": "E2 8HZ",
+      "zone": "core",
+      "distance_m": 1534,
+      "website": null,
+      "leads": [
+        "data/venue-leads/2026-10-14/map-hoxton-hound.json"
+      ],
+      "reason": "new"
+    },
+    {
+      "venue_id": "hoxton-cabin",
+      "name": "Hoxton Cabin",
+      "found_by": [
+        "listings"
+      ],
+      "signals": [],
+      "postcode": "E2 8DP",
+      "zone": "core",
+      "distance_m": 1567,
+      "website": null,
+      "leads": [
+        "data/venue-leads/2026-10-14/listings-hoxton-cabin.json"
+      ],
+      "reason": "new"
+    },
+    {
+      "venue_id": "fine-cider-company-shop",
+      "name": "The Fine Cider Company Shop",
+      "found_by": [
+        "listings"
+      ],
+      "signals": [],
+      "postcode": "E8 3PH",
+      "zone": "fringe",
+      "distance_m": 1567,
+      "website": "https://www.tickettailor.com/events/thefinecidercompany",
+      "leads": [
+        "data/venue-leads/2026-10-14/listings-fine-cider-company-shop.json"
+      ],
+      "reason": "new"
+    },
+    {
+      "venue_id": "granby-community-hub",
+      "name": "Granby Community Hub",
+      "found_by": [
+        "listings"
+      ],
+      "signals": [],
+      "postcode": null,
+      "zone": null,
+      "distance_m": null,
+      "website": null,
+      "leads": [
+        "data/venue-leads/2026-10-14/listings-granby-community-hub.json"
+      ],
+      "reason": "new"
+    },
+    {
+      "venue_id": "whitehorse-adventure-playground",
+      "name": "Whitehorse Adventure Playground",
+      "found_by": [
+        "listings"
+      ],
+      "signals": [],
+      "postcode": null,
+      "zone": null,
+      "distance_m": null,
+      "website": null,
+      "leads": [
+        "data/venue-leads/2026-10-14/listings-whitehorse-adventure-playground.json"
+      ],
+      "reason": "new"
+    },
+    {
+      "venue_id": "lauriston",
+      "name": "The Lauriston",
+      "found_by": [
+        "web"
+      ],
+      "signals": [],
+      "postcode": null,
+      "zone": null,
+      "distance_m": null,
+      "website": null,
+      "leads": [
+        "data/venue-leads/2026-10-14/web-lauriston.json"
+      ],
+      "reason": "new"
+    },
+    {
+      "venue_id": "mile-end-climbing-wall",
+      "name": "Mile End Climbing Wall",
+      "reason": "unprofiled",
+      "zone": "fringe",
+      "postcode": "E3 5BE",
+      "leads": []
+    },
+    {
+      "venue_id": "village-underground",
+      "name": "Village Underground",
+      "reason": "refresh",
+      "zone": "outer",
+      "postcode": "EC2A 3PQ",
+      "profiled_at": "2026-10-12T23:04:43Z",
+      "leads": []
+    },
+    {
+      "venue_id": "troxy",
+      "name": "Troxy",
+      "reason": "refresh",
+      "zone": "fringe",
+      "postcode": "E1 0HX",
+      "profiled_at": "2026-10-12T23:04:43Z",
+      "leads": []
+    },
+    {
+      "venue_id": "dalston-superstore",
+      "name": "Dalston Superstore",
+      "reason": "refresh",
+      "zone": "outer",
+      "postcode": "E8 2PB",
+      "profiled_at": "2026-10-12T23:05:00Z",
+      "leads": []
+    },
+    {
+      "venue_id": "number-90",
+      "name": "Number 90",
+      "reason": "refresh",
+      "zone": "outer",
+      "postcode": "E9 5LN",
+      "profiled_at": "2026-10-12T23:05:14Z",
+      "leads": []
+    },
+    {
+      "venue_id": "grow-hackney",
+      "name": "Grow Hackney",
+      "reason": "refresh",
+      "zone": "outer",
+      "postcode": "E9 5LN",
+      "profiled_at": "2026-10-12T23:05:16Z",
+      "leads": []
+    },
+    {
+      "venue_id": "sebright-arms",
+      "name": "The Sebright Arms",
+      "reason": "refresh",
+      "zone": "core",
+      "postcode": "E2 9AG",
+      "profiled_at": "2026-10-12T23:05:39Z",
+      "leads": []
+    }
+  ],
+  "report_only": [],
+  "known": []
+}

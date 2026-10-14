@@ -1,0 +1,65 @@
+{
+  "venue_id": "sebright-arms",
+  "venue_name": "The Sebright Arms",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T16:04:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A pub in Coate Street, Bethnal Green, with a gig room in its basement below the ground-floor bar. Dice describes the building as historically a movie theatre and music hall, and Londonist says its live entertainment has ranged from punk in the 70s to cabaret in the 90s.",
+      "source_date": "2015-05",
+      "evidence": [
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://dice.fm/venue/sebright-arms-4mm9",
+          "quote": "Historically a movie theatre & music hall",
+          "retrieved_at": "2026-10-14T16:04:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "summary"
+          ],
+          "url": "https://londonist.com/pubs/sebright-arms",
+          "quote": "punk in the 70s, disco in the 80s, cabaret in the 90s",
+          "retrieved_at": "2026-10-14T16:04:00Z",
+          "source_kind": "press"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Gigs in the basement music room, with karaoke and quiz nights listed for the pub on Dice.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/sebright-arms-4mm9",
+          "quote": "Sebright Karaoke",
+          "retrieved_at": "2026-10-14T16:04:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "music.notes"
+          ],
+          "url": "https://dice.fm/venue/sebright-arms-4mm9",
+          "quote": "Sebright Quiz Night",
+          "retrieved_at": "2026-10-14T16:04:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles",
+    "crowd",
+    "website",
+    "status"
+  ],
+  "notes": "Searched once; the press results were Time Out (2015-03-25) and Londonist (last updated 2015-05). Both are over five years old, so they back only the history in the summary, not crowd or music (Time Out's 'mostly in their mid-twenties' and Londonist's 'young trendies' are not used). The venue's own site is not reachable: sebrightarms.co.uk returns robots.txt unreachable, so it was not read, and no website is proposed. Dice's venue page lists events on sale to 12 November 2026, so the venue appears open; no closing news found. No current source names a music style for the venue."
+}

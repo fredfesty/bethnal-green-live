@@ -1,0 +1,48 @@
+{
+  "venue_id": "hare",
+  "venue_name": "Hare",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T16:01:32Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "An independent free house on Cambridge Heath Road, a former Truman pub, with real ales, a small heated courtyard, and pool and darts, according to its CAMRA WhatPub entry.",
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+          "quote": "Independent ex-Truman free house in Bethnal Green serving two regular ales",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "directory",
+          "source_date": "2026-10-14"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+          "quote": "Small heated courtyard",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "directory",
+          "source_date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "CAMRA's WhatPub entry lists live music among the pub's facilities; the kind of nights is not stated.",
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+          "quote": "Live Music",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "directory",
+          "source_date": "2026-10-14"
+        }
+      ]
+    }
+  ],
+  "not_found": ["music.styles", "crowd", "status"],
+  "notes": "Only CAMRA WhatPub was read; one WebSearch found no press review. The page shows 'Last surveyed 11/01/2026'. No live-music listing was read, so it is not confirmed as current."
+}

@@ -1,0 +1,87 @@
+{
+  "venue_id": "village-underground",
+  "venue_name": "Village Underground",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T16:03:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A renovated Victorian warehouse in Shoreditch, set under railway arches and topped with graffiti-covered tube carriages. Time Out counts it among London's most atmospheric places for gigs and clubs.",
+      "source_date": "2025-07-16",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/music/village-underground",
+          "quote": "Set underneath some cavernous railway arches",
+          "retrieved_at": "2026-10-14T16:01:40Z",
+          "source_kind": "press",
+          "source_date": "2025-07-16"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/music/village-underground",
+          "quote": "four brightly coloured, graffiti-covered tube carriages perched on its roof",
+          "retrieved_at": "2026-10-14T16:01:40Z",
+          "source_kind": "press",
+          "source_date": "2025-07-16"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/music/village-underground",
+          "quote": "one of the city’s most atmospheric gig and club venues",
+          "retrieved_at": "2026-10-14T16:01:40Z",
+          "source_kind": "press",
+          "source_date": "2025-07-16"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/music/village-underground",
+          "quote": "the renovated Victorian warehouse space inside",
+          "retrieved_at": "2026-10-14T16:01:40Z",
+          "source_kind": "press",
+          "source_date": "2025-07-16"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["electronic"],
+      "source_date": "2025-07-16",
+      "evidence": [
+        {
+          "fields": ["music.styles", "music.notes"],
+          "url": "https://www.timeout.com/london/music/village-underground",
+          "quote": "which often hosts top electronic DJs and exciting up-and-coming artists",
+          "retrieved_at": "2026-10-14T16:01:40Z",
+          "source_kind": "press",
+          "source_date": "2025-07-16"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Gigs and club nights most nights of the week, often with top electronic DJs and up-and-coming artists.",
+      "source_date": "2025-07-16",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://villageunderground.co.uk/about/",
+          "quote": "Most nights of the week you can catch an artist or DJ on the cusp of huge things",
+          "retrieved_at": "2026-10-14T16:01:10Z",
+          "source_kind": "primary",
+          "source_date": "2023-10-02"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.timeout.com/london/music/village-underground",
+          "quote": "which often hosts top electronic DJs and exciting up-and-coming artists",
+          "retrieved_at": "2026-10-14T16:01:40Z",
+          "source_kind": "press",
+          "source_date": "2025-07-16"
+        }
+      ]
+    }
+  ],
+  "not_found": ["status", "crowd"],
+  "notes": "Refresh of an existing profile. Time Out (datePublished 2025-07-16) and the venue's About page (modified 2023-10-02) were read in full. One WebSearch found no closing, renaming or reopening news; it returned a trade article on a licence renewal (egi.co.uk), which was not read and is not news of a closure. The venue's own FAQ and access pages were not re-read this run, so the existing profile's quotes from them are unchanged."
+}

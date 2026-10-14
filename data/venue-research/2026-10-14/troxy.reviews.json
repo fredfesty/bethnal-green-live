@@ -1,0 +1,71 @@
+{
+  "venue_id": "troxy",
+  "venue_name": "Troxy",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T16:03:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A Grade II-listed 1930s art deco building that opened as a cinema in 1933, was later used as an opera school and bingo hall, and now hosts concerts, club nights and other events.",
+      "source_date": "2023-03-10",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/music/troxy",
+          "quote": "This characterful Grade II-listed building opened in 1933 as one of London's biggest and flashiest cinemas.",
+          "retrieved_at": "2026-10-14T16:02:10Z",
+          "source_kind": "press",
+          "source_date": "2023-03-10"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.timeout.com/london/music/troxy",
+          "quote": "It spent time as an opera school and a bingo hall",
+          "retrieved_at": "2026-10-14T16:02:10Z",
+          "source_kind": "press",
+          "source_date": "2023-03-10"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://troxy.co.uk/discover/history/",
+          "quote": "blending the venue’s 1930s Art Deco heritage with modern, audience-first design",
+          "retrieved_at": "2026-10-14T16:02:20Z",
+          "source_kind": "primary",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Live concerts, club nights, MMA fights and immersive cinema.",
+      "source_date": "2023-03-10",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.timeout.com/london/music/troxy",
+          "quote": "including MMA fights, immersive cinema, club nights and a huge range of live music concerts",
+          "retrieved_at": "2026-10-14T16:02:10Z",
+          "source_kind": "press",
+          "source_date": "2023-03-10"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The venue says it built a reputation for LGBTQ+-led events in 2019.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["crowd"],
+          "url": "https://troxy.co.uk/discover/history/",
+          "quote": "In 2019 Troxy cemented its reputation as one of the flagship venues for LGBTQ+ led events.",
+          "retrieved_at": "2026-10-14T16:02:20Z",
+          "source_kind": "primary",
+          "source_date": null
+        }
+      ]
+    }
+  ],
+  "not_found": ["music.styles", "status"],
+  "notes": "The Time Out page (dated 2023-03-10) still carries a 'Temporarily closed' tag in its keywords. Troxy's own history page, read today, describes events in 2024 and 2025 and a 2026 capacity rise to 3,600, so the venue is open and no closing news was found; this tag is stale. Two WebSearches were not used on it (budget kept). The accessibility and FAQ pages were not re-read this run, so the existing profile's quotes from them are unchanged."
+}

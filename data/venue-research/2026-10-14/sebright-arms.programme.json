@@ -1,0 +1,113 @@
+{
+  "venue_id": "sebright-arms",
+  "venue_name": "The Sebright Arms",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T16:04:19Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["pub", "gig-venue", "karaoke"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://dice.fm/venue/sebright-arms-4mm9",
+          "quote": "Now an east-end boozer and music venue",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://dice.fm/venue/sebright-arms-4mm9",
+          "quote": "Sebright KaraokeFri 16 Oct",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["alt-indie"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://dice.fm/event/g5bm52-moonlight-23rd-oct-sebright-arms-london-tickets",
+          "quote": "Moonlight Academy are an emerging four-piece alt-indie LDN based outfit.",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://dice.fm/event/g5qka5-adult-leisure-29th-oct-sebright-arms-london-tickets",
+          "quote": "Formed in 2020, Bristol’s melodic alt-indie four-piece Adult Leisure",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Mostly live gigs on different nights, leaning indie: alt-indie, post-punk, shoegaze and post-rock bands. A recurring Friday karaoke, a Monday quiz night and a Tuesday pool competition, and occasional DJ nights of funk, soul and disco classics.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://dice.fm/venue/sebright-arms-4mm9",
+          "quote": "Sebright KaraokeFri 16 Oct",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://dice.fm/venue/sebright-arms-4mm9",
+          "quote": "Sebright Quiz NightMon 19 Oct",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://dice.fm/venue/sebright-arms-4mm9",
+          "quote": "Sebright Arms Pool CompTue 20 Oct",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://dice.fm/event/k6d2eq-mx-as-rome-burns-bone-china-15th-oct-sebright-arms-london-tickets",
+          "quote": "M/X is a young and eclectic three-piece dream punk powerhouse that fuses post punk with grunge and indie gaze.",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://dice.fm/event/3o8kbl-common-ideal-the-party-bugbear-thirsk-1st-nov-sebright-arms-london-tickets",
+          "quote": "Big shoegaze attitude, electronic elements and whirling melodies",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://dice.fm/event/6dor9b-insider-trading-6th-nov-sebright-arms-london-tickets",
+          "quote": "their unique brand of post-rock-with-choruses",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://dice.fm/event/wwn3xr-dr-telefunk-at-sebright-24th-oct-sebright-arms-london-tickets",
+          "quote": "Dr. Telefunk plays a 5 hour set of classics ranging from Funk, Soul, Disco, RnB, Salsa and House.",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: only alt-indie is named on more than one night; post-punk, shoegaze and post-rock are named once each",
+    "cost.notes: no general pricing on the DICE venue page (event prices only)",
+    "age_policy: only per-event 18+ notes seen, no venue-wide policy",
+    "accessibility and crowd: not on the pages read"
+  ],
+  "notes": "Nights seen on the DICE venue page: Sebright Karaoke, Fri 16 Oct 2026 (also 23 and 30 Oct, 6 Nov); Sebright Quiz Night, Mon 19 Oct (also 26 Oct, 2 and 9 Nov); Sebright Arms Pool Comp, Tue 20 Oct (also 27 Oct, 3 and 10 Nov); Dr. Telefunk at Sebright, Sat 24 Oct 2026; Common Ideal / The Party / Bugbear / Thirsk, Sun 1 Nov 2026. The venue's own site, sebrightarms.co.uk, refused the page reader (robots.txt unreachable), so it was not fetched and the DICE page is the source. Songkick is refused."
+}

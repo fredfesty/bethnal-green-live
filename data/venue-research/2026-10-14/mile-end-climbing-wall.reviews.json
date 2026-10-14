@@ -1,0 +1,72 @@
+{
+  "venue_id": "mile-end-climbing-wall",
+  "venue_name": "Mile End Climbing Wall",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T16:03:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A climbing centre in an old pipe engineering works in Mile End Park, maintained by a charity, with bouldering, roped climbing, courses and a Finnish sauna.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://www.mileendwall.org.uk/about-us",
+          "quote": "housed inside an old pipe engineering works which is located within Mile End Park",
+          "retrieved_at": "2026-10-14T16:01:10Z",
+          "source_kind": "primary",
+          "source_date": null
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.mileendwall.org.uk/about-us",
+          "quote": "Mile End Climbing Wall is maintained by our own charity",
+          "retrieved_at": "2026-10-14T16:01:10Z",
+          "source_kind": "primary",
+          "source_date": null
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.mileendwall.org.uk/about-us",
+          "quote": "There is extensive bouldering (low level climbing without ropes) at all levels",
+          "retrieved_at": "2026-10-14T16:01:10Z",
+          "source_kind": "primary",
+          "source_date": null
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://www.mileendwall.org.uk/sauna",
+          "quote": "Forty five minutes of total relaxation at Mile End's very own Finnish sauna!",
+          "retrieved_at": "2026-10-14T16:01:20Z",
+          "source_kind": "primary",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The venue says charities, schools, youth groups and recreational climbers use it widely, and describes a relaxed, informal social atmosphere.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["crowd"],
+          "url": "https://www.mileendwall.org.uk/about-us",
+          "quote": "The centre is widely used by other development charities, groups, schools and recreational climbers.",
+          "retrieved_at": "2026-10-14T16:01:10Z",
+          "source_kind": "primary",
+          "source_date": null
+        },
+        {
+          "fields": ["crowd"],
+          "url": "https://www.mileendwall.org.uk/about-us",
+          "quote": "Through our staff, regular customers and clubs, we have a relaxed and informal social atmosphere.",
+          "retrieved_at": "2026-10-14T16:01:10Z",
+          "source_kind": "primary",
+          "source_date": null
+        }
+      ]
+    }
+  ],
+  "not_found": ["music.styles", "music.notes", "status"],
+  "notes": "The venue's own About and Sauna pages were read; no press review was found in one WebSearch. The List article (undated, but its embedded posts are from 2018) and The Nudge (refused: never-use list) were not used. The climbing and sauna prices are for the cost researcher. This is not a nights venue; music fields do not apply."
+}

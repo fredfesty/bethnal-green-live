@@ -13,9 +13,9 @@
   "crowd": null,
   "accessibility": {
     "step_free": null,
-    "accessible_toilet": null,
+    "accessible_toilet": false,
     "hearing_loop": null,
-    "notes": "Gigs are held downstairs in the basement; the pub itself is on the ground floor.",
+    "notes": "Gigs are held downstairs in the basement; the pub itself is on the ground floor. CAMRA's WhatPub entry lists a step at the entrance and no accessible toilet.",
     "access_page": null
   },
   "cost": {
@@ -65,12 +65,34 @@
       "quote": "Our gig venue in the basement is also a popular spot for a private celebration",
       "retrieved_at": "2026-10-12T23:07:24Z",
       "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "accessibility.accessible_toilet",
+        "accessibility.notes"
+      ],
+      "url": "https://camra.org.uk/pubs/sebright-arms-bethnal-green-155633",
+      "quote": "Step at entrance. No Accessible toilet.",
+      "retrieved_at": "2026-10-14T16:03:46Z",
+      "source_kind": "directory"
     }
   ],
-  "profiled_at": "2026-10-12T23:05:39Z",
+  "profiled_at": "2026-10-14T16:09:06Z",
   "review": {
-    "checked_at": "2026-10-12T23:14:31Z",
+    "checked_at": "2026-10-14T16:10:32Z",
     "removed_fields": []
   },
-  "needs_review": null
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-14T16:09:06Z",
+      "by": "venue-editor",
+      "change": "added no accessible toilet and the entrance step from CAMRA WhatPub; music notes now mention karaoke, quiz and pool nights from DICE"
+    },
+    {
+      "at": "2026-10-14T16:10:32Z",
+      "by": "venue-checker",
+      "change": "cut the karaoke, quiz and pool-night sentence from music.notes (backed only by single dated event titles) and its three evidence items"
+    }
+  ]
 }

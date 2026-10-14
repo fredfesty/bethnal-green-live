@@ -1,0 +1,121 @@
+{
+  "venue_id": "mile-end-climbing-wall",
+  "venue_name": "Mile End Climbing Wall",
+  "aspect": "facts",
+  "researched_at": "2026-10-14T16:04:12Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "Haverfield Road, London",
+      "evidence": [
+        {
+          "fields": [
+            "address",
+            "postcode"
+          ],
+          "url": "https://www.mileendwall.org.uk/contact-us",
+          "quote": "Mile End Climbing Wall Haverfield Road London E3 5BE",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E3 5BE",
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.mileendwall.org.uk/contact-us",
+          "quote": "Mile End Climbing Wall Haverfield Road London E3 5BE",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "website",
+      "value": "https://www.mileendwall.org.uk",
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.mileendwall.org.uk/",
+          "quote": "Bringing London’s climbers together since 1986",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Daily entry is paid: adult £14.50 to £15.50 and concession £10 to £11, both including a donation. Punchcards, 30-day passes and monthly memberships are also sold. The centre says climbing prices stayed the same for 2026.",
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.mileendwall.org.uk/first-visit",
+          "quote": "Adult £14.50 - £15.50 (including donation)",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.mileendwall.org.uk/first-visit",
+          "quote": "Concession £10 - £11 (including donation)",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.mileendwall.org.uk/about-us",
+          "quote": "Anyone can continue to climb at Mile End for the same cost for the next year",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "age_policy",
+      "value": "Under-14s cannot climb or boulder unsupervised; 14 to 17s can boulder independently after a competency test",
+      "evidence": [
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://www.mileendwall.org.uk/first-visit",
+          "quote": "Juniors under 14 can’t be signed off to climb or boulder unsupervised.",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://www.mileendwall.org.uk/first-visit",
+          "quote": "Juniors between ages of 14 and 17 can boulder independently if they have relevant experience and can pass competency test",
+          "retrieved_at": "2026-10-14T16:04:12Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "accessibility.access_page",
+    "cost.free_entry",
+    "capacity"
+  ],
+  "notes": "Unprofiled. The site has no access page (checked: /accessibility and /access are 404; the contact, first-visit, about and sauna pages say nothing about step-free access or toilets). Nearest tube Mile End per the contact page. Prices are from the first-visit page, which is the only price list. The sauna is bookable (mixed gender, 14 max or 9 off-peak). Socials include a monthly Queer Climb and a Women's social session, per the socials page; not used here. Registry id and address match the page."
+}
