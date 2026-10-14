@@ -70,9 +70,179 @@
       "quote": "Cambridge Heath Rd, Bethnal Green, London E2 9PA",
       "retrieved_at": "2026-10-13T00:10:00Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://britishlistedbuildings.co.uk/101357777-bethnal-green-museum-bethnal-green-ward",
+      "quote": "the Bethnal Green Museum was opened on 24th June 1872 as designed by James W. Wild",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://britishlistedbuildings.co.uk/101357777-bethnal-green-museum-bethnal-green-ward",
+      "quote": "Originally constructed in South Kensington in 1856-7, disassembled 1865-7, and reassembled in Bethnal Green where it opened as the museum in 1872",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://britishlistedbuildings.co.uk/101357777-bethnal-green-museum-bethnal-green-ward",
+      "quote": "It was re-launched as the Museum of Childhood in 1974, and in 1997 the National Museum of Childhood.",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://londonist.com/london/museums-and-galleries/young-v-a-opens-july-2023-museum-of-childhood",
+      "quote": "reopens as the Young V&A on 1 July 2023",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "press",
+      "source_date": "2023-03-31"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://londonist.com/london/museums-and-galleries/young-v-a-opens-july-2023-museum-of-childhood",
+      "quote": "been three years in the making",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "press",
+      "source_date": "2023-03-31"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.vam.ac.uk/young",
+      "quote": "Daily: 10.00 – 17.45",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.vam.ac.uk/young",
+      "quote": "Admission is free",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.vam.ac.uk/young",
+      "quote": "get creative at Art Fund Museum of the Year 2024",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.vam.ac.uk/young",
+      "quote": "Inside Aardman: Wallace & Gromit and Friends",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.vam.ac.uk/young",
+      "quote": "Closes Sunday, 15 November 2026",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://londonist.com/london/museums-and-galleries/young-v-a-opens-july-2023-museum-of-childhood",
+      "quote": "Still housed in the grand barrel-vaulted hall",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "press",
+      "source_date": "2023-03-31"
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://londonist.com/london/museums-and-galleries/young-v-a-opens-july-2023-museum-of-childhood",
+      "quote": "Kids have been involved in the building's redesign",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "press",
+      "source_date": "2023-03-31"
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://londonist.com/london/museums-and-galleries/young-v-a-opens-july-2023-museum-of-childhood",
+      "quote": "create their own Minecraft version of a town square, get on stage in a performance and storytelling space, frolic in a sandpit",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "press",
+      "source_date": "2023-03-31"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://britishlistedbuildings.co.uk/101357777-bethnal-green-museum-bethnal-green-ward",
+      "quote": "one of the earliest surviving examples of a pre-fabricated iron-framed building",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://britishlistedbuildings.co.uk/101357777-bethnal-green-museum-bethnal-green-ward",
+      "quote": "earned the building the disparaging nickname of the 'Brompton Boilers'",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://britishlistedbuildings.co.uk/101357777-bethnal-green-museum-bethnal-green-ward",
+      "quote": "apparently made by female convicts from the Woking Gaol",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://londonist.com/london/museums-and-galleries/young-v-a-opens-july-2023-museum-of-childhood",
+      "quote": "a Kermit the Frog toy from the 1970s/80s",
+      "retrieved_at": "2026-10-14T12:21:51Z",
+      "source_kind": "press",
+      "source_date": "2023-03-31"
     }
   ],
-  "profiled_at": "2026-10-13T00:40:36Z",
+  "profiled_at": "2026-10-14T12:21:51Z",
   "history": [
     {
       "at": "2026-10-13T00:40:36Z",
@@ -83,10 +253,39 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T12:21:51Z",
+      "by": "venue-storyteller",
+      "change": "added the story (opened, then, now, vibe, worth knowing) from British Listed Buildings, Londonist and the venue's own site"
+    },
+    {
+      "at": "2026-10-14T12:30:32Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: story.then/now/vibe/worth_knowing: cut unquoted Art Fund claim, 'stop-motion', 'plenty to touch', Grade II*, mosaic floor item"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T12:30:32Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "24 June 1872, as the Bethnal Green Museum",
+    "then": "According to British Listed Buildings, which reproduces the Historic England listing, the building was first put up in South Kensington in 1856-7, dismantled in 1865-7 and re-erected in Bethnal Green as a museum, opening in 1872. It took the name Museum of Childhood in 1974, then National Museum of Childhood in 1997. Londonist reported in March 2023 that the museum would reopen under the Young V&A name on 1 July 2023, after three years in the making.",
+    "now": "The venue's own website says it is open daily and free. Its current exhibition is Inside Aardman: Wallace & Gromit and Friends, which closes on 15 November 2026.",
+    "vibe": "Londonist describes the building as a grand barrel-vaulted hall, with a design that involved children: a Minecraft-style town square, a performance and storytelling space and a sandpit.",
+    "worth_knowing": [
+      "British Listed Buildings describes the building as an early surviving prefabricated iron-framed structure.",
+      "Its first incarnation in South Kensington was nicknamed the 'Brompton Boilers', says British Listed Buildings.",
+      "Londonist says the new displays include a toy Kermit the Frog dating from the 1970s or 80s."
+    ],
+    "written_at": "2026-10-14T12:21:51Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "outcome": "written",
+    "attempts": 1,
+    "next_check": null,
+    "note": "Sources: British Listed Buildings (Historic England text), Londonist 2023, venue site. Could still add a review of the 2023 galleries and the Museum of Childhood's Sabin-era history from a reliable source."
   }
 }

@@ -8,7 +8,7 @@
   "summary": "A public library that opened in 1922, in Bethnal Green Gardens close to Cambridge Road, with two first-floor halls for hire.",
   "music": {
     "styles": [],
-    "notes": "A free community discussion event about death and grief, family storytelling and arts and crafts sessions, and adult education classes."
+    "notes": null
   },
   "crowd": null,
   "accessibility": {
@@ -92,9 +92,139 @@
       "quote": "Cambridge Heath Road London E2 0HL",
       "retrieved_at": "2026-10-13T00:35:00Z",
       "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.britishlistedbuildings.co.uk/101391330-bethnal-green-library-bethnal-green-ward",
+      "quote": "It was opened by the Mayor, Councillor J.J. Vaughan on Oct.13th 1922",
+      "retrieved_at": "2026-10-14T12:30:00Z",
+      "source_kind": "directory",
+      "source_date": "2005-01-14"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.britishlistedbuildings.co.uk/101391330-bethnal-green-library-bethnal-green-ward",
+      "quote": "Public library. 1921 conversion by borough architect A.E.Darby of 1896 former Bethnal House Asylum.",
+      "retrieved_at": "2026-10-14T12:30:00Z",
+      "source_kind": "directory",
+      "source_date": "2005-01-14"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.britishlistedbuildings.co.uk/101391330-bethnal-green-library-bethnal-green-ward",
+      "quote": "the borough purchased part of the Bethnal House Asylum Estate, the former male wing that had been built in 1896.",
+      "retrieved_at": "2026-10-14T12:30:00Z",
+      "source_kind": "directory",
+      "source_date": "2005-01-14"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.britishlistedbuildings.co.uk/101391330-bethnal-green-library-bethnal-green-ward",
+      "quote": "constructing instead a temporary institution in 1919.",
+      "retrieved_at": "2026-10-14T12:30:00Z",
+      "source_kind": "directory",
+      "source_date": "2005-01-14"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.britishlistedbuildings.co.uk/101391330-bethnal-green-library-bethnal-green-ward",
+      "quote": "It cost £36,000 and was built by Messrs. Patman and Fotheringham",
+      "retrieved_at": "2026-10-14T12:30:00Z",
+      "source_kind": "directory",
+      "source_date": "2005-01-14"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.ideastore.co.uk/visit-us",
+      "quote": "Wednesday 28th and Thursday 29th October 2026",
+      "retrieved_at": "2026-10-14T12:30:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.ideastore.co.uk/visit-us",
+      "quote": "Experience a collaboration between Bethnal Green Library and Let’s Discuss Death.",
+      "retrieved_at": "2026-10-14T12:30:00Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.britishlistedbuildings.co.uk/101391330-bethnal-green-library-bethnal-green-ward",
+      "quote": "Listing Date: 14 January 2005",
+      "retrieved_at": "2026-10-14T12:30:00Z",
+      "source_kind": "directory",
+      "source_date": "2005-01-14"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.britishlistedbuildings.co.uk/101391330-bethnal-green-library-bethnal-green-ward",
+      "quote": "4 plaster medallions in curved niche behind colonnade (Richard Wagner, Karl Marx, Charles Darwin, and William Morris)",
+      "retrieved_at": "2026-10-14T12:30:00Z",
+      "source_kind": "directory",
+      "source_date": "2005-01-14"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.britishlistedbuildings.co.uk/101391330-bethnal-green-library-bethnal-green-ward",
+      "quote": "a Venetian window with War Memorial representing 'Motherhood', 'Peace' and 'Manhood' in the stained glass.",
+      "retrieved_at": "2026-10-14T12:30:00Z",
+      "source_kind": "directory",
+      "source_date": "2005-01-14"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.britishlistedbuildings.co.uk/101391330-bethnal-green-library-bethnal-green-ward",
+      "quote": "First floor Lecture Hall with similar ceiling and small stage flanked by Ionic pilasters with the borough badge.",
+      "retrieved_at": "2026-10-14T12:30:00Z",
+      "source_kind": "directory",
+      "source_date": "2005-01-14"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.britishlistedbuildings.co.uk/101391330-bethnal-green-library-bethnal-green-ward",
+      "quote": "The Metropolitan Borough of Bethnal Green did not pass the Public Library Act until 1913",
+      "retrieved_at": "2026-10-14T12:30:00Z",
+      "source_kind": "directory",
+      "source_date": "2005-01-14"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.britishlistedbuildings.co.uk/101391330-bethnal-green-library-bethnal-green-ward",
+      "quote": "including an Adult Lending, Reference and Children's libraries, as well as a Lecture Hall and Newsroom.",
+      "retrieved_at": "2026-10-14T12:30:00Z",
+      "source_kind": "directory",
+      "source_date": "2005-01-14"
     }
   ],
-  "profiled_at": "2026-10-13T00:46:24Z",
+  "profiled_at": "2026-10-14T12:30:00Z",
   "history": [
     {
       "at": "2026-10-13T00:46:24Z",
@@ -105,10 +235,42 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "cut or narrowed: music.notes: dropped unquoted 'talks'; accessibility.notes: dropped process comment"
+    },
+    {
+      "at": "2026-10-14T12:30:00Z",
+      "by": "venue-storyteller",
+      "change": "added story (opened, then, now, worth knowing) from the British Listed Buildings entry and the Idea Store site"
+    },
+    {
+      "at": "2026-10-14T12:30:32Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: music.notes emptied (single event, not music); story.now: cut unquoted 'free' and aim; worth_knowing: cut unquoted Grade II, medallion room, window location, 'still'"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
-    "removed_fields": []
+    "checked_at": "2026-10-14T12:30:32Z",
+    "removed_fields": [
+      "music.notes"
+    ]
+  },
+  "story": {
+    "opened": "13 October 1922, opened by the Mayor, in a building converted from a Victorian asylum wing",
+    "then": "According to the British Listed Buildings entry (reproducing Historic England's listing), Bethnal Green did not adopt the Public Libraries Act until 1913. A temporary library followed in 1919. The borough then bought part of the former Bethnal House Asylum estate and had its architect, A.E. Darby, convert the male wing, built in 1896, into a permanent library with lending, reference and children's sections, a lecture hall and a newsroom. The conversion cost £36,000.",
+    "now": "The venue's own website advertises a collaboration between the library and Let's Discuss Death on 28 and 29 October 2026.",
+    "vibe": null,
+    "worth_knowing": [
+      "British Listed Buildings gives the library's listing date as 14 January 2005.",
+      "British Listed Buildings records four plaster medallions in a curved niche behind a colonnade, naming Wagner, Marx, Darwin and William Morris.",
+      "British Listed Buildings records a Venetian window with a war memorial in its stained glass.",
+      "The first-floor lecture hall has a small stage with the borough badge, says British Listed Buildings."
+    ],
+    "written_at": "2026-10-14T12:30:00Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "outcome": "written",
+    "attempts": 1,
+    "next_check": null,
+    "note": "No vibe found: the listing is from 2005, too old. Could try Local History pages, Tower Hamlets Archives, recent reviews."
   }
 }

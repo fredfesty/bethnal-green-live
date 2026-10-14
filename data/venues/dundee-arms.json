@@ -90,11 +90,101 @@
       "quote": "Steps at entrance. No accessible toilet. Main toilets are upstairs.",
       "retrieved_at": "2026-10-13T14:11:43Z",
       "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.thedundeearms.co.uk/",
+      "quote": "Open since 2nd April 2015",
+      "retrieved_at": "2026-10-14T12:22:14Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://camra.org.uk/pubs/dundee-arms-bethnal-green-155651",
+      "quote": "Reopened on a free of tie Lease on 2 April 2015.",
+      "retrieved_at": "2026-10-14T12:22:14Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://camra.org.uk/pubs/dundee-arms-bethnal-green-155651",
+      "quote": "A sister pub to the crooked Billet.",
+      "retrieved_at": "2026-10-14T12:22:14Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://londonist.com/pubs/pubs/pubs/dundee-arms",
+      "quote": "from the same stable as Clapton's Crooked Billet",
+      "retrieved_at": "2026-10-14T12:22:14Z",
+      "source_kind": "press",
+      "source_date": "2015-05-16"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://camra.org.uk/pubs/dundee-arms-bethnal-green-155651",
+      "quote": "uncovered during the refurbishment",
+      "retrieved_at": "2026-10-14T12:22:14Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.thedundeearms.co.uk/",
+      "quote": "Open till 1am Thursday to Saturday.",
+      "retrieved_at": "2026-10-14T12:22:14Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://camra.org.uk/pubs/dundee-arms-bethnal-green-155651",
+      "quote": "Serves two changing cask ales",
+      "retrieved_at": "2026-10-14T12:22:14Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://camra.org.uk/pubs/dundee-arms-bethnal-green-155651",
+      "quote": "A wonderful and very rare original mosaic sign \"Dundee Arms\" was uncovered during the refurbishment.",
+      "retrieved_at": "2026-10-14T12:22:14Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://camra.org.uk/pubs/dundee-arms-bethnal-green-155651",
+      "quote": "Opposite the York Hall where the Pigs Ear Beer Festival was founded in 1983.",
+      "retrieved_at": "2026-10-14T12:22:14Z",
+      "source_kind": "directory",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T14:17:34Z",
+  "profiled_at": "2026-10-14T12:22:14Z",
   "review": {
-    "checked_at": "2026-10-13T14:20:42Z",
+    "checked_at": "2026-10-14T12:30:32Z",
     "removed_fields": []
   },
   "needs_review": null,
@@ -108,6 +198,33 @@
       "at": "2026-10-13T14:20:42Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T12:22:14Z",
+      "by": "venue-storyteller",
+      "change": "added story (opened, then, now, worth knowing) from the pub's site, CAMRA and Londonist"
+    },
+    {
+      "at": "2026-10-14T12:30:32Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: story.worth_knowing: cut unquoted 'likely late Victorian'"
     }
-  ]
+  ],
+  "story": {
+    "opened": "Reopened on 2 April 2015, according to CAMRA and the pub's own website.",
+    "then": "CAMRA's entry says the pub came back under a lease with no brewery tie, run as a sister to the Crooked Billet, and that the refurbishment uncovered an old mosaic sign. Londonist's 2015 review also placed it in the same stable as the Crooked Billet in Clapton.",
+    "now": "The venue's own website says it opens until 1am from Thursday to Saturday. CAMRA's entry says it serves two changing cask ales.",
+    "worth_knowing": [
+      "CAMRA calls the original \"Dundee Arms\" mosaic sign, found during the refurbishment, wonderful and very rare.",
+      "It faces York Hall, where CAMRA's entry says the Pigs Ear Beer Festival began in 1983."
+    ],
+    "written_at": "2026-10-14T12:22:14Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Used own site, CAMRA and Londonist. No vibe: the only description of the room is Londonist's 2015 review, over five years old. Pubology hints at older pub history (directories from 1805) but is not clear enough to quote."
+  }
 }

@@ -137,9 +137,179 @@
       "quote": "135 Cambridge Heath Road Bethnal Green London United Kingdom E1 5RN",
       "retrieved_at": "2026-10-13T00:10:00Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/about",
+      "quote": "In 2006, Johan Svensson, a Swedish native residing in London since 1998, founded Drinksfusion",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/about",
+      "quote": "Our home is set within a faithfully restored building",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/about",
+      "quote": "Our sister company Drinksfusion",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/whats-on",
+      "quote": "Live jazz every Thursday",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/whats-on",
+      "quote": "Hosted by Blues at The Brewery",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/whats-on",
+      "quote": "Friday nights, 10 pm-2 am feature our resident DJs spinning vinyl",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/whats-on",
+      "quote": "Sundays bring live jazz, funk and Latin sessions",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/whats-on",
+      "quote": "Early evenings come alive with our piano bar sessions",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/",
+      "quote": "Monday Private Hire",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/about",
+      "quote": "vintage furniture and comfortable seating within a curated mood-lit ambiance",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/about",
+      "quote": "plush velvet seating by a vintage fireplace",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/about",
+      "quote": "antique brass gantry with illuminated stained glass",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/about",
+      "quote": "12ft x 12ft raised stage with upright piano",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/about",
+      "quote": "Outdoor terrace seating for 40",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/about",
+      "quote": "Tate Galleries,Victoria and Albert Museum, Buckingham Palace, and the Royal Academy of Arts",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/about",
+      "quote": "2 x Technics 1210 turntables",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.135-barandlounge.co.uk/about",
+      "quote": "Total 150 with bar and lounge seating for 70",
+      "retrieved_at": "2026-10-14T12:21:21Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:50:59Z",
+  "profiled_at": "2026-10-14T12:21:21Z",
   "history": [
     {
       "at": "2026-10-13T00:50:59Z",
@@ -150,10 +320,38 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T12:21:21Z",
+      "by": "venue-storyteller",
+      "change": "added story (then, now, vibe, worth knowing) from the venue's own site; opening date not found"
+    },
+    {
+      "at": "2026-10-14T12:30:32Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: story.then: cut 'set up by a Swedish owner' and 'cocktail catering'; story.now: dropped 'free', 'Friday' for blues; story.vibe: gantry wording; worth_knowing: dropped DJ-booth purpose and terrace '40 more'"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T12:30:32Z",
     "removed_fields": []
+  },
+  "story": {
+    "then": "According to the venue's own website, Johan Svensson founded Drinksfusion in 2006; the bar is described as Drinksfusion's sister company and sits in a restored building.",
+    "now": "The venue's own website lists live jazz on Thursdays, a live blues night hosted by Blues at The Brewery, vinyl DJ sets on Friday nights from 10pm to 2am, Sunday live sessions and early-evening piano bar sessions. Mondays are listed as private hire.",
+    "vibe": "The venue's own website describes a music bar with vintage furniture and mood lighting, and a lounge with velvet seating by a vintage fireplace and an antique brass gantry and illuminated stained glass. It lists a raised stage with an upright piano and an outdoor terrace.",
+    "worth_knowing": [
+      "Its sister company Drinksfusion has served drinks at Tate galleries, the V&A and the Royal Academy, says the venue's own website.",
+      "The DJ booth has two Technics 1210 turntables.",
+      "Capacity is 150 in total, according to the venue's own website."
+    ],
+    "written_at": "2026-10-14T12:21:21Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Written from the venue's own site only. Opening date, building history and press coverage not found; one search run, CAMRA page only mirrors the venue's text."
   }
 }

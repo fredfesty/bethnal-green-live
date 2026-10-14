@@ -60,9 +60,149 @@
       "quote": "Columbia Road Flower Market is a street market in Bethnal Green in London, England.",
       "retrieved_at": "2026-10-13T00:21:07Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "The run of Victorian shops we see today were built during the 1860’s",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "Columbia Road began its life as a pathway along which sheep were driven to the slaughterhouses at Smithfield.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "The Flower market began as a Saturday trading market, but as the Jewish population grew a Sunday market was established.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "The whole area went into a decline in the 1970’s. Indeed demolition was mooted, but the locals fought back and the area and market were saved.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "Since the 1980’s the market has grown into one of international repute.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://columbiaroad.info/",
+      "quote": "Columbia Road will celebrate London’s Day of the Dead on Saturday 31st October 2026",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://columbiaroad.info/flower-market/",
+      "quote": "In December there is an abundance of Christmas Trees and in the spring the herb seasons starts.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://columbiaroad.info/",
+      "quote": "Flower Market & Shops: Sundays from 8am ’til 3'ish",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "Columbia Road was named in honour of the heiress and philanthropist Angela Burdett Coutts",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "Plants were brought by handcart from nearby market gardens in Hackney and Islington and market pitches were claimed on the day on the blow of a whistle.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://columbiaroad.info/flower-market/",
+      "quote": "there are generations of flowers sellers – grandfathers, fathers and sons, grandmothers, mothers and daughters.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://columbiaroad.info/",
+      "quote": "A walk along Columbia Road is lovely way to start the day on Sunday morning.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "to service the population of the nearby Jesus Hospital Estate.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://columbiaroad.info/history/",
+      "quote": "Initially this serviced the local population many of whose houses have small gardens.",
+      "retrieved_at": "2026-10-14T12:21:28Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:44:31Z",
+  "profiled_at": "2026-10-14T12:21:28Z",
   "history": [
     {
       "at": "2026-10-13T00:44:31Z",
@@ -73,10 +213,40 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T12:21:28Z",
+      "by": "venue-storyteller",
+      "change": "added story (opened, then, now, vibe, worth knowing) from the venue's own history, market and home pages"
+    },
+    {
+      "at": "2026-10-14T12:30:32Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: story.now: cut unquoted 'free' festival details; worth_knowing: cut unquoted Columbia Market clause; fixed grammar in story.then"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T12:30:32Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "The Victorian shop terrace dates from the 1860s; the flower market grew from an earlier Saturday market.",
+    "then": "According to the venue's own website, the road began as a route for driving sheep to Smithfield. The shops went up in the 1860s for the nearby Jesus Hospital Estate. The market started on Saturdays, moved to Sundays as the local Jewish population grew, and at first served local residents, many with small gardens. The area declined in the 1970s and demolition was talked of, but locals fought it. Since the 1980s the market has gained an international reputation.",
+    "now": "The venue's own website says the market and shops open on Sundays from 8am until about 3pm. Stock follows the seasons, with Christmas trees in December and herbs from spring. On Saturday 31 October 2026 the street celebrates London's Day of the Dead.",
+    "vibe": "The venue's own website suggests a walk along the road as a pleasant way to start a Sunday morning.",
+    "worth_knowing": [
+      "The road is named after Angela Burdett Coutts, an heiress and philanthropist.",
+      "Early traders brought plants by handcart from market gardens in Hackney and Islington.",
+      "Pitches were once claimed on the day at the blow of a whistle.",
+      "Some traders come from families who have sold flowers here across generations."
+    ],
+    "written_at": "2026-10-14T12:21:28Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "outcome": "written",
+    "attempts": 1,
+    "next_check": null,
+    "note": "Written from the venue's own history, market and home pages only; no web searches used. Press sources (Time Out, Londonist) could add vibe and fresher detail."
   }
 }

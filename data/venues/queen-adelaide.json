@@ -5,7 +5,7 @@
   "address": "483 Hackney Road, London",
   "postcode": "E2 9ED",
   "website": "https://www.thequeenadelaide.com",
-  "summary": "A bar on Hackney Road with draught beer and cider and a basement used for club nights. A listings site, ma.to, describes the basement as a space for queer culture and underground dance music.",
+  "summary": "A venue on Hackney Road with draught beer and cider and a basement used for club nights. A listings site, ma.to, describes the basement as a space for queer culture and underground dance music.",
   "music": {
     "styles": [
       "house",
@@ -72,9 +72,49 @@
       "quote": "The Queen Adelaide hosts a variety of queer-focused club nights featuring genres like house, disco, and electroclash in its basement space.",
       "retrieved_at": "2026-10-13T00:23:52Z",
       "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://spitalfieldslife.com/2016/11/29/the-alphabet-of-lost-pubs-q-r/",
+      "quote": "Opened before 1834, renamed ‘The Hop Picker’ in 1983, renamed ‘Tantrums’ in 1992, renamed ‘Images’ in 1993, then renamed ‘Max’s Bistro’ and this year re-opened as ‘The Queen Adelaide’",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2016-11-29"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://spitalfieldslife.com/2016/11/29/the-alphabet-of-lost-pubs-q-r/",
+      "quote": "renamed ‘The Hop Picker’ in 1983, renamed ‘Tantrums’ in 1992, renamed ‘Images’ in 1993, then renamed ‘Max’s Bistro’ and this year re-opened as ‘The Queen Adelaide’",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "press",
+      "source_date": "2016-11-29"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.pubology.co.uk/pubs/2779.html",
+      "quote": "as \"Images\" in 1993 (a strip pub, although this timeline may be inaccurate",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.thequeenadelaide.com/welcome",
+      "quote": "Draught beer and cider. Selection of wines and spirits.",
+      "retrieved_at": "2026-10-14T12:22:00Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:47:43Z",
+  "profiled_at": "2026-10-14T12:22:00Z",
   "history": [
     {
       "at": "2026-10-13T00:47:43Z",
@@ -85,10 +125,33 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T12:22:00Z",
+      "by": "venue-storyteller",
+      "change": "added story: opened, then, now"
+    },
+    {
+      "at": "2026-10-14T12:30:32Z",
+      "by": "venue-checker",
+      "change": "cut or narrowed: summary: 'bar' -> 'venue' (unquoted); story.opened: cut unquoted original name"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T12:30:32Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "Before 1834, according to Spitalfields Life.",
+    "then": "Spitalfields Life, in a 2016 piece on lost pubs, traces a run of renamings: the Hop Picker in 1983, Tantrums in 1992, Images in 1993, then Max's Bistro. London Pubology says the Images years were as a strip pub, though it flags that its timeline may be inaccurate. Spitalfields Life says the pub reopened as the Queen Adelaide in 2016.",
+    "now": "The venue's own website lists draught beer and cider, with a selection of wines and spirits.",
+    "written_at": "2026-10-14T12:22:00Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Own site is thin (no about/history page). Found renaming history via Spitalfields Life and London Pubology. Not found: current programme, vibe, press reviews (Time Out Max's Bistro page unread; try Londonist, Time Out, Hackney Citizen, Pubwiki for owner news)."
   }
 }
