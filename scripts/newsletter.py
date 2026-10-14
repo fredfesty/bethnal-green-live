@@ -6,13 +6,16 @@ Usage
   python scripts/newsletter.py render data/newsletter/issues/2026-10-15.json --format html --out issue.html
   python scripts/newsletter.py render data/newsletter/issues/2026-10-15.json --format md
   python scripts/newsletter.py buttondown-draft data/newsletter/issues/2026-10-15.json
+  python scripts/newsletter.py buttondown-draft data/newsletter/issues/2026-10-15.json --test-to fred@example.com
 
 An issue file (schemas/newsletter-issue.schema.json) says which events go where, in what layout, with
 what words. It holds no event facts of its own: dates, times, prices, venues and ticket links are read
 from data/events when the issue is rendered, so the email always shows what the verifier confirmed.
 
-'buttondown-draft' creates a DRAFT in Buttondown (needs BUTTONDOWN_API_KEY). It never sends anything:
-a person reads the draft in Buttondown and presses send.
+'buttondown-draft' creates a DRAFT in Buttondown (needs BUTTONDOWN_API_KEY). It never sends to subscribers:
+a person reads the draft in Buttondown and presses send. With --test-to (or the NEWSLETTER_TEST_TO
+environment variable), a test copy of that draft is also emailed to those addresses only, for checking
+during development. Subscribers still get nothing until someone presses send in Buttondown.
 """
 from __future__ import annotations
 
@@ -604,6 +607,23 @@ def buttondown_draft(issue: dict, events: dict[str, dict], api_key: str, site_ur
         return json.loads(r.read().decode() or "{}")
 
 
+def test_recipients(text: str | None) -> list[str]:
+    """'a@x.com, b@y.com' -> ['a@x.com', 'b@y.com']; anything that isn't an address is dropped."""
+    return [a for a in (x.strip() for x in (text or "").replace(";", ",").split(",")) if re.fullmatch(r"[^@\s]+@[^@\s]+\.[^@\s]+", a)]
+
+
+def buttondown_send_test(email_id: str, recipients: list[str], api_key: str) -> None:
+    """Email a test copy of a Buttondown draft to these addresses only. Subscribers get nothing."""
+    req = urllib.request.Request(
+        f"https://api.buttondown.com/v1/emails/{email_id}/send-draft",
+        data=json.dumps({"recipients": recipients}).encode(),
+        headers={"Authorization": f"Token {api_key}", "Content-Type": "application/json"},
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=30) as r:
+        r.read()
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -613,8 +633,10 @@ def main(argv: list[str] | None = None) -> int:
     r.add_argument("issue", type=Path)
     r.add_argument("--format", choices=["html", "md"], default="html")
     r.add_argument("--out", type=Path)
-    b = sub.add_parser("buttondown-draft", help="create a draft in Buttondown (never sends)")
+    b = sub.add_parser("buttondown-draft", help="create a draft in Buttondown (never sends to subscribers)")
     b.add_argument("issue", type=Path)
+    b.add_argument("--test-to", default=os.environ.get("NEWSLETTER_TEST_TO", ""),
+                   help="comma-separated addresses that get a test copy of the draft (default: $NEWSLETTER_TEST_TO)")
     args = ap.parse_args(argv)
 
     if args.cmd == "week":
@@ -642,6 +664,18 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Buttondown said {e.code}: {e.read().decode(errors='replace')[:500]}")
         return 1
     print(f"Draft created in Buttondown: {res.get('id', '(no id returned)')} — open Buttondown to read and send it.")
+    to = test_recipients(args.test_to)
+    if not to:
+        return 0
+    if not res.get("id"):
+        print("Buttondown returned no draft id, so no test copy was sent.")
+        return 1
+    try:
+        buttondown_send_test(res["id"], to, key)
+    except urllib.error.HTTPError as e:
+        print(f"Test copy not sent; Buttondown said {e.code}: {e.read().decode(errors='replace')[:500]}")
+        return 1
+    print(f"Test copy sent to {', '.join(to)} only. Subscribers get nothing until someone presses send in Buttondown.")
     return 0
 
 
