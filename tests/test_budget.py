@@ -1,6 +1,7 @@
 """scripts/budget.py must hold every scout to Fred's hard limits: 20 pages per website, 5 web searches,
 150 pages in all, with the two nights scouts sharing one allowance per website."""
 import http.server
+import json
 import sys
 import threading
 from pathlib import Path
@@ -21,6 +22,9 @@ FIX = REPO / "tests/fixtures"
 def ledger(tmp_path, monkeypatch):
     monkeypatch.setattr(budget, "BUDGET_DIR", tmp_path / ".budget")
     monkeypatch.setattr(budget, "run_date", lambda: DATE)  # so the command-line tools use the same ledger
+    real_exists = budget.member_exists
+    monkeypatch.setattr(budget, "member_exists", lambda kind, ident: not ident.startswith("no-such"))
+    monkeypatch.setattr(budget, "_real_member_exists", real_exists, raising=False)
     for cache in (check_quote._robots, check_quote._per_domain, check_quote._pages):
         cache.clear()
     check_quote._slowed.clear()
@@ -287,3 +291,41 @@ def test_storytellers_reuse_each_others_pages(monkeypatch):
     check_quote.use_budget("event-storyteller/b", DATE)
     assert check_quote.fetch(page)["text"]
     assert len(calls) == 1
+
+
+def test_storyteller_names_must_be_real_and_exact():
+    real = budget._real_member_exists
+    event = next((REPO / "data/events").glob("*/*.json")).stem
+    venue = next((REPO / "data/venues").glob("*.json")).stem
+    assert real("event-storyteller", event) and real("venue-storyteller", venue)
+    assert not real("event-storyteller", event + "-typo") and not real("venue-storyteller", "no-such-venue")
+    for bad in ("event-storyteller/no-such-event", "event-storyteller/abc\n", "Event-Storyteller/abc",
+                "event-storyteller/ABC"):
+        with pytest.raises(ValueError):
+            read(bad, "https://example.org/")
+
+
+def test_a_storyteller_team_has_a_search_cap_in_all():
+    for n in range(10):
+        for i in range(5):
+            assert budget.charge_search(f"event-storyteller/e{n}", f"q{i}", DATE)[0]
+    assert budget.charge_search("event-storyteller/e10", "one more", DATE)[0] is False
+    assert budget.charge_search("venue-storyteller/v1", "other team", DATE)[0]
+
+
+def test_allowances_start_again_each_run_date():
+    for i in range(20):
+        read("event-storyteller/e1" if i < 12 else "event-storyteller/e2", f"https://www.timeout.com/{i}")
+    assert read("event-storyteller/e3", "https://www.timeout.com/x") is not None
+    assert budget.charge_page("event-storyteller/e3", "https://www.timeout.com/x", "2026-10-15") is None
+
+
+def test_only_story_quotes_are_rechecked(tmp_path, capsys):
+    page = (FIX / "event_page.html").as_uri()
+    profile = tmp_path / "v.json"
+    profile.write_text(json.dumps({"evidence": [
+        {"url": page, "quote": "Disco and house all night with DJ Example", "fields": ["story.vibe"]},
+        {"url": "https://old.example/never-fetched", "quote": "an older profile quote", "fields": ["address"]}]}))
+    assert check_quote.main(["--only-story", "--file", str(profile)]) == 0
+    lines = [json.loads(l) for l in capsys.readouterr().out.splitlines()]
+    assert [l["index"] for l in lines] == [0] and lines[0]["result"] == "exact"

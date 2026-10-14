@@ -26,7 +26,9 @@ allowance of 20 pages per website, no storyteller takes more than 12 of a site's
 has its own cap on pages in all (25 for an event, 30 for a venue) and on web searches (5 for an event,
 8 for a venue, as their instructions always said). They use the run's page cache like the scouts.
 
-Only the names below are accepted, so a typo can't start a fresh allowance.
+Only the names below, and storytellers named after an event or venue that exists, are accepted, so a
+typo can't start a fresh allowance. Each storyteller team also has a cap on web searches in all (50 for
+the event storytellers, 96 for the venue storytellers).
 
 Usage
   python scripts/budget.py search --as nights-clubs "Hackney Wick club night October 2026"
@@ -77,9 +79,16 @@ NO_CACHE = {"verifier"}  # counted like the scouts, but always reads the live pa
 AGENTS = SCOUTS | NO_CACHE
 
 # Teams of many short-lived agents of one kind, each named "<kind>/<what it works on>".
-TEAMS = {"event-storyteller": {"pages": 25, "searches": 5},
-         "venue-storyteller": {"pages": 30, "searches": 8}}
-TEAM_MEMBER = re.compile(r"^(" + "|".join(map(re.escape, TEAMS)) + r")/[a-z0-9][a-z0-9-]{0,150}$")
+TEAMS = {"event-storyteller": {"pages": 25, "searches": 5, "team_searches": 50},
+         "venue-storyteller": {"pages": 30, "searches": 8, "team_searches": 96}}
+TEAM_MEMBER = re.compile(r"(" + "|".join(map(re.escape, TEAMS)) + r")/([a-z0-9][a-z0-9-]{0,150})")
+
+
+def member_exists(kind: str, ident: str) -> bool:
+    """A storyteller's name must be a real event or venue, so a typo can't start a fresh allowance."""
+    if kind == "event-storyteller":
+        return any((ROOT / "data" / "events").glob(f"*/{ident}.json"))
+    return (ROOT / "data" / "venues" / f"{ident}.json").exists()
 
 # Agents that share one allowance per website.
 SHARED_ALLOWANCE = {"nights-clubs": "nights", "nights-gigs": "nights"}
@@ -99,7 +108,11 @@ def run_date() -> str:
 
 
 def check_agent(agent: str) -> None:
-    if agent not in AGENTS and not TEAM_MEMBER.match(agent or ""):
+    m = TEAM_MEMBER.fullmatch(agent or "")
+    if m and not member_exists(m.group(1), m.group(2)):
+        raise ValueError(f"'{agent}': there is no {'event' if m.group(1) == 'event-storyteller' else 'venue'} "
+                         f"with the id '{m.group(2)}'; use the exact id you were given")
+    if agent not in AGENTS and not m:
         raise ValueError(f"'{agent}' is not a known name; use one of: {', '.join(sorted(AGENTS))}, "
                          f"or {' or '.join(f'{t}/<id>' for t in TEAMS)}")
 
@@ -239,8 +252,12 @@ def charge_search(agent: str, query: str, date: str | None = None) -> tuple[bool
     check_agent(agent)
     date = date or run_date()
     with _locked(date):
-        used = sum(1 for r in _ledger(date) if r["kind"] == "search" and r["agent"] == agent)
+        searches = [r for r in _ledger(date) if r["kind"] == "search"]
+        used = sum(1 for r in searches if r["agent"] == agent)
         if used >= search_limit(agent):
+            return False, used
+        team = TEAMS.get(kind_of(agent))
+        if team and sum(1 for r in searches if kind_of(r["agent"]) == kind_of(agent)) >= team["team_searches"]:
             return False, used
         _append(date, {"kind": "search", "agent": agent, "query": query[:200],
                        "at": dt.datetime.now(LONDON).isoformat(timespec="seconds")})

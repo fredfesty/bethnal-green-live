@@ -26,7 +26,7 @@ The routine that runs it: `routines/weekly-venues.md`. The longer "story" on eac
 
 These come on top of `CLAUDE.md`.
 
-**Reading pages.** Read every page you take a quote from with `python3 scripts/page_text.py <url>` (add `--find "words"` for long pages). Copy quotes only from its output, so they are word for word. WebSearch and WebFetch are for *finding* pages; their output is reworded, so never quote it. If `page_text.py` says REFUSED, leave the page alone; never fetch it another way. FAILED or a near-empty page (built by JavaScript): try another page.
+**Reading pages.** Read every page you take a quote from with `python3 scripts/page_text.py <url>` (add `--find "words"` for long pages). Copy quotes only from its output, so they are word for word. WebSearch and WebFetch are for *finding* pages; their output is reworded, so never quote it. (Storytellers: never use WebFetch, and always pass `--as`; your counted limits are in your own instructions.) If `page_text.py` says REFUSED, leave the page alone; never fetch it another way. FAILED or a near-empty page (built by JavaScript): try another page.
 
 **Never.** Never fetch ra.co, Instagram, Facebook, TikTok, X, or any domain on the never-use list in `data/sources/`. Never open Google Maps pages (their terms forbid it; the map finder uses Google's official API through a script instead). Never log in. Stop on a 403 or 429 from a site. About 20 fetches per site per run at most.
 
@@ -49,7 +49,7 @@ These come on top of `CLAUDE.md`.
 4. The ticketing pages listed in the registry entry's `listings`.
 For a venue that isn't listed yet, the lead's own website and evidence URLs come first. A page you reach this way is as good a source as one a search finds. A sitemap or guessed page counts as a page fetch. Never use WebFetch or `page_text.py` on a search engine's results page to get round the cap.
 
-**Budget.** Stop at about 60 page fetches per agent and say in your final message what you didn't get to. WebSearch has its own, much smaller cap, because it is shared: the whole run gets about 200 calls, and once they are used up every agent still to start has none. So each agent has a cap on its WebSearch calls in total, written in its instructions, and stops searching when it reaches it:
+**Budget.** Stop at about 60 page fetches per agent (storytellers: your own instructions set your hard caps) and say in your final message what you didn't get to. WebSearch has its own, much smaller cap, because it is shared: the whole run gets about 200 calls, and once they are used up every agent still to start has none. So each agent has a cap on its WebSearch calls in total, written in its instructions, and stops searching when it reaches it:
 
 | Agent | WebSearch calls at most |
 | --- | --- |

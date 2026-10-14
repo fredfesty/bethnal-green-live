@@ -59,7 +59,7 @@ On `nothing-found`, change nothing else (not `profiled_at`, no history line), so
 ## Before you finish
 
 1. `python3 scripts/validate.py venues data/venues/<venue-id>.json` passes. Fix failures by rewording in your own words or removing a part, never by weakening a quote.
-2. `python3 scripts/check_quote.py --as venue-storyteller/<venue-id> --file data/venues/<venue-id>.json`: every quote you added is `exact` or `near`; remove any that isn't, and any part only it backed.
+2. `python3 scripts/check_quote.py --as venue-storyteller/<venue-id> --only-story --file data/venues/<venue-id>.json` (only the story quotes, so the profile's older quotes don't cost you pages): every quote you added is `exact` or `near`; remove any that isn't, and any part only it backed.
 3. Re-read each part against its quotes as a sub-editor would; cut anything they don't say.
 
 Final message, two or three lines: the venue, the outcome, the line count before and after, and what's still missing.
