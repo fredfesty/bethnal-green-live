@@ -17,6 +17,7 @@ test("the button is hidden until script runs, so no-JS readers just see the list
   assert.match(open, /aria-controls="runs-list"/);
   assert.match(page, /<ul class="day__list" id="runs-list">/);
   assert.doesNotMatch(page.match(/<ul class="day__list" id="runs-list"[^>]*>/)![0], /hidden/, "list is only hidden by script");
+  assert.match(page, /<\/ul>\s*<script is:inline>[^<]*l\.hidden=true;b\.hidden=false;/, "an early script folds it before first paint");
 });
 
 test("the section shows its title, how many runs it holds, and real Show/Hide text", () => {

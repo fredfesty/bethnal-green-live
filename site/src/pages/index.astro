@@ -108,6 +108,7 @@ const here = Astro.url.pathname;
             <ul class="day__list" id="runs-list">
               {runs.map((e) => <EventRow e={e} />)}
             </ul>
+            <script is:inline>(function(){var l=document.getElementById("runs-list"),b=document.getElementById("runs-btn");if(l&&b){l.hidden=true;b.hidden=false;}})();</script>
           </section>
         )}
         {days.map(([date, list]) => (
@@ -307,11 +308,10 @@ const here = Astro.url.pathname;
   .day__rel--today { color: var(--red); }
   .day__list { list-style: none; margin: 0.75rem 0 0; padding: 0; }
   .day--runs .day__rel { font-weight: 500; }
-  .runs__head { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.9rem; }
-  .runs__head .day__head { margin-bottom: 0.5rem; }
+  .runs__head { display: flex; flex-wrap: wrap; align-items: center; gap: 0 0.9rem; }
   .runs__btn {
     display: inline-flex; align-items: center; gap: 0.4rem; cursor: pointer; font: inherit; font-weight: 700;
-    min-height: 2.75rem; margin-top: 0.5rem; padding: 0.2rem 0.5rem 0.2rem 0.9rem;
+    min-height: 2.75rem; margin: 0.25rem 0 0.25rem 5px; padding: 0.2rem 0.5rem 0.2rem 0.9rem;
     border: 1.5px solid #000; border-radius: 999px; background: #fff; color: inherit;
   }
   .runs__btn:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
