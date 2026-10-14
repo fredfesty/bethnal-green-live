@@ -96,16 +96,19 @@ const here = Astro.url.pathname;
         <p class="results__count" id="count" aria-live="polite">{events.length} {events.length === 1 ? "listing" : "listings"}</p>
         {runs.length > 0 && (
           <section class="day day--runs" aria-labelledby="runs-head">
-            <h2 class="day__head" id="runs-head">
-              <span class="plate plate--day">Exhibitions & runs</span>
-              <span class="day__rel">On for more than a day ({runs.length})</span>
-            </h2>
-            <details class="runs" id="runs">
-              <summary class="runs__summary"><span class="runs__show">Show<span class="visually-hidden"> exhibitions & runs</span></span><span class="runs__hide">Hide<span class="visually-hidden"> exhibitions & runs</span></span><span class="runs__toggle" aria-hidden="true"></span></summary>
-              <ul class="day__list">
-                {runs.map((e) => <EventRow e={e} />)}
-              </ul>
-            </details>
+            <div class="runs__head">
+              <h2 class="day__head" id="runs-head">
+                <span class="plate plate--day">Exhibitions & runs</span>
+                <span class="day__rel">On for more than a day ({runs.length})</span>
+              </h2>
+              <button type="button" class="runs__btn" id="runs-btn" aria-expanded="false" aria-controls="runs-list" hidden>
+                <span class="runs__show">Show<span class="visually-hidden"> exhibitions & runs</span></span><span class="runs__hide">Hide<span class="visually-hidden"> exhibitions & runs</span></span><span class="runs__toggle" aria-hidden="true"></span>
+              </button>
+            </div>
+            <ul class="day__list" id="runs-list">
+              {runs.map((e) => <EventRow e={e} />)}
+            </ul>
+            <script is:inline>(function(){var l=document.getElementById("runs-list"),b=document.getElementById("runs-btn");if(l&&b){l.hidden=true;b.hidden=false;}})();</script>
           </section>
         )}
         {days.map(([date, list]) => (
@@ -157,7 +160,15 @@ const here = Astro.url.pathname;
   const none = document.getElementById("none");
   const dates = document.getElementById("dates");
   const more = document.getElementById("more");
-  const runsBox = document.getElementById("runs");
+  const runsList = document.getElementById("runs-list");
+  const runsBtn = document.getElementById("runs-btn");
+  // The runs start folded away. Without script the list just stays visible and there is no button.
+  const setRuns = (open) => {
+    if (!runsList || !runsBtn) return;
+    runsList.hidden = !open;
+    runsBtn.setAttribute("aria-expanded", String(open));
+  };
+  if (runsBtn) { runsBtn.hidden = false; setRuns(false); runsBtn.addEventListener("click", () => setRuns(runsList.hidden)); }
   let hadRunMatch = false;
   const active = document.getElementById("active");
   const wide = matchMedia("(min-width: 52.01rem)");
@@ -220,8 +231,8 @@ const here = Astro.url.pathname;
     // The runs start folded away; open them when a search or filter has matched some, so matches never hide.
     const filtering = Boolean(q) || val("type") !== "all" || val("when") !== "any" || price !== "any" || area !== "all";
     // Only when matches first appear, so a reader who folds it away again isn't overruled on the next keystroke.
-    const runMatch = filtering && Boolean(runsBox && runsBox.querySelector(".event:not([hidden])"));
-    if (runMatch && !hadRunMatch) runsBox.open = true;
+    const runMatch = filtering && Boolean(runsList && runsList.querySelector(".event:not([hidden])"));
+    if (runMatch && !hadRunMatch) setRuns(true);
     hadRunMatch = runMatch;
     count.textContent = `${shown} ${shown === 1 ? "listing" : "listings"}`;
     none.hidden = shown !== 0;
@@ -254,7 +265,7 @@ const here = Astro.url.pathname;
 
   form.addEventListener("input", () => apply());
   form.addEventListener("change", () => apply());
-  document.getElementById("clear").addEventListener("click", () => { form.reset(); if (runsBox) runsBox.open = false; apply(); });
+  document.getElementById("clear").addEventListener("click", () => { form.reset(); setRuns(false); apply(); });
   apply(false);
 })();
 </script>
@@ -297,20 +308,21 @@ const here = Astro.url.pathname;
   .day__rel--today { color: var(--red); }
   .day__list { list-style: none; margin: 0.75rem 0 0; padding: 0; }
   .day--runs .day__rel { font-weight: 500; }
-  .runs__summary {
-    display: inline-flex; align-items: center; gap: 0.6rem; cursor: pointer; list-style: none; margin: 0.5rem 0 0 5px; min-height: 2.75rem;
-    padding: 0.35rem 0.5rem 0.35rem 0.9rem; border: 1.5px solid #000; border-radius: 999px; background: #fff; font-weight: 700;
+  .runs__head { display: flex; flex-wrap: wrap; align-items: center; gap: 0 0.9rem; }
+  .runs__btn {
+    display: inline-flex; align-items: center; gap: 0.4rem; cursor: pointer; font: inherit; font-weight: 700;
+    min-height: 2.75rem; margin: 0.25rem 0 0.25rem 5px; padding: 0.2rem 0.5rem 0.2rem 0.9rem;
+    border: 1.5px solid #000; border-radius: 999px; background: #fff; color: inherit;
   }
-  .runs__summary::-webkit-details-marker { display: none; }
-  .runs__summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
-  .runs[open] .runs__show, .runs:not([open]) .runs__hide { display: none; }
+  .runs__btn:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .runs__btn[aria-expanded="true"] .runs__show, .runs__btn[aria-expanded="false"] .runs__hide { display: none; }
   .runs__toggle { flex: none; width: 1.4rem; height: 1.4rem; display: grid; place-items: center; }
   .runs__toggle::after {
     content: ""; width: 0.5rem; height: 0.5rem; border: solid currentColor; border-width: 0 2px 2px 0;
     transform: rotate(45deg) translateY(-2px);
   }
-  .runs[open] .runs__toggle::after { transform: rotate(-135deg) translateY(-1px); }
-  @media (hover: hover) { .runs__summary:hover { background: var(--green); border-color: var(--green); color: #fff; } }
+  .runs__btn[aria-expanded="true"] .runs__toggle::after { transform: rotate(-135deg) translateY(-1px); }
+  @media (hover: hover) { .runs__btn:hover { background: var(--green); border-color: var(--green); color: #fff; } }
   .markets { max-width: 50rem; margin: 1rem 0 2.5rem; }
   .markets h2 { font-size: 1.5rem; font-variation-settings: "wdth" 80; font-weight: 750; }
   .markets p { margin: 0.4rem 0 0.8rem; color: var(--muted); }
