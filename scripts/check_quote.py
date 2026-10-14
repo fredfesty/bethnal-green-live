@@ -440,7 +440,10 @@ def main(argv: list[str] | None = None) -> int:
                     help="with --file: check the quotes in story.evidence (an event's story) instead of evidence")
     ap.add_argument("--max-per-domain", type=int, default=20)
     ap.add_argument("--as", dest="agent", default=None,
-                    help="your name (a scout's name, or verifier): every page counts against your run's hard limits")
+                    help="your name (a scout's name, verifier, event-storyteller/<event id> or "
+                         "venue-storyteller/<venue id>): every page counts against your run's hard limits")
+    ap.add_argument("--only-story", action="store_true",
+                    help="with --file: check only evidence items whose fields are all story ones (a venue's story)")
     args = ap.parse_args(argv)
     globals()["MAX_PER_DOMAIN"] = args.max_per_domain
     try:
@@ -463,6 +466,8 @@ def main(argv: list[str] | None = None) -> int:
                 jobs.append((f, -1, {}, None))
                 continue
             for i, ev in enumerate(evidence):
+                if args.only_story and not all(fld == "story" or fld.startswith("story.") for fld in ev.get("fields", [])):
+                    continue  # a venue storyteller re-checks only the story quotes it added
                 jobs.append((f, i, ev, data.get("title")))
 
     ok = True

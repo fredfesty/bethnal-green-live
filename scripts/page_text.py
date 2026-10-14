@@ -33,7 +33,7 @@ def main(argv=None) -> int:
     ap.add_argument("url")
     ap.add_argument("--find", help="show only lines containing all these words (case-insensitive), with 2 lines of context")
     ap.add_argument("--max-chars", type=int, default=30000)
-    ap.add_argument("--as", dest="agent", default=None, help="your scout name, e.g. nights-clubs (counts the page against your budget)")
+    ap.add_argument("--as", dest="agent", default=None, help="your name, e.g. nights-clubs or event-storyteller/<event id> (counts the page against your limits)")
     args = ap.parse_args(argv)
     try:
         cq.use_budget(args.agent)

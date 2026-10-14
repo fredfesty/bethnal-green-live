@@ -46,7 +46,7 @@ In the paths below, `<category>` is your category (`nights-music`, `arts`, `food
 - **Never fetch ra.co** (Resident Advisor) or any scraper or site that republishes it. Its terms forbid it. If an event only appears on RA, mention the event name and venue in the run report so a person can ask the promoter; do not record it.
 - **Never fetch Instagram or Facebook**, or anything behind a login, cookie wall or paywall. Never log in anywhere.
 - Check each platform's `policy` in the registry before using it: `do-not-use` and `do-not-scrape` are never fetched; `discovery-only` sources can never be the sole evidence for a `high` candidate.
-- **Hard limits, set by Fred so nobody we list from is upset. They are not guides and there are no exceptions:**
+- **Hard limits, set by Fred so nobody we list from is upset. They are not guides and there are no exceptions** (an event storyteller reading this: your own instructions give your caps instead of the scout ones below):
   - **20 pages per website per run.** The two nights scouts share one allowance of 20 per website between them, and split dice.fm: 14 pages for `nights-clubs`, 6 for `nights-gigs`.
   - **5 web searches per run.**
   - **150 pages in all per run.**

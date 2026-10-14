@@ -20,7 +20,15 @@ again (for example in the scout's own quote self-check) costs nothing and does n
 The verifier uses `--as verifier`: its pages are counted the same way, but it never reads or writes the
 cache, so it always checks the live page; a page it has already read this run is not counted again.
 
-Only the names below are accepted, so a typo can't start a fresh allowance.
+The storytellers (one agent per event, or per venue, all running at once) are counted as teams: each
+names itself `event-storyteller/<event-id>` or `venue-storyteller/<venue-id>`. A team shares one
+allowance of 20 pages per website, no storyteller takes more than 12 of a site's 20, and each storyteller
+has its own cap on pages in all (25 for an event, 30 for a venue) and on web searches (5 for an event,
+8 for a venue, as their instructions always said). They use the run's page cache like the scouts.
+
+Only the names below, and storytellers named after an event or venue that exists, are accepted, so a
+typo can't start a fresh allowance. Each storyteller team also has a cap on web searches in all (50 for
+the event storytellers, 96 for the venue storytellers).
 
 Usage
   python scripts/budget.py search --as nights-clubs "Hackney Wick club night October 2026"
@@ -41,6 +49,7 @@ import datetime as dt
 import hashlib
 import json
 import os
+import re
 import sys
 import tempfile
 from collections import Counter
@@ -69,6 +78,18 @@ SCOUTS = {"nights-clubs", "nights-gigs", "arts", "food-drink", "community", "hea
 NO_CACHE = {"verifier"}  # counted like the scouts, but always reads the live page
 AGENTS = SCOUTS | NO_CACHE
 
+# Teams of many short-lived agents of one kind, each named "<kind>/<what it works on>".
+TEAMS = {"event-storyteller": {"pages": 25, "searches": 5, "team_searches": 50},
+         "venue-storyteller": {"pages": 30, "searches": 8, "team_searches": 96}}
+TEAM_MEMBER = re.compile(r"(" + "|".join(map(re.escape, TEAMS)) + r")/([a-z0-9][a-z0-9-]{0,150})")
+
+
+def member_exists(kind: str, ident: str) -> bool:
+    """A storyteller's name must be a real event or venue, so a typo can't start a fresh allowance."""
+    if kind == "event-storyteller":
+        return any((ROOT / "data" / "events").glob(f"*/{ident}.json"))
+    return (ROOT / "data" / "venues" / f"{ident}.json").exists()
+
 # Agents that share one allowance per website.
 SHARED_ALLOWANCE = {"nights-clubs": "nights", "nights-gigs": "nights"}
 SHARED_MAX_EACH = 12  # within a shared allowance, no agent takes more than this of one site...
@@ -87,8 +108,30 @@ def run_date() -> str:
 
 
 def check_agent(agent: str) -> None:
-    if agent not in AGENTS:
-        raise ValueError(f"'{agent}' is not a known name; use one of: {', '.join(sorted(AGENTS))}")
+    m = TEAM_MEMBER.fullmatch(agent or "")
+    if m and not member_exists(m.group(1), m.group(2)):
+        raise ValueError(f"'{agent}': there is no {'event' if m.group(1) == 'event-storyteller' else 'venue'} "
+                         f"with the id '{m.group(2)}'; use the exact id you were given")
+    if agent not in AGENTS and not m:
+        raise ValueError(f"'{agent}' is not a known name; use one of: {', '.join(sorted(AGENTS))}, "
+                         f"or {' or '.join(f'{t}/<id>' for t in TEAMS)}")
+
+
+def kind_of(agent: str) -> str:
+    return agent.split("/", 1)[0]
+
+
+def group_of(agent: str) -> str | None:
+    """The allowance an agent shares with others, if any."""
+    return SHARED_ALLOWANCE.get(agent) or (kind_of(agent) if kind_of(agent) in TEAMS else None)
+
+
+def pages_limit(agent: str) -> int:
+    return TEAMS[kind_of(agent)]["pages"] if kind_of(agent) in TEAMS else PAGES_PER_RUN
+
+
+def search_limit(agent: str) -> int:
+    return TEAMS[kind_of(agent)]["searches"] if kind_of(agent) in TEAMS else SEARCHES_PER_RUN
 
 
 def site_of(url: str) -> str:
@@ -154,21 +197,25 @@ def page_refusal(rows: list[dict], agent: str, url: str) -> str | None:
         return f"budget: {site} answered 403 or 429 earlier in this run; leave it alone until tomorrow"
     pages = [r for r in rows if r["kind"] == "page"]
     mine = [r for r in pages if r["agent"] == agent]
-    if len(mine) >= PAGES_PER_RUN:
-        return f"budget: {agent} has read {len(mine)} pages this run, the limit is {PAGES_PER_RUN}"
+    limit = pages_limit(agent)
+    if len(mine) >= limit:
+        return f"budget: {agent} has read {len(mine)} pages this run, the limit is {limit}"
     if agent in NO_CACHE and any(r["url"] == url for r in mine):
         return None  # re-reading a page already counted (the verifier checks one page at several steps)
-    group = SHARED_ALLOWANCE.get(agent)
-    sharers = {a for a, g in SHARED_ALLOWANCE.items() if g == group} if group else {agent}
+    group = group_of(agent)
     if group:
         cap = SPLIT.get((group, site), {}).get(agent, SHARED_MAX_EACH)
         used = sum(1 for r in mine if r["site"] == site)
         if used >= cap:
             return (f"budget: {agent} has used its {cap} pages on {site} this run "
-                    f"(the two nights scouts share {PAGES_PER_SITE} per website)")
-    used = sum(1 for r in pages if r["agent"] in sharers and r["site"] == site)
+                    f"(shared with the rest of its team, {PAGES_PER_SITE} per website between them)")
+        used = sum(1 for r in pages if group_of(r["agent"]) == group and r["site"] == site)
+        who = (" and ".join(sorted(a for a, g in SHARED_ALLOWANCE.items() if g == group))
+               if group in SHARED_ALLOWANCE.values() else f"the {group}s")
+    else:
+        used = sum(1 for r in mine if r["site"] == site)
+        who = agent
     if used >= PAGES_PER_SITE:
-        who = agent if len(sharers) == 1 else " and ".join(sorted(sharers))
         return f"budget: {who} have read {used} pages on {site} this run, the limit is {PAGES_PER_SITE}"
     return None
 
@@ -205,8 +252,12 @@ def charge_search(agent: str, query: str, date: str | None = None) -> tuple[bool
     check_agent(agent)
     date = date or run_date()
     with _locked(date):
-        used = sum(1 for r in _ledger(date) if r["kind"] == "search" and r["agent"] == agent)
-        if used >= SEARCHES_PER_RUN:
+        searches = [r for r in _ledger(date) if r["kind"] == "search"]
+        used = sum(1 for r in searches if r["agent"] == agent)
+        if used >= search_limit(agent):
+            return False, used
+        team = TEAMS.get(kind_of(agent))
+        if team and sum(1 for r in searches if kind_of(r["agent"]) == kind_of(agent)) >= team["team_searches"]:
             return False, used
         _append(date, {"kind": "search", "agent": agent, "query": query[:200],
                        "at": dt.datetime.now(LONDON).isoformat(timespec="seconds")})
@@ -292,9 +343,9 @@ def main(argv: list[str] | None = None) -> int:
             print(f"REFUSED {e}")
             return 2
         if ok:
-            print(f"OK search {used} of {SEARCHES_PER_RUN} for {args.agent}")
+            print(f"OK search {used} of {search_limit(args.agent)} for {args.agent}")
             return 0
-        print(f"REFUSED {used} of {SEARCHES_PER_RUN} web searches used by {args.agent} this run. "
+        print(f"REFUSED {used} of {search_limit(args.agent)} web searches used by {args.agent} this run. "
               "Make no more web searches; say in the run report what you could not look for.")
         return 2
 
@@ -305,7 +356,7 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     for agent, a in sorted(found.items()):
         top = ", ".join(f"{s} {n}" for s, n in a["sites"].most_common())
-        print(f"{agent}: {a['pages']} pages ({top or 'none'}); {a['searches']} of {SEARCHES_PER_RUN} web searches")
+        print(f"{agent}: {a['pages']} pages ({top or 'none'}); {a['searches']} of {search_limit(agent)} web searches")
     return 0
 
 

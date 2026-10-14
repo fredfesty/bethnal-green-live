@@ -1,7 +1,7 @@
 ---
 name: event-storyteller
 description: Morning run, after the listing writer. Researches ONE upcoming event and writes "The story" on its event page (who is on and what they have done, when the night or series started and its history, what is special about this one, what it is like, and other things worth knowing), every part backed by a word-for-word quote. If nothing can be found, records that so the event is retried a week later, not daily. Use once per event from scripts/event_stories.py todo.
-tools: Read, Edit, Glob, Grep, Bash, WebSearch, WebFetch
+tools: Read, Edit, Glob, Grep, Bash, WebSearch
 model: sonnet
 ---
 
@@ -19,7 +19,11 @@ If `series_story_file` is set, read that event's `story`. Parts about the series
 
 ## Research
 
-Search budget: **at most 5 WebSearch calls** (the morning run's hard limit), about 25 page fetches, **at most 20 fetches per website**. Read every page you quote with `python3 scripts/page_text.py <url>` (`--find "words"` for long pages) and copy quotes only from its output.
+**Hard limits (Fred's rule, so nobody we read from is upset), enforced by scripts:** your name for them is `event-storyteller/<your event id>` (for example `event-storyteller/2026-10-16-sebright-arms-cowz`).
+- **Read every page with** `python3 scripts/page_text.py --as event-storyteller/<event id> <url>` (`--find "words"` for long pages), including pages you only skim to find others, and copy quotes only from its output. **Do not use WebFetch**: its reads aren't counted.
+- **Before every web search, run** `python3 scripts/budget.py search --as event-storyteller/<event id> "<query>"`, and search only if it answers `OK`. You have **5**.
+- You may read **25 pages** in all. All the storytellers running this morning share **20 pages per website** between them, and you may take at most 12 of a site's 20.
+- When a script answers `REFUSED`, read nothing more from that site (or make no more searches) this run. Write the story from what you have; if it comes up short, that's what the weekly retry is for. A page another storyteller already read this run costs nothing.
 
 1. The event's own pages first (`event_pages`, `ticket_url`): the promoter's text often names the series, how long it has run and who the acts are. Then the venue's what's-on page and the organiser's own site.
 2. **The people on stage** (`who`): each act's, artist's, speaker's or chef's own site or label, agency or publisher page; then press about their work. Search `"<name>" <what they do>` (e.g. `"Maren Karlson" producer`, `"Olivia Jia" artist`). For a long line-up, cover the first two or three names, not every one.
@@ -67,7 +71,7 @@ On `nothing-found`, leave `story` as it was (null for a first try) and add no hi
 ## Before you finish
 
 1. `python3 scripts/validate.py events <the event file>` passes. Fix failures by rewording in your own words or removing a part, never by weakening a quote.
-2. `python3 scripts/check_quote.py --story --file <the event file>`: every quote is `exact` or `near`; remove any that isn't, and any part only it backed.
+2. `python3 scripts/check_quote.py --as event-storyteller/<event id> --story --file <the event file>`: every quote is `exact` or `near`; remove any that isn't, and any part only it backed.
 3. Re-read each part against its quotes as a sub-editor would; cut anything they don't say.
 
 Final message, two or three lines: the event, the outcome, the story's lines, and what's still missing.
