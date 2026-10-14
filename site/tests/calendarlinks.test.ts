@@ -56,7 +56,7 @@ test("Outlook gets a run as an all-day entry", () => {
   assert.equal(p.get("allday"), "true");
 });
 
-test("Yahoo gets UTC times, and a run as all-day from the first to the last day", () => {
+test("Yahoo gets UTC times, and a run from the start of its first day to the end of its last", () => {
   const t = params(yahooLink(timed));
   assert.equal(t.get("st"), "20261016T210000Z");
   assert.equal(t.get("et"), "20261017T020000Z");
@@ -64,9 +64,9 @@ test("Yahoo gets UTC times, and a run as all-day from the first to the last day"
   assert.equal(t.get("desc"), timed.details);
   assert.equal(t.get("in_loc"), timed.location);
   const r = params(yahooLink(run));
-  assert.equal(r.get("st"), "20261030");
-  assert.equal(r.get("et"), "20261101");
-  assert.equal(r.get("dur"), "allday");
+  assert.equal(r.get("st"), "20261030T000000");
+  assert.equal(r.get("et"), "20261101T235900");
+  assert.equal(r.get("dur"), null);
 });
 
 test("a winter event keeps its clock time (GMT, no offset)", () => {
@@ -81,4 +81,29 @@ test("special characters in text are encoded, not left to break the link", () =>
 
 test("the menu offers Google, Outlook.com, Microsoft 365 and Yahoo, in that order", () => {
   assert.deepEqual(calendarLinks(timed).map((l) => l.id), ["google", "outlook", "microsoft365", "yahoo"]);
+});
+
+const oneDay: CalendarEntry = { title: "Car boot sale", location: "Weavers Fields, E2", details: "Free", allDayFrom: "2026-10-18", allDayUntilExclusive: "2026-10-19" };
+
+test("a single date-only day is one all-day entry everywhere", () => {
+  assert.equal(params(googleLink(oneDay)).get("dates"), "20261018/20261019");
+  const o = params(outlookComLink(oneDay));
+  assert.equal(o.get("startdt"), "2026-10-18");
+  assert.equal(o.get("enddt"), "2026-10-19");
+  assert.equal(o.get("allday"), "true");
+  const y = params(yahooLink(oneDay));
+  assert.equal(y.get("st"), "20261018");
+  assert.equal(y.get("dur"), "allday");
+  assert.equal(y.get("et"), null);
+});
+
+test("spaces are sent as %20 and a literal + or & survives the round trip", () => {
+  const entry = { ...timed, title: "Drum + Bass & Friends", details: "A + B & C" };
+  for (const href of calendarLinks(entry).map((l) => l.href)) {
+    assert.ok(!href.includes("+"), href);
+    assert.ok(href.includes("Drum%20%2B%20Bass%20%26%20Friends"), href);
+  }
+  const o = params(outlookComLink(entry));
+  assert.equal(o.get("subject"), "Drum + Bass & Friends");
+  assert.equal(o.get("body"), "A + B & C");
 });

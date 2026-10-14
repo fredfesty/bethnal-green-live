@@ -28,7 +28,8 @@ const lastDay = (exclusive: string) => {
   d.setUTCDate(d.getUTCDate() - 1);
   return d.toISOString().slice(0, 10);
 };
-const query = (params: Record<string, string>) => new URLSearchParams(params).toString();
+// Spaces as %20, not "+": Outlook on the web reads the query itself and would show the plus signs.
+const query = (params: Record<string, string>) => new URLSearchParams(params).toString().replace(/\+/g, "%20");
 
 export function googleLink(c: CalendarEntry): string {
   const dates = isAllDay(c)
@@ -38,7 +39,7 @@ export function googleLink(c: CalendarEntry): string {
 }
 
 function outlookLink(host: string, c: CalendarEntry): string {
-  const when = isAllDay(c)
+  const when: Record<string, string> = isAllDay(c)
     ? { startdt: c.allDayFrom!, enddt: c.allDayUntilExclusive!, allday: "true" }
     : { startdt: utcIso(c.start!), enddt: utcIso(c.end!), allday: "false" };
   return `https://${host}/calendar/0/action/compose?${query({ path: "/calendar/action/compose", rru: "addevent", subject: c.title, ...when, body: c.details, location: c.location })}`;
@@ -48,9 +49,12 @@ export const outlookComLink = (c: CalendarEntry) => outlookLink("outlook.live.co
 export const microsoft365Link = (c: CalendarEntry) => outlookLink("outlook.office.com", c);
 
 export function yahooLink(c: CalendarEntry): string {
-  const when = isAllDay(c)
-    ? { st: compact(c.allDayFrom!), et: compact(lastDay(c.allDayUntilExclusive!)), dur: "allday" }
-    : { st: utcStamp(c.start!), et: utcStamp(c.end!) };
+  let when: Record<string, string>;
+  if (!isAllDay(c)) when = { st: utcStamp(c.start!), et: utcStamp(c.end!) };
+  else if (lastDay(c.allDayUntilExclusive!) === c.allDayFrom) when = { st: compact(c.allDayFrom!), dur: "allday" };
+  // Yahoo can't take an all-day entry over several days, so a run goes in from the start of its first day to the
+  // end of its last, in the reader's own time (no Z).
+  else when = { st: `${compact(c.allDayFrom!)}T000000`, et: `${compact(lastDay(c.allDayUntilExclusive!))}T235900` };
   return `https://calendar.yahoo.com/?${query({ v: "60", title: c.title, ...when, desc: c.details, in_loc: c.location })}`;
 }
 
