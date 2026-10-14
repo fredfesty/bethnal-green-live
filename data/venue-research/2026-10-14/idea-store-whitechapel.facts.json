@@ -1,0 +1,83 @@
+{
+  "venue_id": "idea-store-whitechapel",
+  "venue_name": "Idea Store Whitechapel",
+  "aspect": "facts",
+  "researched_at": "2026-10-14T16:05:00Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://www.ideastore.co.uk/",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.ideastore.co.uk/",
+          "quote": "Idea Store Whitechapel",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "321 Whitechapel Road, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Idea_Store_Whitechapel.aspx",
+          "quote": "321 Whitechapel Road",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E1 1BU",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/Events.aspx",
+          "quote": "321 Whitechapel Rd London E1 1BU",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.notes",
+      "value": "The council's hire listing describes the venue as having full disabled access. It does not describe steps, lifts or toilets.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.notes"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Idea_Store_Whitechapel.aspx",
+          "quote": "The venue has full disabled access.",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "access_page",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "age_policy",
+    "capacity",
+    "cost.free_entry",
+    "cost.notes"
+  ],
+  "notes": "A council Idea Store and a separate branch from Bethnal Green Library, which is the registry's Idea Store entry; the Idea Stores site lists the two separately. Its own site (ideastore.co.uk) has no access page we could reach (a sitemap was empty and guessed pages returned 404). The council events page lists a 'Clothes and book swap and repair event' at this address on 14/10/2026, with no time printed. The hire page gives a venue phone number and email, which are not stored here."
+}

@@ -1,0 +1,47 @@
+{
+  "venue_id": "hoxton-hound",
+  "venue_name": "Hoxton Hound",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T16:01:29Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["pub"],
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+          "quote": "The Hoxton Hound is a modern British pub designed for today",
+          "retrieved_at": "2026-10-14T16:01:29Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "A weekly pub quiz on Wednesdays from 7:30pm. CAMRA lists live music as a facility, but no live-music night was found on the venue's own pages.",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+          "quote": "Join the weekly pub quiz at The Hoxton Hound every Wednesday from 7:30pm.",
+          "retrieved_at": "2026-10-14T16:01:29Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+          "quote": "Live Music",
+          "retrieved_at": "2026-10-14T16:01:29Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no genre named for this venue",
+    "music.notes: no live-music night listed on its own pages",
+    "website: no own website found (the operator's page is used as primary)"
+  ],
+  "notes": "Recurring nights seen on the operator's page for this venue: pub quiz every Wednesday from 7:30pm; Pie O'Clock every Saturday and Steak & Pint every Thursday (food nights, not music). The operator's page also says 'From live music and quiz nights to exclusive brew days, there's always something happening at Craft Pubs!', which is group-wide copy, not a named Hoxton Hound night. No dated events found. The CAMRA page was last updated 05/08/2026 and notes that the former on-site brewery closed in March 2025 (not used here)."
+}

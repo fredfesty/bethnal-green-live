@@ -1,0 +1,99 @@
+{
+  "venue_id": "hoxton-hound",
+  "venue_name": "Hoxton Hound",
+  "aspect": "facts",
+  "researched_at": "2026-10-14T16:05:00Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+          "quote": "Craft beers, curated cocktails, small batch spirits and great wines",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "397-400 Geffrye Street, Bethnal Green",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+          "quote": "\"streetAddress\": \"397-400 Geffrye Street\"",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E2 8HZ",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+          "quote": "\"postalCode\": \"E2 8HZ\"",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.step_free",
+      "value": true,
+      "source_date": "2026-08-05",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.step_free",
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+          "quote": "Step free access. Accessible toilet.",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "accessibility.accessible_toilet",
+      "value": true,
+      "source_date": "2026-08-05",
+      "evidence": [
+        {
+          "fields": [
+            "accessibility.accessible_toilet"
+          ],
+          "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+          "quote": "Step free access. Accessible toilet.",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "access_page",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "age_policy",
+    "capacity",
+    "cost.free_entry",
+    "cost.notes"
+  ],
+  "notes": "The website is the operator's page for this pub (Craft House Pubs), the only own-site page found. Its FAQs and pages give no access details. CAMRA says the former on-site brewery closed in March 2025; the operator's offers page still mentions beer brewed on site, so a person should check. CAMRA's last-updated date (05/08/2026) is the source date for the access line."
+}

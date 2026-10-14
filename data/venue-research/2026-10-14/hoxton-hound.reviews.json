@@ -1,0 +1,48 @@
+{
+  "venue_id": "hoxton-hound",
+  "venue_name": "Hoxton Hound",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T16:01:32Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A pub in railway arches beside Hoxton Station, serving food, with a garden and covered outside seating, according to its CAMRA WhatPub entry.",
+      "source_date": "2026-08-05",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+          "quote": "In restored railway arches next to Hoxton Station.",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "directory",
+          "source_date": "2026-08-05"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+          "quote": "Lunchtime Meals",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "directory",
+          "source_date": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "CAMRA's WhatPub entry lists live music among the pub's facilities; the kind of nights is not stated.",
+      "source_date": "2026-08-05",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+          "quote": "Live Music",
+          "retrieved_at": "2026-10-14T16:01:32Z",
+          "source_kind": "directory",
+          "source_date": "2026-08-05"
+        }
+      ]
+    }
+  ],
+  "not_found": ["music.styles", "crowd", "status"],
+  "notes": "Only CAMRA WhatPub was read; one WebSearch found no press review. The CAMRA description says 'Former on-site brewery closed March 2025.' (page last updated 05/08/2026). That is a change at the pub, not a closure, so it is passed on rather than proposed. No live-music listing was read."
+}

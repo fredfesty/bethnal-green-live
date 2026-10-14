@@ -1,0 +1,148 @@
+{
+  "id": "mile-end-climbing-wall",
+  "name": "Mile End Climbing Wall",
+  "zone": "fringe",
+  "address": "Haverfield Road, London",
+  "postcode": "E3 5BE",
+  "website": "https://www.mileendwall.org.uk",
+  "summary": "A charity-run climbing centre in an old pipe engineering works in Mile End Park, with bouldering and a Finnish sauna.",
+  "music": {
+    "styles": [],
+    "notes": null
+  },
+  "crowd": "The centre says charities, groups, schools and recreational climbers all use it, and describes a relaxed, informal social atmosphere.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": "Climbing entry costs about £14.50 to £15.50 for adults and £10 to £11 for concessions, donation included, per the first-visit page."
+  },
+  "age_policy": "Under-14s can't climb or boulder unsupervised; 14-17s need experience and a competency test to boulder alone",
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.mileendwall.org.uk/about-us",
+      "quote": "housed inside an old pipe engineering works which is located within Mile End Park",
+      "retrieved_at": "2026-10-14T16:01:10Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.mileendwall.org.uk/about-us",
+      "quote": "Mile End Climbing Wall is maintained by our own charity",
+      "retrieved_at": "2026-10-14T16:01:10Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.mileendwall.org.uk/about-us",
+      "quote": "There is extensive bouldering (low level climbing without ropes) at all levels",
+      "retrieved_at": "2026-10-14T16:01:10Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.mileendwall.org.uk/sauna",
+      "quote": "Forty five minutes of total relaxation at Mile End's very own Finnish sauna!",
+      "retrieved_at": "2026-10-14T16:01:20Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.mileendwall.org.uk/about-us",
+      "quote": "The centre is widely used by other development charities, groups, schools and recreational climbers.",
+      "retrieved_at": "2026-10-14T16:01:10Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://www.mileendwall.org.uk/about-us",
+      "quote": "Through our staff, regular customers and clubs, we have a relaxed and informal social atmosphere.",
+      "retrieved_at": "2026-10-14T16:01:10Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode",
+        "website"
+      ],
+      "url": "https://www.mileendwall.org.uk/contact-us",
+      "quote": "Mile End Climbing Wall Haverfield Road London E3 5BE",
+      "retrieved_at": "2026-10-14T16:04:12Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.mileendwall.org.uk/first-visit",
+      "quote": "Adult £14.50 - £15.50 (including donation)",
+      "retrieved_at": "2026-10-14T16:04:12Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "cost.notes"
+      ],
+      "url": "https://www.mileendwall.org.uk/first-visit",
+      "quote": "Concession £10 - £11 (including donation)",
+      "retrieved_at": "2026-10-14T16:04:12Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://www.mileendwall.org.uk/first-visit",
+      "quote": "Juniors under 14 can’t be signed off to climb or boulder unsupervised.",
+      "retrieved_at": "2026-10-14T16:04:12Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_policy"
+      ],
+      "url": "https://www.mileendwall.org.uk/first-visit",
+      "quote": "Juniors between ages of 14 and 17 can boulder independently if they have relevant experience and can pass competency test",
+      "retrieved_at": "2026-10-14T16:04:12Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-14T16:09:06Z",
+  "review": {
+    "checked_at": "2026-10-14T16:10:32Z",
+    "removed_fields": []
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-14T16:09:06Z",
+      "by": "venue-editor",
+      "change": "first profile from the venue's own site (summary, crowd, cost, age policy, address); no access details found"
+    },
+    {
+      "at": "2026-10-14T16:10:32Z",
+      "by": "venue-checker",
+      "change": "cut \"roped climbing\" from summary (sources only back bouldering)"
+    }
+  ]
+}

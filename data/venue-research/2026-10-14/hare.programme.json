@@ -1,0 +1,42 @@
+{
+  "venue_id": "hare",
+  "venue_name": "Hare",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T16:01:29Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["pub"],
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+          "quote": "Independent ex-Truman free house in Bethnal Green serving two regular ales & a changing beer.",
+          "retrieved_at": "2026-10-14T16:01:29Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "CAMRA lists live music among the pub's facilities. No gig or event listing was found, so the kind of music is not known.",
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://camra.org.uk/pubs/hare-bethnal-green-155637",
+          "quote": "Live Music",
+          "retrieved_at": "2026-10-14T16:01:29Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no genre named anywhere",
+    "music.notes: no own website, event listing or what's-on page found",
+    "types: no quote beyond the free-house description"
+  ],
+  "notes": "Past or upcoming nights seen: none. The CAMRA listing (last updated 14/10/2026, last surveyed 11/01/2026) names live music, a garden and sports TV as facilities. One WebSearch for its own website found none. Whether live music still runs is unconfirmed; a person may want to check before it is shown."
+}

@@ -1,0 +1,53 @@
+{
+  "venue_id": "granby-community-hub",
+  "venue_name": "Granby Community Hub",
+  "aspect": "facts",
+  "researched_at": "2026-10-14T16:05:00Z",
+  "findings": [
+    {
+      "field": "address",
+      "value": "37 St Matthew's Row, London",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Threads-of-Heritage-Family-Craft-Session-and-Community-Celebration.aspx",
+          "quote": "Granby Community Hub 37 St Matthew's Row London E2 6D",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    },
+    {
+      "field": "cost.notes",
+      "value": "Hall hire may be discounted for long-running regular bookings.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "cost.notes"
+          ],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/Community_hubs/Granby-Community-Hub.aspx",
+          "quote": "Discounts for regular bookings of more than 12 weeks may be available.",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "postcode",
+    "website",
+    "access_page",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "age_policy",
+    "capacity",
+    "cost.free_entry"
+  ],
+  "notes": "The full postcode was not found: the council event page cuts it at 'E2 6D' and the council hub page gives none, and no search found it, so the venue can't be placed yet. The hub page gives room sizes, not a whole-venue capacity: two halls together up to 80 people, one hall up to 40, and two community rooms up to 15 each. It is set just off Bethnal Green Road, about a 10-minute walk from Bethnal Green station (council page). The council hub page is the only source; there is no own website."
+}

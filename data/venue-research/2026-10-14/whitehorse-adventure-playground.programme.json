@@ -1,0 +1,49 @@
+{
+  "venue_id": "whitehorse-adventure-playground",
+  "venue_name": "Whitehorse Adventure Playground",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T16:04:00Z",
+  "findings": [
+    {
+      "field": "music.notes",
+      "value": "No music nights. A children's adventure playground: term-time adventure play on Tuesday to Thursday afternoons, and a half-term play day on Tuesday 27 October 2026.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.towerhamlets.gov.uk/lgnl/leisure_and_culture/parks_and_open_spaces/Parks-directory/White-Horse-Road-Park-and-Adventure-Playground.aspx",
+          "quote": "Adventure play sessions for ages 5 to 15, Tuesday to Thursday, 3:30 – 6pm (term time only).",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Adventure-play.aspx",
+          "quote": "Half term adventure play at Whitehorse Adventure Playground",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Adventure-play.aspx",
+          "quote": "Tuesday 27th October 2026 (10:00-15:00)",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "directory"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.towerhamlets.gov.uk/News_events/Events/2026/October/Adventure-play.aspx",
+          "quote": "Ages 5-12, Family and children, Half-term, Parks",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "directory"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "types: no type from the allowed list is quoted for a children's playground",
+    "music.styles: no music named",
+    "music.notes: no evening or music nights; the venue's own website was not found"
+  ],
+  "notes": "Dated: the council listing for the half-term play day, Tuesday 27 October 2026, 10:00 to 15:00, category 'Ages 5-12'. Regular: term-time sessions for ages 5 to 15 on Tuesdays to Thursdays, 3:30 to 6pm, from the council parks directory (undated). The directory says 'Adventure Playground for ages 8 and above' and that children under 8 need an adult. One WebSearch found only council pages; no own website. The council listing prints the postcode 'E1 ONZ' with a letter O, which is not valid and was not used (facts lane). The editor declined this venue last week as not a nights-out venue."
+}

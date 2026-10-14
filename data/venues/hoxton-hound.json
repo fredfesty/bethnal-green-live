@@ -1,0 +1,137 @@
+{
+  "id": "hoxton-hound",
+  "name": "Hoxton Hound",
+  "zone": "core",
+  "types": [
+    "pub"
+  ],
+  "location": {
+    "lat": 51.532307,
+    "lon": -0.075362,
+    "distance_m": 1534,
+    "source": "postcodes.io"
+  },
+  "discovered": {
+    "first_seen": "2026-10-14",
+    "found_by": [
+      "map"
+    ]
+  },
+  "address": "397-400 Geffrye Street, Bethnal Green",
+  "postcode": "E2 8HZ",
+  "website": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+  "summary": "A pub under restored railway arches by Hoxton Station, with lunchtime meals listed by CAMRA.",
+  "music": {
+    "styles": [],
+    "notes": "Hosts a weekly pub quiz on Wednesday evenings. CAMRA lists live music as a facility, but no live music night has been found."
+  },
+  "crowd": null,
+  "accessibility": {
+    "step_free": true,
+    "accessible_toilet": true,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+      "quote": "In restored railway arches next to Hoxton Station.",
+      "retrieved_at": "2026-10-14T15:56:29Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+      "quote": "Lunchtime Meals",
+      "retrieved_at": "2026-10-14T16:01:32Z",
+      "source_kind": "directory",
+      "source_date": "2026-08-05"
+    },
+    {
+      "fields": [
+        "types"
+      ],
+      "url": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+      "quote": "The Hoxton Hound is a modern British pub designed for today",
+      "retrieved_at": "2026-10-14T16:01:29Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+      "quote": "\"streetAddress\": \"397-400 Geffrye Street\"",
+      "retrieved_at": "2026-10-14T16:05:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "postcode"
+      ],
+      "url": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+      "quote": "\"postalCode\": \"E2 8HZ\"",
+      "retrieved_at": "2026-10-14T16:05:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes",
+        "website"
+      ],
+      "url": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+      "quote": "Join the weekly pub quiz at The Hoxton Hound every Wednesday from 7:30pm.",
+      "retrieved_at": "2026-10-14T16:01:29Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+      "quote": "Live Music",
+      "retrieved_at": "2026-10-14T15:56:29Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "accessibility.step_free",
+        "accessibility.accessible_toilet"
+      ],
+      "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+      "quote": "Step free access. Accessible toilet.",
+      "retrieved_at": "2026-10-14T16:05:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "profiled_at": "2026-10-14T16:09:06Z",
+  "review": {
+    "checked_at": "2026-10-14T16:10:32Z",
+    "removed_fields": []
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-14T16:09:06Z",
+      "by": "venue-editor",
+      "change": "new venue, found by the map finder; basics from its CAMRA WhatPub entry and the operator page for this pub"
+    },
+    {
+      "at": "2026-10-14T16:10:32Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ]
+}

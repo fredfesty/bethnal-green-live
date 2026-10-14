@@ -1,0 +1,14 @@
+{
+  "venue_id": "fine-cider-company-shop",
+  "venue_name": "The Fine Cider Company Shop",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T16:01:29Z",
+  "findings": [],
+  "not_found": [
+    "types: the page calls it a shop that sells cider and runs tastings; none of the registry types fits without a guess",
+    "music.styles: no music named",
+    "music.notes: the programme is ticketed cider tastings, not music nights, so nothing is proposed for the music section; the editor may decide where tastings belong",
+    "cost.notes: only one event's price is printed (public tasting), so no general pricing is proposed"
+  ],
+  "notes": "Programme is ticketed tastings. The Ticket Tailor event page (primary) says: 'Out tastings are available to book every Friday & Saturday, and always run from 6:30pm, to 8pm.' Public and private tastings for up to 12 people. Nights seen: Tastings, Sat 17 Oct 2026, Fri 23 Oct 2026 and Fri 30 Oct 2026, all 18:30-20:00 (event data on the same page). The page says it is 'strictly for over 18's only', for the facts researcher."
+}

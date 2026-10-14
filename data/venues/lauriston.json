@@ -1,0 +1,170 @@
+{
+  "id": "lauriston",
+  "name": "The Lauriston",
+  "zone": "fringe",
+  "types": [
+    "pub",
+    "live-music"
+  ],
+  "location": {
+    "lat": 51.538018,
+    "lon": -0.04605,
+    "distance_m": 1370,
+    "source": "postcodes.io"
+  },
+  "discovered": {
+    "first_seen": "2026-10-14",
+    "found_by": [
+      "web"
+    ]
+  },
+  "address": "162 Victoria Park Road, London",
+  "postcode": "E9 7JN",
+  "website": null,
+  "summary": "A pub near Victoria Park in Hackney serving stone-baked pizza daily, with a weekly quiz, Irish music sessions and live music and DJs on Saturday nights.",
+  "music": {
+    "styles": [
+      "traditional irish"
+    ],
+    "notes": "Weekly quiz on Wednesdays, traditional Irish music sessions on Thursdays, karaoke on the last Saturday of the month, and live bands and DJs on Saturday nights."
+  },
+  "crowd": "Describes itself as welcoming to visitors and locals alike.",
+  "accessibility": {
+    "step_free": null,
+    "accessible_toilet": null,
+    "hearing_loop": null,
+    "notes": null,
+    "access_page": null
+  },
+  "cost": {
+    "free_entry": null,
+    "notes": null
+  },
+  "age_policy": null,
+  "capacity": null,
+  "evidence": [
+    {
+      "fields": [
+        "types"
+      ],
+      "url": "https://www.timeout.com/london/clubs/the-lauriston",
+      "quote": "The Lauriston | Bars and pubs in Victoria Park, London",
+      "retrieved_at": "2026-10-14T15:55:06Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://thelauriston.com/",
+      "quote": "We are a beautiful friendly pub just moments from Victoria Park, Hackney serving delicious stone-baked pizza open 7 days a week.",
+      "retrieved_at": "2026-10-14T16:00:30Z",
+      "source_kind": "primary",
+      "source_date": "2026-09-12"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://thelauriston.com/",
+      "quote": "Our pub quiz is on every Wednesday from 8pm",
+      "retrieved_at": "2026-10-14T16:00:30Z",
+      "source_kind": "primary",
+      "source_date": "2026-09-12"
+    },
+    {
+      "fields": [
+        "types"
+      ],
+      "url": "https://thelauriston.com/",
+      "quote": "We are a beautiful friendly pub just moments from Victoria Park",
+      "retrieved_at": "2026-10-14T16:00:30Z",
+      "source_kind": "primary",
+      "source_date": "2026-09-12"
+    },
+    {
+      "fields": [
+        "types",
+        "music.notes"
+      ],
+      "url": "https://thelauriston.com/whats-on-at-the-lauriston/",
+      "quote": "Saturday Nights – Live music & DJs",
+      "retrieved_at": "2026-10-14T16:02:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://camra.org.uk/pubs/lauriston-homerton-156222",
+      "quote": "162 Victoria Park Road, Homerton, E9 7JN",
+      "retrieved_at": "2026-10-14T16:04:12Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "crowd"
+      ],
+      "url": "https://thelauriston.com/",
+      "quote": "A beautiful pub with guest rooms in the heart of Victoria Park Village welcoming visitors and locals alike.",
+      "retrieved_at": "2026-10-14T16:02:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.styles",
+        "music.notes"
+      ],
+      "url": "https://thelauriston.com/whats-on-at-the-lauriston/",
+      "quote": "Catch live traditional Irish sessions every Thursday starting at 7:30 PM, featuring a wonderful lineup of local musicians.",
+      "retrieved_at": "2026-10-14T16:02:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://thelauriston.com/whats-on-at-the-lauriston/",
+      "quote": "Prove it at our weekly Quiz Night!",
+      "retrieved_at": "2026-10-14T16:02:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://thelauriston.com/whats-on-at-the-lauriston/",
+      "quote": "Last Saturday of the month- karaoke with oz!",
+      "retrieved_at": "2026-10-14T16:02:00Z",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "music.notes"
+      ],
+      "url": "https://thelauriston.com/whats-on-at-the-lauriston/",
+      "quote": "From live bands to DJs spinning vinyl",
+      "retrieved_at": "2026-10-14T16:02:00Z",
+      "source_kind": "primary"
+    }
+  ],
+  "profiled_at": "2026-10-14T16:09:06Z",
+  "review": {
+    "checked_at": "2026-10-14T16:10:32Z",
+    "removed_fields": []
+  },
+  "needs_review": null,
+  "history": [
+    {
+      "at": "2026-10-14T16:09:06Z",
+      "by": "venue-editor",
+      "change": "new venue, found by the web finder; programme from its own what's-on page, address and postcode from CAMRA"
+    },
+    {
+      "at": "2026-10-14T16:10:32Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
+    }
+  ]
+}

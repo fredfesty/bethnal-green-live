@@ -1,0 +1,37 @@
+{
+  "id": "hoxton-cabin",
+  "name": "Hoxton Cabin",
+  "about_venue_id": null,
+  "address": "132 Kingsland Road, London",
+  "postcode": "E2 8DP",
+  "website": null,
+  "found_by": "listings",
+  "signal": "new",
+  "kind_hint": "bar with underground comedy, vinyl open decks and house nights",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": ["name", "kind_hint"],
+      "url": "https://ma.to/venue/hoxtoncabin",
+      "quote": "Hoxton Cabin is an inclusive London bar and creative hub featuring underground comedy, vinyl open decks, and diverse social events",
+      "retrieved_at": "2026-10-14T15:58:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": ["address", "postcode"],
+      "url": "https://ma.to/venue/hoxtoncabin",
+      "quote": "Hoxton Cabin is located at 132 Kingsland Road, Shoreditch, London, E2 8DP.",
+      "retrieved_at": "2026-10-14T15:58:00Z",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": ["address"],
+      "url": "https://camra.org.uk/pubs/hoxton-cabin-bethnal-green-154827",
+      "quote": "132 Kingsland Road",
+      "retrieved_at": "2026-10-14T15:58:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "found_at": "2026-10-14T15:58:00Z",
+  "notes": "Dated events on ma.to (aggregator; no own website found): 'Lower Ground: Deep Music', Sat 17 Oct 2026 from 22:00 (JSON-LD start 2026-10-17T22:00 BST); 'Red Eye 4th Anniversary', Sat 28 Nov 2026 from 21:00. Found by search, not on DICE. Postcode is E2, so core."
+}

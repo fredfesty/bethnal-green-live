@@ -1,0 +1,62 @@
+{
+  "venue_id": "mile-end-climbing-wall",
+  "venue_name": "Mile End Climbing Wall",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T16:04:00Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["sauna"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.mileendwall.org.uk/sauna",
+          "quote": "An hour of total relaxation at Mile End's very own Finnish saunas!",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://www.mileendwall.org.uk/sauna",
+          "quote": "Sauna (mixed gender)",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "No music nights listed. Its socials are climbing and talks: a monthly queer climbing social, a women's social session, and Beyond Limits days on 7 November with a talk and movie night.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.mileendwall.org.uk/socials-and-events",
+          "quote": "Queer Climb is our monthly LGBTQIA+ climbing social.",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.mileendwall.org.uk/socials-and-events",
+          "quote": "A fun, welcoming space for women of all climbing levels to meet, connect, and climb together.",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.mileendwall.org.uk/socials-and-events",
+          "quote": "Beyond Limits: Mini Bundle (Talk and Movie Night only)",
+          "retrieved_at": "2026-10-14T16:02:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "music.styles: no music named on the venue's pages",
+    "types: the registry's 'climbing-wall' is not on the allowed list, so only sauna is proposed"
+  ],
+  "notes": "Socials and events page (dates given only for 7 November): Beyond Limits: Big Bundle (Workshop, Talk and Movie Night), Women's Social session, Queer Social Session (monthly Queer Climb), Beyond Limits: Mini Bundle (Talk and Movie Night only). Sauna sessions and 10-visit punch cards are sold separately on the sauna page. The 'Beyond Limits' events say 'Join us on 7th November'; no year is printed on the page, so no date is proposed beyond that. Not a music venue; the findings are for the editor's programme picture only."
+}

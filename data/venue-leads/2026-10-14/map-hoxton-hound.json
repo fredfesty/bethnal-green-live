@@ -1,0 +1,44 @@
+{
+  "id": "hoxton-hound",
+  "name": "Hoxton Hound",
+  "about_venue_id": null,
+  "address": "397-400 Geffrye Street, Bethnal Green",
+  "postcode": "E2 8HZ",
+  "website": null,
+  "found_by": "map",
+  "signal": "new",
+  "kind_hint": "pub in restored railway arches with live music (CAMRA listing)",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": ["name"],
+      "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+      "quote": "Hoxton Hound, Bethnal Green",
+      "retrieved_at": "2026-10-14T15:56:29Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": ["address", "postcode"],
+      "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+      "quote": "\"streetAddress\":\"397-400 Geffrye Street\",\"addressLocality\":\"Bethnal Green\",\"postalCode\":\"E2 8HZ\"",
+      "retrieved_at": "2026-10-14T15:56:29Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": ["kind_hint"],
+      "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+      "quote": "In restored railway arches next to Hoxton Station.",
+      "retrieved_at": "2026-10-14T15:56:29Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": ["kind_hint"],
+      "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+      "quote": "Live Music",
+      "retrieved_at": "2026-10-14T15:56:29Z",
+      "source_kind": "directory"
+    }
+  ],
+  "found_at": "2026-10-14T15:56:29Z",
+  "notes": "Found on CAMRA WhatPub (Hackney local authority; page 'Last updated 05/08/2026'). Live Music is one of the listed facilities. No own website quoted; no event listing read yet, so the researchers should check whether live music is current. Postcode from the CAMRA page, zone core (E2) by scripts/zone.py."
+}

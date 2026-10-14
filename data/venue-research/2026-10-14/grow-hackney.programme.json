@@ -1,0 +1,112 @@
+{
+  "venue_id": "grow-hackney",
+  "venue_name": "Grow Hackney",
+  "aspect": "programme",
+  "researched_at": "2026-10-14T16:04:19Z",
+  "findings": [
+    {
+      "field": "types",
+      "value": ["bar", "music-venue", "live-music"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["types"],
+          "url": "https://www.growhackney.co.uk",
+          "quote": "Grow is an independent canalside cafe, bar, kitchen and grassroots music venue on the River Lea, serving Hackney Wick since 2014.",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["types"],
+          "url": "https://www.growhackney.co.uk",
+          "quote": "then stay for live music, DJs, jazz, workshops and cultural gatherings.",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["jazz", "world", "soul", "house", "broken beat"],
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.growhackney.co.uk/events-calendar",
+          "quote": "JAZZ JAM WITH STRATOS // EVERY THURSDAY",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.growhackney.co.uk/canalside-sessions",
+          "quote": "Expect jazz fusion, rhythmic Latin grooves, Brazilian and African sounds",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.growhackney.co.uk/canalside-sessions",
+          "quote": "Live Music Brunch, World Music Brunch, Canalside Sessions, Williams Cumberbache",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.growhackney.co.uk/deepdig",
+          "quote": "DEEPDIG: HANDSON FAMILY // VANESSA FREEMAN (DISCO, FUNK, SOUL, BROKEN BEAT, HOUSE)",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://www.growhackney.co.uk/deepdig",
+          "quote": "DEEPDIG: MARSHMELLO // KANEM (SOUL, JAZZ, BROKEN BEAT, HOUSE)",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Mostly live and DJ nights: a weekly Thursday jazz jam run by a resident band since 2016, free weekend afternoon canalside sessions of global and Latin-tinged live music, a monthly open jam, and DeepDig nights of long DJ sets.",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.growhackney.co.uk/events-calendar",
+          "quote": "Since 2016, Stratos, our resident jazz band led by the talented and Mercury Prize-nominated Rio Kai, has held down this popular night",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.growhackney.co.uk/canalside-sessions",
+          "quote": "Join us canalside at Grow in Hackney Wick every Saturday and Sunday from 1-4pm for an afternoon of free live music",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.growhackney.co.uk/not-your-usual-jam",
+          "quote": "Sunday evening, once a month",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://www.growhackney.co.uk/deepdig",
+          "quote": "At DeepDig, we bring our favourite DJs to play the sets they don’t usually get to play at bigger venues or festivals.",
+          "retrieved_at": "2026-10-14T16:04:19Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "cost.notes: no general pricing read on the programme pages (only DeepDig's own prices, which are not venue-wide)",
+    "music.styles: Latin is named on one page only, so it is left out",
+    "age_policy and crowd: not on the programme pages read"
+  ],
+  "notes": "Nights seen: Jazz Jam with Stratos, Thu 15 Oct 2026, 19:00-23:00 (weekly); Canalside Sessions, Sun 18 Oct 2026, 1-4pm (free, weekly at weekends); Not The Usual Jam, Sun 1 Nov 2026 (open jam, free); DeepDig, 14-15 Nov 2026 (DJ sets); Canalside Sessions with the EFG Jazz Festival, 22 Nov 2026. The /weekly-live-jazz and /events-programme paths returned 404. The sitemap lists only blog posts and images."
+}

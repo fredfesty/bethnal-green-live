@@ -1,0 +1,92 @@
+{
+  "venue_id": "fine-cider-company-shop",
+  "venue_name": "The Fine Cider Company Shop",
+  "aspect": "facts",
+  "researched_at": "2026-10-14T16:05:00Z",
+  "findings": [
+    {
+      "field": "website",
+      "value": "https://www.tickettailor.com/events/thefinecidercompany",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "website"
+          ],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany",
+          "quote": "We specialise mainly in fine British ciders & perries",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "value": "399 Mentmore Terrace, London Fields",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "address"
+          ],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany",
+          "quote": "The Fine Cider Company Shop, 399 Mentmore Terrace, London Fields, E8 3PH",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "value": "E8 3PH",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "postcode"
+          ],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany",
+          "quote": "The Fine Cider Company Shop, 399 Mentmore Terrace, London Fields, E8 3PH",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    },
+    {
+      "field": "age_policy",
+      "value": "18+ for its tastings; ID asked of anyone who looks under 25",
+      "source_date": null,
+      "evidence": [
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
+          "quote": "This event involves alcohol, so is strictly for over 18's only.",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "primary"
+        },
+        {
+          "fields": [
+            "age_policy"
+          ],
+          "url": "https://www.tickettailor.com/events/thefinecidercompany/1809038",
+          "quote": "If you look under 25, we will need to ask for valid iD when you arrive.",
+          "retrieved_at": "2026-10-14T16:05:00Z",
+          "source_kind": "primary"
+        }
+      ]
+    }
+  ],
+  "not_found": [
+    "access_page",
+    "accessibility.step_free",
+    "accessibility.accessible_toilet",
+    "accessibility.hearing_loop",
+    "accessibility.notes",
+    "cost.free_entry",
+    "cost.notes",
+    "capacity"
+  ],
+  "notes": "Ticket Tailor is the only web presence found (one search). The shop's tastings are ticketed: public tastings and private tastings, for groups of up to 12 people, which is a tasting size and not the shop's capacity. Prices are per event and are not recorded. Ticket Tailor's event page says tastings run from 6:30pm to 8pm on Fridays and Saturdays. The shop may not fit the guide as a venue, since it sells cider and runs tastings."
+}

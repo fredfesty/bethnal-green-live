@@ -1,0 +1,53 @@
+{
+  "id": "idea-store-whitechapel",
+  "name": "Idea Store Whitechapel",
+  "about_venue_id": null,
+  "address": "321 Whitechapel Road, London",
+  "postcode": "E1 1BU",
+  "website": null,
+  "found_by": "listings",
+  "signal": "new",
+  "kind_hint": "council Idea Store (library and events space) with rooms for hire",
+  "google_place_id": null,
+  "evidence": [
+    {
+      "fields": [
+        "name"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Idea_Store_Whitechapel.aspx",
+      "quote": "Idea Store Whitechapel",
+      "retrieved_at": "2026-10-14T15:58:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "address"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Idea_Store_Whitechapel.aspx",
+      "quote": "321 Whitechapel Road",
+      "retrieved_at": "2026-10-14T15:58:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/Events/Events.aspx",
+      "quote": "321 Whitechapel Rd London E1 1BU",
+      "retrieved_at": "2026-10-14T15:58:00Z",
+      "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "kind_hint"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/community_and_living/halls_for_hire/Idea_Store_Whitechapel.aspx",
+      "quote": "Idea Store Whitechapel can cater for a variety of corporate and social activities",
+      "retrieved_at": "2026-10-14T15:58:00Z",
+      "source_kind": "directory"
+    }
+  ],
+  "found_at": "2026-10-14T15:58:00Z",
+  "notes": "Council events calendar lists 'Clothes and book swap and repair event' at 321 Whitechapel Rd on 14/10/2026 (date only; no time printed; its own event page not found). Idea Store Whitechapel is a separate branch from the Bethnal Green Library Idea Store in the registry; a person should check it against the Idea Stores watchlist entry."
+}

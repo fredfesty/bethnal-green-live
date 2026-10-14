@@ -1,0 +1,110 @@
+{
+  "venue_id": "dalston-superstore",
+  "venue_name": "Dalston Superstore",
+  "aspect": "reviews",
+  "researched_at": "2026-10-14T16:03:00Z",
+  "findings": [
+    {
+      "field": "summary",
+      "value": "A queer nightlife venue open since 2009, working as a club, bar, cafe, gallery and community space, with drag and cabaret shows.",
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": ["summary"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "Dalston Superstore is East London’s queer nightlife institution.",
+          "retrieved_at": "2026-10-14T16:02:30Z",
+          "source_kind": "primary",
+          "source_date": "2026-10-14"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "Having first slid open it’s rainbow shutters in 2009",
+          "retrieved_at": "2026-10-14T16:02:30Z",
+          "source_kind": "primary",
+          "source_date": "2026-10-14"
+        },
+        {
+          "fields": ["summary"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "Functioning in equal parts as a debaucherous nightclub, bar, cafe, community space and gallery",
+          "retrieved_at": "2026-10-14T16:02:30Z",
+          "source_kind": "primary",
+          "source_date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "field": "crowd",
+      "value": "The venue describes itself as a queer nightlife institution that caters to London's LGBTQIA+ community and supports LGBTQ+ charities.",
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": ["crowd"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "the venue proudly caters to London’s diverse LGBTQIA+ community",
+          "retrieved_at": "2026-10-14T16:02:30Z",
+          "source_kind": "primary",
+          "source_date": "2026-10-14"
+        },
+        {
+          "fields": ["crowd"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "Supporting and uplifting LGBTQ+ charities and organisations is central to who we are",
+          "retrieved_at": "2026-10-14T16:02:30Z",
+          "source_kind": "primary",
+          "source_date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "field": "music.styles",
+      "value": ["dance music", "drag cabaret"],
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": ["music.styles", "music.notes"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "Superstore is as much a music-forward club as it is a front-running drag and performance space.",
+          "retrieved_at": "2026-10-14T16:02:30Z",
+          "source_kind": "primary",
+          "source_date": "2026-10-14"
+        },
+        {
+          "fields": ["music.styles"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "We’ve played host to dance music heavy-hitters",
+          "retrieved_at": "2026-10-14T16:02:30Z",
+          "source_kind": "primary",
+          "source_date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "field": "music.notes",
+      "value": "Club nights, drag and cabaret shows, karaoke, open decks, film screenings and a drag brunch at weekends.",
+      "source_date": "2026-10-14",
+      "evidence": [
+        {
+          "fields": ["music.notes"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "We’re open 7 days a week for lowlight cocktails & catchups, film screenings, karaoke, open decks, or our ever-expanding list of notorious club nights.",
+          "retrieved_at": "2026-10-14T16:02:30Z",
+          "source_kind": "primary",
+          "source_date": "2026-10-14"
+        },
+        {
+          "fields": ["music.notes"],
+          "url": "https://dalstonsuperstore.com/about-us/",
+          "quote": "Our weekend Drag Brunch has gained cult-status",
+          "retrieved_at": "2026-10-14T16:02:30Z",
+          "source_kind": "primary",
+          "source_date": "2026-10-14"
+        }
+      ]
+    }
+  ],
+  "not_found": ["status"],
+  "notes": "The venue's own About page (modified 2026-10-14) was read in full and is the main source. One WebSearch found no press review that could be read: travelgay.com returned 403 and was not retried, and a gaytimes page had no mention of the venue. The Time Out listing is a 2025 event listing, not a review, and is not used. The access and drag brunch pages were not re-read this run."
+}
