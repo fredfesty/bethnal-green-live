@@ -44,9 +44,49 @@
       "quote": "Soft Opening, London",
       "retrieved_at": "2026-10-13T00:11:00Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://plastermagazine.com/features/all-hail-the-bethnal-green-art-boom/",
+      "quote": "Antonia Marsh set up Soft Opening’s second space on Minerva St in 2020",
+      "retrieved_at": "2026-10-14T11:52:16Z",
+      "source_kind": "press",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://plastermagazine.com/features/all-hail-the-bethnal-green-art-boom/",
+      "quote": "more recently joined by neighbouring baby gallery, Sherbet Green, in 2022",
+      "retrieved_at": "2026-10-14T11:52:16Z",
+      "source_kind": "press",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://officemagazine.net/node/1992",
+      "quote": "Antonia Marsh’s Soft Opening resides beneath the bustle of the Statue of Eros",
+      "retrieved_at": "2026-10-14T11:52:16Z",
+      "source_kind": "press",
+      "source_date": "2018-07-25"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://softopening.london/exhibitions",
+      "quote": "Maren Karlson LAG 11 September–17 October, 2026",
+      "retrieved_at": "2026-10-14T11:52:16Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:41:11Z",
+  "profiled_at": "2026-10-14T11:52:16Z",
   "history": [
     {
       "at": "2026-10-13T00:41:11Z",
@@ -57,10 +97,33 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T11:52:16Z",
+      "by": "venue-storyteller",
+      "change": "added story: opened, then, now"
+    },
+    {
+      "at": "2026-10-14T11:55:58Z",
+      "by": "venue-checker",
+      "change": "story.then: cut unquoted 'first', Piccadilly Circus and West End"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T11:55:58Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "2020, as the second Soft Opening space, on Minerva Street",
+    "then": "Antonia Marsh's Soft Opening was described in a 2018 Office magazine piece as located under the busy Statue of Eros. The Minerva Street space followed in 2020, and a neighbouring small gallery, Sherbet Green, joined the street in 2022.",
+    "now": "As of October 2026 the gallery is showing Maren Karlson's LAG, which runs until 17 October.",
+    "written_at": "2026-10-14T11:52:16Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Found opening year, earlier Piccadilly space and current show. No vibe, interior or worth-knowing facts yet. Try Frieze 2023 Marsh piece (403 this time), Artforum/Art Review/Evening Standard reviews, Time Out entry for Minerva St."
   }
 }

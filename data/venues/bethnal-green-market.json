@@ -51,11 +51,81 @@
       "quote": "Bethnal Green is perhaps better known for its on-going association with boxing, but it is also a major local shopping area and an important social meeting place for the community",
       "retrieved_at": "2026-10-13T14:13:00Z",
       "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://spitalfieldslife.com/2017/10/16/albert-turpins-bethnal-green/",
+      "quote": "almost the whole of one side of Bethnal Green Rd is an open market",
+      "retrieved_at": "2026-10-14T11:52:18Z",
+      "source_kind": "press",
+      "source_date": "2017-10-16"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://spitalfieldslife.com/2017/10/16/albert-turpins-bethnal-green/",
+      "quote": "attempts have been made to do away with Sunday markets and the street market, always without success",
+      "retrieved_at": "2026-10-14T11:52:18Z",
+      "source_kind": "press",
+      "source_date": "2017-10-16"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://spitalfieldslife.com/2017/10/16/albert-turpins-bethnal-green/",
+      "quote": "Baroness Burdett Coutts, a wealthy and public spirited lady who, at a cost of £200,000, cleared a large tract of slums",
+      "retrieved_at": "2026-10-14T11:52:18Z",
+      "source_kind": "press",
+      "source_date": "2017-10-16"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/2025/November/New-Pop-Up-Market-Lands-in-Bethnal-Green-After-Successful-Crowdfunder.aspx",
+      "quote": "Running every Saturday until 20th December, from 10am–4pm, the market will feature six stalls",
+      "retrieved_at": "2026-10-14T11:52:18Z",
+      "source_kind": "directory",
+      "source_date": "2025-11-26"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/lgnl/business/markets/markets_in_tower_hamlets.aspx",
+      "quote": "Monday to Saturday, 8am to 6pm",
+      "retrieved_at": "2026-10-14T11:52:18Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://spitalfieldslife.com/2017/10/16/albert-turpins-bethnal-green/",
+      "quote": "There is the piece of ground where, for a hundred years, dogs of every sort and price are sold.",
+      "retrieved_at": "2026-10-14T11:52:18Z",
+      "source_kind": "press",
+      "source_date": "2017-10-16"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.towerhamlets.gov.uk/News_events/2025/November/New-Pop-Up-Market-Lands-in-Bethnal-Green-After-Successful-Crowdfunder.aspx",
+      "quote": "outside the historic E. Pellicci Café on Bethnal Green Road",
+      "retrieved_at": "2026-10-14T11:52:18Z",
+      "source_kind": "directory",
+      "source_date": "2025-11-26"
     }
   ],
-  "profiled_at": "2026-10-13T14:17:34Z",
+  "profiled_at": "2026-10-14T11:52:18Z",
   "review": {
-    "checked_at": "2026-10-13T14:20:42Z",
+    "checked_at": "2026-10-14T11:55:58Z",
     "removed_fields": []
   },
   "needs_review": null,
@@ -69,6 +139,31 @@
       "at": "2026-10-13T14:20:42Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T11:52:18Z",
+      "by": "venue-storyteller",
+      "change": "added story (then, now, worth knowing) from the council and a Spitalfields Life memoir extract"
+    },
+    {
+      "at": "2026-10-14T11:55:58Z",
+      "by": "venue-checker",
+      "change": "cut from story.then the covered-market sentence, 'written in the 1940s by a former mayor' and 'for local makers' (not in quotes); cut dog-ground worth_knowing item"
     }
-  ]
+  ],
+  "story": {
+    "then": "A memoir published in 2017 describes the road's stalls lining nearly one side of the street, with repeated attempts to end the street and Sunday markets failing. In late 2025 a Saturday market with six stalls was scheduled outside E. Pellicci's, running until 20 December.",
+    "now": "The council lists the market as trading Monday to Saturday, 8am to 6pm, on Bethnal Green Road.",
+    "worth_knowing": [
+      "The 2025 pop-up stalls stood outside E. Pellicci Café, which the council calls historic."
+    ],
+    "written_at": "2026-10-14T11:52:18Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "No opening date, vibe or website found. Tower Hamlets Slice was refused. Try Historic England, local history societies, the EETG, and Londonist for market origins and the current stalls."
+  }
 }

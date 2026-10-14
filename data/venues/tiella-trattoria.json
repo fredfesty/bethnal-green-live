@@ -60,9 +60,151 @@
       "quote": "A Trattoria & Bar at 109 Columbia Road, London.",
       "retrieved_at": "2026-10-13T00:24:00Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.hot-dinners.com/2025101414560/Gastroblog/Latest-news/tiella-trattoria-opening-on-columbia-road-london",
+      "quote": "When does it open? 16 January. Soft launch 16-18 January, full launch 21 January 2026",
+      "retrieved_at": "2026-10-14T11:52:37Z",
+      "source_kind": "press",
+      "source_date": "2026-01-12"
+    },
+    {
+      "fields": [
+        "story.opened",
+        "story.then"
+      ],
+      "url": "https://www.timeout.com/london/news/the-old-school-trattoria-by-one-of-the-citys-hottest-chefs-that-is-officially-londons-best-new-restaurant-020326",
+      "quote": "Tiella can be found inside a revamped 175-year old pub, once The Globe, at 109 Columbia Road",
+      "retrieved_at": "2026-10-14T11:52:37Z",
+      "source_kind": "press",
+      "source_date": "2026-02-03"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/tiella",
+      "quote": "that was once known as The Globe, and, as elder millennials may remember, Stringray Cafe",
+      "retrieved_at": "2026-10-14T11:52:37Z",
+      "source_kind": "press",
+      "source_date": "2026-02-02"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.timeout.com/london/news/the-old-school-trattoria-by-one-of-the-citys-hottest-chefs-that-is-officially-londons-best-new-restaurant-020326",
+      "quote": "Tiella began life as a kitchen residency at The Compton Arms in Islington",
+      "retrieved_at": "2026-10-14T11:52:37Z",
+      "source_kind": "press",
+      "source_date": "2026-02-03"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.hot-dinners.com/2025101414560/Gastroblog/Latest-news/tiella-trattoria-opening-on-columbia-road-london",
+      "quote": "owner chef Dara Klein has teamed up with one of her childhood friends, Ry Jessup",
+      "retrieved_at": "2026-10-14T11:52:37Z",
+      "source_kind": "press",
+      "source_date": "2026-01-12"
+    },
+    {
+      "fields": [
+        "story.then",
+        "story.worth_knowing"
+      ],
+      "url": "https://www.timeout.com/london/news/the-old-school-trattoria-by-one-of-the-citys-hottest-chefs-that-is-officially-londons-best-new-restaurant-020326",
+      "quote": "has shot straight to the top of our ranking of the finest new places to eat in the capital",
+      "retrieved_at": "2026-10-14T11:52:37Z",
+      "source_kind": "press",
+      "source_date": "2026-02-03"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.timeout.com/london/news/the-old-school-trattoria-by-one-of-the-citys-hottest-chefs-that-is-officially-londons-best-new-restaurant-020326",
+      "quote": "It’s open Wednesday-Sundays.",
+      "retrieved_at": "2026-10-14T11:52:37Z",
+      "source_kind": "press",
+      "source_date": "2026-02-03"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/tiella",
+      "quote": "The bar area is always reserved for walk-ins.",
+      "retrieved_at": "2026-10-14T11:52:37Z",
+      "source_kind": "press",
+      "source_date": "2026-02-02"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.timeout.com/london/news/the-old-school-trattoria-by-one-of-the-citys-hottest-chefs-that-is-officially-londons-best-new-restaurant-020326",
+      "quote": "such as chicken Milanese, Venetian anchovies in saor, and passatelli in brodo",
+      "retrieved_at": "2026-10-14T11:52:37Z",
+      "source_kind": "press",
+      "source_date": "2026-02-03"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.hot-dinners.com/2025101414560/Gastroblog/Latest-news/tiella-trattoria-opening-on-columbia-road-london",
+      "quote": "there are also beers on tap (including Guinness)",
+      "retrieved_at": "2026-10-14T11:52:37Z",
+      "source_kind": "press",
+      "source_date": "2026-01-12"
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/tiella",
+      "quote": "It still feels pubby, with a handpainted Tiella sign, 1930s-styled stained glass windows, mahogany wood-pannelling and, inexplicably, a giant portrait of Cher above the bar.",
+      "retrieved_at": "2026-10-14T11:52:37Z",
+      "source_kind": "press",
+      "source_date": "2026-02-02"
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/tiella",
+      "quote": "A homely pub tarted up with 1960s vintage decor and cosy candles.",
+      "retrieved_at": "2026-10-14T11:52:37Z",
+      "source_kind": "press",
+      "source_date": "2026-02-02"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.countryandtownhouse.com/food-and-drink/interview-dara-klein-chef/",
+      "quote": "I grew up in my family’s deli, later a restaurant, in Wellington, New Zealand, called Maria Pia’s.",
+      "retrieved_at": "2026-10-14T11:52:37Z",
+      "source_kind": "press",
+      "source_date": "2026-04-01"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.timeout.com/london/restaurants/tiella",
+      "quote": "inexplicably, a giant portrait of Cher above the bar",
+      "retrieved_at": "2026-10-14T11:52:37Z",
+      "source_kind": "press",
+      "source_date": "2026-02-02"
     }
   ],
-  "profiled_at": "2026-10-13T00:46:55Z",
+  "profiled_at": "2026-10-14T11:52:37Z",
   "history": [
     {
       "at": "2026-10-13T00:46:55Z",
@@ -73,10 +215,39 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T11:52:37Z",
+      "by": "venue-storyteller",
+      "change": "added story (opened, then, now, vibe, worth knowing) from Time Out, Hot Dinners and Country & Town House"
+    },
+    {
+      "at": "2026-10-14T11:55:58Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T11:55:58Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "January 2026, in a former pub: soft launch 16 to 18 January, full launch 21 January.",
+    "then": "The building is a roughly 175-year-old pub that was once The Globe and later a cafe. Chef Dara Klein first ran Tiella as a residency in the kitchen of the Compton Arms in Islington, then took this site in partnership with a childhood friend, Ry Jessup. Within weeks of opening, Time Out put it top of its list of the best new restaurants in London.",
+    "now": "Open Wednesday to Sunday (as of February 2026). The menu is regional Italian: chicken Milanese, Venetian anchovies, and passatelli in broth were on it. The bar area is kept for walk-ins, with beer on tap including Guinness.",
+    "vibe": "Still pubby after its refit: a handpainted sign, 1930s-style stained glass, mahogany panelling and, oddly, an enormous Cher portrait over the bar. Time Out called it a homely pub with 1960s vintage touches and candles.",
+    "worth_knowing": [
+      "Dara Klein grew up working in her family's restaurant, Maria Pia's, in Wellington, New Zealand.",
+      "Time Out ranked Tiella number one in its list of London's best new restaurants in February 2026.",
+      "A giant portrait of Cher hangs above the bar."
+    ],
+    "written_at": "2026-10-14T11:52:37Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Found opening dates, history, menu and decor from Time Out, Hot Dinners and Country & Town House. No own-site about page (tiella.co.uk is a thin page). Could try again for a later review, programme or events news, and for any accessibility details."
   }
 }

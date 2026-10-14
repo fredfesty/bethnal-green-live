@@ -5,7 +5,7 @@
   "address": "27 Old Nichol Street, London",
   "postcode": "E2 7HR",
   "website": "https://www.katemacgarry.com",
-  "summary": "A contemporary art gallery at 27 Old Nichol Street, founded in 2002 and representing about 25 emerging and established artists.",
+  "summary": "A contemporary art gallery at 27 Old Nichol Street, founded in 2002 and representing more than 25 emerging and established artists.",
   "music": {
     "styles": []
   },
@@ -62,9 +62,89 @@
       "quote": "London E2 7HR",
       "retrieved_at": "2026-10-13T00:11:00Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.katemacgarry.com/contact/",
+      "quote": "Founded in 2002, Kate MacGarry has expanded to represent over 25 emerging and established artists, including two estates.",
+      "retrieved_at": "2026-10-14T11:52:12Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.katemacgarry.com/contact/",
+      "quote": "The gallery is in East London at 27 Old Nichol Street, a space designed by British architect Tony Fretton.",
+      "retrieved_at": "2026-10-14T11:52:12Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://thewickculture.com/interview-gallerist-kate-macgarry/",
+      "quote": "Kate MacGarry founded her eponymous gallery in east London in 2002",
+      "retrieved_at": "2026-10-14T11:52:12Z",
+      "source_kind": "press",
+      "source_date": "2023-12-11"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.katemacgarry.com/contact/",
+      "quote": "Open Tuesday - Saturday",
+      "retrieved_at": "2026-10-14T11:52:12Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.katemacgarry.com/exhibitions/",
+      "quote": "2 October - 14 November 2026",
+      "retrieved_at": "2026-10-14T11:52:12Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.katemacgarry.com/contact/",
+      "quote": "a space designed by British architect Tony Fretton",
+      "retrieved_at": "2026-10-14T11:52:12Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.katemacgarry.com/contact/",
+      "quote": "Kate MacGarry is a founding and active member of the Gallery Climate Coalition. Formed in 2020, it aims to promote and facilitate the environmental sustainability",
+      "retrieved_at": "2026-10-14T11:52:12Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.katemacgarry.com/contact/",
+      "quote": "including MoMA, Tate, MCA Chicago, Prada Foundation, The Walker, Barbican",
+      "retrieved_at": "2026-10-14T11:52:12Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:41:11Z",
+  "profiled_at": "2026-10-14T11:52:12Z",
   "history": [
     {
       "at": "2026-10-13T00:41:11Z",
@@ -75,10 +155,38 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T11:52:12Z",
+      "by": "venue-storyteller",
+      "change": "added story: opened, then, now, worth knowing"
+    },
+    {
+      "at": "2026-10-14T11:55:58Z",
+      "by": "venue-checker",
+      "change": "summary 'about 25' -> 'more than 25'; story: cut unquoted Piffaretti name, 'building', 'cutting emissions'"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T11:55:58Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "2002, when Kate MacGarry founded the gallery in east London.",
+    "then": "The gallery has grown to represent more than 25 artists, including two estates. It works from 27 Old Nichol Street, in a space designed by the architect Tony Fretton.",
+    "now": "Open Tuesday to Saturday, with an exhibition running from 2 October to 14 November 2026.",
+    "worth_knowing": [
+      "The Old Nichol Street space was designed by the British architect Tony Fretton.",
+      "The gallery's artists have shown at institutions including MoMA, Tate, the Barbican and the Walker.",
+      "The gallery helped found the Gallery Climate Coalition (set up in 2020 to promote environmental sustainability) and is still an active member."
+    ],
+    "written_at": "2026-10-14T11:52:12Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Only the gallery's contact page, exhibitions page and a 2023 Wick interview were quotable. Nothing found on the move to Old Nichol Street, earlier premises, or what the room is like inside. Wikipedia and Frieze blocked/rate-limited; Ocula 403. Try Time Out, Guardian, Tony Fretton architect pages next week."
   }
 }
