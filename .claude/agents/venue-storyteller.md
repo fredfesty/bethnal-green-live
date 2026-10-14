@@ -34,6 +34,8 @@ Each part is optional; fill only what you can back. All in **our own words** (se
 - `worth_knowing` (up to 5, 10 to 240 characters each): facts a visitor would enjoy, e.g. a famous gig, a listed building, a film shot there.
 - `written_at`: now (`date -u +%Y-%m-%dT%H:%M:%SZ`).
 
+**Credit your sources.** Whenever a sentence comes from a site other than the venue's own (a newspaper, magazine, guide, listings or heritage site), name that site in the sentence, written the way the site writes its own name ("says Time Out", "according to a 2005 Londonist report"). The website turns each name into a link to the page in that part's evidence, so readers can click through and read it there; a name it can't match to a page in the evidence stays plain text. A sentence from the venue's own site may say "the venue's own website", which links to its own page the same way. Never name a site you didn't read the fact on.
+
 **Evidence.** For every part, add evidence items to the profile's `evidence` with `fields` naming it (`story.opened`, `story.then`, `story.now`, `story.vibe`, `story.worth_knowing`), each a contiguous quote of 10 to 300 characters copied exactly, with `url`, `retrieved_at`, `source_kind` and **`source_date`** (the page's date, or null if it shows none). Every clause of what you write must be backed by a quote naming that part. Don't repeat what the summary already says; add to it.
 
 If the profile already has a `story` (a retry), keep what is there and add or correct only from new evidence.
