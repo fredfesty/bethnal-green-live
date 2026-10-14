@@ -237,3 +237,53 @@ def test_a_ledger_that_cannot_be_locked_refuses(monkeypatch):
         raise OSError("locked by another reader")
     monkeypatch.setattr(budget, "_locked", broken)
     assert "ledger is unavailable" in read("arts", "https://example.org/")
+
+
+# ------------------------------------------------------------- storytellers, counted as teams
+
+def test_storytellers_are_named_per_event_or_venue():
+    assert read("event-storyteller/2026-10-16-sebright-arms-cowz", "https://example.org/a") is None
+    assert read("venue-storyteller/oxford-house", "https://example.org/b") is None
+    for bad in ("event-storyteller", "event-storyteller/", "event-storyteller/Bad Id", "story-teller/x"):
+        with pytest.raises(ValueError):
+            read(bad, "https://example.org/")
+
+
+def test_storytellers_share_twenty_pages_per_website_as_a_team():
+    for n in range(10):  # ten storytellers, two Time Out pages each
+        for i in range(2):
+            assert read(f"event-storyteller/event-{n}", f"https://www.timeout.com/{n}/{i}") is None
+    assert "the event-storytellers have read 20" in read("event-storyteller/event-10", "https://www.timeout.com/x")
+    # the Sunday venue storytellers are a different team
+    assert read("venue-storyteller/oxford-house", "https://www.timeout.com/x") is None
+
+
+def test_one_storyteller_cannot_take_the_whole_team_allowance():
+    for i in range(12):
+        assert read("event-storyteller/a", f"https://dice.fm/event/{i}") is None
+    assert "its 12 pages on dice.fm" in read("event-storyteller/a", "https://dice.fm/event/12")
+    assert read("event-storyteller/b", "https://dice.fm/event/b") is None
+
+
+@pytest.mark.parametrize("who, pages, searches", [("event-storyteller/e1", 25, 5), ("venue-storyteller/v1", 30, 8)])
+def test_each_storyteller_has_its_own_caps(who, pages, searches, capsys):
+    for i in range(pages):
+        assert read(who, f"https://site{i % 3}.example/{i}") is None
+    assert f"limit is {pages}" in read(who, "https://fresh.example/")
+    for i in range(searches):
+        assert budget.main(["search", "--as", who, f"query {i}"]) == 0
+    assert budget.main(["search", "--as", who, "one more"]) == 2
+    assert f"REFUSED {searches} of {searches}" in capsys.readouterr().out
+
+
+def test_storytellers_reuse_each_others_pages(monkeypatch):
+    calls = []
+    real = check_quote._opener.open
+    monkeypatch.setattr(check_quote._opener, "open", lambda req, timeout=None: (calls.append(1), real(req, timeout=timeout))[1])
+    page = (FIX / "event_page.html").as_uri()
+    check_quote.use_budget("event-storyteller/a", DATE)
+    check_quote.fetch(page)
+    check_quote._pages.clear()
+    check_quote.use_budget("event-storyteller/b", DATE)
+    assert check_quote.fetch(page)["text"]
+    assert len(calls) == 1

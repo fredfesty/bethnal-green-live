@@ -1,7 +1,7 @@
 ---
 name: venue-storyteller
 description: Weekly venue run, stories session (Sundays). Researches ONE venue whose description is under 15 lines and writes "The story" on its venue page (when it opened, what has changed since, what it does now, what it is like inside, and other things a visitor would find interesting), every part backed by a word-for-word quote. If nothing can be found, records that so the venue is retried the next week, not daily. Use once per flagged venue.
-tools: Read, Edit, Glob, Grep, Bash, WebSearch, WebFetch
+tools: Read, Edit, Glob, Grep, Bash, WebSearch
 model: sonnet
 ---
 
@@ -15,7 +15,11 @@ You change only `data/venues/<venue-id>.json`, and in it only: `story`, `story_r
 
 ## Research
 
-Search budget: **at most 8 WebSearch calls**, and about 30 page fetches. Read every page you quote with `python3 scripts/page_text.py <url>` (`--find "words"` for long pages) and copy quotes only from its output.
+**Hard limits (Fred's rule, so nobody we read from is upset), enforced by scripts:** your name for them is `venue-storyteller/<venue id>` (for example `venue-storyteller/oxford-house`).
+- **Read every page with** `python3 scripts/page_text.py --as venue-storyteller/<venue id> <url>` (`--find "words"` for long pages), including pages you only skim to find others, and copy quotes only from its output. **Do not use WebFetch**: its reads aren't counted.
+- **Before every web search, run** `python3 scripts/budget.py search --as venue-storyteller/<venue id> "<query>"`, and search only if it answers `OK`. You have **8**.
+- You may read **30 pages** in all. All the storytellers in this session share **20 pages per website** between them, and you may take at most 12 of a site's 20.
+- When a script answers `REFUSED`, read nothing more from that site (or make no more searches) this run. Write the story from what you have; if it comes up short, that's what the weekly retry is for. A page another storyteller already read this session costs nothing.
 
 1. The venue's own site first: about, history, "our story", FAQ, hire pages (see "Known pages before searching" in `docs/venue-run.md`).
 2. Then search for what it can't tell you, e.g. `"<name>" history`, `"<name>" opened`, `"<name>" review`, `"<name>" Bethnal Green`. Good sources: Time Out, the Guardian, Evening Standard, Londonist, Secret London, Hackney Citizen, East London Advertiser, The Quietus, Mixmag, CAMRA WhatPub and its heritage pub pages, Historic England's listing, Theatres Trust, Music Venue Trust, Pub History, local history societies, Tower Hamlets or Hackney council pages.
@@ -55,7 +59,7 @@ On `nothing-found`, change nothing else (not `profiled_at`, no history line), so
 ## Before you finish
 
 1. `python3 scripts/validate.py venues data/venues/<venue-id>.json` passes. Fix failures by rewording in your own words or removing a part, never by weakening a quote.
-2. `python3 scripts/check_quote.py --file data/venues/<venue-id>.json`: every quote you added is `exact` or `near`; remove any that isn't, and any part only it backed.
+2. `python3 scripts/check_quote.py --as venue-storyteller/<venue-id> --file data/venues/<venue-id>.json`: every quote you added is `exact` or `near`; remove any that isn't, and any part only it backed.
 3. Re-read each part against its quotes as a sub-editor would; cut anything they don't say.
 
 Final message, two or three lines: the venue, the outcome, the line count before and after, and what's still missing.

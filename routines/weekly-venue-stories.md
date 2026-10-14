@@ -24,7 +24,7 @@ GitHub (.github/workflows/weekly-venue-stories-pr.yml): re-run checks ──► 
 | Weekly cap | 12 venues (`--max`). Never-tried venues first (core, then fringe, then outer, shortest first), then retries, oldest first |
 | Retries | A venue still short after a try waits 7 days (`story_research.next_check`), so it comes back the next Sunday; the checks refuse any other gap |
 | Models | Storytellers and the checker on Sonnet; the main session only coordinates |
-| Search budget | 8 WebSearch calls per storyteller, 96 at most, this session's own |
+| Search budget | 8 WebSearch calls and 30 pages per storyteller, and 20 pages per website for all of them together; `scripts/budget.py` enforces these |
 | Auto-merge | Same repository variable as the other runs: `AUTO_MERGE` = `true` |
 
 ## Prompt (what the scheduled task runs)
@@ -50,7 +50,9 @@ Setup
 
 Research (one agent per venue)
 4. In one message, start one venue-storyteller subagent (.claude/agents/venue-storyteller.md) for each row of
-   "research", all together. Give each the run date and its own row copied exactly from the todo output.
+   "research", all together. Give each the run date and its own row copied exactly from the todo output,
+   and its hard limits, enforced through --as venue-storyteller/<its venue id>: 30 pages in all, 8 web
+   searches, and 20 pages per website shared by all the storytellers; never WebFetch.
    Each changes only its own data/venues/<venue-id>.json. If one fails, carry on and say so in the report.
 
 Check
