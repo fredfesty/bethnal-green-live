@@ -6,6 +6,7 @@ import { kindLabel } from "../../lib/labels";
 import { byDate } from "../../lib/data";
 import { weekday, dayMonth, dayMonthShort, londonDate } from "../../lib/time";
 import { rel } from "../../lib/rel";
+import { linkSources, type Segment } from "../../lib/storylinks";
 import config from "../../site.config.mjs";
 
 export function getStaticPaths() {
@@ -18,6 +19,8 @@ const p = v.profile;
 const access = p ? accessLines(p) : [];
 const st = p?.story;
 const story = st && (st.opened || st.then || st.now || st.vibe || (st.worth_knowing?.length ?? 0) > 0) ? st : null;
+// Story text with the sites it names linked to the pages the facts came from.
+const sl = (part: string, text: string): Segment[] => linkSources(text, part, p?.evidence ?? []);
 const days = byDate(v.events);
 // What we've listed here before: a count per kind of night, and the most recent few.
 const pastKinds = Object.entries(v.past.reduce((m: Record<string, number>, e) => {
@@ -122,12 +125,12 @@ const fixHref = !mail ? null : mail.includes("@")
     {story && (
       <section class="vn__story" aria-labelledby="story-head">
         <h2 id="story-head">The story</h2>
-        {story.opened && <p class="vn__opened"><strong>Opened:</strong> {story.opened}</p>}
-        {story.then && <p>{story.then}</p>}
-        {story.now && <><h3>Now</h3><p>{story.now}</p></>}
-        {story.vibe && <><h3>Inside</h3><p>{story.vibe}</p></>}
+        {story.opened && <p class="vn__opened"><strong>Opened:</strong> {sl("opened", story.opened).map((s) => s.href ? <a href={s.href} rel="noopener">{s.text}</a> : s.text)}</p>}
+        {story.then && <p>{sl("then", story.then).map((s) => s.href ? <a href={s.href} rel="noopener">{s.text}</a> : s.text)}</p>}
+        {story.now && <><h3>Now</h3><p>{sl("now", story.now).map((s) => s.href ? <a href={s.href} rel="noopener">{s.text}</a> : s.text)}</p></>}
+        {story.vibe && <><h3>Inside</h3><p>{sl("vibe", story.vibe).map((s) => s.href ? <a href={s.href} rel="noopener">{s.text}</a> : s.text)}</p></>}
         {(story.worth_knowing?.length ?? 0) > 0 && (
-          <><h3>Worth knowing</h3><ul class="vn__worth">{story.worth_knowing!.map((w) => <li>{w}</li>)}</ul></>
+          <><h3>Worth knowing</h3><ul class="vn__worth">{story.worth_knowing!.map((w) => <li>{sl("worth_knowing", w).map((s) => s.href ? <a href={s.href} rel="noopener">{s.text}</a> : s.text)}</li>)}</ul></>
         )}
       </section>
     )}
