@@ -24,7 +24,7 @@ ALWAYS_FORBIDDEN = {"ra.co", "residentadvisor.net", "instagram.com", "facebook.c
 
 
 def domain_of(url: str) -> str:
-    host = (urllib.parse.urlsplit(url).hostname or "").lower()
+    host = (urllib.parse.urlsplit(url).hostname or "").lower().rstrip(".")  # "ra.co." is ra.co
     return host[4:] if host.startswith("www.") else host
 
 
@@ -59,11 +59,16 @@ def is_discovery_only(url: str) -> bool:
 
 
 def _same_page_or_below(url: str, prefix: str) -> bool:
-    def norm(u: str) -> str:
+    def segments(u: str) -> list[str] | None:
         parts = urllib.parse.urlsplit(u)
-        return domain_of(u) + parts.path.rstrip("/")
-    u, p = norm(url), norm(prefix)
-    return u == p or u.startswith(p + "/")
+        if parts.scheme != "https" or parts.port not in (None, 443) or parts.username or parts.password:
+            return None
+        segs = [s for s in urllib.parse.unquote(parts.path).split("/") if s]
+        if any(s in (".", "..") or "/" in s or "\\" in s for s in segs):
+            return None
+        return [domain_of(u)] + segs
+    u, p = segments(url), segments(prefix)
+    return u is not None and p is not None and u[:len(p)] == p
 
 
 @lru_cache(maxsize=1)
@@ -74,7 +79,8 @@ def _approved_primary() -> tuple[tuple[str, str], ...]:
         reg = json.loads(p.read_text(encoding="utf-8-sig"))
         for v in reg.get("venues", []):
             for listing in v.get("listings", []):
-                if listing.get("role") == "primary" and listing.get("approved") and listing.get("url") \
+                ok = listing.get("approved") or {}
+                if listing.get("role") == "primary" and ok.get("by") and ok.get("on") and listing.get("url") \
                         and is_discovery_only(listing["url"]):
                     out.append((v["id"], listing["url"]))
     return tuple(out)

@@ -35,8 +35,9 @@
       "properties": {
         "name": {
           "type": "string",
+          "description": "The scout's name: nights-clubs, nights-gigs, arts, food-drink, community or health-wellness.",
           "examples": [
-            "nights-music"
+            "nights-clubs"
           ]
         },
         "run_id": {

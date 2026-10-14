@@ -34,10 +34,9 @@ def main(argv=None) -> int:
     ap.add_argument("--find", help="show only lines containing all these words (case-insensitive), with 2 lines of context")
     ap.add_argument("--max-chars", type=int, default=30000)
     ap.add_argument("--as", dest="agent", default=None, help="your scout name, e.g. nights-clubs (counts the page against your budget)")
-    ap.add_argument("--run-date", default=None, help="with --as: the run date (default: today in London)")
     args = ap.parse_args(argv)
     try:
-        cq.use_budget(args.agent, args.run_date)
+        cq.use_budget(args.agent)
     except ValueError as e:
         print(f"REFUSED {e}")
         return 2

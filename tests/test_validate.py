@@ -657,6 +657,11 @@ def test_approved_aggregator_page_counts_as_primary_for_its_venue_only():
     assert has(validate.check_sources(_on("bgwmc", DMN_BACKYARD)), "is an aggregator")
     # a look-alike path that merely starts with the same letters is not under the approved page
     assert has(validate.check_sources(_on("backyard-comedy-club", DMN_BACKYARD + "-copycat")), "is an aggregator")
+    # path tricks that climb out of the approved page, other ports and plain http don't count
+    for trick in ("/../three-colts-tavern", "/%2e%2e/three-colts-tavern", "/x/..%2f..%2fother"):
+        assert has(validate.check_sources(_on("backyard-comedy-club", DMN_BACKYARD + trick)), "is an aggregator")
+    for other in (DMN_BACKYARD.replace("https:", "http:"), DMN_BACKYARD.replace(".com/", ".com:8443/")):
+        assert has(validate.check_sources(_on("backyard-comedy-club", other)), "is an aggregator")
 
 
 def test_backyard_show_on_its_approved_listing_can_publish(validators, repo):

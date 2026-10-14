@@ -12,6 +12,8 @@ Usage
   python scripts/check_quote.py --as nights-clubs --file ...   (a scout's self-check: pages it already read
                                                                 this run come from the run's cache, new ones
                                                                 count against its budget; see scripts/budget.py)
+  python scripts/check_quote.py --as verifier --file ...       (the verifier: always the live page, every
+                                                                page counted against its own hard limits)
 
 Works on any JSON file with an 'evidence' list (candidates and events). With --story, it checks an event's
 story.evidence instead (the event story checker); 'index' is then the position in story.evidence.
@@ -206,10 +208,14 @@ _per_domain: dict[str, int] = {}
 _slowed: set[str] = set()
 _pages: dict[str, dict] = {}
 MAX_PER_DOMAIN = 20
-# Set by --as: the agent whose run budget pays for each page (scripts/budget.py). None for the verifier,
-# which never uses the run's page cache.
+# Set by --as: the agent whose run budget pays for each page (scripts/budget.py). The run's page cache is
+# used only by scouts, never by the verifier (budget.NO_CACHE), which must always see the live page.
 BUDGET_AGENT: str | None = None
 BUDGET_DATE: str | None = None
+
+
+def _use_cache() -> bool:
+    return bool(BUDGET_AGENT) and BUDGET_AGENT not in budget.NO_CACHE
 
 
 def robots_verdict(url: str) -> str | None:
@@ -218,7 +224,7 @@ def robots_verdict(url: str) -> str | None:
     if parts.scheme not in ("http", "https"):
         return None
     base = f"{parts.scheme}://{parts.netloc}"
-    if base not in _robots and BUDGET_AGENT:  # read robots.txt once per run, not once per page
+    if base not in _robots and _use_cache():  # read robots.txt once per run, not once per page
         cached = budget.cache_get("robots", base, BUDGET_DATE)
         if cached is not None:
             if "lines" in cached:
@@ -241,7 +247,8 @@ def robots_verdict(url: str) -> str | None:
             remember = {"state": _robots[base]}
         except Exception as e:
             _robots[base] = f"robots.txt unreachable ({type(e).__name__})"
-        if BUDGET_AGENT and remember:
+            remember = {"state": _robots[base]}
+        if _use_cache() and remember:
             budget.cache_put("robots", base, remember, BUDGET_DATE)
     rp = _robots[base]
     if rp == "allow-all":
@@ -263,6 +270,10 @@ class _PoliteRedirects(urllib.request.HTTPRedirectHandler):
         reason = robots_verdict(newurl)
         if reason:
             raise urllib.error.URLError(f"redirect refused, {reason}: {newurl}")
+        if BUDGET_AGENT and budget.site_of(newurl) != budget.site_of(req.full_url):
+            reason = budget.charge_page(BUDGET_AGENT, newurl, BUDGET_DATE)  # another website pays for its page
+            if reason:
+                raise urllib.error.URLError(f"redirect refused, {reason}: {newurl}")
         return super().redirect_request(req, fp, code, msg, headers, newurl)
 
 
@@ -273,7 +284,7 @@ def fetch(url: str) -> dict:
     """{'status', 'text', 'final_url', 'error', 'result'?}. Cached per process."""
     if url in _pages:
         return _pages[url]
-    if BUDGET_AGENT:  # already read in this run (by this or another scout): no new request to the site
+    if _use_cache():  # already read in this run (by this or another scout): no new request to the site
         cached = budget.cache_get("pages", url, BUDGET_DATE)
         if cached is not None:
             _pages[url] = cached
@@ -298,6 +309,8 @@ def fetch(url: str) -> dict:
     except urllib.error.HTTPError as e:
         if e.code in (403, 429):
             _slowed.add(host)
+            if BUDGET_AGENT:  # remembered for the whole run, not just this command
+                budget.mark_slowed(BUDGET_AGENT, url, e.code, BUDGET_DATE)
         out = {"status": e.code, "text": None, "final_url": None, "error": f"HTTP {e.code}"}
     except urllib.error.URLError as e:
         reason = str(getattr(e, "reason", e))
@@ -306,14 +319,14 @@ def fetch(url: str) -> dict:
     except Exception as e:  # timeouts, DNS, TLS, proxy refusals, missing local files
         out = {"status": None, "text": None, "final_url": None, "error": f"{type(e).__name__}: {e}"}
     _pages[url] = out
-    if BUDGET_AGENT and out.get("text") is not None:
+    if _use_cache() and out.get("text") is not None:
         budget.cache_put("pages", url, out, BUDGET_DATE)
     return out
 
 
 def budget_refusal(url: str) -> str | None:
     """Under --as: why reading this page now would break a hard limit (None if it's fine or already cached)."""
-    if not BUDGET_AGENT or url in _pages or budget.cache_get("pages", url, BUDGET_DATE) is not None:
+    if not BUDGET_AGENT or url in _pages or (_use_cache() and budget.cache_get("pages", url, BUDGET_DATE) is not None):
         return None
     return budget.page_refusal(budget._ledger(BUDGET_DATE or budget.run_date()), BUDGET_AGENT, url)
 
@@ -427,12 +440,11 @@ def main(argv: list[str] | None = None) -> int:
                     help="with --file: check the quotes in story.evidence (an event's story) instead of evidence")
     ap.add_argument("--max-per-domain", type=int, default=20)
     ap.add_argument("--as", dest="agent", default=None,
-                    help="scouts: your scout name, so re-checks use this run's page cache and budget (never the verifier)")
-    ap.add_argument("--run-date", default=None, help="with --as: the run date (default: today in London)")
+                    help="your name (a scout's name, or verifier): every page counts against your run's hard limits")
     args = ap.parse_args(argv)
     globals()["MAX_PER_DOMAIN"] = args.max_per_domain
     try:
-        use_budget(args.agent, args.run_date)
+        use_budget(args.agent)
     except ValueError as e:
         ap.error(str(e))
 

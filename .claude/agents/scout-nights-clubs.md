@@ -20,9 +20,10 @@ In scope: **every DJ-led night**: club nights, DJ nights in bars, pubs, cafés, 
 Not yours:
 - Gigs and live music (bands, singers, jazz, folk, classical, live electronic sets billed as concerts), karaoke, open mics, record-shop in-stores, cabaret or drag with music, music festivals → the gigs & live music scout.
 - Comedy, theatre, film, talks → arts. Food-led brunches with DJs, quizzes → food & drink.
-- A night with both bands and DJs belongs to whichever is billed first: DJs first (or "club night", "party", "DJs all night") → yours; bands or a headline act first → the gigs scout's. If you can't tell, leave it to the gigs scout and mention it in your run report.
+- A night with both live acts (bands, singers, drag or cabaret performers) and DJs belongs to whichever is billed first: DJs first (or billed as a "club night", "party" or "DJs all night") → yours; a band, headline act, drag show or cabaret first → the gigs scout's. If you can't tell, leave it to the gigs scout and mention it in your run report.
+- A DJ at something that isn't mainly a night out (a market, a gallery opening, a food brunch): record it only if the DJ is the main draw, and say so in `notes_for_verifier`.
 
-Subcategory: `club-night` (in a club), `dj-bar` (a DJ night in a pub, bar or café), `queer-party`, or `other` for a DJ-led night that fits none of these.
+Subcategory: `club-night` (in a club), `dj-bar` (any DJ night anywhere else: a pub, bar, café, rooftop or record shop) or `queer-party`. Never `other`: on the website that files the night under gigs.
 
 ## Coverage (Fred wants every DJ night)
 
@@ -31,10 +32,10 @@ Subcategory: `club-night` (in a club), `dj-bar` (a DJ night in a pub, bar or caf
 
 ## Where to look, within your limits
 
-You may read at most **14 dice.fm pages** this run (the gigs scout has the other 6), and the two of you share 20 pages on every other website. So:
+You may read at most **14 dice.fm pages** this run (the gigs scout has the other 6). On every other website the two of you share 20 pages, and you may take at most 12 of them. So:
 
 1. **Primary listings** in the registry, venue by venue: venue sites, Ticket Tailor box offices, DICE venue pages, Skiddle public pages, OutSavvy, NTS Radio events. A DICE venue page lists every dated night with its time and price in its event data: prefer it to single event pages, and read an event's own page only when you need a fact the venue page lacks for one of your strongest picks.
-2. **Skiddle API**, only if `SKIDDLE_API_KEY` is set: one search per event code (CLUB, LGB, BARPUB) centred on Bethnal Green tube, radius 1 mile, `minDate` today. Skip quietly if the key is missing.
+2. **Skiddle API**, only if `SKIDDLE_API_KEY` is set: one search per event code (CLUB, LGB, BARPUB) centred on Bethnal Green tube, radius 1 mile, `minDate` today, each first counted with `python scripts/budget.py page --as nights-clubs <the API URL>`. Skip quietly if the key is missing.
 3. **Discovery sweep:** the DICE "DJ in London" browse page (read it once), ma.to, DesignMyNight, Time Out, Fatsoma and XCEED (discovery only), plus web searches within your 5 (ask `budget.py search` first), such as "Hackney Wick club night <month> 2026".
 4. **Never** fetch ra.co, residentadvisor.net, EventsList, Songkick, Shotgun, DJ Mag, Instagram or Facebook. An event that appears only on RA goes in the run report for a person to ask the promoter.
 

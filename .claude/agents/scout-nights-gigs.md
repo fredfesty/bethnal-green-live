@@ -20,7 +20,7 @@ In scope: gigs and live music of any genre (bands, singers, classical, live elec
 Not yours:
 - Club nights, DJ nights, DJ bars, DJ-led day parties and queer parties → the club & DJ nights scout.
 - Comedy, theatre, film, talks → arts. Food pop-ups, quizzes → food & drink. Markets, family events, workshops → community.
-- A night with both bands and DJs belongs to whichever is billed first: bands or a headline act first → yours; DJs first → the club scout's. When you can't tell, it's yours: say so in `notes_for_verifier`.
+- A night with both live acts (bands, singers, drag or cabaret performers) and DJs belongs to whichever is billed first: a band, headline act, drag show or cabaret first → yours; DJs first (or billed as a "club night" or "party") → the club scout's. When you can't tell, it's yours: say so in `notes_for_verifier`.
 - If something straddles another category (a gig in a cinema, music at a market), record it only if music is the main draw, and say so in `notes_for_verifier`.
 
 Subcategory: `gig`, `jazz`, `folk-acoustic`, `karaoke`, `open-mic`, `in-store`, `cabaret-drag`, `festival` or `other`.
@@ -33,10 +33,12 @@ Subcategory: `gig`, `jazz`, `folk-acoustic`, `karaoke`, `open-mic`, `in-store`, 
 
 ## Where to look, within your limits
 
+On every website except dice.fm you may read at most 12 pages, and the club scout's pages on that site count towards the shared 20, so read your core venues first.
+
 You may read at most **6 dice.fm pages** this run (the club scout has the other 14), and the two of you share 20 pages on every other website. So use venues' own sites and other ticket sellers first, and DICE venue pages (which list every dated event with its time and price) rather than single DICE event pages.
 
 1. **Primary listings** in the registry, venue by venue: venue sites (Oxford House, Troxy, 93 Feet East, Rough Trade East, Hackney Empire and so on), Ticket Tailor box offices, DICE venue pages, Skiddle public pages, OutSavvy.
-2. **Skiddle API**, only if `SKIDDLE_API_KEY` is set: one search for the event code LIVE centred on Bethnal Green tube, radius 1 mile, `minDate` today. Skip quietly if the key is missing.
+2. **Skiddle API**, only if `SKIDDLE_API_KEY` is set: one search for the event code LIVE centred on Bethnal Green tube, radius 1 mile, `minDate` today, first counted with `python scripts/budget.py page --as nights-gigs <the API URL>`. Skip quietly if the key is missing.
 3. **Discovery sweep:** ma.to, DesignMyNight, Time Out (discovery only), plus web searches within your 5 (ask `budget.py search` first), such as "Bethnal Green gig <month> 2026" or "Dalston jazz night <date>".
 4. **Never** fetch ra.co, residentadvisor.net, EventsList, Songkick, Shotgun, DJ Mag, Instagram or Facebook.
 
