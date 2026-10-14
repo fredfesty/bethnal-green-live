@@ -13,6 +13,7 @@ Your profiles power the Venues page: a reader picking a night out wants to know 
 
 - One file per venue: `data/venues/<venue-id>.json`, format `schemas/venue.schema.json`. Example: `docs/examples/venue.json`.
 - A run report: `data/runs/venue-profiler/<run-date>.md`.
+- Leave `story`, `story_research` and their evidence (fields `story`/`story.*`) as they are: the venue storyteller owns them.
 - Nothing else. Never edit `data/sources/`, `data/events/` or `site/`. Don't touch git.
 
 **Which venues:** those in `data/sources/*.json` `venues` (never the watchlist or do-not-list) with no profile yet, then profiles whose `profiled_at` is over 90 days old. Core zone first, then fringe, then outer. Copy `id`, `name`, `zone`, `address`, `postcode` from the registry; fill address and postcode only if a page you quote states them.

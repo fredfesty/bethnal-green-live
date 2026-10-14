@@ -17,6 +17,8 @@ export interface VenueProfile {
   accessibility: { step_free: boolean | null; accessible_toilet: boolean | null; hearing_loop?: boolean | null; notes?: string | null; access_page?: string | null };
   cost: { free_entry: "always" | "some-nights" | "no" | null; notes?: string | null };
   age_policy?: string | null; capacity?: number | null;
+  // The longer read under 'The story', written by the venue storyteller (story_research is internal and never shown).
+  story?: { opened?: string | null; then?: string | null; now?: string | null; vibe?: string | null; worth_knowing?: string[]; written_at: string } | null;
   types?: string[]; aliases?: string[]; status?: "open" | "closed" | "temporarily-closed" | "opening-soon";
   discovered?: { first_seen: string; found_by: string[] } | null;
   evidence: Evidence[];

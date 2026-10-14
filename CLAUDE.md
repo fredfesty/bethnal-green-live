@@ -24,6 +24,7 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 | Venue researchers: reviews, programme, facts (weekly, Haiku) | `.claude/agents/venue-researcher-*.md` | `data/venue-research/<date>/` |
 | Venue editor (weekly, Sonnet) | `.claude/agents/venue-editor.md` | `data/venues/`, `data/runs/venue-editor/` |
 | Venue checker (weekly, Sonnet) | `.claude/agents/venue-checker.md` | `review`, `needs_review` and `history` in `data/venues/` |
+| Venue storyteller (daily, Sonnet, one per short venue) | `.claude/agents/venue-storyteller.md` | `story`, `story_research`, its own `story.*` evidence, `profiled_at` and `history` in one `data/venues/<id>.json`; the main session writes `data/runs/venue-stories/` |
 | Venue profiler (one-off profiling by hand) | `.claude/agents/venue-profiler.md` | `data/venues/`, `data/runs/venue-profiler/` |
 | Listing writer (Sonnet) | `.claude/agents/listing-writer.md` | the `listing` block of `data/events/` files only, `data/runs/listing-writer/` |
 | Newsletter editor (Sonnet) | `.claude/agents/newsletter-editor.md` | `data/newsletter/issues/<issue-date>.json` (all but `intro`), `data/runs/newsletter/` |
@@ -40,11 +41,12 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 - `data/venues/<venue-id>.json` — venue profiles: what it's like, music, crowd, access, cost, each fact quoted. The site shows one only after an independent `review` newer than its `profiled_at`, and while `needs_review` is empty. Venues the weekly run finds live only here (not in `data/sources/`) and carry their own types, zone and location; scouts list events at them too.
 - `data/venue-leads/<date>/` and `data/venue-research/<date>/` — the weekly venue run's leads and research findings (`docs/venue-run.md`). `scripts/venue_triage.py` chooses what gets researched; `scripts/zone.py` places a postcode; `scripts/places_search.py` uses Google's Places API when `GOOGLE_MAPS_API_KEY` is set (never open Google Maps pages, never store Google's details).
 - `data/newsletter/issues/<issue-date>.json` — one weekly issue (the Thursday it goes out): which verified events, in which sections and layouts, with what words, and Fred's letter. It holds no event facts; they're read from `data/events/` when it's rendered. `scripts/newsletter.py` lists the week's events for the editor and renders an issue as email HTML or Markdown.
+- `story` in a venue profile — the longer read under "The story" on its page (opened, then, now, vibe, worth knowing), each part quoted. `scripts/venue_stories.py` flags venues whose description is under 15 lines and picks up to 10 a day for the storytellers; one that is still short after a try waits a week (`story_research.next_check`).
 - `listing` in an event file — the short description shown with it on the site, written by the listing writer from checked facts only (`scripts/listings.py todo` lists what it may use). The verifier empties it when a fact it mentions changes, and the listing writer re-reads any event that changed after its description was written.
 - `data/runs/<agent>/<date>.md` — each run's report for a person.
 - `data/inbox/tips/` — reader tips waiting to be checked.
 - `scripts/validate.py` — format and house-rule checks. `scripts/check_quote.py` — re-fetches a page and looks for a quote. `scripts/page_text.py` — prints a page's exact text for quoting (scouts read pages with this, never with a summarising reader).
-- `routines/` — the prompts and settings for the scheduled runs: `morning-run.md` (daily events), `weekly-venues.md` (Sundays, venues) and `weekly-newsletter.md` (Wednesdays, the newsletter).
+- `routines/` — the prompts and settings for the scheduled runs: `morning-run.md` (daily events), `daily-venue-stories.md` (daily, venue stories), `weekly-venues.md` (Sundays, venues) and `weekly-newsletter.md` (Wednesdays, the newsletter).
 - `site/` — the website (Astro). It reads `data/events/`, `data/sources/`, `data/venues/` and `data/newsletter/issues/` at build time; it never calls Claude or any AI service. `site/src/site.config.mjs` holds the settings a person decides (newsletter, corrections contact).
 - `_example` folders and `docs/examples/` — illustrative records, not real events.
 - A **run** (an exhibition, a theatre run, a special menu over several days) is one record: `starts_at` is the opening day, `ends_at` the closing day, `run_schedule` the opening times as printed.
@@ -74,6 +76,8 @@ python scripts/validate.py all
 python scripts/venue_triage.py <date>
 python scripts/zone.py "<postcode>"
 python scripts/listings.py todo --date <run-date>
+python scripts/venue_stories.py report
+python scripts/venue_stories.py todo --date <run-date> --max 10
 python scripts/newsletter.py week <issue-date>
 python scripts/newsletter.py render data/newsletter/issues/<issue-date>.json --format md
 python scripts/check_quote.py --file <files…>
