@@ -101,7 +101,7 @@ const here = Astro.url.pathname;
               <span class="day__rel">On for more than a day ({runs.length})</span>
             </h2>
             <details class="runs" id="runs">
-              <summary class="runs__summary"><span class="runs__label"></span><span class="runs__toggle" aria-hidden="true"></span></summary>
+              <summary class="runs__summary"><span class="runs__show">Show<span class="visually-hidden"> exhibitions & runs</span></span><span class="runs__hide">Hide<span class="visually-hidden"> exhibitions & runs</span></span><span class="runs__toggle" aria-hidden="true"></span></summary>
               <ul class="day__list">
                 {runs.map((e) => <EventRow e={e} />)}
               </ul>
@@ -291,27 +291,26 @@ const here = Astro.url.pathname;
 
   .results__count { margin: 0 0 0.5rem; color: var(--muted); font-size: 0.95rem; }
   .day { margin: 0 0 2.25rem; }
-  .day__head { display: flex; align-items: center; gap: 1rem; margin: 0.5rem 0 0.5rem 5px; font-size: 1.05rem; }
+  .day__head { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 1rem; margin: 0.5rem 0 0.5rem 5px; font-size: 1.05rem; }
   .plate--day { font-size: 1.15rem; }
   .day__rel { font-weight: 700; font-size: 0.95rem; color: var(--muted); }
   .day__rel--today { color: var(--red); }
   .day__list { list-style: none; margin: 0.75rem 0 0; padding: 0; }
   .day--runs .day__rel { font-weight: 500; }
   .runs__summary {
-    display: inline-flex; align-items: center; gap: 0.6rem; cursor: pointer; list-style: none; margin: 0.5rem 0 0 5px;
+    display: inline-flex; align-items: center; gap: 0.6rem; cursor: pointer; list-style: none; margin: 0.5rem 0 0 5px; min-height: 2.75rem;
     padding: 0.35rem 0.5rem 0.35rem 0.9rem; border: 1.5px solid #000; border-radius: 999px; background: #fff; font-weight: 700;
   }
   .runs__summary::-webkit-details-marker { display: none; }
   .runs__summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
-  .runs__label::before { content: "Show"; }
-  .runs[open] .runs__label::before { content: "Hide"; }
+  .runs[open] .runs__show, .runs:not([open]) .runs__hide { display: none; }
   .runs__toggle { flex: none; width: 1.4rem; height: 1.4rem; display: grid; place-items: center; }
   .runs__toggle::after {
     content: ""; width: 0.5rem; height: 0.5rem; border: solid currentColor; border-width: 0 2px 2px 0;
     transform: rotate(45deg) translateY(-2px);
   }
   .runs[open] .runs__toggle::after { transform: rotate(-135deg) translateY(-1px); }
-  .runs__summary:hover { background: var(--green); border-color: var(--green); color: #fff; }
+  @media (hover: hover) { .runs__summary:hover { background: var(--green); border-color: var(--green); color: #fff; } }
   .markets { max-width: 50rem; margin: 1rem 0 2.5rem; }
   .markets h2 { font-size: 1.5rem; font-variation-settings: "wdth" 80; font-weight: 750; }
   .markets p { margin: 0.4rem 0 0.8rem; color: var(--muted); }

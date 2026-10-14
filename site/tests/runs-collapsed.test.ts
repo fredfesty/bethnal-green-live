@@ -30,3 +30,10 @@ test("a search or filter opens the section only when matches first appear", () =
 test("clearing the filters folds the section away again", () => {
   assert.match(page, /form\.reset\(\); if \(runsBox\) runsBox\.open = false;/);
 });
+
+test("the toggle button has real, readable text for both states", () => {
+  const summary = page.match(/<summary class="runs__summary">[\s\S]*?<\/summary>/)![0];
+  const text = summary.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  assert.match(text, /Show exhibitions & runs/);
+  assert.match(text, /Hide exhibitions & runs/);
+});
