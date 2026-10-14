@@ -117,9 +117,179 @@
       "quote": "199 Cambridge Heath Road, Bethnal Green, E2 0EL",
       "retrieved_at": "2026-10-13T00:10:20Z",
       "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.timeout.com/london/news/a-50s-motel-inspired-craft-bar-and-kitchen-is-coming-to-east-london-053019",
+      "quote": "Fugitive Motel is all-day café-bar that’s opening this Friday (June 7)",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "press",
+      "source_date": "2019-05-30"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://beertoday.co.uk/2023/01/13/exale-three-colts-0123/",
+      "quote": "opening a neighbourhood pub, The Three Colts Tavern, in Bethnal Green",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "press",
+      "source_date": "2023-01-13"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.timeout.com/london/news/a-50s-motel-inspired-craft-bar-and-kitchen-is-coming-to-east-london-053019",
+      "quote": "Fugitive Motel is all-day café-bar that’s opening this Friday (June 7)",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "press",
+      "source_date": "2019-05-30"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://beertoday.co.uk/2023/01/13/exale-three-colts-0123/",
+      "quote": "Exale Brewing is opening a neighbourhood pub, The Three Colts Tavern, in Bethnal Green",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "press",
+      "source_date": "2023-01-13"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/story",
+      "quote": "Housed on the former site of the Three Colts pub, sadly demolished in 1902.",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/story",
+      "quote": "We love proper pubs and we hope to bring back a small glimmer of what once was to this new site.",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/story",
+      "quote": "We host weekly DJs, Quiz nights, Live music and more.",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/",
+      "quote": "We are open 7 days a week",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/",
+      "quote": "Short Road is the Italian-American mashup like you’ve never tasted before.",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/shuffleboard",
+      "quote": "Shuffleboard is £7.50 per hour Sunday to Thursday and £10 per hour Friday and Saturday.",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/",
+      "quote": "we offer the Glue Factory — our dedicated private party space",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://beertoday.co.uk/2023/01/13/exale-three-colts-0123/",
+      "quote": "The new site has plenty of natural lighting, exposed concrete, and mid-century carpentry, and comes with lots of outside seating.",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "press",
+      "source_date": "2023-01-13"
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/",
+      "quote": "A TRADITIONAL BOOZER IN A MODERN SETTING",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/faqs",
+      "quote": "Yes we love the floofs.",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/faqs",
+      "quote": "No, card only",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/faqs",
+      "quote": "Aside from the Glue factory private room which has 3 steps- due to the steep incline we are unable to offer a ramp",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.threecoltstavern.co.uk/",
+      "quote": "In our kitchen is Short Road Pizza- named number 1 pizza in london by time out!",
+      "retrieved_at": "2026-10-14T21:45:44Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:40:36Z",
+  "profiled_at": "2026-10-14T21:45:44Z",
   "history": [
     {
       "at": "2026-10-13T00:40:36Z",
@@ -130,10 +300,39 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T21:45:44Z",
+      "by": "venue-storyteller",
+      "change": "added story (opened, then, now, vibe, worth knowing) from the venue's site, Time Out and Beer Today"
+    },
+    {
+      "at": "2026-10-14T21:51:21Z",
+      "by": "venue-checker",
+      "change": "Cut: story.vibe cut 'laid-back'"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T21:51:21Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "June 2019, as the Fugitive Motel café-bar; it became the Three Colts Tavern under Exale Brewing in 2023.",
+    "then": "Time Out reported in May 2019 that the Fugitive Motel was due to open that June as an all-day café-bar. In January 2023 Beer Today reported that Walthamstow's Exale Brewing was opening a neighbourhood pub on the site, as the Three Colts Tavern. The venue's own website says the building stands where an earlier Three Colts pub was pulled down in 1902, and that the new pub hopes to bring back a little of what was lost.",
+    "now": "The venue's own website says the pub is open seven days a week with a kitchen run by Short Road Pizza, and hosts quizzes, DJs, live music and comedy. There is a shuffleboard table that can be booked by the hour, and the Glue Factory is its private party space.",
+    "vibe": "Beer Today described the building, ahead of its opening in 2023, as having plenty of natural light, exposed concrete and mid-century woodwork, with a lot of outdoor seating. The venue's own website pitches it as a traditional pub in a modern setting.",
+    "worth_knowing": [
+      "The venue's own website says dogs are welcome and that it takes card payments only.",
+      "Step-free access runs throughout, according to the venue's own website, apart from the Glue Factory party space, which is up three steps and has no ramp.",
+      "The venue's own website says its kitchen partner, Short Road Pizza, was named London's number one pizza by Time Out."
+    ],
+    "written_at": "2026-10-14T21:45:44Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Opened/then/now/vibe/worth_knowing written from the venue site, Time Out (2019) and Beer Today (2023). No post-2023 press review found; the vibe rests on a pre-opening description. Could try Time Out/Evening Standard reviews of the Three Colts."
   }
 }

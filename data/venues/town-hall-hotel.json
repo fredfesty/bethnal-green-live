@@ -91,9 +91,99 @@
       "quote": "Patriot Square, Bethnal Green, London, E2 9NF",
       "retrieved_at": "2026-10-13T00:24:00Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://travellingforbusiness.co.uk/destination-hotel-reviews/town-hall-hotel-bethnal-green-east-londons-grand-civic-landmark-reborn/",
+      "quote": "The building began life in 1910 as the Bethnal Green Town Hall, later expanded in the 1930s with an elegant art‐deco wing.",
+      "retrieved_at": "2026-10-14T21:46:34Z",
+      "source_kind": "press",
+      "source_date": "2026-01-22"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://travellingforbusiness.co.uk/destination-hotel-reviews/town-hall-hotel-bethnal-green-east-londons-grand-civic-landmark-reborn/",
+      "quote": "After decades of municipal use, it was restored and reimagined as a hotel in 2010.",
+      "retrieved_at": "2026-10-14T21:46:34Z",
+      "source_kind": "press",
+      "source_date": "2026-01-22"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://travellingforbusiness.co.uk/destination-hotel-reviews/town-hall-hotel-bethnal-green-east-londons-grand-civic-landmark-reborn/",
+      "quote": "later expanded in the 1930s with an elegant art‐deco wing",
+      "retrieved_at": "2026-10-14T21:46:34Z",
+      "source_kind": "press",
+      "source_date": "2026-01-22"
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://travellingforbusiness.co.uk/destination-hotel-reviews/town-hall-hotel-bethnal-green-east-londons-grand-civic-landmark-reborn/",
+      "quote": "Guests enter through a grand marble lobby, where original Edwardian features, polished stone, ornate plasterwork, and a sweeping staircase sit comfortably alongside contemporary art and modern furnishings.",
+      "retrieved_at": "2026-10-14T21:46:34Z",
+      "source_kind": "press",
+      "source_date": "2026-01-22"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.townhallhotel.com/facilities",
+      "quote": "Our luxurious 14 metre, heated swimming pool and newly-refurbished gym are open to guests every day.",
+      "retrieved_at": "2026-10-14T21:46:34Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.daterra.co.uk/",
+      "quote": "Chef Rafael Cagali is of Brazillian and Italian origins",
+      "retrieved_at": "2026-10-14T21:46:34Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.daterra.co.uk/",
+      "quote": "Please allow an average of three hours for the complete experience and two hours for the three-course lunch menu.",
+      "retrieved_at": "2026-10-14T21:46:34Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.townhallhotel.com/filming-production",
+      "quote": "including Lock, Stock and Two Smoking Barrels, Atonement, Brideshead Revisited, Snatch and Poirot",
+      "retrieved_at": "2026-10-14T21:46:34Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.townhallhotel.com/filming-production",
+      "quote": "From the iconic Council Chamber and sweeping marble staircase to elegant suites and versatile event spaces",
+      "retrieved_at": "2026-10-14T21:46:34Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:47:43Z",
+  "profiled_at": "2026-10-14T21:46:34Z",
   "history": [
     {
       "at": "2026-10-13T00:47:43Z",
@@ -104,10 +194,38 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T21:46:34Z",
+      "by": "venue-storyteller",
+      "change": "added story (opened, then, now, vibe, worth knowing) from Travelling for Business and the venue's own sites"
+    },
+    {
+      "at": "2026-10-14T21:51:21Z",
+      "by": "venue-checker",
+      "change": "Cut: story.worth_knowing narrowed (no 'best-known')"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T21:51:21Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "1910, as Bethnal Green Town Hall.",
+    "then": "According to Travelling for Business, the building gained an art deco wing in the 1930s. Once its council days were over, it was restored and turned into a hotel in 2010.",
+    "now": "The venue's own website says guests have a heated 14 metre pool and a gym. Its restaurant Da Terra is led by chef Rafael Cagali, who has Brazilian and Italian roots, and the restaurant's own website says to allow about three hours for the full experience or two for the three-course lunch.",
+    "vibe": "Travelling for Business describes a marble entrance hall with the building's Edwardian features, stonework and plasterwork and a sweeping staircase, set beside modern furnishings and contemporary art.",
+    "worth_knowing": [
+      "Films and TV shot here include Atonement, Snatch, Poirot, Brideshead Revisited and Lock, Stock and Two Smoking Barrels, says the venue's own website.",
+      "The venue's own website names the Council Chamber and the marble staircase among its filming spaces."
+    ],
+    "written_at": "2026-10-14T21:46:34Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Found opening, history, lobby description, facilities, Da Terra and filming credits. Not found: Restaurant Elis or Assembly Lounge detail, listed-building status (Historic England), any Hackney or Tower Hamlets history page."
   }
 }

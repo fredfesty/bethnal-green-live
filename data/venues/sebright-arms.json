@@ -75,11 +75,111 @@
       "quote": "Step at entrance. No Accessible toilet.",
       "retrieved_at": "2026-10-14T16:03:46Z",
       "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://pubwiki.co.uk/LondonPubs/BethnalGreen/Seabright.shtml",
+      "quote": "Existed from at least 1823.",
+      "retrieved_at": "2026-10-14T21:46:23Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://pubwiki.co.uk/LondonPubs/BethnalGreen/Seabright.shtml",
+      "quote": "changed to 31-35 Coate Street following rebuilding in 1936, which remains",
+      "retrieved_at": "2026-10-14T21:46:23Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://pubwiki.co.uk/LondonPubs/BethnalGreen/Seabright.shtml",
+      "quote": "Seabright in 1882/1891, as the Belmont in the 1895 Directory, and the",
+      "retrieved_at": "2026-10-14T21:46:23Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://londonist.com/pubs/sebright-arms",
+      "quote": "This place almost got converted into flats a few years ago, now it's among the most bustling of night spots.",
+      "retrieved_at": "2026-10-14T21:46:23Z",
+      "source_kind": "press",
+      "source_date": "2015-05-01"
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://camra.org.uk/pubs/sebright-arms-bethnal-green-155633",
+      "quote": "Various entertainments are staged in The Venue downstairs.",
+      "retrieved_at": "2026-10-14T21:46:23Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://camra.org.uk/pubs/sebright-arms-bethnal-green-155633",
+      "quote": "Food (run separately from the bar) is available from a varying menu and includes Sunday roasts.",
+      "retrieved_at": "2026-10-14T21:46:23Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://camra.org.uk/pubs/sebright-arms-bethnal-green-155633",
+      "quote": "The interior comprises two wood-panelled rooms.",
+      "retrieved_at": "2026-10-14T21:46:23Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://londonist.com/pubs/sebright-arms",
+      "quote": "thanks to its history of live entertainment (punk in the 70s, disco in the 80s, cabaret in the 90s, a bit of everything these days)",
+      "retrieved_at": "2026-10-14T21:46:23Z",
+      "source_kind": "press",
+      "source_date": "2015-05-01"
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://pubwiki.co.uk/LondonPubs/BethnalGreen/Seabright.shtml",
+      "quote": "Sebright Music Hall in 1899 (it may have just functioned as a music hall at",
+      "retrieved_at": "2026-10-14T21:46:23Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://dice.fm/venue/sebright-arms-4mm9",
+      "quote": "Historically a movie theatre & music hall.",
+      "retrieved_at": "2026-10-14T21:46:23Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-14T16:09:06Z",
+  "profiled_at": "2026-10-14T21:46:23Z",
   "review": {
-    "checked_at": "2026-10-14T16:10:32Z",
+    "checked_at": "2026-10-14T21:51:21Z",
     "removed_fields": []
   },
   "needs_review": null,
@@ -93,6 +193,35 @@
       "at": "2026-10-14T16:10:32Z",
       "by": "venue-checker",
       "change": "cut the karaoke, quiz and pool-night sentence from music.notes (backed only by single dated event titles) and its three evidence items"
+    },
+    {
+      "at": "2026-10-14T21:46:23Z",
+      "by": "venue-storyteller",
+      "change": "added story (opened, then, now, vibe, worth knowing) from Pub Wiki, Londonist, CAMRA WhatPub and DICE"
+    },
+    {
+      "at": "2026-10-14T21:51:21Z",
+      "by": "venue-checker",
+      "change": "Cut: story.then cut 'before the Sebright spelling settled'; worth_knowing cut '1899 directory'"
     }
-  ]
+  ],
+  "story": {
+    "opened": "Open as a pub by 1823, according to Pub Wiki's records",
+    "then": "Pub Wiki's records show the pub under several spellings and names, including the Belmont in 1895. It was rebuilt in 1936 and took its present address, 31-35 Coate Street. Londonist reported in 2015 that it had come close to being turned into flats a few years earlier, but by then was among the area's busiest night spots.",
+    "now": "CAMRA's WhatPub entry says food is run separately from the bar, from a changing menu that includes Sunday roasts, and that the basement room hosts various kinds of entertainment.",
+    "vibe": "CAMRA's WhatPub entry describes the interior as two wood-panelled rooms.",
+    "worth_knowing": [
+      "Londonist's pub guide traces its live entertainment from punk in the 1970s through disco and cabaret in the following decades.",
+      "Pub Wiki lists it as the Sebright Music Hall in 1899, though it notes it may only have worked as a music hall for a time.",
+      "DICE describes the building as historically a cinema and music hall."
+    ],
+    "written_at": "2026-10-14T21:46:23Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "outcome": "written",
+    "attempts": 1,
+    "next_check": null,
+    "note": "Venue's own site (sebrightarms.co.uk) refused by robots check, so no first-hand history or vibe. Londonist is from 2015, too old for now or vibe. Leads: recent Time Out or Evening Standard reviews, Music Venue Trust, Historic England for the 1936 building."
+  }
 }

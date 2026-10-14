@@ -82,12 +82,192 @@
       "quote": "Music and Worship Concerts / Live Music",
       "retrieved_at": "2026-10-12T23:07:24Z",
       "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.soane.org/node/538",
+      "quote": "One of the most distinctive features of Sir John Soane’s third Commissioner Church, St John’s, Bethnal Green, London (built 1826-1828), is the tower.",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "press",
+      "source_date": "2019-04-04"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.soane.org/node/538",
+      "quote": "The Commissioner grant for St John’s was only £16,000 (eventually raised to £17,500), but Bethnal Green was a poor parish, so economies were needed.",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "press",
+      "source_date": "2019-04-04"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.soane.org/node/538",
+      "quote": "started his commentary on the tower with ‘and how shall we describe appropriately this monstrous excrescence?’",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "press",
+      "source_date": "2019-04-04"
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/stations-of-the-cross",
+      "quote": "Commissioned by the Church in 2000, the series was permanently installed at St John’s in 2009",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/",
+      "quote": "We are looking to raise £130,000 to fund an initial programme of work to determine what is needed",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/",
+      "quote": "The building, which has obvious signs of damp and structural damage",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/",
+      "quote": "We aim to have begun work on this vital restoration project by 2028",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/services",
+      "quote": "An invitation to encounter God through word and sacrament, hearing the scripture appointed for the day and sharing in the Eucharist together.",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/services",
+      "quote": "A child-friendly service of Evensong, led by St John on Bethnal Green Primary School choir, ending with an all-age address.",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/stations-of-the-cross",
+      "quote": "visit on the second Saturday of every month when the church is open to visitors 11am - 2pm.",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/about",
+      "quote": "The church is available to hire for events.",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/stations-of-the-cross",
+      "quote": "There is no stained glass in the interior of the church, so Gollon’s paintings inject vibrant colour throughout.",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.vibe"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/stations-of-the-cross",
+      "quote": "unique, site-specific, installation in the simple white interior of the Sir John Soane-designed church",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/stations-of-the-cross",
+      "quote": "All the main characters were modelled by Gollon’s immediate family and friends, including his son as Jesus and his daughter as Mary.",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.stjohnonbethnalgreen.church/stations-of-the-cross",
+      "quote": "Jackie Wullschläger, Chief Visual Art Critic, Financial Times, commented",
+      "retrieved_at": "2026-10-14T21:46:10Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-12T23:05:39Z",
+  "profiled_at": "2026-10-14T21:46:10Z",
   "review": {
-    "checked_at": "2026-10-12T23:14:31Z",
+    "checked_at": "2026-10-14T21:51:21Z",
     "removed_fields": []
   },
-  "needs_review": null
+  "needs_review": null,
+  "story": {
+    "opened": "Built 1826 to 1828 as Sir John Soane's third Commissioner church.",
+    "then": "According to the Sir John Soane's Museum, the Commissioners' grant was only £16,000, later raised to £17,500, and with a poor parish economies were needed, and one commentator began his remarks on the tower with the words 'this monstrous excrescence'. The venue's own website says Chris Gollon's Stations of the Cross were commissioned in 2000 and installed in 2009. Damp and structural damage are plain to see in the building; the church is looking to raise £130,000 for a first stage of work to establish what is needed, and aims to have begun restoration by 2028.",
+    "now": "The venue's own website lists an Evensong service for children, led by a primary school choir. The church is open to visitors on the second Saturday of each month, 11am to 2pm, and can be hired for events.",
+    "vibe": "The venue's own website describes a simple white interior with no stained glass, where Gollon's paintings bring in colour.",
+    "worth_knowing": [
+      "Gollon used his own family and friends as models for the main figures in the Stations of the Cross, including two of his children.",
+      "The Financial Times's chief visual art critic, Jackie Wullschläger, has written about Gollon's paintings, according to the church's own website."
+    ],
+    "written_at": "2026-10-14T21:46:10Z"
+  },
+  "history": [
+    {
+      "at": "2026-10-14T21:46:10Z",
+      "by": "venue-storyteller",
+      "change": "Added story (opened, then, now, vibe, worth knowing) from the venue's site and the Soane Museum."
+    },
+    {
+      "at": "2026-10-14T21:51:21Z",
+      "by": "venue-checker",
+      "change": "Cut: story.opened, then, now, vibe narrowed to their quotes"
+    }
+  ],
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Used the church's own pages and the Sir John Soane's Museum tower article. National Churches Trust page gave 403. Not found: Historic England listing text, wartime history, concerts programme."
+  }
 }

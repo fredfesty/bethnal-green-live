@@ -129,9 +129,169 @@
       "quote": "258 Cambridge Heath Road London E2 9DA",
       "retrieved_at": "2026-10-13T00:11:19Z",
       "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "Cell began as 12 artists’ studios and a small artist-run project space alongside it.",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "a run-down former Victorian furniture factory in Tyssen St, Dalston",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "Due to the site’s redevelopment in 2001, Cell moved into",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "‘Ideal House’, Arcola St; a dilapidated former textiles factory",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "In 2003, the gallery and HQ relocated to our current Bethnal Green site",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "In 2011, Cell launched 'Cyclorama', the first in a new year-long series of commissioned solo projects",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "‘Cycle Club’ ended in 2013",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "opened in the summer 2019",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "launched Cellular an experimental multi media platform and residency programme",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.cellprojects.org/visit",
+      "quote": "Thursday - Sunday 12-6pm",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.cellprojects.org/visit",
+      "quote": "Office opening hours Monday–Friday 10-6pm",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.cellprojects.org/visit",
+      "quote": "Cell has a ground floor reading room and event space.",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "Cell Studios to currently operate six sites across East London, generating income for the gallery",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "Cell Project Space has worked with over 300 artists",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "building and nurturing a hugely treasured adjacent public green space",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.cellprojects.org/node/2033",
+      "quote": "a run-down former Victorian furniture factory in Tyssen St, Dalston",
+      "retrieved_at": "2026-10-14T21:46:07Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-13T00:40:36Z",
+  "profiled_at": "2026-10-14T21:46:07Z",
   "history": [
     {
       "at": "2026-10-13T00:40:36Z",
@@ -142,10 +302,38 @@
       "at": "2026-10-13T01:01:23Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T21:46:07Z",
+      "by": "venue-storyteller",
+      "change": "added story (opened, then, now, worth knowing) from the venue's own history and visit pages"
+    },
+    {
+      "at": "2026-10-14T21:51:14Z",
+      "by": "venue-checker",
+      "change": "Cut: story.then, story.now, story.worth_knowing narrowed to their quotes"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T21:51:14Z",
     "removed_fields": []
+  },
+  "story": {
+    "opened": "1999, as 12 artists' studios with a small project space, in a former furniture factory in Dalston",
+    "then": "The venue's own website says Cell left that Tyssen Street building in 2001 when the site was redeveloped and moved to Ideal House on Arcola Street, a former textiles factory, before settling on Cambridge Heath Road in 2003. In 2011 it began Cyclorama, a run of commissioned solo shows lasting a year each. Its Cycle Club events ended in 2013. A ground-floor event space opened in summer 2019, and the Cellular platform and residency programme was launched.",
+    "now": "According to the venue's own website, the gallery opens Thursday to Sunday, 12 to 6pm, and the office is staffed Monday to Friday. Besides the first-floor gallery, the ground floor holds a reading room and an events room. Cell Studios, which funds the gallery, operates six sites across East London.",
+    "worth_knowing": [
+      "The venue's own website says Cell has worked with over 300 artists.",
+      "The venue's own website says Cell built and looks after a public green space next to the site on Cambridge Heath Road.",
+      "It began in a run-down Victorian furniture factory on Tyssen Street, Dalston, according to the venue's own website."
+    ],
+    "written_at": "2026-10-14T21:46:07Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Written from the venue's own history and visit pages only. No search done; no vibe (no description of the rooms) and no independent press for the Bethnal Green site. Could try Time Out/Frieze/Art Review for a review of the space."
   }
 }

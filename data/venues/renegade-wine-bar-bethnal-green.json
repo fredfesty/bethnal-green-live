@@ -128,10 +128,15 @@
       "at": "2026-10-14T12:21:23Z",
       "by": "venue-storyteller",
       "change": "added story: opened, then, now, worth_knowing from Time Out, CAMRA and the venue's website"
+    },
+    {
+      "at": "2026-10-14T21:51:14Z",
+      "by": "venue-checker",
+      "change": "checked, no changes"
     }
   ],
   "review": {
-    "checked_at": "2026-10-13T01:01:23Z",
+    "checked_at": "2026-10-14T21:51:14Z",
     "removed_fields": []
   },
   "story": {

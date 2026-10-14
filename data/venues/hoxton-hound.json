@@ -114,11 +114,81 @@
       "quote": "Step free access. Accessible toilet.",
       "retrieved_at": "2026-10-14T16:05:00Z",
       "source_kind": "directory"
+    },
+    {
+      "fields": [
+        "story.opened"
+      ],
+      "url": "https://pubology.co.uk/pubs/10516.html",
+      "quote": "opened 8 Apr 2013",
+      "retrieved_at": "2026-10-14T21:45:32Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://pubology.co.uk/pubs/10516.html",
+      "quote": "Renamed as the \"Brewhouse and Kitchen\" in 2018, and as the \"Hoxton Hound\" in 2025.",
+      "retrieved_at": "2026-10-14T21:45:32Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.then"
+      ],
+      "url": "https://camra.org.uk/pubs/hoxton-hound-bethnal-green-154700",
+      "quote": "Former on-site brewery closed March 2025.",
+      "retrieved_at": "2026-10-14T21:45:32Z",
+      "source_kind": "directory",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+      "quote": "Join the weekly pub quiz at The Hoxton Hound every Wednesday from 7:30pm.",
+      "retrieved_at": "2026-10-14T21:45:32Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+      "quote": "Pre-book a table with wifi & power at The Hoxton Hound.",
+      "retrieved_at": "2026-10-14T21:45:32Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.now"
+      ],
+      "url": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+      "quote": "Bottomless Brunch at The Hoxton Hound: any brunch main plus bottomless prosecco",
+      "retrieved_at": "2026-10-14T21:45:32Z",
+      "source_kind": "primary",
+      "source_date": null
+    },
+    {
+      "fields": [
+        "story.worth_knowing"
+      ],
+      "url": "https://www.brewhouseandkitchen.com/craft-house/pubs/hoxton-hound",
+      "quote": "The Hoxton Hound offers three distinctive private hire spaces",
+      "retrieved_at": "2026-10-14T21:45:32Z",
+      "source_kind": "primary",
+      "source_date": null
     }
   ],
-  "profiled_at": "2026-10-14T16:09:06Z",
+  "profiled_at": "2026-10-14T21:45:32Z",
   "review": {
-    "checked_at": "2026-10-14T16:10:32Z",
+    "checked_at": "2026-10-14T21:51:14Z",
     "removed_fields": []
   },
   "needs_review": null,
@@ -132,6 +202,32 @@
       "at": "2026-10-14T16:10:32Z",
       "by": "venue-checker",
       "change": "checked, no changes"
+    },
+    {
+      "at": "2026-10-14T21:45:32Z",
+      "by": "venue-storyteller",
+      "change": "added story: opened, then, now and one worth-knowing fact from London Pubology, CAMRA and the venue's own site"
+    },
+    {
+      "at": "2026-10-14T21:51:14Z",
+      "by": "venue-checker",
+      "change": "Cut: story.now: cut 'for working'"
     }
-  ]
+  ],
+  "story": {
+    "opened": "April 2013, according to the London Pubology site.",
+    "then": "London Pubology says the pub became a Brewhouse and Kitchen in 2018 and took the name Hoxton Hound in 2025. CAMRA's WhatPub entry notes that its on-site brewery closed in March 2025.",
+    "now": "The venue's own website lists a pub quiz every Wednesday from 7:30pm, a bottomless brunch deal and tables with wifi and power that can be pre-booked.",
+    "worth_knowing": [
+      "The venue's own website says it offers three private hire spaces."
+    ],
+    "written_at": "2026-10-14T21:45:32Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-14",
+    "attempts": 1,
+    "outcome": "partial",
+    "next_check": "2026-10-21",
+    "note": "Found opening date, renames and current programme from Pubology, CAMRA and own site. No press or review coverage found for atmosphere or the railway-arch building history; try Time Out/Londonist/Hackney Citizen for the Brewhouse and Kitchen Hoxton opening and the 2025 rebrand."
+  }
 }
