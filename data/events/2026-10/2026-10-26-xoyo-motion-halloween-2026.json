@@ -1,0 +1,118 @@
+{
+  "id": "2026-10-26-xoyo-motion-halloween-2026",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "MOTION: Halloween 2026",
+  "venue": {
+    "venue_id": "xoyo",
+    "name": "XOYO London",
+    "address": "32-37 Cowper St, London",
+    "postcode": "EC2A 4AP"
+  },
+  "starts_at": "2026-10-26T23:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 6.5,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://dice.fm/event/7dk9pp-motion-halloween-2026-26th-oct-xoyo-london-london-tickets",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue"
+      ],
+      "url": "https://dice.fm/event/7dk9pp-motion-halloween-2026-26th-oct-xoyo-london-london-tickets",
+      "quote": "MOTION: Halloween 2026 Tickets | 26 Oct | XOYO London, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/7dk9pp-motion-halloween-2026-26th-oct-xoyo-london-london-tickets",
+      "quote": "Mon 26 Oct, 11:00 pm",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/venue/xoyo-london-4n38",
+      "quote": "\"name\":\"MOTION: Halloween 2026\",\"startDate\":\"2026-10-26T23:00:00+00:00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/7dk9pp-motion-halloween-2026-26th-oct-xoyo-london-london-tickets",
+      "quote": "\"lowPrice\":\"6.50\",\"highPrice\":\"6.50\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/7dk9pp-motion-halloween-2026-26th-oct-xoyo-london-london-tickets",
+      "quote": "This is an 18+ event.",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/7dk9pp-motion-halloween-2026-26th-oct-xoyo-london-london-tickets",
+      "quote": "32-37 Cowper St, London EC2A 4AP",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://dice.fm/event/7dk9pp-motion-halloween-2026-26th-oct-xoyo-london-london-tickets",
+      "quote": "Running strong since 2014.",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/7dk9pp-motion-halloween-2026-26th-oct-xoyo-london-london-tickets",
+      "quote": "MOTION: Halloween 2026 Tickets | 26 Oct | XOYO London, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T12:00:00+01:00",
+    "run_id": "2026-10-14-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-14/2026-10-26-xoyo-motion-halloween-2026.json"
+  },
+  "editor_note": "A Monday club night, running strong since 2014, here for Halloween at XOYO.",
+  "listing": null,
+  "first_seen": "2026-10-14T12:00:00+01:00",
+  "updated_at": "2026-10-14T12:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

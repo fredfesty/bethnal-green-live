@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-24-bethnal-green-nature-reserve-community-qi-gong",
+  "candidate_file": "data/candidates/health-wellness/2026-10-13/2026-10-24-bethnal-green-nature-reserve-community-qi-gong.json",
+  "run_id": "2026-10-14-v",
+  "verified_at": "2026-10-14T12:00:00+01:00",
+  "decision": "reject",
+  "reasons": [
+    "duplicate of 2026-10-24-bethnal-green-nature-reserve-community-qi-gong (same id, already published from the community scout)."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://bethnalgreennaturereserve.org/visit",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": "data/events/2026-10/2026-10-24-bethnal-green-nature-reserve-community-qi-gong.json",
+  "changes": [],
+  "decided_by": "verifier"
+}

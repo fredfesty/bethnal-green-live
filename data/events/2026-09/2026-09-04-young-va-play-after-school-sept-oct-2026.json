@@ -1,0 +1,119 @@
+{
+  "id": "2026-09-04-young-va-play-after-school-sept-oct-2026",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Play After School (Sept-Oct 2026)",
+  "venue": {
+    "venue_id": "young-va",
+    "name": "Young V&A",
+    "address": "Cambridge Heath Road, Bethnal Green, London E2 9PA",
+    "postcode": "E2 9PA"
+  },
+  "starts_at": "2026-09-04",
+  "ends_at": "2026-10-23",
+  "recurrence": null,
+  "run_schedule": "Thursdays and Fridays (term time); activities run 15:30-17:00",
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Drop-in; printed as 'Free event'."
+  },
+  "ticket_url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+      "quote": "Play After School (Sept-Oct 2026) - Drop-in at",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+      "quote": "2026-09-04 16:30:00 +0100",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ends_at"
+      ],
+      "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+      "quote": "On now until Friday, 23 October 2026",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+      "quote": "Cambridge Heath Road",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "run_schedule"
+      ],
+      "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+      "quote": "on Thursdays and Fridays (term time)",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "run_schedule"
+      ],
+      "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+      "quote": "Activities run from 15:30-17:00 and alternate between the activities below each week.",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+      "quote": "Join us for FREE, regular drop-in sessions for families at the Young V&A!",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.vam.ac.uk/event/EOak9MOewWL/play-after-school-sept-oct-2026",
+      "quote": "Free event",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T12:00:00+01:00",
+    "run_id": "2026-10-14-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-14/2026-09-04-young-va-play-after-school-sept-oct-2026.json"
+  },
+  "editor_note": null,
+  "listing": null,
+  "first_seen": "2026-10-14T12:00:00+01:00",
+  "updated_at": "2026-10-14T12:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

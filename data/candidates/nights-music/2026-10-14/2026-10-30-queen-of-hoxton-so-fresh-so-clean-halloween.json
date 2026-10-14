@@ -1,0 +1,120 @@
+{
+  "id": "2026-10-30-queen-of-hoxton-so-fresh-so-clean-halloween",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T06:20:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "So Fresh So Clean - Halloween",
+  "summary": "The Halloween edition of the So Fresh So Clean night at Queen Of Hoxton on Friday 30 October. 18+.",
+  "venue": {
+    "venue_id": "queen-of-hoxton",
+    "name": "Queen Of Hoxton",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-30T19:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [
+    "Hip-Hop",
+    "RnB",
+    "Afrobeats",
+    "Bashment",
+    "UK Garage"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "From free"
+  },
+  "ticket_url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue"
+      ],
+      "url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+      "quote": "So Fresh So Clean - Halloween Tickets | 30 Oct | Queen Of Hoxton, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+      "quote": "Fri 30 Oct, 7:00 pm",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/venue/queen-of-hoxton-4ng8",
+      "quote": "\"name\":\"So Fresh So Clean - Halloween\",\"startDate\":\"2026-10-30T19:00:00+00:00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+      "quote": "\"lowPrice\":\"0.00\",\"highPrice\":\"0.00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+      "quote": "Timeless Hip-Hop & RnB, plus Afrobeats, Bashment and UK Garage.",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+      "quote": "Every Friday at Queen of Hoxton.",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+      "quote": "So Fresh So Clean - Halloween Tickets | 30 Oct | Queen Of Hoxton, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "The Halloween edition of So Fresh So Clean, which the page says runs every Friday at Queen of Hoxton.",
+  "notes_for_verifier": "Recurring night: only this Halloween date is recorded (16 Oct is already a candidate). recurrence left empty because this is a special edition with its own title."
+}

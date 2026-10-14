@@ -1,0 +1,133 @@
+{
+  "id": "2026-10-27-st-margarets-house-half-term-circus-club",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T09:30:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Half Term Circus Club",
+  "summary": "Free circus-skills sessions for children at St Margaret's House during October half term, for children who live or learn in Tower Hamlets.",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "The Studio, St Margaret's House",
+    "address": null,
+    "postcode": "E2 9PJ"
+  },
+  "starts_at": "2026-10-27",
+  "ends_at": "2026-10-29",
+  "recurrence": null,
+  "run_schedule": "Tuesday 27th October, 10am-12noon; Wednesday 28th October, 2-4pm; Thursday 29th October, 10am-12noon",
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Free: 'This programme is free to attend thanks to funding from the Tower Hamlets Mayor's Community Fund.'"
+  },
+  "ticket_url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+  "age_restriction": "aimed at children aged 5-8 years; children up to 11 welcome",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "quote": "Half Term Circus Club",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "quote": "Tuesday 27 October 2026",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ends_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "quote": "Thursday 29 October 2026",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "run_schedule"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "quote": "Tuesday 27th October, 10am-12noon",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "run_schedule"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "quote": "Wednesday 28th October, 2-4pm",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "run_schedule"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "quote": "Thursday 29th October, 10am-12noon",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "quote": "Venue: The Studio, 15 Old Ford Road, London, E2 9PL",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "The Studio, St Margaret's House, E2 9PJ",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "quote": "This programme is free to attend thanks to funding from the Tower Hamlets Mayor's Community Fund.",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "quote": "Sessions are aimed at children aged 5-8 years",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Venue conflict: event page says 'Venue: The Studio, 15 Old Ford Road', JSON-LD says Tramshed Community Hub, Digby Street, Ticket Tailor says 'The Studio, St Margaret's House, E2 9PJ'. Venue set from Ticket Tailor; please check. 25 spaces per the page; sign-up form."
+}

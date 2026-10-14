@@ -1,0 +1,120 @@
+{
+  "id": "2026-11-11-rich-mix-k-music-festival-dongyang-gozupa",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T06:20:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "K-MUSIC FESTIVAL: Dongyang Gozupa",
+  "summary": "A live show by Dongyang Gozupa at Rich Mix on Wednesday 11 November, part of the K-Music Festival. 16+.",
+  "venue": {
+    "venue_id": "rich-mix",
+    "name": "Rich Mix",
+    "address": "35-47 Bethnal Green Rd, London",
+    "postcode": "E1 6LA"
+  },
+  "starts_at": "2026-11-11T19:30:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Dongyang Gozupa"
+  ],
+  "genres": [
+    "progressive",
+    "post-rock"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 15,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+  "age_restriction": "16+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "K-MUSIC FESTIVAL: Dongyang Gozupa Tickets | 11 Nov | Rich Mix, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "Wed 11 Nov, 7:30 pm",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "\"name\":\"K-MUSIC FESTIVAL: Dongyang Gozupa\",\"startDate\":\"2026-11-11T19:30:00+00:00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "\"lowPrice\":\"15.00\",\"highPrice\":\"15.00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "This is an 16+ event",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "A genre-defying sound where Korean tradition meets progressive and post-rock.",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "35-47 Bethnal Green Rd, London E1 6LA",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/53bbpk-k-music-festival-dongyang-gozupa-11th-nov-rich-mix-london-tickets",
+      "quote": "K-MUSIC FESTIVAL: Dongyang Gozupa Tickets | 11 Nov | Rich Mix, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Rich Mix is shared with the arts scout; this is a music show only. The event page's About text is cut off after 'upcoming'; genres are the two words the page names."
+}

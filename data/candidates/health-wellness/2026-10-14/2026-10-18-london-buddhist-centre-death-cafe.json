@@ -1,0 +1,113 @@
+{
+  "id": "2026-10-18-london-buddhist-centre-death-cafe",
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T06:20:00+01:00",
+  "category": "health-wellness",
+  "subcategory": "talk",
+  "title": "Death Cafe",
+  "summary": "An in-person drop-in conversation about death and dying at the London Buddhist Centre's Mandala Café, with refreshments provided.",
+  "venue": {
+    "venue_id": "london-buddhist-centre",
+    "name": "London Buddhist Centre",
+    "address": "51 Roman Rd, Bethnal Green, London",
+    "postcode": "E2 0HU"
+  },
+  "starts_at": "2026-10-18T15:00:00+01:00",
+  "ends_at": "2026-10-18T17:00:00+01:00",
+  "recurrence": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Free (with donations welcome)"
+  },
+  "ticket_url": "https://www.londonbuddhistcentre.com/whats-on/death-cafe-18-oct-2026",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/death-cafe-18-oct-2026",
+      "quote": "Death Cafe",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/death-cafe-18-oct-2026",
+      "quote": "Sun 18 Oct | 3:00 pm – 5:00 pm",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/death-cafe-18-oct-2026",
+      "quote": "At the Mandala Cafe",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "postcode"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/death-cafe-18-oct-2026",
+      "quote": "Our address is: 51 Roman Rd, Bethnal Green, E20HU.",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/death-cafe-18-oct-2026",
+      "quote": "Free (with donations welcome).",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/death-cafe-18-oct-2026",
+      "quote": "Join us at the Mandala Cafe - in person, just turn up.",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/death-cafe-18-oct-2026",
+      "quote": "Refreshments provided.",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/death-cafe-18-oct-2026",
+      "quote": "In person, just turn up.",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "An open place to talk about death, dying and loss, in person, with refreshments provided and no booking needed.",
+  "notes_for_verifier": "New this run. Event page found from the whats-on listing ('Death Cafe Sun 18 Oct 3:00 pm - 5:00 pm'). Price box 'Free (with donations welcome).' so is_free false, min 0. Address from the page's 'Getting here' text; registry E2 0HU."
+}

@@ -1,0 +1,117 @@
+{
+  "id": "2026-10-24-the-shacklewell-arms-scared-to-dance-guest-dj-john-grant",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T06:20:00+01:00",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Scared To Dance: Guest DJ John Grant",
+  "summary": "A Scared To Dance night at The Shacklewell Arms on Saturday 24 October, with guest DJ John Grant and resident Paul Richards. 18+.",
+  "venue": {
+    "venue_id": "shacklewell-arms",
+    "name": "The Shacklewell Arms",
+    "address": "71 Shacklewell Lane, London",
+    "postcode": "E8 2EB"
+  },
+  "starts_at": "2026-10-24T23:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Paul Richards",
+    "John Grant"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 11.33,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://dice.fm/event/av8lrd--scared-to-dance-guest-dj-john-grant-24th-oct-the-shacklewell-arms-london-tickets",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue"
+      ],
+      "url": "https://dice.fm/event/av8lrd--scared-to-dance-guest-dj-john-grant-24th-oct-the-shacklewell-arms-london-tickets",
+      "quote": "Scared To Dance: Guest DJ John Grant Tickets | 24 Oct | The Shacklewell Arms, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/av8lrd--scared-to-dance-guest-dj-john-grant-24th-oct-the-shacklewell-arms-london-tickets",
+      "quote": "Sat 24 Oct, 11:00 pm",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+      "quote": "\"name\":\" Scared To Dance: Guest DJ John Grant\",\"startDate\":\"2026-10-24T23:00:00+01:00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/av8lrd--scared-to-dance-guest-dj-john-grant-24th-oct-the-shacklewell-arms-london-tickets",
+      "quote": "\"lowPrice\":\"11.33\",\"highPrice\":\"11.33\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/av8lrd--scared-to-dance-guest-dj-john-grant-24th-oct-the-shacklewell-arms-london-tickets",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://dice.fm/event/av8lrd--scared-to-dance-guest-dj-john-grant-24th-oct-the-shacklewell-arms-london-tickets",
+      "quote": "Our guest DJ is John Grant joining resident Paul Richards.",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/av8lrd--scared-to-dance-guest-dj-john-grant-24th-oct-the-shacklewell-arms-london-tickets",
+      "quote": "71 Shacklewell Lane, London E8 2EB",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/av8lrd--scared-to-dance-guest-dj-john-grant-24th-oct-the-shacklewell-arms-london-tickets",
+      "quote": "Scared To Dance: Guest DJ John Grant Tickets | 24 Oct | The Shacklewell Arms, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A guest DJ, John Grant, joins resident Paul Richards for a Scared To Dance night.",
+  "notes_for_verifier": "The 17 Oct Scared To Dance (Caroline) is already a candidate; this is the next guest-DJ night in the series. Shacklewell Arms is a pub, so dj-bar."
+}

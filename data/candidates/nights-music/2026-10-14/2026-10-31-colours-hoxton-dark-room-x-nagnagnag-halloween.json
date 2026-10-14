@@ -1,0 +1,116 @@
+{
+  "id": "2026-10-31-colours-hoxton-dark-room-x-nagnagnag-halloween",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T06:20:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Dark Room x NagNagNag Halloween",
+  "summary": "A Halloween night at Colours Hoxton on Saturday 31 October, part of the Iptamenos Discos 5th Anniversary Showcase. 18+.",
+  "venue": {
+    "venue_id": "colours-hoxton",
+    "name": "Colours Hoxton",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-31T21:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [
+    "dark disco"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 21.9,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://dice.fm/event/k6lav9-dark-room-x-nagnagnag-halloween-31st-oct-colours-hoxton-london-tickets",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue"
+      ],
+      "url": "https://dice.fm/event/k6lav9-dark-room-x-nagnagnag-halloween-31st-oct-colours-hoxton-london-tickets",
+      "quote": "Dark Room x NagNagNag Halloween Tickets | 31 Oct | Colours Hoxton, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/k6lav9-dark-room-x-nagnagnag-halloween-31st-oct-colours-hoxton-london-tickets",
+      "quote": "Sat 31 Oct, 9:00 pm",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/venue/colours-hoxton-mxew",
+      "quote": "\"name\":\"Dark Room x NagNagNag Halloween\",\"startDate\":\"2026-10-31T21:00:00+00:00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/k6lav9-dark-room-x-nagnagnag-halloween-31st-oct-colours-hoxton-london-tickets",
+      "quote": "\"lowPrice\":\"21.90\",\"highPrice\":\"21.90\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/k6lav9-dark-room-x-nagnagnag-halloween-31st-oct-colours-hoxton-london-tickets",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://dice.fm/event/k6lav9-dark-room-x-nagnagnag-halloween-31st-oct-colours-hoxton-london-tickets",
+      "quote": "For Halloween 2026 we welcome three very special guests to Colours Hoxton as part of the Iptamenos Discos 5th Anniversary Showcase.",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/k6lav9-dark-room-x-nagnagnag-halloween-31st-oct-colours-hoxton-london-tickets",
+      "quote": "has become one of the leading labels for dark disco",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/k6lav9-dark-room-x-nagnagnag-halloween-31st-oct-colours-hoxton-london-tickets",
+      "quote": "Dark Room x NagNagNag Halloween Tickets | 31 Oct | Colours Hoxton, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A Halloween showcase marking the Iptamenos Discos 5th anniversary, with three guests.",
+  "notes_for_verifier": "The page's About text is cut off before its full list of genres, so only 'dark disco' is recorded."
+}

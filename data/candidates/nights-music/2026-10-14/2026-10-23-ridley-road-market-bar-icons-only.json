@@ -1,0 +1,137 @@
+{
+  "id": "2026-10-23-ridley-road-market-bar-icons-only",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T06:20:00+01:00",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "ICONS ONLY",
+  "summary": "A Friday DJ night at Ridley Road Market Bar on 23 October, with disco, 90s R&B and club classics. 18+.",
+  "venue": {
+    "venue_id": "ridley-road-market-bar",
+    "name": "Ridley Road Market Bar",
+    "address": "49 Ridley Road, Dalston, London",
+    "postcode": "E8 2NP"
+  },
+  "starts_at": "2026-10-23T18:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [
+    "Disco",
+    "90s R&B",
+    "Pop",
+    "Club Classics"
+  ],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://dice.fm/event/bbgm2k-icons-only-23rd-oct-ridley-road-market-bar-london-tickets",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue"
+      ],
+      "url": "https://dice.fm/event/bbgm2k-icons-only-23rd-oct-ridley-road-market-bar-london-tickets",
+      "quote": "ICONS ONLY Tickets | 23 Oct | Ridley Road Market Bar, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/bbgm2k-icons-only-23rd-oct-ridley-road-market-bar-london-tickets",
+      "quote": "Fri 23 Oct, 6:00 pm",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/venue/ridley-road-market-bar-a28q",
+      "quote": "\"name\":\"ICONS ONLY\",\"startDate\":\"2026-10-23T18:00:00+01:00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/bbgm2k-icons-only-23rd-oct-ridley-road-market-bar-london-tickets",
+      "quote": "\"lowPrice\":\"0.00\",\"highPrice\":\"0.00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/bbgm2k-icons-only-23rd-oct-ridley-road-market-bar-london-tickets",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/bbgm2k-icons-only-23rd-oct-ridley-road-market-bar-london-tickets",
+      "quote": "49 Ridley Road, Dalston, London, E8 2NP, United Kingdom",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://dice.fm/event/bbgm2k-icons-only-23rd-oct-ridley-road-market-bar-london-tickets",
+      "quote": "Disco, 90s R&B, Pop, Club Classics",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://dice.fm/event/bbgm2k-icons-only-23rd-oct-ridley-road-market-bar-london-tickets",
+      "quote": "Fridays at Ridley are always a vibe with ICONS ONLY!",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://dice.fm/event/bbgm2k-icons-only-23rd-oct-ridley-road-market-bar-london-tickets",
+      "quote": "One of East London’s longest-running and most iconic nights.",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/bbgm2k-icons-only-23rd-oct-ridley-road-market-bar-london-tickets",
+      "quote": "ICONS ONLY Tickets | 23 Oct | Ridley Road Market Bar, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "One of East London’s longest-running and most iconic nights, per its DICE page.",
+  "notes_for_verifier": "A 16 Oct ICONS ONLY is already a candidate; this is the next Friday. The DICE venue data gives 18:00 for every Ridley night and the event page prints 6:00 pm, so the time is the printed one."
+}

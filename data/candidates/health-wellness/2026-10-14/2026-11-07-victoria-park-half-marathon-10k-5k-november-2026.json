@@ -1,0 +1,130 @@
+{
+  "id": "2026-11-07-victoria-park-half-marathon-10k-5k-november-2026",
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T06:20:00+01:00",
+  "category": "health-wellness",
+  "subcategory": "run",
+  "title": "Victoria Park Half Marathon, 10k & 5k November 2026",
+  "summary": "Road races around Victoria Park on Saturday 7 November 2026: a half marathon, a 10k and a 5k, organised by RunThrough. The half marathon starts first, at 9:30am.",
+  "venue": {
+    "venue_id": "victoria-park",
+    "name": "Victoria Park",
+    "address": "2 St Marks Gate, Old Ford, London",
+    "postcode": "E9 5HT"
+  },
+  "starts_at": "2026-11-07T09:30:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 28,
+    "max_gbp": 36,
+    "notes": "£28 – £36(+ 5% booking fee)"
+  },
+  "ticket_url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+  "age_restriction": "Minimum ages: half marathon 17 and above, 10k 15 and above, 5k 11 and above",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "quote": "Victoria Park Half Marathon, 10k & 5k - November 2026",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "quote": "Saturday, 7 November 2026",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "quote": "09:30 am Half Marathon",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "postcode"
+      ],
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "quote": "Event Location: 2 St Marks Gate, Old Ford, London E9 5HT",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "quote": "£28 – £36 (+ 5% booking fee)",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "quote": "Half Marathon - 17 years and above",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "quote": "10k - 15 years and above",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "quote": "5k - 11 years and above",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "quote": "Join us for the Victoria Park Half Marathon, 10K & 5K on Saturday 7th November 2026!",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "quote": "Book your place",
+      "retrieved_at": "2026-10-14T06:15:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A morning of 5k, 10k and half marathon races in Victoria Park, with the three distances starting one after another.",
+  "notes_for_verifier": "Re-recorded after the 13 Oct hold (start time). The race page's Race Day Schedule: half marathon 09:30 am, 10k 10:00 am, 5k 11:15 am, end 12:30 pm. starts_at is the first start; the others are not fields. Entry via RunThrough only, letsdothis.com not used."
+}

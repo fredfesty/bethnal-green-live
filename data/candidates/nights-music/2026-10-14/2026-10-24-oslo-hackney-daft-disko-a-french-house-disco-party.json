@@ -1,0 +1,118 @@
+{
+  "id": "2026-10-24-oslo-hackney-daft-disko-a-french-house-disco-party",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T06:20:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "DAFT DISKO [A FRENCH HOUSE & DISCO PARTY]",
+  "summary": "A French house and disco party at Oslo Hackney on Saturday 24 October. 18+, photo ID required.",
+  "venue": {
+    "venue_id": "oslo-hackney",
+    "name": "Oslo Hackney",
+    "address": "1a Amhurst Road, Hackney, London",
+    "postcode": "E8 1LL"
+  },
+  "starts_at": "2026-10-24T23:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [
+    "French House",
+    "Disco"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 11.33,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+  "age_restriction": "18+, photo ID required",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue"
+      ],
+      "url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+      "quote": "DAFT DISKO [A FRENCH HOUSE & DISCO PARTY] Tickets | 24 Oct | Oslo Hackney, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+      "quote": "Sat 24 Oct, 11:00 pm",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "\"name\":\"DAFT DISKO [A FRENCH HOUSE & DISCO PARTY]\",\"startDate\":\"2026-10-24T23:00:00+01:00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+      "quote": "\"lowPrice\":\"11.33\",\"highPrice\":\"11.33\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+      "quote": "This is a 18+ event (Photo ID Required).",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres",
+        "subcategory"
+      ],
+      "url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+      "quote": "Join us for the return of Daft Disko - a night of French House and Disco",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+      "quote": "1a Amhurst Road, Hackney, London, E8 1LL, United Kingdom",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+      "quote": "DAFT DISKO [A FRENCH HOUSE & DISCO PARTY] Tickets | 24 Oct | Oslo Hackney, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "The return of Daft Disko, a French house and disco night, on a Saturday late.",
+  "notes_for_verifier": "A second DICE listing titled 'Daft Disko: A French House & Disco Party' is dated 25 Oct at 00:00 (dice.fm/event/6a3af7df8189d900017c9088). Not read; it may be the same night or a second listing. Verifier to check before publishing both."
+}

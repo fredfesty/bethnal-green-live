@@ -1,0 +1,80 @@
+{
+  "id": "2026-10-27-st-margarets-house-half-term-circus-club",
+  "candidate_file": "data/candidates/community/2026-10-14/2026-10-27-st-margarets-house-half-term-circus-club.json",
+  "run_id": "2026-10-14-v",
+  "verified_at": "2026-10-14T12:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Venue conflicts: event page says 15 Old Ford Road E2 9PL, Ticket Tailor says St Margaret's House E2 9PJ (JSON-LD says Tramshed). Price and age quotes lack title nearby. Check https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "contradicted",
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Event page gives 15 Old Ford Road E2 9PL; Ticket Tailor gives St Margaret's House E2 9PJ."
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "run_schedule",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "age_restriction",
+      "result": "unverifiable",
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "No confirmed quote."
+    },
+    {
+      "field": "price",
+      "result": "unverifiable",
+      "url": "https://www.stmargaretshouse.org.uk/events/half-term-circus-club-1",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "No confirmed quote."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

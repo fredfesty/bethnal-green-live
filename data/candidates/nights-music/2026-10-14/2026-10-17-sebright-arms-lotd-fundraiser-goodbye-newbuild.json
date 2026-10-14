@@ -1,0 +1,105 @@
+{
+  "id": "2026-10-17-sebright-arms-lotd-fundraiser-goodbye-newbuild",
+  "scout": {
+    "name": "nights-music",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T06:20:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "LOTD Fundraiser: Goodbye + Newbuild",
+  "summary": "A fundraiser gig at the Sebright Arms on Saturday 17 October, with donations-based entry. 18+.",
+  "venue": {
+    "venue_id": "sebright-arms",
+    "name": "The Sebright Arms",
+    "address": "31-35 Coate St, London",
+    "postcode": "E2 9AG"
+  },
+  "starts_at": "2026-10-17T19:30:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Donations-based entry on a sliding scale; RSVP, pay on the night"
+  },
+  "ticket_url": "https://dice.fm/event/xe8kll-lotd-fundraiser-goodbye-newbuild-17th-oct-sebright-arms-london-tickets",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue"
+      ],
+      "url": "https://dice.fm/event/xe8kll-lotd-fundraiser-goodbye-newbuild-17th-oct-sebright-arms-london-tickets",
+      "quote": "LOTD Fundraiser: Goodbye + Newbuild Tickets | 17 Oct | Sebright Arms, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/xe8kll-lotd-fundraiser-goodbye-newbuild-17th-oct-sebright-arms-london-tickets",
+      "quote": "Sat 17 Oct, 7:30 pm",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/xe8kll-lotd-fundraiser-goodbye-newbuild-17th-oct-sebright-arms-london-tickets",
+      "quote": "\"name\":\"LOTD Fundraiser: Goodbye + Newbuild\",\"startDate\":\"2026-10-17T19:30:00+01:00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/xe8kll-lotd-fundraiser-goodbye-newbuild-17th-oct-sebright-arms-london-tickets",
+      "quote": "Donations-based entry on a sliding scale - just RSVP to secure your spot and pay on the night.",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/xe8kll-lotd-fundraiser-goodbye-newbuild-17th-oct-sebright-arms-london-tickets",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/xe8kll-lotd-fundraiser-goodbye-newbuild-17th-oct-sebright-arms-london-tickets",
+      "quote": "31-35 Coate St, London E2 9AG",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/xe8kll-lotd-fundraiser-goodbye-newbuild-17th-oct-sebright-arms-london-tickets",
+      "quote": "LOTD Fundraiser: Goodbye + Newbuild Tickets | 17 Oct | Sebright Arms, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "DICE lists two named sets (newbuild 8:30 pm, Goodbye 9:30 pm) in the event page's lineup block, not quoted, so lineup is empty. The event's embedded data gives an end of 23:00 but the page prints no end time, so ends_at is empty. Fundraiser for Goodbye & Newbuild's trip, per the About text."
+}

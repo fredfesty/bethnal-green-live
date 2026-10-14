@@ -1,0 +1,73 @@
+{
+  "id": "2026-10-30-queen-of-hoxton-so-fresh-so-clean-halloween",
+  "candidate_file": "data/candidates/nights-music/2026-10-14/2026-10-30-queen-of-hoxton-so-fresh-so-clean-halloween.json",
+  "run_id": "2026-10-14-v",
+  "verified_at": "2026-10-14T12:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from a primary page.",
+    "Removed price: quote shows lowPrice and highPrice both 0.00, so is_free false ('from free') is not backed."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "age_restriction",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "unverifiable",
+      "url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Quote shows lowPrice and highPrice both 0.00, which does not back is_free false."
+    },
+    {
+      "field": "genres",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/ryoe7q-so-fresh-so-clean-halloween-30th-oct-queen-of-hoxton-london-tickets",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

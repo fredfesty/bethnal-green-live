@@ -1,0 +1,124 @@
+{
+  "id": "2026-09-04-young-va-sound-explorers-sept-oct-2026",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T09:30:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Sound Explorers (Sept-Oct 2026)",
+  "summary": "A free, informal sound and music play session for babies and toddlers and their adults at Young V&A, on Thursdays and Fridays until late October.",
+  "venue": {
+    "venue_id": "young-va",
+    "name": "Young V&A",
+    "address": "Cambridge Heath Road, Bethnal Green, London E2 9PA",
+    "postcode": "E2 9PA"
+  },
+  "starts_at": "2026-09-04",
+  "ends_at": "2026-10-23",
+  "recurrence": null,
+  "run_schedule": "Thursdays and Fridays at 10.30 (10.30 – 11.15)",
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Printed as 'Free event'. Drop-in: 'Spaces are limited, so attendance will be on a first come, first served basis.'"
+  },
+  "ticket_url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+  "age_restriction": "children aged 0-2",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+      "quote": "Sound Explorers (Sept-Oct 2026) - Drop-in at",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+      "quote": "2026-09-04 11:30:00 +0100",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ends_at"
+      ],
+      "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+      "quote": "On now until Friday, 23 October 2026",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+      "quote": "Cambridge Heath Road",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "run_schedule"
+      ],
+      "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+      "quote": "Sessions take place on Thursdays and Fridays at 10.30 and lasts for roughly 40 minutes.",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "run_schedule"
+      ],
+      "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+      "quote": "10.30 – 11.15",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+      "quote": "Free, informal session for families with children aged 0-2",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+      "quote": "Free event",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.vam.ac.uk/event/Znv9amob1v/sound-explorers-sept-oct-2026",
+      "quote": "Spaces are limited, so attendance will be on a first come, first served basis.",
+      "retrieved_at": "2026-10-14T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Run record, opening 4 Sep 2026 and closing 23 Oct 2026 (JSON-LD). Times on the page are 10.30 – 11.15 (the page also says 'lasts for roughly 40 minutes'). Booking: drop-in, first come first served; 'This session is not intended for group attendance.'"
+}

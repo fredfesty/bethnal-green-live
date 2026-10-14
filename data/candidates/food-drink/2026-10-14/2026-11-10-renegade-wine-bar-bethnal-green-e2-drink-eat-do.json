@@ -1,0 +1,84 @@
+{
+  "id": "2026-11-10-renegade-wine-bar-bethnal-green-e2-drink-eat-do",
+  "scout": {
+    "name": "food-drink",
+    "run_id": "2026-10-14-a"
+  },
+  "found_at": "2026-10-14T06:25:00+01:00",
+  "category": "food-drink",
+  "subcategory": "other",
+  "title": "E2 Drink, Eat, Do",
+  "summary": "An evening at Renegade's Bethnal Green wine bar where guests paint their own ceramic cheese board with a glass of wine in hand. Listed on the venue's E2 events page.",
+  "venue": {
+    "venue_id": "renegade-wine-bar-bethnal-green",
+    "name": "Renegade Wine Bar",
+    "address": "Arch 12, Gales Gardens, E2 0EJ",
+    "postcode": "E2 0EJ"
+  },
+  "starts_at": "2026-11-10T19:00:00+00:00",
+  "ends_at": "2026-11-10T21:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 64.8,
+    "max_gbp": null,
+    "notes": "'from £64.80' on DesignMyNight (discovery listing only); no price on the venue's own page."
+  },
+  "ticket_url": "https://www.renegadelondonwine.com/events",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "subcategory",
+        "ticket_url"
+      ],
+      "url": "https://www.renegadelondonwine.com/events",
+      "quote": "E2 Drink, Eat, Do\n10 November 2026\nWine, cheese and a brush in hand: make a one-of-a-kind ceramic cheese board to keep or give this Christmas.",
+      "retrieved_at": "2026-10-14T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.renegadelondonwine.com/bethnalgreen",
+      "quote": "Wine Bar + Takeaway Shop\nArch 12, Gales Gardens, E2 0EJ",
+      "retrieved_at": "2026-10-14T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/renegade-wine-bar",
+      "quote": "Tue, 10th Nov 2026 @ 19:00 - 21:00",
+      "retrieved_at": "2026-10-14T06:20:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/renegade-wine-bar",
+      "quote": "Drink, Eat, Do\n(from £64.80",
+      "retrieved_at": "2026-10-14T06:20:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Date and title from Renegade's own E2 events page (primary). Time 19:00-21:00 and 'from £64.80' come only from DesignMyNight (discovery), so medium. Please check time and price on the venue or ticket page. Ceramic painting with wine may not fit food-drink: editor to decide. Offset +00:00 (after 25 Oct)."
+}

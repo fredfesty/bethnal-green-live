@@ -1,0 +1,48 @@
+{
+  "id": "2026-11-07-village-underground-dj-billybool-pitchfork-x-asian-paper-x-eastern-margins",
+  "candidate_file": "data/candidates/nights-music/2026-10-14/2026-11-07-village-underground-dj-billybool-pitchfork-x-asian-paper-x-eastern-margins.json",
+  "run_id": "2026-10-14-v",
+  "verified_at": "2026-10-14T12:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Venue not named in any quote; only a DICE venue-list entry, event page not read. Check https://dice.fm/venue/village-underground-wwop and find the event page."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-17-oslo-hackney-locomotive-disco-ft-sue-from-hr-disco-exotic",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Locomotive Disco ft Sue From HR (Disco Exotic)",
+  "venue": {
+    "venue_id": "oslo-hackney",
+    "name": "Oslo Hackney",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-17T21:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Sue From HR"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "lineup",
+        "starts_at"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "\"name\":\"Locomotive Disco ft Sue From HR (Disco Exotic)\",\"startDate\":\"2026-10-17T21:00:00+01:00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "Locomotive Disco ft Sue From HR (Disco Exotic)",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "\"name\":\"Oslo Hackney\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T12:00:00+01:00",
+    "run_id": "2026-10-14-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-14/2026-10-17-oslo-hackney-locomotive-disco-ft-sue-from-hr-disco-exotic.json"
+  },
+  "editor_note": "A disco night at Oslo Hackney with a named guest, Sue From HR, per its DICE listing.",
+  "listing": null,
+  "first_seen": "2026-10-14T12:00:00+01:00",
+  "updated_at": "2026-10-14T12:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

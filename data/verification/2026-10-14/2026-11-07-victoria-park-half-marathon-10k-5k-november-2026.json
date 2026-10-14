@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-07-victoria-park-half-marathon-10k-5k-november-2026",
+  "candidate_file": "data/candidates/health-wellness/2026-10-14/2026-11-07-victoria-park-half-marathon-10k-5k-november-2026.json",
+  "run_id": "2026-10-14-v",
+  "verified_at": "2026-10-14T12:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Start time 09:30 is the half marathon only (10k 10:00, 5k 11:15 per scout) and date and time quotes lack title nearby. Check https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "No confirmed quote."
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "age_restriction",
+      "result": "unverifiable",
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "No confirmed quote."
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

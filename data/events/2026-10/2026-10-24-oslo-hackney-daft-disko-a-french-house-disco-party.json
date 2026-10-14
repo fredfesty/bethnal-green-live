@@ -1,0 +1,115 @@
+{
+  "id": "2026-10-24-oslo-hackney-daft-disko-a-french-house-disco-party",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "DAFT DISKO [A FRENCH HOUSE & DISCO PARTY]",
+  "venue": {
+    "venue_id": "oslo-hackney",
+    "name": "Oslo Hackney",
+    "address": "1a Amhurst Road, Hackney, London",
+    "postcode": "E8 1LL"
+  },
+  "starts_at": "2026-10-24T23:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [
+    "French House",
+    "Disco"
+  ],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 11.33,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue"
+      ],
+      "url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+      "quote": "DAFT DISKO [A FRENCH HOUSE & DISCO PARTY] Tickets | 24 Oct | Oslo Hackney, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+      "quote": "Sat 24 Oct, 11:00 pm",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "\"name\":\"DAFT DISKO [A FRENCH HOUSE & DISCO PARTY]\",\"startDate\":\"2026-10-24T23:00:00+01:00\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+      "quote": "\"lowPrice\":\"11.33\",\"highPrice\":\"11.33\"",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres",
+        "subcategory"
+      ],
+      "url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+      "quote": "Join us for the return of Daft Disko - a night of French House and Disco",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+      "quote": "1a Amhurst Road, Hackney, London, E8 1LL, United Kingdom",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/xe3wql-daft-disko-a-french-house-disco-party-24th-oct-oslo-hackney-london-tickets",
+      "quote": "DAFT DISKO [A FRENCH HOUSE & DISCO PARTY] Tickets | 24 Oct | Oslo Hackney, London | DICE",
+      "retrieved_at": "2026-10-14T06:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-14T12:00:00+01:00",
+    "run_id": "2026-10-14-v",
+    "outcome": "verified-with-gaps",
+    "removed_fields": [
+      "age_restriction"
+    ],
+    "record": "data/verification/2026-10-14/2026-10-24-oslo-hackney-daft-disko-a-french-house-disco-party.json"
+  },
+  "editor_note": "The return of Daft Disko, a French house and disco night, on a Saturday late.",
+  "listing": null,
+  "first_seen": "2026-10-14T12:00:00+01:00",
+  "updated_at": "2026-10-14T12:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}
