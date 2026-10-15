@@ -1,4 +1,4 @@
-> **About this file.** This is the original plan for Bethnal Green Live, written on 12 October 2026 and kept for its vision, sources table and open questions. Much has been built since, and some of it differently (six scouts, not four; a weekly venue run; the newsletter on Wednesdays). Where this and the rest of the repository disagree, the repository wins: see `README.md`, `CLAUDE.md`, `routines/` and `docs/decisions.md`.
+> **About this file.** This is the original plan for Bethnal Green Live, written on 12 October 2026 and kept for its vision, sources table and open questions. Much has been built since, and some of it differently (six scouts, not four; a weekly venue run; the newsletter made on Wednesdays and sent on Thursdays). Where this and the rest of the repository disagree, the repository wins: see `README.md`, `CLAUDE.md`, `routines/` and `docs/decisions.md`.
 
 # Bethnal Green Live — Blueprint
 
@@ -50,12 +50,7 @@ The agents run as **Claude Code routines** on Fred's Max subscription. That is t
 - Runs draw on the Max plan's usage limits like interactive sessions do. Limits: 100 scheduled runs an hour per account.
 - The default network allowlist can't reach venue websites. Scouts need a custom environment with wider network access.
 
-**The boundary** ([legal and compliance](https://code.claude.com/docs/en/legal-and-compliance.md)):
-
-- Subscription logins are for our own use of Claude Code. Products and services that call Claude for other people must use an API key.
-- So the AI works behind the scenes and writes files. Visitors only ever see static pages. No "ask our AI" box on the site.
-- Max limits "assume ordinary, individual usage". We keep runs lean: plain code reads structured data (event markup, calendar feeds, APIs) and Claude handles judgement and writing.
-- If Bethnal Green Live becomes a paid business, budget for an API key for the heavy jobs. Not legal advice; read the terms.
+**The boundary:** the AI works behind the scenes and writes files; visitors only ever see static pages, and the website never calls Claude.
 
 ## Architecture
 
@@ -185,7 +180,6 @@ These shape the build; the first three are needed before Phase 1 ends.
 - [ ] **Newsletter platform:** Buttondown (drafts by API) or Substack (what Cat uses, no API)?
 - [ ] **Auto-publish:** when, if ever, do high-confidence listings go live without a person merging?
 - [ ] **Money:** free with supporters like Peckham.Live, local sponsors, or both? If it becomes a business, move heavy jobs to an API key.
-- [ ] **Cat:** ask whether she'll share her source list and process, or even pieces of tooling.
 
 ## Status
 
@@ -223,4 +217,3 @@ The repo is public at github.com/fredfesty/bethnal-green-live with the data form
 - [The Pickle Factory closure (DJ Mag)](https://djmag.com/news/pickle-factory-shut-its-first-incarnation-after-nine-years-unveils-final-season-line)
 - [The Glory closure (PinkNews)](https://thepinknews.com/2023/12/06/beloved-east-london-queer-venue-the-glory-announces-closure)
 - [The Joiner's Heart opening (London The Inside)](https://londontheinside.com/the-joiners-arms-has-a-new-lgbtqia-venue-in-hackney/)
-- Peckham.Live issue "What's on in SE15 · 8–14 Oct 2026" (PDF in the project folder)

@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Print a scheduled run's instructions: the fenced block under "## Prompt" in routines/<name>.md.
+"""Print a scheduled run's instructions: the fenced block in the "## Prompt" section of routines/<name>.md.
 
-The scheduled tasks in Fred's Claude account hold only a short launcher. On every run the launcher
-clones this repository and runs this script, then follows what it prints, so the copy in routines/
-is the one that runs.
+The scheduled tasks in Fred's Claude account hold only a short launcher (docs/scheduled-tasks.md).
+On every run the launcher clones this repository, runs this script and follows what it prints, so
+the copy in routines/ is the one that runs. Because a run does whatever is printed, anything unclear
+is an error rather than a guess: no Prompt section, more than one, or no fenced block inside it.
 
     python3 scripts/routine_prompt.py morning-run
     python3 scripts/routine_prompt.py --list
@@ -18,24 +19,63 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 ROUTINES = REPO / "routines"
 NAME = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
-PROMPT = re.compile(r"^## Prompt\b[^\n]*\n.*?^```[^\n]*\n(.*?)^```[ \t]*$", re.S | re.M)
+HEADING = re.compile(r"^## (.*)$", re.M)                      # level-2 headings split a file into sections
+PROMPT_HEADING = re.compile(r"Prompt(?:\s*\(.*\))?\s*")       # "## Prompt" or "## Prompt (what the task runs)"
+OPEN_FENCE = re.compile(r"^ {0,3}(`{3,}|~{3,})[^\n`]*$")
 
 
 def routine_names(folder=ROUTINES):
-    return sorted(p.stem for p in Path(folder).glob("*.md"))
+    """Routine files: every routines/*.md that has a Prompt section."""
+    names = []
+    for path in sorted(Path(folder).glob("*.md")):
+        try:
+            _prompt_section(path.read_text(encoding="utf-8-sig"), path.name)
+        except ValueError:
+            continue
+        names.append(path.stem)
+    return names
+
+
+def _prompt_section(text, filename):
+    text = text.replace("\r\n", "\n")
+    headings = list(HEADING.finditer(text))
+    found = [i for i, h in enumerate(headings) if PROMPT_HEADING.fullmatch(h.group(1).strip())]
+    if not found:
+        raise ValueError(f"{filename} has no '## Prompt' section")
+    if len(found) > 1:
+        raise ValueError(f"{filename} has {len(found)} '## Prompt' sections; there must be exactly one")
+    i = found[0]
+    end = headings[i + 1].start() if i + 1 < len(headings) else len(text)
+    return text[headings[i].end():end]
+
+
+def _first_fenced_block(section, filename):
+    lines = section.split("\n")
+    for start, line in enumerate(lines):
+        opening = OPEN_FENCE.match(line)
+        if not opening:
+            continue
+        fence = opening.group(1)
+        closing = re.compile(rf"^ {{0,3}}{re.escape(fence[0])}{{{len(fence)},}}[ \t]*$")
+        for stop in range(start + 1, len(lines)):
+            if closing.match(lines[stop]):
+                return "\n".join(lines[start + 1:stop])
+        raise ValueError(f"{filename}: the fenced block in its Prompt section is never closed")
+    raise ValueError(f"{filename}: its Prompt section has no fenced block")
 
 
 def prompt(name, folder=ROUTINES):
     """The prompt block of routines/<name>.md, or raise ValueError saying what is wrong."""
-    if not NAME.fullmatch(name or ""):
+    if not isinstance(name, str) or not NAME.fullmatch(name):
         raise ValueError(f"not a routine name: {name!r} (lowercase letters, digits and hyphens only)")
     path = Path(folder) / f"{name}.md"
     if not path.is_file():
         raise ValueError(f"no such routine: routines/{name}.md")
-    match = PROMPT.search(path.read_text(encoding="utf-8"))
-    if not match or not match.group(1).strip():
-        raise ValueError(f"{path.name} has no '## Prompt' section with a fenced block under it")
-    return match.group(1).strip() + "\n"
+    section = _prompt_section(path.read_text(encoding="utf-8-sig"), path.name)
+    block = _first_fenced_block(section, path.name).strip()
+    if not block:
+        raise ValueError(f"{path.name}: the fenced block in its Prompt section is empty")
+    return block + "\n"
 
 
 def main(argv=None):
@@ -49,10 +89,14 @@ def main(argv=None):
     if not args.name:
         parser.error("give a routine name, or --list")
     try:
-        sys.stdout.write(prompt(args.name))
+        text = prompt(args.name)
     except ValueError as err:
         print(f"routine_prompt: {err}", file=sys.stderr)
         return 1
+    # Write UTF-8 bytes whatever the terminal's encoding, so a dash or a pound sign can't crash a run.
+    sys.stdout.flush()
+    sys.stdout.buffer.write(text.encode("utf-8"))
+    sys.stdout.buffer.flush()
     return 0
 
 

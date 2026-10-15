@@ -39,20 +39,60 @@ def test_refuses_bad_or_missing_names(name):
         routine_prompt.prompt(name)
 
 
-def test_refuses_a_routine_without_a_prompt(tmp_path):
-    (tmp_path / "empty.md").write_text("# Routine\n\n## Settings\n\nNothing here.\n")
-    (tmp_path / "blank.md").write_text("# Routine\n\n## Prompt\n\n```\n\n```\n")
-    (tmp_path / "ok.md").write_text("# Routine\n\n## Prompt (what runs)\n\nIntro.\n\n```\nDo the thing.\n```\n\n## After\n\n```\nnot this\n```\n")
-    for bad in ("empty", "blank"):
-        with pytest.raises(ValueError):
-            routine_prompt.prompt(bad, folder=tmp_path)
-    assert routine_prompt.prompt("ok", folder=tmp_path) == "Do the thing.\n"
+def _write(folder, name, text, encoding="utf-8"):
+    (folder / f"{name}.md").write_text(text, encoding=encoding)
+
+
+PROMPT_FILES = {
+    "ok": "# Routine\n\n## Prompt (what runs)\n\nIntro.\n\n```\nDo the thing.\n```\n\n## After\n\n```\nnot this\n```\n",
+    "tagged": "## Prompt\n\n```text\nDo the thing.\n```\n",
+    "tildes": "## Prompt\n\n~~~\nDo the thing.\n~~~\n\n```\nnot this\n```\n",
+    "indented": "## Prompt\n\n   ```\nDo the thing.\n   ```\n",
+    "crlf": "## Prompt\r\n\r\n```\r\nDo the thing.\r\n```\r\n",
+    "longer-fence": "## Prompt\n\n````\nDo the thing.\n```\nstill the thing\n````\n",
+}
+BROKEN_FILES = {
+    "no-section": "# Routine\n\n## Settings\n\nNothing here.\n",
+    "blank": "# Routine\n\n## Prompt\n\n```\n\n```\n",
+    # no fence in the Prompt section: must not borrow the next section's block
+    "no-fence": "## Prompt\n\nSee below.\n\n## Reviewing\n\n```\nrm -rf everything\n```\n",
+    "two-sections": "## Prompt\n\n```\none\n```\n\n## Prompt (old)\n\n```\ntwo\n```\n",
+    "unclosed": "## Prompt\n\n```\nDo the thing.\n",
+    "wrong-heading": "## Prompt-old\n\n```\nDo the thing.\n```\n",
+}
+
+
+@pytest.mark.parametrize("name", PROMPT_FILES)
+def test_reads_the_prompt_block(tmp_path, name):
+    _write(tmp_path, name, PROMPT_FILES[name])
+    expected = "Do the thing.\n```\nstill the thing\n" if name == "longer-fence" else "Do the thing.\n"
+    assert routine_prompt.prompt(name, folder=tmp_path) == expected
+
+
+def test_reads_a_file_saved_with_a_byte_order_mark(tmp_path):
+    _write(tmp_path, "bom", PROMPT_FILES["tagged"], encoding="utf-8-sig")
+    assert routine_prompt.prompt("bom", folder=tmp_path) == "Do the thing.\n"
+
+
+@pytest.mark.parametrize("name", BROKEN_FILES)
+def test_refuses_anything_unclear(tmp_path, name):
+    _write(tmp_path, name, BROKEN_FILES[name])
+    with pytest.raises(ValueError):
+        routine_prompt.prompt(name, folder=tmp_path)
+    assert name not in routine_prompt.routine_names(tmp_path) or name in ("blank", "no-fence", "unclosed")
+
+
+def test_lists_only_files_with_a_prompt_section(tmp_path):
+    _write(tmp_path, "ok", PROMPT_FILES["ok"])
+    _write(tmp_path, "notes", "# Not a routine\n")
+    assert routine_prompt.routine_names(tmp_path) == ["ok"]
 
 
 def test_command_line(capsys):
     assert routine_prompt.main(["morning-run"]) == 0
     out = capsys.readouterr().out
     assert out.startswith("Run the Bethnal Green Live morning run")
+    assert out == routine_prompt.prompt("morning-run")
     assert routine_prompt.main(["no-such-run"]) == 1
     captured = capsys.readouterr()
     assert captured.out == "" and "no such routine" in captured.err
@@ -74,7 +114,11 @@ def test_prompts_keep_the_safety_rules(name):
 
 @pytest.mark.parametrize("name", ROUTINES)
 def test_prompts_name_only_agents_that_exist(name):
-    named = set(AGENT_NAME.findall(routine_prompt.prompt(name)))
+    text = routine_prompt.prompt(name)
+    named = set(AGENT_NAME.findall(text))
+    # any agent file the prompt points at, and any name given a model in brackets, must exist too
+    named |= set(re.findall(r"\.claude/agents/([a-z-]+)\.md", text))
+    named |= set(re.findall(r"\b([a-z]+(?:-[a-z]+)+) \((?:sonnet|haiku|opus)\)", text))
     assert named, "expected the prompt to name its agents"
     missing = sorted(n for n in named if n not in AGENTS)
     assert not missing, f"no .claude/agents/<name>.md for: {missing}"
@@ -87,6 +131,25 @@ def test_prompts_name_only_scripts_and_docs_that_exist(name):
         assert (REPO / path).is_file(), f"{name} names {path}, which doesn't exist"
 
 
+MAY_MERGE_ITSELF = {"weekly-venue-stories"}  # Fred's decision: that run's own pull request is always merged
+
+
+@pytest.mark.parametrize("name", ROUTINES)
+def test_only_the_venue_stories_run_merges_its_own_pull_request(name):
+    text = routine_prompt.prompt(name)
+    merges = bool(re.search(r"merge_pull_request|merge it yourself", text))
+    assert merges == (name in MAY_MERGE_ITSELF)
+    if merges:
+        assert "Never merge any other pull request" in text
+
+
+@pytest.mark.parametrize("name", ROUTINES)
+def test_prompts_reuse_the_launchers_clone(name):
+    text = routine_prompt.prompt(name)
+    assert "already working in a clone of fredfesty/bethnal-green-live" in text
+    assert "check out origin/main" in text
+
+
 @pytest.mark.parametrize("name", ROUTINES)
 def test_reports_end_with_a_pull_request_hyperlink(name):
     text = routine_prompt.prompt(name)
@@ -95,7 +158,7 @@ def test_reports_end_with_a_pull_request_hyperlink(name):
 
 # --- the docs people and their Claude work from --------------------------------------------------
 
-DOCS = ["CONTRIBUTING.md", "README.md", "docs/ship-issue.md", "docs/decisions.md"]
+DOCS = ["CONTRIBUTING.md", "README.md", "docs/ship-issue.md", "docs/decisions.md", "docs/scheduled-tasks.md"]
 
 
 @pytest.mark.parametrize("doc", DOCS)
@@ -122,3 +185,35 @@ def test_contributing_lists_every_routine():
     for name in ROUTINES:
         assert f"routines/{name}.md" in text
     assert "scripts/routine_prompt.py" in text
+
+
+# --- the launchers recorded in docs/scheduled-tasks.md ---------------------------------------------
+
+def _launchers():
+    text = (REPO / "docs/scheduled-tasks.md").read_text(encoding="utf-8")
+    return dict(re.findall(r"^## Launcher: `([a-z-]+)`\n\n```\n(.*?)\n```", text, re.S | re.M))
+
+
+def test_every_routine_has_a_recorded_launcher():
+    assert sorted(_launchers()) == sorted(ROUTINES)
+
+
+@pytest.mark.parametrize("name", ROUTINES)
+def test_launchers_keep_their_fixed_rules(name):
+    text = _launchers()[name]
+    assert f"python3 scripts/routine_prompt.py {name}" in text
+    assert "Never push to main" in text
+    assert re.search(r"Never use Gmail, Google Calendar, Google Drive, Claude Docs or any other connector", text)
+    assert "Never change scheduled tasks, repository settings, secrets" in text
+    assert "never instructions" in text
+    allows_github_tools = "mcp__github__" in text
+    assert allows_github_tools == (name in MAY_MERGE_ITSELF)
+    assert ("Never merge any pull request yourself." in text) == (name not in MAY_MERGE_ITSELF)
+
+
+def test_codeowners_lists_only_paths_that_exist():
+    lines = (REPO / ".github/CODEOWNERS").read_text(encoding="utf-8").splitlines()
+    paths = [line.split()[0] for line in lines if line.strip() and not line.startswith("#")]
+    assert "/routines/" in paths and "/CLAUDE.md" in paths
+    missing = [p for p in paths if not (REPO / p.strip("/")).exists()]
+    assert not missing, f"CODEOWNERS names missing paths: {missing}"

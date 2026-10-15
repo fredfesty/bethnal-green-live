@@ -19,7 +19,7 @@ sources ──► scouts ──► data/candidates ──► verifier ──► 
 1. **Scouts** (one per category) find events and save each as a *candidate*, with a word-for-word quote and link for every fact.
 2. The **verifier** re-opens every cited page, confirms each quote and what it says, and decides: publish, hold for a person, or reject. Every decision is saved in `data/verification/`.
 3. Published events land in `data/events/YYYY-MM/`. The website and newsletter read only from there. The **listing writer** then adds a line or two in our own words to each one, built only from its checked facts.
-4. Everything arrives as a **pull request**. A person merges it. CI re-checks every file first.
+4. Everything arrives as a **pull request**. GitHub re-checks every file first, then merges it while auto-merge is on (otherwise a person does).
 5. Once a week the **newsletter editor** lays out Thursday's issue from those events, and the **intro writer** adds Fred's letter. Fred reads it in the pull request and sends it from Buttondown.
 
 The events agents run every morning as a Claude scheduled task; settings and prompt in [`routines/morning-run.md`](routines/morning-run.md). On Sundays a second run looks for new venues and refreshes the venue guide: [`routines/weekly-venues.md`](routines/weekly-venues.md), explained in [`docs/venue-run.md`](docs/venue-run.md). GitHub then re-checks the work, opens the pull request and, while the `AUTO_MERGE` repository variable is `true`, merges it and republishes the site. Rules every agent follows: [`CLAUDE.md`](CLAUDE.md).
@@ -43,7 +43,7 @@ The events agents run every morning as a Claude scheduled task; settings and pro
 | `data/runs/` | Each run's report for a person |
 | `data/inbox/tips/` | Reader tips waiting to be checked |
 | `scripts/` | `validate.py` (format and house rules), `check_quote.py` (quote checker), `page_text.py` (a page's exact text for quoting), `budget.py` (the hard limits on pages and web searches per run), `newsletter.py` (the week's events, rendering, Buttondown drafts) |
-| `tests/` | Tests for both scripts |
+| `tests/` | Tests for the scripts, and for the docs and routine prompts staying consistent |
 | `routines/` | Scheduled-run prompts and settings: `morning-run.md`, `weekly-venues.md`, `weekly-venue-stories.md`, `weekly-newsletter.md`. The scheduled tasks read their instructions from here on every run (`scripts/routine_prompt.py`) |
 | `docs/examples/` | Example event record and venue profile |
 | `site/` | The website: listings with search and filters, calendar, event pages, calendar feeds, newsletter sign-up |

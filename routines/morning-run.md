@@ -24,7 +24,7 @@ Every morning one scheduled run finds new events (six scouts on Haiku: club & DJ
 
 ## Prompt (what the scheduled task runs)
 
-This block is the run's instructions, and the copy here is the one that runs: the scheduled task in Fred's Claude account holds only a short launcher with fixed safety rules, and on every run it prints this block from `main` (`python3 scripts/routine_prompt.py morning-run`) and follows it. So a change merged here changes the next run. How the launcher works: [`CONTRIBUTING.md`](../CONTRIBUTING.md#the-scheduled-runs).
+This block is the run's instructions, and the copy here is the one that runs: the scheduled task in Fred's Claude account holds only a short launcher with fixed safety rules, and on every run it prints this block from `main` (`python3 scripts/routine_prompt.py morning-run`) and follows it. So a change merged here changes the next run. The launcher's exact text and fixed rules: [`docs/scheduled-tasks.md`](../docs/scheduled-tasks.md). Changes here wait for Fred (`CONTRIBUTING.md`).
 
 ```
 Run the Bethnal Green Live morning run for Fred Festy. Bethnal Green Live is a free what's-on website for Bethnal Green, London E2 (https://fredfesty.github.io/bethnal-green-live/). The run date is today's date in Europe/London (check with: TZ=Europe/London date +%F). Work unattended; nobody is watching. Accuracy beats coverage: never invent or "fix" a fact.
@@ -34,7 +34,7 @@ BOUNDARIES: Use only the shell, the web tools, subagents and the add_repo tool. 
 HARD LIMITS ON EXTERNAL SITES (we must not upset anyone): every agent fetches at most 20 pages per website (domain) per run, and makes at most 5 web searches. The two nights scouts (nights-clubs and nights-gigs) share ONE allowance of 20 pages per website between them, with dice.fm split 14 and 6. These are hard limits, not guidelines: when a limit is reached, stop using that site, say in the run report what was skipped, and move on. Stop at once on a 403, 429 or robots.txt refusal. The scouts' limits are enforced by scripts: they read every page with scripts/page_text.py --as <scout name>, re-check quotes with scripts/check_quote.py --as <scout name>, ask scripts/budget.py search --as <scout name> before each web search, and never use WebFetch. The verifier and the event storytellers are counted the same way (step 4 and step 4c say how). Tell every scout, the verifier and every storyteller these limits explicitly.
 
 SETUP
-1. Attach the GitHub repository fredfesty/bethnal-green-live with push access using the add_repo tool if it is available, then clone it exactly as that tool's result says. If add_repo is not available but the repository is already cloned (for example at /home/claude/bethnal-green-live, with an origin remote for fredfesty/bethnal-green-live), work in that clone: run git fetch origin first. Work inside the clone. Then run:
+1. If you are already working in a clone of fredfesty/bethnal-green-live (the scheduled task's launcher makes one), run git fetch origin and check out origin/main there, and work in it. Otherwise attach the GitHub repository fredfesty/bethnal-green-live with push access using the add_repo tool, clone it exactly as that tool's result says, and work inside the clone. Then run:
    pip install --break-system-packages -q -r requirements.txt
    git config user.name "Fred Festy"
    git config user.email "37367535+fredfesty@users.noreply.github.com"

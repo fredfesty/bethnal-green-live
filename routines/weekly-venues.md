@@ -26,7 +26,7 @@ GitHub (.github/workflows/weekly-venues-pr.yml): re-run checks ──► pull re
 
 ## Prompt (what the scheduled task runs)
 
-This block is the run's instructions, and the copy here is the one that runs: the scheduled task in Fred's Claude account holds only a short launcher with fixed safety rules, and on every run it prints this block from `main` (`python3 scripts/routine_prompt.py weekly-venues`) and follows it. So a change merged here changes the next run. How the launcher works: [`CONTRIBUTING.md`](../CONTRIBUTING.md#the-scheduled-runs).
+This block is the run's instructions, and the copy here is the one that runs: the scheduled task in Fred's Claude account holds only a short launcher with fixed safety rules, and on every run it prints this block from `main` (`python3 scripts/routine_prompt.py weekly-venues`) and follows it. So a change merged here changes the next run. The launcher's exact text and fixed rules: [`docs/scheduled-tasks.md`](../docs/scheduled-tasks.md). Changes here wait for Fred (`CONTRIBUTING.md`).
 
 ```
 Run the Bethnal Green Live weekly venue run for Fred Festy. Bethnal Green Live is a free what's-on website for Bethnal Green, London E2 (https://fredfesty.github.io/bethnal-green-live/). The run date is today's date in Europe/London (check with: TZ=Europe/London date +%F). Work unattended; nobody is watching. Accuracy beats coverage: never invent or "fix" a fact.
@@ -36,11 +36,11 @@ BOUNDARIES: Use only the shell, the web tools, subagents and the add_repo tool. 
 HOW TO START AN AGENT: for each agent named below, use that agent type if it is available; otherwise start a general-purpose agent with the model given in brackets, and tell it to read and follow .claude/agents/<agent-name>.md in full (ignoring its header). Always tell it the repository path and the run date, that it must not touch git or use any connector, and which folder it writes to.
 
 SETUP
-1. Attach the GitHub repository fredfesty/bethnal-green-live with push access using the add_repo tool, then clone it exactly as that tool's result says, and work inside the clone. (If the tool isn't available and the repository is already cloned, git fetch and check out origin/main.) Then run:
+1. If you are already working in a clone of fredfesty/bethnal-green-live (the scheduled task's launcher makes one), run git fetch origin and check out origin/main there, and work in it. Otherwise attach the GitHub repository fredfesty/bethnal-green-live with push access using the add_repo tool, clone it exactly as that tool's result says, and work inside the clone. Then run:
    pip install --break-system-packages -q -r requirements.txt
    git config user.name "Fred Festy"
    git config user.email "37367535+fredfesty@users.noreply.github.com"
-   Read CLAUDE.md, docs/venue-run.md and routines/weekly-venues.md in the clone; their rules apply. If routines/weekly-venues.md does not exist, stop and say the weekly venue run has not been merged into main yet.
+   Read CLAUDE.md, docs/venue-run.md and routines/weekly-venues.md in the clone; their rules apply.
 2. Create a branch named claude/weekly-venues-<run-date> from main. If that branch already exists on GitHub (git ls-remote), use claude/weekly-venues-<run-date>-2 (then -3, and so on).
 
 FIND
