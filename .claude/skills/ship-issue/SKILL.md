@@ -1,6 +1,6 @@
 ---
 name: ship-issue
-description: Ship a GitHub issue of this repository end to end (claim it, branch, change, unit tests, pull request, independent review, fixes, merge). Use when someone says "ship issue 42", "ship #42", "do issue 42" or "work on issue 42", or asks for any change to the code, docs or data by hand.
+description: 'Ship a GitHub issue of this repository end to end (claim it, branch, change, unit tests, pull request, independent review, fixes, merge). Use when someone says "ship issue 42", "ship #42", "do issue 42" or "work on issue 42", or asks for any change to the code, docs or data by hand.'
 ---
 
 # Ship an issue
@@ -17,7 +17,7 @@ The short version, so nothing gets skipped:
 5. Open the pull request with `Fixes #<n>`, and give the person its link as a markdown hyperlink.
 6. Two independent reviewers (code, and house rules) who haven't seen your reasoning; fix what they find.
 7. Merge `main` in and resolve conflicts if it moved on.
-8. Wait until the `validate` and `build` checks exist and have passed, then merge (not newsletter issues, nor anything labelled `needs-fred`).
+8. Wait until the `validate` and `build` checks exist and have passed, then merge. Not newsletter issues, nor anything labelled `needs-fred`; and changes to `.github/`, Fred's letter (`data/newsletter/voice.md`, `notes/`), his site settings (`site/src/site.config.mjs`) or one of his decisions get `needs-fred` and wait for him.
 9. Report in plain English, with the pull request's link.
 
 Product decisions to respect are in [`docs/decisions.md`](../../../docs/decisions.md); the house rules are in [`CLAUDE.md`](../../../CLAUDE.md).

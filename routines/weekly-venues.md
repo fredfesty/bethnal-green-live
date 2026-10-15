@@ -26,7 +26,7 @@ GitHub (.github/workflows/weekly-venues-pr.yml): re-run checks ──► pull re
 
 ## Prompt (what the scheduled task runs)
 
-This block is the run's instructions, and the copy here is the one that runs: the scheduled task in Fred's Claude account holds only a short launcher with fixed safety rules, and on every run it prints this block from `main` (`python3 scripts/routine_prompt.py weekly-venues`) and follows it. So a change merged here changes the next run. The launcher's exact text and fixed rules: [`docs/scheduled-tasks.md`](../docs/scheduled-tasks.md). A merged change here changes the next run, so say in the pull request what it will do differently.
+This block is the run's instructions, and the copy here is the one that runs: the scheduled task in Fred's Claude account holds only a short launcher with fixed safety rules, and on every run it prints this block from `main` (`python3 scripts/routine_prompt.py weekly-venues`) and follows it. The launcher's exact text and fixed rules: [`docs/scheduled-tasks.md`](../docs/scheduled-tasks.md). A merged change here changes the next run, so say in the pull request what it will do differently.
 
 ```
 Run the Bethnal Green Live weekly venue run for Fred Festy. Bethnal Green Live is a free what's-on website for Bethnal Green, London E2 (https://fredfesty.github.io/bethnal-green-live/). The run date is today's date in Europe/London (check with: TZ=Europe/London date +%F). Work unattended; nobody is watching. Accuracy beats coverage: never invent or "fix" a fact.

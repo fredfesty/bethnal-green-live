@@ -231,9 +231,18 @@ def test_ship_issue_skill_is_well_formed():
     text = (REPO / ".claude/skills/ship-issue/SKILL.md").read_text(encoding="utf-8")
     front = re.match(r"^---\n(.*?)\n---\n", text, re.S)
     assert front, "the skill needs a front-matter block"
+    # Without quotes, " #" starts a YAML comment and ": " breaks the line, cutting the description short.
+    for line in front.group(1).splitlines():
+        key, _, value = line.partition(": ")
+        if value and value[0] not in "'\"":
+            assert " #" not in value and ": " not in value, f"quote the {key} value"
     fields = dict(re.findall(r"^(\w+): (.+)$", front.group(1), re.M))
     assert fields.get("name") == "ship-issue"
-    assert "ship issue" in fields.get("description", "")
+    yaml = pytest.importorskip("yaml")
+    parsed = yaml.safe_load(front.group(1))
+    assert parsed["name"] == "ship-issue"
+    for phrase in ("ship issue 42", "do issue 42", "work on issue 42", "by hand"):
+        assert phrase in parsed["description"], phrase
     assert "docs/ship-issue.md" in text
     for target in re.findall(r"\]\(([^)]+)\)", text):
         assert (REPO / ".claude/skills/ship-issue" / target).resolve().is_file(), target
