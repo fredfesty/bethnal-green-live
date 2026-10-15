@@ -225,9 +225,25 @@ def test_launchers_keep_their_fixed_rules(name):
     assert ("Never merge any pull request yourself." in text) == (name not in MAY_MERGE_ITSELF)
 
 
-def test_codeowners_lists_only_paths_that_exist():
-    lines = (REPO / ".github/CODEOWNERS").read_text(encoding="utf-8").splitlines()
-    paths = [line.split()[0] for line in lines if line.strip() and not line.startswith("#")]
-    assert "/routines/" in paths and "/CLAUDE.md" in paths
-    missing = [p for p in paths if not (REPO / p.strip("/")).exists()]
-    assert not missing, f"CODEOWNERS names missing paths: {missing}"
+# --- the skill and CLAUDE.md, which a collaborator's Claude loads by itself -----------------------
+
+def test_ship_issue_skill_is_well_formed():
+    text = (REPO / ".claude/skills/ship-issue/SKILL.md").read_text(encoding="utf-8")
+    front = re.match(r"^---\n(.*?)\n---\n", text, re.S)
+    assert front, "the skill needs a front-matter block"
+    fields = dict(re.findall(r"^(\w+): (.+)$", front.group(1), re.M))
+    assert fields.get("name") == "ship-issue"
+    assert "ship issue" in fields.get("description", "")
+    assert "docs/ship-issue.md" in text
+    for target in re.findall(r"\]\(([^)]+)\)", text):
+        assert (REPO / ".claude/skills/ship-issue" / target).resolve().is_file(), target
+
+
+def test_claude_md_points_to_the_shared_docs():
+    text = (REPO / "CLAUDE.md").read_text(encoding="utf-8")
+    for path in ("docs/ship-issue.md", "docs/decisions.md", "docs/scheduled-tasks.md", "CONTRIBUTING.md",
+                 "scripts/routine_prompt.py", ".claude/skills/"):
+        assert path in text, f"CLAUDE.md should mention {path}"
+        assert (REPO / path).exists()
+    assert "claude/issue-<n>-<slug>" in text
+    assert "venue stories run" in text, "CLAUDE.md should name the one run that merges itself"

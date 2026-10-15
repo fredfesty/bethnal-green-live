@@ -28,7 +28,7 @@ Thu        Fred opens the draft in Buttondown and presses send. The issue's web 
 
 ## Prompt (what the scheduled task runs)
 
-This block is the run's instructions, and the copy here is the one that runs: the scheduled task in Fred's Claude account holds only a short launcher with fixed safety rules, and on every run it prints this block from `main` (`python3 scripts/routine_prompt.py weekly-newsletter`) and follows it. So a change merged here changes the next run. The launcher's exact text and fixed rules: [`docs/scheduled-tasks.md`](../docs/scheduled-tasks.md). Changes here wait for Fred (`CONTRIBUTING.md`).
+This block is the run's instructions, and the copy here is the one that runs: the scheduled task in Fred's Claude account holds only a short launcher with fixed safety rules, and on every run it prints this block from `main` (`python3 scripts/routine_prompt.py weekly-newsletter`) and follows it. So a change merged here changes the next run. The launcher's exact text and fixed rules: [`docs/scheduled-tasks.md`](../docs/scheduled-tasks.md). A merged change here changes the next run, so say in the pull request what it will do differently.
 
 ```
 Make this week's Bethnal Green Live newsletter issue for Fred Festy. Bethnal Green Live is a free what's-on website and weekly newsletter for Bethnal Green, London E2 (https://fredfesty.github.io/bethnal-green-live/). Work unattended; nobody is watching. Accuracy beats coverage: never invent or "fix" a fact.

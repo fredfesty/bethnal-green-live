@@ -2,11 +2,19 @@
 
 Bethnal Green Live is a free listings website and weekly newsletter for things to do around Bethnal Green, London E2. Claude agents find, check and draft the listings; people approve what goes out. Readers will only trust it if it is never wrong, so **accuracy beats coverage, every time**.
 
+## Working on the project
+
+Anyone with write access works on it with their own Claude, the same way (`CONTRIBUTING.md`):
+
+- **Any change by hand** ("ship issue 42", or a change someone asks for) follows `docs/ship-issue.md` from start to finish: issue, branch, change, tests, pull request, independent review, fixes, merge. The `ship-issue` skill in `.claude/skills/` points there.
+- **Product decisions** Fred has made are in `docs/decisions.md`. Follow them; to change one, ask Fred in an issue.
+- **The scheduled runs** read their instructions from `routines/` on `main` (`docs/scheduled-tasks.md`), so a merged change to a routine changes the next run.
+
 ## The non-negotiables
 
 1. **Never invent a fact.** Every date, time, price, venue, line-up, age limit or status in `data/` must be backed by a word-for-word quote from a page, with its URL. If you can't quote it, leave the field empty.
-2. **Stay in your lane.** Each agent writes only to its own paths (table below). Nobody but a person edits `data/sources/`; agents suggest changes in their run report.
-3. **Never push to `main`, never merge.** Inside a routine, only the routine's main session uses git: it pushes one `claude/<routine>-<date>` branch. Subagents never touch git. Merging is done by GitHub (`.github/workflows/morning-run-pr.yml`, only when the `AUTO_MERGE` variable is on and every check passes) or by a person. Working by hand, use a `claude/<agent>-<date>` branch; Fred has asked that Claude then opens the pull request and merges it itself once every check on it has passed (this does not apply to the scheduled runs, which merge only through their workflows, or to newsletter issues, which Fred reads first).
+2. **Stay in your lane.** Each agent writes only to its own paths (table below). Nobody but a person edits `data/sources/` (or Claude working by hand at a person's request); agents suggest changes in their run report.
+3. **Never push to `main`; merge only as these rules say.** Inside a routine, only the routine's main session uses git: it pushes one `claude/<routine>-<date>` branch. Subagents never touch git. A run's pull request is merged by GitHub (its workflow, only while the `AUTO_MERGE` variable is on and every check passes); the one exception is the venue stories run, which also merges its own pull request once every check has passed, because Fred wants it always merged. Working by hand, follow `docs/ship-issue.md`: a `claude/issue-<n>-<slug>` branch (never a scheduled run's branch name), and Claude merges the pull request itself once every check on it has passed, except newsletter issues, which Fred reads first, and anything labelled `needs-fred`.
 4. **Respect the web.** Obey robots.txt, never fetch ra.co, Instagram or Facebook, never log in anywhere, stop on 403/429. Never copy promo text or images. In the morning run, hard limits per agent: 20 pages per website and 5 web searches (`scripts/budget.py` enforces them for the scouts, the verifier and the event storytellers, who share 20 pages per website as a team; the venue storytellers on Sundays work the same way, with 8 searches each). Other runs follow their own routine's limits.
 5. **Run the checks before finishing**, and never weaken a record just to make a check pass.
 
@@ -49,8 +57,9 @@ Bethnal Green Live is a free listings website and weekly newsletter for things t
 - `story` in an event file — the longer read under "The story" on its page (who's on, where the night or series comes from, this time, what it's like, worth knowing), each part quoted in `story.evidence` (kept apart from the verifier's `evidence`). `scripts/event_stories.py` picks up to 10 of the soonest events a day for the event storytellers; dates of one regular night share their research, and one that comes up short waits a week (`story_research.next_check`). The site shows a story only once the event story checker's `story.review` is newer than it. The verifier resets it when the title or line-up changes.
 - `data/runs/<agent>/<date>.md` — each run's report for a person.
 - `data/inbox/tips/` — reader tips waiting to be checked.
+- `docs/` — how things work: `ship-issue.md` (making any change), `decisions.md` (Fred's product decisions), `scheduled-tasks.md` (the scheduled tasks' launchers), `scout-rules.md`, `venue-run.md`, and `blueprint.md` (the original plan).
 - `scripts/validate.py` — format and house-rule checks. `scripts/check_quote.py` — re-fetches a page and looks for a quote. `scripts/page_text.py` — prints a page's exact text for quoting (scouts read pages with this, never with a summarising reader).
-- `routines/` — the prompts and settings for the scheduled runs: `morning-run.md` (daily events and event stories), `weekly-venues.md` (Sundays, venues), `weekly-venue-stories.md` (Sundays, venue stories) and `weekly-newsletter.md` (Wednesdays, the newsletter).
+- `routines/` — the prompts and settings for the scheduled runs (each scheduled task prints its run's prompt with `scripts/routine_prompt.py` and follows it; the tasks' launchers are in `docs/scheduled-tasks.md`): `morning-run.md` (daily events and event stories), `weekly-venues.md` (Sundays, venues), `weekly-venue-stories.md` (Sundays, venue stories) and `weekly-newsletter.md` (Wednesdays, the newsletter).
 - `site/` — the website (Astro). It reads `data/events/`, `data/sources/`, `data/venues/` and `data/newsletter/issues/` at build time; it never calls Claude or any AI service. `site/src/site.config.mjs` holds the settings a person decides (newsletter, corrections contact).
 - `_example` folders and `docs/examples/` — illustrative records, not real events.
 - A **run** (an exhibition, a theatre run, a special menu over several days) is one record: `starts_at` is the opening day, `ends_at` the closing day, `run_schedule` the opening times as printed.
@@ -91,6 +100,7 @@ python scripts/check_quote.py --file <files…>
 python scripts/page_text.py [--as <scout>] <url> [--find "words"]
 python scripts/budget.py search --as <scout> "<query>"
 python scripts/budget.py usage [--as <scout>] [--date <run-date>]
+python scripts/routine_prompt.py <routine>        # what a scheduled run will do
 python -m pytest -q
 (cd site && npm test)
 ```
