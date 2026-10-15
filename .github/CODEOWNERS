@@ -1,0 +1,16 @@
+# Files the scheduled runs read or execute on Fred's Claude account, or that hold his decisions.
+# Pull requests that touch them need Fred's review (see CONTRIBUTING.md and docs/ship-issue.md, step 8).
+/routines/                    @fredfesty
+/.claude/                     @fredfesty
+/CLAUDE.md                    @fredfesty
+/.github/                     @fredfesty
+/requirements.txt             @fredfesty
+/scripts/                     @fredfesty
+/tests/                       @fredfesty
+/site/package.json            @fredfesty
+/site/package-lock.json       @fredfesty
+/docs/decisions.md            @fredfesty
+/docs/scheduled-tasks.md      @fredfesty
+/data/newsletter/voice.md     @fredfesty
+/data/newsletter/notes/       @fredfesty
+/site/src/site.config.mjs     @fredfesty
