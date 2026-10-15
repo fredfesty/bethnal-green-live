@@ -2,7 +2,9 @@
 
 What's on around Bethnal Green, London E2: a listings website and a weekly newsletter, researched by Claude agents and checked by people. Inspired by Peckham.Live.
 
-**Status:** the data formats, the checking scripts, the daily events run (scouts for club & DJ nights, gigs & live music, arts, food & drink, community and health & wellness, and the verifier), the weekly venue run (three finders, three researchers, an editor and a checker), the venue profiler, the website (with its Venues guide) and the weekly newsletter (an AI editor that lays it out and an intro writer for Fred's letter) are in place. The listing writer adds a short description to every published event. Organiser profiles come next. See the blueprint doc in the Bethnal Green Live project for the full plan.
+**Status:** the data formats, the checking scripts, the daily events run (scouts for club & DJ nights, gigs & live music, arts, food & drink, community and health & wellness, and the verifier), the weekly venue run (three finders, three researchers, an editor and a checker), the venue profiler, the website (with its Venues guide) and the weekly newsletter (an AI editor that lays it out and an intro writer for Fred's letter) are in place. The listing writer adds a short description to every published event. Organiser profiles come next. The original plan is in [`docs/blueprint.md`](docs/blueprint.md), and the decisions made since in [`docs/decisions.md`](docs/decisions.md).
+
+**Want to help?** Everything the project runs on is in this repository. Read [`CONTRIBUTING.md`](CONTRIBUTING.md), then ask your Claude to "ship issue 42".
 
 ## How it works
 
@@ -28,6 +30,8 @@ The events agents run every morning as a Claude scheduled task; settings and pro
 | --- | --- |
 | `.claude/agents/` | Agent instructions: `scout-nights-clubs.md`, `scout-nights-gigs.md`, `scout-arts.md`, `scout-food-drink.md`, `scout-community.md`, `scout-health-wellness.md`, `verifier.md`, the weekly venue team (`venue-finder-*`, `venue-researcher-*`, `venue-editor`, `venue-checker`), `venue-profiler.md`, `listing-writer.md`, `newsletter-editor.md` and `newsletter-intro.md` |
 | `docs/scout-rules.md` | Rules every scout follows |
+| `docs/ship-issue.md` | How any change is made, from issue to merge |
+| `docs/decisions.md`, `docs/blueprint.md` | Fred's product decisions, and the original plan |
 | `schemas/` | Data formats: candidate, verification record, event, venue profile, shared parts |
 | `data/sources/` | Per-category venue and platform registry (zones, watchlist, closed venues) |
 | `data/candidates/` | Scout output, by category and run date |
@@ -40,7 +44,7 @@ The events agents run every morning as a Claude scheduled task; settings and pro
 | `data/inbox/tips/` | Reader tips waiting to be checked |
 | `scripts/` | `validate.py` (format and house rules), `check_quote.py` (quote checker), `page_text.py` (a page's exact text for quoting), `budget.py` (the hard limits on pages and web searches per run), `newsletter.py` (the week's events, rendering, Buttondown drafts) |
 | `tests/` | Tests for both scripts |
-| `routines/` | Scheduled-run prompts and settings: `morning-run.md`, `weekly-venues.md`, `weekly-newsletter.md` |
+| `routines/` | Scheduled-run prompts and settings: `morning-run.md`, `weekly-venues.md`, `weekly-venue-stories.md`, `weekly-newsletter.md`. The scheduled tasks read their instructions from here on every run (`scripts/routine_prompt.py`) |
 | `docs/examples/` | Example event record and venue profile |
 | `site/` | The website: listings with search and filters, calendar, event pages, calendar feeds, newsletter sign-up |
 

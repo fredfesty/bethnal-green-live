@@ -24,6 +24,8 @@ Every morning one scheduled run finds new events (six scouts on Haiku: club & DJ
 
 ## Prompt (what the scheduled task runs)
 
+This block is the run's instructions, and the copy here is the one that runs: the scheduled task in Fred's Claude account holds only a short launcher with fixed safety rules, and on every run it prints this block from `main` (`python3 scripts/routine_prompt.py morning-run`) and follows it. So a change merged here changes the next run. How the launcher works: [`CONTRIBUTING.md`](../CONTRIBUTING.md#the-scheduled-runs).
+
 ```
 Run the Bethnal Green Live morning run for Fred Festy. Bethnal Green Live is a free what's-on website for Bethnal Green, London E2 (https://fredfesty.github.io/bethnal-green-live/). The run date is today's date in Europe/London (check with: TZ=Europe/London date +%F). Work unattended; nobody is watching. Accuracy beats coverage: never invent or "fix" a fact.
 
