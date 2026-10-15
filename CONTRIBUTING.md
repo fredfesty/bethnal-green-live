@@ -49,7 +49,7 @@ Run reports go to Fred's phone. Each run's pull request carries its full report 
 - **Sending the newsletter.** A merged issue becomes a Buttondown draft; Fred reads it and presses send.
 - **The scheduled tasks themselves**: their timing, and turning them on or off. They run on his account.
 - **Repository settings, variables and secrets**: `AUTO_MERGE`, `NEWSLETTER_AUTO_MERGE`, `NEWSLETTER_TEST_TO`, `DEPLOY_SITE`, `SITE_URL`, `BUTTONDOWN_API_KEY`, GitHub Pages, collaborators; and `GOOGLE_MAPS_API_KEY`, which lives in the scheduled task's environment.
-- **Changes to the files that steer the runs or hold his decisions**: `routines/`, `.claude/`, `CLAUDE.md`, `.github/`, `requirements.txt`, `scripts/routine_prompt.py`, `scripts/budget.py`, `docs/decisions.md`, `docs/scheduled-tasks.md`, `site/src/site.config.mjs`. Pull requests that touch them get the `needs-fred` label and wait for him (`.github/CODEOWNERS` names him as their owner).
+- **Changes to the files the runs read or execute, or that hold his decisions**: `routines/`, `.claude/`, `CLAUDE.md`, `.github/`, `requirements.txt`, `scripts/`, `tests/`, `site/package.json`, `site/package-lock.json`, `docs/decisions.md`, `docs/scheduled-tasks.md`, `site/src/site.config.mjs`. Pull requests that touch them get the `needs-fred` label and wait for him (`.github/CODEOWNERS` names him as their owner).
 - **What his letter may say about him**: `data/newsletter/voice.md` and `data/newsletter/notes/`.
 - **Changing a decision** in `docs/decisions.md`: open an issue and ask him.
 

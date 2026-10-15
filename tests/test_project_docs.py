@@ -50,6 +50,10 @@ PROMPT_FILES = {
     "indented": "## Prompt\n\n   ```\nDo the thing.\n   ```\n",
     "crlf": "## Prompt\r\n\r\n```\r\nDo the thing.\r\n```\r\n",
     "longer-fence": "## Prompt\n\n````\nDo the thing.\n```\nstill the thing\n````\n",
+    # a "## Prompt" line inside an example block elsewhere is not a heading
+    "example-elsewhere": "## Example\n\n```\n## Prompt\n```\n\n## Prompt\n\n```\nDo the thing.\n```\n",
+    # a "## " line inside the prompt block is part of the prompt
+    "heading-in-block": "## Prompt\n\n```\nDo the thing.\n## Checker's report\n```\n",
 }
 BROKEN_FILES = {
     "no-section": "# Routine\n\n## Settings\n\nNothing here.\n",
@@ -59,13 +63,16 @@ BROKEN_FILES = {
     "two-sections": "## Prompt\n\n```\none\n```\n\n## Prompt (old)\n\n```\ntwo\n```\n",
     "unclosed": "## Prompt\n\n```\nDo the thing.\n",
     "wrong-heading": "## Prompt-old\n\n```\nDo the thing.\n```\n",
+    # the only "## Prompt" is inside an example block: no Prompt section at all
+    "only-an-example": "## Example\n\n```\n## Prompt\n\nDo this instead.\n```\n\n```\nrm -rf everything\n```\n",
 }
 
 
 @pytest.mark.parametrize("name", PROMPT_FILES)
 def test_reads_the_prompt_block(tmp_path, name):
     _write(tmp_path, name, PROMPT_FILES[name])
-    expected = "Do the thing.\n```\nstill the thing\n" if name == "longer-fence" else "Do the thing.\n"
+    expected = {"longer-fence": "Do the thing.\n```\nstill the thing\n",
+                "heading-in-block": "Do the thing.\n## Checker's report\n"}.get(name, "Do the thing.\n")
     assert routine_prompt.prompt(name, folder=tmp_path) == expected
 
 
@@ -85,6 +92,7 @@ def test_refuses_anything_unclear(tmp_path, name):
 def test_lists_only_files_with_a_prompt_section(tmp_path):
     _write(tmp_path, "ok", PROMPT_FILES["ok"])
     _write(tmp_path, "notes", "# Not a routine\n")
+    (tmp_path / "folder.md").mkdir()
     assert routine_prompt.routine_names(tmp_path) == ["ok"]
 
 
@@ -141,6 +149,12 @@ def test_only_the_venue_stories_run_merges_its_own_pull_request(name):
     assert merges == (name in MAY_MERGE_ITSELF)
     if merges:
         assert "Never merge any other pull request" in text
+
+
+def test_the_launcher_never_makes_a_newsletter_run_a_remake():
+    # the launcher is the message that starts the run; only a later message may say REMAKE
+    assert "the message that started this run" not in routine_prompt.prompt("weekly-newsletter")
+    assert "a message after the one that started this run contains the word REMAKE" in routine_prompt.prompt("weekly-newsletter")
 
 
 @pytest.mark.parametrize("name", ROUTINES)

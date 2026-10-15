@@ -28,25 +28,46 @@ def routine_names(folder=ROUTINES):
     """Routine files: every routines/*.md that has a Prompt section."""
     names = []
     for path in sorted(Path(folder).glob("*.md")):
+        if not path.is_file():
+            continue
         try:
             _prompt_section(path.read_text(encoding="utf-8-sig"), path.name)
-        except ValueError:
+        except (ValueError, OSError, UnicodeDecodeError):
             continue
         names.append(path.stem)
     return names
 
 
+def _headings(text):
+    """(title, start, end) for every level-2 heading that is not inside a fenced code block."""
+    found, fence, pos = [], None, 0
+    for line in text.split("\n"):
+        start, pos = pos, pos + len(line) + 1
+        if fence:
+            if re.match(rf"^ {{0,3}}{re.escape(fence[0])}{{{len(fence)},}}[ \t]*$", line):
+                fence = None
+            continue
+        opening = OPEN_FENCE.match(line)
+        if opening:
+            fence = opening.group(1)
+            continue
+        heading = HEADING.match(line)
+        if heading:
+            found.append((heading.group(1).strip(), start, start + len(line)))
+    return found
+
+
 def _prompt_section(text, filename):
     text = text.replace("\r\n", "\n")
-    headings = list(HEADING.finditer(text))
-    found = [i for i, h in enumerate(headings) if PROMPT_HEADING.fullmatch(h.group(1).strip())]
+    headings = _headings(text)
+    found = [i for i, (title, _, _) in enumerate(headings) if PROMPT_HEADING.fullmatch(title)]
     if not found:
         raise ValueError(f"{filename} has no '## Prompt' section")
     if len(found) > 1:
         raise ValueError(f"{filename} has {len(found)} '## Prompt' sections; there must be exactly one")
     i = found[0]
-    end = headings[i + 1].start() if i + 1 < len(headings) else len(text)
-    return text[headings[i].end():end]
+    end = headings[i + 1][1] if i + 1 < len(headings) else len(text)
+    return text[headings[i][2]:end]
 
 
 def _first_fenced_block(section, filename):
