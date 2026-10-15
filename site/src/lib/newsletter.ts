@@ -6,6 +6,7 @@ import path from "node:path";
 import { DEMO, loadAllEventsById, type SiteEvent } from "./data";
 import { todayInLondon } from "./time";
 import type { Intro } from "./letter";
+import { isReady } from "./letter";
 export { letterOf, type Letter } from "./letter";
 
 const REPO = path.resolve(process.cwd(), "..");
@@ -32,7 +33,7 @@ export function loadIssues(): Issue[] {
       try { return JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as Issue; }
       catch { console.warn(`[bgl] skipped unreadable issue ${f}`); return null; }
     })
-    .filter((i): i is Issue => !!i && !!i.id && !!i.intro)
+    .filter((i): i is Issue => !!i && !!i.id && isReady(i))
     .sort((a, b) => b.id.localeCompare(a.id));
 }
 

@@ -243,7 +243,7 @@ def test_an_issue_can_go_out_without_a_letter(repo, validators):
     md = newsletter.render_markdown(d, events)
     assert "hasn't been written yet" not in md and "*Fred*" not in md
     html_ = newsletter.render_html(d, events)
-    assert "border-left:4px solid" not in html_
+    assert "<!-- letter -->" not in html_
 
 
 def test_a_left_out_letter_must_be_marked_by_fred(repo, validators):
@@ -259,7 +259,7 @@ def test_a_written_letter_still_shows_and_null_still_means_not_ready(repo):
     events = newsletter.load_events(repo)
     assert newsletter.letter(d) == d["intro"]
     assert d["intro"]["greeting"] in newsletter.render_markdown(d, events)
-    assert "border-left:4px solid" in newsletter.render_html(d, events)
+    assert "<!-- letter -->" in newsletter.render_html(d, events)
     d["intro"] = None
     assert not newsletter.is_ready(d)
     assert "hasn't been written yet" in newsletter.render_markdown(d, events)
@@ -278,3 +278,14 @@ def test_buttondown_drafts_an_issue_without_a_letter_but_not_one_still_waiting(r
     d["intro"] = dict(LEFT_OUT)
     issue_path.write_text(json.dumps(d), encoding="utf-8")
     assert newsletter.main(["buttondown-draft", str(issue_path)]) == 0 and len(sent) == 1
+
+
+def test_issue_1_goes_out_without_the_letter():
+    p = REPO / "data/newsletter/issues/2026-10-15.json"
+    d = load(p)
+    events = newsletter.load_events(REPO)
+    assert newsletter.letter(d) is None and newsletter.is_ready(d)
+    md, html_ = newsletter.render_markdown(d, events), newsletter.render_html(d, events)
+    for gone in ("Hello, E2", "Welcome to the first Bethnal Green Live"):
+        assert gone not in md and gone not in html_
+    assert "<!-- letter -->" not in html_

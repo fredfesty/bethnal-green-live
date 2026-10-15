@@ -517,7 +517,7 @@ def render_html(issue: dict, events: dict[str, dict], site_url: str = SITE_URL) 
                         f'{esc(p)}</p>' for p in i["paragraphs"])
         ps = (f'<p style="margin:16px 0 0;font:italic 15px/1.5 Georgia,serif;color:{C["muted"]}">PS {esc(i["postscript"])}</p>'
               if i.get("postscript") else "")
-        intro = (f'<tr><td class="pad" style="padding:18px 28px 0"><table role="presentation" width="100%" '
+        intro = (f'<!-- letter --><tr><td class="pad" style="padding:18px 28px 0"><table role="presentation" width="100%" '
                  f'cellpadding="0" cellspacing="0" style="background:{C["plate"]};border-left:4px solid {C["red"]};border-radius:4px">'
                  f'<tr><td style="padding:22px 24px 20px">'
                  f'<p style="margin:0 0 12px;font:800 20px/1.2 {NARROW};color:{C["ink"]}">{esc(i["greeting"])}</p>{paras}'

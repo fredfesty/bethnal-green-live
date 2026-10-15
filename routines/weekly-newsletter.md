@@ -56,7 +56,8 @@ Work (two separate agents)
    read and follow .claude/agents/newsletter-editor.md in full, must not touch git or use any connector, and
    writes only data/newsletter/issues/<issue-date>.json and data/runs/newsletter/<issue-date>.md.
    On a remake, tell it the issue file already exists and that it replaces it completely (a fresh layout
-   from today's events, intro null), and rewrites the run report.
+   from today's events, intro null, unless the existing intro is {"left_out": true, …}, which it keeps as
+   it is), and rewrites the run report.
 5. The letter: when the editor has finished, start a subagent on model opus (the newsletter-intro agent type
    if available, otherwise a general-purpose agent with model "opus"). Tell it the repository path and the
    issue date, that it must read and follow .claude/agents/newsletter-intro.md in full, must not touch git or
@@ -78,7 +79,7 @@ Publish
 
 Report (sent to Fred's phone; plain English, short)
 9. Say: the subject line, the pick of the week, how many events in how many sections, the first sentence of
-   his letter, anything in notes_for_fred, and that it's waiting for him to read and merge. End with the pull
+   his letter (or that the letter was left out), anything in notes_for_fred, and that it's waiting for him to read and merge. End with the pull
    request's URL as a markdown hyperlink, for example
    [Pull request #20: Newsletter — 2026-10-22](https://github.com/fredfesty/bethnal-green-live/pull/20).
 ```
@@ -91,7 +92,7 @@ To resend a test copy of the issue that's already on main without remaking it: A
 
 ## Reading and sending (Fred)
 
-1. Open the pull request: its description is the issue as readers will see it, with your letter at the top and anything to check under **Notes for Fred**. The full email is attached to the workflow run as `newsletter-email` if you want to see the real thing.
+1. Open the pull request: its description is the issue as readers will see it, with your letter at the top (unless you left it out) and anything to check under **Notes for Fred**. The full email is attached to the workflow run as `newsletter-email` if you want to see the real thing.
 2. To change a word, edit `data/newsletter/issues/<issue-date>.json` on the branch (the letter is under `intro`). To change what you'd like said, put notes in `data/newsletter/notes/<issue-date>.md` and ask Claude to rewrite the letter. To send an issue with no letter at all, set its `intro` to `{"left_out": true, "by": "fred", "at": "<now>"}`: the email and the web page then start straight with the listings, and a remake keeps it that way.
 3. Merge. If `BUTTONDOWN_API_KEY` is set, a draft appears in Buttondown a minute later. Otherwise download `newsletter-email` from the run, or render it yourself: `python scripts/newsletter.py render data/newsletter/issues/<issue-date>.json --format html --out issue.html`.
 4. Thursday morning: read the draft in Buttondown and press send. The web version appears on the Newsletter page the same morning.
