@@ -87,7 +87,12 @@
     "record": "data/verification/2026-10-14/2026-10-31-colours-hoxton-dark-room-x-nagnagnag-halloween.json"
   },
   "editor_note": "A Halloween showcase marking the Iptamenos Discos 5th anniversary, with three guests.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A Halloween club night with Dark Room and NagNagNag at Colours Hoxton, the bar, club and gig venue on Hoxton Square.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
   "history": [],

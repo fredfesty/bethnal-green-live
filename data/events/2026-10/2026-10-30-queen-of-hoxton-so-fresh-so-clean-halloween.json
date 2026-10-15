@@ -109,7 +109,12 @@
     "record": "data/verification/2026-10-14/2026-10-30-queen-of-hoxton-so-fresh-so-clean-halloween.json"
   },
   "editor_note": "The Halloween edition of So Fresh So Clean, which the page says runs every Friday at Queen of Hoxton.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A Halloween club night at Queen Of Hoxton, the bar and nightclub on Curtain Road, with hip-hop, RnB, Afrobeats, bashment and UK garage.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
   "history": [],

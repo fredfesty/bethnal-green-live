@@ -61,7 +61,13 @@
     "run_id": "2026-10-14-lw"
   },
   "story": null,
-  "story_research": null,
+  "story_research": {
+    "last_attempt": "2026-10-15",
+    "attempts": 1,
+    "outcome": "nothing-found",
+    "next_check": "2026-10-22",
+    "note": "Event pages only list titles and times. Searched for Bar Trash series history; found only Genesis listings and Radiant Circus pages that returned 404. No lineup. Try a Bar Trash about page, the organiser's site, or sources on Shivers and Creepozoids."
+  },
   "first_seen": "2026-10-14T17:00:00+01:00",
   "updated_at": "2026-10-14T17:00:00+01:00",
   "history": [],

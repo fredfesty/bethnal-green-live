@@ -1,0 +1,66 @@
+{
+  "id": "2026-10-22-shacklewell-arms-uche-yara",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "UCHE YARA",
+  "summary": null,
+  "venue": {
+    "venue_id": "shacklewell-arms",
+    "name": "The Shacklewell Arms",
+    "address": "71 Shacklewell Lane, London",
+    "postcode": "E8 2EB"
+  },
+  "starts_at": "2026-10-22T19:30:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "UCHE YARA"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 17,
+    "max_gbp": 17,
+    "notes": "£17"
+  },
+  "ticket_url": "https://dice.fm/event/6a2ecadabc855e0001f3bfce",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue",
+        "price",
+        "ticket_url",
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+      "quote": "UCHE YARAThu 22 Oct\nThe Shacklewell ArmsLondon\n£17",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/venue/the-shacklewell-arms-z82z",
+      "quote": "\"name\":\"UCHE YARA\",\"startDate\":\"2026-10-22T19:30:00+01:00\"",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A named act on a Thursday at The Shacklewell Arms, listed with a start time on DICE.",
+  "notes_for_verifier": "Venue address from the registry; the DICE page prints only the venue name and city."
+}

@@ -79,7 +79,12 @@
     "record": "data/verification/2026-10-14/2026-10-30-shacklewell-arms-scared-to-dance-guest-dj-molly-payton.json"
   },
   "editor_note": "Scared To Dance guest-DJ night at the Shacklewell Arms with Molly Payton.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "Scared To Dance, a guest-DJ night at The Shacklewell Arms, with Molly Payton as the guest. A late one, running into the small hours.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
   "story": null,
   "story_research": null,
   "first_seen": "2026-10-14T17:00:00+01:00",

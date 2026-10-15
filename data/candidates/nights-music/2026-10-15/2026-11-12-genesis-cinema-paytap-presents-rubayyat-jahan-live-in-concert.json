@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-12-genesis-cinema-paytap-presents-rubayyat-jahan-live-in-concert",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Paytap Presents Rubayyat Jahan - live in concert",
+  "summary": null,
+  "venue": {
+    "venue_id": "genesis-cinema",
+    "name": "Genesis Cinema",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-11-12T19:45:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/events",
+      "quote": "Paytap Presents Rubayyat Jahan - live in concert\nRunning time: 135 mins\nDetails\nThu 12 Nov\n19:45",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/events",
+      "quote": "What's On | Genesis Cinema",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Cinema venue: recorded only because the title says 'live in concert'; the arts scout covers the cinema's films. Running time 135 mins as printed. No price or ticket link visible as text. Year 2026 from the window; Thursday matches 12 Nov 2026."
+}

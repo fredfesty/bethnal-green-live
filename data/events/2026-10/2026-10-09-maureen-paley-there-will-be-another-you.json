@@ -101,6 +101,118 @@
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-15T06:33:46Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, then, worth_knowing"
+    },
+    {
+      "at": "2026-10-15T06:40:32Z",
+      "by": "event-story-checker",
+      "change": "story checked, no changes"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "Rebecca Warren is a sculptor. According to the gallery's own website, her work moves between figuration and abstraction, and it both draws on and sends up the work of men such as Willem de Kooning and Alberto Giacometti. The gallery adds that ideas about authorship and authenticity, along with literary, psychological and pop-cultural influences, are filtered and distorted as they take three-dimensional form.",
+    "then": "Maureen Paley's own website describes a 2011 show, Come Helga, This Is No Place For Us II, as the third time Warren had a solo exhibition there. It included a hand-painted bronze and a work in reinforced clay.",
+    "worth_knowing": [
+      "The 2011 show at the gallery included a clay work called National Geographic, set on a painted plinth."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.maureenpaley.com/exhibitions/rebecca-warren-come-helga-this-is-no-place-for-us-2-2011",
+        "quote": "Maureen Paley is pleased to present Rebecca Warren’s third solo exhibition at the gallery.",
+        "retrieved_at": "2026-10-15T06:33:46Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.maureenpaley.com/exhibitions/rebecca-warren-come-helga-this-is-no-place-for-us-2-2011",
+        "quote": "Warren’s sculptures ebb from figuration to abstraction, ranging from the amorphous to more clearly recognizable forms.",
+        "retrieved_at": "2026-10-15T06:33:46Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.maureenpaley.com/exhibitions/rebecca-warren-come-helga-this-is-no-place-for-us-2-2011",
+        "quote": "Ideas (about authorship and authenticity) and influences (literary, psychological and pop cultural) are filtered, distorted and often discarded as they find three-dimensional form.",
+        "retrieved_at": "2026-10-15T06:33:46Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.maureenpaley.com/exhibitions/rebecca-warren-come-helga-this-is-no-place-for-us-2-2011",
+        "quote": "She often manages to both invoke and skewer the work of familiar male artists such as Willem de Kooning, Lucio Fontana, Alberto Giacometti and cartoonist R. Crumb",
+        "retrieved_at": "2026-10-15T06:33:46Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.maureenpaley.com/exhibitions/rebecca-warren-come-helga-this-is-no-place-for-us-2-2011",
+        "quote": "Maureen Paley is pleased to present Rebecca Warren’s third solo exhibition at the gallery.",
+        "retrieved_at": "2026-10-15T06:33:46Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.maureenpaley.com/exhibitions/rebecca-warren-come-helga-this-is-no-place-for-us-2-2011",
+        "quote": "hand-painted bronze\n290 x 52 x 50 cm - 114 1/8 x 20 1/2 x 19 5/8 in\n2011",
+        "retrieved_at": "2026-10-15T06:33:46Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.maureenpaley.com/exhibitions/rebecca-warren-come-helga-this-is-no-place-for-us-2-2011",
+        "quote": "reinforced clay on painted MDF plinth",
+        "retrieved_at": "2026-10-15T06:33:46Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.maureenpaley.com/exhibitions/rebecca-warren-come-helga-this-is-no-place-for-us-2-2011",
+        "quote": "National Geographic\nreinforced clay on painted MDF plinth",
+        "retrieved_at": "2026-10-15T06:33:46Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-15T06:33:46Z",
+    "review": {
+      "checked_at": "2026-10-15T06:40:32Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-15",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Only the gallery's own 2011 Warren page was usable; ocula 403, artrabbit never-use. Nothing found on this show's content (gallery exhibition page 404, artist page empty). Try press reviews once the show is open."
+  }
 }

@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-17-star-of-bethnal-green-peck-peck-bottomless-wings-brunch-party",
+  "candidate_file": "data/candidates/food-drink/2026-10-15/2026-10-17-star-of-bethnal-green-peck-peck-bottomless-wings-brunch-party.json",
+  "run_id": "2026-10-15-v",
+  "verified_at": "2026-10-15T09:30:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Already published as 14:00-16:00 (needs_review already set); the page now prints 12:00 PM - 4:30 PM. Time change held for a person; published event left as it is.",
+    "Check https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "page 12:00-16:30; published event says 14:00-16:00"
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "age_restriction",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "recurrence",
+      "result": "confirmed",
+      "url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": "data/events/2026-10/2026-10-17-star-of-bethnal-green-peck-peck-bottomless-wings-brunch-party.json",
+  "changes": [
+    {
+      "field": "starts_at",
+      "from": "2026-10-17T14:00:00+01:00",
+      "to": "2026-10-17T12:00:00+01:00"
+    },
+    {
+      "field": "ends_at",
+      "from": "2026-10-17T16:00:00+01:00",
+      "to": "2026-10-17T16:30:00+01:00"
+    }
+  ],
+  "decided_by": "verifier"
+}

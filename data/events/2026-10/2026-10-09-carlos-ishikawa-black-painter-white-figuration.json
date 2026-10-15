@@ -66,6 +66,110 @@
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-15T06:34:18Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, now"
+    },
+    {
+      "at": "2026-10-15T06:40:32Z",
+      "by": "event-story-checker",
+      "change": "cut São Paulo and Rio de Janeiro, 'sports club' and 'grew out of', none of which the quotes state; story checked"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "Maxwell Alexandre is a painter whose work has drawn attention abroad, according to the website of the gallery Almeida & Dale, for two series: Pardo é Papel, about everyday scenes in a favela, and Novo Poder, about black people in places of power.",
+    "started": null,
+    "then": null,
+    "now": "The show shares its title with Alexandre's first solo exhibition at Almeida & Dale, which the gallery's website says draws on two sets of works, Clube and Cubo Branco. Clube began in 2020, when he started visiting a club in Gávea, and he then turned to painting white bodies, a change from earlier work that had shown only black people. Almeida & Dale says \"white figuration\" is his way of making whiteness visible in painting and art history.",
+    "vibe": null,
+    "worth_knowing": [],
+    "evidence": [
+      {
+        "fields": [
+          "story.who",
+          "story.now"
+        ],
+        "url": "https://www.carlosishikawa.com/",
+        "quote": "Maxwell Alexandre\nBlack painter, white figuration\n9 Oct – 28 Nov 2026",
+        "retrieved_at": "2026-10-15T06:34:18Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://almeidaedale.com.br/en/exposicoes/pintor-preto-figuracao-branca/",
+        "quote": "He has garnered international recognition for his Pardo é Papel (Brown is Paper) and Novo Poder (New Power) series, respectively portraying day-to-day scenes in the favela and black people in spaces of power.",
+        "retrieved_at": "2026-10-15T06:34:18Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://almeidaedale.com.br/en/exposicoes/pintor-preto-figuracao-branca/",
+        "quote": "Maxwell Alexandre completely transforms the space at Almeida & Dale Fradique in pintor preto, figuração branca. (Black painter, white figuration), his first solo show at the gallery.",
+        "retrieved_at": "2026-10-15T06:34:18Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://almeidaedale.com.br/en/exposicoes/pintor-preto-figuracao-branca/",
+        "quote": "The Clube (Club) series was initiated in 2020, when Maxwell started going to Clube de Regatas do Flamengo in Gávea",
+        "retrieved_at": "2026-10-15T06:34:18Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://almeidaedale.com.br/en/exposicoes/pintor-preto-figuracao-branca/",
+        "quote": "Maxwell turned his attention to white bodies, a turning point in his career — hitherto marked by the exclusive portrayal of black people —",
+        "retrieved_at": "2026-10-15T06:34:18Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://almeidaedale.com.br/en/exposicoes/pintor-preto-figuracao-branca/",
+        "quote": "the pictorial genre of “white figuration” becomes a conceptual operation to highlight whiteness in the field of painting and in art history",
+        "retrieved_at": "2026-10-15T06:34:18Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://almeidaedale.com.br/en/exposicoes/pintor-preto-figuracao-branca/",
+        "quote": "two iconic sets of artworks: Clube (Club), first shown at the Rio de Janeiro Historical Museum (2024), and Cubo Branco (White Cube)",
+        "retrieved_at": "2026-10-15T06:34:18Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-15T06:34:18Z",
+    "review": {
+      "checked_at": "2026-10-15T06:40:32Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-15",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Read gallery home and artists pages and Almeida & Dale page (same title, São Paulo). Ocula and Frieze refused (403); Palais de Tokyo page had no usable text. Could not find a Carlos/Ishikawa exhibition page for this show or tie other press to it. Leads: the gallery's press release or Art Newspaper/Document Journal."
+  }
 }

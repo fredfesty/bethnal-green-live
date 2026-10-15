@@ -100,7 +100,12 @@
     "record": "data/verification/2026-10-14/2026-11-01-oslo-hackney-phil-campbells-bastard-sons.json"
   },
   "editor_note": "Phil Campbell’s Bastard Sons on a Sunday night in a 370-capacity room.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A gig from Phil Campbell's Bastard Sons at Oslo Hackney, the late-opening venue in Hackney Central's old station building. An early evening start.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
   "story": null,
   "story_research": null,
   "first_seen": "2026-10-14T17:00:00+01:00",

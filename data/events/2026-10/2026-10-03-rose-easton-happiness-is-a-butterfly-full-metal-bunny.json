@@ -76,14 +76,22 @@
       "at": "2026-10-14T16:16:25Z",
       "by": "event-story-checker",
       "change": "cut the Zabludowicz Collection clause (image caption, does not tie that Parker Ito to this event) and 'solo' (not stamped: written_at is ahead of the clock)"
+    },
+    {
+      "at": "2026-10-15T06:40:32Z",
+      "by": "event-story-checker",
+      "change": "cut the unsupported claim that this show is his return to the gallery; story checked"
     }
   ],
   "needs_review": null,
   "story": {
     "who": "Parker Ito is the artist behind the show, and according to the Contemporary Art Library he has shown at this gallery before.",
-    "then": "According to the Contemporary Art Library, Rose Easton hosted an earlier show by Ito that ran from 2 November to 14 December 2024. This new exhibition is his return to the gallery.",
+    "then": "According to the Contemporary Art Library, Rose Easton hosted an earlier show by Ito that ran from 2 November to 14 December 2024.",
     "written_at": "2026-10-14T18:30:00Z",
-    "review": null,
+    "review": {
+      "checked_at": "2026-10-15T06:40:32Z",
+      "removed_fields": []
+    },
     "evidence": [
       {
         "fields": [

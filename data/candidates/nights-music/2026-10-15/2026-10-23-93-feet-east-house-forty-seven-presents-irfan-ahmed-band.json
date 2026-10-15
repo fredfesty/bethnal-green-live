@@ -1,0 +1,70 @@
+{
+  "id": "2026-10-23-93-feet-east-house-forty-seven-presents-irfan-ahmed-band",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "House Forty Seven presents: Irfan Ahmed & Band",
+  "summary": null,
+  "venue": {
+    "venue_id": "93-feet-east",
+    "name": "93 Feet East",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-23T20:00:00+01:00",
+  "ends_at": "2026-10-24T00:00:00+01:00",
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Irfan Ahmed & Band"
+  ],
+  "genres": [
+    "Bollywood",
+    "Sufi"
+  ],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": null,
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "venue",
+        "lineup"
+      ],
+      "url": "https://www.93feeteast.co.uk",
+      "quote": "Friday 23 Oct\n8 pm - 12 AM / Live Room\nHouse Forty Seven presents: Irfan Ahmed & Band",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres",
+        "age_restriction",
+        "lineup"
+      ],
+      "url": "https://www.93feeteast.co.uk",
+      "quote": "House Forty Seven presents: Irfan Ahmed & Band\nBollywood\nSufi\n18+",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Listed under 93 LIVE. '12 AM' is printed, so the end is midnight at the close of Friday 23 Oct. No price printed."
+}

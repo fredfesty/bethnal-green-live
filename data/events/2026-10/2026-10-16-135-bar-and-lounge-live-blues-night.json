@@ -107,7 +107,13 @@
     "run_id": "2026-10-14-lw"
   },
   "story": null,
-  "story_research": null,
+  "story_research": {
+    "last_attempt": "2026-10-15",
+    "attempts": 1,
+    "outcome": "nothing-found",
+    "next_check": "2026-10-22",
+    "note": "Venue page only says hosted by Blues at The Brewery, live blues, dancing, cocktails. One search for the host found nothing tying any page to this event (results were about The Brewery venue in the City, unrelated). Try the host's own site or a blues-night series page next time."
+  },
   "first_seen": "2026-10-14T17:00:00+01:00",
   "updated_at": "2026-10-14T17:00:00+01:00",
   "history": [],

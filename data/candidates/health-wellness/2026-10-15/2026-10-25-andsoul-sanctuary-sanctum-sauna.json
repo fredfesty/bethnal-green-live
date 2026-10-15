@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-25-andsoul-sanctuary-sanctum-sauna",
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "health-wellness",
+  "subcategory": "sauna",
+  "title": "Sanctum + Sauna",
+  "summary": "A three-part session at AndSoul Sanctuary: guided movement, breath and sound, then sauna with guided meditation, then an ice bath.",
+  "venue": {
+    "venue_id": "andsoul-sanctuary",
+    "name": "AndSoul Sanctuary",
+    "address": "114-116 Cheshire Street, London",
+    "postcode": "E2 6EJ"
+  },
+  "starts_at": "2026-10-25T10:30:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 40,
+    "max_gbp": 40,
+    "notes": "From £40 per person"
+  },
+  "ticket_url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "114-116 Cheshire Street, London E2 6EJ",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "quote": "Sanctum + Sauna October 25, 2026 @ 10:30 AM",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "quote": "Sanctum brings movement, breath and sound to the Sanctuary, followed by sauna, guided meditation and an ice bath.",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "price"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "quote": "Sunday 25 October, 10:30am. Sensorium. From £40 per person. Booking is now open.",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "quote": "Booking is now open.",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Clocks change on 25 Oct: the 10:30am start is after 02:00 BST, so +00:00. No end time on the page. The price line sits several lines below the title on the event's own page; title 'Sanctum + Sauna' is quoted with the date. Already in data/events with price unknown: this candidate adds the printed price 'From £40 per person' from the event's own page."
+}

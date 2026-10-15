@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-17-mare-street-market-louis-walshe",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T06:12:41+01:00",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Louis Walshe",
+  "summary": null,
+  "venue": {
+    "venue_id": "mare-street-market",
+    "name": "Mare Street Market",
+    "address": "117 Mare Street, Hackney, London",
+    "postcode": "E8 4RU"
+  },
+  "starts_at": "2026-10-17T18:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Louis Walshe"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Free entry"
+  },
+  "ticket_url": "https://marestreetmarket.com/events-hackney/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue",
+        "lineup",
+        "ticket_url"
+      ],
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "quote": "17.10.26 18.00 Louis Walshe Free entry",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "quote": "Louis Walshe Free entry",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "The quote joins one listing row of the venue's own events page (date, time, title and price sit on separate lines there). The page does not say DJ for this night; the registry lists the venue as a DJ bar, so confirm the DJ format. "
+}

@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-30-ridley-road-market-bar-icons-only-halloween-special",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T06:12:41+01:00",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Icons Only Halloween Special!",
+  "summary": null,
+  "venue": {
+    "venue_id": "ridley-road-market-bar",
+    "name": "Ridley Road Market Bar",
+    "address": "49 Ridley Road, Dalston, London",
+    "postcode": "E8 2NP"
+  },
+  "starts_at": "2026-10-30T18:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Free entry"
+  },
+  "ticket_url": "https://dice.fm/event/6abfd62a7005ba000145b5ea",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/6abfd62a7005ba000145b5ea",
+      "quote": "Icons Only Halloween Special!",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/6abfd62a7005ba000145b5ea",
+      "quote": "Fri 30 Oct, 6:00 pm",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/6abfd62a7005ba000145b5ea",
+      "quote": "49 Ridley Road, Dalston, London, E8 2NP, United Kingdom",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/6abfd62a7005ba000145b5ea",
+      "quote": "FreeThe price you'll pay.",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/6abfd62a7005ba000145b5ea",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "Halloween special of Icons Only, which its DICE page calls one of East London's longest-running nights; free on DICE.",
+  "notes_for_verifier": "The 6:00 pm on the page is the doors time ('Doors open6:00 pm'), used as starts_at. The page does not say DJ, so confirm the night is DJ-led. The 'longest-running' claim is the venue's own wording, so it is only quoted in why_its_good, not as a fact."
+}

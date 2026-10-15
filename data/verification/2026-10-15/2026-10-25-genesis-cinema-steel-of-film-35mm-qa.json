@@ -1,0 +1,75 @@
+{
+  "id": "2026-10-25-genesis-cinema-steel-of-film-35mm-qa",
+  "candidate_file": "data/candidates/arts/2026-10-15/2026-10-25-genesis-cinema-steel-of-film-35mm-qa.json",
+  "run_id": "2026-10-15-v",
+  "verified_at": "2026-10-15T09:30:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Update of a published event: newly confirmed details added.",
+    "Title, venue and start confirmed by the quote checker from the registry's primary listing."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": "data/events/2026-10/2026-10-25-genesis-cinema-steel-of-film-35mm-qa.json",
+  "changes": [
+    {
+      "field": "venue",
+      "from": {
+        "venue_id": "genesis-cinema",
+        "name": "Genesis Cinema",
+        "address": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+        "postcode": "E1 4UJ"
+      },
+      "to": {
+        "venue_id": "genesis-cinema",
+        "name": "Genesis Cinema",
+        "address": "93-95 Mile End Road, Whitechapel, London",
+        "postcode": "E1 4UJ"
+      }
+    },
+    {
+      "field": "starts_at",
+      "from": "2026-10-25",
+      "to": "2026-10-25T18:30:00+00:00"
+    },
+    {
+      "field": "ticket_url",
+      "from": "https://genesiscinema.co.uk/event/114463",
+      "to": "https://www.genesiscinema.co.uk/whatson/qanda"
+    }
+  ],
+  "decided_by": "verifier"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "2026-10-29-ridley-road-market-bar-disco-freaks-a-halloween-special",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Disco FREAKS: A Halloween Special",
+  "venue": {
+    "venue_id": "ridley-road-market-bar",
+    "name": "Ridley Road Market Bar",
+    "address": "49 Ridley Road, Dalston, London",
+    "postcode": "E8 2NP"
+  },
+  "starts_at": "2026-10-29T18:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Free entry"
+  },
+  "ticket_url": "https://dice.fm/event/6abfdb32e1bbc2000173bd25",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/event/6abfdb32e1bbc2000173bd25",
+      "quote": "Disco FREAKS: A Halloween Special",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/event/6abfdb32e1bbc2000173bd25",
+      "quote": "Thu 29 Oct, 6:00 pm",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/event/6abfdb32e1bbc2000173bd25",
+      "quote": "49 Ridley Road, Dalston, London, E8 2NP, United Kingdom",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/event/6abfdb32e1bbc2000173bd25",
+      "quote": "FreeThe price you'll pay.",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://dice.fm/event/6abfdb32e1bbc2000173bd25",
+      "quote": "This is an 18+ event",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-15T09:30:00+01:00",
+    "run_id": "2026-10-15-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-15/2026-10-29-ridley-road-market-bar-disco-freaks-a-halloween-special.json"
+  },
+  "editor_note": "Halloween special of the Disco FREAKS party at Ridley Road Market Bar, Dalston, free on DICE.",
+  "listing": {
+    "headline": null,
+    "blurb": "A Halloween special of the Disco FREAKS DJ night at Ridley Road Market Bar, a Dalston bar in the middle of the market. Free entry, so easy to try.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
+  "story": null,
+  "story_research": null,
+  "first_seen": "2026-10-15T09:30:00+01:00",
+  "updated_at": "2026-10-15T09:30:00+01:00",
+  "history": [],
+  "needs_review": null
+}

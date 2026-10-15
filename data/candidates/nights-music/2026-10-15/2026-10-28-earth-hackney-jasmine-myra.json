@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-28-earth-hackney-jasmine-myra",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Jasmine Myra",
+  "summary": null,
+  "venue": {
+    "venue_id": "earth-hackney",
+    "name": "EartH",
+    "address": "11-17 Stoke Newington Rd, Dalston, London",
+    "postcode": "N16 8BH"
+  },
+  "starts_at": "2026-10-28T19:30:00+00:00",
+  "ends_at": "2026-10-28T23:00:00+00:00",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Jasmine Myra"
+  ],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "lineup"
+      ],
+      "url": "https://earthackney.co.uk/events/",
+      "quote": "Wed 28 Oct 19:30\n- 23:00\nJasmine Myra",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup",
+        "notes"
+      ],
+      "url": "https://earthackney.co.uk/events/",
+      "quote": "composer, saxophonist, and bandleader Jasmine Myra",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://earthackney.co.uk/",
+      "quote": "EartH is an arts venue and creative hub in the heart of Dalston, Hackney.",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A saxophonist and bandleader on her third album, Where Light Settles, at EartH on 28 Oct.",
+  "notes_for_verifier": "The events list gives the album as 'Where Light Settles'. Price not printed on the list; event page not read."
+}

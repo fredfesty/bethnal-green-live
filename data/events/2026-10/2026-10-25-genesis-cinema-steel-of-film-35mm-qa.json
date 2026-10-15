@@ -6,12 +6,13 @@
   "venue": {
     "venue_id": "genesis-cinema",
     "name": "Genesis Cinema",
-    "address": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+    "address": "93-95 Mile End Road, Whitechapel, London",
     "postcode": "E1 4UJ"
   },
-  "starts_at": "2026-10-25",
+  "starts_at": "2026-10-25T18:30:00+00:00",
   "ends_at": null,
   "recurrence": null,
+  "run_schedule": null,
   "zone": "fringe",
   "worth_the_trip": false,
   "lineup": [],
@@ -19,94 +20,74 @@
   "price": {
     "known": false
   },
-  "ticket_url": "https://genesiscinema.co.uk/event/114463",
+  "ticket_url": "https://www.genesiscinema.co.uk/whatson/qanda",
   "age_restriction": null,
   "accessibility": null,
   "status": "scheduled",
-  "run_schedule": null,
   "evidence": [
     {
       "fields": [
-        "title"
-      ],
-      "url": "https://genesiscinema.co.uk/event/114463",
-      "quote": "Steel of Film (in 35 mm) + Q&A",
-      "retrieved_at": "2026-10-14T13:00:00+01:00",
-      "source_kind": "primary"
-    },
-    {
-      "fields": [
+        "title",
         "starts_at"
       ],
-      "url": "https://genesiscinema.co.uk/event/114463",
-      "quote": "Sun 25 Oct",
-      "retrieved_at": "2026-10-14T13:00:00+01:00",
-      "source_kind": "primary"
-    },
-    {
-      "fields": [
-        "starts_at"
-      ],
-      "url": "https://genesiscinema.co.uk/event/114463",
-      "quote": "Release Date: 25/10/2026",
-      "retrieved_at": "2026-10-14T13:00:00+01:00",
-      "source_kind": "primary"
-    },
-    {
-      "fields": [
-        "venue"
-      ],
-      "url": "https://genesiscinema.co.uk/event/114463",
-      "quote": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
-      "retrieved_at": "2026-10-14T13:00:00+01:00",
-      "source_kind": "primary"
-    },
-    {
-      "fields": [
-        "venue"
-      ],
-      "url": "https://genesiscinema.co.uk/event/114463",
-      "quote": "Events | Genesis Cinema",
-      "retrieved_at": "2026-10-14T13:00:00+01:00",
-      "source_kind": "primary"
-    },
-    {
-      "fields": [
-        "summary"
-      ],
-      "url": "https://genesiscinema.co.uk/event/114463",
-      "quote": "The screening will be followed by a Q&A.",
-      "retrieved_at": "2026-10-14T13:00:00+01:00",
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "quote": "Steel of Film (in 35 mm) + Q&A Running time: 75 mins Details Sun 25 Oct 18:30",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
       "source_kind": "primary"
     },
     {
       "fields": [
         "ticket_url"
       ],
-      "url": "https://genesiscinema.co.uk/event/114463",
-      "quote": "Steel of Film (in 35 mm) + Q&A",
-      "retrieved_at": "2026-10-14T13:00:00+01:00",
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "quote": "Details Sun 25 Oct 18:30 Book Now",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "quote": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
       "source_kind": "primary"
     }
   ],
   "verification": {
-    "verified_at": "2026-10-14T16:00:00+01:00",
-    "run_id": "2026-10-14-v2",
+    "verified_at": "2026-10-15T09:30:00+01:00",
+    "run_id": "2026-10-15-v",
     "outcome": "verified",
     "removed_fields": [],
-    "record": "data/verification/2026-10-14/2026-10-25-genesis-cinema-steel-of-film-35mm-qa.json"
+    "record": "data/verification/2026-10-15/2026-10-25-genesis-cinema-steel-of-film-35mm-qa.json"
   },
-  "editor_note": "A 35 mm screening followed by a Q&A, on a Sunday evening.",
+  "editor_note": null,
   "listing": {
     "headline": null,
     "blurb": "A 35mm screening of Steel of Film followed by a Q&A, at Genesis Cinema on Mile End Road. A pick for film fans who like a conversation after the credits.",
-    "written_at": "2026-10-14T18:00:00+01:00",
-    "run_id": "2026-10-14-lw"
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
   },
   "story": null,
   "story_research": null,
   "first_seen": "2026-10-14T16:00:00+01:00",
-  "updated_at": "2026-10-14T16:00:00+01:00",
-  "history": [],
+  "updated_at": "2026-10-15T09:30:00+01:00",
+  "history": [
+    {
+      "at": "2026-10-15T09:30:00+01:00",
+      "by": "verifier",
+      "change": "venue updated from re-scout: {\"venue_id\": \"genesis-cinema\", \"name\": \"Genesis Cinema\", \"address\": \"93-95 Mile End Road, Whitechape -> {\"venue_id\": \"genesis-cinema\", \"name\": \"Genesis Cinema\", \"address\": \"93-95 Mile End Road, Whitechape"
+    },
+    {
+      "at": "2026-10-15T09:30:00+01:00",
+      "by": "verifier",
+      "change": "starts_at updated from re-scout: \"2026-10-25\" -> \"2026-10-25T18:30:00+00:00\""
+    },
+    {
+      "at": "2026-10-15T09:30:00+01:00",
+      "by": "verifier",
+      "change": "ticket_url updated from re-scout: \"https://genesiscinema.co.uk/event/114463\" -> \"https://www.genesiscinema.co.uk/whatson/qanda\""
+    }
+  ],
   "needs_review": null
 }

@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-25-andsoul-sanctuary-sanctum-sauna",
+  "candidate_file": "data/candidates/health-wellness/2026-10-15/2026-10-25-andsoul-sanctuary-sanctum-sauna.json",
+  "run_id": "2026-10-15-v",
+  "verified_at": "2026-10-15T09:30:00+01:00",
+  "decision": "reject",
+  "reasons": [
+    "Duplicate of published 2026-10-25-andsoul-sanctuary-sanctum-sauna; no confirmed change.",
+    "The new price (from £40) sits next to 'Sensorium', not this title (title_nearby false), so it is unverifiable."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "unverifiable",
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "method": "none",
+      "source_kind": null,
+      "note": "quote found but title not near it"
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://andsoulsanctuary.com/whats-on/sanctum-sauna-october",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": "data/events/2026-10/2026-10-25-andsoul-sanctuary-sanctum-sauna.json",
+  "changes": [],
+  "decided_by": "verifier"
+}

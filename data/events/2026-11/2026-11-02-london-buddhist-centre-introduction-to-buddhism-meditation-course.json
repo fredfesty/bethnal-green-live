@@ -103,7 +103,12 @@
     "record": "data/verification/2026-10-13/2026-11-02-london-buddhist-centre-introduction-to-buddhism-meditation-course.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A course introducing Buddhism and meditation at the London Buddhist Centre on Roman Road, meeting on Monday evenings until 7 December. There are full, low-income and 18-25 rates.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
   "first_seen": "2026-10-13T14:00:00+01:00",
   "updated_at": "2026-10-13T14:00:00+01:00",
   "history": [],

@@ -84,7 +84,12 @@
     "record": "data/verification/2026-10-14/2026-11-03-george-tavern-dan-english.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A gig from Dan English at The George Tavern, the pub and live music venue on Commercial Road, with an early evening start.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
   "story": null,
   "story_research": null,
   "first_seen": "2026-10-14T17:00:00+01:00",

@@ -1,0 +1,93 @@
+{
+  "id": "2026-10-27-hackney-empire-dexys-midnight-runners",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Dexys Midnight Runners",
+  "summary": null,
+  "venue": {
+    "venue_id": "hackney-empire",
+    "name": "Hackney Empire",
+    "address": "291 Mare Street, London",
+    "postcode": "E8 1EJ"
+  },
+  "starts_at": "2026-10-27",
+  "ends_at": "2026-10-28",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Dexys Midnight Runners"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 45,
+    "max_gbp": 75,
+    "notes": "£45 - £75 (plus £1.50 per ticket online, and over the phone)"
+  },
+  "ticket_url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "ticket_url",
+        "lineup"
+      ],
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "quote": "Dexys Midnight Runners\n27 – 28 Oct",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "quote": "£45 - £75 (plus £1.50 per ticket online, and over the phone)",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup",
+        "venue"
+      ],
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "quote": "Dexys Midnight Runners | Hackney Empire",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.hackneyempire.co.uk/",
+      "quote": "291 Mare Street\nLondon\nE8 1EJ",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "notes"
+      ],
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "quote": "The dates will be the first time Dexys, fronted by Kevin Rowland, have toured under the name of Dexys Midnight Runners since 2003",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "Dexys Midnight Runners play Hackney Empire on 27 and 28 Oct, their first tour under that name since 2003.",
+  "notes_for_verifier": "Two dates on the page: a run for 27 and 28 Oct, with the id on the opening date. No show time is printed. The page prints no year: 2026 is taken from the window. Page says 'Under 14's must be accompanied by an adult' (guidance, not an age limit, so not recorded as one). 'Live Music' is a descriptor on the page."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-22-st-margarets-house-moving-through-grief-workshop-navigating-guilt-and-regret",
+  "candidate_file": "data/candidates/health-wellness/2026-10-15/2026-10-22-st-margarets-house-moving-through-grief-workshop-navigating-guilt-and-regret.json",
+  "run_id": "2026-10-15-v",
+  "verified_at": "2026-10-15T09:30:00+01:00",
+  "decision": "reject",
+  "reasons": [
+    "duplicate of 2026-10-22-st-margarets-house-october-moving-through-grief-workshop-navigating-guilt-and-regret"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

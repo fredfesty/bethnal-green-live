@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-15-london-buddhist-centre-womens-intensive-long-weekend",
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "health-wellness",
+  "subcategory": "retreat",
+  "title": "Women's Intensive Long Weekend",
+  "summary": "A long weekend Buddhist retreat with talks and discussion, in person at the London Buddhist Centre.",
+  "venue": {
+    "venue_id": "london-buddhist-centre",
+    "name": "London Buddhist Centre",
+    "address": "51 Roman Rd, Bethnal Green, London",
+    "postcode": "E2 0HU"
+  },
+  "starts_at": "2026-10-15",
+  "ends_at": "2026-10-18",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 200,
+    "max_gbp": 310,
+    "notes": "£310 full | £250 low income | £200 18-25s"
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+      "quote": "Our address is: 51 Roman Rd, Bethnal Green, E20HU",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on",
+      "quote": "Thu 15 Oct – Sun 18 Oct",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on",
+      "quote": "Women's Intensive Long Weekend",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "title"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on",
+      "quote": "Led by a team of Order Members and Mitra Convenors, join this long weekend to take your understanding and practice of Buddhism deeper",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on",
+      "quote": "£310 full | £250 low income | £200 18-25s",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on",
+      "quote": "In person, book online.",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Single-sex event by its title ('Women's Intensive'); the page gives no other restriction. Multi-day: dates only, no time quoted for the run. Card shows a time-of-day that is not clearly tied to the run, so none is recorded. Registry says take this event. 'In person, book online.' is the only evidence that the retreat is in person."
+}

@@ -1,0 +1,66 @@
+{
+  "id": "2026-10-16-colours-hoxton-deep-forest",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Deep Forest",
+  "summary": null,
+  "venue": {
+    "venue_id": "colours-hoxton",
+    "name": "Colours Hoxton",
+    "address": "2-4 Hoxton Square, London",
+    "postcode": "N1 6NU"
+  },
+  "starts_at": "2026-10-16T19:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Deep Forest"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 37.39,
+    "max_gbp": 37.39,
+    "notes": "£37.39"
+  },
+  "ticket_url": "https://dice.fm/event/69fc4358132a1f00012e96b5",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue",
+        "price",
+        "ticket_url",
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/colours-hoxton-mxew",
+      "quote": "Deep ForestFri 16 Oct\nColours HoxtonLondon\n£37.39",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/venue/colours-hoxton-mxew",
+      "quote": "\"name\":\"Deep Forest\",\"startDate\":\"2026-10-16T19:00:00+01:00\"",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A named act at Colours Hoxton on Friday 16 Oct, listed with a start time on the venue's DICE page.",
+  "notes_for_verifier": "Venue address is from the registry (its own site is not on the registry), so verifier should confirm the postcode."
+}

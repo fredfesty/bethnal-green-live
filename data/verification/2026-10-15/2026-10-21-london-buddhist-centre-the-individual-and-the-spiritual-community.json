@@ -1,0 +1,64 @@
+{
+  "id": "2026-10-21-london-buddhist-centre-the-individual-and-the-spiritual-community",
+  "candidate_file": "data/candidates/health-wellness/2026-10-15/2026-10-21-london-buddhist-centre-the-individual-and-the-spiritual-community.json",
+  "run_id": "2026-10-15-v",
+  "verified_at": "2026-10-15T09:30:00+01:00",
+  "decision": "reject",
+  "reasons": [
+    "duplicate of published 2026-10-21-london-buddhist-centre-the-individual-and-the-spiritual-community; the 19:15 start is already in its run_schedule, nothing new to publish."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.londonbuddhistcentre.com/whats-on/the-individual-and-the-spiritual-community-21-oct-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.londonbuddhistcentre.com/whats-on/the-individual-and-the-spiritual-community-21-oct-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.londonbuddhistcentre.com/whats-on",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.londonbuddhistcentre.com/whats-on/the-individual-and-the-spiritual-community-21-oct-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.londonbuddhistcentre.com/whats-on/the-individual-and-the-spiritual-community-21-oct-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": "data/events/2026-10/2026-10-21-london-buddhist-centre-the-individual-and-the-spiritual-community.json",
+  "changes": [],
+  "decided_by": "verifier"
+}
