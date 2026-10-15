@@ -5,7 +5,7 @@ Product and working decisions Fred has made along the way, written down so every
 ## How we work
 
 - **Every change ships end to end** (October 2026): an issue, the change, unit tests where they make sense, a pull request, an independent review, fixes, conflicts resolved, merged. How: [`docs/ship-issue.md`](ship-issue.md).
-- **For now, finished pull requests are merged without waiting for Fred** (October 2026), once every check has passed, whoever shipped them. Exceptions: newsletter issues (Fred reads them first) and anything labelled `needs-fred`.
+- **For now, finished pull requests are merged without waiting for Fred** (October 2026), once every check has passed, whoever shipped them. Exceptions: newsletter issues (Fred reads them first), anything labelled `needs-fred`, and changes to the GitHub workflows, Fred's letter, his site settings or his decisions, which wait for him.
 - **Collaborators may merge changes to what the scheduled runs do** (15 October 2026): the run instructions in `routines/`, the scripts, tests and agent files they execute, and `CLAUDE.md` merge like anything else. The launchers' fixed rules (`docs/scheduled-tasks.md`) still bind every run.
 - **Pull request links are always clickable**: give them as markdown hyperlinks in reports and messages.
 - **Scheduled runs auto-publish for now**: while the `AUTO_MERGE` repository variable is `true`, GitHub merges a run's pull request once its checks pass. The venue stories run is always merged: if GitHub hasn't merged it, the run merges its own pull request once every check has passed.
