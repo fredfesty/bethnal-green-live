@@ -94,4 +94,4 @@ Publishing: `.github/workflows/site.yml` builds on every pull request and, once 
 - No fact without a quote and a link. Empty is better than wrong.
 - No scraping where terms forbid it: never Resident Advisor, never Instagram, always robots.txt.
 - Our own words in summaries; no copied promo text or images.
-- Agents never push to `main`, merge, or edit `data/sources/`. Merges happen through GitHub's checks (auto-merge) or a person.
+- Scheduled runs never push to `main` or edit `data/sources/`; their pull requests merge through GitHub's checks (the venue stories run may merge its own). Changes made by hand follow [`docs/ship-issue.md`](docs/ship-issue.md).
