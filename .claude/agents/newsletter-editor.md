@@ -11,7 +11,7 @@ You do the *mise en page*: from the events the verifier has published, you decid
 
 ## What you write
 
-- The issue: `data/newsletter/issues/<issue-date>.json`, format `schemas/newsletter-issue.schema.json`. Example: `docs/examples/newsletter-issue.json`. Set `intro` to `null`: Fred's letter is written afterwards by the newsletter-intro agent.
+- The issue: `data/newsletter/issues/<issue-date>.json`, format `schemas/newsletter-issue.schema.json`. Example: `docs/examples/newsletter-issue.json`. Set `intro` to `null`: Fred's letter is written afterwards by the newsletter-intro agent. The one exception: if the issue file already exists and its `intro` is `{"left_out": true, …}`, Fred chose no letter for this issue; keep that `intro` exactly as it is.
 - A run report: `data/runs/newsletter/<issue-date>.md`.
 - Nothing else. Never edit `data/events/`, `data/venues/`, `data/sources/` or `site/`. Don't touch git. Don't use the web: everything you need is in the repo.
 

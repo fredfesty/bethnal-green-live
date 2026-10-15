@@ -92,6 +92,6 @@ To resend a test copy of the issue that's already on main without remaking it: A
 ## Reading and sending (Fred)
 
 1. Open the pull request: its description is the issue as readers will see it, with your letter at the top and anything to check under **Notes for Fred**. The full email is attached to the workflow run as `newsletter-email` if you want to see the real thing.
-2. To change a word, edit `data/newsletter/issues/<issue-date>.json` on the branch (the letter is under `intro`). To change what you'd like said, put notes in `data/newsletter/notes/<issue-date>.md` and ask Claude to rewrite the letter.
+2. To change a word, edit `data/newsletter/issues/<issue-date>.json` on the branch (the letter is under `intro`). To change what you'd like said, put notes in `data/newsletter/notes/<issue-date>.md` and ask Claude to rewrite the letter. To send an issue with no letter at all, set its `intro` to `{"left_out": true, "by": "fred", "at": "<now>"}`: the email and the web page then start straight with the listings, and a remake keeps it that way.
 3. Merge. If `BUTTONDOWN_API_KEY` is set, a draft appears in Buttondown a minute later. Otherwise download `newsletter-email` from the run, or render it yourself: `python scripts/newsletter.py render data/newsletter/issues/<issue-date>.json --format html --out issue.html`.
 4. Thursday morning: read the draft in Buttondown and press send. The web version appears on the Newsletter page the same morning.

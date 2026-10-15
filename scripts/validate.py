@@ -959,7 +959,7 @@ def check_issue(path: Path, data: dict, today: dt.date | None = None, days: int 
     all_quotes = [ev["quote"] for e in used for ev in e["evidence"]]
     texts = [("subject", data["subject"]), ("preheader", data["preheader"])]
     texts += [(f"sections[{i}].lede", s.get("lede")) for i, s in enumerate(data["sections"])]
-    intro = data.get("intro")
+    intro = newsletter.letter(data)
     if intro:
         texts += [(f"intro.paragraphs[{i}]", p) for i, p in enumerate(intro["paragraphs"])]
         texts += [("intro.postscript", intro.get("postscript"))]

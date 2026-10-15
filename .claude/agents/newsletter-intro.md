@@ -19,6 +19,9 @@ It should read like a neighbour writing to people on his street, not like a bran
 
 ## What to write
 
+If the issue's `intro` is already `{"left_out": true, …}`, Fred has chosen to send this issue without a letter: change nothing, and say so in one line of the run report.
+
+
 Fill in only the issue's `intro` (use Edit; change nothing else in the file):
 
 ```json

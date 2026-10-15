@@ -8,21 +8,9 @@
   "subject": "What's on in E2 · 15–21 October: a free Sebright bill and Somali Week",
   "preheader": "A free three-band bill at the Sebright, Somali Week at Oxford House, a late Saturday at the Working Men's Club and Halloween dates.",
   "intro": {
-    "greeting": "Hello, E2,",
-    "paragraphs": [
-      "Welcome to the first Bethnal Green Live. I live round here, and I wanted something for E2 like my friend Cat's Peckham Live newsletter: a short weekly note of what's on nearby. So here it is.",
-      "A word on how it's made, since it's only fair to say. The listings are found by AI and checked word for word against each venue's or ticket seller's own page, and I read every issue before it goes out.",
-      "The week itself starts gently on Thursday, with a free three-band bill at the Sebright. Somali Week opens at Oxford House on Friday, and Saturday is the last day to catch LAG at Soft Opening. Halloween falls on a Saturday this year, so the dates at the bottom are worth a look now."
-    ],
-    "sign_off": "Enjoy the week,",
-    "signed": "Fred",
-    "postscript": null,
-    "written_by": {
-      "agent": "newsletter-intro",
-      "model": "opus"
-    },
-    "used_notes": null,
-    "written_at": "2026-10-13T11:23:00+01:00"
+    "left_out": true,
+    "by": "fred",
+    "at": "2026-10-15T09:35:00+01:00"
   },
   "sections": [
     {

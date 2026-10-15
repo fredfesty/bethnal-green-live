@@ -1,7 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import Subscribe from "../../components/Subscribe.astro";
-import { loadIssues, isOut, resolveSections, type Issue } from "../../lib/newsletter";
+import { loadIssues, isOut, resolveSections, letterOf, type Issue } from "../../lib/newsletter";
 import { kindLabel, STATUS } from "../../lib/labels";
 import { neighbours } from "../../lib/archive";
 import { weekdayShort, dayMonthShort, timeRange, dayMonth, hasTime, clock, todayInLondon, weekLabel } from "../../lib/time";
@@ -16,6 +16,7 @@ export function getStaticPaths() {
 const { i, older, newer } = Astro.props as { i: Issue; older: Issue | null; newer: Issue | null };
 const here = Astro.url.pathname;
 const sections = resolveSections(i);
+const letter = letterOf(i);
 const preview = !isOut(i);
 const week = weekLabel(i.covers.from, i.covers.to);
 ---
@@ -25,13 +26,13 @@ const week = weekLabel(i.covers.from, i.covers.to);
     <p class="issue__kicker"><a href={rel(here, "newsletter.html")}>The newsletter</a> · {!preview && <><a href={rel(here, "newsletter/archive.html")}>Archive</a> · </>}Issue {i.issue_number}</p>
     <h1>What's on {week}</h1>
 
-    {i.intro && (
+    {letter && (
       <section class="letter" aria-label="Editor's letter">
-        <p class="letter__greeting">{i.intro.greeting}</p>
-        {i.intro.paragraphs.map((p) => <p>{p}</p>)}
-        <p class="letter__off">{i.intro.sign_off}</p>
-        <p class="letter__sig">{i.intro.signed}</p>
-        {i.intro.postscript && <p class="letter__ps">PS {i.intro.postscript}</p>}
+        <p class="letter__greeting">{letter.greeting}</p>
+        {letter.paragraphs.map((p) => <p>{p}</p>)}
+        <p class="letter__off">{letter.sign_off}</p>
+        <p class="letter__sig">{letter.signed}</p>
+        {letter.postscript && <p class="letter__ps">PS {letter.postscript}</p>}
       </section>
     )}
 

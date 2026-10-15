@@ -5,6 +5,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { DEMO, loadAllEventsById, type SiteEvent } from "./data";
 import { todayInLondon } from "./time";
+import type { Intro } from "./letter";
+export { letterOf, type Letter } from "./letter";
 
 const REPO = path.resolve(process.cwd(), "..");
 
@@ -15,7 +17,7 @@ export interface IssueSection {
 }
 export interface Issue {
   id: string; issue_number: number; covers: { from: string; to: string }; subject: string; preheader: string;
-  intro: { greeting: string; paragraphs: string[]; sign_off: string; signed: string; postscript?: string | null } | null;
+  intro: Intro;
   sections: IssueSection[];
 }
 export interface ResolvedSection extends IssueSection { entries: { item: IssueItem; e: SiteEvent }[] }
