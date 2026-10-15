@@ -1,0 +1,101 @@
+{
+  "id": "2026-10-17-star-of-bethnal-green-peck-peck-bottomless-wings-brunch-party",
+  "scout": {
+    "name": "food-drink",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:00:00+01:00",
+  "category": "food-drink",
+  "subcategory": "other",
+  "title": "Peck Peck Bottomless Wings Brunch Party",
+  "summary": "A ticketed Saturday brunch at The Star of Bethnal Green with wings, fries and drinks for 90 minutes from its kitchen residents Peck Peck. Adults only.",
+  "venue": {
+    "venue_id": "star-of-bethnal-green",
+    "name": "The Star of Bethnal Green",
+    "address": "359 Bethnal Green Rd, London E2 6LG",
+    "postcode": "E2 6LG"
+  },
+  "starts_at": "2026-10-17T12:00:00+01:00",
+  "ends_at": "2026-10-17T16:30:00+01:00",
+  "recurrence": "every Saturday",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 40,
+    "max_gbp": null,
+    "notes": "£40pp as printed on the event page."
+  },
+  "ticket_url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+  "age_restriction": "18+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+      "quote": "Peck Peck Bottomless Wings Brunch Party",
+      "retrieved_at": "2026-10-15T09:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+      "quote": "Every Saturday - Star of Bethnal Green",
+      "retrieved_at": "2026-10-15T09:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "recurrence"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+      "quote": "Saturday 17th October (every Saturday)",
+      "retrieved_at": "2026-10-15T09:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+      "quote": "12:00 PM - 4:30 PM",
+      "retrieved_at": "2026-10-15T09:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price",
+        "age_restriction"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+      "quote": "£40pp\n18+\nBook Now",
+      "retrieved_at": "2026-10-15T09:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "address",
+        "postcode"
+      ],
+      "url": "https://starofbethnalgreen.co.uk/whats-on/peck-peck-bottomless-wings-brunch-party/",
+      "quote": "359 Bethnal Green Rd, London E2 6LG",
+      "retrieved_at": "2026-10-15T09:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A bottomless brunch at a core-zone pub with a named kitchen residency. The start time on the venue's page has changed since the 14 Oct record.",
+  "notes_for_verifier": "Corrects the time on the needs_review record in data/events: the venue's event page now prints 12:00 PM - 4:30 PM (the 2:00-4:00 PM quote is gone). JSON-LD says 12:00 and 16:30 with +00:00; kept the printed clock times with +01:00. Recurring: next occurrence only."
+}

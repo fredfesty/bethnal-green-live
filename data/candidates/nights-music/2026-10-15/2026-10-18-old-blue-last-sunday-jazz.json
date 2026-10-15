@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-18-old-blue-last-sunday-jazz",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "jazz",
+  "title": "Sunday Jazz",
+  "summary": null,
+  "venue": {
+    "venue_id": "old-blue-last",
+    "name": "The Old Blue Last",
+    "address": "38 Great Eastern St, London",
+    "postcode": "EC2A 3ES"
+  },
+  "starts_at": "2026-10-18",
+  "ends_at": null,
+  "recurrence": "EVERY SUNDAY",
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "recurrence",
+        "venue",
+        "starts_at"
+      ],
+      "url": "https://www.theoldbluelast.com/whats-on",
+      "quote": "SUNDAY JAZZ\nEVERY SUNDAY",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.theoldbluelast.com/whats-on",
+      "quote": "LOCATION\n38 Great Eastern St, London EC2A 3ES",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "notes"
+      ],
+      "url": "https://www.theoldbluelast.com/whats-on",
+      "quote": "DON’T MISS OUR LIVE MUSIC SESSIONS",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "Weekly Sunday live jazz at a long-running pub on Great Eastern Street.",
+  "notes_for_verifier": "Next occurrence only: Sunday 18 Oct 2026. The page gives no start time for the jazz session; date only. Verifier to check for a time elsewhere. The venue's opening hours are printed (Sunday 12.30pm-12.30am) but are not the session time."
+}

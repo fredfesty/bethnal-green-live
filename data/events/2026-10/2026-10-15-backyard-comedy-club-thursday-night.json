@@ -9,8 +9,8 @@
     "address": "231 Cambridge Heath Road, E2 0EL",
     "postcode": "E2 0EL"
   },
-  "starts_at": "2026-10-15",
-  "ends_at": null,
+  "starts_at": "2026-10-15T19:30:00+01:00",
+  "ends_at": "2026-10-15T22:00:00+01:00",
   "recurrence": "Thursday 15th October 2026 and 48 other Thursdays",
   "run_schedule": null,
   "zone": "core",
@@ -25,39 +25,48 @@
     "notes": "Tickets from £8.25"
   },
   "ticket_url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-thursday-night",
-  "age_restriction": null,
+  "age_restriction": "Over 18",
   "accessibility": null,
   "status": "scheduled",
   "evidence": [
     {
       "fields": [
         "title",
-        "ticket_url"
-      ],
-      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-thursday-night",
-      "quote": "Backyard Comedy Club – Thursday Night",
-      "retrieved_at": "2026-10-14T16:55:46+01:00",
-      "source_kind": "primary"
-    },
-    {
-      "fields": [
         "starts_at",
         "recurrence",
         "ticket_url"
       ],
       "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-thursday-night",
-      "quote": "Thursday 15th October 2026 and 48 other Thursdays",
-      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "quote": "Backyard Comedy Club – Thursday Night Backyard Comedy Club Dates and tickets Thursday 15th October 2026 and 48 other Thursdays",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
       "source_kind": "primary"
     },
     {
       "fields": [
-        "price",
-        "ticket_url"
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-thursday-night",
+      "quote": "Thursday 15th October 2026 and 48 other Thursdays 19:30 - 22:00",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
       ],
       "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-thursday-night",
       "quote": "Tickets from £8.25",
-      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-thursday-night",
+      "quote": "Bethnal Green Over 18",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
       "source_kind": "primary"
     },
     {
@@ -66,28 +75,125 @@
       ],
       "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
       "quote": "Backyard Comedy Club, 231, Cambridge Heath Road, E2 0EL",
-      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
       "source_kind": "primary"
     }
   ],
   "verification": {
-    "verified_at": "2026-10-14T17:00:00+01:00",
-    "run_id": "2026-10-14-v3",
+    "verified_at": "2026-10-15T09:30:00+01:00",
+    "run_id": "2026-10-15-v",
     "outcome": "verified",
     "removed_fields": [],
-    "record": "data/verification/2026-10-14/2026-10-15-backyard-comedy-club-thursday-night.json"
+    "record": "data/verification/2026-10-15/2026-10-15-backyard-comedy-club-thursday-night.json"
   },
   "editor_note": null,
   "listing": {
     "headline": null,
-    "blurb": "A weekly Thursday stand-up night at Backyard Comedy Club, the purpose-built comedy venue on Cambridge Heath Road. A fair midweek option if you fancy a laugh.",
-    "written_at": "2026-10-14T18:00:00+01:00",
-    "run_id": "2026-10-14-lw"
+    "blurb": "A weekly Thursday stand-up night at Backyard Comedy Club, the purpose-built comedy club on Cambridge Heath Road, with tickets from £8.25. A cheap way to get a laugh midweek.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
   },
-  "story": null,
-  "story_research": null,
+  "story": {
+    "who": "The night is hosted by two resident comics, David Ward and Dave Whitney, and the listing quotes praise for each: \"entertaining\" for Ward and \"Huge Laughs\" for Whitney.",
+    "then": "By its own account, Backyard Comedy Club is London's biggest professional comedy venue built for the purpose, and it has hosted East End comedy for twenty years.",
+    "now": "The listing says the night draws established comics trying out new material, television names getting ready for national tours, and newer acts on the rise.",
+    "vibe": "According to the DesignMyNight venue page, the comedy features upcoming comedians plus usually one or two special guests, whose names are kept back until the day itself.",
+    "worth_knowing": [
+      "Bar and kitchen open from 6pm, according to the listing."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-thursday-night",
+        "quote": "Resident hosts David Ward 'entertaining' - Time Out and Dave Whitney 'Huge Laughs' - The Spectator.",
+        "retrieved_at": "2026-10-15T06:33:19Z",
+        "source_kind": "aggregator",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-thursday-night",
+        "quote": "WE ARE THE LARGEST PROFESSIONAL, PURPOSE BUILT COMEDY CLUB IN LONDON AND HAVE BEEN THE HOME OF COMEDY IN THE EAST END FOR THE PAST 20 YEARS.",
+        "retrieved_at": "2026-10-15T06:33:19Z",
+        "source_kind": "aggregator",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-thursday-night",
+        "quote": "established acts trying out new material, big TV names warming up for national tours and some of the most exciting rising stars of the comedy scene.",
+        "retrieved_at": "2026-10-15T06:33:19Z",
+        "source_kind": "aggregator",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+        "quote": "features upcoming comedians and usually one or two special guests who are kept secret until the evening of the show",
+        "retrieved_at": "2026-10-15T06:33:19Z",
+        "source_kind": "aggregator",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-thursday-night",
+        "quote": "Bar and kitchen open from 6pm",
+        "retrieved_at": "2026-10-15T06:33:19Z",
+        "source_kind": "aggregator",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-15T06:33:19Z",
+    "review": {
+      "checked_at": "2026-10-15T06:40:32Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-15",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Read only the DesignMyNight event page. No named line-up for this date. Leads: Backyard Comedy Club own site, Time Out, hosts' own sites (David Ward, Dave Whitney); start year of the club."
+  },
   "first_seen": "2026-10-14T17:00:00+01:00",
-  "updated_at": "2026-10-14T17:00:00+01:00",
-  "history": [],
+  "updated_at": "2026-10-15T09:30:00+01:00",
+  "history": [
+    {
+      "at": "2026-10-15T09:30:00+01:00",
+      "by": "verifier",
+      "change": "starts_at updated from re-scout: \"2026-10-15\" -> \"2026-10-15T19:30:00+01:00\""
+    },
+    {
+      "at": "2026-10-15T09:30:00+01:00",
+      "by": "verifier",
+      "change": "ends_at updated from re-scout: null -> \"2026-10-15T22:00:00+01:00\""
+    },
+    {
+      "at": "2026-10-15T09:30:00+01:00",
+      "by": "verifier",
+      "change": "age_restriction updated from re-scout: null -> \"Over 18\""
+    },
+    {
+      "at": "2026-10-15T06:33:19Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, then, now, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-15T06:40:32Z",
+      "by": "event-story-checker",
+      "change": "removed named publications not in evidence, 'work in progress' framing and Thursday-specific vibe, and the eat-and-drink inference; story checked"
+    }
+  ],
   "needs_review": null
 }

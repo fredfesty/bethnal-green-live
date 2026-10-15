@@ -9,8 +9,8 @@
     "address": "231 Cambridge Heath Road, E2 0EL",
     "postcode": "E2 0EL"
   },
-  "starts_at": "2026-10-17",
-  "ends_at": null,
+  "starts_at": "2026-10-17T19:30:00+01:00",
+  "ends_at": "2026-10-17T22:00:00+01:00",
   "recurrence": "Every Saturday",
   "run_schedule": null,
   "zone": "core",
@@ -25,37 +25,29 @@
     "notes": "Tickets from £17.60"
   },
   "ticket_url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-saturday-night-1",
-  "age_restriction": null,
+  "age_restriction": "Over 18",
   "accessibility": null,
   "status": "scheduled",
   "evidence": [
     {
       "fields": [
         "title",
-        "ticket_url"
-      ],
-      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-saturday-night-1",
-      "quote": "Backyard Comedy Club – Saturday Night",
-      "retrieved_at": "2026-10-14T16:55:46+01:00",
-      "source_kind": "primary"
-    },
-    {
-      "fields": [
         "starts_at"
       ],
       "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
-      "quote": "Saturday 17th October, 2026",
-      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "quote": "Backyard Comedy Club – Saturday Night Saturday 17th October, 2026",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
       "source_kind": "primary"
     },
     {
       "fields": [
-        "recurrence",
-        "ticket_url"
+        "starts_at",
+        "ends_at",
+        "recurrence"
       ],
       "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-saturday-night-1",
-      "quote": "Every Saturday",
-      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "quote": "Every Saturday 19:30 - 22:00",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
       "source_kind": "primary"
     },
     {
@@ -65,7 +57,16 @@
       ],
       "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-saturday-night-1",
       "quote": "Tickets from £17.60",
-      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-saturday-night-1",
+      "quote": "Bethnal Green Over 18",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
       "source_kind": "primary"
     },
     {
@@ -74,28 +75,44 @@
       ],
       "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
       "quote": "Backyard Comedy Club, 231, Cambridge Heath Road, E2 0EL",
-      "retrieved_at": "2026-10-14T16:55:46+01:00",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
       "source_kind": "primary"
     }
   ],
   "verification": {
-    "verified_at": "2026-10-14T17:00:00+01:00",
-    "run_id": "2026-10-14-v3",
+    "verified_at": "2026-10-15T09:30:00+01:00",
+    "run_id": "2026-10-15-v",
     "outcome": "verified",
     "removed_fields": [],
-    "record": "data/verification/2026-10-14/2026-10-17-backyard-comedy-club-saturday-night.json"
+    "record": "data/verification/2026-10-15/2026-10-17-backyard-comedy-club-saturday-night.json"
   },
   "editor_note": null,
   "listing": {
     "headline": null,
-    "blurb": "A Saturday-night stand-up show at Backyard Comedy Club, the purpose-built comedy venue on Cambridge Heath Road, and a regular weekly fixture.",
-    "written_at": "2026-10-14T18:00:00+01:00",
-    "run_id": "2026-10-14-lw"
+    "blurb": "A Saturday-night stand-up show at Backyard Comedy Club, the purpose-built comedy club on Cambridge Heath Road, and a regular weekly fixture.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
   },
   "story": null,
   "story_research": null,
   "first_seen": "2026-10-14T17:00:00+01:00",
-  "updated_at": "2026-10-14T17:00:00+01:00",
-  "history": [],
+  "updated_at": "2026-10-15T09:30:00+01:00",
+  "history": [
+    {
+      "at": "2026-10-15T09:30:00+01:00",
+      "by": "verifier",
+      "change": "starts_at updated from re-scout: \"2026-10-17\" -> \"2026-10-17T19:30:00+01:00\""
+    },
+    {
+      "at": "2026-10-15T09:30:00+01:00",
+      "by": "verifier",
+      "change": "ends_at updated from re-scout: null -> \"2026-10-17T22:00:00+01:00\""
+    },
+    {
+      "at": "2026-10-15T09:30:00+01:00",
+      "by": "verifier",
+      "change": "age_restriction updated from re-scout: null -> \"Over 18\""
+    }
+  ],
   "needs_review": null
 }

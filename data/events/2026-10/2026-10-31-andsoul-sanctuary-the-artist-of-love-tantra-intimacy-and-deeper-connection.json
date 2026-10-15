@@ -84,7 +84,12 @@
     "record": "data/verification/2026-10-14/2026-10-31-andsoul-sanctuary-the-artist-of-love-tantra-intimacy-and-deeper-connection.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A workshop on tantra, intimacy and deeper connection at AndSoul Sanctuary, a membership wellness club on Cheshire Street.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
   "story": null,
   "story_research": null,
   "first_seen": "2026-10-14T17:00:00+01:00",

@@ -90,6 +90,88 @@
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-15T06:33:15Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-15T06:40:32Z",
+      "by": "event-story-checker",
+      "change": "changed 'On Wednesdays' to 'midweek' (day not in the quote); story checked"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "vibe": "The venue's own description on Skiddle promises sound that is warm but never noisy, with a vinyl-only line-up of residents providing the soundtrack. Its list of styles runs from trip hop and dub to soul, disco, jazz and funk, plus mellow drum n bass.",
+    "worth_knowing": [
+      "The venue is on two floors in Shoreditch, and its basement can be used for a private party.",
+      "The venue also runs a midweek listening session where classic albums are played through from start to finish."
+    ],
+    "written_at": "2026-10-15T06:33:15Z",
+    "review": {
+      "checked_at": "2026-10-15T06:40:32Z",
+      "removed_fields": []
+    },
+    "evidence": [
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+        "quote": "the sound and vibes will be warm, but never noisy with our wonderful selection of vinyl only residents",
+        "retrieved_at": "2026-10-15T06:33:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+        "quote": "downtempo grooves, trip hop, dub, soul, disco, balearca, Jazz, funk, mellow atmospheric drum n bass",
+        "retrieved_at": "2026-10-15T06:33:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+        "quote": "covering two floors in the heart of Shoreditch",
+        "retrieved_at": "2026-10-15T06:33:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+        "quote": "having your own intimate party in our delightful basement space",
+        "retrieved_at": "2026-10-15T06:33:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.skiddle.com/whats-on/London/26-Curtain-Road/",
+        "quote": "A lovely new midweek listening session, how the classic long players from start to finish",
+        "retrieved_at": "2026-10-15T06:33:15Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ]
+  },
+  "story_research": {
+    "last_attempt": "2026-10-15",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Read only the Skiddle venue page (no named DJs, no start date of the Strictly Vinyl crew). No press or crew page searched; try a search for Strictly Vinyl crew London and 26 Curtain Road reviews next time."
+  }
 }

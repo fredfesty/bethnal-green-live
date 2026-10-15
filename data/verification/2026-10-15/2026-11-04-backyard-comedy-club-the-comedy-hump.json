@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-04-backyard-comedy-club-the-comedy-hump",
+  "candidate_file": "data/candidates/arts/2026-10-15/2026-11-04-backyard-comedy-club-the-comedy-hump.json",
+  "run_id": "2026-10-15-v",
+  "verified_at": "2026-10-15T09:30:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Update of a published event: newly confirmed details added.",
+    "Title, venue and start confirmed by the quote checker from the registry's primary listing."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/the-comedy-hump",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/the-comedy-hump",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/the-comedy-hump",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/the-comedy-hump",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/the-comedy-hump",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "age_restriction",
+      "result": "confirmed",
+      "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/the-comedy-hump",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": "data/events/2026-11/2026-11-04-backyard-comedy-club-the-comedy-hump.json",
+  "changes": [
+    {
+      "field": "starts_at",
+      "from": "2026-11-04",
+      "to": "2026-11-04T20:00:00+00:00"
+    },
+    {
+      "field": "ends_at",
+      "from": null,
+      "to": "2026-11-04T22:30:00+00:00"
+    },
+    {
+      "field": "price",
+      "from": {
+        "known": true,
+        "is_free": true,
+        "min_gbp": 0,
+        "max_gbp": null,
+        "notes": "Get over Hump Day with this FREE event!"
+      },
+      "to": {
+        "known": true,
+        "is_free": true,
+        "min_gbp": 0,
+        "max_gbp": null,
+        "notes": "Free entry. Tickets are free with a bucket collection at the end."
+      }
+    },
+    {
+      "field": "ticket_url",
+      "from": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+      "to": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/the-comedy-hump"
+    },
+    {
+      "field": "age_restriction",
+      "from": null,
+      "to": "Over 18"
+    }
+  ],
+  "decided_by": "verifier"
+}

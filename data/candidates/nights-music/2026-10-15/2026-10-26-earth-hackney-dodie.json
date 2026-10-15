@@ -1,0 +1,79 @@
+{
+  "id": "2026-10-26-earth-hackney-dodie",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "dodie",
+  "summary": null,
+  "venue": {
+    "venue_id": "earth-hackney",
+    "name": "EartH",
+    "address": "11-17 Stoke Newington Rd, Dalston, London",
+    "postcode": "N16 8BH"
+  },
+  "starts_at": "2026-10-26T19:30:00+00:00",
+  "ends_at": "2026-10-26T23:00:00+00:00",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://earthackney.co.uk/events/",
+      "quote": "Mon 26 Oct 19:30\n- 23:00\ndodie",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "notes"
+      ],
+      "url": "https://earthackney.co.uk/events/",
+      "quote": "This special, intimate evening sees dodie reimagine her second album, Not For Lack of Trying, live and in full",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://earthackney.co.uk/",
+      "quote": "EartH is an arts venue and creative hub in the heart of Dalston, Hackney.",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://earthackney.co.uk/",
+      "quote": "11-17 Stoke Newington Rd\nDalston\nLondon\nN16 8BH",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "dodie plays her second album, Not For Lack of Trying, live and in full at EartH on 26 Oct.",
+  "notes_for_verifier": "Price not printed on the events list. The event page was not read. The page's time is the printed 19:30 to 23:00 (+00:00 since the clocks have gone back)."
+}

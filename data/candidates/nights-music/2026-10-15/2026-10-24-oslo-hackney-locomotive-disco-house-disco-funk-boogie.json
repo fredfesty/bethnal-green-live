@@ -1,0 +1,86 @@
+{
+  "id": "2026-10-24-oslo-hackney-locomotive-disco-house-disco-funk-boogie",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T06:12:41+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Locomotive Disco - House, Disco, Funk & Boogie",
+  "summary": null,
+  "venue": {
+    "venue_id": "oslo-hackney",
+    "name": "Oslo Hackney",
+    "address": "1A Amhurst Rd, London",
+    "postcode": "E8 1LL"
+  },
+  "starts_at": "2026-10-24T21:00:00+01:00",
+  "ends_at": "2026-10-25T03:00:00+00:00",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "From free"
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "Locomotive Disco - House, Disco, Funk & Boogie",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "\"startDate\":\"2026-10-24T21:00:00+01:00\"",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "\"endDate\":\"2026-10-25T03:00:00+00:00\"",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "Oslo Hackney",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "Oslo HackneyLondon\nFrom free",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Locomotive Disco night at Oslo Hackney, listed on DICE as house, disco, funk and boogie from 21:00.",
+  "notes_for_verifier": "The quote joins one listing row of the venue's own events page (date, time, title and price sit on separate lines there). The page does not say DJ for this night; confirm the DJ format before publishing. Ticket link is printed only as escaped JSON on the venue page; verifier to add the event URL https://dice.fm/event/6aa7e7da8993460001d4dbd9."
+}

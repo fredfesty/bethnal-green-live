@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-08-earth-hackney-rex-orange-county-album-release-show",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Rex Orange County (performing solo): Album Release Show & In Conversation with Mustafa",
+  "summary": null,
+  "venue": {
+    "venue_id": "earth-hackney",
+    "name": "EartH",
+    "address": "11-17 Stoke Newington Rd, Dalston, London",
+    "postcode": "N16 8BH"
+  },
+  "starts_at": "2026-11-08T20:00:00+00:00",
+  "ends_at": "2026-11-08T22:00:00+00:00",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Rex Orange County"
+  ],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "sold-out",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "status",
+        "lineup"
+      ],
+      "url": "https://earthackney.co.uk/events/",
+      "quote": "SOLD OUT Join waiting list\nSun 8 Nov 20:00\n- 22:00\nRex Orange County (performing solo): Album Release Show & In Conversation with Mustafa",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://earthackney.co.uk/",
+      "quote": "11-17 Stoke Newington Rd\nDalston\nLondon\nN16 8BH",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "An album release show with the artist performing solo; this 20:00 show is marked sold out on the page.",
+  "notes_for_verifier": "Sold out, with a waiting list. The same day has a 17:00 to 19:00 matinee, also marked sold out. The title includes 'In Conversation with Mustafa', so the editor should judge how much of the show is music."
+}

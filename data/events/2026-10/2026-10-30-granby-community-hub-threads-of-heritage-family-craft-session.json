@@ -84,7 +84,12 @@
     "record": "data/verification/2026-10-13/2026-10-30-granby-community-hub-threads-of-heritage-family-craft-session.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A family craft session and community celebration at Granby Community Hub on the theme of Threads of Heritage, running through the late afternoon and early evening.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
   "first_seen": "2026-10-13T11:00:00+01:00",
   "updated_at": "2026-10-13T11:00:00+01:00",
   "history": [],

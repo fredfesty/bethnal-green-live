@@ -1,0 +1,77 @@
+{
+  "id": "2026-10-23-shacklewell-arms-sweet-dreams-soul-disco",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T06:12:41+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Sweet Dreams Soul & Disco",
+  "summary": null,
+  "venue": {
+    "venue_id": "shacklewell-arms",
+    "name": "The Shacklewell Arms",
+    "address": "71 Shacklewell Lane, London",
+    "postcode": "E8 2EB"
+  },
+  "starts_at": "2026-10-23T23:00:00+01:00",
+  "ends_at": "2026-10-24T03:00:00+01:00",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://dice.fm/venue/shacklewell-arms-z82z",
+      "quote": "Sweet Dreams Soul & Disco",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://dice.fm/venue/shacklewell-arms-z82z",
+      "quote": "\"startDate\":\"2026-10-23T23:00",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/shacklewell-arms-z82z",
+      "quote": "The Shacklewell Arms",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/shacklewell-arms-z82z",
+      "quote": "\"endDate\":\"2026-10-24T03:00:00+01:00\"",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "Late soul and disco club night at The Shacklewell Arms, listed on DICE from 23:00.",
+  "notes_for_verifier": "The page does not say DJ or a price in the same line; the DICE venue JSON-LD gives 23:00 to 03:00. Verifier to check the price and the DJ format. Venue is mostly gigs, so take this only as a club night. Ticket link not quoted as plain text on the venue page (it appears only as escaped JSON), so ticket_url is left empty for the verifier to add."
+}

@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-12-chisenhale-gallery-panel-discussion",
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T10:00:00+01:00",
+  "category": "arts",
+  "subcategory": "talk",
+  "title": "Panel Discussion",
+  "summary": "Panel discussion at Chisenhale Gallery, chaired by Dr Anna Adima.",
+  "venue": {
+    "venue_id": "chisenhale-gallery",
+    "name": "Chisenhale Gallery",
+    "address": "64 Chisenhale Road, London",
+    "postcode": "E3 5QZ"
+  },
+  "starts_at": "2026-11-12T19:00:00+00:00",
+  "ends_at": "2026-11-12T20:30:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://chisenhale.org.uk/whats-on/",
+      "quote": "Panel Discussion 12 November, 7–8:30pm Panel discussion with Dr Bernadette Buckley, Dr Vivienne Jabri, and Abiba Coulibaly, chaired by Dr Anna Adima.",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://chisenhale.org.uk/whats-on/",
+      "quote": "64 Chisenhale Road, London, E3 5QZ",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "New on the Chisenhale What's On page (the 29 Oct and 5 Nov panels are already recorded). The page prints no year: 12 Nov 2026 is a Thursday and inside the window. The page gives no price for this event."
+}

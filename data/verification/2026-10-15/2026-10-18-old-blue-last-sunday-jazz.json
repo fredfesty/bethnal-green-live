@@ -1,0 +1,49 @@
+{
+  "id": "2026-10-18-old-blue-last-sunday-jazz",
+  "candidate_file": "data/candidates/nights-music/2026-10-15/2026-10-18-old-blue-last-sunday-jazz.json",
+  "run_id": "2026-10-15-v",
+  "verified_at": "2026-10-15T09:30:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "The page only says 'Sunday Jazz every Sunday'; it gives no dated listing or time for 18 Oct, so the start date is inferred, not quoted.",
+    "Check https://www.theoldbluelast.com/whats-on for the 18 Oct session and its time."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.theoldbluelast.com/whats-on",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.theoldbluelast.com/whats-on",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://www.theoldbluelast.com/whats-on",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "only \"every Sunday\"; no dated listing"
+    },
+    {
+      "field": "recurrence",
+      "result": "confirmed",
+      "url": "https://www.theoldbluelast.com/whats-on",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

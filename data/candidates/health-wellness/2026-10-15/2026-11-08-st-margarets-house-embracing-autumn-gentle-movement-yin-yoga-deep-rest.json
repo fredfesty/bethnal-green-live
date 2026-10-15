@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-08-st-margarets-house-embracing-autumn-gentle-movement-yin-yoga-deep-rest",
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "health-wellness",
+  "subcategory": "yoga",
+  "title": "Embracing Autumn – an afternoon of Gentle Movement, Yin Yoga & Deep Rest",
+  "summary": "An afternoon of gentle movement, yin yoga and rest at The Canvas, St Margaret's House, on Sunday 8 November.",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "St Margaret's House",
+    "address": "27 Old Ford Road, London",
+    "postcode": "E2 9PJ"
+  },
+  "starts_at": "2026-11-08T15:30:00+00:00",
+  "ends_at": "2026-11-08T17:30:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.tickettailor.com/events/stmargaretshouse",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "The Anson Room, St Margaret's House, 21 Old Ford Road, E2 9PL",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "Embracing Autumn – an afternoon of Gentle Movement, Yin Yoga & Deep Rest Sun 8 Nov 2026 3:30 PM - 5:30 PM",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "The Canvas, 27 Old Ford Road, E2 9PJ",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "Embracing Autumn – an afternoon of Gentle Movement, Yin Yoga & Deep Rest Sun 8 Nov 2026 3:30 PM - 5:30 PM",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Ticket link is the venue's Ticket Tailor list page; no event page read, so no price. Other Ticket Tailor yoga and pilates items are weekly classes and were skipped."
+}

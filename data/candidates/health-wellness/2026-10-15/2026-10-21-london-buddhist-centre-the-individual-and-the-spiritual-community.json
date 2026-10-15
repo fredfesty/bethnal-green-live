@@ -1,0 +1,114 @@
+{
+  "id": "2026-10-21-london-buddhist-centre-the-individual-and-the-spiritual-community",
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "health-wellness",
+  "subcategory": "meditation",
+  "title": "The Individual and the Spiritual Community",
+  "summary": "A six-week evening course in person at the London Buddhist Centre, using Buddhist texts, meditation and discussion.",
+  "venue": {
+    "venue_id": "london-buddhist-centre",
+    "name": "London Buddhist Centre",
+    "address": "51 Roman Rd, Bethnal Green, London",
+    "postcode": null
+  },
+  "starts_at": "2026-10-21T19:15:00+01:00",
+  "ends_at": "2026-11-25",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 65,
+    "max_gbp": 130,
+    "notes": "£130 full | £85 low income | £65 18-25s"
+  },
+  "ticket_url": "https://www.londonbuddhistcentre.com/whats-on/the-individual-and-the-spiritual-community-21-oct-2026",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+      "quote": "Our address is: 51 Roman Rd, Bethnal Green, E20HU",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/the-individual-and-the-spiritual-community-21-oct-2026",
+      "quote": "Wed 21 Oct | 7:15 pm – 9:45 pm",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "title",
+        "ends_at"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on",
+      "quote": "Wed 21 Oct – Wed 25 Nov",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/the-individual-and-the-spiritual-community-21-oct-2026",
+      "quote": "A six-week course",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/the-individual-and-the-spiritual-community-21-oct-2026",
+      "quote": "Through study of key Buddhist texts, meditation and discussion, we'll explore:",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/the-individual-and-the-spiritual-community-21-oct-2026",
+      "quote": "£130 full | £85 low income | £65 18-25s",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/the-individual-and-the-spiritual-community-21-oct-2026",
+      "quote": "In person, book online.",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.londonbuddhistcentre.com/whats-on/the-individual-and-the-spiritual-community-21-oct-2026",
+      "quote": "In person, book online.",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Six-week course: ends_at is the closing date on the listing card (Wed 25 Nov). In-person session only; the live stream is not listed. Already in data/events as date-only: this adds the 7:15 pm start from the course page and subcategory 'meditation'."
+}

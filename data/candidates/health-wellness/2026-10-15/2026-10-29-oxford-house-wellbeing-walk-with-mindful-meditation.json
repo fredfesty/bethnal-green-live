@@ -1,0 +1,81 @@
+{
+  "id": "2026-10-29-oxford-house-wellbeing-walk-with-mindful-meditation",
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "health-wellness",
+  "subcategory": "other",
+  "title": "Black History Month 2026 : Wellbeing Walk with Mindful Meditation",
+  "summary": "A guided walk from Oxford House to Victoria Park combining mindfulness, reflection and creative activity, part of Black History Month 2026.",
+  "venue": {
+    "venue_id": "oxford-house",
+    "name": "Oxford House",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-29",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.oxfordhouse.org.uk/whats-on/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/whats-on/",
+      "quote": "Join a guided walk from Oxford House to Victoria Park",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/whats-on/",
+      "quote": "October 29, 2026",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/whats-on/",
+      "quote": "Black History Month 2026 : Wellbeing Walk with Mindful Meditation",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/whats-on/",
+      "quote": "Join a guided walk from Oxford House to Victoria Park combining mindfulness, reflection and creative activity to explore wellbeing, community and connections to the East End.",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.oxfordhouse.org.uk/whats-on/",
+      "quote": "Join a guided walk from Oxford House to Victoria Park",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Medium: dated on the venue's list with no time or price printed. Shared with the community scout (Oxford House); taken here as a wellbeing walk only, per the registry. Check the time before publishing."
+}

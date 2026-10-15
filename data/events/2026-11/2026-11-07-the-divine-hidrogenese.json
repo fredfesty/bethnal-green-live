@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-07-the-divine-hidrogenese",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "LIVE CONCERT: HIDROGENESE",
+  "venue": {
+    "venue_id": "the-divine",
+    "name": "The Divine",
+    "address": "33 Stoke Newington Rd, London",
+    "postcode": "N16 8BJ"
+  },
+  "starts_at": "2026-11-07",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue"
+      ],
+      "url": "https://thedivine.co.uk",
+      "quote": "Saturday 7th November\nLIVE CONCERT: HIDROGENESE\nLive Concert",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://thedivine.co.uk",
+      "quote": "A new LGBTQIA+ bar & performance venue in Dalston!",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-15T09:30:00+01:00",
+    "run_id": "2026-10-15-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-15/2026-11-07-the-divine-hidrogenese.json"
+  },
+  "editor_note": "The Divine's only live concert in its October to November listing; the rest is club nights, cabaret and screenings.",
+  "listing": null,
+  "story": null,
+  "story_research": null,
+  "first_seen": "2026-10-15T09:30:00+01:00",
+  "updated_at": "2026-10-15T09:30:00+01:00",
+  "history": [],
+  "needs_review": null
+}

@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-01-andsoul-sanctuary-the-wellness-social-reformer-pilates-sauna-and-brunch",
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "health-wellness",
+  "subcategory": "pilates",
+  "title": "The Wellness Social: Reformer Pilates, Sauna & Brunch",
+  "summary": "A monthly social at AndSoul Sanctuary: a Reformer Pilates session, time in the sauna, then brunch.",
+  "venue": {
+    "venue_id": "andsoul-sanctuary",
+    "name": "AndSoul Sanctuary",
+    "address": "114-116 Cheshire Street, London",
+    "postcode": "E2 6EJ"
+  },
+  "starts_at": "2026-11-01T11:00:00+00:00",
+  "ends_at": null,
+  "recurrence": "Our monthly Wellness Social",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "114-116 Cheshire Street, London E2 6EJ",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "November 01, 2026 @ 11:00 AM",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "The Wellness Social: Reformer Pilates, Sauna & Brunch",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary",
+        "recurrence"
+      ],
+      "url": "https://andsoulsanctuary.com/whats-on",
+      "quote": "Our monthly Wellness Social: an energising Reformer Pilates session with X-Club, followed by time to unwind in the sauna",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Next occurrence of a monthly social. The brunch is food, which is the food & drink scout's; only the pilates and sauna are recorded here. No price on the listing."
+}

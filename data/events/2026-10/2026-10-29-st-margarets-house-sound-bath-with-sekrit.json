@@ -71,7 +71,12 @@
     "record": "data/verification/2026-10-13/2026-10-29-st-margarets-house-sound-bath-with-sekrit.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A sound bath with Sekrit at St Margaret's House, one for anyone looking to wind down in the evening.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
   "first_seen": "2026-10-13T14:00:00+01:00",
   "updated_at": "2026-10-13T14:00:00+01:00",
   "history": [],

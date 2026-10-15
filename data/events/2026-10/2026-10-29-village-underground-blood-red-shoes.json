@@ -91,7 +91,12 @@
     "record": "data/verification/2026-10-14/2026-10-29-village-underground-blood-red-shoes.json"
   },
   "editor_note": "Blood Red Shoes on a Thursday evening at Village Underground, EC2A.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A gig from Blood Red Shoes at Village Underground, the converted Victorian warehouse in Shoreditch with tube carriages on its roof.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
   "story": null,
   "story_research": null,
   "first_seen": "2026-10-14T17:00:00+01:00",

@@ -1,0 +1,77 @@
+{
+  "id": "2026-10-16-mare-street-market-enjoy-fridays-with-maurice-alexander",
+  "category": "nights-music",
+  "subcategory": "dj-bar",
+  "title": "Enjoy Fridays With Maurice Alexander",
+  "venue": {
+    "venue_id": "mare-street-market",
+    "name": "Mare Street Market",
+    "address": "117 Mare Street, Hackney, London",
+    "postcode": "E8 4RU"
+  },
+  "starts_at": "2026-10-16T18:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Maurice Alexander"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": null,
+    "notes": "Free entry"
+  },
+  "ticket_url": "https://marestreetmarket.com/events-hackney/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "venue",
+        "lineup",
+        "ticket_url"
+      ],
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "quote": "16.10.26 18.00 Enjoy Fridays With Maurice Alexander Free entry",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://marestreetmarket.com/events-hackney/",
+      "quote": "Enjoy Fridays With Maurice Alexander Free entry",
+      "retrieved_at": "2026-10-15T06:20:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-15T09:30:00+01:00",
+    "run_id": "2026-10-15-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-15/2026-10-16-mare-street-market-enjoy-fridays-with-maurice-alexander.json"
+  },
+  "editor_note": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A free Friday-evening DJ session from Maurice Alexander at Mare Street Market, a home for independent restaurants and shops. An easy one to drop into on the way home.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
+  "story": null,
+  "story_research": null,
+  "first_seen": "2026-10-15T09:30:00+01:00",
+  "updated_at": "2026-10-15T09:30:00+01:00",
+  "history": [],
+  "needs_review": null
+}

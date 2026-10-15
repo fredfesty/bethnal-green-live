@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-27-hackney-empire-dexys-midnight-runners",
+  "candidate_file": "data/candidates/nights-music/2026-10-15/2026-10-27-hackney-empire-dexys-midnight-runners.json",
+  "run_id": "2026-10-15-v",
+  "verified_at": "2026-10-15T09:30:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start confirmed by the quote checker from the registry's primary listing."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://www.hackneyempire.co.uk/events/dexys-midnight-runners",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

@@ -85,7 +85,12 @@
     "record": "data/verification/2026-10-13/2026-10-29-victoria-park-send-pumpkin-carving-arts-and-crafts.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A free pumpkin carving and arts and crafts session marked SEND, at the Victoria Park One O'clock Club in East Park, for children aged 5 to 12.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
   "first_seen": "2026-10-13T11:00:00+01:00",
   "updated_at": "2026-10-13T11:00:00+01:00",
   "history": [],

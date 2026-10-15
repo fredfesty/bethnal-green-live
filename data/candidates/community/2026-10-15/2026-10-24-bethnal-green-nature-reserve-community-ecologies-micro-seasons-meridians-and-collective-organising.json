@@ -1,0 +1,80 @@
+{
+  "id": "2026-10-24-bethnal-green-nature-reserve-community-ecologies-micro-seasons-meridians-and-collective-organising",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:10:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Community Ecologies - 'Micro-Seasons, Meridians & Collective Organising: Traditional Chinese Medicine as Community Ecology' by Yaya-海 Wang",
+  "summary": "A Community Ecologies workshop at Bethnal Green Nature Reserve on Saturday 24 October 2026, led by Yaya-海 Wang, on the Five Elements, micro-seasons and community organising.",
+  "venue": {
+    "venue_id": "bethnal-green-nature-reserve",
+    "name": "Bethnal Green Nature Reserve",
+    "address": "Middleton Street, London",
+    "postcode": "E2 9RR"
+  },
+  "starts_at": "2026-10-24T14:00:00+01:00",
+  "ends_at": "2026-10-24T15:30:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://bethnalgreennaturereserve.org/calendar",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "quote": "Community Ecologies - 'Micro-Seasons, Meridians & Collective Organising: Traditional Chinese Medicine as Community Ecology' by Yaya-海 Wang",
+      "retrieved_at": "2026-10-15T09:06:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "quote": "Sat 24 October 2026 2.00pm – 3.30pm",
+      "retrieved_at": "2026-10-15T09:06:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "summary"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "quote": "Join Yaya-海 Wang for a workshop exploring the Five Elements and 24 micro-seasons",
+      "retrieved_at": "2026-10-15T09:06:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "quote": "Bethnal Green Nature Reserve",
+      "retrieved_at": "2026-10-15T09:06:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Calendar listing only; no event page link or per-event location, so the venue rests on the calendar header. Address and postcode come from the registry, not the page. Price and booking unknown. Scope: a workshop on Traditional Chinese Medicine as community ecology, not a Qi Gong or yoga session; check scope."
+}

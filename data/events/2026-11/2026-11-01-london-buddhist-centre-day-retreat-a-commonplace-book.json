@@ -93,7 +93,12 @@
     "record": "data/verification/2026-10-14/2026-11-01-london-buddhist-centre-day-retreat-a-commonplace-book.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A free day retreat at the London Buddhist Centre on Roman Road, built around the idea of a commonplace book. Booking is done online.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
   "history": [],

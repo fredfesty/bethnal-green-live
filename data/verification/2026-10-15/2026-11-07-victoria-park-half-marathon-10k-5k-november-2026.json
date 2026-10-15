@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-07-victoria-park-half-marathon-10k-5k-november-2026",
+  "candidate_file": "data/candidates/health-wellness/2026-10-15/2026-11-07-victoria-park-half-marathon-10k-5k-november-2026.json",
+  "run_id": "2026-10-15-v",
+  "verified_at": "2026-10-15T09:30:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Date is confirmed (Saturday 7th November 2026) but the 09:30 start and 12:30 end are only in embedded JSON-LD with no event title nearby, so the time is unverifiable.",
+    "Check the start time on https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "time only in JSON-LD, title_nearby false"
+    },
+    {
+      "field": "ends_at",
+      "result": "unverifiable",
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "method": "none",
+      "source_kind": null,
+      "note": "time only in JSON-LD, title_nearby false"
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.runthrough.co.uk/event/victoria-park-half-marathon-10k-5k-november-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

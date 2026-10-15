@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-15-london-buddhist-centre-womens-intensive-long-weekend",
+  "candidate_file": "data/candidates/health-wellness/2026-10-15/2026-10-15-london-buddhist-centre-womens-intensive-long-weekend.json",
+  "run_id": "2026-10-15-v",
+  "verified_at": "2026-10-15T09:30:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "The event listing gives no location for this retreat; the only venue quotes are the centre's general address and 'In person, book online', so the venue is unconfirmed for this event.",
+    "Check the event page for where the long weekend is held and its start time: https://www.londonbuddhistcentre.com/whats-on"
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.londonbuddhistcentre.com/whats-on",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "unverifiable",
+      "url": "https://www.londonbuddhistcentre.com/whats-on/day-retreat-a-commonplace-book-01-nov-2026",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "quotes give only the centre address, not this retreat location"
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.londonbuddhistcentre.com/whats-on",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.londonbuddhistcentre.com/whats-on",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.londonbuddhistcentre.com/whats-on",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

@@ -55,7 +55,12 @@
     "record": "data/verification/2026-10-14/2026-10-30-genesis-cinema-in-the-shadows-qa.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A screening of In The Shadows followed by a Q&A, at Genesis Cinema, the independent family-run cinema on Mile End Road.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
   "story": null,
   "story_research": null,
   "first_seen": "2026-10-14T17:00:00+01:00",

@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-22-st-margarets-house-moving-through-grief-workshop-navigating-guilt-and-regret",
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:30:00+01:00",
+  "category": "health-wellness",
+  "subcategory": "workshop",
+  "title": "Moving through Grief workshop: Navigating Guilt and Regret",
+  "summary": "A two-hour workshop in October at The Canvas, St Margaret's House, on guilt and regret in grief.",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "St Margaret's House",
+    "address": "27 Old Ford Road, London",
+    "postcode": "E2 9PJ"
+  },
+  "starts_at": "2026-10-22T18:00:00+01:00",
+  "ends_at": "2026-10-22T20:00:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.tickettailor.com/events/stmargaretshouse",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "The Anson Room, St Margaret's House, 21 Old Ford Road, E2 9PL",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "October Moving through Grief workshop: Navigating Guilt and Regret Thu 22 Oct 2026 6:00 PM - 8:00 PM",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "The Canvas, 27 Old Ford Road, E2 9PJ",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "October Moving through Grief workshop: Navigating Guilt and Regret Thu 22 Oct 2026 6:00 PM - 8:00 PM",
+      "retrieved_at": "2026-10-15T09:30:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Title on the box-office list is 'October Moving through Grief workshop: Navigating Guilt and Regret'. Ticket link is the venue's Ticket Tailor list page (no event page read). Treat as a wellbeing workshop; check it is not a counselling group."
+}

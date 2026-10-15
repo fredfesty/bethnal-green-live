@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-15-st-margarets-house-archiving-south-asian-womens-stories",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T09:10:00+01:00",
+  "category": "community",
+  "subcategory": "talk",
+  "title": "Archiving South Asian Women's Stories",
+  "summary": "A talk at St Margaret's House on archiving South Asian women's stories, listed on the venue's Ticket Tailor page for Thursday 15 October 2026.",
+  "venue": {
+    "venue_id": "st-margarets-house",
+    "name": "St Margaret's House",
+    "address": "The Anson Room, St Margaret's House, 21 Old Ford Road, E2 9PL",
+    "postcode": "E2 9PL"
+  },
+  "starts_at": "2026-10-15T19:00:00+01:00",
+  "ends_at": "2026-10-15T21:00:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://www.tickettailor.com/events/stmargaretshouse",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "Archiving South Asian Women's Stories",
+      "retrieved_at": "2026-10-15T09:08:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "Thu 15 Oct 2026 7:00 PM - 9:00 PM",
+      "retrieved_at": "2026-10-15T09:08:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "The Anson Room, St Margaret's House, 21 Old Ford Road, E2 9PL",
+      "retrieved_at": "2026-10-15T09:08:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Found on the St Margaret's House Ticket Tailor list page only; no event page was reachable (the list prints no links), so price, booking and description are unchecked. Starts today. Subcategory 'talk' is the scout's guess from the title: check against the event page."
+}

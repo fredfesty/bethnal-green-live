@@ -1,0 +1,66 @@
+{
+  "id": "2026-11-12-genesis-cinema-poetry-slam",
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T10:00:00+01:00",
+  "category": "arts",
+  "subcategory": "performance",
+  "title": "Poetry Slam",
+  "summary": "Poetry slam at Genesis Cinema, Whitechapel.",
+  "venue": {
+    "venue_id": "genesis-cinema",
+    "name": "Genesis Cinema",
+    "address": "93-95 Mile End Road, Whitechapel, London",
+    "postcode": "E1 4UJ"
+  },
+  "starts_at": "2026-11-12T19:30:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.genesiscinema.co.uk/whatson/events",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/events",
+      "quote": "Poetry Slam Running time: 150 mins Details Thu 12 Nov 19:30",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/events",
+      "quote": "Thu 12 Nov 19:30 Book Now",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "quote": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Genesis's Events listing (poetry is arts, per the registry). Year not printed: 12 Nov 2026 is a Thursday and inside the window. No price printed, so price unknown. Starts 19:30 on 12 Nov (GMT)."
+}

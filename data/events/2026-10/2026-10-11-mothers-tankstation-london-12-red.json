@@ -66,6 +66,179 @@
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-15T06:40:00Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, then, now, worth_knowing"
+    },
+    {
+      "at": "2026-10-15T06:40:32Z",
+      "by": "event-story-checker",
+      "change": "cut biennale years and the work title Decomposition, not in the quotes; story checked"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "Yuko Mohri is an installation artist. According to Tanya Bonakdar Gallery, she makes kinetic sculptures from reconfigured everyday objects and machine parts, bringing out invisible things such as sound, gravity, wind and light. The gallery adds that her work is often inspired by repair as everyday creativity, and nods to the scores of Nam June Paik, John Cage and Eric Satie. Her mother's tankstation page lists her at the Japan Pavilion of the 60th Venice Biennale in 2024.",
+    "then": "Mohri has shown at this gallery before: her own page on the gallery's website lists a London show in autumn 2023 and a 2019 show at the gallery's Dublin space. The same page also lists the 14th Gwangju Biennale and the 23rd Biennale of Sydney.",
+    "now": "The gallery's own artist page shows Mohri's work travelling widely this year, with exhibitions listed at the Yokohama Museum of Art, Centro Botín in Cantabria and the Bass Museum of Art in Miami Beach.",
+    "worth_knowing": [
+      "One work listed on her gallery page uses audio powered by fruit, with horn speakers and an amplifier."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.tanyabonakdargallery.com/artists/128-yuko-mohri/",
+        "quote": "Yuko Mohri is an installation artist who, with spatial sensitivity, creates kinetic sculptures using reconfigured everyday objects and machine parts.",
+        "retrieved_at": "2026-10-15T09:00:00+01:00",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.tanyabonakdargallery.com/artists/128-yuko-mohri/",
+        "quote": "she foregrounds the encounter between object and invisible phenomena like sound, gravity, wind and light.",
+        "retrieved_at": "2026-10-15T09:00:00+01:00",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.tanyabonakdargallery.com/artists/128-yuko-mohri/",
+        "quote": "inspired by repair as adaptive creativity in everyday life, and paid homage to musical scores by “composers of inadvertence” like Eric Satie, John Cage and Nam June Paik.",
+        "retrieved_at": "2026-10-15T09:00:00+01:00",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.motherstankstation.com/artist/yuko-mohri/",
+        "quote": "Compose\nJapan Pavilion\n60th International Art Exhibition\nLa Biennale di Venezia, Venice\n20 April – 24 November 2024",
+        "retrieved_at": "2026-10-15T09:00:00+01:00",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.motherstankstation.com/artist/yuko-mohri/",
+        "quote": "Wooden bowl,iron, horn speakers, amplifier, computer, audio powered by fruit",
+        "retrieved_at": "2026-10-15T09:00:00+01:00",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://www.motherstankstation.com/artist/yuko-mohri/",
+        "quote": "Yuko Mohri\n12 Red\nmother’s tankstation, London\n11 October – 5 December 2026",
+        "retrieved_at": "2026-10-15T09:00:00+01:00",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.motherstankstation.com/artist/yuko-mohri/",
+        "quote": "Yuko Mohri\nSweet to Tongue and Sound to Eye\nmother’s tankstation, London\n8 October – December 2023",
+        "retrieved_at": "2026-10-15T09:00:00+01:00",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.motherstankstation.com/artist/yuko-mohri/",
+        "quote": "slower than slowly\nmother’s tankstation, Dublin\n11 September – 14 December 2019",
+        "retrieved_at": "2026-10-15T09:00:00+01:00",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.motherstankstation.com/artist/yuko-mohri/",
+        "quote": "soft and weak like water\n14th Gwangju Biennale",
+        "retrieved_at": "2026-10-15T09:00:00+01:00",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.motherstankstation.com/artist/yuko-mohri/",
+        "quote": "rīvus\n23rd Biennale of Sydney",
+        "retrieved_at": "2026-10-15T09:00:00+01:00",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.motherstankstation.com/artist/yuko-mohri/",
+        "quote": "Yuko Mohri: Recompose\nYokohama Museum of Art, Yokohama\n24 July – 23 November 2026",
+        "retrieved_at": "2026-10-15T09:00:00+01:00",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.motherstankstation.com/artist/yuko-mohri/",
+        "quote": "Entanglements\nCentro Botín, Cantabria\n28 March – 6 September 2026",
+        "retrieved_at": "2026-10-15T09:00:00+01:00",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://www.motherstankstation.com/artist/yuko-mohri/",
+        "quote": "Unviolated Imperfection\nThe Bass Museum of Art, Miami Beach\n17 September 2026 – 30 May 2027",
+        "retrieved_at": "2026-10-15T09:00:00+01:00",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.motherstankstation.com/artist/yuko-mohri/",
+        "quote": "Wooden bowl,iron, horn speakers, amplifier, computer, audio powered by fruit",
+        "retrieved_at": "2026-10-15T09:00:00+01:00",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-15T06:40:00Z",
+    "review": {
+      "checked_at": "2026-10-15T06:40:32Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-15",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Gallery page for 12 Red has no text on the show; Ocula refused (403). Not found: what 12 Red is about, press on the show or the room. Lead: a press release or review."
+  }
 }

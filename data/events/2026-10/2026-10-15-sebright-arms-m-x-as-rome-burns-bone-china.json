@@ -100,6 +100,112 @@
   },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-15T06:33:32Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, then, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-15T06:40:32Z",
+      "by": "event-story-checker",
+      "change": "cut Bristol three-piece genres and debut EP (not in quotes), and the Dot To Dot item; story checked"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "The DICE listing says M/X's sound is compared with IDLES, Yard Act and Shame, among others, and that their performances have landed them spots at 2000 Trees, Dot To Dot and SuperSonic in Paris. As Rome Burns and Bone China are billed as special guests.",
+    "started": null,
+    "then": "The listing says M/X made their European live debut in February, in a year it describes as a build-up to a bigger 2026. It also names a single, 'Momma', which it calls a dirty grunge anthem.",
+    "now": null,
+    "vibe": "The promoter's text on DICE calls the band's live shows chaotically charming and built on raw energy, with socially charged lyrics and angsty guitars.",
+    "worth_knowing": [
+      "The listing describes the band as working with a DIY ethos."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://dice.fm/event/69fc6945841dc500010c443a",
+        "quote": "draws comparisons to the likes of IDLES, Yard Act, Talking Heads, Gurriers and Shame.",
+        "retrieved_at": "2026-10-15T06:33:32Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://dice.fm/event/69fc6945841dc500010c443a",
+        "quote": "their explosive performances have landed them spots at festivals like 2000 Trees and Dot To Dot, as well as conquering venues in Europe, including SuperSonic, Paris.",
+        "retrieved_at": "2026-10-15T06:33:32Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://dice.fm/event/69fc6945841dc500010c443a",
+        "quote": "+ special guests As Rome Burns + Bone China",
+        "retrieved_at": "2026-10-15T06:33:32Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then",
+          "story.worth_knowing"
+        ],
+        "url": "https://dice.fm/event/69fc6945841dc500010c443a",
+        "quote": "With relentless drive and a DIY ethos, M/X started the year off strong by making their European live debut in February and they are gearing up for a huge 2026.",
+        "retrieved_at": "2026-10-15T06:33:32Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://dice.fm/event/69fc6945841dc500010c443a",
+        "quote": "Followed by the single release of ‘Momma’ which is a dirty grunge anthem.",
+        "retrieved_at": "2026-10-15T06:33:32Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://dice.fm/event/69fc6945841dc500010c443a",
+        "quote": "Chaotically charming, their live shows consist of nothing but raw energy and zest.",
+        "retrieved_at": "2026-10-15T06:33:32Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://dice.fm/event/69fc6945841dc500010c443a",
+        "quote": "With trashy rhythms, angsty guitars and socially charged lyrics that hit like a punch in the gut",
+        "retrieved_at": "2026-10-15T06:33:32Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "review": {
+      "checked_at": "2026-10-15T06:40:32Z",
+      "removed_fields": []
+    },
+    "written_at": "2026-10-15T06:33:32Z"
+  },
+  "story_research": {
+    "last_attempt": "2026-10-15",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Used the DICE event page only. DICE artist pages for As Rome Burns and Bone China had no biography, so neither is described beyond being billed as guests. No searches run; own sites and press for M/X not tried."
+  }
 }

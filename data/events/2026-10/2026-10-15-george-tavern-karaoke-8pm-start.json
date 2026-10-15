@@ -87,7 +87,13 @@
     "run_id": "2026-10-14-lw"
   },
   "story": null,
-  "story_research": null,
+  "story_research": {
+    "last_attempt": "2026-10-15",
+    "attempts": 1,
+    "outcome": "nothing-found",
+    "next_check": "2026-10-22",
+    "note": "DICE page only says free entry karaoke every Thursday, no host or history named. One search found nothing about this karaoke night (only venue pages and other gigs). Try the venue's own site or a host name if one appears."
+  },
   "first_seen": "2026-10-14T17:00:00+01:00",
   "updated_at": "2026-10-14T17:00:00+01:00",
   "history": [],

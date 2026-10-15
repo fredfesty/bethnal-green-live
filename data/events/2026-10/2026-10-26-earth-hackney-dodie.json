@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-26-earth-hackney-dodie",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "dodie",
+  "venue": {
+    "venue_id": "earth-hackney",
+    "name": "EartH",
+    "address": "11-17 Stoke Newington Rd, Dalston, London",
+    "postcode": "N16 8BH"
+  },
+  "starts_at": "2026-10-26T19:30:00+00:00",
+  "ends_at": "2026-10-26T23:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://earthackney.co.uk/events/",
+      "quote": "Mon 26 Oct 19:30\n- 23:00\ndodie",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "notes"
+      ],
+      "url": "https://earthackney.co.uk/events/",
+      "quote": "This special, intimate evening sees dodie reimagine her second album, Not For Lack of Trying, live and in full",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://earthackney.co.uk/",
+      "quote": "EartH is an arts venue and creative hub in the heart of Dalston, Hackney.",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://earthackney.co.uk/",
+      "quote": "11-17 Stoke Newington Rd\nDalston\nLondon\nN16 8BH",
+      "retrieved_at": "2026-10-15T09:40:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-15T09:30:00+01:00",
+    "run_id": "2026-10-15-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-15/2026-10-26-earth-hackney-dodie.json"
+  },
+  "editor_note": "dodie plays her second album, Not For Lack of Trying, live and in full at EartH on 26 Oct.",
+  "listing": {
+    "headline": null,
+    "blurb": "A gig by dodie at EartH, the Art Deco former cinema in Dalston reopened in 2018.",
+    "written_at": "2026-10-15T07:40:00+01:00",
+    "run_id": "2026-10-15-lw"
+  },
+  "story": null,
+  "story_research": null,
+  "first_seen": "2026-10-15T09:30:00+01:00",
+  "updated_at": "2026-10-15T09:30:00+01:00",
+  "history": [],
+  "needs_review": null
+}

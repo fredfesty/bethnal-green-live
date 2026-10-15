@@ -1,0 +1,66 @@
+{
+  "id": "2026-10-25-genesis-cinema-steel-of-film-35mm-qa",
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-15-a"
+  },
+  "found_at": "2026-10-15T10:00:00+01:00",
+  "category": "arts",
+  "subcategory": "film",
+  "title": "Steel of Film (in 35 mm) + Q&A",
+  "summary": "Screening of Steel of Film in 35 mm, with a Q&A, at Genesis Cinema, Whitechapel.",
+  "venue": {
+    "venue_id": "genesis-cinema",
+    "name": "Genesis Cinema",
+    "address": "93-95 Mile End Road, Whitechapel, London",
+    "postcode": "E1 4UJ"
+  },
+  "starts_at": "2026-10-25T18:30:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.genesiscinema.co.uk/whatson/qanda",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "quote": "Steel of Film (in 35 mm) + Q&A Running time: 75 mins Details Sun 25 Oct 18:30",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "quote": "Details Sun 25 Oct 18:30 Book Now",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "quote": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+      "retrieved_at": "2026-10-15T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "UPDATE to 2026-10-25-genesis-cinema-steel-of-film-35mm-qa (published without a time). The Q&A listing now prints 'Sun 25 Oct 18:30'. 25 Oct is after the clocks go back at 02:00, so +00:00. Ticket link is the Q&A listing page, not the film's own page."
+}
