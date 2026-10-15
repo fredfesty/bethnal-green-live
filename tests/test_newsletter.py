@@ -229,3 +229,63 @@ def test_buttondown_test_copy_goes_only_to_the_test_list(repo, monkeypatch, caps
     monkeypatch.delenv("NEWSLETTER_TEST_TO", raising=False)
     assert newsletter.main(["buttondown-draft", str(issue_path)]) == 0
     assert len(calls) == 1  # no test list: draft only, nothing emailed
+
+
+LEFT_OUT = {"left_out": True, "by": "fred", "at": "2026-10-28T09:35:00+00:00"}
+
+
+def test_an_issue_can_go_out_without_a_letter(repo, validators):
+    d = load(EX_ISSUE)
+    d["intro"] = dict(LEFT_OUT)
+    assert errors(d, validators) == []
+    assert newsletter.letter(d) is None and newsletter.is_ready(d)
+    events = newsletter.load_events(repo)
+    md = newsletter.render_markdown(d, events)
+    assert "hasn't been written yet" not in md and "*Fred*" not in md
+    html_ = newsletter.render_html(d, events)
+    assert "<!-- letter -->" not in html_
+
+
+def test_a_left_out_letter_must_be_marked_by_fred(repo, validators):
+    d = load(EX_ISSUE)
+    d["intro"] = dict(LEFT_OUT, by="newsletter-intro")
+    assert has(errors(d, validators), "format: intro")
+    d["intro"] = dict(LEFT_OUT, left_out=False)
+    assert has(errors(d, validators), "format: intro")
+
+
+def test_a_written_letter_still_shows_and_null_still_means_not_ready(repo):
+    d = load(EX_ISSUE)
+    events = newsletter.load_events(repo)
+    assert newsletter.letter(d) == d["intro"]
+    assert d["intro"]["greeting"] in newsletter.render_markdown(d, events)
+    assert "<!-- letter -->" in newsletter.render_html(d, events)
+    d["intro"] = None
+    assert not newsletter.is_ready(d)
+    assert "hasn't been written yet" in newsletter.render_markdown(d, events)
+
+
+def test_buttondown_drafts_an_issue_without_a_letter_but_not_one_still_waiting(repo, monkeypatch, capsys):
+    issue_path = repo / "data/newsletter/issues/2026-10-29.json"
+    d = load(EX_ISSUE)
+    sent = []
+    monkeypatch.setattr(newsletter, "buttondown_draft", lambda issue, events, key: sent.append(issue) or {"id": "em_1"})
+    monkeypatch.setenv("BUTTONDOWN_API_KEY", "k")
+    monkeypatch.delenv("NEWSLETTER_TEST_TO", raising=False)
+    d["intro"] = None
+    issue_path.write_text(json.dumps(d), encoding="utf-8")
+    assert newsletter.main(["buttondown-draft", str(issue_path)]) == 1 and sent == []
+    d["intro"] = dict(LEFT_OUT)
+    issue_path.write_text(json.dumps(d), encoding="utf-8")
+    assert newsletter.main(["buttondown-draft", str(issue_path)]) == 0 and len(sent) == 1
+
+
+def test_issue_1_goes_out_without_the_letter():
+    p = REPO / "data/newsletter/issues/2026-10-15.json"
+    d = load(p)
+    events = newsletter.load_events(REPO)
+    assert newsletter.letter(d) is None and newsletter.is_ready(d)
+    md, html_ = newsletter.render_markdown(d, events), newsletter.render_html(d, events)
+    for gone in ("Hello, E2", "Welcome to the first Bethnal Green Live"):
+        assert gone not in md and gone not in html_
+    assert "<!-- letter -->" not in html_

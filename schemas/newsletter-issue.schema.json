@@ -31,9 +31,19 @@
       "maxLength": 140
     },
     "intro": {
-      "description": "Fred's editor's letter. Null until the intro writer has run; an issue with a null intro is not ready to send.",
+      "description": "Fred's editor's letter. Null until the intro writer has run; an issue with a null intro is not ready to send. {\"left_out\": true} means Fred chose to send this issue without a letter: it is ready, and nothing writes one.",
       "oneOf": [
         { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["left_out", "by", "at"],
+          "properties": {
+            "left_out": { "const": true },
+            "by": { "const": "fred" },
+            "at": { "$ref": "common.schema.json#/$defs/timestamp" }
+          }
+        },
         {
           "type": "object",
           "additionalProperties": false,

@@ -387,6 +387,17 @@ SANS = "'Helvetica Neue',Helvetica,Arial,sans-serif"
 NARROW = "'Archivo Narrow','Arial Narrow','Helvetica Neue',Arial,sans-serif"
 
 
+def letter(issue: dict) -> dict | None:
+    """Fred's letter, or None when there isn't one: not written yet (null) or left out on purpose."""
+    i = issue.get("intro")
+    return None if not i or i.get("left_out") else i
+
+
+def is_ready(issue: dict) -> bool:
+    """An issue is ready once its letter is written, or Fred has chosen to send it without one."""
+    return bool(issue.get("intro"))
+
+
 def esc(s) -> str:
     return html.escape(str(s or ""), quote=True)
 
@@ -500,13 +511,13 @@ def render_html(issue: dict, events: dict[str, dict], site_url: str = SITE_URL) 
     site = site_url.rstrip("/") + "/"
     pre = esc(issue["preheader"]) + "&nbsp;&zwnj;" * 60
     intro = ""
-    if issue.get("intro"):
-        i = issue["intro"]
+    i = letter(issue)
+    if i:
         paras = "".join(f'<p style="margin:0 0 14px;font:17px/1.6 Georgia,\'Times New Roman\',serif;color:{C["ink"]}">'
                         f'{esc(p)}</p>' for p in i["paragraphs"])
         ps = (f'<p style="margin:16px 0 0;font:italic 15px/1.5 Georgia,serif;color:{C["muted"]}">PS {esc(i["postscript"])}</p>'
               if i.get("postscript") else "")
-        intro = (f'<tr><td class="pad" style="padding:18px 28px 0"><table role="presentation" width="100%" '
+        intro = (f'<!-- letter --><tr><td class="pad" style="padding:18px 28px 0"><table role="presentation" width="100%" '
                  f'cellpadding="0" cellspacing="0" style="background:{C["plate"]};border-left:4px solid {C["red"]};border-radius:4px">'
                  f'<tr><td style="padding:22px 24px 20px">'
                  f'<p style="margin:0 0 12px;font:800 20px/1.2 {NARROW};color:{C["ink"]}">{esc(i["greeting"])}</p>{paras}'
@@ -560,13 +571,13 @@ def render_markdown(issue: dict, events: dict[str, dict], site_url: str = SITE_U
     frm, to = (dt.date.fromisoformat(issue["covers"][k]) for k in ("from", "to"))
     out = [f"**Bethnal Green Live E2** · Issue {issue['issue_number']} · What's on {week_label(frm, to)}", ""]
     out += [f"**Subject:** {issue['subject']}  ", f"**Preview line:** {issue['preheader']}", ""]
-    if issue.get("intro"):
-        i = issue["intro"]
+    i = letter(issue)
+    if i:
         out += [f"**{i['greeting']}**", ""] + [p + "\n" for p in i["paragraphs"]]
         out += [i["sign_off"], f"*{i['signed']}*", ""]
         if i.get("postscript"):
             out += [f"PS {i['postscript']}", ""]
-    else:
+    elif not is_ready(issue):
         out += ["*(Fred's letter hasn't been written yet.)*", ""]
     for s, items in resolve(issue, events):
         out += [f"## {(s.get('emoji') or '') + ' ' if s.get('emoji') else ''}{s['heading']}", ""]
@@ -655,7 +666,7 @@ def main(argv: list[str] | None = None) -> int:
     if not key:
         print("BUTTONDOWN_API_KEY is not set; nothing sent to Buttondown.")
         return 0
-    if not issue.get("intro"):
+    if not is_ready(issue):
         print("This issue has no editor's letter yet; not creating a draft.")
         return 1
     try:

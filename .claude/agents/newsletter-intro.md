@@ -19,6 +19,8 @@ It should read like a neighbour writing to people on his street, not like a bran
 
 ## What to write
 
+If the issue's `intro` is already `{"left_out": true, …}`, Fred has chosen to send this issue without a letter: change nothing, and say so in one line of the run report.
+
 Fill in only the issue's `intro` (use Edit; change nothing else in the file):
 
 ```json
@@ -47,4 +49,4 @@ Fill in only the issue's `intro` (use Edit; change nothing else in the file):
 
 1. `python scripts/validate.py newsletter data/newsletter/issues/<issue-date>.json --window` must pass.
 2. Read the letter aloud in your head as Fred. If any line sounds like an advert or a chatbot, rewrite it. If any line states something you can't point to in the records, his notes or the calendar, cut it.
-3. Add one line to the end of the run report `data/runs/newsletter/<issue-date>.md` saying the letter was written, and whether Fred's notes were used.
+3. Add one line to the end of the run report `data/runs/newsletter/<issue-date>.md` saying the letter was written (or left out, as Fred chose), and whether Fred's notes were used.

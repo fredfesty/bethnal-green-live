@@ -5,6 +5,9 @@ import fs from "node:fs";
 import path from "node:path";
 import { DEMO, loadAllEventsById, type SiteEvent } from "./data";
 import { todayInLondon } from "./time";
+import type { Intro } from "./letter";
+import { isReady } from "./letter";
+export { letterOf, type Letter } from "./letter";
 
 const REPO = path.resolve(process.cwd(), "..");
 
@@ -15,7 +18,7 @@ export interface IssueSection {
 }
 export interface Issue {
   id: string; issue_number: number; covers: { from: string; to: string }; subject: string; preheader: string;
-  intro: { greeting: string; paragraphs: string[]; sign_off: string; signed: string; postscript?: string | null } | null;
+  intro: Intro;
   sections: IssueSection[];
 }
 export interface ResolvedSection extends IssueSection { entries: { item: IssueItem; e: SiteEvent }[] }
@@ -30,7 +33,7 @@ export function loadIssues(): Issue[] {
       try { return JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as Issue; }
       catch { console.warn(`[bgl] skipped unreadable issue ${f}`); return null; }
     })
-    .filter((i): i is Issue => !!i && !!i.id && !!i.intro)
+    .filter((i): i is Issue => !!i && !!i.id && isReady(i))
     .sort((a, b) => b.id.localeCompare(a.id));
 }
 
