@@ -58,7 +58,12 @@
     "record": "data/verification/2026-10-15/2026-11-07-the-divine-hidrogenese.json"
   },
   "editor_note": "The Divine's only live concert in its October to November listing; the rest is club nights, cabaret and screenings.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A live concert billed as HIDROGENESE at The Divine, the queer bar and drag venue in Dalston.",
+    "written_at": "2026-10-16T06:32:57+01:00",
+    "run_id": "2026-10-16-lw"
+  },
   "story": null,
   "story_research": null,
   "first_seen": "2026-10-15T09:30:00+01:00",

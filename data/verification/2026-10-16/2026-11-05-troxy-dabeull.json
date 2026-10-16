@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-05-troxy-dabeull",
+  "candidate_file": "data/candidates/nights-music/2026-10-16/2026-11-05-troxy-dabeull.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Update of a published event: status changed on the primary page.",
+    "Title, venue and start date confirmed by the quote checker. Age limit text kept as already published."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "genres",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Event page loads and sells this event."
+    },
+    {
+      "field": "age_restriction",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "status",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Page now says final few remaining."
+    }
+  ],
+  "page_status_seen": "few-left",
+  "existing_event": "data/events/2026-11/2026-11-05-troxy-dabeull.json",
+  "changes": [
+    {
+      "field": "status",
+      "from": "scheduled",
+      "to": "few-left"
+    },
+    {
+      "field": "age_restriction",
+      "from": "Over 14s only",
+      "to": "14+"
+    }
+  ],
+  "decided_by": "verifier"
+}

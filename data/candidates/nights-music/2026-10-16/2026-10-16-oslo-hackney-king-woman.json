@@ -1,0 +1,82 @@
+{
+  "id": "2026-10-16-oslo-hackney-king-woman",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:15:25+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "King Woman",
+  "summary": null,
+  "venue": {
+    "venue_id": "oslo-hackney",
+    "name": "Oslo Hackney",
+    "address": "1a Amhurst Road, Hackney, London",
+    "postcode": "E8 1LL"
+  },
+  "starts_at": "2026-10-16T18:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "King Woman"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 29.33,
+    "max_gbp": null,
+    "notes": "£29.33 on DICE venue listing"
+  },
+  "ticket_url": "https://dice.fm/event/6a50e384733bd90001f35e2f",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "\"name\":\"King Woman\",\"startDate\":\"2026-10-16T18:00:00+01:00\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "\"lowPrice\":\"29.33\",\"highPrice\":\"29.33\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "\"address\":\"1a Amhurst Road, Hackney, London, E8 1LL, United Kingdom\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "https://dice.fm/event/6a50e384733bd90001f35e2f",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "King Woman play Oslo Hackney, Dalston, on Friday 16 October.",
+  "notes_for_verifier": "Times from DICE venue JSON-LD. Genre not printed."
+}

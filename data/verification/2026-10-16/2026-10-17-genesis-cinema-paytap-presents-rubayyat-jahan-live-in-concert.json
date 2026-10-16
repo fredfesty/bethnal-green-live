@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-genesis-cinema-paytap-presents-rubayyat-jahan-live-in-concert",
+  "candidate_file": "data/candidates/nights-music/2026-10-16/2026-10-17-genesis-cinema-paytap-presents-rubayyat-jahan-live-in-concert.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "reject",
+  "reasons": [
+    "Date contradicted: the page lists \"Sat 17 Oct 20:50\" under the previous film; the date under this title is \"Thu 12 Nov 19:45\".",
+    "Duplicate of published 2026-11-12-genesis-cinema-paytap-presents-rubayyat-jahan-live-in-concert, whose date is right."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.genesiscinema.co.uk/whatson/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.genesiscinema.co.uk/whatson/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "contradicted",
+      "url": "https://www.genesiscinema.co.uk/whatson/events",
+      "method": "read",
+      "source_kind": "primary",
+      "note": "Page layout puts the date after the title: Thu 12 Nov 19:45."
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://www.genesiscinema.co.uk/whatson/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.genesiscinema.co.uk/whatson/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

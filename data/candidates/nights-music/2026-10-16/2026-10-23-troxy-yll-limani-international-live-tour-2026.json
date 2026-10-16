@@ -1,0 +1,95 @@
+{
+  "id": "2026-10-23-troxy-yll-limani-international-live-tour-2026",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:15:25+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Yll Limani – International Live Tour 2026",
+  "summary": null,
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-23T19:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Yll Limani"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+  "age_restriction": "14+",
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "quote": "23.10.26\nYll Limani – International Live Tour 2026",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "quote": "19:00 - Doors Open / Event Starts",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "quote": "14+ A max of 6 tickets per person and per household applies.",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "quote": "The live show will feature a carefully curated setlist performed by a full band",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "quote": "Yll Limani - International Live Tour 2026 - Troxy",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "quote": "Yll Limani – International Live Tour 2026\nBuy Tickets",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A full-band concert tour date at Troxy.",
+  "notes_for_verifier": "Doors and event start both printed as 19:00. No price captured on the page. Changed since data/events/ (date only there): the event page now prints '19:00 - Doors Open / Event Starts', so the time 19:00 is added."
+}

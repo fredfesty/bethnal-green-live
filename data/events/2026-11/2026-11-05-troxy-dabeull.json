@@ -24,20 +24,19 @@
     "known": false
   },
   "ticket_url": "https://troxy.co.uk/event/dabeull/",
-  "age_restriction": "Over 14s only",
+  "age_restriction": "14+",
   "accessibility": null,
-  "status": "scheduled",
+  "status": "few-left",
   "evidence": [
     {
       "fields": [
         "title",
-        "starts_at",
-        "ticket_url",
-        "lineup"
+        "venue",
+        "ticket_url"
       ],
       "url": "https://troxy.co.uk/event/dabeull/",
-      "quote": "05.11.26 Dabeull",
-      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "quote": "Dabeull - Troxy",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
       "source_kind": "primary"
     },
     {
@@ -46,16 +45,34 @@
       ],
       "url": "https://troxy.co.uk/event/dabeull/",
       "quote": "19:00 - Doors Open / Event Starts",
-      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
       "source_kind": "primary"
     },
     {
       "fields": [
-        "venue"
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "05.11.26\nLimited Availability\nDabeull",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
       ],
       "url": "https://troxy.co.uk/event/dabeull/",
-      "quote": "Dabeull - Troxy",
-      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "quote": "Dabeull channels the golden era of funk with unmatched authenticity",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "quote": "Whether in the studio or on stage, Dabeull is a master of groove.",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
       "source_kind": "primary"
     },
     {
@@ -64,35 +81,46 @@
       ],
       "url": "https://troxy.co.uk/event/dabeull/",
       "quote": "Over 14s only. A max of 8 tickets per person and per household applies.",
-      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
       "source_kind": "primary"
     },
     {
       "fields": [
-        "genres"
+        "status"
       ],
       "url": "https://troxy.co.uk/event/dabeull/",
-      "quote": "widely regarded as a leading figure in the global funk revival",
-      "retrieved_at": "2026-10-12T22:45:00+01:00",
+      "quote": "Buy Tickets - Final Few Remaining!",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
       "source_kind": "primary"
     }
   ],
   "verification": {
-    "verified_at": "2026-10-12T23:16:07+01:00",
-    "run_id": "2026-10-12-v",
+    "verified_at": "2026-10-16T11:00:00+01:00",
+    "run_id": "2026-10-16-v",
     "outcome": "verified",
     "removed_fields": [],
-    "record": "data/verification/2026-10-12/2026-11-05-troxy-dabeull.json"
+    "record": "data/verification/2026-10-16/2026-11-05-troxy-dabeull.json"
   },
   "editor_note": null,
   "listing": {
     "headline": null,
     "blurb": "A funk gig from Dabeull at Troxy, the listed art deco building that began life as a cinema.",
-    "written_at": "2026-10-13T01:41:00+01:00",
-    "run_id": "2026-10-13-lw"
+    "written_at": "2026-10-16T06:32:57+01:00",
+    "run_id": "2026-10-16-lw"
   },
   "first_seen": "2026-10-12T23:16:07+01:00",
-  "updated_at": "2026-10-12T23:16:07+01:00",
-  "history": [],
+  "updated_at": "2026-10-16T11:00:00+01:00",
+  "history": [
+    {
+      "at": "2026-10-16T11:00:00+01:00",
+      "by": "verifier",
+      "change": "status updated from scheduled to few-left (page now says \"Buy Tickets - Final few remaining!\")"
+    },
+    {
+      "at": "2026-10-16T11:00:00+01:00",
+      "by": "verifier",
+      "change": "age_restriction updated from \"Over 14s only\" to \"14+\" (page: over 14s only)"
+    }
+  ],
   "needs_review": null
 }

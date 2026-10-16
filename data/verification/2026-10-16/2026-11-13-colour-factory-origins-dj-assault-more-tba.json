@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-13-colour-factory-origins-dj-assault-more-tba",
+  "candidate_file": "data/candidates/nights-music/2026-10-16/2026-11-13-colour-factory-origins-dj-assault-more-tba.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from the cited page."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/colour-factory-z6v7",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/colour-factory-z6v7",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/colour-factory-z6v7",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/colour-factory-z6v7",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/colour-factory-z6v7",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/colour-factory-z6v7",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6aa40e754e816400016f409c",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "DICE event page loads (redirects to the Origins: DJ ASSAULT, 13th Nov, Colour Factory page)."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

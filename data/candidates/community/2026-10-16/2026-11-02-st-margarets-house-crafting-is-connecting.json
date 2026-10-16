@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-02-st-margarets-house-crafting-is-connecting",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T10:00:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Crafting is Connecting",
+  "summary": "A monthly knitting and crochet workshop at The Create Place.",
+  "venue": {
+    "name": "The Create Place",
+    "venue_id": "st-margarets-house",
+    "address": "The Create Place, 29 Old Ford Road, London",
+    "postcode": "E2 9PJ"
+  },
+  "starts_at": "2026-11-02T18:00:00+00:00",
+  "ends_at": "2026-11-02T20:00:00+00:00",
+  "recurrence": "First Monday of the month",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Crafting is Connecting",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Mon, 2 Nov 2026",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at",
+        "recurrence"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "First Monday of the month, 6-8pm",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Come along to our new knitting & crochet workshop: Crafting Is Connecting!",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "The Create Place, 29 Old Ford Road, E2 9PJ",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Listing dates run to 7 Dec 2026. Only the 2 Nov session is recorded. The page says surplus materials are provided and attendees should bring their own project; no price stated."
+}

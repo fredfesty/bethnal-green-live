@@ -115,6 +115,97 @@
   },
   "first_seen": "2026-10-13T14:00:00+01:00",
   "updated_at": "2026-10-13T14:00:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-16T05:34:20Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, then, now, vibe"
+    },
+    {
+      "at": "2026-10-16T05:36:10Z",
+      "by": "event-story-checker",
+      "change": "story checked: cut George Tavern/July 2026, sold-out and live-sets details from then (not in quotes)"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "who": "The promoter's own page calls Cape Orange a favourite of the night, already seen on its bills before, and Lifeloose debutants at it. Jøseph plays a DJ set of the sort the night is known for.",
+    "then": "According to Mato, a listings site, the night celebrated its first birthday with a special guest DJ to close.",
+    "now": "This is billed as the night's last appearance at the George Tavern this year.",
+    "vibe": "The event page describes the night as eccentric, camp and post-modern, an indie sleaze night where punk and disco trade places.",
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://dice.fm/event/2w6lno-you-wanted-a-party-16th-oct-the-george-tavern-london-tickets",
+        "quote": "Live sets by YWAP favs Cape Orange + debutants Lifeloose and a classic YWAP DJ set by Jøseph.",
+        "retrieved_at": "2026-10-16T05:34:20Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://ma.to/event/you-wanted-a-party-24-jul-2026",
+        "quote": "After eleven consecutive sold-out nights, MDST celebrates one year of 'You Wanted a Party?'.",
+        "retrieved_at": "2026-10-16T05:34:20Z",
+        "source_kind": "aggregator",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://ma.to/event/you-wanted-a-party-24-jul-2026",
+        "quote": "A very special guest will be on decks for a DJ set to finish the night.",
+        "retrieved_at": "2026-10-16T05:34:20Z",
+        "source_kind": "aggregator",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://dice.fm/event/2w6lno-you-wanted-a-party-16th-oct-the-george-tavern-london-tickets",
+        "quote": "You Wanted a Party? is back at The George Tavern for one last time this year",
+        "retrieved_at": "2026-10-16T05:34:20Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://dice.fm/event/2w6lno-you-wanted-a-party-16th-oct-the-george-tavern-london-tickets",
+        "quote": "Eccentric, camp, hot, and painfully post-modern",
+        "retrieved_at": "2026-10-16T05:34:20Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://dice.fm/event/2w6lno-you-wanted-a-party-16th-oct-the-george-tavern-london-tickets",
+        "quote": "You Wanted a Party? is the next big indie sleaze night, where punk is the new disco, and disco is the new punk.",
+        "retrieved_at": "2026-10-16T05:34:20Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-16T05:34:20Z",
+    "review": {
+      "checked_at": "2026-10-16T05:36:10Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-16",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Read DICE event and artist pages and a Mato listing for the July 2026 anniversary. Found no press on Cape Orange, Lifeloose or Jøseph tied to this night, nor an organiser page (MDST appears to promote). Try an MDST site or Bandcamp pages next time."
+  }
 }

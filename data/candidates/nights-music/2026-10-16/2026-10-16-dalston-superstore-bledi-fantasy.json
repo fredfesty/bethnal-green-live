@@ -1,0 +1,61 @@
+{
+  "id": "2026-10-16-dalston-superstore-bledi-fantasy",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:18:00+01:00",
+  "category": "nights-music",
+  "subcategory": "queer-party",
+  "title": "Bledi Fantasy",
+  "summary": null,
+  "venue": {
+    "venue_id": "dalston-superstore",
+    "name": "Dalston Superstore",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-16T22:00:00+01:00",
+  "ends_at": "2026-10-17T04:00:00+01:00",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "\"name\":\"Bledi Fantasy\",\"description\":\"Queer Halloween celebration featuring DJs from the Arab and SWANA region and gogo dancers.\",\"startDate\":\"2026-10-16T22:00:00.000+01:00\",\"endDate\":\"2026-10-17T04:00:00.000+01:00\"",
+      "retrieved_at": "2026-10-16T06:18:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://ma.to/venue/dsuperstore",
+      "quote": "\"url\":\"https://ma.to/event/bledi-fantasy-dalston-superstore-16-oct-2026\",\"location\":{\"@type\":\"Place\",\"name\":\"Dalston Superstore\"}",
+      "retrieved_at": "2026-10-16T06:18:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "low",
+  "why_its_good": "Queer Halloween night with DJs from the Arab and SWANA region and gogo dancers, per its listing.",
+  "notes_for_verifier": "Source is ma.to (discovery only), so low confidence. The ma.to JSON-LD gives a price of 8 in USD, which conflicts with the pound prices elsewhere, so price is left empty for the verifier. The ma.to FAQ on the same page gives a different date (17 Oct); the event's own dated JSON-LD (16 Oct, 22:00) is used here. Verify on the venue's own ticket page."
+}

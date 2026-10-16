@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-13-mission-e1-not-so-wild-thing",
+  "scout": {
+    "name": "health-wellness",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T09:00:00+01:00",
+  "category": "health-wellness",
+  "subcategory": "yoga",
+  "title": "Not So Wild Thing",
+  "summary": "A yoga workshop at Mission on Friday 13 November, 6–8pm, with Michael James Wong. It explores backbends, spinal movement and shoulder integration.",
+  "venue": {
+    "venue_id": "mission-e1",
+    "name": "Mission",
+    "address": "7-9 Fashion Street, London",
+    "postcode": "E1 6PX"
+  },
+  "starts_at": "2026-11-13T18:00:00+00:00",
+  "ends_at": "2026-11-13T20:00:00+00:00",
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Michael James Wong"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 40,
+    "max_gbp": 40,
+    "notes": "£40"
+  },
+  "ticket_url": "https://www.mission-e1.com/workshops/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "lineup"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "Not So Wild Thing\nwith Michael James Wong",
+      "retrieved_at": "2026-10-16T09:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "Not So Wild Thing\nwith Michael James Wong\nFriday 13th November: 6.00-8.00pm",
+      "retrieved_at": "2026-10-16T09:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "Friday 13th November: 6.00-8.00pm\n£40",
+      "retrieved_at": "2026-10-16T09:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "7-9 Fashion Street London E1 6PX",
+      "retrieved_at": "2026-10-16T09:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "This workshop earns 20 SWEATPOINTS\nBook Now",
+      "retrieved_at": "2026-10-16T09:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Listed on Mission's workshops page (dateModified 12 Oct 2026). 13 Nov is the last day of the 28-day window. Page says the workshop is 'Ideal for dedicated students and teachers', an audience note with no age limit. ticket_url is the workshops page; the Book Now link goes to Momence and was not read. Not recorded: Pratibhā (teachers only), 6-Week Handstand Course (dates TBC)."
+}

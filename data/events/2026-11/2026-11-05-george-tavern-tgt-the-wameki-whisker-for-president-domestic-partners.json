@@ -86,7 +86,12 @@
     "record": "data/verification/2026-10-14/2026-11-05-george-tavern-tgt-the-wameki-whisker-for-president-domestic-partners.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A three-act bill at The George Tavern on Commercial Road: The Wameki (JP), Whisker for President (GER) and Domestic Partners. Tickets from £7 make it a cheap Thursday out.",
+    "written_at": "2026-10-16T06:32:57+01:00",
+    "run_id": "2026-10-16-lw"
+  },
   "story": null,
   "story_research": null,
   "first_seen": "2026-10-14T17:00:00+01:00",

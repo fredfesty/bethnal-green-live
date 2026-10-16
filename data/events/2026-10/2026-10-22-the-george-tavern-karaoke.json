@@ -1,0 +1,82 @@
+{
+  "id": "2026-10-22-the-george-tavern-karaoke",
+  "category": "nights-music",
+  "subcategory": "karaoke",
+  "title": "The George Tavern Karaoke (Free Entry)",
+  "venue": {
+    "venue_id": "george-tavern",
+    "name": "The George Tavern",
+    "address": "373 Commercial Rd, London",
+    "postcode": "E1 0LA"
+  },
+  "starts_at": "2026-10-22T23:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": 0,
+    "notes": "Title says 'Free Entry'; DICE shows 'From free'"
+  },
+  "ticket_url": "https://dice.fm/event/6a7ccef674a6bb000152e7f5",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "price"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "\"name\":\"The George Tavern Karaoke (Free Entry)\",\"startDate\":\"2026-10-22T23:00:00+01:00\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "\"address\":\"373 Commercial Rd, London E1 0LA, UK\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "https://dice.fm/event/6a7ccef674a6bb000152e7f5",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-16T11:00:00+01:00",
+    "run_id": "2026-10-16-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-16/2026-10-22-the-george-tavern-karaoke.json"
+  },
+  "editor_note": "Free-entry karaoke on Thursday 22 October at The George Tavern.",
+  "listing": {
+    "headline": null,
+    "blurb": "A free late-night karaoke session at The George Tavern, the pub and live music venue on Commercial Road. Free entry, so an easy one to join in.",
+    "written_at": "2026-10-16T06:32:57+01:00",
+    "run_id": "2026-10-16-lw"
+  },
+  "story": null,
+  "story_research": null,
+  "first_seen": "2026-10-16T11:00:00+01:00",
+  "updated_at": "2026-10-16T11:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

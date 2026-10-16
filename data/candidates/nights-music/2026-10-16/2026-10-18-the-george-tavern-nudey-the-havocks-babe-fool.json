@@ -1,0 +1,94 @@
+{
+  "id": "2026-10-18-the-george-tavern-nudey-the-havocks-babe-fool",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:15:25+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Nudey / The Havocks / Babe / Fool",
+  "summary": null,
+  "venue": {
+    "venue_id": "george-tavern",
+    "name": "The George Tavern",
+    "address": "373 Commercial Rd, London",
+    "postcode": "E1 0LA"
+  },
+  "starts_at": "2026-10-18T19:00:00+01:00",
+  "ends_at": "2026-10-18T23:00:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Nudey",
+    "The Havocks",
+    "Babe",
+    "Fool"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 7,
+    "max_gbp": null,
+    "notes": "From £7 on DICE listing"
+  },
+  "ticket_url": "https://dice.fm/event/6acd35b36ee466000173dcc6",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "\"name\":\"Nudey \\u002F The Havocks \\u002F Babe \\u002F Fool\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "\"startDate\":\"2026-10-18T19:00:00+01:00\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "\"lowPrice\":\"7.00\",\"highPrice\":\"7.00\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "\"address\":\"373 Commercial Rd, London E1 0LA, UK\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "https://dice.fm/event/6acd35b36ee466000173dcc6",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A four-name bill at The George Tavern on Sunday 18 October.",
+  "notes_for_verifier": "Listed on DICE as a line-up of four names; the listing does not say live or DJ. Times from DICE JSON-LD."
+}

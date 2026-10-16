@@ -66,6 +66,62 @@
   },
   "first_seen": "2026-10-12T23:16:07+01:00",
   "updated_at": "2026-10-12T23:16:07+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-16T05:34:00Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: then, vibe"
+    },
+    {
+      "at": "2026-10-16T05:36:10Z",
+      "by": "event-story-checker",
+      "change": "story checked: narrowed vibe wording to the venue's page; no other changes"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "then": "Hotvox, the promoter behind this night, says on its own website that it manages artists, puts on shows and handles production, for newcomers and established names alike. The site says its roots lie in London's underground live circuit, finding new bands to see live.",
+    "vibe": "The venue's own page for the night describes live bands, then a club night, with the courtyard open as well.",
+    "written_at": "2026-10-16T05:34:00Z",
+    "review": {
+      "checked_at": "2026-10-16T05:36:10Z",
+      "removed_fields": []
+    },
+    "evidence": [
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://hotvox.co.uk/about/",
+        "quote": "A music management, promotion and production company helping the aspirations of both new and established artists",
+        "retrieved_at": "2026-10-16T05:34:00Z",
+        "source_kind": "primary"
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://hotvox.co.uk/",
+        "quote": "Our roots are deep in London’s underground circuit, discovering the latest bands and artists you simply have to see live",
+        "retrieved_at": "2026-10-16T05:34:00Z",
+        "source_kind": "primary"
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://www.93feeteast.co.uk/?post_type=one50&p=9716",
+        "quote": "a fully fledged night of entertainment with a whole host of live bands, followed by a full club night, topped off with a charming courtyard too",
+        "retrieved_at": "2026-10-16T05:34:00Z",
+        "source_kind": "primary"
+      }
+    ]
+  },
+  "story_research": {
+    "last_attempt": "2026-10-16",
+    "outcome": "written",
+    "attempts": 1,
+    "next_check": null,
+    "note": "No line-up listed; one web search for Ammari / One Stop Away found nothing relevant, so Ammari is not tied to this event. Only Hotvox promoter background written. Try the Hotvox events page or a ticket page for acts."
+  }
 }

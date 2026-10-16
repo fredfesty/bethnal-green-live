@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-22-the-george-tavern-kelley-stoltz-scott-lavene",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:15:25+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Kelley Stoltz + Scott Lavene",
+  "summary": null,
+  "venue": {
+    "venue_id": "george-tavern",
+    "name": "The George Tavern",
+    "address": "373 Commercial Rd, London",
+    "postcode": "E1 0LA"
+  },
+  "starts_at": "2026-10-22T19:30:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Kelley Stoltz",
+    "Scott Lavene"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 22.1,
+    "max_gbp": null,
+    "notes": "£22.10 on DICE listing"
+  },
+  "ticket_url": "https://dice.fm/event/69ba85704182e200014762ea",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "\"name\":\"Kelley Stoltz + Scott Lavene\",\"startDate\":\"2026-10-22T19:30:00+01:00\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "\"lowPrice\":\"22.10\",\"highPrice\":\"22.10\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "\"address\":\"373 Commercial Rd, London E1 0LA, UK\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "https://dice.fm/event/69ba85704182e200014762ea",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Two named musicians on Thursday 22 October at The George Tavern.",
+  "notes_for_verifier": "Listed on DICE as two names; genre not printed."
+}

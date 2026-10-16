@@ -1,0 +1,87 @@
+{
+  "id": "2026-09-04-bethnal-green-nature-reserve-forest-fridays",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T10:00:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Forest Fridays",
+  "summary": "A free weekly forest school for school-aged children and their families at the nature reserve, running to early November.",
+  "venue": {
+    "name": "Bethnal Green Nature Reserve",
+    "venue_id": "bethnal-green-nature-reserve",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-09-04T16:00:00+01:00",
+  "ends_at": "2026-11-06T16:30:00+00:00",
+  "recurrence": "weekly",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": 0,
+    "notes": "'a free, weekly forest school'"
+  },
+  "ticket_url": null,
+  "age_restriction": "School-aged children (and their families)",
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "quote": "Forest Fridays",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at",
+        "run_schedule"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "quote": "4.00pm Fri 4 September 2026 — 4.30pm Fri 6 November 2026",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence",
+        "price"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "quote": "Forest Friday is a free, weekly forest school inviting local children and families to explore the wonders of nature right on your doorstep.",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "quote": "School-aged children (and their families) can learn",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://bethnalgreennaturereserve.org/calendar",
+      "quote": "Bethnal Green Nature Reserve",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "A run of weekly sessions opening 4 Sep 2026 and closing 6 Nov 2026, so it counts as one candidate. Start id uses the opening date. Calendar card text is truncated on the page; the quotes used are complete sentences. No booking stated."
+}

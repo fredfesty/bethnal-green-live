@@ -1,0 +1,66 @@
+{
+  "id": "2026-11-13-queen-adelaide-club-shilpa",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:18:00+01:00",
+  "category": "nights-music",
+  "subcategory": "queer-party",
+  "title": "Club Shilpa",
+  "summary": null,
+  "venue": {
+    "venue_id": "queen-adelaide",
+    "name": "The Queen Adelaide",
+    "address": "483 Hackney Road, London",
+    "postcode": "E2 9ED"
+  },
+  "starts_at": "2026-11-13T22:00:00+00:00",
+  "ends_at": "2026-11-14T03:00:00+00:00",
+  "recurrence": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [
+    "desi"
+  ],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "genres"
+      ],
+      "url": "https://ma.to/venue/thequeenadelaide",
+      "quote": "\"name\":\"Club Shilpa\",\"description\":\"Queer club night tribute to Shilpa Shetty with desi beats.\",\"startDate\":\"2026-11-13T22:00:00.000+00:00\",\"endDate\":\"2026-11-14T03:00:00.000+00:00\"",
+      "retrieved_at": "2026-10-16T06:18:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://ma.to/venue/thequeenadelaide",
+      "quote": "The Queen Adelaide is located at 483 Hackney Road, London, E2 9ED.",
+      "retrieved_at": "2026-10-16T06:18:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "low",
+  "why_its_good": null,
+  "notes_for_verifier": "Source is ma.to only (the venue has no dated primary listing), so low confidence. Address from the ma.to FAQ. Date is 13 Nov, the last day of the window."
+}

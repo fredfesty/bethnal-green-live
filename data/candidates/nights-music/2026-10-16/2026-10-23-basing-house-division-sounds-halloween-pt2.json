@@ -1,0 +1,69 @@
+{
+  "id": "2026-10-23-basing-house-division-sounds-halloween-pt2",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:18:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Division Sounds Halloween Pt2",
+  "summary": null,
+  "venue": {
+    "venue_id": "basing-house",
+    "name": "Basing House",
+    "address": "25 Kingsland Road, Shoreditch, London",
+    "postcode": "E2 8AA"
+  },
+  "starts_at": "2026-10-23T22:00:00+01:00",
+  "ends_at": "2026-10-24T03:00:00+01:00",
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Morbz"
+  ],
+  "genres": [
+    "Drum & Bass"
+  ],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "lineup",
+        "genres"
+      ],
+      "url": "https://ma.to/venue/basing_house",
+      "quote": "\"name\":\"Division Sounds Halloween Pt2\",\"description\":\"Drum & Bass DJ set by Morbz at Basing House\",\"startDate\":\"2026-10-23T22:00:00.000+01:00\",\"endDate\":\"2026-10-24T03:00:00.000+01:00\"",
+      "retrieved_at": "2026-10-16T06:18:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://ma.to/venue/basing_house",
+      "quote": "Basing House is located at 25 Kingsland Road, Shoreditch, London, E2 8AA.",
+      "retrieved_at": "2026-10-16T06:18:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "low",
+  "why_its_good": null,
+  "notes_for_verifier": "Source is ma.to only, so low confidence. Ticket link not shown in the listing read."
+}

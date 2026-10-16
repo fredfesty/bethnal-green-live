@@ -1,0 +1,73 @@
+{
+  "id": "2026-10-18-the-george-tavern-nudey-the-havocks-babe-fool",
+  "candidate_file": "data/candidates/nights-music/2026-10-16/2026-10-18-the-george-tavern-nudey-the-havocks-babe-fool.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Start date quote (DICE JSON-LD startDate) has no title nearby, so the date is unverifiable by the checker.",
+    "Check the date and time on https://dice.fm/event/6acd35b36ee466000173dcc6 ."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Date quote has no title nearby."
+    },
+    {
+      "field": "ends_at",
+      "result": "unverifiable",
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "No confirmed passage with the title nearby."
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "unverifiable",
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Quote had no title nearby."
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

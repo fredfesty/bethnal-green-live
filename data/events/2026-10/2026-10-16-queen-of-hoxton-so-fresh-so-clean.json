@@ -120,6 +120,15 @@
   },
   "first_seen": "2026-10-13T11:00:00+01:00",
   "updated_at": "2026-10-13T11:00:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-16T11:00:00+01:00",
+      "by": "verifier",
+      "change": "needs_review set: price quote no longer found on the page at re-check; no facts changed"
+    }
+  ],
+  "needs_review": {
+    "since": "2026-10-16T11:00:00+01:00",
+    "reason": "Re-check: the price quote \"From free\" is no longer on the DICE page; price may have changed."
+  }
 }

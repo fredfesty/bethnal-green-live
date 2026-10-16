@@ -64,12 +64,18 @@
   "editor_note": null,
   "listing": {
     "headline": null,
-    "blurb": "A free Friday-evening DJ session from Maurice Alexander at Mare Street Market, a home for independent restaurants and shops. An easy one to drop into on the way home.",
-    "written_at": "2026-10-15T07:40:00+01:00",
-    "run_id": "2026-10-15-lw"
+    "blurb": "A free Friday DJ session from Maurice Alexander at Mare Street Market, which has independent restaurants and shops, a bar and a deli. Free entry, so easy to drop into.",
+    "written_at": "2026-10-16T06:32:57+01:00",
+    "run_id": "2026-10-16-lw"
   },
   "story": null,
-  "story_research": null,
+  "story_research": {
+    "last_attempt": "2026-10-16",
+    "attempts": 1,
+    "outcome": "nothing-found",
+    "next_check": "2026-10-23",
+    "note": "Event page gives only title, time and free entry; Enjoy Fridays also runs with Jeremy Nash but no page describes the series or its start. One search found no page tying a DJ called Maurice Alexander to this venue. Time Out (Sept 2025) covers the venue's relaunch only. Try the venue's own about page or a later search."
+  },
   "first_seen": "2026-10-15T09:30:00+01:00",
   "updated_at": "2026-10-15T09:30:00+01:00",
   "history": [],

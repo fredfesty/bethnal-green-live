@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-13-genesis-cinema-1-in-2-qa",
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T10:00:00+01:00",
+  "category": "arts",
+  "subcategory": "film",
+  "title": "1 in 2 + Q&A",
+  "summary": "Film screening followed by a Q&A at Genesis Cinema, Mile End Road.",
+  "venue": {
+    "venue_id": "genesis-cinema",
+    "name": "Genesis Cinema",
+    "address": "93-95 Mile End Road, Whitechapel, London",
+    "postcode": "E1 4UJ"
+  },
+  "starts_at": "2026-11-13T18:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.genesiscinema.co.uk/whatson/qanda",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "quote": "1 in 2 + Q&A Running time: 142 mins Details Fri 13 Nov 18:00",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "quote": "What's On | Genesis Cinema",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "quote": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "quote": "Fri 13 Nov 18:00 Book Now",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Date and time from the Q&A listing page, one date only. The film's own /event/ page was not located, so any further dates were not checked. Title kept as printed, with '+ Q&A'. Ends time not printed. No price printed on the listing page."
+}

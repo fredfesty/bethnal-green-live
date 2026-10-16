@@ -1,0 +1,81 @@
+{
+  "id": "2026-10-21-st-margarets-house-social-gardening",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T10:00:00+01:00",
+  "category": "community",
+  "subcategory": "volunteering",
+  "title": "Social Gardening",
+  "summary": "A monthly gardening meetup in the St Margaret's House garden, helping with its upkeep.",
+  "venue": {
+    "name": "St Margaret's House",
+    "venue_id": "st-margarets-house",
+    "address": null,
+    "postcode": "E2 9PL"
+  },
+  "starts_at": "2026-10-21T16:00:00+01:00",
+  "ends_at": "2026-10-21T18:00:00+01:00",
+  "recurrence": "monthly gardening meetup",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Social Gardening",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Wednesday 21 October 2026",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Wednesday 21st October, 4-6pm",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "recurrence"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Join us for a monthly gardening meetup to support your wellbeing, connect with your local community and help us with the upkeep of the SMH Garden.",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "London, England, E2 9PL",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Listed as 'In the SMH Garden'. Ticketing not stated. The E2 9PL postcode comes from the site's structured data."
+}

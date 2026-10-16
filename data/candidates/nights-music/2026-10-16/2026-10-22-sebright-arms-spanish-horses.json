@@ -1,0 +1,69 @@
+{
+  "id": "2026-10-22-sebright-arms-spanish-horses",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:15:25+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Spanish Horses at Sebright Arms",
+  "summary": null,
+  "venue": {
+    "venue_id": "sebright-arms",
+    "name": "The Sebright Arms",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-22T19:00:00+01:00",
+  "ends_at": "2026-10-22T23:00:00+01:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "lineup": [
+    "Spanish Horses"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "lineup",
+        "venue"
+      ],
+      "url": "https://ma.to/event/spanish-horses-at-sebright-arms-2026-10-22",
+      "quote": "Spanish Horses at Sebright Arms",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://ma.to/event/spanish-horses-at-sebright-arms-2026-10-22",
+      "quote": "\"startDate\":\"2026-10-22T19:00:00.000+01:00\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "ends_at"
+      ],
+      "url": "https://ma.to/event/spanish-horses-at-sebright-arms-2026-10-22",
+      "quote": "\"endDate\":\"2026-10-22T23:00:00.000+01:00\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "low",
+  "why_its_good": null,
+  "notes_for_verifier": "Only ma.to lists this (discovery-only aggregator). The Sebright Arms website refused the scout's read (robots), and no DICE event page was found. Verify on a primary page before publishing."
+}

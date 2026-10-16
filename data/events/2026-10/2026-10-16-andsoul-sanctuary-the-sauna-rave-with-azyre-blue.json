@@ -87,6 +87,89 @@
   },
   "first_seen": "2026-10-13T14:00:00+01:00",
   "updated_at": "2026-10-13T14:00:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-16T05:34:01Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: then, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-16T05:36:10Z",
+      "by": "event-story-checker",
+      "change": "story checked: cut 'slow and trance-like' from vibe (not in quotes)"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "then": "The Sauna Rave is a recurring Friday night at AndSoul Sanctuary, which the venue's own website says runs every other Friday, with the evening built around the sauna and ice room the club calls the Sensorium.",
+    "vibe": "According to the venue's own website, the soundtrack is hypnotic: ambient house, downtempo electronica and shifting soundscapes. The idea is to move between heat and cold through the night, with no alcohol.",
+    "worth_knowing": [
+      "The venue's own website says the night is alcohol-free: no hangover, just release."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://andsoulsanctuary.com/the-sauna-rave",
+        "quote": "Sauna Raves run every other Friday. Find the next one on the schedule below and lock in your spot.",
+        "retrieved_at": "2026-10-16T05:34:01Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://andsoulsanctuary.com/the-sauna-rave",
+        "quote": "Contrast therapy in the Sensorium, our sauna and ice room. Heat, cold, and the reset that follows",
+        "retrieved_at": "2026-10-16T05:34:01Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://andsoulsanctuary.com/the-sauna-rave",
+        "quote": "Expect hypnotic beats, ambient house, downtempo electronica, and evolving soundscapes throughout the night.",
+        "retrieved_at": "2026-10-16T05:34:01Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://andsoulsanctuary.com/the-sauna-rave",
+        "quote": "Alternate between heat and cold for the ultimate physical and mental reset.",
+        "retrieved_at": "2026-10-16T05:34:01Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe",
+          "story.worth_knowing"
+        ],
+        "url": "https://andsoulsanctuary.com/the-sauna-rave",
+        "quote": "Heat, cold and hypnotic beats. Wellness after dark, every other Friday. No alcohol, no hangover, just release.",
+        "retrieved_at": "2026-10-16T05:34:01Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-16T05:34:01Z",
+    "review": {
+      "checked_at": "2026-10-16T05:36:10Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-16",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Read venue events and Sauna Rave pages. A Mixcloud page for DJ Azyre Blue exists but nothing read ties it to this event, so the DJ is left out. Try again for a venue page or press naming Azyre Blue at AndSoul, and any history of the Sauna Rave."
+  }
 }

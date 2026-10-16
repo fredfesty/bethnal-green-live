@@ -1,0 +1,88 @@
+{
+  "id": "2026-10-30-oxford-house-friday-jazz-october-2026",
+  "candidate_file": "data/candidates/nights-music/2026-10-16/2026-10-30-oxford-house-friday-jazz-october-2026.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "reject",
+  "reasons": [
+    "Duplicate of published 2026-10-30-oxford-house-friday-jazz (same venue, date and title)."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "recurrence",
+      "result": "confirmed",
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "genres",
+      "result": "confirmed",
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.oxfordhouse.org.uk/event/friday-jazz-october-2026-2/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

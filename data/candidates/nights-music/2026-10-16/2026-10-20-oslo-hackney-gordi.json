@@ -1,0 +1,82 @@
+{
+  "id": "2026-10-20-oslo-hackney-gordi",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:15:25+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Gordi",
+  "summary": null,
+  "venue": {
+    "venue_id": "oslo-hackney",
+    "name": "Oslo Hackney",
+    "address": "1a Amhurst Road, Hackney, London",
+    "postcode": "E8 1LL"
+  },
+  "starts_at": "2026-10-20T19:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Gordi"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 20.4,
+    "max_gbp": null,
+    "notes": "£20.40 on DICE venue listing"
+  },
+  "ticket_url": "https://dice.fm/event/6a356646dfa7ac00014179d7",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "\"name\":\"Gordi\",\"startDate\":\"2026-10-20T19:00:00+01:00\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "\"lowPrice\":\"20.40\",\"highPrice\":\"20.40\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "\"address\":\"1a Amhurst Road, Hackney, London, E8 1LL, United Kingdom\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "https://dice.fm/event/6a356646dfa7ac00014179d7",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Gordi plays Oslo Hackney, Dalston, on Tuesday 20 October.",
+  "notes_for_verifier": "Times from DICE venue JSON-LD. Genre not printed."
+}

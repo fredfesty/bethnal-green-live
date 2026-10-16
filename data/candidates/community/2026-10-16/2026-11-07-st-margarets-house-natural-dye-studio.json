@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-07-st-margarets-house-natural-dye-studio",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T10:00:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Natural Dye Studio",
+  "summary": "A hands-on introduction to natural plant dyeing, led by Porsha Hill, in The Create Place.",
+  "venue": {
+    "name": "The Create Place at St. Margaret's House",
+    "venue_id": "st-margarets-house",
+    "address": "The Create Place, 29 Old Ford Road, London",
+    "postcode": "E2 9PJ"
+  },
+  "starts_at": "2026-11-07T12:00:00+00:00",
+  "ends_at": "2026-11-07T14:00:00+00:00",
+  "recurrence": "Monthly, on Saturdays",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Natural Dye Studio",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Sat, 7 Nov 2026",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at",
+        "recurrence"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Monthly, on Saturdays, 12noon-2pm",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Join Porsha Hill for a hands-on introduction to natural dyeing",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "The Create Place at St. Margaret's House",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "The Create Place, 29 Old Ford Road, E2 9PJ",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "No price or booking stated on the venue listing."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "2026-11-13-genesis-cinema-1-in-2-qa",
+  "candidate_file": "data/candidates/arts/2026-10-16/2026-11-13-genesis-cinema-1-in-2-qa.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from the cited page."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.genesiscinema.co.uk/whatson/qanda",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Same page the title and date were found on."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

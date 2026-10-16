@@ -1,0 +1,77 @@
+{
+  "id": "2026-10-17-genesis-cinema-paytap-presents-rubayyat-jahan-live-in-concert",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:15:25+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Paytap Presents Rubayyat Jahan - live in concert",
+  "summary": null,
+  "venue": {
+    "venue_id": "genesis-cinema",
+    "name": "Genesis Cinema",
+    "address": "93-95 Mile End Road, Whitechapel, London",
+    "postcode": "E1 4UJ"
+  },
+  "starts_at": "2026-10-17",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Rubayyat Jahan"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.genesiscinema.co.uk/whatson/events",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "lineup"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/events",
+      "quote": "Paytap Presents Rubayyat Jahan - live in concert",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/events",
+      "quote": "Sat 17 Oct",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/events",
+      "quote": "93-95 Mile End Road, Whitechapel, London E1 4UJ",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.genesiscinema.co.uk/whatson/events",
+      "quote": "Paytap Presents Rubayyat Jahan - live in concert",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "A live concert at a Whitechapel cinema, rather than a film screening.",
+  "notes_for_verifier": "The page prints 20:50 above the title ('Sat 17 Oct / 20:50 / Book Now'). The time is not quoted as its own snippet, so this is date only. The registry note saying Thu 12 Nov is wrong: that date belongs to the film listed below it. Running time 135 mins. Genesis is a cinema; the verifier should confirm the event is music-led."
+}

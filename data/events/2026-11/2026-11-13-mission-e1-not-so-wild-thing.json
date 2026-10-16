@@ -1,0 +1,97 @@
+{
+  "id": "2026-11-13-mission-e1-not-so-wild-thing",
+  "category": "health-wellness",
+  "subcategory": "yoga",
+  "title": "Not So Wild Thing",
+  "venue": {
+    "venue_id": "mission-e1",
+    "name": "Mission",
+    "address": "7-9 Fashion Street, London",
+    "postcode": "E1 6PX"
+  },
+  "starts_at": "2026-11-13T18:00:00+00:00",
+  "ends_at": "2026-11-13T20:00:00+00:00",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Michael James Wong"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 40,
+    "max_gbp": 40,
+    "notes": "£40"
+  },
+  "ticket_url": "https://www.mission-e1.com/workshops/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "lineup"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "Not So Wild Thing\nwith Michael James Wong",
+      "retrieved_at": "2026-10-16T09:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "Not So Wild Thing\nwith Michael James Wong\nFriday 13th November: 6.00-8.00pm",
+      "retrieved_at": "2026-10-16T09:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "Friday 13th November: 6.00-8.00pm\n£40",
+      "retrieved_at": "2026-10-16T09:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "7-9 Fashion Street London E1 6PX",
+      "retrieved_at": "2026-10-16T09:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.mission-e1.com/workshops/",
+      "quote": "This workshop earns 20 SWEATPOINTS\nBook Now",
+      "retrieved_at": "2026-10-16T09:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-16T11:00:00+01:00",
+    "run_id": "2026-10-16-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-16/2026-11-13-mission-e1-not-so-wild-thing.json"
+  },
+  "editor_note": null,
+  "listing": null,
+  "story": null,
+  "story_research": null,
+  "first_seen": "2026-10-16T11:00:00+01:00",
+  "updated_at": "2026-10-16T11:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

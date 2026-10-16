@@ -71,7 +71,12 @@
     "record": "data/verification/2026-10-13/2026-11-08-st-margarets-house-embracing-autumn-an-afternoon-of-gentle-movement-yin-yoga-deep-rest.json"
   },
   "editor_note": null,
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A Sunday-afternoon yoga session at St Margaret's House with an autumn theme, mixing gentle movement, yin yoga and deep rest.",
+    "written_at": "2026-10-16T06:32:57+01:00",
+    "run_id": "2026-10-16-lw"
+  },
   "first_seen": "2026-10-13T14:00:00+01:00",
   "updated_at": "2026-10-13T14:00:00+01:00",
   "history": [],

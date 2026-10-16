@@ -88,6 +88,15 @@
   },
   "first_seen": "2026-10-13T09:40:00+01:00",
   "updated_at": "2026-10-13T09:40:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-16T11:00:00+01:00",
+      "by": "verifier",
+      "change": "needs_review set: page shows From £5.15 instead of From £4.50 at re-check; no facts changed"
+    }
+  ],
+  "needs_review": {
+    "since": "2026-10-16T11:00:00+01:00",
+    "reason": "Re-check: DICE now prints \"From £5.15\" where the record says \"From £4.50\"; price may have changed."
+  }
 }

@@ -1,0 +1,107 @@
+{
+  "id": "2026-11-05-troxy-dabeull",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:15:25+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Dabeull",
+  "summary": null,
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-11-05T19:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Dabeull"
+  ],
+  "genres": [
+    "funk"
+  ],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://troxy.co.uk/event/dabeull/",
+  "age_restriction": "14+",
+  "accessibility": null,
+  "status": "few-left",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "ticket_url"
+      ],
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "quote": "Dabeull - Troxy",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "quote": "19:00 - Doors Open / Event Starts",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "05.11.26\nLimited Availability\nDabeull",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "genres"
+      ],
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "quote": "Dabeull channels the golden era of funk with unmatched authenticity",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup"
+      ],
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "quote": "Whether in the studio or on stage, Dabeull is a master of groove.",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "quote": "Over 14s only. A max of 8 tickets per person and per household applies.",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "status"
+      ],
+      "url": "https://troxy.co.uk/event/dabeull/",
+      "quote": "Buy Tickets - Final Few Remaining!",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A funk show with a full analog band, per the Troxy page.",
+  "notes_for_verifier": "Doors and event start both 19:00 as printed. Changed since data/events/ (status scheduled there): the Troxy event page read today says 'Buy Tickets - Final Few Remaining!', so status is few-left here."
+}

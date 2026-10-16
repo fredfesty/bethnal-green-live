@@ -1,0 +1,64 @@
+{
+  "id": "2026-10-23-troxy-yll-limani-international-live-tour-2026",
+  "candidate_file": "data/candidates/nights-music/2026-10-16/2026-10-23-troxy-yll-limani-international-live-tour-2026.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "reject",
+  "reasons": [
+    "Same id as already published event; the only new fact is the 19:00 time, and the time quote has no title nearby so it cannot be added. Nothing else changed."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Date confirmed; the 19:00 time quote has no title nearby."
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "age_restriction",
+      "result": "unverifiable",
+      "url": "https://troxy.co.uk/event/yll-limani-international-live-tour-2026/",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "No confirmed passage with the title nearby."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": "data/events/2026-10/2026-10-23-troxy-yll-limani-international-live-tour-2026.json",
+  "changes": [],
+  "decided_by": "verifier"
+}

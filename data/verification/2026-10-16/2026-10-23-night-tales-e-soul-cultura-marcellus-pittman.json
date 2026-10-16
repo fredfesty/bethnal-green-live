@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-23-night-tales-e-soul-cultura-marcellus-pittman",
+  "candidate_file": "data/candidates/nights-music/2026-10-16/2026-10-23-night-tales-e-soul-cultura-marcellus-pittman.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Title and date come only from the ma.to aggregator; Night Tales has a primary site but the event was not found on it.",
+    "Check https://www.nighttales.co.uk for this night."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/nighttalesldn",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.nighttales.co.uk",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/nighttalesldn",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/nighttalesldn",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/nighttalesldn",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

@@ -1,0 +1,131 @@
+{
+  "id": "2026-10-02-young-va-mini-play-for-toddlers-autumn-series",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T10:00:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Mini Play for Toddlers (Autumn Series)",
+  "summary": "A three-week autumn series of sensory play workshops for toddlers aged 1 to 3 and their carers at Young V&A.",
+  "venue": {
+    "name": "Young V&A",
+    "venue_id": "young-va",
+    "address": "Cambridge Heath Road, Bethnal Green, London",
+    "postcode": "E2 9PA"
+  },
+  "starts_at": "2026-10-02",
+  "ends_at": "2026-10-19",
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 15,
+    "max_gbp": 15,
+    "notes": "Tickets cost £15.00. Booking is essential."
+  },
+  "ticket_url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+  "age_restriction": "Children aged 1 to 3 and their guardians",
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "quote": "Mini Play for Toddlers (Autumn Series)",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "quote": "Special workshop series for families with toddlers aged between 1 – 3",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "quote": "02 October – Twist and Turn",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ends_at"
+      ],
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "quote": "On now until Monday, 19 October 2026",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at"
+      ],
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "quote": "13.30 – 15.00",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "quote": "Children aged 1 to 3 and their guardians",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "quote": "Tickets cost £15.00",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price",
+        "ticket_url"
+      ],
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "quote": "Booking is essential.",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "quote": "Bethnal Green, London, E2 9PA",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "quote": "inspired by the Young V&A’s Play Gallery",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Run 2 Oct to 19 Oct 2026; sessions Fridays and Mondays, 13.30 to 15.00. Only 16 and 19 Oct fall in the window. Price is as printed (per ticket; not stated whether per child or family). Start-date and price quotes sit away from the title on the session list."
+}

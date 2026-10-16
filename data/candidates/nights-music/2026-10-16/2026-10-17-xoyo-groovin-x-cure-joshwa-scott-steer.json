@@ -1,0 +1,68 @@
+{
+  "id": "2026-10-17-xoyo-groovin-x-cure-joshwa-scott-steer",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:18:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "Groovin' x Cure || JOSHWA, SCOTT STEER + more",
+  "summary": null,
+  "venue": {
+    "venue_id": "xoyo",
+    "name": "XOYO",
+    "address": "32-37 Cowper Street, London",
+    "postcode": "EC2A 4AP"
+  },
+  "starts_at": "2026-10-17T23:00:00+01:00",
+  "ends_at": "2026-10-18T05:00:00+01:00",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "JOSHWA",
+    "SCOTT STEER"
+  ],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://www.skiddle.com/whats-on/London/XOYO/Groovin-x-Cure--JOSHWA-SCOTT-STEER--more/42662811/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "lineup",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://www.skiddle.com/clubs/London/",
+      "quote": "\"name\":\"Groovin' x Cure || JOSHWA, SCOTT STEER + more\",\"url\":\"https://www.skiddle.com/whats-on/London/XOYO/Groovin-x-Cure--JOSHWA-SCOTT-STEER--more/42662811/\",\"startDate\":\"2026-10-17T23:00:00+01:00\",\"endDate\":\"2026-10-18T05:00:00+01:00\"",
+      "retrieved_at": "2026-10-16T06:18:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.skiddle.com/clubs/London/",
+      "quote": "\"location\":{\"name\":\"XOYO\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"32-37 Cowper Street\",\"addressLocality\":\"London\",\"addressCountry\":\"GB\",\"postalCode\":\"EC2A 4AP\"}",
+      "retrieved_at": "2026-10-16T06:18:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Named acts JOSHWA and SCOTT STEER on a Skiddle club-night listing at XOYO, 11pm to 5am.",
+  "notes_for_verifier": "Price not recorded: Skiddle lists tiers from £10 to £30, but the quotes sit too far from the title to check, and the Skiddle event page printed no text. Found on the Skiddle London club nights listing, not the event page. The listing says 'a stacked lineup' and does not use the word DJ: check it is DJ-led before publishing."
+}

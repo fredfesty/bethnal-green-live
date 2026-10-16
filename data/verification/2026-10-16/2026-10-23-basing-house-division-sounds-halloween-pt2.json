@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-23-basing-house-division-sounds-halloween-pt2",
+  "candidate_file": "data/candidates/nights-music/2026-10-16/2026-10-23-basing-house-division-sounds-halloween-pt2.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Title and date come only from the ma.to aggregator; Basing House is not marked no_primary_listing and no primary page was cited.",
+    "Find the DICE or venue page for this night and confirm title and time."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/basing_house",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/basing_house",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/basing_house",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/basing_house",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/basing_house",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "genres",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/basing_house",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

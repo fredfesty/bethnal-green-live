@@ -1,0 +1,97 @@
+{
+  "id": "2026-11-01-troxy-ele-yan",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:15:25+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Ele Yan",
+  "summary": null,
+  "venue": {
+    "venue_id": "troxy",
+    "name": "Troxy",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-11-01T18:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Ele Yan"
+  ],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://troxy.co.uk/event/ele-yan/",
+  "age_restriction": "14+",
+  "accessibility": null,
+  "status": "few-left",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "lineup",
+        "ticket_url"
+      ],
+      "url": "https://troxy.co.uk/event/ele-yan/",
+      "quote": "Ele Yan - Troxy",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/event/ele-yan/",
+      "quote": "18:00 - Doors Open / Event Starts",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/event/ele-yan/",
+      "quote": "Door Time: 6pm",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://troxy.co.uk/",
+      "quote": "01.11.26\nLimited Availability\nEle Yan",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://troxy.co.uk/event/ele-yan/",
+      "quote": "Over 14s only for this event.",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "status"
+      ],
+      "url": "https://troxy.co.uk/event/ele-yan/",
+      "quote": "Buy Tickets - Final Few Remaining!",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A tour date at Troxy; the page says final few tickets remain.",
+  "notes_for_verifier": "Genre and format are not printed on the event page; check it is a concert. Doors 6pm per 'Door Time', printed schedule 18:00 (used as start). Changed since data/events/ (status sold-out there): the Troxy event page read today says 'Buy Tickets - Final Few Remaining!', so status is few-left here. Please check the sold-out record against this page."
+}

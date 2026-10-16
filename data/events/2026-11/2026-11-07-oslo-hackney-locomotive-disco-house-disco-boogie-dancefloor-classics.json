@@ -83,7 +83,12 @@
     "record": "data/verification/2026-10-15/2026-11-07-oslo-hackney-locomotive-disco-house-disco-boogie-dancefloor-classics.json"
   },
   "editor_note": "Locomotive Disco night at Oslo Hackney, listed on DICE from 21:00 with house, disco, boogie and dancefloor classics in the title.",
-  "listing": null,
+  "listing": {
+    "headline": null,
+    "blurb": "A club night of house, disco, boogie and dancefloor classics at Oslo Hackney, with entry starting from free.",
+    "written_at": "2026-10-16T06:32:57+01:00",
+    "run_id": "2026-10-16-lw"
+  },
   "story": null,
   "story_research": null,
   "first_seen": "2026-10-15T09:30:00+01:00",

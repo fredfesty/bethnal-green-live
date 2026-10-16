@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-22-the-george-tavern-karaoke",
+  "candidate_file": "data/candidates/nights-music/2026-10-16/2026-10-22-the-george-tavern-karaoke.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from the cited page."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Title prints \"(Free Entry)\"; the separate JSON-LD price item had no title nearby and is not used."
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6a7ccef674a6bb000152e7f5",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "DICE event page loads (redirects to the George Tavern Karaoke (Free Entry), 22nd Oct page)."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}
