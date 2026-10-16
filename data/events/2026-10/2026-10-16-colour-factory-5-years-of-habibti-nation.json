@@ -113,6 +113,173 @@
   },
   "first_seen": "2026-10-14T12:00:00+01:00",
   "updated_at": "2026-10-14T12:00:00+01:00",
-  "history": [],
-  "needs_review": null
+  "history": [
+    {
+      "at": "2026-10-16T05:34:22Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, started, then, now, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-16T05:36:10Z",
+      "by": "event-story-checker",
+      "change": "story checked: cut LUMA sentence (not named in quote), 'three nightlife', 'alongside the dancing'; narrowed worth_knowing"
+    }
+  ],
+  "needs_review": null,
+  "story": {
+    "started": "2021, as a Balamii radio show",
+    "who": "The event page presents Paydar, coming via Copenhagen from Iran, in her first UK show, with a SWANA-infused global club sound. Hiba Salameh, described there as Palestinian, blends Arabic traditions with futuristic electronics, and Özten brings Anatolian-rooted club rhythms.",
+    "then": "The Yard Theatre's own website says the night grew from a monthly Balamii radio show. The Yard Theatre made Habibti Nation one of its residents for 2023/24, and Notion covered the third-birthday party there in July 2024. The event page mentions sold-out parties, festival stage takeovers, a Glastonbury slot and DJ workshops aimed at youngsters along the way.",
+    "now": "The fifth-birthday party brings the Habibti Nation community together in Hackney Wick, according to the event page, and it includes an open decks slot for the community to start the night.",
+    "vibe": "The event page promises SWANA sounds meeting UK and global club music, with mahraganat, dabke and raï alongside dembow, baile funk, breaks and UK funky. Notion's report on the third birthday described stalls selling clothing and a keffiyeh workshop.",
+    "worth_knowing": [
+      "The Yard Theatre's own website describes the collective and party as showcasing underground electronic sounds from the SWANA region.",
+      "Habibti Nation has run DJ workshops for young people as well as parties, says the event page."
+    ],
+    "written_at": "2026-10-16T05:34:22Z",
+    "evidence": [
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://dice.fm/event/yo53gx-5-years-of-habibti-nation-16th-oct-colour-factory-london-tickets",
+        "quote": "Paydar joins us from Iran via Copenhagen for her UK debut with high energy SWANA-infused global club sounds",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://dice.fm/event/yo53gx-5-years-of-habibti-nation-16th-oct-colour-factory-london-tickets",
+        "quote": "Palestinian powerhouse Hiba Salameh fusing Arabic traditions with futuristic electronic sounds",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://dice.fm/event/yo53gx-5-years-of-habibti-nation-16th-oct-colour-factory-london-tickets",
+        "quote": "Anatolian-rooted club rhythms from Özten",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.started"
+        ],
+        "url": "https://dice.fm/event/yo53gx-5-years-of-habibti-nation-16th-oct-colour-factory-london-tickets",
+        "quote": "What started as a Balamii radio show in 2021",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://theyardtheatre.co.uk/news/meet-our-yard-residents-for-23-24",
+        "quote": "Habibti Nation sprang out of a monthly radio show on Balamii.",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": "2023-06-05"
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://theyardtheatre.co.uk/news/meet-our-yard-residents-for-23-24",
+        "quote": "Your Yard Residents for 2023/2024 are Décalé, DOOMSCROLL and Habibti Nation.",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": "2023-06-05"
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://notion.online/finding-community-with-habibti-nation/",
+        "quote": "headed down to The Yard Theatre in Hackney Wick to celebrate their third birthday.",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "press",
+        "source_date": "2024-07-10"
+      },
+      {
+        "fields": [
+          "story.then",
+          "story.worth_knowing"
+        ],
+        "url": "https://dice.fm/event/yo53gx-5-years-of-habibti-nation-16th-oct-colour-factory-london-tickets",
+        "quote": "From sold-out parties and festival stage takeovers to Glastonbury sets and DJ workshops for young",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://dice.fm/event/yo53gx-5-years-of-habibti-nation-16th-oct-colour-factory-london-tickets",
+        "quote": "For our 5th birthday, we’re bringing the Habibti Nation family together in Hackney Wick",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.now"
+        ],
+        "url": "https://dice.fm/event/yo53gx-5-years-of-habibti-nation-16th-oct-colour-factory-london-tickets",
+        "quote": "an open decks opportunity for our community to open the night",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://dice.fm/event/yo53gx-5-years-of-habibti-nation-16th-oct-colour-factory-london-tickets",
+        "quote": "Expect SWANA sounds colliding with UK and global club sounds. Mahraganat, dabke and raï meeting breaks, baile funk, UK funky and dembow.",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://notion.online/finding-community-with-habibti-nation/",
+        "quote": "I was greeted by an array of stalls with everything from Afghan clothing to a keffiyeh workshop.",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "press",
+        "source_date": "2024-07-10"
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://theyardtheatre.co.uk/news/meet-our-yard-residents-for-23-24",
+        "quote": "a collective and party showcasing underground electronic sounds from South West Asia and North Africa",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": "2023-06-05"
+      }
+    ],
+    "review": {
+      "checked_at": "2026-10-16T05:36:10Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-16",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Read DICE event page, Notion 2024 feature, Yard Theatre residents page. Not found: independent press on Paydar, Hiba Salameh or Özten; their own sites. Lead: Balamii show page, Boiler Room/Resident Advisor-free press."
+  }
 }

@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-17-xoyo-groovin-x-cure-joshwa-scott-steer",
+  "candidate_file": "data/candidates/nights-music/2026-10-16/2026-10-17-xoyo-groovin-x-cure-joshwa-scott-steer.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from the cited page.",
+    "Removed as unconfirmed: ticket_url."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.skiddle.com/clubs/London/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.skiddle.com/clubs/London/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.skiddle.com/clubs/London/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.skiddle.com/clubs/London/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://www.skiddle.com/clubs/London/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "unverifiable",
+      "url": "https://www.skiddle.com/clubs/London/",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Skiddle event page is built by JavaScript and could not be read; link not confirmed, removed."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2026-10-16-dalston-superstore-bledi-fantasy",
+  "candidate_file": "data/candidates/nights-music/2026-10-16/2026-10-16-dalston-superstore-bledi-fantasy.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Title and date come only from the ma.to aggregator; Dalston Superstore has no primary listing in the registry and is not marked no_primary_listing.",
+    "A person should decide whether ma.to may count for this venue (https://ma.to/venue/dsuperstore)."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/dsuperstore",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/dsuperstore",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/dsuperstore",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://ma.to/venue/dsuperstore",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

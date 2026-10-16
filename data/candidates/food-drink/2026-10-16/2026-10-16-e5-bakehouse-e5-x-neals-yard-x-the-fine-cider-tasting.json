@@ -1,0 +1,88 @@
+{
+  "id": "2026-10-16-e5-bakehouse-e5-x-neals-yard-x-the-fine-cider-tasting",
+  "scout": {
+    "name": "food-drink",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:10:00+01:00",
+  "category": "food-drink",
+  "subcategory": "tasting",
+  "title": "e5 X Neals Yard X The Fine Cider Tasting",
+  "summary": "A Friday tasting at e5 Bakehouse on 16 October 2026, listed at £35.00. The event's own page could not be found.",
+  "venue": {
+    "venue_id": "e5-bakehouse",
+    "name": "e5 Bakehouse",
+    "address": "Arch 395, Mentmore Terrace, London",
+    "postcode": "E8 3PH"
+  },
+  "starts_at": "2026-10-16",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 35,
+    "max_gbp": 35,
+    "notes": "\"£35.00\" printed beside the listing title on the e5 Bakehouse events page"
+  },
+  "ticket_url": "https://e5bakehouse.com/events",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "ticket_url"
+      ],
+      "url": "https://e5bakehouse.com/events",
+      "quote": "e5 X Neals Yard X The Fine Cider Tasting",
+      "retrieved_at": "2026-10-16T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://e5bakehouse.com/events",
+      "quote": "16/10/26 e5 X Neals Yard X The Fine Cider Tasting",
+      "retrieved_at": "2026-10-16T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://e5bakehouse.com/events",
+      "quote": "e5 X Neals Yard X The Fine Cider Tasting £35.00",
+      "retrieved_at": "2026-10-16T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://e5bakehouse.com/events",
+      "quote": "Discover events and happenings organised by e5 Bakehouse & friends here!",
+      "retrieved_at": "2026-10-16T06:10:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://e5bakehouse.com/events",
+      "quote": "Arch 395, Mentmore Terrace",
+      "retrieved_at": "2026-10-16T06:10:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": "A tasting on the day itself at a fringe bakery, with a printed price of £35.00.",
+  "notes_for_verifier": "Date printed as 16/10/26 and the listing says 'A Friday night' (Friday 16 Oct 2026). No start time printed, so date only and medium. Event page not found (guessed URL 404); listing is on the venue's events page. Not the 17 Oct Fine Cider shop tasting in data/events."
+}

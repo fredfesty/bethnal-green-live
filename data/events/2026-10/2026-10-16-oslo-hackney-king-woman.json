@@ -1,0 +1,192 @@
+{
+  "id": "2026-10-16-oslo-hackney-king-woman",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "King Woman",
+  "venue": {
+    "venue_id": "oslo-hackney",
+    "name": "Oslo Hackney",
+    "address": "1a Amhurst Road, Hackney, London",
+    "postcode": "E8 1LL"
+  },
+  "starts_at": "2026-10-16T18:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "King Woman"
+  ],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://dice.fm/event/6a50e384733bd90001f35e2f",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "\"name\":\"King Woman\",\"startDate\":\"2026-10-16T18:00:00+01:00\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "\"address\":\"1a Amhurst Road, Hackney, London, E8 1LL, United Kingdom\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "quote": "https://dice.fm/event/6a50e384733bd90001f35e2f",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-16T11:00:00+01:00",
+    "run_id": "2026-10-16-v",
+    "outcome": "verified-with-gaps",
+    "removed_fields": [
+      "price"
+    ],
+    "record": "data/verification/2026-10-16/2026-10-16-oslo-hackney-king-woman.json"
+  },
+  "editor_note": "King Woman play Oslo Hackney, Dalston, on Friday 16 October.",
+  "listing": {
+    "headline": null,
+    "blurb": "A gig from King Woman at Oslo Hackney, the bar, gig room and club in Hackney Central's former station building. An early start, so you can see it and still have your evening.",
+    "written_at": "2026-10-16T06:32:57+01:00",
+    "run_id": "2026-10-16-lw"
+  },
+  "story": {
+    "who": "King Woman is led by Kris Esfandiari, who is also credited in NGHTCRWLR, Dalmatian, Miserable and Sugar High. According to the DICE listing, she founded King Woman in 2009 as a solo project, and drummer Joseph Raygoza later joined. The listing names two earlier releases, a 2014 EP, Doubt, and a 2017 album, Created in The Image of Suffering. Celestial Blues came out in July 2021 on Relapse Records. It was recorded in Oakland, California, in December 2019 with the Grammy-nominated producer Jack Shirley.",
+    "started": "2009, as a solo project of Kris Esfandiari",
+    "then": "The DICE listing describes Celestial Blues as a record shaped by Milton's Paradise Lost, a copy of which Esfandiari was given at a party, and which she used to reshape biblical figures into a story of rebellion and tragedy.",
+    "vibe": "DICE's own text describes Celestial Blues as feeling like a play, with Esfandiari changing costume and set from song to song.",
+    "worth_knowing": [
+      "Celestial Blues was recorded with Jack Shirley, whose credits per DICE include Deafheaven, Amenra and Oathbreaker.",
+      "The 2021 album draws on John Milton's Paradise Lost, according to DICE."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.who",
+          "story.started"
+        ],
+        "url": "https://dice.fm/event/bb22ym-king-woman-16th-oct-oslo-hackney-london-tickets",
+        "quote": "Kris Esfandiari (NGHTCRWLR, Dalmatian, Miserable, Sugar High) founded King Woman in 2009 as a solo project which later gained the talents of drummer Joseph Raygoza.",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://dice.fm/event/bb22ym-king-woman-16th-oct-oslo-hackney-london-tickets",
+        "quote": "released a striking full-length album called Celestial Blues, on July 30, 2021 via Relapse Records.",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who",
+          "story.worth_knowing"
+        ],
+        "url": "https://dice.fm/event/bb22ym-king-woman-16th-oct-oslo-hackney-london-tickets",
+        "quote": "Celestial Blues was recorded in December 2019 in Oakland, California with Grammy-nominated producer, Jack Shirley (Deafheaven, Amenra, Oathbreaker, etc).",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.who"
+        ],
+        "url": "https://dice.fm/event/bb22ym-king-woman-16th-oct-oslo-hackney-london-tickets",
+        "quote": "2014 EP Doubt and highly-esteemed 2017 full length Created in The Image of Suffering",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then",
+          "story.worth_knowing"
+        ],
+        "url": "https://dice.fm/event/bb22ym-king-woman-16th-oct-oslo-hackney-london-tickets",
+        "quote": "Esfandiari was reintroduced to John Milton’s Paradise Lost after a stranger gifted her an old copy at a party.",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://dice.fm/event/bb22ym-king-woman-16th-oct-oslo-hackney-london-tickets",
+        "quote": "Celestial Blues certainly feels like a play. Esfandiari changes costume and set with each distinct song",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://dice.fm/event/bb22ym-king-woman-16th-oct-oslo-hackney-london-tickets",
+        "quote": "Feeling compelled to reshape the biblical archetypes that once bound her, Esfandiari has created a theatrical tale of rebellion, tragedy, and triumph",
+        "retrieved_at": "2026-10-16T05:34:22Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-16T05:34:22Z",
+    "review": {
+      "checked_at": "2026-10-16T05:36:10Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-16",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Read only the DICE event page (promoter text). One search returned only ticket listings. Not tied/found: press reviews (Quietus, Guardian, Kerrang), band site or Relapse page, the tour this date belongs to. Skipped personal-background details. Try Relapse Records, Bandcamp, Quietus reviews next time."
+  },
+  "first_seen": "2026-10-16T11:00:00+01:00",
+  "updated_at": "2026-10-16T11:00:00+01:00",
+  "history": [
+    {
+      "at": "2026-10-16T05:34:22Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: who, started, then, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-16T05:36:10Z",
+      "by": "event-story-checker",
+      "change": "story checked: cut unquoted 'second album'"
+    }
+  ],
+  "needs_review": null
+}

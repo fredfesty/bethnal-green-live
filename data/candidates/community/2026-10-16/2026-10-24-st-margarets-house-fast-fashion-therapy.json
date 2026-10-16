@@ -1,0 +1,81 @@
+{
+  "id": "2026-10-24-st-margarets-house-fast-fashion-therapy",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T10:00:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Fast Fashion Therapy",
+  "summary": "A monthly sewing workshop on repairing, up-cycling and remodelling used clothes, at The Create Place.",
+  "venue": {
+    "name": "The Create Place",
+    "venue_id": "st-margarets-house",
+    "address": "The Create Place, 29 Old Ford Road, London",
+    "postcode": "E2 9PJ"
+  },
+  "starts_at": "2026-10-24T11:30:00+01:00",
+  "ends_at": null,
+  "recurrence": "Monthly, on Saturdays",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Fast Fashion Therapy",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Saturday 24 October 2026",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "recurrence"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Monthly, on Saturdays, 11.30am-1pm",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Repair, Reuse and Repurpose: A sewing workshop encouraging repair, up-cycling and remodelling of used clothes.",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "The Create Place, 29 Old Ford Road, E2 9PJ",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Venue page lists 11:30 to 12:30 in its time block but the event text says '11.30am-1pm'. End time left empty for the verifier to settle. No price or booking stated."
+}

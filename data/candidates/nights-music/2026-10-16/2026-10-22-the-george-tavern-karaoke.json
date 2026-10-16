@@ -1,0 +1,80 @@
+{
+  "id": "2026-10-22-the-george-tavern-karaoke",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:15:25+01:00",
+  "category": "nights-music",
+  "subcategory": "karaoke",
+  "title": "The George Tavern Karaoke (Free Entry)",
+  "summary": null,
+  "venue": {
+    "venue_id": "george-tavern",
+    "name": "The George Tavern",
+    "address": "373 Commercial Rd, London",
+    "postcode": "E1 0LA"
+  },
+  "starts_at": "2026-10-22T23:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": 0,
+    "notes": "Title says 'Free Entry'; DICE shows 'From free'"
+  },
+  "ticket_url": "https://dice.fm/event/6a7ccef674a6bb000152e7f5",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "price"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "\"name\":\"The George Tavern Karaoke (Free Entry)\",\"startDate\":\"2026-10-22T23:00:00+01:00\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "\"lowPrice\":\"0.00\",\"highPrice\":\"0.00\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "\"address\":\"373 Commercial Rd, London E1 0LA, UK\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/the-george-tavern-kx88",
+      "quote": "https://dice.fm/event/6a7ccef674a6bb000152e7f5",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Free-entry karaoke on Thursday 22 October at The George Tavern.",
+  "notes_for_verifier": "Next occurrence only. DICE lists the same Free Entry karaoke on Thu 29 Oct and Thu 5 Nov; the page does not use the word weekly, so recurrence is left empty."
+}

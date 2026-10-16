@@ -1,0 +1,65 @@
+{
+  "id": "2026-10-20-oslo-hackney-gordi",
+  "candidate_file": "data/candidates/nights-music/2026-10-16/2026-10-20-oslo-hackney-gordi.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from the cited page.",
+    "Removed as unconfirmed: price."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "unverifiable",
+      "url": "https://dice.fm/venue/oslo-hackney-je6z",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "DICE JSON-LD price has no title near it; removed."
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://dice.fm/event/6a356646dfa7ac00014179d7",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "DICE event page loads (redirects to the Gordi, 20th Oct, Oslo Hackney page)."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

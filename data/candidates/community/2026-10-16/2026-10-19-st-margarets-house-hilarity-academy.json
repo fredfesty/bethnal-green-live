@@ -1,0 +1,99 @@
+{
+  "id": "2026-10-19-st-margarets-house-hilarity-academy",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T10:00:00+01:00",
+  "category": "community",
+  "subcategory": "family",
+  "title": "Hilarity Academy",
+  "summary": "A weekly afterschool drama class for children and young people, with sessions on making people laugh.",
+  "venue": {
+    "name": "St Margaret's House",
+    "venue_id": "st-margarets-house",
+    "address": null,
+    "postcode": "E2 9PL"
+  },
+  "starts_at": "2026-10-19T15:45:00+01:00",
+  "ends_at": null,
+  "recurrence": "Mondays, 3.45-5pm and 5-6.15pm",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": "School Years 3-6 (3.45pm session); School Years 7-9 (5pm session)",
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Hilarity Academy",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Mon, 19 Oct 2026",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "recurrence"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Mondays, 3.45-5pm and 5-6.15pm",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Afterschool sessions exploring making people laugh, including creating sketches and stand up material and clowning.",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "3.45pm: Children in School Years 3-6",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "age_restriction"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "5pm: Young people in School Years 7-9",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "The Chapel (Juniors) and The Mulberry Hall (Seniors)",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Two sessions per Monday at different times; end time left empty. Listing runs to 30 Nov 2026. No price stated. The date quote 'Mon, 19 Oct 2026' is on the venue list page away from the title line."
+}

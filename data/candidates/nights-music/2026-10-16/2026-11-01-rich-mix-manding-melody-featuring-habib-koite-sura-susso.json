@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-01-rich-mix-manding-melody-featuring-habib-koite-sura-susso",
+  "scout": {
+    "name": "nights-gigs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:15:25+01:00",
+  "category": "nights-music",
+  "subcategory": "gig",
+  "title": "Manding Melody featuring Habib Koite & Sura Susso",
+  "summary": null,
+  "venue": {
+    "venue_id": "rich-mix",
+    "name": "Rich Mix",
+    "address": "35-47 Bethnal Green Rd, London",
+    "postcode": "E1 6LA"
+  },
+  "starts_at": "2026-11-01T19:00:00+00:00",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Habib Koite",
+    "Sura Susso"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 27.12,
+    "max_gbp": null,
+    "notes": "£27.12 on DICE venue listing"
+  },
+  "ticket_url": "https://dice.fm/event/6a0b4bf5bc16550001f6bfea",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/rich-mix-4w2r",
+      "quote": "\"name\":\"Manding Melody featuring Habib Koite & Sura Susso\",\"startDate\":\"2026-11-01T19:00:00+00:00\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "price"
+      ],
+      "url": "https://dice.fm/venue/rich-mix-4w2r",
+      "quote": "\"lowPrice\":\"27.12\",\"highPrice\":\"27.12\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://dice.fm/venue/rich-mix-4w2r",
+      "quote": "\"address\":\"35-47 Bethnal Green Rd, London E1 6LA\"",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/rich-mix-4w2r",
+      "quote": "https://dice.fm/event/6a0b4bf5bc16550001f6bfea",
+      "retrieved_at": "2026-10-16T06:15:25+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "Named artists, Habib Koite and Sura Susso, on a Sunday evening at Rich Mix.",
+  "notes_for_verifier": "Genre not printed on the listing; the title is as printed."
+}

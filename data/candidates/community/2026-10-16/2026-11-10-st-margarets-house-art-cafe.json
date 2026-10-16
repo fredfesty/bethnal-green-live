@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-10-st-margarets-house-art-cafe",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T10:00:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Art Cafe",
+  "summary": "A monthly free drop-in of collaborative drawing and creating in The Gallery Cafe.",
+  "venue": {
+    "name": "The Gallery Cafe at St Margaret's House",
+    "venue_id": "st-margarets-house",
+    "address": null,
+    "postcode": "E2 9PL"
+  },
+  "starts_at": "2026-11-10T18:00:00+00:00",
+  "ends_at": "2026-11-10T20:00:00+00:00",
+  "recurrence": "Second Tuesday of the month",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": true,
+    "is_free": true,
+    "min_gbp": 0,
+    "max_gbp": 0,
+    "notes": "'monthly free art cafe'"
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "monthly free art cafe of collaborative drawing",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Tue, 10 Nov 2026",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at",
+        "recurrence"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Second Tuesday of the month, 6-8pm",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory",
+        "price"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Join us for our monthly free art cafe of collaborative drawing and creating in The Gallery Cafe.",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "The Gallery Cafe at St Margaret's House",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": null
+}

@@ -1,0 +1,66 @@
+{
+  "id": "2026-10-17-basing-house-3da-hard-way",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:18:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "3DA HARD WAY",
+  "summary": null,
+  "venue": {
+    "venue_id": "basing-house",
+    "name": "Basing House",
+    "address": "25 Kingsland Road, Shoreditch, London",
+    "postcode": "E2 8AA"
+  },
+  "starts_at": "2026-10-17T20:00:00+01:00",
+  "ends_at": "2026-10-18T06:00:00+01:00",
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Skeeto"
+  ],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "lineup"
+      ],
+      "url": "https://ma.to/venue/basing_house",
+      "quote": "\"name\":\"3DA HARD WAY\",\"description\":\"Sounds of the Underground night with Skeeto and lineup across two rooms.\",\"startDate\":\"2026-10-17T20:00:00.000+01:00\",\"endDate\":\"2026-10-18T06:00:00.000+01:00\"",
+      "retrieved_at": "2026-10-16T06:18:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://ma.to/venue/basing_house",
+      "quote": "Basing House is located at 25 Kingsland Road, Shoreditch, London, E2 8AA.",
+      "retrieved_at": "2026-10-16T06:18:00+01:00",
+      "source_kind": "aggregator"
+    }
+  ],
+  "scout_confidence": "low",
+  "why_its_good": null,
+  "notes_for_verifier": "Source is ma.to only, so low confidence. Only Skeeto is named; the rest of the lineup is not named in the listing."
+}

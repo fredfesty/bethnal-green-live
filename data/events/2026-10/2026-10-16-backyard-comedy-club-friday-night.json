@@ -89,12 +89,74 @@
   "editor_note": null,
   "listing": {
     "headline": null,
-    "blurb": "A Friday-night stand-up show at Backyard Comedy Club on Cambridge Heath Road, a regular weekly fixture and a decent way to start the weekend.",
-    "written_at": "2026-10-15T07:40:00+01:00",
-    "run_id": "2026-10-15-lw"
+    "blurb": "A Friday stand-up night at Backyard Comedy Club, the purpose-built comedy club on Cambridge Heath Road, which runs a show every Friday. A decent way to kick off the weekend.",
+    "written_at": "2026-10-16T06:32:57+01:00",
+    "run_id": "2026-10-16-lw"
   },
-  "story": null,
-  "story_research": null,
+  "story": {
+    "then": "The organisers claim London's biggest purpose-built professional comedy room and say it has been the East End's comedy home for 20 years. They say the shows run from big television names and circuit regulars to up-and-coming acts.",
+    "vibe": null,
+    "worth_knowing": [
+      "According to the listing, Friday and Saturday shows are given to established professional acts.",
+      "Past shows at the club have included Dave Chappelle, Sara Pascoe, Russell Howard and Micky Flanaghan, says the listing."
+    ],
+    "written_at": "2026-10-16T05:34:00Z",
+    "review": {
+      "checked_at": "2026-10-16T05:36:10Z",
+      "removed_fields": [
+        "story.vibe"
+      ]
+    },
+    "evidence": [
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-friday-night-1",
+        "quote": "WE ARE THE LARGEST PROFESSIONAL, PURPOSE BUILT COMEDY CLUB IN LONDON AND HAVE BEEN THE HOME OF COMEDY IN THE EAST END FOR THE PAST 20 YEARS.",
+        "retrieved_at": "2026-10-16T05:34:00Z",
+        "source_kind": "aggregator",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club/backyard-comedy-club-friday-night-1",
+        "quote": "INCLUDING BIG TV NAMES AND CIRCUIT PROS, TO THE BEST UP AND COMING TALENT.",
+        "retrieved_at": "2026-10-16T05:34:00Z",
+        "source_kind": "aggregator",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+        "quote": "while it's Friday and Saturday shows feature a line-up of top professional acts.",
+        "retrieved_at": "2026-10-16T05:34:00Z",
+        "source_kind": "aggregator",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://www.designmynight.com/london/bars/bethnal-green/backyard-comedy-club",
+        "quote": "Past shows have included many popular comedians such as Dave Chappelle, Sara Pascoe, Russell Howard, Micky Flanaghan and many more!",
+        "retrieved_at": "2026-10-16T05:34:00Z",
+        "source_kind": "aggregator",
+        "source_date": null
+      }
+    ]
+  },
+  "story_research": {
+    "last_attempt": "2026-10-16",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Used only DesignMyNight pages (no line-up listed for this date). Did not search beyond one budget check; no press on the club or named acts found. Lead: the club's own site and press (Time Out, Londonist) for history."
+  },
   "first_seen": "2026-10-14T17:00:00+01:00",
   "updated_at": "2026-10-15T09:30:00+01:00",
   "history": [
@@ -112,6 +174,16 @@
       "at": "2026-10-15T09:30:00+01:00",
       "by": "verifier",
       "change": "age_restriction updated from re-scout: null -> \"Over 18\""
+    },
+    {
+      "at": "2026-10-16T05:34:00Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: then, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-16T05:36:10Z",
+      "by": "event-story-checker",
+      "change": "story checked: removed vibe (unquoted tagline, unattributed Russell Howard quote, opening time); cut unquoted Thursday clause"
     }
   ],
   "needs_review": null

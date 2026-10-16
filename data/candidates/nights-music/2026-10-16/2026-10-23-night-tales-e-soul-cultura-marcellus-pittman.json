@@ -1,0 +1,67 @@
+{
+  "id": "2026-10-23-night-tales-e-soul-cultura-marcellus-pittman",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:18:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "E Soul Cultura: Marcellus Pittman",
+  "summary": null,
+  "venue": {
+    "venue_id": "night-tales",
+    "name": "Night Tales",
+    "address": "14 Bohemia Place, London",
+    "postcode": "E8 1DU"
+  },
+  "starts_at": "2026-10-23T22:00:00+01:00",
+  "ends_at": "2026-10-24T03:00:00+01:00",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "Marcellus Pittman",
+    "Make A Dance"
+  ],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "ends_at",
+        "lineup"
+      ],
+      "url": "https://ma.to/venue/nighttalesldn",
+      "quote": "E Soul Cultura: Marcellus Pittman\",\"description\":\"Luke Una's residency continues with Detroit legend Marcellus Pittman and Make A Dance.\",\"startDate\":\"2026-10-23T22:00:00.000+01:00\",\"endDate\":\"2026-10-24T03:00:00.000+01:00\"",
+      "retrieved_at": "2026-10-16T06:18:00+01:00",
+      "source_kind": "aggregator"
+    },
+    {
+      "fields": [
+        "venue",
+        "address",
+        "postcode"
+      ],
+      "url": "https://www.nighttales.co.uk",
+      "quote": "Night Tales, 14 Bohemia Place London E8 1DU",
+      "retrieved_at": "2026-10-16T06:18:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "low",
+  "why_its_good": "Detroit legend Marcellus Pittman is billed on Luke Una's E Soul Cultura residency night at Night Tales.",
+  "notes_for_verifier": "Source is ma.to (discovery only), so low confidence. Price not stated in what was read."
+}

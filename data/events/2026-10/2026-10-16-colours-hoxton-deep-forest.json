@@ -65,12 +65,18 @@
   "editor_note": "A named act at Colours Hoxton on Friday 16 Oct, listed with a start time on the venue's DICE page.",
   "listing": {
     "headline": null,
-    "blurb": "A gig from Deep Forest at Colours Hoxton, the bar, club and gig venue on Hoxton Square. A Friday show with an early start.",
-    "written_at": "2026-10-15T07:40:00+01:00",
-    "run_id": "2026-10-15-lw"
+    "blurb": "A gig from Deep Forest at Colours Hoxton, the bar, club and gig venue on Hoxton Square, with an early-evening start.",
+    "written_at": "2026-10-16T06:32:57+01:00",
+    "run_id": "2026-10-16-lw"
   },
   "story": null,
-  "story_research": null,
+  "story_research": {
+    "last_attempt": "2026-10-16",
+    "attempts": 1,
+    "outcome": "nothing-found",
+    "next_check": "2026-10-23",
+    "note": "DICE event and artist pages only say Gotobeat presents, 18+, and list other UK/Europe tour dates; no bio. Qobuz refused by robots, deep-forest.com unreachable, deepforest.com and eventworld 403, in-muenchen 410. Two searches gave only Wikipedia and shops. Try press (Guardian, Mixmag, Bandcamp) or the band's own site next week; cannot yet tie any bio to this gig beyond the DICE artist page."
+  },
   "first_seen": "2026-10-15T09:30:00+01:00",
   "updated_at": "2026-10-15T09:30:00+01:00",
   "history": [],

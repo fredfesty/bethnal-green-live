@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-06-st-margarets-house-d-deaf-cafe",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T10:00:00+01:00",
+  "category": "community",
+  "subcategory": "talk",
+  "title": "D/deaf Cafe",
+  "summary": "A monthly inclusive meet-up in The Gallery Cafe for conversation in BSL, with a presentation by a D/deaf speaker.",
+  "venue": {
+    "name": "St Margaret's House",
+    "venue_id": "st-margarets-house",
+    "address": null,
+    "postcode": "E2 9PL"
+  },
+  "starts_at": "2026-11-06T16:00:00+00:00",
+  "ends_at": null,
+  "recurrence": "First Friday of the month",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "D/deaf Cafe",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Fri, 6 Nov 2026",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "recurrence"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "First Friday of the month, 4-7pm",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "an inclusive, integrated space where people can come together to have conversations using BSL",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "The Gallery Cafe at St. Margaret's House",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "medium",
+  "why_its_good": null,
+  "notes_for_verifier": "Listing end time is 19:00 but the description says 4-7pm. End time left empty. No price stated. The date quote 'Fri, 6 Nov 2026' is on the venue list page away from the title line."
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-13-mission-e1-not-so-wild-thing",
+  "candidate_file": "data/candidates/health-wellness/2026-10-16/2026-11-13-mission-e1-not-so-wild-thing.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from the cited page."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.mission-e1.com/workshops/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.mission-e1.com/workshops/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.mission-e1.com/workshops/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.mission-e1.com/workshops/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://www.mission-e1.com/workshops/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "confirmed",
+      "url": "https://www.mission-e1.com/workshops/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ticket_url",
+      "result": "confirmed",
+      "url": "https://www.mission-e1.com/workshops/",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": "Workshops page shows this workshop with a Book Now button."
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

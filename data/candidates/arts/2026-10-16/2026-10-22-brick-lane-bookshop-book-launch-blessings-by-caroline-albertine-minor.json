@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-22-brick-lane-bookshop-book-launch-blessings-by-caroline-albertine-minor",
+  "scout": {
+    "name": "arts",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T10:00:00+01:00",
+  "category": "arts",
+  "subcategory": "talk",
+  "title": "Book Launch: Blessings by Caroline Albertine Minor (October 22nd)",
+  "summary": "UK launch of a debut short-story collection, with Jessie Greengrass in conversation with the author at Brick Lane Bookshop.",
+  "venue": {
+    "venue_id": "brick-lane-bookshop",
+    "name": "Brick Lane Bookshop",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-22T19:00:00+01:00",
+  "ends_at": null,
+  "recurrence": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [
+    "Jessie Greengrass",
+    "Caroline Albertine Minor"
+  ],
+  "genres": [],
+  "price": {
+    "known": true,
+    "is_free": false,
+    "min_gbp": 6,
+    "max_gbp": 15.89,
+    "notes": "Price range: £6.00 through £15.89 (admission or admission plus book)."
+  },
+  "ticket_url": "https://bricklanebookshop.org/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at",
+        "price"
+      ],
+      "url": "https://bricklanebookshop.org/",
+      "quote": "Book Launch: Blessings by Caroline Albertine Minor (October 22nd) Price range: £6.00 through £15.89 October 22nd | 7pm",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "lineup",
+        "summary"
+      ],
+      "url": "https://bricklanebookshop.org/",
+      "quote": "Join Jessie Greengrass as she talks to Caroline Albertine Minor for the UK launch of Blessings",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://bricklanebookshop.org/",
+      "quote": "Brick Lane Bookshop is an independent bookshop in Tower Hamlets, London, established in 1978.",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://bricklanebookshop.org/",
+      "quote": "Select options",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Listed on the bookshop's own home page, Events section. The page prints 'October 22nd' with no year and no weekday; 22 Oct 2026 falls in the window. The street number is not printed on its site, so the address is left empty (registry: 'Brick Lane, London'). Ticket link is the home page where the 'Select options' ticket choice sits."
+}

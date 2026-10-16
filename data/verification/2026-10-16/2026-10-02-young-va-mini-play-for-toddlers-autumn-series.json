@@ -1,0 +1,73 @@
+{
+  "id": "2026-10-02-young-va-mini-play-for-toddlers-autumn-series",
+  "candidate_file": "data/candidates/community/2026-10-16/2026-10-02-young-va-mini-play-for-toddlers-autumn-series.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "hold",
+  "reasons": [
+    "Start date 2 Oct is only backed by a session-list line (\"02 October - Twist and Turn\") with the event title not nearby, so it is unverifiable.",
+    "A person should check the series dates and ticket price at https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026 ."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "unverifiable",
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Date line has no title nearby."
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "price",
+      "result": "unverifiable",
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "Quote had no title nearby."
+    },
+    {
+      "field": "ticket_url",
+      "result": "unverifiable",
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "method": "none",
+      "source_kind": "primary",
+      "note": "No confirmed passage with the title nearby."
+    },
+    {
+      "field": "age_restriction",
+      "result": "confirmed",
+      "url": "https://www.vam.ac.uk/event/mOkbmW80vl/yva-mini-play-for-toddlers-oct-2026",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

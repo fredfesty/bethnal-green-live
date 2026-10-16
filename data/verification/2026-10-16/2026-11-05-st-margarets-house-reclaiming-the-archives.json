@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-05-st-margarets-house-reclaiming-the-archives",
+  "candidate_file": "data/candidates/community/2026-10-16/2026-11-05-st-margarets-house-reclaiming-the-archives.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "publish",
+  "reasons": [
+    "Title, venue and start date confirmed by the quote checker from the cited page."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    },
+    {
+      "field": "recurrence",
+      "result": "confirmed",
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "method": "exact",
+      "source_kind": "primary",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

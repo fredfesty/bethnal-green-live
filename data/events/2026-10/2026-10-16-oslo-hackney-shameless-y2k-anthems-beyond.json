@@ -94,14 +94,117 @@
   "editor_note": "Y2K anthems club night at Oslo Hackney, listed on DICE from 21:00 to 03:00 and free to enter from the price shown.",
   "listing": {
     "headline": null,
-    "blurb": "A Y2K-themed club night at Oslo Hackney, the late-opening bar, gig room and club in Hackney Central's old station building. Entry starts from free, so a low-risk late one.",
-    "written_at": "2026-10-15T07:40:00+01:00",
-    "run_id": "2026-10-15-lw"
+    "blurb": "A Y2K-themed club night at Oslo Hackney, playing Y2K anthems and beyond. Entry starts from free, so a low-risk late one.",
+    "written_at": "2026-10-16T06:32:57+01:00",
+    "run_id": "2026-10-16-lw"
   },
-  "story": null,
-  "story_research": null,
+  "story": {
+    "who": null,
+    "started": null,
+    "then": "This is a weekly Friday night at Oslo Hackney, put on by the promoter DHP Family.",
+    "now": null,
+    "vibe": "The promoters pitch it as a trip back to the 2000s and 2010s, with the biggest hits, guilty pleasures and throwback anthems and \"zero shame\", and name Britney Spears, Sugababes and Oasis among the artists to expect.",
+    "worth_knowing": [
+      "The event page lists the capacity at 370."
+    ],
+    "evidence": [
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://dice.fm/event/6a9ab1829dac1a00016f0b75",
+        "quote": "SHAMELESS - Every Friday at Oslo",
+        "retrieved_at": "2026-10-16T05:34:20Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.then"
+        ],
+        "url": "https://dice.fm/event/6a9ab1829dac1a00016f0b75",
+        "quote": "Presented by DHP FAMILY.",
+        "retrieved_at": "2026-10-16T05:34:20Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://dice.fm/event/6a9ab1829dac1a00016f0b75",
+        "quote": "relive the biggest hits, guilty pleasures, throwback anthems and absolute bangers from the 2000s, 2010s and beyond - with zero shame.",
+        "retrieved_at": "2026-10-16T05:34:20Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://dice.fm/event/6a9ab1829dac1a00016f0b75",
+        "quote": "Britney Spears • Soulja Boy",
+        "retrieved_at": "2026-10-16T05:34:20Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.worth_knowing"
+        ],
+        "url": "https://dice.fm/event/6a9ab1829dac1a00016f0b75",
+        "quote": "370 capacity",
+        "retrieved_at": "2026-10-16T05:34:20Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://dice.fm/event/6a9ab1829dac1a00016f0b75",
+        "quote": "Sugababes • Black Eyed Peas",
+        "retrieved_at": "2026-10-16T05:34:20Z",
+        "source_kind": "primary",
+        "source_date": null
+      },
+      {
+        "fields": [
+          "story.vibe"
+        ],
+        "url": "https://dice.fm/event/6a9ab1829dac1a00016f0b75",
+        "quote": "The Killers • Oasis • Arctic Monkeys",
+        "retrieved_at": "2026-10-16T05:34:20Z",
+        "source_kind": "primary",
+        "source_date": null
+      }
+    ],
+    "written_at": "2026-10-16T05:34:20Z",
+    "review": {
+      "checked_at": "2026-10-16T05:36:10Z",
+      "removed_fields": []
+    }
+  },
+  "story_research": {
+    "last_attempt": "2026-10-16",
+    "attempts": 1,
+    "outcome": "written",
+    "next_check": null,
+    "note": "Read only the DICE event page (weekly Shameless Friday by DHP Family, no DJs named). Not searched: start date of the night, Oslo/DHP pages, reviews. Try Oslo's own site and a search for the series next time."
+  },
   "first_seen": "2026-10-15T09:30:00+01:00",
   "updated_at": "2026-10-15T09:30:00+01:00",
-  "history": [],
+  "history": [
+    {
+      "at": "2026-10-16T05:34:20Z",
+      "by": "event-storyteller",
+      "change": "wrote the story: then, vibe, worth_knowing"
+    },
+    {
+      "at": "2026-10-16T05:36:10Z",
+      "by": "event-story-checker",
+      "change": "story checked: cut 'no named DJs', Rihanna, R&B/rock/singalong, capacity judgement and Friday hours"
+    }
+  ],
   "needs_review": null
 }

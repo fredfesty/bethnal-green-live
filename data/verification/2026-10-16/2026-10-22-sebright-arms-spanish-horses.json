@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-22-sebright-arms-spanish-horses",
+  "candidate_file": "data/candidates/nights-music/2026-10-16/2026-10-22-sebright-arms-spanish-horses.json",
+  "run_id": "2026-10-16-v",
+  "verified_at": "2026-10-16T11:00:00+01:00",
+  "decision": "reject",
+  "reasons": [
+    "Duplicate of published 2026-10-22-sebright-arms-spanish-horses-support-in-london-son-estrella-galicia (same venue, date and act)."
+  ],
+  "field_checks": [
+    {
+      "field": "title",
+      "result": "confirmed",
+      "url": "https://ma.to/event/spanish-horses-at-sebright-arms-2026-10-22",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "venue",
+      "result": "confirmed",
+      "url": "https://ma.to/event/spanish-horses-at-sebright-arms-2026-10-22",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "starts_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/spanish-horses-at-sebright-arms-2026-10-22",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "ends_at",
+      "result": "confirmed",
+      "url": "https://ma.to/event/spanish-horses-at-sebright-arms-2026-10-22",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    },
+    {
+      "field": "lineup",
+      "result": "confirmed",
+      "url": "https://ma.to/event/spanish-horses-at-sebright-arms-2026-10-22",
+      "method": "exact",
+      "source_kind": "aggregator",
+      "note": null
+    }
+  ],
+  "page_status_seen": "none",
+  "existing_event": null,
+  "changes": [],
+  "decided_by": "verifier"
+}

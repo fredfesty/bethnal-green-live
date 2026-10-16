@@ -1,0 +1,77 @@
+{
+  "id": "2026-10-27-whitechapel-gallery-relaxed-hours-cecilia-vicuna",
+  "category": "arts",
+  "subcategory": "exhibition",
+  "title": "Relaxed Hours: Cecilia Vicuña",
+  "venue": {
+    "venue_id": "whitechapel-gallery",
+    "name": "Whitechapel Gallery",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-10-27",
+  "ends_at": null,
+  "recurrence": null,
+  "run_schedule": null,
+  "zone": "fringe",
+  "worth_the_trip": false,
+  "lineup": [],
+  "genres": [],
+  "price": {
+    "known": false
+  },
+  "ticket_url": "https://www.whitechapelgallery.org/events-2-2/",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "starts_at"
+      ],
+      "url": "https://www.whitechapelgallery.org/events-2-2/",
+      "quote": "Relaxed Hours: Cecilia Vicuña 27 Oct 2026 Join us all day for a more quiet viewing of our current exhibition, Cecilia Vicuña: Living Threads.",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.whitechapelgallery.org/events-2-2/",
+      "quote": "Events - Whitechapel Gallery",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "ticket_url"
+      ],
+      "url": "https://www.whitechapelgallery.org/events-2-2/",
+      "quote": "Relaxed Hours: Cecilia Vicuña 27 Oct 2026",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "verification": {
+    "verified_at": "2026-10-16T11:00:00+01:00",
+    "run_id": "2026-10-16-v",
+    "outcome": "verified",
+    "removed_fields": [],
+    "record": "data/verification/2026-10-16/2026-10-27-whitechapel-gallery-relaxed-hours-cecilia-vicuna.json"
+  },
+  "editor_note": null,
+  "listing": {
+    "headline": null,
+    "blurb": "An exhibition session titled Relaxed Hours: Cecilia Vicuña at Whitechapel Gallery, the public art gallery on Whitechapel High Street.",
+    "written_at": "2026-10-16T06:32:57+01:00",
+    "run_id": "2026-10-16-lw"
+  },
+  "story": null,
+  "story_research": null,
+  "first_seen": "2026-10-16T11:00:00+01:00",
+  "updated_at": "2026-10-16T11:00:00+01:00",
+  "history": [],
+  "needs_review": null
+}

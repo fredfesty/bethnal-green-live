@@ -1,0 +1,66 @@
+{
+  "id": "2026-11-07-village-underground-dj-billybool-pitchfork-x-asian-paper",
+  "scout": {
+    "name": "nights-clubs",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T06:18:00+01:00",
+  "category": "nights-music",
+  "subcategory": "club-night",
+  "title": "DJ BILLYBOOL (Pitchfork x Asian Paper x Eastern Margins)",
+  "summary": null,
+  "venue": {
+    "venue_id": "village-underground",
+    "name": "Village Underground",
+    "address": null,
+    "postcode": null
+  },
+  "starts_at": "2026-11-07T23:00:00+00:00",
+  "ends_at": "2026-11-08T05:00:00+00:00",
+  "recurrence": null,
+  "zone": "outer",
+  "worth_the_trip": true,
+  "lineup": [
+    "DJ BILLYBOOL"
+  ],
+  "genres": [],
+  "price": {
+    "known": false,
+    "is_free": null,
+    "min_gbp": null,
+    "max_gbp": null,
+    "notes": null
+  },
+  "ticket_url": "https://dice.fm/event/6ac75653ecade80001c4a9b3",
+  "age_restriction": null,
+  "accessibility": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title",
+        "venue",
+        "starts_at",
+        "ends_at",
+        "ticket_url"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "\"url\":\"https:\\u002F\\u002Fdice.fm\\u002Fevent\\u002F6ac75653ecade80001c4a9b3\",\"name\":\"DJ BILLYBOOL (Pitchfork x Asian Paper x Eastern Margins) \",\"startDate\":\"2026-11-07T23:00:00+00:00\",\"endDate\":\"2026-11-08T05:00:00+00:00\"",
+      "retrieved_at": "2026-10-16T06:18:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "title",
+        "lineup"
+      ],
+      "url": "https://dice.fm/venue/village-underground-wwop",
+      "quote": "DJ BILLYBOOL (Pitchfork x Asian Paper x Eastern Margins) Sat 7 Nov",
+      "retrieved_at": "2026-10-16T06:18:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": "A late DJ set by DJ BILLYBOOL, billed alongside Pitchfork, Asian Paper and Eastern Margins, 11pm to 5am.",
+  "notes_for_verifier": "Price not recorded: the DICE venue page prints £27.63 beside the venue name for this night, but that line does not quote cleanly, so the verifier should check it. Venue address left empty: the DICE venue page quoted does not print one. Registry lists Village Underground at 54 Holywell Lane, EC2A 3PQ."
+}

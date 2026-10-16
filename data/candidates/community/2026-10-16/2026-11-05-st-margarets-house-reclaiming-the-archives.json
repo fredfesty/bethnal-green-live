@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-05-st-margarets-house-reclaiming-the-archives",
+  "scout": {
+    "name": "community",
+    "run_id": "2026-10-16-a"
+  },
+  "found_at": "2026-10-16T10:00:00+01:00",
+  "category": "community",
+  "subcategory": "workshop",
+  "title": "Reclaiming the Archives",
+  "summary": "A monthly workshop making a zine from personal photographs, using stitch, writing and collage.",
+  "venue": {
+    "name": "St Margaret's House",
+    "venue_id": "st-margarets-house",
+    "address": "The Create Place, 29 Old Ford Road, London",
+    "postcode": "E2 9PJ"
+  },
+  "starts_at": "2026-11-05T18:30:00+00:00",
+  "ends_at": "2026-11-05T20:30:00+00:00",
+  "recurrence": "First Thursday of the month",
+  "run_schedule": null,
+  "zone": "core",
+  "worth_the_trip": false,
+  "price": {
+    "known": false
+  },
+  "ticket_url": null,
+  "age_restriction": null,
+  "status": "scheduled",
+  "evidence": [
+    {
+      "fields": [
+        "title"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Reclaiming the Archives",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Thu, 5 Nov 2026",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "starts_at",
+        "ends_at",
+        "recurrence"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "First Thursday of the month, 6.30-8.30pm (November, December)",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "subcategory"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "Come transform your personal photographs into a zine using stitch, writing and collage.",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.stmargaretshouse.org.uk/events",
+      "quote": "In The Create Place",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    },
+    {
+      "fields": [
+        "venue"
+      ],
+      "url": "https://www.tickettailor.com/events/stmargaretshouse",
+      "quote": "The Create Place, 29 Old Ford Road, E2 9PJ",
+      "retrieved_at": "2026-10-16T10:00:00+01:00",
+      "source_kind": "primary"
+    }
+  ],
+  "scout_confidence": "high",
+  "why_its_good": null,
+  "notes_for_verifier": "Venue listing says 'St. Margaret's House' and 'In The Create Place'; Ticket Tailor lists 'The Create Place, E29PJ'. No price or booking stated."
+}
